@@ -87,7 +87,7 @@ public class EpubLibrary
 		
 		ZipFile zipFile = new ZipFile( bookFullpath );
 
-		Enumeration<? extends ZipEntry> entries = zipFile.entries();
+		Enumeration entries = zipFile.entries();
 		
 		StringBuilder buf = new StringBuilder();
         
@@ -96,7 +96,7 @@ public class EpubLibrary
         
 		while( entries.hasMoreElements() ) 
         {
-            ZipEntry zipEntry = entries.nextElement();
+            ZipEntry zipEntry = (ZipEntry) entries.nextElement();
             
             String line = String.format( "<a href='%s/%s/%s'>%s</a> | %d bytes | %TD",
             		_ctxPath,
