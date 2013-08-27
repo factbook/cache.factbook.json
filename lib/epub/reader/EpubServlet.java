@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 public class EpubServlet extends HttpServlet {
 
 	
@@ -27,6 +28,5 @@ public class EpubServlet extends HttpServlet {
 	
 	handler.handle( req,res );	  
   }
-		      
-	
+
 } // class EpubServlet
