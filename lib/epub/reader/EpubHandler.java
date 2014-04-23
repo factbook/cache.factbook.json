@@ -105,23 +105,43 @@ public class EpubHandler
     		  System.out.println( "200 OK" );
     	  }
     	  else
-    	  {    		
-    	   	OutputStream out = res.getOutputStream(); 
+    	  {    
+    		if( entryName.endsWith( ".html") ||
+    			entryName.endsWith( ".xhtml") || 
+    			entryName.endsWith( ".htm") )
+    		{
+      	      res.setContentType("text/html;charset=utf-8");
+    	      // response.setContentType("text/html");
+    	      
+    	      PrintWriter writer = res.getWriter();     
+      		  _lib.copyBookEntryAndRewriteUrls( writer, bookName, entryName );
 
-    		 _lib.copyBookEntry( out, bookName, entryName );
+      		  res.setStatus(HttpServletResponse.SC_OK);
+    			
+         	    System.out.println( "200 OK" );
 
-            res.setStatus(HttpServletResponse.SC_OK);
-        
-    	    out.flush();
-    	    out.close();
-    	
-            // response.setContentType("text/html;charset=utf-8");
-        
-            // response.getWriter().println("<h1>Hello World</h1>");
+         	    writer.flush();  // needed? usefull? why? why not??
+           	    writer.close();
+    		}
+    		else
+    		{
+        	   	OutputStream out = res.getOutputStream(); 
 
-    	    // baseRequest.setHandled(true);
-    	  
-    	    System.out.println( "200 OK" );
+       		 _lib.copyBookEntry( out, bookName, entryName );
+
+               res.setStatus(HttpServletResponse.SC_OK);
+           
+       	    out.flush();
+       	    out.close();
+       	
+               // response.setContentType("text/html;charset=utf-8");
+           
+               // response.getWriter().println("<h1>Hello World</h1>");
+
+       	    // baseRequest.setHandled(true);
+       	  
+       	    System.out.println( "200 OK" );
+    		}
     	  }
       }
 	}
