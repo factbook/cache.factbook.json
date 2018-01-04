@@ -1,6 +1,6 @@
 # epub-reader
 
-Book reader web app for epubs (in Java)
+Book reader web app for portable web publications (in Java)
 
 
 
