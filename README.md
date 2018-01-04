@@ -1,6 +1,6 @@
 # webpub-reader
 
-Book reader web app for (portable) web publications (in Java)
+Reader web app for (packaged) web publications / books (in Java)
 
 
 
