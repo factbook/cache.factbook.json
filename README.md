@@ -1,4 +1,4 @@
-# webpub-reader
+# Webpub Reader
 
 Reader web app for (packaged) web publications / books (in Java)
 
