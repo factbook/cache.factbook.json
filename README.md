@@ -1,10 +1,16 @@
-# Webpub Reader
+#  `cache.factbook.json` - World Factbook Country Profiles in JSON  (Original cia.gov Format)
 
-Reader web app for (packaged) web publications / books (in Java)
+A cache for datasets for the country profiles
+from the World Factbook in the original unmodified (1:1) format
+from the `cia.gov` website.
 
 
 
-## License
 
-The `webpub-reader` scripts are dedicated to the public domain.
-Use it as you please with no restrictions whatsoever.
+
+
+
+
+
+
+
