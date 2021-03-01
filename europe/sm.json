@@ -2,8 +2,8 @@
   "name": "San Marino",
   "code": "SM",
   "region": "Europe",
-  "published": "2021-02-08 06:26:49 -0500",
-  "updated": "2021-02-05 16:23:58 -0500",
+  "published": "2021-02-23 06:52:26 -0500",
+  "updated": "2021-02-16 15:49:38 -0500",
   "media": [
     {
       "type": "flag",
@@ -38,7 +38,8 @@
         "modifier": null,
         "orientation": 0
       },
-      "file_size": 87693
+      "file_size": 87693,
+      "position": 0
     }
   ],
   "categories": [
@@ -402,9 +403,9 @@
           ],
           "media": [
             {
-              "type": "image",
-              "src": "/attachments/images/original/SM_popgraph2020.JPG?1584364680",
-              "alt": "population pyramid"
+              "type": "document",
+              "src": "/attachments/docs/original/SM_popgraph2021.pdf?1613508577",
+              "alt": "San Marino population pyramid"
             }
           ]
         },
@@ -772,7 +773,7 @@
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>total population: </strong>99.9%<br><br><strong>male: </strong>99.9%",
+          "content": "<strong>total population: </strong>99.9%<br><br><strong>male: </strong>99.9%<br><br><strong>female: </strong>99.9% (2018)",
           "subfields": [
             {
               "name": "total population",
@@ -786,6 +787,15 @@
               "content": "99.9%",
               "title": "male",
               "value": "99.9",
+              "suffix": "%"
+            },
+            {
+              "name": "female",
+              "content": "99.9% (2018)",
+              "title": "female",
+              "value": "99.9",
+              "estimated": false,
+              "info_date": "2018",
               "suffix": "%"
             }
           ]
