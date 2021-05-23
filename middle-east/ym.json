@@ -2,8 +2,8 @@
   "name": "Yemen",
   "code": "YM",
   "region": "Middle East",
-  "published": "2021-02-24 12:39:25 -0500",
-  "updated": "2021-02-24 07:10:38 -0500",
+  "published": "2021-05-05 12:53:06 -0400",
+  "updated": "2021-05-04 12:52:22 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/YM-map.jpg"
+      "src": "/attachments/maps/YM-map.jpg",
+      "caption": "Yemen map showing major population centers as well as parts of neighboring countries and the Gulf of Aden and the Red Sea."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/YM_001.jpg?1528325662",
+      "src": "/attachments/images/original/YM_001.jpg",
       "category": "Space",
       "alt": "A thick dust cloud travels southward from Saudi Arabia's Rub al Khali sand sea towards the edge of the Arabian Peninsula. This natural-color satellite image shows the dense part of the cloud approaching Yemen (lower left) and translucent swirls of dust over the Arabian Sea.Lines of small clouds cling to the margins of the dust plumes south of Oman (lower right). These clouds may result from the same weather front that kicked up high winds and stirred the dust storm. This region is one of the world's most prolific dust-producing areas, thanks in part to the presence of the sand sea. The Rub al Khali holds about half as much sand as the Sahara Desert. Image courtesy of NASA.",
       "caption": "A thick dust cloud travels southward from Saudi Arabia's Rub al Khali sand sea towards the edge of the Arabian Peninsula. This natural-color satellite image shows the dense part of the cloud approaching Yemen (lower left) and translucent swirls of dust over the Arabian Sea.Lines of small clouds cling to the margins of the dust plumes south of Oman (lower right). These clouds may result from the same weather front that kicked up high winds and stirred the dust storm. This region is one of the world's most prolific dust-producing areas, thanks in part to the presence of the sand sea. The Rub al Khali holds about half as much sand as the Sahara Desert. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 507.0,
-        "width": 650.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 48300,
+      "dimensions": "650x507",
+      "file_size": 45627,
       "position": 0
     }
   ],
@@ -81,7 +77,7 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>527,968 sq km<br><br><strong>land: </strong>527,968 sq km<br><br><strong>water: </strong>0 sq km",
+          "content": "<strong>total: </strong>527,968 sq km<br><br><strong>land: </strong>527,968 sq km<br><br><strong>water: </strong>0 sq km<br><br><strong>note:</strong> includes Perim, Socotra, the former Yemen Arab Republic (YAR or North Yemen), and the former People's Democratic Republic of Yemen (PDRY or South Yemen)",
           "subfields": [
             {
               "name": "total",
@@ -105,7 +101,7 @@
               "suffix": "sq km"
             }
           ],
-          "field_note": "<p><strong>note:</strong> includes Perim, Socotra, the former Yemen Arab Republic (YAR or North Yemen), and the former People's Democratic Republic of Yemen (PDRY or South Yemen)</p>"
+          "field_note": "<strong>note:</strong> includes Perim, Socotra, the former Yemen Arab Republic (YAR or North Yemen), and the former People's Democratic Republic of Yemen (PDRY or South Yemen)"
         },
         {
           "name": "Area - comparative",
@@ -115,8 +111,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/YM_area.jpg?1538604839",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/YM_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>almost four times the size of Alabama; slightly larger than twice the size of Wyoming</p>",
+              "position": 0
             }
           ]
         },
@@ -201,14 +199,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>999 m<br><br><strong>lowest point: </strong>Arabian Sea 0 m<br><br><strong>highest point: </strong>Jabal an Nabi Shu'ayb 3,666 m",
+          "content": "<strong>highest point: </strong>Jabal an Nabi Shu'ayb 3,666 m<br><br><strong>lowest point: </strong>Arabian Sea 0 m<br><br><strong>mean elevation: </strong>999 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "999 m",
-              "title": "mean elevation",
-              "value": "999",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Jabal an Nabi Shu'ayb 3,666 m",
+              "value": "Jabal an Nabi Shu'ayb 3,666 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -217,10 +214,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Jabal an Nabi Shu'ayb 3,666 m",
-              "value": "Jabal an Nabi Shu'ayb 3,666 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "999 m",
+              "title": "mean elevation",
+              "value": "999",
+              "suffix": "m"
             }
           ]
         },
@@ -312,32 +310,6 @@
           "content": "<p>sandstorms and dust storms in summer</p><p><strong>volcanism:</strong> limited volcanic activity; Jebel at Tair (Jabal al-Tair, Jebel Teir, Jabal al-Tayr, Jazirat at-Tair) (244 m), which forms an island in the Red Sea, erupted in 2007 after awakening from dormancy; other historically active volcanoes include Harra of Arhab, Harras of Dhamar, Harra es-Sawad, and Jebel Zubair, although many of these have not erupted in over a century</p>"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "limited natural freshwater resources; inadequate supplies of potable water; overgrazing; soil erosion; desertification"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -388,8 +360,8 @@
           "name": "Languages",
           "field_id": 402,
           "comparative": false,
-          "content": "Arabic (official)",
-          "field_note": "<p><strong>note:</strong> a distinct Socotri language is widely used on Socotra Island and Archipelago; Mahri is still fairly widely spoken in eastern Yemen</p>"
+          "content": "Arabic (official)<br><br><strong>note:</strong> a distinct Socotri language is widely used on Socotra Island and Archipelago; Mahri is still fairly widely spoken in eastern Yemen",
+          "field_note": "<strong>note:</strong> a distinct Socotri language is widely used on Socotra Island and Archipelago; Mahri is still fairly widely spoken in eastern Yemen"
         },
         {
           "name": "Religions",
@@ -400,8 +372,10 @@
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/Middle_East_Religion_graphic_FINAL_WFB_2015.pdf?1568318836",
-              "alt": "MENA religious affiliation"
+              "src": "/attachments/docs/original/Middle_East_Religion_graphic_FINAL_WFB_2015.pdf",
+              "alt": "MENA religious affiliation",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -456,9 +430,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/YM_popgraph2021.pdf?1613511050",
-              "alt": "Yemen population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/YM_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Yemen. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -577,21 +553,21 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>37.9% of total population (2020)<br><br><strong>rate of urbanization: </strong>4.06% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>38.5% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.71% annual rate of change (2015-20 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "37.9% of total population (2020)",
+              "content": "38.5% of total population (2021)",
               "title": "urban population",
-              "value": "37.9",
+              "value": "38.5",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "4.06% annual rate of change (2015-20 est.)",
+              "content": "3.71% annual rate of change (2015-20 est.)",
               "title": "rate of urbanization",
-              "value": "4.06",
+              "value": "3.71",
               "suffix": "% annual rate of change",
               "subfield_note": "(2015-20 est.)"
             }
@@ -599,8 +575,10 @@
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_YM.pdf?1602856595",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_YM.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -674,12 +652,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "21.4 years (2013 est.)",
+          "content": "21.4 years (2013 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "21.4",
           "estimated": true,
           "info_date": "2013",
           "suffix": "years",
-          "field_note": "<br><br><strong>note:</strong> median age at first birth among women 25-29"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -1093,6 +1071,336 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "limited natural freshwater resources; inadequate supplies of potable water; overgrazing; soil erosion; desertification"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Nuclear Test Ban, Ozone Layer Protection, Wetlands<br><br><strong>signed, but not ratified: </strong>Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Nuclear Test Ban, Ozone Layer Protection, Wetlands",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Nuclear Test Ban, Ozone Layer Protection, Wetlands",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban",
+              "value": "Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>44.96 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>10.61 megatons (2016 est.)<br><br><strong>methane emissions: </strong>8.03 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "44.96 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "44.96",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "10.61 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "10.61",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "8.03 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "8.03",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>265 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>65 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>3.235 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "265 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "265,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "65 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "65,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "3.235 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "3,235,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "2.1 billion cubic meters (2017 est.)",
+          "value": "2,100,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "mostly desert; hot and humid along west coast; temperate in western mountains affected by seasonal monsoon; extraordinarily hot, dry, harsh desert in east"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>44.5% (2018 est.)<br><br>arable land: 2.2% (2018 est.)<br><br>permanent crops: 0.6% (2018 est.)<br><br>permanent pasture: 41.7% (2018 est.)<br><br><strong>forest: </strong>1% (2018 est.)<br><br><strong>other: </strong>54.5% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "44.5% (2018 est.)",
+              "title": "agricultural land",
+              "value": "44.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 2.2% (2018 est.)",
+              "value": "2.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0.6% (2018 est.)",
+              "value": "0.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 41.7% (2018 est.)",
+              "value": "41.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "1% (2018 est.)",
+              "title": "forest",
+              "value": "1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "54.5% (2018 est.)",
+              "title": "other",
+              "value": "54.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>0.04% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "0.04% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "0.04",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>38.5% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.71% annual rate of change (2015-20 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "38.5% of total population (2021)",
+              "title": "urban population",
+              "value": "38.5",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "3.71% annual rate of change (2015-20 est.)",
+              "title": "rate of urbanization",
+              "value": "3.71",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2015-20 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_YM.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>dengue fever and malaria<br><br><strong>water contact diseases: </strong>schistosomiasis",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "high (2020)",
+              "value": "high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "dengue fever and malaria",
+              "value": "dengue fever and malaria",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "schistosomiasis",
+              "value": "schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Food insecurity",
+          "field_id": 418,
+          "comparative": false,
+          "content": "<strong>widespread lack of access: </strong>due to conflict, poverty, floods, high food and fuel prices - between January and June 2021, the number of food insecure was projected to increase by nearly 3 million to 16.2 million people; out of these, an estimated 11 million people will likely be in \"Crisis,\" 5 million in \"Emergency,\" and the number of those in \"Catastrophe\" will likely increase to 47,000; internal conflict continues to compromise all economic activities, including agriculture; the conflict is further hampering already constrained livelihood activities and humanitarian access; income earning opportunities have declined due to COVID‑19‑related business disruptions; although no physical shortages of goods are reported, the high prices severely limit households&rsquo; access; fuel prices remained over 250% above February 2015 levels; humanitarian funding significantly reduced in 2020 resulting in many operations being scaled down leaving the needs of millions of people unattended (2021)",
+          "subfields": [
+            {
+              "name": "widespread lack of access",
+              "content": "due to conflict, poverty, floods, high food and fuel prices - between January and June 2021, the number of food insecure was projected to increase by nearly 3 million to 16.2 million people; out of these, an estimated 11 million people will likely be in \"Crisis,\" 5 million in \"Emergency,\" and the number of those in \"Catastrophe\" will likely increase to 47,000; internal conflict continues to compromise all economic activities, including agriculture; the conflict is further hampering already constrained livelihood activities and humanitarian access; income earning opportunities have declined due to COVID‑19‑related business disruptions; although no physical shortages of goods are reported, the high prices severely limit households&rsquo; access; fuel prices remained over 250% above February 2015 levels; humanitarian funding significantly reduced in 2020 resulting in many operations being scaled down leaving the needs of millions of people unattended (2021)",
+              "value": "due to conflict, poverty, floods, high food and fuel prices - between January and June 2021, the number of food insecure was projected to increase by nearly 3 million to 16.2 million people; out of these, an estimated 11 million people will likely be in \"Crisis,\" 5 million in \"Emergency,\" and the number of those in \"Catastrophe\" will likely increase to 47,000; internal conflict continues to compromise all economic activities, including agriculture; the conflict is further hampering already constrained livelihood activities and humanitarian access; income earning opportunities have declined due to COVID‑19‑related business disruptions; although no physical shortages of goods are reported, the high prices severely limit households&rsquo; access; fuel prices remained over 250% above February 2015 levels; humanitarian funding significantly reduced in 2020 resulting in many operations being scaled down leaving the needs of millions of people unattended",
+              "title": "widespread lack of access",
+              "info_date": "(2021)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>4,836,820 tons (2011 est.)<br><br><strong>municipal solid waste recycled annually: </strong>386,946 tons (2016 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>8% (2016 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "4,836,820 tons (2011 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "4,836,820",
+              "estimated": true,
+              "info_date": "2011",
+              "suffix": "tons"
+            },
+            {
+              "name": "municipal solid waste recycled annually",
+              "content": "386,946 tons (2016 est.)",
+              "title": "municipal solid waste recycled annually",
+              "value": "386,946",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "8% (2016 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "8",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -1150,7 +1458,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Sanaa<br><br><strong>geographic coordinates: </strong>15 21 N, 44 12 E<br><br><strong>time difference: </strong>UTC+3 (8 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Sanaa<br><br><strong>geographic coordinates: </strong>15 21 N, 44 12 E<br><br><strong>time difference: </strong>UTC+3 (8 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> the name is reputed to mean \"well-fortified\" in Sabaean, the South Arabian language that went extinct in Yemen in the 6th century A.D.",
           "subfields": [
             {
               "name": "name",
@@ -1171,7 +1479,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> the name is reputed to mean \"well-fortified\" in Sabaean, the South Arabian language that went extinct in Yemen in the 6th century A.D."
+          "field_note": "<strong>etymology:</strong> the name is reputed to mean \"well-fortified\" in Sabaean, the South Arabian language that went extinct in Yemen in the 6th century A.D."
         },
         {
           "name": "Administrative divisions",
@@ -1355,8 +1663,8 @@
           "name": "Political parties and leaders",
           "field_id": 315,
           "comparative": false,
-          "content": "General People&rsquo;s Congress or GPC (3 factions: pro-Hadi [Abdrabbi Mansur HADI], pro-Houthi [Sadeq Ameen Abu RAS], pro-Saleh [Ahmed SALEH]<br />National Arab Socialist Ba'ath Party [Qassem Salam SAID]<br />Nasserist Unionist People's Organization [Abdulmalik al-MEKHLAFI]<br />Southern Transitional Council or STC [Aidarus al-ZOUBAIDA] <br />Yemeni Reform Grouping or Islah [Muhammed Abdallah al-YADUMI]<br />Yemeni Socialist Party or YSP [Dr. Abd al-Rahman Umar al-SAQQAF]",
-          "field_note": "<br><br>("
+          "content": "General People&rsquo;s Congress or GPC (3 factions: pro-Hadi [Abdrabbi Mansur HADI], pro-Houthi [Sadeq Ameen Abu RAS], pro-Saleh [Ahmed SALEH]<br />National Arab Socialist Ba'ath Party [Qassem Salam SAID]<br />Nasserist Unionist People's Organization [Abdulmalik al-MEKHLAFI]<br />Southern Transitional Council or STC [Aidarus al-ZOUBAIDA] <br />Yemeni Reform Grouping or Islah [Muhammed Abdallah al-YADUMI]<br />Yemeni Socialist Party or YSP [Dr. Abd al-Rahman Umar al-SAQQAF]<br><br>(",
+          "field_note": "("
         },
         {
           "name": "International organization participation",
@@ -1438,8 +1746,8 @@
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
-          "content": "three equal horizontal bands of red (top), white, and black; the band colors derive from the Arab Liberation flag and represent oppression (black), overcome through bloody struggle (red), to be replaced by a bright future (white)",
-          "field_note": "<p><strong>note:</strong> similar to the flag of Syria, which has two green stars in the white band, and of Iraq, which has an Arabic inscription centered in the white band; also similar to the flag of Egypt, which has a heraldic eagle centered in the white band</p>"
+          "content": "three equal horizontal bands of red (top), white, and black; the band colors derive from the Arab Liberation flag and represent oppression (black), overcome through bloody struggle (red), to be replaced by a bright future (white)<br><br><strong>note:</strong> similar to the flag of Syria, which has two green stars in the white band, and of Iraq, which has an Arabic inscription centered in the white band; also similar to the flag of Egypt, which has a heraldic eagle centered in the white band",
+          "field_note": "<strong>note:</strong> similar to the flag of Syria, which has two green stars in the white band, and of Iraq, which has an Arabic inscription centered in the white band; also similar to the flag of Egypt, which has a heraldic eagle centered in the white band"
         },
         {
           "name": "National symbol(s)",
@@ -1451,7 +1759,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"al-qumhuriyatu l-muttahida\" (United Republic)<br><br><strong>lyrics/music: </strong>Abdullah Abdulwahab NOA'MAN/Ayyoab Tarish ABSI",
+          "content": "<strong>name: </strong>\"al-qumhuriyatu l-muttahida\" (United Republic)<br><br><strong>lyrics/music: </strong>Abdullah Abdulwahab NOA'MAN/Ayyoab Tarish ABSI<br><br><strong>note:</strong> adopted 1990; the music first served as the anthem for South Yemen before unification with North Yemen in 1990",
           "subfields": [
             {
               "name": "name",
@@ -1466,12 +1774,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1990; the music first served as the anthem for South Yemen before unification with North Yemen in 1990</p>",
+          "field_note": "<strong>note:</strong> adopted 1990; the music first served as the anthem for South Yemen before unification with North Yemen in 1990",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/YM.mp3?1538604761",
-              "alt": "National Anthem audio file for Yemen"
+              "src": "/attachments/audios/original/YM.mp3",
+              "alt": "National Anthem audio file for Yemen",
+              "caption": "This is an audio of the National Anthem for Yemen. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1542,7 +1852,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$73.63 billion (2017 est.)<br><br>$78.28 billion (2016 est.)<br><br>$90.63 billion (2015 est.)",
+          "content": "$73.63 billion (2017 est.)<br><br>$78.28 billion (2016 est.)<br><br>$90.63 billion (2015 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2017",
@@ -1566,7 +1876,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1582,7 +1892,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$2,500 (2017 est.)<br><br>$2,700 (2016 est.)<br><br>$3,200 (2015 est.)",
+          "content": "$2,500 (2017 est.)<br><br>$2,700 (2016 est.)<br><br>$3,200 (2015 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2017",
@@ -1606,7 +1916,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1738,13 +2048,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "0.0 (2020)",
+          "content": "<strong>Overall score: </strong>31.8 (2020)<br><br><strong>Starting a Business score: </strong>76.8 (2020)<br><br><strong>Trading score: </strong>0 (2020)<br><br><strong>Enforcement score: </strong>48.5 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
-              "content": "0.0 (2020)",
-              "value": "0.0",
-              "estimated": false
+              "name": "Overall score",
+              "content": "31.8 (2020)",
+              "title": "Overall score",
+              "value": "31.8",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "76.8 (2020)",
+              "title": "Starting a Business score",
+              "value": "76.8",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "0 (2020)",
+              "title": "Trading score",
+              "value": "0",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "48.5 (2020)",
+              "title": "Enforcement score",
+              "value": "48.5",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1810,8 +2146,8 @@
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "54% (2014 est.)",
-          "value": "54",
+          "content": "48.6% (2014 est.)",
+          "value": "48.6",
           "estimated": true,
           "info_date": "2014",
           "suffix": "%"
@@ -1980,14 +2316,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "Egypt 29.4%, Thailand 16.7%, Belarus 13.5%, Oman 10.5%, UAE 6.5%, Saudi Arabia 5% (2017)",
-          "info_date": "2017"
+          "content": "China 53%, Saudi Arabia 10%, United Arab Emirates 7%, Australia 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "crude oil, coffee, dried and salted fish, liquefied natural gas"
+          "content": "crude petroleum, gold, fish, industrial chemical liquids, scrap iron (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2015,14 +2352,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "UAE 12.2%, China 12.1%, Turkey 8.7%, Brazil 7.3%, Saudi Arabia 6.5%, Argentina 5.5%, India 4.7% (2017)",
-          "info_date": "2017"
+          "content": "China 25%, Turkey 10%, United Arab Emirates 9%, Saudi Arabia 8%, India 7% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "food and live animals, machinery and equipment, chemicals"
+          "content": "wheat, refined petroleum, iron, rice, cars (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2371,16 +2709,6 @@
           "estimated": true,
           "info_date": "1 January 2018",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "13.68 million Mt (2017 est.)",
-          "value": "13,680,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2436,7 +2764,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>large percent of the population is in need of humanitarian assistance, and given the civil conflict, telecommunications services are vital but disrupted; mobile towers are often deliberately targeted; maintenance is dangerous to staff; aid organization rely on satellite and radio communications; there is a scarcity of telecommunications equipment in rural areas; ownership of telecommunications services and the related revenues and taxes have become a political issue; Chinese company Huawei helping with rebuilding and moving some equipment; little progress in the near future until civil unrest stabilizes; earlier damage to the FALCON submarine cable, left Internet service interrupted for a month until repaired (2020)<br><br><strong>domestic: </strong>the national network consists of microwave radio relay, cable, tropospheric scatter, GSM and CDMA mobile-cellular telephone systems; fixed-line teledensity remains low by regional standards at 4 per 100 but mobile cellular use expanding at 55 per 100 (2019)<br><br><strong>international: </strong>country code - 967; landing points for the FALCON, SeaMeWe-5, Aden-Djibouti, and the AAE-1 international submarine cable connecting Europe, Africa, the Middle East, Asia and Southeast Asia; satellite earth stations - 3 Intelsat (2 Indian Ocean and 1 Atlantic Ocean), 1 Intersputnik (Atlantic Ocean region), and 2 Arabsat; microwave radio relay to Saudi Arabia and Djibouti (2020)",
+          "content": "<strong>general assessment: </strong>large percent of the population is in need of humanitarian assistance, and given the civil conflict, telecommunications services are vital but disrupted; mobile towers are often deliberately targeted; maintenance is dangerous to staff; aid organization rely on satellite and radio communications; there is a scarcity of telecommunications equipment in rural areas; ownership of telecommunications services and the related revenues and taxes have become a political issue; Chinese company Huawei helping with rebuilding and moving some equipment; little progress in the near future until civil unrest stabilizes; earlier damage to the FALCON submarine cable, left Internet service interrupted for a month until repaired (2020)<br><br><strong>domestic: </strong>the national network consists of microwave radio relay, cable, tropospheric scatter, GSM and CDMA mobile-cellular telephone systems; fixed-line teledensity remains low by regional standards at 4 per 100 but mobile cellular use expanding at 55 per 100 (2019)<br><br><strong>international: </strong>country code - 967; landing points for the FALCON, SeaMeWe-5, Aden-Djibouti, and the AAE-1 international submarine cable connecting Europe, Africa, the Middle East, Asia and Southeast Asia; satellite earth stations - 3 Intelsat (2 Indian Ocean and 1 Atlantic Ocean), 1 Intersputnik (Atlantic Ocean region), and 2 Arabsat; microwave radio relay to Saudi Arabia and Djibouti (2020)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2460,7 +2788,7 @@
               "info_date": "(2020)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2568,8 +2896,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "7O (2016)",
-          "info_date": "2016"
+          "content": "7O"
         },
         {
           "name": "Airports",
@@ -2778,72 +3105,80 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Land Forces (includes seven Military Regional Commands, supported by Strategic Reserve Forces), Naval and Coastal Defense Forces (includes naval infantry/marines and Coast Guard), Air and Air Defense Force (although it still exists in name, in practice many of the officers and soldiers in this branch have been distributed to other military branches and jobs), Border Guards, Strategic Reserve Forces (supports the Land Forces at the discretion of the Armed Forces Commander-in-Chief; includes a Missile Group, Presidential Protection Brigades, and Special Operations Forces) (2018)",
-          "info_date": "2018"
+          "content": "Government forces are organized as the Yemeni National Army (YNA); the YNA is supported by a variety of ethnically-based and tribal militias<br /><br />prior to the civil war, Yemen's armed forces consisted of Land Forces, Air/Air Defense Forces, Naval Forces/Coastal Defense, Border Guards, and a Strategic Reserve (Presidential Protective Forces, Missile Defense Command, <span class=\"inlineLinkContainer \"><a class=\"inlineLinkAnchor\" title=\"Special\" data-bind=\"attr: { title: label }, click : onClick, event : { contextmenu : onClick}\">Special</a></span> Operations Command) (2020)<br><br>note: by some estimates, up to 70 percent of Yemen's military, police, and paramilitary forces joined the Houthi-Saleh alliance at the beginning of the civil war in 2014",
+          "info_date": "2020",
+          "field_note": "note: by some estimates, up to 70 percent of Yemen's military, police, and paramilitary forces joined the Houthi-Saleh alliance at the beginning of the civil war in 2014"
         },
         {
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "3.98% of GDP (2014)<br><br>4.08% of GDP (2013)<br><br>4.57% of GDP (2012)<br><br>4.19% of GDP (2011)",
+          "content": "4.3% of GDP (2014)<br><br>4.3% of GDP (2013)<br><br>4.7% of GDP (2012)<br><br>5% of GDP (2011)<br><br>4.8% of GDP (2010)<br><br>note - no reliable information exists following the start of renewed conflict in 2015",
           "subfields": [
             {
               "name": "Military Expenditures 2014",
-              "content": "3.98% of GDP (2014)",
-              "value": "3.98",
+              "content": "4.3% of GDP (2014)",
+              "value": "4.3",
               "estimated": false,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2013",
-              "content": "4.08% of GDP (2013)",
-              "value": "4.08",
+              "content": "4.3% of GDP (2013)",
+              "value": "4.3",
               "estimated": false,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2012",
-              "content": "4.57% of GDP (2012)",
-              "value": "4.57",
+              "content": "4.7% of GDP (2012)",
+              "value": "4.7",
               "estimated": false,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2011",
-              "content": "4.19% of GDP (2011)",
-              "value": "4.19",
+              "content": "5% of GDP (2011)",
+              "value": "5",
+              "estimated": false,
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Military Expenditures 2010",
+              "content": "4.8% of GDP (2010)",
+              "value": "4.8",
               "estimated": false,
               "suffix": "% of GDP"
             }
           ],
-          "field_note": "<p>note - no reliable information exists following the start of renewed conflict in 2015</p>"
+          "field_note": "note - no reliable information exists following the start of renewed conflict in 2015"
         },
         {
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "N/A; note: prior to the civil war, Yemeni Government armed forces had approximately 70,000 active personnel, including about 60,000 Army (2019 est.)",
-          "info_date": "2019 est."
+          "content": "N/A; note: prior to the civil war, Yemeni Government armed forces had approximately 70,000 active personnel (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the inventory of the Yemeni Government forces consists primarily of Russian and Soviet-era equipment, although much of it has been lost in the current conflict; since 2010, it has received limited amounts of equipment from a variety of countries, including Belarus, Czechia, Jordan, Russia, Saudi Arabia, South Africa, Spain, UAE, Ukraine, and the US (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the inventory of the Yemeni Government forces consists primarily of Russian and Soviet-era equipment, although much of it has been lost in the current conflict; since the start of the civil war in 2014, it has received limited amounts of donated equipment from some Gulf States, including Saudi Arabia and UAE (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18 is the legal minimum age for voluntary military service; no conscription; 2-year service obligation (2018)",
-          "info_date": "2018"
+          "content": "18 is the legal minimum age for voluntary military service; conscription abolished in 2001; 2-year service obligation (note - limited information since the start of the civil war) (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Maritime threats",
           "field_id": 334,
           "comparative": false,
-          "content": "the International Maritime Bureau reports offshore waters in the Gulf of Aden are high risk for piracy; numerous vessels, including commercial shipping and pleasure craft, have been attacked and hijacked both at anchor and while underway; crew, passengers, and cargo have been held for ransom; the presence of several naval task forces in the Gulf of Aden and additional anti-piracy measures on the part of ship operators reduced the incidence of piracy in that body of water; one attack was reported in 2016 while three ships reported being fired upon in 2017"
+          "content": "<p>the Maritime Administration of the US Department of Transportation has issued Maritime Advisory 2020-017 (Red Sea, Gulf of Aden, Arabian Sea, and Indian Ocean-Violence Due to Regional Conflict and Piracy) effective 14 December 2020, which states in part the \"Conflict in Yemen continues to pose potential risk to US flagged commercial vessels transiting the southern Red Sea, Bab al Mandeb Strait, and Gulf of Aden. Threats may come from a variety of different sources including, but not limited to, missiles, rockets, projectiles, mines, small arms, unmanned aerial vehicles, unmanned surface vessels, or waterborne improvised explosive devices. These threat vectors continue to pose a direct or collateral risk to US flagged commercial vessels operating in the region. Additionally, piracy poses a threat in the Gulf of Aden, Western Arabian Sea, and Western Indian Ocean.\"</p>"
         }
       ]
     },
@@ -2855,9 +3190,9 @@
           "name": "Terrorist group(s)",
           "field_id": 413,
           "comparative": false,
-          "content": "Islamic Revolutionary Guard Corps/Qods Force; Islamic State of Iraq and ash-Sham - Yemen; al-Qa'ida in the Arabian Peninsula (2020)",
+          "content": "Islamic Revolutionary Guard Corps/Qods Force; Islamic State of Iraq and ash-Sham - Yemen; al-Qa'ida in the Arabian Peninsula (2020)<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../appendix/appendix-t.html\">Appendix-T</a>",
           "info_date": "2020",
-          "field_note": "<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../appendix/appendix-t.html\">Appendix-T</a>"
+          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../appendix/appendix-t.html\">Appendix-T</a>"
         }
       ]
     },
@@ -2875,18 +3210,18 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>14,638 (Ethiopia) (2019); 151,155 (Somalia) (2020)<br><br><strong>IDPs: </strong>3,635,000 (conflict in Sa'ada Governorate; clashes between al-Qa'ida in the Arabian Peninsula and government forces) (2019)",
+          "content": "<strong>refugees (country of origin): </strong>111,970 (Somalia), 16,051 (Ethiopia) (2021)<br><br><strong>IDPs: </strong>4,002,012 (conflict in Sa'ada Governorate; clashes between al-Qa'ida in the Arabian Peninsula and government forces) (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "14,638 (Ethiopia) (2019); 151,155 (Somalia) (2020)",
-              "value": "14,638 (Ethiopia) (2019); 151,155 (Somalia) (2020)",
+              "content": "111,970 (Somalia), 16,051 (Ethiopia) (2021)",
+              "value": "111,970 (Somalia), 16,051 (Ethiopia) (2021)",
               "title": "refugees (country of origin)"
             },
             {
               "name": "IDPs",
-              "content": "3,635,000 (conflict in Sa'ada Governorate; clashes between al-Qa'ida in the Arabian Peninsula and government forces) (2019)",
-              "value": "3,635,000 (conflict in Sa'ada Governorate; clashes between al-Qa'ida in the Arabian Peninsula and government forces) (2019)",
+              "content": "4,002,012 (conflict in Sa'ada Governorate; clashes between al-Qa'ida in the Arabian Peninsula and government forces) (2020)",
+              "value": "4,002,012 (conflict in Sa'ada Governorate; clashes between al-Qa'ida in the Arabian Peninsula and government forces) (2020)",
               "title": "IDPs"
             }
           ]

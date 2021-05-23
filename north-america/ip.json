@@ -2,8 +2,8 @@
   "name": "Clipperton Island",
   "code": "IP",
   "region": "North America",
-  "published": "2021-02-24 12:17:17 -0500",
-  "updated": "2021-02-24 10:46:39 -0500",
+  "published": "2021-05-05 12:35:16 -0400",
+  "updated": "2021-04-30 15:32:38 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/IP-map.jpg"
+      "src": "/attachments/maps/IP-map.jpg",
+      "caption": "Clipperton Island map showing the French possession in the North Pacific Ocean."
     },
     {
       "type": "locator-map",
@@ -20,17 +21,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/IP_002_large.jpg?1528323435",
+      "src": "/attachments/images/original/IP_002_large.jpg",
       "category": "Space",
-      "alt": "The coral reef that makes up Clipperton Island forms a complete ring. Image courtesy of NASA. ",
-      "caption": "The coral reef that makes up Clipperton Island forms a complete ring. Image courtesy of NASA. ",
-      "dimensions": {
-        "height": 423.0,
-        "width": 639.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 40829,
+      "alt": "The coral reef that makes up Clipperton Island forms a complete ring. Image courtesy of NASA.",
+      "caption": "The coral reef that makes up Clipperton Island forms a complete ring. Image courtesy of NASA.",
+      "dimensions": "639x423",
+      "file_size": 38859,
       "position": 0
     }
   ],
@@ -165,19 +161,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Pacific Ocean 0 m<br><br><strong>highest point: </strong>Rocher Clipperton 29 m",
+          "content": "<strong>highest point: </strong>Rocher Clipperton 29 m<br><br><strong>lowest point: </strong>Pacific Ocean 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Pacific Ocean 0 m",
-              "value": "Pacific Ocean 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Rocher Clipperton 29 m",
               "value": "Rocher Clipperton 29 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Pacific Ocean 0 m",
+              "value": "Pacific Ocean 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -229,12 +225,6 @@
           "content": "subject to tropical storms and hurricanes from May to October"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "no natural resources, guano deposits depleted; the ring-shaped atoll encloses a stagnant fresh-water lagoon"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -252,6 +242,59 @@
           "comparative": true,
           "content": "uninhabited",
           "subfield_note": "uninhabited"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "no natural resources, guano deposits depleted; the ring-shaped atoll encloses a stagnant fresh-water lagoon"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical; humid, average temperature 20-32 degrees Celsius, wet season (May to October)"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>0% (2018 est.)<br><br><strong>forest: </strong>0% (2018 est.)<br><br><strong>other: </strong>100% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "0% (2018 est.)",
+              "title": "agricultural land",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "0% (2018 est.)",
+              "title": "forest",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "100% (2018 est.)",
+              "title": "other",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
         }
       ]
     },

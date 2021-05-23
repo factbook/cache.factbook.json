@@ -2,8 +2,8 @@
   "name": "Guyana",
   "code": "GY",
   "region": "South America",
-  "published": "2021-02-24 12:23:24 -0500",
-  "updated": "2021-02-24 11:35:44 -0500",
+  "published": "2021-05-05 12:33:49 -0400",
+  "updated": "2021-04-30 15:25:28 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/GY-map.jpg"
+      "src": "/attachments/maps/GY-map.jpg",
+      "caption": "Guyana map showing major population centers as well as parts of surrounding countries and the North Atlantic Ocean.\r\n "
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/GY_001.jpg?1528324047",
+      "src": "/attachments/images/original/GY_001.jpg",
       "category": "Space",
       "alt": "A satellite image showing an area along the Guyana coast: water ranges in color from electric blue to navy, vegetation appears bright green, and clouds appear pale blue-green and cast shadows. Darker areas within the vegetation are marshy areas that have expanded due to flooding. Image courtesy of NASA.",
       "caption": "A satellite image showing an area along the Guyana coast: water ranges in color from electric blue to navy, vegetation appears bright green, and clouds appear pale blue-green and cast shadows. Darker areas within the vegetation are marshy areas that have expanded due to flooding. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 325.0,
-        "width": 650.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 68331,
+      "dimensions": "650x325",
+      "file_size": 63368,
       "position": 0
     }
   ],
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/GY_area.jpg?1562688835",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/GY_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>slightly smaller than Idaho; almost twice the size of Tennessee</p>",
+              "position": 0
             }
           ]
         },
@@ -193,14 +191,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>207 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Laberintos del Norte on Mount Roraima 2,775 m",
+          "content": "<strong>highest point: </strong>Laberintos del Norte on Mount Roraima 2,775 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>mean elevation: </strong>207 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "207 m",
-              "title": "mean elevation",
-              "value": "207",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Laberintos del Norte on Mount Roraima 2,775 m",
+              "value": "Laberintos del Norte on Mount Roraima 2,775 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -209,10 +206,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Laberintos del Norte on Mount Roraima 2,775 m",
-              "value": "Laberintos del Norte on Mount Roraima 2,775 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "207 m",
+              "title": "mean elevation",
+              "value": "207",
+              "suffix": "m"
             }
           ]
         },
@@ -304,32 +302,6 @@
           "content": "flash flood threat during rainy seasons"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "water pollution from sewage and agricultural and industrial chemicals; deforestation"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -345,11 +317,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "787,971 (July 2021 est.)",
+          "content": "787,971 (July 2021 est.)<br><br><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected",
           "value": "787,971",
           "estimated": true,
           "info_date": "July 2021",
-          "field_note": "<p><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected</p>"
+          "field_note": "<strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected"
         },
         {
           "name": "Nationality",
@@ -449,9 +421,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/GY_popgraph2021.pdf?1613496259",
-              "alt": "Guyana population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/GY_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Guyana. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -570,30 +544,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>26.8% of total population (2020)<br><br><strong>rate of urbanization: </strong>0.83% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>26.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.01% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "26.8% of total population (2020)",
+              "content": "26.9% of total population (2021)",
               "title": "urban population",
-              "value": "26.8",
+              "value": "26.9",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "0.83% annual rate of change (2015-20 est.)",
+              "content": "1.01% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "0.83",
+              "value": "1.01",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_GY.pdf?1602790131",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_GY.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -667,12 +643,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "20.8 years (2009 est.)",
+          "content": "20.8 years (2009 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "20.8",
           "estimated": true,
           "info_date": "2009",
           "suffix": "years",
-          "field_note": "<p><strong>note:</strong> median age at first birth among women 25-29</p>"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -1051,29 +1027,337 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>21.5%<br><br><strong>male: </strong>17.3%<br><br><strong>female: </strong>27.7% (2017 est.)",
+          "content": "<strong>total: </strong>26.5%<br><br><strong>male: </strong>20.7%<br><br><strong>female: </strong>34.6% (2018 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "21.5%",
+              "content": "26.5%",
               "title": "total",
-              "value": "21.5",
+              "value": "26.5",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "17.3%",
+              "content": "20.7%",
               "title": "male",
-              "value": "17.3",
+              "value": "20.7",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "27.7% (2017 est.)",
+              "content": "34.6% (2018 est.)",
               "title": "female",
-              "value": "27.7",
+              "value": "34.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "water pollution from sewage and agricultural and industrial chemicals; deforestation"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>20.46 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>2.38 megatons (2016 est.)<br><br><strong>methane emissions: </strong>1.81 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "20.46 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "20.46",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "2.38 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "2.38",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "1.81 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "1.81",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>61.3 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>20.4 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.363 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "61.3 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "61,300,000",
               "estimated": true,
               "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "20.4 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "20,400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "1.363 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "1,363,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "271 billion cubic meters (2017 est.)",
+          "value": "271,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical; hot, humid, moderated by northeast trade winds; two rainy seasons (May to August, November to January)"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>8.4% (2018 est.)<br><br>arable land: 2.1% (2018 est.)<br><br>permanent crops: 0.1% (2018 est.)<br><br>permanent pasture: 6.2% (2018 est.)<br><br><strong>forest: </strong>77.4% (2018 est.)<br><br><strong>other: </strong>14.2% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "8.4% (2018 est.)",
+              "title": "agricultural land",
+              "value": "8.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 2.1% (2018 est.)",
+              "value": "2.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0.1% (2018 est.)",
+              "value": "0.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 6.2% (2018 est.)",
+              "value": "6.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "77.4% (2018 est.)",
+              "title": "forest",
+              "value": "77.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "14.2% (2018 est.)",
+              "title": "other",
+              "value": "14.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>4.56% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "4.56% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "4.56",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>26.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.01% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "26.9% of total population (2021)",
+              "title": "urban population",
+              "value": "26.9",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.01% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.01",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_GY.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial and protozoal diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>dengue fever and malaria",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "very high (2020)",
+              "value": "very high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "dengue fever and malaria",
+              "value": "dengue fever and malaria",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>179,252 tons (2010 est.)<br><br><strong>municipal solid waste recycled annually: </strong>968 tons (2010 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>0.5% (2010 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "179,252 tons (2010 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "179,252",
+              "estimated": true,
+              "info_date": "2010",
+              "suffix": "tons"
+            },
+            {
+              "name": "municipal solid waste recycled annually",
+              "content": "968 tons (2010 est.)",
+              "title": "municipal solid waste recycled annually",
+              "value": "968",
+              "estimated": true,
+              "info_date": "2010",
+              "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "0.5% (2010 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "0.5",
+              "estimated": true,
+              "info_date": "2010",
               "suffix": "%"
             }
           ]
@@ -1126,7 +1410,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Georgetown<br><br><strong>geographic coordinates: </strong>6 48 N, 58 09 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Georgetown<br><br><strong>geographic coordinates: </strong>6 48 N, 58 09 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> when the British took possession of the town from the Dutch in 1812, they renamed it Georgetown in honor of King George III (1738-1820)",
           "subfields": [
             {
               "name": "name",
@@ -1147,7 +1431,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> when the British took possession of the town from the Dutch in 1812, they renamed it Georgetown in honor of King George III (1738-1820)"
+          "field_note": "<strong>etymology:</strong> when the British took possession of the town from the Dutch in 1812, they renamed it Georgetown in honor of King George III (1738-1820)"
         },
         {
           "name": "Administrative divisions",
@@ -1431,7 +1715,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>Dear Land of Guyana, of Rivers and Plains<br><br><strong>lyrics/music: </strong>Archibald Leonard LUKERL/Robert Cyril Gladstone POTTER",
+          "content": "<strong>name: </strong>Dear Land of Guyana, of Rivers and Plains<br><br><strong>lyrics/music: </strong>Archibald Leonard LUKERL/Robert Cyril Gladstone POTTER<br><br><strong>note:</strong> adopted 1966",
           "subfields": [
             {
               "name": "name",
@@ -1446,12 +1730,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1966</p>",
+          "field_note": "<strong>note:</strong> adopted 1966",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/GY.mp3?1538604754",
-              "alt": "National Anthem audio file for Guyana"
+              "src": "/attachments/audios/original/GY.mp3",
+              "alt": "National Anthem audio file for Guyana",
+              "caption": "This is an audio of the National Anthem for Guyana. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1522,7 +1808,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$10.24 billion (2019 est.)<br><br>$9.72 billion (2018 est.)<br><br>$9.306 billion (2017 est.)",
+          "content": "$10.24 billion (2019 est.)<br><br>$9.72 billion (2018 est.)<br><br>$9.306 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1546,7 +1832,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1562,7 +1848,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$13,082 (2019 est.)<br><br>$12,478 (2018 est.)<br><br>$12,005 (2017 est.)",
+          "content": "$13,082 (2019 est.)<br><br>$12,478 (2018 est.)<br><br>$12,005 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1586,7 +1872,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1718,13 +2004,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "55.5 (2020)",
+          "content": "<strong>Overall score: </strong>55.5 (2020)<br><br><strong>Starting a Business score: </strong>85.6 (2020)<br><br><strong>Trading score: </strong>58.3 (2020)<br><br><strong>Enforcement score: </strong>57.9 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
               "content": "55.5 (2020)",
+              "title": "Overall score",
               "value": "55.5",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "85.6 (2020)",
+              "title": "Starting a Business score",
+              "value": "85.6",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "58.3 (2020)",
+              "title": "Trading score",
+              "value": "58.3",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "57.9 (2020)",
+              "title": "Enforcement score",
+              "value": "57.9",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1984,14 +2296,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "Canada 24.9%, US 16.5%, Panama 9.6%, UK 7.7%, Jamaica 5.1%, Trinidad and Tobago 5% (2017)",
-          "info_date": "2017"
+          "content": "Trinidad and Tobago 31%, Canada 11%, Portugal 11%, Ghana 8%, Norway 6%, United Arab Emirates 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "sugar, gold, bauxite, alumina, rice, shrimp, molasses, rum, timber"
+          "content": "ships, gold, shipping containers, excavation machinery, aluminum ores, rice (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2019,14 +2332,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "Trinidad and Tobago 27.5%, US 26.5%, China 8.9%, Suriname 6.1% (2017)",
-          "info_date": "2017"
+          "content": "United States 26%, Trinidad and Tobago 16%, Singapore 18%, Liberia 11%, China 5%, Norway 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "manufactures, machinery, petroleum, food"
+          "content": "ships, refined petroleum, excavation machinery, shipping containers, aircraft (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2375,16 +2689,6 @@
           "estimated": true,
           "info_date": "1 January 2014",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "2.131 million Mt (2017 est.)",
-          "value": "2,131,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2440,7 +2744,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>reliable international long distance service; 100% digital network; national transmission supported by fiber optic cable and rural network by microwaves; more than 150,000 lines; many areas still lack fixed-line telephone services; 2019 budget allocates funds for ICT (Information and Communications Technology)&nbsp;development; broadband subscribers remains small and end-users incur expense to use (2020)<br><br><strong>domestic: </strong>fixed-line teledensity is about 18 per 100 persons; mobile-cellular teledensity about 83 per 100 persons (2019)<br><br><strong>international: </strong>country code - 592; landing point for the SG-SCS submarine cable to Suriname,&nbsp;and the Caribbean;&nbsp;satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)",
+          "content": "<strong>general assessment: </strong>reliable international long distance service; 100% digital network; national transmission supported by fiber optic cable and rural network by microwaves; more than 150,000 lines; many areas still lack fixed-line telephone services; 2019 budget allocates funds for ICT (Information and Communications Technology)&nbsp;development; broadband subscribers remains small and end-users incur expense to use (2020)<br><br><strong>domestic: </strong>fixed-line teledensity is about 18 per 100 persons; mobile-cellular teledensity about 83 per 100 persons (2019)<br><br><strong>international: </strong>country code - 592; landing point for the SG-SCS submarine cable to Suriname,&nbsp;and the Caribbean;&nbsp;satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2464,7 +2768,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2533,8 +2837,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "8R (2016)",
-          "info_date": "2016"
+          "content": "8R"
         },
         {
           "name": "Airports",
@@ -2723,14 +3026,14 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Guyana Defense Force: Army, Air Corps, Coast Guard (2019)",
-          "info_date": "2019"
+          "content": "the Guyana Defense Force is a unified service with an Army, Air Corps, Coast Guard, Guyana People's Militia (reserves) (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "1.7% of GDP (2019)<br><br>1.6% of GDP (2018)<br><br>1.6% of GDP (2017)<br><br>1.5% of GDP (2016)<br><br>1.5% of GDP (2015)",
+          "content": "1.7% of GDP (2019)<br><br>1.6% of GDP (2018)<br><br>1.6% of GDP (2017)<br><br>1.5% of GDP (2016)<br><br>1.4% of GDP (2015)",
           "subfields": [
             {
               "name": "Military Expenditures 2019",
@@ -2762,8 +3065,8 @@
             },
             {
               "name": "Military Expenditures 2015",
-              "content": "1.5% of GDP (2015)",
-              "value": "1.5",
+              "content": "1.4% of GDP (2015)",
+              "value": "1.4",
               "estimated": false,
               "suffix": "% of GDP"
             }
@@ -2773,22 +3076,22 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Guyana Defense Force has approximately 3,000 active personnel (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the Guyana Defense Force has approximately 3,000 active personnel (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the Guyana Defense Force's limited inventory is mostly comprised of second-hand platforms from a variety of foreign suppliers, including Brazil, China, the former Soviet Union, the UK, and the US; since 2000, Guyana has received limited amounts of military equipment from Brazil, China, Costa Rica, and the UK (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the Guyana Defense Force's limited inventory is mostly comprised of second-hand platforms from a variety of foreign suppliers, including Brazil, China, the former Soviet Union, the UK, and the US; since 2000, Guyana has received small amounts of military equipment from Brazil, China, and the UK (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18 years of age or older for voluntary military service; no conscription (2014)",
-          "info_date": "2014"
+          "content": "limited information; 18 years of age or older for voluntary military service; no conscription (2019)",
+          "info_date": "2019"
         }
       ]
     },
@@ -2801,6 +3104,20 @@
           "field_id": 326,
           "comparative": false,
           "content": "<p>all of the area west of the Essequibo River is claimed by Venezuela preventing any discussion of a maritime boundary; Guyana has expressed its intention to join Barbados in asserting claims before UN Convention on the Law of the Sea (UNCLOS) that Trinidad and Tobago's maritime boundary with Venezuela extends into their waters; Suriname claims a triangle of land between the New and Kutari/Koetari Rivers in a historic dispute over the headwaters of the Courantyne</p>"
+        },
+        {
+          "name": "Refugees and internally displaced persons",
+          "field_id": 327,
+          "comparative": false,
+          "content": "<strong>refugees (country of origin): </strong>11,881 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or received alternative legal stay) (2019)",
+          "subfields": [
+            {
+              "name": "refugees (country of origin)",
+              "content": "11,881 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or received alternative legal stay) (2019)",
+              "value": "11,881 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or received alternative legal stay) (2019)",
+              "title": "refugees (country of origin)"
+            }
+          ]
         },
         {
           "name": "Trafficking in persons",

@@ -2,8 +2,8 @@
   "name": "Sao Tome and Principe",
   "code": "TP",
   "region": "Africa",
-  "published": "2021-02-23 06:52:33 -0500",
-  "updated": "2021-02-17 09:14:50 -0500",
+  "published": "2021-05-12 12:15:52 -0400",
+  "updated": "2021-05-10 11:24:52 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/TP-map.jpg"
+      "src": "/attachments/maps/TP-map.jpg",
+      "caption": "Sao Tome and Principe map showing the islands that make up this country in the Gulf of Guinea."
     },
     {
       "type": "locator-map",
@@ -120,7 +121,7 @@
           "name": "Maritime claims",
           "field_id": 283,
           "comparative": false,
-          "content": "<strong>territorial sea: </strong>12 nm<br><br><strong>exclusive economic zone: </strong>200 nm",
+          "content": "<strong>territorial sea: </strong>12 nm<br><br><strong>exclusive economic zone: </strong>200 nm<br><br>measured from claimed archipelagic baselines",
           "subfields": [
             {
               "name": "territorial sea",
@@ -137,7 +138,7 @@
               "subfield_note": "nm"
             }
           ],
-          "field_note": "<br><br>measured from claimed archipelagic baselines"
+          "field_note": "measured from claimed archipelagic baselines"
         },
         {
           "name": "Climate",
@@ -155,19 +156,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Pico de Sao Tome 2,024 m",
+          "content": "<strong>highest point: </strong>Pico de Sao Tome 2,024 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Atlantic Ocean 0 m",
-              "value": "Atlantic Ocean 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Pico de Sao Tome 2,024 m",
               "value": "Pico de Sao Tome 2,024 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Atlantic Ocean 0 m",
+              "value": "Atlantic Ocean 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -259,32 +260,6 @@
           "content": "flooding"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "deforestation and illegal logging; soil erosion and exhaustion; inadequate sewage treatment in cities;&nbsp;biodiversity preservation"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -335,9 +310,9 @@
           "name": "Languages",
           "field_id": 402,
           "comparative": false,
-          "content": "Portuguese 98.4% (official), Forro 36.2%, Cabo Verdian 8.5%, French 6.8%, Angolar 6.6%, English 4.9%, Lunguie 1%, other (including sign language) 2.4% (2012 est.)",
+          "content": "Portuguese 98.4% (official), Forro 36.2%, Cabo Verdian 8.5%, French 6.8%, Angolar 6.6%, English 4.9%, Lunguie 1%, other (including sign language) 2.4% (2012 est.)<br><br><strong>note:</strong> shares sum to more than 100% because some respondents gave more than one answer on the census; other Portuguese-based Creoles are also spoken",
           "info_date": "2012 est.",
-          "field_note": "<p><strong>note:</strong> shares sum to more than 100% because some respondents gave more than one answer on the census</p>"
+          "field_note": "<strong>note:</strong> shares sum to more than 100% because some respondents gave more than one answer on the census; other Portuguese-based Creoles are also spoken"
         },
         {
           "name": "Religions",
@@ -403,9 +378,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/TP_popgraph2021.pdf?1613508629",
-              "alt": "Sao Tome and Principe population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/TP_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Sao Tome and Principe. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -524,30 +501,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>74.4% of total population (2020)<br><br><strong>rate of urbanization: </strong>3.33% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>75.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.96% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "74.4% of total population (2020)",
+              "content": "75.1% of total population (2021)",
               "title": "urban population",
-              "value": "74.4",
+              "value": "75.1",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "3.33% annual rate of change (2015-20 est.)",
+              "content": "2.96% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "3.33",
+              "value": "2.96",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_TP.pdf?1602853325",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_TP.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -621,12 +600,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "19.4 years (2008/09 est.)",
+          "content": "19.4 years (2008/09 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "19.4",
           "estimated": true,
           "info_date": "2008/09",
           "suffix": "years",
-          "field_note": "<p><strong>note:</strong> median age at first birth among women 25-29</p>"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -924,10 +903,10 @@
           "name": "Children under the age of 5 years underweight",
           "field_id": 368,
           "comparative": true,
-          "content": "8.8% (2014)",
-          "value": "8.8",
+          "content": "5.4% (2019)",
+          "value": "5.4",
           "estimated": false,
-          "info_date": "2014",
+          "info_date": "2019",
           "suffix": "%"
         },
         {
@@ -1044,6 +1023,303 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "deforestation and illegal logging; soil erosion and exhaustion; inadequate sewage treatment in cities;&nbsp;biodiversity preservation"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>Comprehensive Nuclear Test Ban",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "Comprehensive Nuclear Test Ban",
+              "value": "Comprehensive Nuclear Test Ban",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>25.66 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>0.12 megatons (2016 est.)<br><br><strong>methane emissions: </strong>0.04 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "25.66 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "25.66",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "0.12 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "0.12",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "0.04 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "0.04",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>14.7 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>600,000 cubic meters (2017 est.)<br><br><strong>agricultural: </strong>25.6 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "14.7 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "14,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "600,000 cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "600,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "25.6 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "25,600,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "2.18 billion cubic meters (2017 est.)",
+          "value": "2,180,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical; hot, humid; one rainy season (October to May)"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>50.7% (2018 est.)<br><br>arable land: 9.1% (2018 est.)<br><br>permanent crops: 40.6% (2018 est.)<br><br>permanent pasture: 1% (2018 est.)<br><br><strong>forest: </strong>28.1% (2018 est.)<br><br><strong>other: </strong>21.2% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "50.7% (2018 est.)",
+              "title": "agricultural land",
+              "value": "50.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 9.1% (2018 est.)",
+              "value": "9.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 40.6% (2018 est.)",
+              "value": "40.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 1% (2018 est.)",
+              "value": "1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "28.1% (2018 est.)",
+              "title": "forest",
+              "value": "28.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "21.2% (2018 est.)",
+              "title": "other",
+              "value": "21.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>1.9% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "1.9% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "1.9",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>75.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.96% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "75.1% of total population (2021)",
+              "title": "urban population",
+              "value": "75.1",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "2.96% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "2.96",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_TP.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria and dengue fever<br><br><strong>water contact diseases: </strong>schistosomiasis",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "high (2020)",
+              "value": "high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "malaria and dengue fever",
+              "value": "malaria and dengue fever",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "schistosomiasis",
+              "value": "schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>25,587 tons (2014 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "25,587 tons (2014 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "25,587",
+              "estimated": true,
+              "info_date": "2014",
+              "suffix": "tons"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -1095,7 +1371,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Sao Tome<br><br><strong>geographic coordinates: </strong>0 20 N, 6 44 E<br><br><strong>time difference: </strong>UTC 0 (5 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Sao Tome<br><br><strong>geographic coordinates: </strong>0 20 N, 6 44 E<br><br><strong>time difference: </strong>UTC 0 (5 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> named after Saint Thomas the Apostle",
           "subfields": [
             {
               "name": "name",
@@ -1116,7 +1392,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> named after Saint Thomas the Apostle"
+          "field_note": "<strong>etymology:</strong> named after Saint Thomas the Apostle"
         },
         {
           "name": "Administrative divisions",
@@ -1358,8 +1634,8 @@
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
-          "content": "three horizontal bands of green (top), yellow (double width), and green with two black five-pointed stars placed side by side in the center of the yellow band and a red isosceles triangle based on the hoist side; green stands for the country's rich vegetation, red recalls the struggle for independence, and yellow represents cocoa, one of the country's main agricultural products; the two stars symbolize the two main islands",
-          "field_note": "<p><strong>note:</strong> uses the popular Pan-African colors of Ethiopia</p>"
+          "content": "three horizontal bands of green (top), yellow (double width), and green with two black five-pointed stars placed side by side in the center of the yellow band and a red isosceles triangle based on the hoist side; green stands for the country's rich vegetation, red recalls the struggle for independence, and yellow represents cocoa, one of the country's main agricultural products; the two stars symbolize the two main islands<br><br><strong>note:</strong> uses the popular Pan-African colors of Ethiopia",
+          "field_note": "<strong>note:</strong> uses the popular Pan-African colors of Ethiopia"
         },
         {
           "name": "National symbol(s)",
@@ -1371,7 +1647,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Independencia total\" (Total Independence)<br><br><strong>lyrics/music: </strong>Alda Neves DA GRACA do Espirito Santo/Manuel dos Santos Barreto de Sousa e ALMEIDA",
+          "content": "<strong>name: </strong>\"Independencia total\" (Total Independence)<br><br><strong>lyrics/music: </strong>Alda Neves DA GRACA do Espirito Santo/Manuel dos Santos Barreto de Sousa e ALMEIDA<br><br><strong>note:</strong> adopted 1975",
           "subfields": [
             {
               "name": "name",
@@ -1386,12 +1662,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1975</p>",
+          "field_note": "<strong>note:</strong> adopted 1975",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/TP.mp3?1538604759",
-              "alt": "National Anthem audio file for Sao Tome and Principe"
+              "src": "/attachments/audios/original/TP.mp3",
+              "alt": "National Anthem audio file for Sao Tome and Principe",
+              "caption": "This is an audio of the National Anthem for Sao Tome and Principe. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1469,7 +1747,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$853 million (2019 est.)<br><br>$842 million (2018 est.)<br><br>$818 million (2017 est.)",
+          "content": "$853 million (2019 est.)<br><br>$842 million (2018 est.)<br><br>$818 million (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1493,7 +1771,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1509,7 +1787,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$3,970 (2019 est.)<br><br>$3,993 (2018 est.)<br><br>$3,953 (2017 est.)",
+          "content": "$3,970 (2019 est.)<br><br>$3,993 (2018 est.)<br><br>$3,953 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1533,7 +1811,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1665,13 +1943,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "66.0 (2020)",
+          "content": "<strong>Overall score: </strong>45 (2020)<br><br><strong>Starting a Business score: </strong>78.2 (2020)<br><br><strong>Trading score: </strong>66 (2020)<br><br><strong>Enforcement score: </strong>28.8 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
-              "content": "66.0 (2020)",
-              "value": "66.0",
-              "estimated": false
+              "name": "Overall score",
+              "content": "45 (2020)",
+              "title": "Overall score",
+              "value": "45",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "78.2 (2020)",
+              "title": "Starting a Business score",
+              "value": "78.2",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "66 (2020)",
+              "title": "Trading score",
+              "value": "66",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "28.8 (2020)",
+              "title": "Enforcement score",
+              "value": "28.8",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1763,10 +2067,10 @@
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "66.2% (2009 est.)",
-          "value": "66.2",
+          "content": "66.7% (2017 est.)",
+          "value": "66.7",
           "estimated": true,
-          "info_date": "2009",
+          "info_date": "2017",
           "suffix": "%"
         },
         {
@@ -1931,15 +2235,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "Guyana 43.7%, Germany 23.6%, Portugal 6%, Netherlands 5.5%, Poland 4.4% (2017)",
-          "info_date": "2017"
+          "content": "Singapore 30%, Switzerland 24%, France 11%, Poland 7%, Belgium 7%, United States 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "cocoa 68%, copra, coffee, palm oil (2010 est.)",
-          "info_date": "2010 est."
+          "content": "gas turbines, cocoa beans, aircraft parts, iron products, chocolate (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -1967,14 +2271,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "Portugal 54.7%, Angola 16.5%, China 5.6% (2017)",
-          "info_date": "2017"
+          "content": "Portugal 41%, Angola 17%, China 8% (2019 )",
+          "info_date": "2019 "
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "machinery and electrical equipment, food products, petroleum products"
+          "content": "refined petroleum, cars, rice, flavored water, postage stamps (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2323,16 +2628,6 @@
           "estimated": true,
           "info_date": "1 January 2014",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "148,100 Mt (2017 est.)",
-          "value": "148,100",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2388,7 +2683,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>local telephone network of adequate quality with most lines connected to digital switches; mobile cellular superior choice to landland; dial-up quality low; broadband expensive (2018)<br><br><strong>domestic: </strong>fixed-line 2 per 100 and mobile-cellular teledensity 77 telephones per 100 persons (2019)<br><br><strong>international: </strong>country code - 239; landing points for the Ultramar GE and ACE submarine cables&nbsp;from South Africa&nbsp;to over 20&nbsp;West African countries and Europe; satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)",
+          "content": "<strong>general assessment: </strong>local telephone network of adequate quality with most lines connected to digital switches; mobile cellular superior choice to landland; dial-up quality low; broadband expensive (2018)<br><br><strong>domestic: </strong>fixed-line 2 per 100 and mobile-cellular teledensity 77 telephones per 100 persons (2019)<br><br><strong>international: </strong>country code - 239; landing points for the Ultramar GE and ACE submarine cables&nbsp;from South Africa&nbsp;to over 20&nbsp;West African countries and Europe; satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2412,7 +2707,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2503,8 +2798,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "S9 (2016)",
-          "info_date": "2016"
+          "content": "S9"
         },
         {
           "name": "Airports",
@@ -2630,15 +2924,35 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Armed Forces of Sao Tome and Principe (Forcas Armadas de Sao Tome e Principe, FASTP): Army, Coast Guard of Sao Tome e Principe (Guarda Costeira de Sao Tome e Principe, GCSTP; also called \"Navy\"), Presidential Guard, National Guard (2019)",
-          "info_date": "2019"
+          "content": "Armed Forces of Sao Tome and Principe (Forcas Armadas de Sao Tome e Principe, FASTP): Army, Coast Guard of Sao Tome e Principe (Guarda Costeira de Sao Tome e Principe, GCSTP; also called \"Navy\"), Presidential Guard, National Guard (2021)",
+          "info_date": "2021"
+        },
+        {
+          "name": "Military and security service personnel strengths",
+          "field_id": 410,
+          "comparative": false,
+          "content": "the FASTP has approximately 4-500 personnel (2020)",
+          "info_date": "2020"
+        },
+        {
+          "name": "Military equipment inventories and acquisitions",
+          "field_id": 411,
+          "comparative": false,
+          "content": "the FASTP is lightly and poorly armed (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18 is the legal minimum age for compulsory military service; 17 is the legal minimum age for voluntary service (2012)",
-          "info_date": "2012"
+          "content": "18 is the legal minimum age for compulsory military service; 17 is the legal minimum age for voluntary service (2019)",
+          "info_date": "2019"
+        },
+        {
+          "name": "Maritime threats",
+          "field_id": 334,
+          "comparative": false,
+          "content": "the International Maritime Bureau reports the territorial and offshore waters in the Niger Delta and Gulf of Guinea remain a very high risk for piracy and armed robbery of ships; in 2020, there were 98 reported incidents of piracy and armed robbery at sea in the Gulf of Guinea region; although a 24% decrease from the total number of incidents in 2019, it included all three hijackings and 9 of 11 ships fired upon worldwide; while boarding and attempted boarding to steal valuables from ships and crews are the most common types of incidents, almost a third of all incidents involve a hijacking and/or kidnapping; in 2020, a record 130 crew members were kidnapped in 22 separate incidents in the Gulf of Guinea, representing 95% of kidnappings worldwide; approximately 51% of all incidents of piracy and armed robbery are taking place off Nigeria, which is a decrease from the 71% in 2019 and an indication pirates are traveling further to target vessels; Nigerian pirates are well armed and very aggressive, operating as far as 200 nm offshore; the Maritime Administration of the US Department of Transportation has issued a Maritime Advisory (2021-002 - Gulf of Guinea-Piracy/Armed Robbery/Kidnapping for Ransom) effective 9 January 2021, which states in part, \"Piracy, armed robbery, and kidnapping for ransom continue to serve as significant threats to US-flagged vessels transiting or operating in the Gulf of Guinea.&rdquo;"
         }
       ]
     },

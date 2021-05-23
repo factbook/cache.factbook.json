@@ -2,8 +2,8 @@
   "name": "San Marino",
   "code": "SM",
   "region": "Europe",
-  "published": "2021-02-23 06:52:26 -0500",
-  "updated": "2021-02-16 15:49:38 -0500",
+  "published": "2021-05-05 12:44:50 -0400",
+  "updated": "2021-05-03 10:22:52 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/SM-map.jpg"
+      "src": "/attachments/maps/SM-map.jpg",
+      "caption": "San Marino map showing the major population centers in this microstate surrounded by Italy."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/SM_001.jpg?1528324795",
+      "src": "/attachments/images/original/SM_001.jpg",
       "category": "Space",
       "alt": "With an area of just 61 sq km (23.5 sq mi), San Marino is the third-smallest country in Europe, behind Monaco and the Holy See. Located in the northern part of the Italian Peninsula, near the Adriatic Sea, this tiny nation is surrounded by Italy.This satellite picture of San Marino shows a combination of vegetation (bright green); and buildings, pavement, and bare rock (blue-gray to white). Purplish-gray polygons are probably fallow agricultural land. Overhead, fluffy white clouds cast their charcoal-colored shadows over the land surface. The Apennine Mountains give the region a rough terrain, and the limestone Monte Titano dominates the area, with a fort perched on each of the mountain's three summits. According to legend, San Marino is the world's oldest surviving republic, dating back to 301. The original city sits atop Monte Titano. Today, however, development has spread throughout the republic, evidenced by the many areas of blue-gray and the meandering roads. Tourism has brought prosperity to this small republic, but historically, its rugged terrain and lack of wealth may have helped it escape the unwanted attention of potential invaders. Image courtesy of NASA.",
       "caption": "With an area of just 61 sq km (23.5 sq mi), San Marino is the third-smallest country in Europe, behind Monaco and the Holy See. Located in the northern part of the Italian Peninsula, near the Adriatic Sea, this tiny nation is surrounded by Italy.This satellite picture of San Marino shows a combination of vegetation (bright green); and buildings, pavement, and bare rock (blue-gray to white). Purplish-gray polygons are probably fallow agricultural land. Overhead, fluffy white clouds cast their charcoal-colored shadows over the land surface. The Apennine Mountains give the region a rough terrain, and the limestone Monte Titano dominates the area, with a fort perched on each of the mountain's three summits. According to legend, San Marino is the world's oldest surviving republic, dating back to 301. The original city sits atop Monte Titano. Today, however, development has spread throughout the republic, evidenced by the many areas of blue-gray and the meandering roads. Tourism has brought prosperity to this small republic, but historically, its rugged terrain and lack of wealth may have helped it escape the unwanted attention of potential invaders. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 540.0,
-        "width": 540.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 87693,
+      "dimensions": "540x540",
+      "file_size": 82219,
       "position": 0
     }
   ],
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/SM_area.jpg?1548685601",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/SM_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>about one-third the size of Washington, DC</p>",
+              "position": 0
             }
           ]
         },
@@ -170,19 +168,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Torrente Ausa 55 m<br><br><strong>highest point: </strong>Monte Titano 739 m",
+          "content": "<strong>highest point: </strong>Monte Titano 739 m<br><br><strong>lowest point: </strong>Torrente Ausa 55 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Torrente Ausa 55 m",
-              "value": "Torrente Ausa 55 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Monte Titano 739 m",
               "value": "Monte Titano 739 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Torrente Ausa 55 m",
+              "value": "Torrente Ausa 55 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -266,32 +264,6 @@
           "field_id": 292,
           "comparative": false,
           "content": "occasional earthquakes"
-        },
-        {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "air pollution; urbanization decreasing rural farmlands; water shortage"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Desertification, Whaling<br><br><strong>signed, but not ratified: </strong>Air Pollution",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Desertification, Whaling",
-              "value": "Biodiversity, Climate Change, Desertification, Whaling",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "Air Pollution",
-              "value": "Air Pollution",
-              "title": "signed, but not ratified"
-            }
-          ]
         },
         {
           "name": "Geography - note",
@@ -403,9 +375,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/SM_popgraph2021.pdf?1613508577",
-              "alt": "San Marino population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/SM_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for San Marino. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -484,30 +458,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>97.5% of total population (2020)<br><br><strong>rate of urbanization: </strong>0.67% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>97.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.41% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "97.5% of total population (2020)",
+              "content": "97.6% of total population (2021)",
               "title": "urban population",
-              "value": "97.5",
+              "value": "97.6",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "0.67% annual rate of change (2015-20 est.)",
+              "content": "0.41% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "0.67",
+              "value": "0.41",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_SM.pdf?1602852774",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_SM.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -865,6 +841,214 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "air pollution; urbanization decreasing rural farmlands; water shortage"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Nuclear Test Ban, Ozone Layer Protection, Whaling<br><br><strong>signed, but not ratified: </strong>Air Pollution",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Nuclear Test Ban, Ozone Layer Protection, Whaling",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Nuclear Test Ban, Ozone Layer Protection, Whaling",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "Air Pollution",
+              "value": "Air Pollution",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>13.45 micrograms per cubic meter (2016 est.)<br><br><strong>methane emissions: </strong>0.02 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "13.45 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "13.45",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "methane emissions",
+              "content": "0.02 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "0.02",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "Mediterranean; mild to cool winters; warm, sunny summers"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>16.7% (2018 est.)<br><br>arable land: 16.7% (2018 est.)<br><br>permanent crops: 0% (2018 est.)<br><br>permanent pasture: 0% (2018 est.)<br><br><strong>forest: </strong>0% (2018 est.)<br><br><strong>other: </strong>83.3% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "16.7% (2018 est.)",
+              "title": "agricultural land",
+              "value": "16.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 16.7% (2018 est.)",
+              "value": "16.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0% (2018 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 0% (2018 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "0% (2018 est.)",
+              "title": "forest",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "83.3% (2018 est.)",
+              "title": "other",
+              "value": "83.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>97.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.41% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "97.6% of total population (2021)",
+              "title": "urban population",
+              "value": "97.6",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.41% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.41",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_SM.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>17,175 tons (2016 est.)<br><br><strong>municipal solid waste recycled annually: </strong>7,737 tons (2016 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>45.1% (2016 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "17,175 tons (2016 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "17,175",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "tons"
+            },
+            {
+              "name": "municipal solid waste recycled annually",
+              "content": "7,737 tons (2016 est.)",
+              "title": "municipal solid waste recycled annually",
+              "value": "7,737",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "45.1% (2016 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "45.1",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -916,7 +1100,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>San Marino (city)<br><br><strong>geographic coordinates: </strong>43 56 N, 12 25 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1hr, begins last Sunday in March; ends last Sunday in October",
+          "content": "<strong>name: </strong>San Marino (city)<br><br><strong>geographic coordinates: </strong>43 56 N, 12 25 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1hr, begins last Sunday in March; ends last Sunday in October<br><br><strong>etymology:</strong> named after Saint MARINUS, who in A.D. 301 founded a monastic settlement around which the city and later the state of San Marino coalesced",
           "subfields": [
             {
               "name": "name",
@@ -943,7 +1127,7 @@
               "title": "daylight saving time"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> named after Saint MARINUS, who in A.D. 301 founded a monastic settlement around which the city and later the state of San Marino coalesced"
+          "field_note": "<strong>etymology:</strong> named after Saint MARINUS, who in A.D. 301 founded a monastic settlement around which the city and later the state of San Marino coalesced"
         },
         {
           "name": "Administrative divisions",
@@ -967,12 +1151,12 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong><p>San Marino&rsquo;s principal legislative instruments consist of old customs (antiche consuetudini), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (antichi statute) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974; Declaration last amended 2019</p><br><br><strong>amendments: </strong>proposed by the Great and General Council; passage requires two-thirds majority Council vote; Council passage by absolute majority vote also requires passage in a referendum; Declaration of Civil Rights amended several times, last in 2019",
+          "content": "<strong>history: </strong><p>San Marino&rsquo;s principal legislative instruments consist of old customs (antiche consuetudini), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (antichi statute) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974 </p><br><br><strong>amendments: </strong>proposed by the Great and General Council; passage requires two-thirds majority Council vote; Council passage by absolute majority vote also requires passage in a referendum; Declaration of Civil Rights amended several times, last in 2019",
           "subfields": [
             {
               "name": "history",
-              "content": "<p>San Marino&rsquo;s principal legislative instruments consist of old customs (antiche consuetudini), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (antichi statute) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974; Declaration last amended 2019</p>",
-              "value": "<p>San Marino&rsquo;s principal legislative instruments consist of old customs (antiche consuetudini), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (antichi statute) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974; Declaration last amended 2019</p>",
+              "content": "<p>San Marino&rsquo;s principal legislative instruments consist of old customs (antiche consuetudini), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (antichi statute) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974 </p>",
+              "value": "<p>San Marino&rsquo;s principal legislative instruments consist of old customs (antiche consuetudini), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (antichi statute) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974 </p>",
               "title": "history"
             },
             {
@@ -1037,7 +1221,7 @@
           "name": "Executive branch",
           "field_id": 312,
           "comparative": false,
-          "content": "<strong>chief of state: </strong>co-chiefs of state Captain Regent Alessandro CARDELLI and Captain Regent Mirko DOLCINI (for the period 1 October 2020 - 31 March 2021)<br><br><strong>head of government: </strong>Secretary of State for Foreign and Political Affairs Luca BECCARI (since 8 January 2020)<br><br><strong>cabinet: </strong>Congress of State elected by the Grand and General Council<br><br><strong>elections/appointments: </strong>co-chiefs of state (captains regent) indirectly elected by the Grand and General Council for a single 6-month term; election last held in March 2020 (next to be held in September 2020); secretary of state for foreign and political affairs indirectly elected by the Grand and General Council for a single 5-year term; election last held on 28 December 2019 (next to be held by November 2024)<br><br><strong>election results: </strong>Alessandro MANCINI (PSD)&nbsp;and Grazia ZAFFERANI&nbsp;(RETE Movement) elected captains regent; percent of Grand and General Council vote - NA; Luca BECCARI (PDCS) elected secretary of state for foreign and political affairs; percent of Grand and General Council vote - NA",
+          "content": "<strong>chief of state: </strong>co-chiefs of state Captain Regent Alessandro CARDELLI and Captain Regent Mirko DOLCINI (for the period 1 October 2020 - 31 March 2021)<br><br><strong>head of government: </strong>Secretary of State for Foreign and Political Affairs Luca BECCARI (since 8 January 2020)<br><br><strong>cabinet: </strong>Congress of State elected by the Grand and General Council<br><br><strong>elections/appointments: </strong>co-chiefs of state (captains regent) indirectly elected by the Grand and General Council for a single 6-month term; election last held in March 2020 (next to be held in September 2020); secretary of state for foreign and political affairs indirectly elected by the Grand and General Council for a single 5-year term; election last held on 28 December 2019 (next to be held by November 2024)<br><br><strong>election results: </strong>Alessandro MANCINI (PSD)&nbsp;and Grazia ZAFFERANI&nbsp;(RETE Movement) elected captains regent; percent of Grand and General Council vote - NA; Luca BECCARI (PDCS) elected secretary of state for foreign and political affairs; percent of Grand and General Council vote - NA<br><br><strong>note:</strong> the captains regent preside over meetings of the Grand and General Council and its cabinet (Congress of State), which has&nbsp;7 other members who are selected by the Grand and General Council; assisting the captains regent are&nbsp;7 secretaries of state; the secretary of state for Foreign Affairs has some prime ministerial roles",
           "subfields": [
             {
               "name": "chief of state",
@@ -1070,7 +1254,7 @@
               "title": "election results"
             }
           ],
-          "field_note": "<p><strong>note:</strong> the captains regent preside over meetings of the Grand and General Council and its cabinet (Congress of State), which has&nbsp;7 other members who are selected by the Grand and General Council; assisting the captains regent are&nbsp;7 secretaries of state; the secretary of state for Foreign Affairs has some prime ministerial roles</p>"
+          "field_note": "<strong>note:</strong> the captains regent preside over meetings of the Grand and General Council and its cabinet (Congress of State), which has&nbsp;7 other members who are selected by the Grand and General Council; assisting the captains regent are&nbsp;7 secretaries of state; the secretary of state for Foreign Affairs has some prime ministerial roles"
         },
         {
           "name": "Legislative branch",
@@ -1198,7 +1382,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Inno Nazionale della Repubblica\" (National Anthem of the Republic)<br><br><strong>lyrics/music: </strong>no lyrics/Federico CONSOLO",
+          "content": "<strong>name: </strong>\"Inno Nazionale della Repubblica\" (National Anthem of the Republic)<br><br><strong>lyrics/music: </strong>no lyrics/Federico CONSOLO<br><br><strong>note:</strong> adopted 1894; the music for the lyric-less anthem is based on a 10th century chorale piece",
           "subfields": [
             {
               "name": "name",
@@ -1213,7 +1397,7 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1894; the music for the lyric-less anthem is based on a 10th century chorale piece</p>"
+          "field_note": "<strong>note:</strong> adopted 1894; the music for the lyric-less anthem is based on a 10th century chorale piece"
         }
       ]
     },
@@ -1297,7 +1481,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$2.008 billion (2018 est.)<br><br>$2.064 billion (2017 est.)<br><br>$1.982 billion (2017 est.)",
+          "content": "$2.008 billion (2018 est.)<br><br>$2.064 billion (2017 est.)<br><br>$1.982 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2018",
@@ -1321,7 +1505,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1337,7 +1521,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$59,439 (2018 est.)<br><br>$59,000 (2017 est.)<br><br>$58,867 (2017 est.)",
+          "content": "$59,439 (2018 est.)<br><br>$59,000 (2017 est.)<br><br>$58,867 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2018",
@@ -1361,7 +1545,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -1464,13 +1648,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "97.5 (2020)",
+          "content": "<strong>Overall score: </strong>64.2 (2020)<br><br><strong>Starting a Business score: </strong>87.3 (2020)<br><br><strong>Trading score: </strong>97.5 (2020)<br><br><strong>Enforcement score: </strong>59.2 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
+              "content": "64.2 (2020)",
+              "title": "Overall score",
+              "value": "64.2",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "87.3 (2020)",
+              "title": "Starting a Business score",
+              "value": "87.3",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
               "content": "97.5 (2020)",
+              "title": "Trading score",
               "value": "97.5",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "59.2 (2020)",
+              "title": "Enforcement score",
+              "value": "59.2",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1705,10 +1915,18 @@
           ]
         },
         {
+          "name": "Exports - partners",
+          "field_id": 241,
+          "comparative": false,
+          "content": "Romania 10%, France 9%, United States 8%, Germany 8%, Poland 6%, Brazil 6%, Russia 6%, Austria 6% (2019)",
+          "info_date": "2019"
+        },
+        {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "building stone, lime, wood, chestnuts, wheat, wine, baked goods, hides, ceramics"
+          "content": "industrial washing/bottling machinery, packaged medicines, woodworking machinery, foodstuffs, aircraft (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -1733,10 +1951,18 @@
           ]
         },
         {
+          "name": "Imports - partners",
+          "field_id": 403,
+          "comparative": false,
+          "content": "Germany 21%, Italy 13%, Poland 10%, France 7%, Spain 7%, Belgium 6%, Romania 6% (2019)",
+          "info_date": "2019"
+        },
+        {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "wide variety of consumer manufactures, food, energy"
+          "content": "electricity, cars, aluminum, footwear, natural gas, iron piping (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -1885,7 +2111,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>automatic telephone system completely integrated into Italian system (2018)<br><br><strong>domestic: </strong>fixed-line 47 per 100 and mobile-cellular teledensity 114 telephones per 100 persons (2019)<br><br><strong>international: </strong>country code - 378; connected to Italian international network",
+          "content": "<strong>general assessment: </strong>automatic telephone system completely integrated into Italian system (2018)<br><br><strong>domestic: </strong>fixed-line 47 per 100 and mobile-cellular teledensity 114 telephones per 100 persons (2019)<br><br><strong>international: </strong>country code - 378; connected to Italian international network<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -1909,7 +2135,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -1979,8 +2205,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "T7 (2016)",
-          "info_date": "2016"
+          "content": "T7"
         },
         {
           "name": "Roadways",
@@ -2018,8 +2243,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "No regular military forces; Voluntary Military Corps (Corpi Militari), which includes a Uniformed Militia (performs ceremonial duties and limited police support functions) and Guard of the Great and General Council (defends the Captains Regent and the Great and General Council, participates in official ceremonies, cooperates with the maintenance of public order on special occasions, and performs guard duties during parliamentary sittings); the Police Corps includes the Gendarmerie, which is responsible for maintaining public order, protecting citizens and their property, and providing assistance during disasters (2019)",
-          "info_date": "2019"
+          "content": "No regular military forces; Voluntary Military Corps (Corpi Militari), which includes a Uniformed Militia (performs ceremonial duties and limited police support functions) and Guard of the Great and General Council (defends the Captains Regent and the Great and General Council, participates in official ceremonies, cooperates with the maintenance of public order on special occasions, and performs guard duties during parliamentary sittings); the Police Corps includes the Gendarmerie, which is responsible for maintaining public order, protecting citizens and their property, and providing assistance during disasters (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military service age and obligation",

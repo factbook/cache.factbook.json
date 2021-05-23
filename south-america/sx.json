@@ -2,8 +2,8 @@
   "name": "South Georgia and South Sandwich Islands",
   "code": "SX",
   "region": "South America",
-  "published": "2021-02-24 12:35:11 -0500",
-  "updated": "2021-02-17 12:05:09 -0500",
+  "published": "2021-05-05 12:45:50 -0400",
+  "updated": "2021-05-03 13:35:54 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/SX-map.jpg"
+      "src": "/attachments/maps/SX-map.jpg",
+      "caption": "South Georgia and South Sandwich Islands map showing the islands that make up this UK territory in the South Atlantic Ocean."
     },
     {
       "type": "locator-map",
@@ -20,17 +21,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/SX_001_large.jpg?1528324974",
+      "src": "/attachments/images/original/SX_001_large.jpg",
       "category": "Space",
       "alt": "An oblique view of the rugged and isolated landscape on the northern shore of South Georgia Island. The high mountains protect the north and eastern coast of the island from the prevailing gales coming from Antarctica and the west. The steep topography also makes deep embayments along the coast that provide habitat for wildlife and anchorages for whaling ships. The island supports major rookeries of penguins and albatrosses, and large seal populations. This view centers on Mt. Paget and Cumberland Bay. Image courtesy of NASA.",
       "caption": "An oblique view of the rugged and isolated landscape on the northern shore of South Georgia Island. The high mountains protect the north and eastern coast of the island from the prevailing gales coming from Antarctica and the west. The steep topography also makes deep embayments along the coast that provide habitat for wildlife and anchorages for whaling ships. The island supports major rookeries of penguins and albatrosses, and large seal populations. This view centers on Mt. Paget and Cumberland Bay. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 423.0,
-        "width": 639.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 51304,
+      "dimensions": "639x423",
+      "file_size": 48961,
       "position": 0
     }
   ],
@@ -73,7 +69,7 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>3,903 sq km<br><br><strong>land: </strong>3,903 sq km<br><br><strong>water: </strong>0 sq km",
+          "content": "<strong>total: </strong>3,903 sq km<br><br><strong>land: </strong>3,903 sq km<br><br><strong>water: </strong>0 sq km<br><br><strong>note:</strong> includes Shag Rocks, Black Rock, Clerke Rocks, South Georgia Island, Bird Island, and the South Sandwich Islands, which consist of 11 islands",
           "subfields": [
             {
               "name": "total",
@@ -97,7 +93,7 @@
               "suffix": "sq km"
             }
           ],
-          "field_note": "<p><strong>note:</strong> includes Shag Rocks, Black Rock, Clerke Rocks, South Georgia Island, Bird Island, and the South Sandwich Islands, which consist of 11 islands</p>"
+          "field_note": "<strong>note:</strong> includes Shag Rocks, Black Rock, Clerke Rocks, South Georgia Island, Bird Island, and the South Sandwich Islands, which consist of 11 islands"
         },
         {
           "name": "Area - comparative",
@@ -166,19 +162,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Mount Paget (South Georgia) 2,934 m",
+          "content": "<strong>highest point: </strong>Mount Paget (South Georgia) 2,934 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Atlantic Ocean 0 m",
-              "value": "Atlantic Ocean 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Mount Paget (South Georgia) 2,934 m",
               "value": "Mount Paget (South Georgia) 2,934 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Atlantic Ocean 0 m",
+              "value": "Atlantic Ocean 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -222,12 +218,6 @@
           "content": "the South Sandwich Islands have prevailing weather conditions that generally make them difficult to approach by ship; they are also subject to active volcanism"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "reindeer - introduced to the islands in the 20th century - devastated the native flora and bird species; some reindeer were translocated to the Falkland Islands in 2001, the rest were exterminated (2013-14); a parallel effort (2010-15) eradicated rats and mice that came to the islands as stowaways on ships as early as the late 18th century"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -243,11 +233,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "no indigenous inhabitants (July 2021 est.)",
+          "content": "no indigenous inhabitants (July 2021 est.)<br><br><strong>note:</strong> the small military garrison on South Georgia withdrew in March 2001, replaced by a permanent group of scientists of the British Antarctic Survey, which also has a biological station on Bird Island; the South Sandwich Islands are uninhabited",
           "estimated": true,
           "info_date": "July 2021",
           "subfield_note": "no indigenous inhabitants",
-          "field_note": "<p><strong>note:</strong> the small military garrison on South Georgia withdrew in March 2001, replaced by a permanent group of scientists of the British Antarctic Survey, which also has a biological station on Bird Island; the South Sandwich Islands are uninhabited</p>"
+          "field_note": "<strong>note:</strong> the small military garrison on South Georgia withdrew in March 2001, replaced by a permanent group of scientists of the British Antarctic Survey, which also has a biological station on Bird Island; the South Sandwich Islands are uninhabited"
         },
         {
           "name": "Net migration rate",
@@ -258,6 +248,41 @@
           "estimated": true,
           "info_date": "2021",
           "suffix": "migrant(s)/1,000 population"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "reindeer - introduced to the islands in the 20th century - devastated the native flora and bird species; some reindeer were translocated to the Falkland Islands in 2001, the rest were exterminated (2013-14); a parallel effort (2010-15) eradicated rats and mice that came to the islands as stowaways on ships as early as the late 18th century"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "variable, with mostly westerly winds throughout the year interspersed with periods of calm; nearly all precipitation falls as snow"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>other: </strong>100% (2018 est.)",
+          "subfields": [
+            {
+              "name": "other",
+              "content": "100% (2018 est.)",
+              "title": "other",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
         }
       ]
     },

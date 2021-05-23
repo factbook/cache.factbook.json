@@ -2,8 +2,8 @@
   "name": "Burundi",
   "code": "BY",
   "region": "Africa",
-  "published": "2021-02-24 12:15:53 -0500",
-  "updated": "2021-02-24 10:38:38 -0500",
+  "published": "2021-05-12 12:04:28 -0400",
+  "updated": "2021-05-11 11:55:28 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/BY-map.jpg"
+      "src": "/attachments/maps/BY-map.jpg",
+      "caption": "Burundi map showing major cities as well as parts of surrounding countries."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/BY_001.jpg?1528323295",
+      "src": "/attachments/images/original/BY_001.jpg",
       "category": "Space",
       "alt": "This vegetation anomaly satellite image distinguishes healthy and drought-withered vegetation ringing Lake Victoria. Regions that are drier than normal are brown, while areas with thicker, healthier vegetation are green. In large swaths of Tanzania, Rwanda, Uganda, and Kenya dark brown stressed areas prevail. In Burundi, the situation appears less dire. Photo courtesy of NASA.",
       "caption": "This vegetation anomaly satellite image distinguishes healthy and drought-withered vegetation ringing Lake Victoria. Regions that are drier than normal are brown, while areas with thicker, healthier vegetation are green. In large swaths of Tanzania, Rwanda, Uganda, and Kenya dark brown stressed areas prevail. In Burundi, the situation appears less dire. Photo courtesy of NASA.",
-      "dimensions": {
-        "height": 585.0,
-        "width": 540.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 94506,
+      "dimensions": "540x585",
+      "file_size": 88426,
       "position": 0
     }
   ],
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/BY_area.jpg?1562684244",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/BY_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>slightly smaller than Maryland</p>",
+              "position": 0
             }
           ]
         },
@@ -170,14 +168,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>1,504 m<br><br><strong>lowest point: </strong>Lake Tanganyika 772 m<br><br><strong>highest point: </strong>Heha 2,670 m",
+          "content": "<strong>highest point: </strong>Heha 2,670 m<br><br><strong>lowest point: </strong>Lake Tanganyika 772 m<br><br><strong>mean elevation: </strong>1,504 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "1,504 m",
-              "title": "mean elevation",
-              "value": "1,504",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Heha 2,670 m",
+              "value": "Heha 2,670 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -186,10 +183,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Heha 2,670 m",
-              "value": "Heha 2,670 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "1,504 m",
+              "title": "mean elevation",
+              "value": "1,504",
+              "suffix": "m"
             }
           ]
         },
@@ -281,32 +279,6 @@
           "content": "flooding; landslides; drought"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "soil erosion as a result of overgrazing and the expansion of agriculture into marginal lands; deforestation (little forested land remains because of uncontrolled cutting of trees for fuel); habitat loss threatens wildlife populations"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Wetlands<br><br><strong>signed, but not ratified: </strong>Law of the Sea",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Wetlands",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Wetlands",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "Law of the Sea",
-              "value": "Law of the Sea",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -322,11 +294,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "12,241,065 (July 2021 est.)",
+          "content": "12,241,065 (July 2021 est.)<br><br><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected",
           "value": "12,241,065",
           "estimated": true,
           "info_date": "July 2021",
-          "field_note": "<p><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected</p>"
+          "field_note": "<strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected"
         },
         {
           "name": "Nationality",
@@ -358,9 +330,9 @@
           "name": "Languages",
           "field_id": 402,
           "comparative": false,
-          "content": "Kirundi only 29.7% (official); French only .3% (official); Swahili only .2%; English only .1% (official); Kirundi and French 8.4%; Kirundi, French, and English 2.4%, other language combinations 2%, unspecified 56.9% (2008 est.)",
+          "content": "Kirundi only 29.7% (official); French only .3% (official); Swahili only .2%; English only .1% (official); Kirundi and French 8.4%; Kirundi, French, and English 2.4%, other language combinations 2%, unspecified 56.9% (2008 est.)<br><br><strong>note:</strong> data represent languages read and written by people 10 years of age or older; spoken Kirundi is nearly universal",
           "info_date": "2008 est.",
-          "field_note": "<p><strong>note:</strong> data represent languages read and written by people 10 years of age or older; spoken Kirundi is nearly universal</p>"
+          "field_note": "<strong>note:</strong> data represent languages read and written by people 10 years of age or older; spoken Kirundi is nearly universal"
         },
         {
           "name": "Religions",
@@ -426,9 +398,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/BY_popgraph2021.pdf?1613491941",
-              "alt": "Burundi population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/BY_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Burundi. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -547,30 +521,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>13.7% of total population (2020)<br><br><strong>rate of urbanization: </strong>5.68% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>14.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>5.43% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "13.7% of total population (2020)",
+              "content": "14.1% of total population (2021)",
               "title": "urban population",
-              "value": "13.7",
+              "value": "14.1",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "5.68% annual rate of change (2015-20 est.)",
+              "content": "5.43% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "5.68",
+              "value": "5.43",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_BY.pdf?1602786851",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_BY.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -644,12 +620,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "21.3 years (2010 est.)",
+          "content": "21.3 years (2010 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "21.3",
           "estimated": true,
           "info_date": "2010",
           "suffix": "years",
-          "field_note": "<p><strong>note:</strong> median age at first birth among women 25-29</p>"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -954,8 +930,8 @@
           "name": "Children under the age of 5 years underweight",
           "field_id": 368,
           "comparative": true,
-          "content": "27.2% (2018/19)",
-          "value": "27.2",
+          "content": "27% (2018/19)",
+          "value": "27",
           "estimated": false,
           "info_date": "2018/19",
           "suffix": "%"
@@ -1072,6 +1048,325 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "soil erosion as a result of overgrazing and the expansion of agriculture into marginal lands; deforestation (little forested land remains because of uncontrolled cutting of trees for fuel); habitat loss threatens wildlife populations"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Wetlands<br><br><strong>signed, but not ratified: </strong>Law of the Sea, Nuclear Test Ban",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Wetlands",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Wetlands",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "Law of the Sea, Nuclear Test Ban",
+              "value": "Law of the Sea, Nuclear Test Ban",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>35.61 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>0.5 megatons (2016 est.)<br><br><strong>methane emissions: </strong>1.42 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "35.61 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "35.61",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "0.5 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "0.5",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "1.42 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "1.42",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>43.1 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>15 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>222 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "43.1 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "43,100,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "15 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "15,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "222 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "222,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "12.536 billion cubic meters (2017 est.)",
+          "value": "12,536,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "equatorial; high plateau with considerable altitude variation (772 m to 2,670 m above sea level); average annual temperature varies with altitude from 23 to 17 degrees Celsius but is generally moderate as the average altitude is about 1,700 m; average annual rainfall is about 150 cm; two wet seasons (February to May and September to November), and two dry seasons (June to August and December to January)"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>73.3% (2018 est.)<br><br>arable land: 38.9% (2018 est.)<br><br>permanent crops: 15.6% (2018 est.)<br><br>permanent pasture: 18.8% (2018 est.)<br><br><strong>forest: </strong>6.6% (2018 est.)<br><br><strong>other: </strong>20.1% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "73.3% (2018 est.)",
+              "title": "agricultural land",
+              "value": "73.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 38.9% (2018 est.)",
+              "value": "38.9",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 15.6% (2018 est.)",
+              "value": "15.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 18.8% (2018 est.)",
+              "value": "18.8",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "6.6% (2018 est.)",
+              "title": "forest",
+              "value": "6.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "20.1% (2018 est.)",
+              "title": "other",
+              "value": "20.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>10.31% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "10.31% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "10.31",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>14.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>5.43% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "14.1% of total population (2021)",
+              "title": "urban population",
+              "value": "14.1",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "5.43% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "5.43",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_BY.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial and protozoal diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria and dengue fever<br><br><strong>water contact diseases: </strong>schistosomiasis<br><br><strong>animal contact diseases: </strong>rabies",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "very high (2020)",
+              "value": "very high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "malaria and dengue fever",
+              "value": "malaria and dengue fever",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "schistosomiasis",
+              "value": "schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "animal contact diseases",
+              "content": "rabies",
+              "value": "rabies",
+              "title": "animal contact diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Food insecurity",
+          "field_id": 418,
+          "comparative": false,
+          "content": "<strong>widespread lack of access: </strong>due to floods, and landslides - about 1.33 million people were estimated to be severely food insecure in the October‑December 2020 period, mainly due to livelihood losses caused by floods and landslides, and as a result of the socio‑economic impact of the pandemic on the livelihoods of vulnerable households; torrential rains in April 2020 triggered flooding and landslides in several areas, affecting about 45,000 people and resulting in displacements, loss of life, and damage to infrastructure (2021)",
+          "subfields": [
+            {
+              "name": "widespread lack of access",
+              "content": "due to floods, and landslides - about 1.33 million people were estimated to be severely food insecure in the October‑December 2020 period, mainly due to livelihood losses caused by floods and landslides, and as a result of the socio‑economic impact of the pandemic on the livelihoods of vulnerable households; torrential rains in April 2020 triggered flooding and landslides in several areas, affecting about 45,000 people and resulting in displacements, loss of life, and damage to infrastructure (2021)",
+              "value": "due to floods, and landslides - about 1.33 million people were estimated to be severely food insecure in the October‑December 2020 period, mainly due to livelihood losses caused by floods and landslides, and as a result of the socio‑economic impact of the pandemic on the livelihoods of vulnerable households; torrential rains in April 2020 triggered flooding and landslides in several areas, affecting about 45,000 people and resulting in displacements, loss of life, and damage to infrastructure",
+              "title": "widespread lack of access",
+              "info_date": "(2021)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>1,872,016 tons (2002 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "1,872,016 tons (2002 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "1,872,016",
+              "estimated": true,
+              "info_date": "2002",
+              "suffix": "tons"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -1129,12 +1424,12 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Gitega (political capital), Bujumbura (commercial capital); note - in January 2019, the Burundian parliament voted to make Gitega the political capital of the country while Bujumbura would remain its economic capital; all branches of the government are expected to have moved from Bujumbura to Gitega by 2021<br><br><strong>geographic coordinates: </strong>3 25 S, 29 55 E<br><br><strong>time difference: </strong>UTC+2 (7 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Gitega (political capital), Bujumbura (commercial capital); note - in January 2019, the Burundian parliament voted to make Gitega the political capital of the country while Bujumbura would remain its economic capital; all branches of the government are expected to have moved from Bujumbura to Gitega by 2022<br><br><strong>geographic coordinates: </strong>3 25 S, 29 55 E<br><br><strong>time difference: </strong>UTC+2 (7 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:&nbsp;</strong>the naming origins for both Gitega and Bujumbura are obscure; Bujumbura's name prior to independence in 1962 was Usumbura",
           "subfields": [
             {
               "name": "name",
-              "content": "Gitega (political capital), Bujumbura (commercial capital); note - in January 2019, the Burundian parliament voted to make Gitega the political capital of the country while Bujumbura would remain its economic capital; all branches of the government are expected to have moved from Bujumbura to Gitega by 2021",
-              "value": "Gitega (political capital), Bujumbura (commercial capital); note - in January 2019, the Burundian parliament voted to make Gitega the political capital of the country while Bujumbura would remain its economic capital; all branches of the government are expected to have moved from Bujumbura to Gitega by 2021",
+              "content": "Gitega (political capital), Bujumbura (commercial capital); note - in January 2019, the Burundian parliament voted to make Gitega the political capital of the country while Bujumbura would remain its economic capital; all branches of the government are expected to have moved from Bujumbura to Gitega by 2022",
+              "value": "Gitega (political capital), Bujumbura (commercial capital); note - in January 2019, the Burundian parliament voted to make Gitega the political capital of the country while Bujumbura would remain its economic capital; all branches of the government are expected to have moved from Bujumbura to Gitega by 2022",
               "title": "name"
             },
             {
@@ -1150,7 +1445,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:&nbsp;</strong>the naming origins for both Gitega and Bujumbura are obscure; Bujumbura's name prior to independence in 1962 was Usumbura"
+          "field_note": "<strong>etymology:&nbsp;</strong>the naming origins for both Gitega and Bujumbura are obscure; Bujumbura's name prior to independence in 1962 was Usumbura"
         },
         {
           "name": "Administrative divisions",
@@ -1174,12 +1469,12 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>several previous; latest ratified by referendum 28 February 2005<br><br><strong>amendments: </strong>proposed by the president of the republic after consultation with the government or by absolute majority support of the membership in both houses of Parliament; passage requires at least two-thirds majority vote by the Senate membership and at least four-fifths majority vote by the National Assembly; the president can opt to submit amendment bills to a referendum; constitutional articles including those on national unity, the secularity of Burundi, its democratic form of government, and its sovereignty cannot be amended; amended 2018 (amendments extended the presidential term from 5 to 7 years, reintroduced the position of prime minister, and reduced the number of&nbsp;vice presidents from 2 to 1)",
+          "content": "<strong>history: </strong>several previous, ratified by referendum 28 February 2005<br><br><strong>amendments: </strong>proposed by the president of the republic after consultation with the government or by absolute majority support of the membership in both houses of Parliament; passage requires at least two-thirds majority vote by the Senate membership and at least four-fifths majority vote by the National Assembly; the president can opt to submit amendment bills to a referendum; constitutional articles including those on national unity, the secularity of Burundi, its democratic form of government, and its sovereignty cannot be amended; amended 2018 (amendments extended the presidential term from 5 to 7 years, reintroduced the position of prime minister, and reduced the number of&nbsp;vice presidents from 2 to 1)",
           "subfields": [
             {
               "name": "history",
-              "content": "several previous; latest ratified by referendum 28 February 2005",
-              "value": "several previous; latest ratified by referendum 28 February 2005",
+              "content": "several previous, ratified by referendum 28 February 2005",
+              "value": "several previous, ratified by referendum 28 February 2005",
               "title": "history"
             },
             {
@@ -1346,12 +1641,12 @@
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong>Ambassador S.E. Gandence SINDAYIGAYA (since 20 September 2019)<br><br><strong>chancery: </strong>2233 Wisconsin Avenue NW, Suite 408, Washington, DC 20007<br><br><strong>telephone: </strong>[1] (202) 342-2574<br><br><strong>FAX: </strong>[1] (202) 342-2578",
+          "content": "<strong>chief of mission: </strong>Ambassador (vacant); Charge d'Affaires Aimable NIYONKURU (since 24 December 2020)<br><br><strong>chancery: </strong>2233 Wisconsin Avenue NW, Suite 408, Washington, DC 20007<br><br><strong>telephone: </strong>[1] (202) 342-2574<br><br><strong>FAX: </strong>[1] (202) 342-2578",
           "subfields": [
             {
               "name": "chief of mission",
-              "content": "Ambassador S.E. Gandence SINDAYIGAYA (since 20 September 2019)",
-              "value": "Ambassador S.E. Gandence SINDAYIGAYA (since 20 September 2019)",
+              "content": "Ambassador (vacant); Charge d'Affaires Aimable NIYONKURU (since 24 December 2020)",
+              "value": "Ambassador (vacant); Charge d'Affaires Aimable NIYONKURU (since 24 December 2020)",
               "title": "chief of mission"
             },
             {
@@ -1428,7 +1723,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Burundi Bwacu\" (Our Beloved Burundi)<br><br><strong>lyrics/music: </strong>Jean-Baptiste NTAHOKAJA/Marc BARENGAYABO",
+          "content": "<strong>name: </strong>\"Burundi Bwacu\" (Our Beloved Burundi)<br><br><strong>lyrics/music: </strong>Jean-Baptiste NTAHOKAJA/Marc BARENGAYABO<br><br><strong>note:</strong> adopted 1962",
           "subfields": [
             {
               "name": "name",
@@ -1443,7 +1738,7 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1962</p>"
+          "field_note": "<strong>note:</strong> adopted 1962"
         }
       ]
     },
@@ -1519,7 +1814,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$8.667 billion (2019 est.)<br><br>$8.51 billion (2018 est.)<br><br>$8.375 billion (2017 est.)",
+          "content": "$8.667 billion (2019 est.)<br><br>$8.51 billion (2018 est.)<br><br>$8.375 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1543,7 +1838,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1559,7 +1854,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$752 (2019 est.)<br><br>$762 (2018 est.)<br><br>$774 (2017 est.)",
+          "content": "$752 (2019 est.)<br><br>$762 (2018 est.)<br><br>$774 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1583,7 +1878,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1715,13 +2010,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "46.8 (2020)",
+          "content": "<strong>Overall score: </strong>46.8 (2020)<br><br><strong>Starting a Business score: </strong>92.9 (2020)<br><br><strong>Trading score: </strong>47.3 (2020)<br><br><strong>Enforcement score: </strong>43 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
               "content": "46.8 (2020)",
+              "title": "Overall score",
               "value": "46.8",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "92.9 (2020)",
+              "title": "Starting a Business score",
+              "value": "92.9",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "47.3 (2020)",
+              "title": "Trading score",
+              "value": "47.3",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "43 (2020)",
+              "title": "Enforcement score",
+              "value": "43",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1967,14 +2288,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "Democratic Republic of the Congo 25.5%, Switzerland 18.4%, UAE 14.9%, Belgium 6% (2017)",
-          "info_date": "2017"
+          "content": "United Arab Emirates 50%, Democratic Republic of the Congo 7% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "coffee, tea, sugar, cotton, hides"
+          "content": "gold, coffee, tea, raw earth metal ores, wheat flours (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2009,14 +2331,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "India 18.5%, China 13%, Kenya 7.9%, UAE 6.8%, Saudi Arabia 6.8%, Uganda 6%, Tanzania 5.4%, Zambia 4.6% (2017)",
-          "info_date": "2017"
+          "content": "China 14%, Saudi Arabia 14%, India 9%, Kenya 7%, United Arab Emirates 7%, Tanzania 5%, Zambia 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "capital goods, petroleum products, foodstuffs"
+          "content": "refined petroleum, packaged medicines, cement, raw sugar, cars (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2365,16 +2688,6 @@
           "estimated": true,
           "info_date": "1 January 2014",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "217,000 Mt (2017 est.)",
-          "value": "217,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2431,7 +2744,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>with&nbsp;the great population density Burundi remains one of the most&nbsp;alluring telecom markets in Africa for investors; the government in early 2018&nbsp;began the Burundi Broadband project, which&nbsp;plans to deliver nationwide connectivity by 2025; mobile operators have launched 3G and LTE mobile services to capitalize on the&nbsp;expanding demand for Internet access; mobile penetration is at 52%, and remains low by regional standards; future plans to privatize the national telecoms (2020)<br><br><strong>domestic: </strong>telephone density one of the lowest in the world; fixed-line connections stand at well less than 1 per 100 persons; mobile-cellular usage is 58 per 100 persons (2019)<br><br><strong>international: </strong>country code - 257; satellite earth station - 1 Intelsat (Indian Ocean); the government, supported by the Word Bank, has backed a joint venture with a number of prominent telecoms to build a national fiber backbone network, offering onward connectivity to submarine cable infrastructure landings in Kenya and Tanzania (2019)",
+          "content": "<strong>general assessment: </strong>with&nbsp;the great population density Burundi remains one of the most&nbsp;alluring telecom markets in Africa for investors; the government in early 2018&nbsp;began the Burundi Broadband project, which&nbsp;plans to deliver nationwide connectivity by 2025; mobile operators have launched 3G and LTE mobile services to capitalize on the&nbsp;expanding demand for Internet access; mobile penetration is at 52%, and remains low by regional standards; future plans to privatize the national telecoms (2020)<br><br><strong>domestic: </strong>telephone density one of the lowest in the world; fixed-line connections stand at well less than 1 per 100 persons; mobile-cellular usage is 58 per 100 persons (2019)<br><br><strong>international: </strong>country code - 257; satellite earth station - 1 Intelsat (Indian Ocean); the government, supported by the Word Bank, has backed a joint venture with a number of prominent telecoms to build a national fiber backbone network, offering onward connectivity to submarine cable infrastructure landings in Kenya and Tanzania (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2455,7 +2768,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2526,8 +2839,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "9U (2016)",
-          "info_date": "2016"
+          "content": "9U"
         },
         {
           "name": "Airports",
@@ -2677,8 +2989,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "National Defense Forces (Forces de Defense Nationale, FDN): Army (includes maritime wing, air wing), National Police (Police Nationale du Burundi) (2019)",
-          "info_date": "2019"
+          "content": "National Defense Forces (Forces de Defense Nationale, FDN): Army (includes maritime wing, air wing), National Police (Police Nationale du Burundi) (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military expenditures",
@@ -2727,8 +3039,8 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the National Defense Forces (FDN) have approximately 25,000 active duty Army troops (includes small air and maritime wings) (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the National Defense Forces (FDN) have approximately 25,000 active duty troops, the majority of which are ground forces (2020.)",
+          "info_date": "2020."
         },
         {
           "name": "Military equipment inventories and acquisitions",
@@ -2741,15 +3053,15 @@
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "750 Central African Republic (MINUSCA); 5,400 Somalia (AMISOM) (2020)",
-          "info_date": "2020"
+          "content": "750 Central African Republic (MINUSCA); 5,400 Somalia (AMISOM) (Feb 2021)",
+          "info_date": "Feb 2021"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18 years of age for voluntary military service; the armed forces law of 31 December 2004 did not specify a minimum age for enlistment, but the government claimed that no one younger than 18 was being recruited; mandatory retirement ages: 45 (enlisted), 50 (NCOs), 55 (officers), and 60 (officers with the rank of general) (2017)",
-          "info_date": "2017"
+          "content": "18 years of age for voluntary military service; the armed forces law of 31 December 2004 did not specify a minimum age for enlistment, but the government claimed that no one younger than 18 was being recruited (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Military - note",
@@ -2774,12 +3086,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>79,406 (Democratic Republic of the Congo) (refugees and asylum seekers) (2020)<br><br><strong>IDPs: </strong>135,058 (some ethnic Tutsis remain displaced from intercommunal violence that broke out after the 1,993 coup and fighting between government forces and rebel groups; violence since April 2015) (2020)<br><br><strong>stateless persons: </strong>974 (2019)",
+          "content": "<strong>refugees (country of origin): </strong>79,662 (Democratic Republic of the Congo) (refugees and asylum seekers) (2021)<br><br><strong>IDPs: </strong>135,058 (some ethnic Tutsis remain displaced from intercommunal violence that broke out after the 1,993 coup and fighting between government forces and rebel groups; violence since April 2015) (2020)<br><br><strong>stateless persons: </strong>974 (2019)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "79,406 (Democratic Republic of the Congo) (refugees and asylum seekers) (2020)",
-              "value": "79,406 (Democratic Republic of the Congo) (refugees and asylum seekers) (2020)",
+              "content": "79,662 (Democratic Republic of the Congo) (refugees and asylum seekers) (2021)",
+              "value": "79,662 (Democratic Republic of the Congo) (refugees and asylum seekers) (2021)",
               "title": "refugees (country of origin)"
             },
             {

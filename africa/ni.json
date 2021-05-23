@@ -2,8 +2,8 @@
   "name": "Nigeria",
   "code": "NI",
   "region": "Africa",
-  "published": "2021-02-24 12:31:17 -0500",
-  "updated": "2021-02-24 07:10:37 -0500",
+  "published": "2021-05-05 12:40:40 -0400",
+  "updated": "2021-05-04 16:07:12 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/NI-map.jpg"
+      "src": "/attachments/maps/NI-map.jpg",
+      "caption": "Nigeria map showing major cities as well as parts of surrounding countries and the Gulf of Guinea."
     },
     {
       "type": "locator-map",
@@ -99,8 +100,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/NI_area.jpg?1548768917",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/NI_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>about six times the size of Georgia; slightly more than twice the size of California</p.",
+              "position": 0
             }
           ]
         },
@@ -178,14 +181,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>380 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Chappal Waddi 2,419 m",
+          "content": "<strong>highest point: </strong>Chappal Waddi 2,419 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>mean elevation: </strong>380 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "380 m",
-              "title": "mean elevation",
-              "value": "380",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Chappal Waddi 2,419 m",
+              "value": "Chappal Waddi 2,419 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -194,10 +196,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Chappal Waddi 2,419 m",
-              "value": "Chappal Waddi 2,419 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "380 m",
+              "title": "mean elevation",
+              "value": "380",
+              "suffix": "m"
             }
           ]
         },
@@ -289,32 +292,6 @@
           "content": "periodic droughts; flooding"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "serious overpopulation and rapid urbanization have led to numerous environmental problems; urban air and water pollution; rapid deforestation; soil degradation; loss of arable land; oil pollution - water, air, and soil have suffered serious damage from oil spills"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -330,11 +307,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "219,463,862 (July 2021 est.)",
+          "content": "219,463,862 (July 2021 est.)<br><br><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected",
           "value": "219,463,862",
           "estimated": true,
           "info_date": "July 2021",
-          "field_note": "<p><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected</p>"
+          "field_note": "<strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected"
         },
         {
           "name": "Nationality",
@@ -360,9 +337,9 @@
           "name": "Ethnic groups",
           "field_id": 400,
           "comparative": false,
-          "content": "Hausa 30%, Yoruba 15.5%, Igbo (Ibo) 15.2%, Fulani 6%, Tiv 2.4%, Kanuri/Beriberi 2.4%, Ibibio 1.8%, Ijaw/Izon 1.8%, other 24.7% (2018 est.)",
+          "content": "Hausa 30%, Yoruba 15.5%, Igbo (Ibo) 15.2%, Fulani 6%, Tiv 2.4%, Kanuri/Beriberi 2.4%, Ibibio 1.8%, Ijaw/Izon 1.8%, other 24.7% (2018 est.)<br><br><strong>note:</strong> Nigeria, Africa's most populous country, is composed of more than 250 ethnic groups",
           "info_date": "2018 est.",
-          "field_note": "<br><br><strong>note:</strong> Nigeria, Africa's most populous country, is composed of more than 250 ethnic groups"
+          "field_note": "<strong>note:</strong> Nigeria, Africa's most populous country, is composed of more than 250 ethnic groups"
         },
         {
           "name": "Languages",
@@ -434,9 +411,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/NI_popgraph2021.pdf?1613507124",
-              "alt": "Nigeria population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/NI_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Nigeria. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -555,30 +534,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>52% of total population (2020)<br><br><strong>rate of urbanization: </strong>4.23% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>52.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.92% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "52% of total population (2020)",
+              "content": "52.7% of total population (2021)",
               "title": "urban population",
-              "value": "52",
+              "value": "52.7",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "4.23% annual rate of change (2015-20 est.)",
+              "content": "3.92% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "4.23",
+              "value": "3.92",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_NI.pdf?1602851004",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_NI.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -652,12 +633,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "20.3 years (2013 est.)",
+          "content": "20.3 years (2013 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "20.3",
           "estimated": true,
           "info_date": "2013",
           "suffix": "years",
-          "field_note": "<p><strong>note:</strong> median age at first birth among women 25-29</p>"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -899,7 +880,7 @@
           "name": "Major infectious diseases",
           "field_id": 366,
           "comparative": false,
-          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria, dengue fever, and yellow fever<br><br><strong>water contact diseases: </strong>leptospirosis and schistosomiasis<br><br><strong>animal contact diseases: </strong>rabies<br><br><strong>respiratory diseases: </strong>meningococcal meningitis<br><br><strong>aerosolized dust or soil contact diseases: </strong>Lassa fever",
+          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria, dengue fever, and yellow fever<br><br><strong>water contact diseases: </strong>leptospirosis and schistosomiasis<br><br><strong>animal contact diseases: </strong>rabies<br><br><strong>respiratory diseases: </strong>meningococcal meningitis<br><br><strong>aerosolized dust or soil contact diseases: </strong>Lassa fever<br><br><strong>note:</strong> on 7 October 2019, the Centers for Disease Control and Prevention issued a Travel Health Notice for a Yellow Fever outbreak in Nigeria;&nbsp;a large, ongoing outbreak of yellow fever in Nigeria began in September 2017; the outbreak is now spread throughout the country with the Nigerian Ministry of Health reporting cases of the disease in all 36 states and the Federal Capital Territory; the CDC recommends travelers going to Nigeria should receive vaccination against yellow fever at least 10 days before travel and should take steps to prevent mosquito bites while there; those never vaccinated against yellow fever should avoid travel to Nigeria during the outbreak<br /><strong>note:</strong> widespread ongoing transmission of a respiratory illness caused by the novel coronavirus (COVID-19) is occurring throughout Nigeria; as of 25 April 2021, Nigeria has reported a total of 164,684 cases of COVID-19 or 79.9 cumulative cases of COVID-19 per 100,000 population with 1 cumulative death per 100,000 population; as of 6 April 2021, .5% of the population has received at least one dose of COVID-19 vaccine",
           "subfields": [
             {
               "name": "degree of risk",
@@ -951,7 +932,7 @@
               "info_date": "(2020)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> on 7 October 2019, the Centers for Disease Control and Prevention issued a Travel Health Notice for a Yellow Fever outbreak in Nigeria;&nbsp;a large, ongoing outbreak of yellow fever in Nigeria began in September 2017; the outbreak is now spread throughout the country with the Nigerian Ministry of Health reporting cases of the disease in all 36 states and the Federal Capital Territory; the CDC recommends travelers going to Nigeria should receive vaccination against yellow fever at least 10 days before travel and should take steps to prevent mosquito bites while there; those never vaccinated against yellow fever should avoid travel to Nigeria during the outbreak<br /><strong>note:</strong> widespread ongoing transmission of a respiratory illness caused by the novel coronavirus (COVID-19) is occurring throughout Nigeria; as of 24 January 2021, Nigeria has reported a total of 120,602 cases of COVID-19 or 58.5 cumulative cases of COVID-19 per 100,000 population with 0.7 cumulative deaths per 100,000 population; as of 19 March 2020, the Government of Nigeria has restricted entry into Nigeria for travelers from the following high incidence countries: China, Italy, Iran, Norway, South Korea, Spain, Japan, France, Germany, US, UK, Netherlands, and Switzerland"
+          "field_note": "<strong>note:</strong> on 7 October 2019, the Centers for Disease Control and Prevention issued a Travel Health Notice for a Yellow Fever outbreak in Nigeria;&nbsp;a large, ongoing outbreak of yellow fever in Nigeria began in September 2017; the outbreak is now spread throughout the country with the Nigerian Ministry of Health reporting cases of the disease in all 36 states and the Federal Capital Territory; the CDC recommends travelers going to Nigeria should receive vaccination against yellow fever at least 10 days before travel and should take steps to prevent mosquito bites while there; those never vaccinated against yellow fever should avoid travel to Nigeria during the outbreak<br /><strong>note:</strong> widespread ongoing transmission of a respiratory illness caused by the novel coronavirus (COVID-19) is occurring throughout Nigeria; as of 25 April 2021, Nigeria has reported a total of 164,684 cases of COVID-19 or 79.9 cumulative cases of COVID-19 per 100,000 population with 1 cumulative death per 100,000 population; as of 6 April 2021, .5% of the population has received at least one dose of COVID-19 vaccine"
         },
         {
           "name": "Obesity - adult prevalence rate",
@@ -967,10 +948,10 @@
           "name": "Children under the age of 5 years underweight",
           "field_id": 368,
           "comparative": true,
-          "content": "21.8% (2018)",
-          "value": "21.8",
+          "content": "18.4% (2019/20)",
+          "value": "18.4",
           "estimated": false,
-          "info_date": "2018",
+          "info_date": "2019/20",
           "suffix": "%"
         },
         {
@@ -1053,32 +1034,366 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>13.8%<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA (2016 est.)",
+          "content": "<strong>total: </strong>18.3%<br><br><strong>male: </strong>18.4% NA<br><br><strong>female: </strong>18.2% NA (2019 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "13.8%",
+              "content": "18.3%",
               "title": "total",
-              "value": "13.8",
+              "value": "18.3",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "NA",
+              "content": "18.4% NA",
               "title": "male",
-              "value": "13.8",
+              "value": "18.4",
               "suffix": "%",
               "subfield_note": "NA"
             },
             {
               "name": "female",
-              "content": "NA (2016 est.)",
+              "content": "18.2% NA (2019 est.)",
               "title": "female",
-              "value": "13.8",
+              "value": "18.2",
               "estimated": true,
-              "info_date": "2016",
+              "info_date": "2019",
               "suffix": "%",
               "subfield_note": "NA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "serious overpopulation and rapid urbanization have led to numerous environmental problems; urban air and water pollution; rapid deforestation; soil degradation; loss of arable land; oil pollution - water, air, and soil have suffered serious damage from oil spills"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>Tropical Timber 2006",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "Tropical Timber 2006",
+              "value": "Tropical Timber 2006",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>48.73 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>120.37 megatons (2016 est.)<br><br><strong>methane emissions: </strong>143.99 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "48.73 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "48.73",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "120.37 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "120.37",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "143.99 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "143.99",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>5 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>1.965 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>5.51 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "5 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "5,000,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "1.965 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "1,965,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "5.51 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "5,510,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "286.2 billion cubic meters (2017 est.)",
+          "value": "286,200,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "varies; equatorial in south, tropical in center, arid in north"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>78% (2018 est.)<br><br>arable land: 37.3% (2018 est.)<br><br>permanent crops: 7.4% (2018 est.)<br><br>permanent pasture: 33.3% (2018 est.)<br><br><strong>forest: </strong>9.5% (2018 est.)<br><br><strong>other: </strong>12.5% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "78% (2018 est.)",
+              "title": "agricultural land",
+              "value": "78",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 37.3% (2018 est.)",
+              "value": "37.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 7.4% (2018 est.)",
+              "value": "7.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 33.3% (2018 est.)",
+              "value": "33.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "9.5% (2018 est.)",
+              "title": "forest",
+              "value": "9.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "12.5% (2018 est.)",
+              "title": "other",
+              "value": "12.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>1.02% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "1.02% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "1.02",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>52.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.92% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "52.7% of total population (2021)",
+              "title": "urban population",
+              "value": "52.7",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "3.92% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "3.92",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_NI.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria, dengue fever, and yellow fever<br><br><strong>water contact diseases: </strong>leptospirosis and schistosomiasis<br><br><strong>animal contact diseases: </strong>rabies<br><br><strong>respiratory diseases: </strong>meningococcal meningitis<br><br><strong>aerosolized dust or soil contact diseases: </strong>Lassa fever<br><br><strong>note:</strong> on 7 October 2019, the Centers for Disease Control and Prevention issued a Travel Health Notice for a Yellow Fever outbreak in Nigeria;&nbsp;a large, ongoing outbreak of yellow fever in Nigeria began in September 2017; the outbreak is now spread throughout the country with the Nigerian Ministry of Health reporting cases of the disease in all 36 states and the Federal Capital Territory; the CDC recommends travelers going to Nigeria should receive vaccination against yellow fever at least 10 days before travel and should take steps to prevent mosquito bites while there; those never vaccinated against yellow fever should avoid travel to Nigeria during the outbreak<br /><strong>note:</strong> widespread ongoing transmission of a respiratory illness caused by the novel coronavirus (COVID-19) is occurring throughout Nigeria; as of 25 April 2021, Nigeria has reported a total of 164,684 cases of COVID-19 or 79.9 cumulative cases of COVID-19 per 100,000 population with 1 cumulative death per 100,000 population; as of 6 April 2021, .5% of the population has received at least one dose of COVID-19 vaccine",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "very high (2020)",
+              "value": "very high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever",
+              "value": "bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "malaria, dengue fever, and yellow fever",
+              "value": "malaria, dengue fever, and yellow fever",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "leptospirosis and schistosomiasis",
+              "value": "leptospirosis and schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "animal contact diseases",
+              "content": "rabies",
+              "value": "rabies",
+              "title": "animal contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "respiratory diseases",
+              "content": "meningococcal meningitis",
+              "value": "meningococcal meningitis",
+              "title": "respiratory diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "aerosolized dust or soil contact diseases",
+              "content": "Lassa fever",
+              "value": "Lassa fever",
+              "title": "aerosolized dust or soil contact diseases",
+              "info_date": "(2020)"
+            }
+          ],
+          "field_note": "<strong>note:</strong> on 7 October 2019, the Centers for Disease Control and Prevention issued a Travel Health Notice for a Yellow Fever outbreak in Nigeria;&nbsp;a large, ongoing outbreak of yellow fever in Nigeria began in September 2017; the outbreak is now spread throughout the country with the Nigerian Ministry of Health reporting cases of the disease in all 36 states and the Federal Capital Territory; the CDC recommends travelers going to Nigeria should receive vaccination against yellow fever at least 10 days before travel and should take steps to prevent mosquito bites while there; those never vaccinated against yellow fever should avoid travel to Nigeria during the outbreak<br /><strong>note:</strong> widespread ongoing transmission of a respiratory illness caused by the novel coronavirus (COVID-19) is occurring throughout Nigeria; as of 25 April 2021, Nigeria has reported a total of 164,684 cases of COVID-19 or 79.9 cumulative cases of COVID-19 per 100,000 population with 1 cumulative death per 100,000 population; as of 6 April 2021, .5% of the population has received at least one dose of COVID-19 vaccine"
+        },
+        {
+          "name": "Food insecurity",
+          "field_id": 418,
+          "comparative": false,
+          "content": "<strong>widespread lack of access: </strong>due to persistent civil conflict in the northern areas - according to an October 2020 analysis, about 9.8 million people were estimated to be in need of external food assistance from October to December 2020, a significant increase from the estimated 4 million people in same months in 2019; the higher prevalence of food insecurity mainly reflected the adverse effects of measures to contain the COVID‑19 pandemic on the supply chain, the escalation of armed and community conflicts, some localized cereal production shortfalls in 2020, the unfavorable macro‑economic conditions, and high food prices; the areas most affected by food insecurity are Adamawa, Borno, and Yobe states (2021)",
+          "subfields": [
+            {
+              "name": "widespread lack of access",
+              "content": "due to persistent civil conflict in the northern areas - according to an October 2020 analysis, about 9.8 million people were estimated to be in need of external food assistance from October to December 2020, a significant increase from the estimated 4 million people in same months in 2019; the higher prevalence of food insecurity mainly reflected the adverse effects of measures to contain the COVID‑19 pandemic on the supply chain, the escalation of armed and community conflicts, some localized cereal production shortfalls in 2020, the unfavorable macro‑economic conditions, and high food prices; the areas most affected by food insecurity are Adamawa, Borno, and Yobe states (2021)",
+              "value": "due to persistent civil conflict in the northern areas - according to an October 2020 analysis, about 9.8 million people were estimated to be in need of external food assistance from October to December 2020, a significant increase from the estimated 4 million people in same months in 2019; the higher prevalence of food insecurity mainly reflected the adverse effects of measures to contain the COVID‑19 pandemic on the supply chain, the escalation of armed and community conflicts, some localized cereal production shortfalls in 2020, the unfavorable macro‑economic conditions, and high food prices; the areas most affected by food insecurity are Adamawa, Borno, and Yobe states",
+              "title": "widespread lack of access",
+              "info_date": "(2021)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>27,614,830 tons (2009 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "27,614,830 tons (2009 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "27,614,830",
+              "estimated": true,
+              "info_date": "2009",
+              "suffix": "tons"
             }
           ]
         }
@@ -1124,7 +1439,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Abuja<br><br><strong>geographic coordinates: </strong>9 05 N, 7 32 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Abuja<br><br><strong>geographic coordinates: </strong>9 05 N, 7 32 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> Abuja is a planned capital city, it replaced Lagos in 1991; situated in the center of the country, Abuja takes its name from a nearby town, now renamed Suleja",
           "subfields": [
             {
               "name": "name",
@@ -1145,7 +1460,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> Abuja is a planned capital city, it replaced Lagos in 1991; situated in the center of the country, Abuja takes its name from a nearby town, now renamed Suleja"
+          "field_note": "<strong>etymology:</strong> Abuja is a planned capital city, it replaced Lagos in 1991; situated in the center of the country, Abuja takes its name from a nearby town, now renamed Suleja"
         },
         {
           "name": "Administrative divisions",
@@ -1341,12 +1656,12 @@
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong>Ambassador Sylvanus Adiewere NSOFOR (since 29 November 2017)<br><br><strong>chancery: </strong>3519 International Court NW, Washington, DC 20008<br><br><strong>telephone: </strong>[1] (202) 516-4277<br><br><strong>FAX: </strong>[1] (202) 362-6541<br><br><strong>consulate(s) general: </strong>Atlanta, New York",
+          "content": "<strong>chief of mission: </strong>Ambassador (vacant); Charge d'Affaires Jane Bassey ADAMS (since 2 December 2020)<br><br><strong>chancery: </strong>3519 International Court NW, Washington, DC 20008<br><br><strong>telephone: </strong>[1] (202) 516-4277<br><br><strong>FAX: </strong>[1] (202) 362-6541<br><br><strong>consulate(s) general: </strong>Atlanta, New York",
           "subfields": [
             {
               "name": "chief of mission",
-              "content": "Ambassador Sylvanus Adiewere NSOFOR (since 29 November 2017)",
-              "value": "Ambassador Sylvanus Adiewere NSOFOR (since 29 November 2017)",
+              "content": "Ambassador (vacant); Charge d'Affaires Jane Bassey ADAMS (since 2 December 2020)",
+              "value": "Ambassador (vacant); Charge d'Affaires Jane Bassey ADAMS (since 2 December 2020)",
               "title": "chief of mission"
             },
             {
@@ -1435,7 +1750,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>Arise Oh Compatriots, Nigeria's Call Obey<br><br><strong>lyrics/music: </strong>John A. ILECHUKWU, Eme Etim AKPAN, B.A. OGUNNAIKE, Sotu OMOIGUI and P.O. ADERIBIGBE/Benedict Elide ODIASE",
+          "content": "<strong>name: </strong>Arise Oh Compatriots, Nigeria's Call Obey<br><br><strong>lyrics/music: </strong>John A. ILECHUKWU, Eme Etim AKPAN, B.A. OGUNNAIKE, Sotu OMOIGUI and P.O. ADERIBIGBE/Benedict Elide ODIASE<br><br><strong>note:</strong> adopted 1978; lyrics are a mixture of the five top entries in a national contest",
           "subfields": [
             {
               "name": "name",
@@ -1450,12 +1765,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1978; lyrics are a mixture of the five top entries in a national contest</p>",
+          "field_note": "<strong>note:</strong> adopted 1978; lyrics are a mixture of the five top entries in a national contest",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/NI.mp3?1538604757",
-              "alt": "National Anthem audio file for Nigeria"
+              "src": "/attachments/audios/original/NI.mp3",
+              "alt": "National Anthem audio file for Nigeria",
+              "caption": "This is an audio of the National Anthem for Nigeria. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1562,7 +1879,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$1,032,048,000,000 (2019 est.)<br><br>$1,009,748,000,000 (2018 est.)<br><br>$990.7 billion (2017 est.)",
+          "content": "$1,032,048,000,000 (2019 est.)<br><br>$1,009,748,000,000 (2018 est.)<br><br>$990.7 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1586,7 +1903,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1602,7 +1919,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$5,136 (2019 est.)<br><br>$5,155 (2018 est.)<br><br>$5,190 (2017 est.)",
+          "content": "$5,136 (2019 est.)<br><br>$5,155 (2018 est.)<br><br>$5,190 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1626,7 +1943,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1758,13 +2075,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "86.2 (2020)",
+          "content": "<strong>Overall score: </strong>56.9 (2020)<br><br><strong>Starting a Business score: </strong>86.2 (2020)<br><br><strong>Trading score: </strong>29.2 (2020)<br><br><strong>Enforcement score: </strong>61.5 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
+              "content": "56.9 (2020)",
+              "title": "Overall score",
+              "value": "56.9",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
               "content": "86.2 (2020)",
+              "title": "Starting a Business score",
               "value": "86.2",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "29.2 (2020)",
+              "title": "Trading score",
+              "value": "29.2",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "61.5 (2020)",
+              "title": "Enforcement score",
+              "value": "61.5",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1856,10 +2199,10 @@
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "70% (2010 est.)",
-          "value": "70",
+          "content": "40.1% (2018 est.)",
+          "value": "40.1",
           "estimated": true,
-          "info_date": "2010",
+          "info_date": "2018",
           "suffix": "%"
         },
         {
@@ -2026,15 +2369,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "India 30.6%, US 12.1%, Spain 6.6%, China 5.6%, France 5.5%, Netherlands 4.4%, Indonesia 4.4% (2017)",
-          "info_date": "2017"
+          "content": "India 16%, Spain 10%, United States 7%, France 7%, Netherlands 6% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "petroleum and petroleum products 95%, cocoa, rubber (2012 est.)",
-          "info_date": "2012 est."
+          "content": "crude petroleum, natural gas, scrap vessels, flexible metal tubing, cocoa beans (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2062,14 +2405,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "China 21.1%, Belgium 8.7%, US 8.4%, South Korea 7.5%, UK 4.4% (2017)",
-          "info_date": "2017"
+          "content": "China 30%, Netherlands 11%, United States 6%, Belgium 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "machinery, chemicals, transport equipment, manufactured goods, food and live animals"
+          "content": "refined petroleum, cars, wheat, laboratory glassware, packaged medicines (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2418,16 +2762,6 @@
           "estimated": true,
           "info_date": "1 January 2018",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "104 million Mt (2017 est.)",
-          "value": "104,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2484,7 +2818,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>one of the larger telecom markets in Africa; most Internet connections are via mobile networks; foreign investment presence, particularly China; market competition; LTE-A technologies available but GSM technology dominate; mobile penetration rate of 123% and 173 million subscribers; unified licensing regime; government committed to&nbsp;expanding broadband penetration; in Q1 2018, the Nigerian Communications Commission approved seven licenses to telecom companies to deploy fiber optic cable in the six geopolitical zones and Lagos; operators invest in base stations to take care of network congestion (2020)<br><br><strong>domestic: </strong>fixed-line subscribership remains less than 1 per 100 persons; mobile-cellular services growing rapidly, in part responding to the shortcomings of the fixed-line network; multiple cellular providers operate nationally with subscribership base over 88 per 100 persons (2019)<br><br><strong>international: </strong>country code - 234; landing point for the SAT-3/WASC, NCSCS,&nbsp; MainOne, Glo-1 &amp; 2, ACE, and Equiano&nbsp;fiber-optic submarine cable that provides connectivity to Europe and South and West Africa; satellite earth stations - 3 Intelsat (2 Atlantic Ocean and 1 Indian Ocean) (2019)",
+          "content": "<strong>general assessment: </strong>one of the larger telecom markets in Africa; most Internet connections are via mobile networks; foreign investment presence, particularly China; market competition; LTE-A technologies available but GSM technology dominate; mobile penetration rate of 123% and 173 million subscribers; unified licensing regime; government committed to&nbsp;expanding broadband penetration; in Q1 2018, the Nigerian Communications Commission approved seven licenses to telecom companies to deploy fiber optic cable in the six geopolitical zones and Lagos; operators invest in base stations to take care of network congestion (2020)<br><br><strong>domestic: </strong>fixed-line subscribership remains less than 1 per 100 persons; mobile-cellular services growing rapidly, in part responding to the shortcomings of the fixed-line network; multiple cellular providers operate nationally with subscribership base over 88 per 100 persons (2019)<br><br><strong>international: </strong>country code - 234; landing point for the SAT-3/WASC, NCSCS,&nbsp; MainOne, Glo-1 &amp; 2, ACE, and Equiano&nbsp;fiber-optic submarine cable that provides connectivity to Europe and South and West Africa; satellite earth stations - 3 Intelsat (2 Atlantic Ocean and 1 Indian Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2508,7 +2842,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2618,8 +2952,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "5N (2016)",
-          "info_date": "2016"
+          "content": "5N"
         },
         {
           "name": "Airports",
@@ -2753,7 +3086,7 @@
           "name": "Railways",
           "field_id": 384,
           "comparative": true,
-          "content": "<strong>total: </strong>3,798 km (2014)<br><br><strong>standard gauge: </strong>293 km 1.435-m gauge (2014)<br><br><strong>narrow gauge: </strong>3,505 km 1.067-m gauge (2014)",
+          "content": "<strong>total: </strong>3,798 km (2014)<br><br><strong>standard gauge: </strong>293 km 1.435-m gauge (2014)<br><br><strong>narrow gauge: </strong>3,505 km 1.067-m gauge (2014)<br><br><strong>note:</strong> as of the end of 2018, there were only six operational locomotives in Nigeria primarily used for passenger service; the majority of the rail lines are in a severe state of disrepair and need to be replaced",
           "subfields": [
             {
               "name": "total",
@@ -2785,7 +3118,7 @@
               "subfield_note": "1.067-m gauge"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> as of the end of 2018, there were only six operational locomotives in Nigeria primarily used for passenger service; the majority of the rail lines are in a severe state of disrepair and need to be replaced"
+          "field_note": "<strong>note:</strong> as of the end of 2018, there were only six operational locomotives in Nigeria primarily used for passenger service; the majority of the rail lines are in a severe state of disrepair and need to be replaced"
         },
         {
           "name": "Roadways",
@@ -2884,8 +3217,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Nigerian Armed Forces: Army, Navy (includes Coast Guard), Air Force; Ministry of Interior: Nigeria Security and Civil Defence Corps (NSCDC, a paramilitary agency commissioned to assist the military in the management of threats to internal security, including attacks and natural disasters) (2020)",
-          "info_date": "2020"
+          "content": "Nigerian Armed Forces: Army, Navy (includes Coast Guard), Air Force; Ministry of Interior: Nigeria Security and Civil Defence Corps (NSCDC, a paramilitary agency commissioned to assist the military in the management of threats to internal security, including attacks and natural disasters) (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military expenditures",
@@ -2934,42 +3267,41 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "size estimates for the Nigerian Armed Forces vary; approximately 135,000 active personnel (100,000 Army; 20,000 Navy/Coast Guard; 15,000 Air Force); est. 80,000 Security and Civil Defense Corps (2019)",
-          "info_date": "2019"
+          "content": "size estimates for the Nigerian Armed Forces vary; approximately 135,000 active personnel (100,000 Army; 20,000 Navy/Coast Guard; 15,000 Air Force); est. 80,000 Security and Civil Defense Corps (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the Nigerian Armed Forces' inventory consists of a wide variety of imported weapons systems of Chinese, European, Middle Eastern, Russian (including Soviet-era), and US origin; since 2010, the leading suppliers include China, France, Italy, Russia, South Korea, Ukraine, and the US; Nigeria has been the largest arms importer in sub-Saharan Africa since 2014; Nigeria is also developing a defense-industry capacity, including small arms, armored personnel vehicle, and small-scale naval production (2020)",
+          "content": "the Nigerian Armed Forces' inventory consists of a wide variety of imported weapons systems of Chinese, European, Middle Eastern, Russian (including Soviet-era), and US origin; since 2010, Nigeria has undertaken a considerable military modernization program, and has received equipment from some 20 countries with China, Russia, and the US as the leading suppliers; Nigeria has been the largest arms importer in sub-Saharan Africa since 2014; Nigeria is also developing a defense-industry capacity, including small arms, armored personnel vehicle, and small-scale naval production (2020)",
           "info_date": "2020"
         },
         {
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "200 Ghana (ECOMIG); MNJTF (1 brigade or approximately 3,000 troops committed; note - the national MNJTF troop contingents are deployed within their own country territories, although cross‐border operations are conducted periodically) (2020)",
-          "info_date": "2020"
+          "content": "200 Ghana (ECOMIG); MNJTF (1 brigade or approximately 3,000 troops committed; note - the national MNJTF troop contingents are deployed within their own country territories, although cross‐border operations are conducted periodically) (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18 years of age for voluntary military service; no conscription (2012)",
-          "info_date": "2012"
+          "content": "18-26 years of age for voluntary military service; no conscription (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Maritime threats",
           "field_id": 334,
           "comparative": false,
-          "content": "the International Maritime Bureau reports the territorial and offshore waters in the Niger Delta and Gulf of Guinea as very high risk for piracy and armed robbery of ships; in 2018,&nbsp;48 commercial vessels were boarded or attacked compared with&nbsp;33 attacks in 2017; in 2018, 29 ships were boarded&nbsp;eight of which were underway,&nbsp;12 were fired upon, and&nbsp;78 crew members were abducted;&nbsp;Nigerian pirates have extended the range of their attacks to as far away as Cote d'Ivoire and as far as 170 nm offshore; the Maritime Administration of the US Department of Transportation has issued a Maritime Advisory (2019-010-Gulf of Guinea-Piracy/Armed Robbery/Kidnapping for Ransom) effective 19 July 2019, which states in part \"Piracy, armed robbery, and kidnapping for ransom (KFR) continue to serve as significant threats to U.S. flagged vessels transiting or operating in the Gulf of Guinea (GoG). ...According to the Office of Naval Intelligence&rsquo;s &ldquo;Weekly Piracy Reports&rdquo;&nbsp;72 reported incidents of piracy and armed robbery at sea occurred in the GoG region this year as of July 9, 2019. Attacks, kidnappings for ransom (KFR), and boardings to steal valuables from the ships and crews are the most common types of incidents with approximately 75 percent of all incidents taking place off Nigeria. During the first six months of 2019, there were 15 kidnapping and 3 hijackings in the GoG.\""
+          "content": "<p>the International Maritime Bureau reports the territorial and offshore waters in the Niger Delta and Gulf of Guinea remain a very high risk for piracy and armed robbery of ships; in 2020, there were 98 reported incidents of piracy and armed robbery at sea in the Gulf of Guinea region; although a 24% decrease from the total number of incidents in 2019, it included all three hijackings and 9 of 11 ships fired upon worldwide; while boarding and attempted boarding to steal valuables from ships and crews are the most common types of incidents, almost a third of all incidents involve a hijacking and/or kidnapping; in 2020, a record 130 crew members were kidnapped in 22 separate incidents in the Gulf of Guinea, representing 95% of kidnappings worldwide; approximately 51% of all incidents of piracy and armed robbery are taking place off Nigeria, which is a decrease from the 71% in 2019 and an indication pirates are traveling further to target vessels; Nigerian pirates are well armed and very aggressive, operating as far as 200 nm offshore; the Maritime Administration of the US Department of Transportation has issued a Maritime Advisory (2021-002 - Gulf of Guinea-Piracy/Armed Robbery/Kidnapping for Ransom) effective 9 January 2021, which states in part, \"Piracy, armed robbery, and kidnapping for ransom continue to serve as significant threats to US-flagged vessels transiting or operating in the Gulf of Guinea.&rdquo;</p>"
         },
         {
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the Nigerian Armed Forces are used primarily for internal security operations; in the northeast, the military is conducting counterinsurgency/counter-terrorist operations against the Boko Haram (BH) and Islamic State in West Africa (ISWA) terrorist groups, where it has deployed as many as 70,000 troops at times and jihadist-related violence has killed an estimated 35,000 people, mostly civilians, since 2009 (as of Dec 2020); in the northwest, it faces threats from criminal gangs, bandits, and militants associated with ongoing farmer-herder violence, as well as BH and ISWA terrorists; the military also focuses on the Niger Delta region to protect the oil industry against militants and criminal activity, although the levels of violence there have decreased in recent years (2020)",
-          "info_date": "2020"
+          "content": "the Nigerian Armed Forces are used primarily for internal security operations; in the northeast, the military is conducting counterinsurgency/counter-terrorist operations against the Boko Haram (BH) and Islamic State in West Africa (ISWA) terrorist groups, where it has deployed as many as 70,000 troops at times and jihadist-related violence has killed an estimated 35,000 people, mostly civilians, since 2009 (as of Dec 2020); in the northwest, it faces threats from criminal gangs, bandits, and militants associated with ongoing farmer-herder violence, as well as BH and ISWA terrorists; the military also focuses on the Niger Delta region to protect the oil industry against militants and criminal activity, although the levels of violence there have decreased in recent years"
         }
       ]
     },
@@ -2981,9 +3313,9 @@
           "name": "Terrorist group(s)",
           "field_id": 413,
           "comparative": false,
-          "content": "Boko Haram; Islamic State of Iraq and ash-Sham &ndash; West Africa; Jama&rsquo;atu Ansarul Muslimina Fi Biladis-Sudan (Ansaru) (2020)",
+          "content": "Boko Haram; Islamic State of Iraq and ash-Sham &ndash; West Africa; Jama&rsquo;atu Ansarul Muslimina Fi Biladis-Sudan (Ansaru) (2020)<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../appendix/appendix-t.html\">Appendix-T</a>",
           "info_date": "2020",
-          "field_note": "<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../appendix/appendix-t.html\">Appendix-T</a>"
+          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../appendix/appendix-t.html\">Appendix-T</a>"
         }
       ]
     },
@@ -3001,18 +3333,18 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>61,774 (Cameroon) (2020)<br><br><strong>IDPs: </strong>2,896,548 (northeast Nigeria; Boko Haram attacks and counterinsurgency efforts in northern Nigeria; communal violence between Christians and Muslims in the middle belt region, political violence; flooding; forced evictions; cattle rustling; competition for resources) (2020)",
+          "content": "<strong>refugees (country of origin): </strong>66,038 (Cameroon) (2021)<br><br><strong>IDPs: </strong>2,878,931 (northeast Nigeria; Boko Haram attacks and counterinsurgency efforts in northern Nigeria; communal violence between Christians and Muslims in the middle belt region, political violence; flooding; forced evictions; cattle rustling; competition for resources) (2021)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "61,774 (Cameroon) (2020)",
-              "value": "61,774 (Cameroon) (2020)",
+              "content": "66,038 (Cameroon) (2021)",
+              "value": "66,038 (Cameroon) (2021)",
               "title": "refugees (country of origin)"
             },
             {
               "name": "IDPs",
-              "content": "2,896,548 (northeast Nigeria; Boko Haram attacks and counterinsurgency efforts in northern Nigeria; communal violence between Christians and Muslims in the middle belt region, political violence; flooding; forced evictions; cattle rustling; competition for resources) (2020)",
-              "value": "2,896,548 (northeast Nigeria; Boko Haram attacks and counterinsurgency efforts in northern Nigeria; communal violence between Christians and Muslims in the middle belt region, political violence; flooding; forced evictions; cattle rustling; competition for resources) (2020)",
+              "content": "2,878,931 (northeast Nigeria; Boko Haram attacks and counterinsurgency efforts in northern Nigeria; communal violence between Christians and Muslims in the middle belt region, political violence; flooding; forced evictions; cattle rustling; competition for resources) (2021)",
+              "value": "2,878,931 (northeast Nigeria; Boko Haram attacks and counterinsurgency efforts in northern Nigeria; communal violence between Christians and Muslims in the middle belt region, political violence; flooding; forced evictions; cattle rustling; competition for resources) (2021)",
               "title": "IDPs"
             }
           ]

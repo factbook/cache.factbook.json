@@ -2,8 +2,8 @@
   "name": "Madagascar",
   "code": "MA",
   "region": "Africa",
-  "published": "2021-02-24 12:28:20 -0500",
-  "updated": "2021-02-24 11:55:31 -0500",
+  "published": "2021-05-05 12:38:47 -0400",
+  "updated": "2021-04-30 15:41:44 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/MA-map.jpg"
+      "src": "/attachments/maps/MA-map.jpg",
+      "caption": "Madagascar map showing major cities of this island country in the Indian Ocean."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/MA_001_large.jpg?1528324447",
+      "src": "/attachments/images/original/MA_001_large.jpg",
       "category": "Space",
       "alt": "The location, widespread nature, and number of fires (outlined in red) in this satellite image suggest that these blazes were deliberately set to manage land. Farmers often use fire to return nutrients to the soil and to clear the ground of unwanted plants. While fire helps enhance crops and grasses for pasture, the fires also produce smoke that degrades air quality. In Mozambique and Madagascar, the growing season runs from the first rains in October-November. Thus, the clearing of lands in this early September image heralds the new growing season. Much of the once-green isle of Madagascar has been deforested via a combination of slash and burn agriculture for rice cultivation and doro-tanetry, a less intensive burning used to augment grass growth for cattle grazing. The fires mostly burn in grass or cropland, which is tan in this image. Photo courtesy of NASA.",
       "caption": "The location, widespread nature, and number of fires (outlined in red) in this satellite image suggest that these blazes were deliberately set to manage land. Farmers often use fire to return nutrients to the soil and to clear the ground of unwanted plants. While fire helps enhance crops and grasses for pasture, the fires also produce smoke that degrades air quality. In Mozambique and Madagascar, the growing season runs from the first rains in October-November. Thus, the clearing of lands in this early September image heralds the new growing season. Much of the once-green isle of Madagascar has been deforested via a combination of slash and burn agriculture for rice cultivation and doro-tanetry, a less intensive burning used to augment grass growth for cattle grazing. The fires mostly burn in grass or cropland, which is tan in this image. Photo courtesy of NASA.",
-      "dimensions": {
-        "height": 948.0,
-        "width": 946.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 180483,
+      "dimensions": "946x948",
+      "file_size": 171217,
       "position": 0
     }
   ],
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/MA_area.jpg?1548684982",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/MA_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>almost four times the size of Georgia; slightly less than twice the size of Arizona</p>",
+              "position": 0
             }
           ]
         },
@@ -194,14 +192,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>615 m<br><br><strong>lowest point: </strong>Indian Ocean 0 m<br><br><strong>highest point: </strong>Maromokotro 2,876 m",
+          "content": "<strong>highest point: </strong>Maromokotro 2,876 m<br><br><strong>lowest point: </strong>Indian Ocean 0 m<br><br><strong>mean elevation: </strong>615 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "615 m",
-              "title": "mean elevation",
-              "value": "615",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Maromokotro 2,876 m",
+              "value": "Maromokotro 2,876 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -210,10 +207,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Maromokotro 2,876 m",
-              "value": "Maromokotro 2,876 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "615 m",
+              "title": "mean elevation",
+              "value": "615",
+              "suffix": "m"
             }
           ]
         },
@@ -303,32 +301,6 @@
           "field_id": 292,
           "comparative": false,
           "content": "<p>periodic cyclones; drought; and locust infestation</p><p><strong>volcanism:</strong> Madagascar's volcanoes have not erupted in historical times</p>"
-        },
-        {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "erosion and soil degredation results from deforestation and overgrazing; desertification; agricultural fires; surface water contaminated with raw sewage and other organic wastes;&nbsp;wildlife preservation (endangered species of flora and fauna unique to the island)"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Life Conservation, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
         },
         {
           "name": "Geography - note",
@@ -446,9 +418,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/MA_popgraph2021.pdf?1613504748",
-              "alt": "Madagascar population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/MA_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Madagascar. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -567,30 +541,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>38.5% of total population (2020)<br><br><strong>rate of urbanization: </strong>4.48% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>39.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>4.26% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "38.5% of total population (2020)",
+              "content": "39.2% of total population (2021)",
               "title": "urban population",
-              "value": "38.5",
+              "value": "39.2",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "4.48% annual rate of change (2015-20 est.)",
+              "content": "4.26% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "4.48",
+              "value": "4.26",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_MA.pdf?1602850065",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_MA.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -664,12 +640,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "19.5 years (2008/09 est.)",
+          "content": "19.5 years (2008/09 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "19.5",
           "estimated": true,
           "info_date": "2008/09",
           "suffix": "years",
-          "field_note": "<p><strong>note:</strong> median age at first birth among women 25-29</p>"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -1062,30 +1038,349 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>1%<br><br><strong>male: </strong>1%<br><br><strong>female: </strong>1% (2012 est.)",
+          "content": "<strong>total: </strong>3.4%<br><br><strong>male: </strong>3.9%<br><br><strong>female: </strong>3% (2015 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "1%",
+              "content": "3.4%",
               "title": "total",
-              "value": "1",
+              "value": "3.4",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "1%",
+              "content": "3.9%",
               "title": "male",
-              "value": "1",
+              "value": "3.9",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "1% (2012 est.)",
+              "content": "3% (2015 est.)",
               "title": "female",
+              "value": "3",
+              "estimated": true,
+              "info_date": "2015",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "erosion and soil degredation results from deforestation and overgrazing; desertification; agricultural fires; surface water contaminated with raw sewage and other organic wastes;&nbsp;wildlife preservation (endangered species of flora and fauna unique to the island)"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>21.44 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>3.91 megatons (2016 est.)<br><br><strong>methane emissions: </strong>10.14 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "21.44 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "21.44",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "3.91 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "3.91",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "10.14 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "10.14",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>395 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>161.9 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>13 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "395 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "395,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "161.9 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "161,900,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "13 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "13,000,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "337 billion cubic meters (2017 est.)",
+          "value": "337,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical along coast, temperate inland, arid in south"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>71.1% (2018 est.)<br><br>arable land: 6% (2018 est.)<br><br>permanent crops: 1% (2018 est.)<br><br>permanent pasture: 64.1% (2018 est.)<br><br><strong>forest: </strong>21.5% (2018 est.)<br><br><strong>other: </strong>7.4% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "71.1% (2018 est.)",
+              "title": "agricultural land",
+              "value": "71.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 6% (2018 est.)",
+              "value": "6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 1% (2018 est.)",
               "value": "1",
               "estimated": true,
-              "info_date": "2012",
+              "info_date": "2018",
               "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 64.1% (2018 est.)",
+              "value": "64.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "21.5% (2018 est.)",
+              "title": "forest",
+              "value": "21.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "7.4% (2018 est.)",
+              "title": "other",
+              "value": "7.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>4.34% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "4.34% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "4.34",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>39.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>4.26% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "39.2% of total population (2021)",
+              "title": "urban population",
+              "value": "39.2",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "4.26% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "4.26",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_MA.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria and dengue fever<br><br><strong>water contact diseases: </strong>schistosomiasis<br><br><strong>animal contact diseases: </strong>rabies",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "very high (2020)",
+              "value": "very high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "malaria and dengue fever",
+              "value": "malaria and dengue fever",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "schistosomiasis",
+              "value": "schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "animal contact diseases",
+              "content": "rabies",
+              "value": "rabies",
+              "title": "animal contact diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Food insecurity",
+          "field_id": 418,
+          "comparative": false,
+          "content": "<strong>severe localized food insecurity: </strong>due to drought in southern areas and limited income-earning opportunities - an estimated 1.35 million people are food insecure in southern and southeastern regions and require urgent humanitarian assistance at least up until April 2021; the poor conditions are also reflected in high rates of acute malnutrition among children in these regions; the impact of the COVID‑19 pandemic, particularly the loss of incomes due to the economic slowdown, successive below-average cereal outputs, and the effects of a prevailing drought in 2021 are the key causes of food insecurity (2021)",
+          "subfields": [
+            {
+              "name": "severe localized food insecurity",
+              "content": "due to drought in southern areas and limited income-earning opportunities - an estimated 1.35 million people are food insecure in southern and southeastern regions and require urgent humanitarian assistance at least up until April 2021; the poor conditions are also reflected in high rates of acute malnutrition among children in these regions; the impact of the COVID‑19 pandemic, particularly the loss of incomes due to the economic slowdown, successive below-average cereal outputs, and the effects of a prevailing drought in 2021 are the key causes of food insecurity (2021)",
+              "value": "due to drought in southern areas and limited income-earning opportunities - an estimated 1.35 million people are food insecure in southern and southeastern regions and require urgent humanitarian assistance at least up until April 2021; the poor conditions are also reflected in high rates of acute malnutrition among children in these regions; the impact of the COVID‑19 pandemic, particularly the loss of incomes due to the economic slowdown, successive below-average cereal outputs, and the effects of a prevailing drought in 2021 are the key causes of food insecurity",
+              "title": "severe localized food insecurity",
+              "info_date": "(2021)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>3,768,759 tons (2016 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "3,768,759 tons (2016 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "3,768,759",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "tons"
             }
           ]
         }
@@ -1149,7 +1444,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Antananarivo<br><br><strong>geographic coordinates: </strong>18 55 S, 47 31 E<br><br><strong>time difference: </strong>UTC+3 (8 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Antananarivo<br><br><strong>geographic coordinates: </strong>18 55 S, 47 31 E<br><br><strong>time difference: </strong>UTC+3 (8 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> the name, which means \"City of the Thousand,\" was bestowed by 17th century King Adrianjakaking to honor the soldiers assigned to guard the city",
           "subfields": [
             {
               "name": "name",
@@ -1170,7 +1465,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> the name, which means \"City of the Thousand,\" was bestowed by 17th century King Adrianjakaking to honor the soldiers assigned to guard the city"
+          "field_note": "<strong>etymology:</strong> the name, which means \"City of the Thousand,\" was bestowed by 17th century King Adrianjakaking to honor the soldiers assigned to guard the city"
         },
         {
           "name": "Administrative divisions",
@@ -1366,12 +1661,12 @@
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong><div style=\"background-color: transparent; color: #222222; font-family: Arial,Helvetica,sans-serif; font-size: 13.33px; font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; line-height: 19.99px; orphans: 2; overflow: visible; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">Ambassador Eric ANDRIAMIHAJA Robson (since March 2018)</div><br><br><strong>chancery: </strong>2374 Massachusetts Avenue NW, Washington, DC 20008<br><br><strong>telephone: </strong>[1] (202) 265-5525<br><br><strong>FAX: </strong>[1] (202) 265-3034<br><br><strong>consulate(s) general: </strong>New York",
+          "content": "<strong>chief of mission: </strong><div style=\"background-color: transparent; color: #222222; font-family: Arial,Helvetica,sans-serif; font-size: 13.33px; font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; line-height: 19.99px; orphans: 2; overflow: visible; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">Ambassador (vacant); Charge d'Affaires Amielle Pelenne NIRINIAVISOA MARCEDA (since 31 October 2019)</div><br><br><strong>chancery: </strong>2374 Massachusetts Avenue NW, Washington, DC 20008<br><br><strong>telephone: </strong>[1] (202) 265-5525<br><br><strong>FAX: </strong>[1] (202) 265-3034<br><br><strong>consulate(s) general: </strong>New York",
           "subfields": [
             {
               "name": "chief of mission",
-              "content": "<div style=\"background-color: transparent; color: #222222; font-family: Arial,Helvetica,sans-serif; font-size: 13.33px; font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; line-height: 19.99px; orphans: 2; overflow: visible; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">Ambassador Eric ANDRIAMIHAJA Robson (since March 2018)</div>",
-              "value": "<div style=\"background-color: transparent; color: #222222; font-family: Arial,Helvetica,sans-serif; font-size: 13.33px; font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; line-height: 19.99px; orphans: 2; overflow: visible; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">Ambassador Eric ANDRIAMIHAJA Robson (since March 2018)</div>",
+              "content": "<div style=\"background-color: transparent; color: #222222; font-family: Arial,Helvetica,sans-serif; font-size: 13.33px; font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; line-height: 19.99px; orphans: 2; overflow: visible; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">Ambassador (vacant); Charge d'Affaires Amielle Pelenne NIRINIAVISOA MARCEDA (since 31 October 2019)</div>",
+              "value": "<div style=\"background-color: transparent; color: #222222; font-family: Arial,Helvetica,sans-serif; font-size: 13.33px; font-size-adjust: none; font-stretch: normal; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; line-height: 19.99px; orphans: 2; overflow: visible; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">Ambassador (vacant); Charge d'Affaires Amielle Pelenne NIRINIAVISOA MARCEDA (since 31 October 2019)</div>",
               "title": "chief of mission"
             },
             {
@@ -1454,7 +1749,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Ry Tanindraza nay malala o\" (Oh, Our Beloved Fatherland)<br><br><strong>lyrics/music: </strong>Pasteur RAHAJASON/Norbert RAHARISOA",
+          "content": "<strong>name: </strong>\"Ry Tanindraza nay malala o\" (Oh, Our Beloved Fatherland)<br><br><strong>lyrics/music: </strong>Pasteur RAHAJASON/Norbert RAHARISOA<br><br><strong>note:</strong> adopted 1959",
           "subfields": [
             {
               "name": "name",
@@ -1469,12 +1764,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1959</p>",
+          "field_note": "<strong>note:</strong> adopted 1959",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/MA.mp3?1538604756",
-              "alt": "National Anthem audio file for Madagascar"
+              "src": "/attachments/audios/original/MA.mp3",
+              "alt": "National Anthem audio file for Madagascar",
+              "caption": "This is an audio of the National Anthem for Madagascar. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1552,7 +1849,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$44.419 billion (2019 est.)<br><br>$42.363 billion (2018 est.)<br><br>$40.514 billion (2017 est.)",
+          "content": "$44.419 billion (2019 est.)<br><br>$42.363 billion (2018 est.)<br><br>$40.514 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1576,7 +1873,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1592,7 +1889,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$1,647 (2019 est.)<br><br>$1,613 (2018 est.)<br><br>$1,584 (2017 est.)",
+          "content": "$1,647 (2019 est.)<br><br>$1,613 (2018 est.)<br><br>$1,584 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1616,7 +1913,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1748,13 +2045,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "88.5 (2020)",
+          "content": "<strong>Overall score: </strong>47.7 (2020)<br><br><strong>Starting a Business score: </strong>88.5 (2020)<br><br><strong>Trading score: </strong>61 (2020)<br><br><strong>Enforcement score: </strong>50 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
+              "content": "47.7 (2020)",
+              "title": "Overall score",
+              "value": "47.7",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
               "content": "88.5 (2020)",
+              "title": "Starting a Business score",
               "value": "88.5",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "61 (2020)",
+              "title": "Trading score",
+              "value": "61",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "50 (2020)",
+              "title": "Enforcement score",
+              "value": "50",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1992,14 +2315,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "France 24.8%, US 16.5%, China 6.7%, Germany 6.5%, Japan 6%, Netherlands 4.7% (2017)",
-          "info_date": "2017"
+          "content": "United States 19%, France 18%, United Arab Emirates 7%, China 6%, Japan 6%, Germany 5%, India 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "coffee, vanilla, shellfish, sugar, cotton cloth, clothing, chromite, petroleum products, gems, ilmenite, cobalt, nickel"
+          "content": "vanilla, nickel, gold, clothing and apparel, gemstones (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2034,14 +2358,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "China 18.7%, India 9.3%, France 6.4%, South Africa 5.6%, UAE 5.3% (2017)",
-          "info_date": "2017"
+          "content": "China 24%, France 11%, United Arab Emirates 9%, India 7%, South Africa 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "capital goods, petroleum, consumer goods, food"
+          "content": "refined petroleum, rice, cars, packaged medicines, clothing and apparel (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2390,16 +2715,6 @@
           "estimated": true,
           "info_date": "1 January 2012",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "4.021 million Mt (2017 est.)",
-          "value": "4,021,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2456,7 +2771,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>system is above average for the region; competition among the&nbsp;four mobile service providers has spurred recent growth in the mobile market and helped the service to be less expensive for the consumer; 3G and LTE services available; Telecom service tax raised to 10% (2020)<br><br><strong>domestic: </strong>less than 1 per 100 for fixed-line and mobile-cellular teledensity about&nbsp;41 per 100 persons (2019)<br><br><strong>international: </strong>country code - 261; landing points for the EASSy, METISS, and LION fiber-optic submarine cable systems connecting to numerous Indian Ocean Islands, South Africa, and Eastern African countries; satellite earth stations - 2 (1 Intelsat - Indian Ocean, 1 Intersputnik - Atlantic Ocean region) (2019)",
+          "content": "<strong>general assessment: </strong>system is above average for the region; competition among the&nbsp;four mobile service providers has spurred recent growth in the mobile market and helped the service to be less expensive for the consumer; 3G and LTE services available; Telecom service tax raised to 10% (2020)<br><br><strong>domestic: </strong>less than 1 per 100 for fixed-line and mobile-cellular teledensity about&nbsp;41 per 100 persons (2019)<br><br><strong>international: </strong>country code - 261; landing points for the EASSy, METISS, and LION fiber-optic submarine cable systems connecting to numerous Indian Ocean Islands, South Africa, and Eastern African countries; satellite earth stations - 2 (1 Intelsat - Indian Ocean, 1 Intersputnik - Atlantic Ocean region) (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2480,7 +2795,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2590,8 +2905,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "5R (2016)",
-          "info_date": "2016"
+          "content": "5R"
         },
         {
           "name": "Airports",
@@ -2805,8 +3119,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "People's Armed Forces: Army, Navy, Air Force; National Gendarmerie (operates under the Ministry of Defense) (2019)",
-          "info_date": "2019"
+          "content": "People's Armed Forces: Army, Navy, Air Force; National Gendarmerie (operates under the Ministry of Defense); Ministry of Public Security: National Police (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military expenditures",
@@ -2855,8 +3169,8 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Peoples Armed Forces (PAF) have approximately 21,500 personnel (12,500 Army; 500 Navy; 500 Air Force; 8,000 Gendarmerie) (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the Peoples Armed Forces (PAF) have approximately 13,000 personnel (12,000 Army; 500 Navy; 500 Air Force) est. 10,000 Gendarmerie (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
@@ -2869,8 +3183,8 @@
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "Madagascar has an all-volunteer military; 18-25 years of age for males; service obligation 18 months; women are permitted to serve in all branches (2018)",
-          "info_date": "2018"
+          "content": "Madagascar has an all-volunteer military; 18-25 years of age for males; service obligation 18 months; women are permitted to serve in all branches (2021)",
+          "info_date": "2021"
         }
       ]
     },

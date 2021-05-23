@@ -2,8 +2,8 @@
   "name": "Gabon",
   "code": "GB",
   "region": "Africa",
-  "published": "2021-02-24 12:21:32 -0500",
-  "updated": "2021-02-24 11:30:25 -0500",
+  "published": "2021-05-05 12:32:14 -0400",
+  "updated": "2021-04-30 13:43:08 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/GB-map.jpg"
+      "src": "/attachments/maps/GB-map.jpg",
+      "caption": "Gabon map showing major cities and towns as well as parts of surrounding countries and the Atlantic Ocean."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/GB_001_large.jpg?1528323814",
+      "src": "/attachments/images/original/GB_001_large.jpg",
       "category": "Landscapes",
       "alt": "A view of some of the dense tropical forest in Gabon. Image credit: NASA/JPL-Caltech/Sassan Saatchi.",
       "caption": "A view of some of the dense tropical forest in Gabon. Image credit: NASA/JPL-Caltech/Sassan Saatchi.",
-      "dimensions": {
-        "height": 710.0,
-        "width": 946.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 169386,
+      "dimensions": "946x710",
+      "file_size": 158466,
       "position": 0
     }
   ],
@@ -186,14 +182,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>377 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Mont Iboundji 1,575 m",
+          "content": "<strong>highest point: </strong>Mont Iboundji 1,575 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>mean elevation: </strong>377 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "377 m",
-              "title": "mean elevation",
-              "value": "377",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Mont Iboundji 1,575 m",
+              "value": "Mont Iboundji 1,575 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -202,10 +197,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Mont Iboundji 1,575 m",
-              "value": "Mont Iboundji 1,575 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "377 m",
+              "title": "mean elevation",
+              "value": "377",
+              "suffix": "m"
             }
           ]
         },
@@ -297,32 +293,6 @@
           "content": "none"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "deforestation (the forests that cover three-quarters of the country are threatened by excessive logging); burgeoning population exacerbating disposal of solid waste; oil industry contributing to water pollution; wildlife poaching"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -338,11 +308,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "2,284,912 (July 2021 est.)",
+          "content": "2,284,912 (July 2021 est.)<br><br><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected",
           "value": "2,284,912",
           "estimated": true,
           "info_date": "July 2021",
-          "field_note": "<p><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected</p>"
+          "field_note": "<strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected"
         },
         {
           "name": "Nationality",
@@ -441,9 +411,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/GB_popgraph2021.pdf?1613494946",
-              "alt": "Gabon population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/GB_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Gabon. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -562,30 +534,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>90.1% of total population (2020)<br><br><strong>rate of urbanization: </strong>2.61% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>90.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.27% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "90.1% of total population (2020)",
+              "content": "90.4% of total population (2021)",
               "title": "urban population",
-              "value": "90.1",
+              "value": "90.4",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "2.61% annual rate of change (2015-20 est.)",
+              "content": "2.27% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "2.61",
+              "value": "2.27",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_GB.pdf?1602789660",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_GB.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -659,12 +633,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "20.3 years (2012 est.)",
+          "content": "20.3 years (2012 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "20.3",
           "estimated": true,
           "info_date": "2012",
           "suffix": "years",
-          "field_note": "<p><strong>note:</strong> median age at first birth among women 25-29</p>"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -1021,35 +995,308 @@
               "suffix": "%"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "deforestation (the forests that cover three-quarters of the country are threatened by excessive logging); burgeoning population exacerbating disposal of solid waste; oil industry contributing to water pollution; wildlife poaching"
         },
         {
-          "name": "Unemployment, youth ages 15-24",
-          "field_id": 373,
-          "comparative": true,
-          "content": "<strong>total: </strong>35.7%<br><br><strong>male: </strong>30.5%<br><br><strong>female: </strong>41.9% (2010 est.)",
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
           "subfields": [
             {
-              "name": "total",
-              "content": "35.7%",
-              "title": "total",
-              "value": "35.7",
-              "suffix": "%"
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+              "title": "party to"
             },
             {
-              "name": "male",
-              "content": "30.5%",
-              "title": "male",
-              "value": "30.5",
-              "suffix": "%"
-            },
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>38.51 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>5.32 megatons (2016 est.)<br><br><strong>methane emissions: </strong>1.13 megatons (2020 est.)",
+          "subfields": [
             {
-              "name": "female",
-              "content": "41.9% (2010 est.)",
-              "title": "female",
-              "value": "41.9",
+              "name": "particulate matter emissions",
+              "content": "38.51 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "38.51",
               "estimated": true,
-              "info_date": "2010",
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "5.32 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "5.32",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "1.13 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "1.13",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>84.7 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>14.1 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>40.3 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "84.7 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "84,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "14.1 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "14,100,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "40.3 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "40,300,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "166 billion cubic meters (2017 est.)",
+          "value": "166,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical; always hot, humid"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>19% (2018 est.)<br><br>arable land: 1.2% (2018 est.)<br><br>permanent crops: 0.6% (2018 est.)<br><br>permanent pasture: 17.2% (2018 est.)<br><br><strong>forest: </strong>81% (2018 est.)<br><br><strong>other: </strong>0% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "19% (2018 est.)",
+              "title": "agricultural land",
+              "value": "19",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 1.2% (2018 est.)",
+              "value": "1.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0.6% (2018 est.)",
+              "value": "0.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 17.2% (2018 est.)",
+              "value": "17.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "81% (2018 est.)",
+              "title": "forest",
+              "value": "81",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "0% (2018 est.)",
+              "title": "other",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>2.6% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "2.6% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "2.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>90.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.27% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "90.4% of total population (2021)",
+              "title": "urban population",
+              "value": "90.4",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "2.27% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "2.27",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_GB.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria and dengue fever<br><br><strong>water contact diseases: </strong>schistosomiasis<br><br><strong>animal contact diseases: </strong>rabies",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "very high (2020)",
+              "value": "very high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "malaria and dengue fever",
+              "value": "malaria and dengue fever",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "schistosomiasis",
+              "value": "schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "animal contact diseases",
+              "content": "rabies",
+              "value": "rabies",
+              "title": "animal contact diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>238,102 tons (1995 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "238,102 tons (1995 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "238,102",
+              "estimated": true,
+              "info_date": "1995",
+              "suffix": "tons"
             }
           ]
         }
@@ -1107,7 +1354,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Libreville<br><br><strong>geographic coordinates: </strong>0 23 N, 9 27 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Libreville<br><br><strong>geographic coordinates: </strong>0 23 N, 9 27 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> original site settled by freed slaves and the name means \"free town\" in French; named in imitation of Freetown, the capital of Sierra Leone",
           "subfields": [
             {
               "name": "name",
@@ -1128,7 +1375,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> original site settled by freed slaves and the name means \"free town\" in French; named in imitation of Freetown, the capital of Sierra Leone"
+          "field_note": "<strong>etymology:</strong> original site settled by freed slaves and the name means \"free town\" in French; named in imitation of Freetown, the capital of Sierra Leone"
         },
         {
           "name": "Administrative divisions",
@@ -1152,7 +1399,7 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>previous 1961; latest drafted May 1990, adopted 15 March 1991, promulgated 26 March 1991<br><br><strong>amendments: </strong>proposed by the president of the republic, by the Council of Ministers, or by one third of either house of Parliament; passage requires Constitutional Court evaluation, at least two-thirds majority vote of two thirds of the Parliament membership convened in joint session, and approval in a referendum; constitutional articles on Gabon&rsquo;s democratic form of government cannot be amended; amended several times, last in 2011",
+          "content": "<strong>history: </strong>previous 1961; latest drafted May 1990, adopted 15 March 1991, promulgated 26 March 1991<br><br><strong>amendments: </strong>proposed by the president of the republic, by the Council of Ministers, or by one third of either house of Parliament; passage requires Constitutional Court evaluation, at least two-thirds majority vote of two thirds of the Parliament membership convened in joint session, and approval in a referendum; constitutional articles on Gabon&rsquo;s democratic form of government cannot be amended; amended several times, last in 2020",
           "subfields": [
             {
               "name": "history",
@@ -1162,8 +1409,8 @@
             },
             {
               "name": "amendments",
-              "content": "proposed by the president of the republic, by the Council of Ministers, or by one third of either house of Parliament; passage requires Constitutional Court evaluation, at least two-thirds majority vote of two thirds of the Parliament membership convened in joint session, and approval in a referendum; constitutional articles on Gabon&rsquo;s democratic form of government cannot be amended; amended several times, last in 2011",
-              "value": "proposed by the president of the republic, by the Council of Ministers, or by one third of either house of Parliament; passage requires Constitutional Court evaluation, at least two-thirds majority vote of two thirds of the Parliament membership convened in joint session, and approval in a referendum; constitutional articles on Gabon&rsquo;s democratic form of government cannot be amended; amended several times, last in 2011",
+              "content": "proposed by the president of the republic, by the Council of Ministers, or by one third of either house of Parliament; passage requires Constitutional Court evaluation, at least two-thirds majority vote of two thirds of the Parliament membership convened in joint session, and approval in a referendum; constitutional articles on Gabon&rsquo;s democratic form of government cannot be amended; amended several times, last in 2020",
+              "value": "proposed by the president of the republic, by the Council of Ministers, or by one third of either house of Parliament; passage requires Constitutional Court evaluation, at least two-thirds majority vote of two thirds of the Parliament membership convened in joint session, and approval in a referendum; constitutional articles on Gabon&rsquo;s democratic form of government cannot be amended; amended several times, last in 2020",
               "title": "amendments"
             }
           ]
@@ -1406,7 +1653,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"La Concorde\" (The Concorde)<br><br><strong>lyrics/music: </strong>Georges Aleka DAMAS",
+          "content": "<strong>name: </strong>\"La Concorde\" (The Concorde)<br><br><strong>lyrics/music: </strong>Georges Aleka DAMAS<br><br><strong>note:</strong> adopted 1960",
           "subfields": [
             {
               "name": "name",
@@ -1421,12 +1668,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1960</p>",
+          "field_note": "<strong>note:</strong> adopted 1960",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/GB.mp3?1538604753",
-              "alt": "National Anthem audio file for Gabon"
+              "src": "/attachments/audios/original/GB.mp3",
+              "alt": "National Anthem audio file for Gabon",
+              "caption": "This is an audio of the National Anthem for Gabon. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1533,7 +1782,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$32.48 billion (2019 est.)<br><br>$31.247 billion (2018 est.)<br><br>$30.986 billion (2017 est.)",
+          "content": "$32.48 billion (2019 est.)<br><br>$31.247 billion (2018 est.)<br><br>$30.986 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1557,7 +1806,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1573,7 +1822,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$14,950 (2019 est.)<br><br>$14,744 (2018 est.)<br><br>$15,007 (2017 est.)",
+          "content": "$14,950 (2019 est.)<br><br>$14,744 (2018 est.)<br><br>$15,007 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1597,7 +1846,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1729,13 +1978,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "45.0 (2020)",
+          "content": "<strong>Overall score: </strong>45 (2020)<br><br><strong>Starting a Business score: </strong>87 (2020)<br><br><strong>Trading score: </strong>43.9 (2020)<br><br><strong>Enforcement score: </strong>32.8 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
-              "content": "45.0 (2020)",
-              "value": "45.0",
-              "estimated": false
+              "name": "Overall score",
+              "content": "45 (2020)",
+              "title": "Overall score",
+              "value": "45",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "87 (2020)",
+              "title": "Starting a Business score",
+              "value": "87",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "43.9 (2020)",
+              "title": "Trading score",
+              "value": "43.9",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "32.8 (2020)",
+              "title": "Enforcement score",
+              "value": "32.8",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1827,10 +2102,10 @@
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "34.3% (2015 est.)",
-          "value": "34.3",
+          "content": "33.4% (2017 est.)",
+          "value": "33.4",
           "estimated": true,
-          "info_date": "2015",
+          "info_date": "2017",
           "suffix": "%"
         },
         {
@@ -1998,14 +2273,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "China 36.4%, US 10%, Ireland 8.5%, Netherlands 6.3%, South Korea 5.1%, Australia 5%, Italy 4.6% (2017)",
-          "info_date": "2017"
+          "content": "China 63%, Singapore 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "crude oil, timber, manganese, uranium"
+          "content": "crude petroleum, manganese, lumber, veneer sheeting, refined petroleum (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2040,14 +2316,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "France 23.6%, Belgium 19.6%, China 15.2% (2017)",
-          "info_date": "2017"
+          "content": "France 22%, China 17%, Belgium 6%, United States 6%, United Arab Emirates 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "machinery and equipment, foodstuffs, chemicals, construction materials"
+          "content": "poultry meats, excavation machinery, packaged medicines, cars, rice (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2396,16 +2673,6 @@
           "estimated": true,
           "info_date": "1 January 2018",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "4.293 million Mt (2017 est.)",
-          "value": "4,293,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2461,7 +2728,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>fixed-line and Internet sectors have remained underdeveloped due to the lack of competition and high prices; sufficient international bandwidth due to submarine cable systems, but monopolized by Gabon Telecom; 3G and mobile LTE services and&nbsp;mobile broadband available; govt. commits to XAF 150 billion in backbone infrastructure work through 2020; efforts towards new legal and regulatory improvements (2020)<br><br><strong>domestic: </strong>fixed-line is 1 per 100 subscriptions; a growing mobile cellular network with multiple providers is making telephone service more widely available with mobile cellular teledensity&nbsp;at 138 per 100 persons (2019)<br><br><strong>international: </strong>country code - 241; landing points for the SAT-3/WASC, ACE and Libreville-Port Gentil Cable&nbsp;fiber-optic submarine cable that provides connectivity to Europe and West Africa; satellite earth stations - 3 Intelsat (Atlantic Ocean) (2019)",
+          "content": "<strong>general assessment: </strong>fixed-line and Internet sectors have remained underdeveloped due to the lack of competition and high prices; sufficient international bandwidth due to submarine cable systems, but monopolized by Gabon Telecom; 3G and mobile LTE services and&nbsp;mobile broadband available; govt. commits to XAF 150 billion in backbone infrastructure work through 2020; efforts towards new legal and regulatory improvements (2020)<br><br><strong>domestic: </strong>fixed-line is 1 per 100 subscriptions; a growing mobile cellular network with multiple providers is making telephone service more widely available with mobile cellular teledensity&nbsp;at 138 per 100 persons (2019)<br><br><strong>international: </strong>country code - 241; landing points for the SAT-3/WASC, ACE and Libreville-Port Gentil Cable&nbsp;fiber-optic submarine cable that provides connectivity to Europe and West Africa; satellite earth stations - 3 Intelsat (Atlantic Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2485,7 +2752,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2576,8 +2843,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "TR (2016)",
-          "info_date": "2016"
+          "content": "TR"
         },
         {
           "name": "Airports",
@@ -2812,14 +3078,14 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Gabonese Defense Forces (Forces de Defense Gabonaise): Land Force (Force Terrestre), Gabonese Navy (Marine Gabonaise), Gabonese Air Forces (Forces Aerienne Gabonaises, FAG), Gabonese National Gendarmerie (2019)",
-          "info_date": "2019"
+          "content": "Gabonese Defense Forces (Forces de Defense Gabonaise): Land Forces (Army), Navy, Air Forces, National Gendarmerie; Republican Guard (land forces under direct presidential control) (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "1.6% of GDP (2019)<br><br>1.5% of GDP (2018)<br><br>1.8% of GDP (2017)<br><br>1.4% of GDP (2016)<br><br>1.2% of GDP (2015)",
+          "content": "1.6% of GDP (2019)<br><br>1.5% of GDP (2018)<br><br>1.8% of GDP (2017)<br><br>1.5% of GDP (2016)<br><br>1.3% of GDP (2015)",
           "subfields": [
             {
               "name": "Military Expenditures 2019",
@@ -2844,15 +3110,15 @@
             },
             {
               "name": "Military Expenditures 2016",
-              "content": "1.4% of GDP (2016)",
-              "value": "1.4",
+              "content": "1.5% of GDP (2016)",
+              "value": "1.5",
               "estimated": false,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2015",
-              "content": "1.2% of GDP (2015)",
-              "value": "1.2",
+              "content": "1.3% of GDP (2015)",
+              "value": "1.3",
               "estimated": false,
               "suffix": "% of GDP"
             }
@@ -2862,29 +3128,41 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Gabonese Defense Forces (FDG) are comprised of approximately 6,500 active duty troops (3,000 Land Forces; 500 Navy; 1,000 Air Force; 2,000 Gendarmerie) (2019)",
-          "info_date": "2019"
+          "content": "the Gabonese Defense Forces (FDG) are comprised of approximately 6,500 active duty troops (3,000 Land Forces, including the Republican Guard; 500 Navy; 1,000 Air Force; 2,000 Gendarmerie) (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the FDG's inventory is comprised mostly of Brazilian, French, and South African equipment; since 2010, the leading suppliers are France and South Africa (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the FDG is lightly armed with an inventory comprised mostly of Brazilian, French, and South African equipment; since 2010, it has received limited amounts of equipment with France and South Africa as the leading suppliers (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "450 Central African Republic (MINUSCA) (2020)",
-          "info_date": "2020"
+          "content": "450 Central African Republic (MINUSCA) (Jan 2021)",
+          "info_date": "Jan 2021"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "20 years of age for voluntary military service; no conscription (2013)",
-          "info_date": "2013"
+          "content": "20 years of age for voluntary military service; no conscription (2021)",
+          "info_date": "2021"
+        },
+        {
+          "name": "Maritime threats",
+          "field_id": 334,
+          "comparative": false,
+          "content": "the International Maritime Bureau reports the territorial and offshore waters in the Niger Delta and Gulf of Guinea remain a very high risk for piracy and armed robbery of ships; in 2020, there were 98 reported incidents of piracy and armed robbery at sea in the Gulf of Guinea region; although a 24% decrease from the total number of incidents in 2019, it included all three hijackings and 9 of 11 ships fired upon worldwide; while boarding and attempted boarding to steal valuables from ships and crews are the most common types of incidents, almost a third of all incidents involve a hijacking and/or kidnapping; in 2020, a record 130 crew members were kidnapped in 22 separate incidents in the Gulf of Guinea, representing 95% of kidnappings worldwide; approximately 51% of all incidents of piracy and armed robbery are taking place off Nigeria, which is a decrease from the 71% in 2019 and an indication pirates are traveling further to target vessels; Nigerian pirates are well armed and very aggressive, operating as far as 200 nm offshore; the Maritime Administration of the US Department of Transportation has issued a Maritime Advisory (2021-002 - Gulf of Guinea-Piracy/Armed Robbery/Kidnapping for Ransom) effective 9 January 2021, which states in part, \"Piracy, armed robbery, and kidnapping for ransom continue to serve as significant threats to US-flagged vessels transiting or operating in the Gulf of Guinea.&rdquo;"
+        },
+        {
+          "name": "Military - note",
+          "field_id": 332,
+          "comparative": false,
+          "content": "members of the Gabonese Defense Forces attempted a failed coup in January 2019"
         }
       ]
     },

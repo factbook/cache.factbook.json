@@ -2,8 +2,8 @@
   "name": "Lithuania",
   "code": "LH",
   "region": "Europe",
-  "published": "2021-02-24 12:27:57 -0500",
-  "updated": "2021-02-24 11:53:25 -0500",
+  "published": "2021-05-12 12:11:45 -0400",
+  "updated": "2021-05-11 09:13:36 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/LH-map.jpg"
+      "src": "/attachments/maps/LH-map.jpg",
+      "caption": "Lithuania map showing major cities as well as parts of surrounding countries and the Baltic Sea."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/LH_001_large.jpg?1528324430",
+      "src": "/attachments/images/original/LH_001_large.jpg",
       "category": "Space",
       "alt": "Red dots mark the locations of fires burning in countries south and east of the Baltic Sea in this early April image. The scattered fires were probably set to clear land for agricultural purposes. The Scandinavian countries, Norway and Sweden, and Finland to the north of the Sea, are still blanketed in snow. From the left, the countries lining the Baltic on the south are Denmark, Germany, Poland, Russia (Kaliningrad), Lithuania, Latvia, Estonia, and Russia. Belarus forms the lower right corner of the image. Photo courtesy of NASA.",
       "caption": "Red dots mark the locations of fires burning in countries south and east of the Baltic Sea in this early April image. The scattered fires were probably set to clear land for agricultural purposes. The Scandinavian countries, Norway and Sweden, and Finland to the north of the Sea, are still blanketed in snow. From the left, the countries lining the Baltic on the south are Denmark, Germany, Poland, Russia (Kaliningrad), Lithuania, Latvia, Estonia, and Russia. Belarus forms the lower right corner of the image. Photo courtesy of NASA.",
-      "dimensions": {
-        "height": 1200.0,
-        "width": 933.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 487699,
+      "dimensions": "933x1200",
+      "file_size": 278935,
       "position": 0
     }
   ],
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/LH_area.jpg?1548768453",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/LH_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>slightly larger than West Virginia</p>",
+              "position": 0
             }
           ]
         },
@@ -179,14 +177,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>110 m<br><br><strong>lowest point: </strong>Baltic Sea 0 m<br><br><strong>highest point: </strong>Aukstojas 294 m",
+          "content": "<strong>highest point: </strong>Aukstojas 294 m<br><br><strong>lowest point: </strong>Baltic Sea 0 m<br><br><strong>mean elevation: </strong>110 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "110 m",
-              "title": "mean elevation",
-              "value": "110",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Aukstojas 294 m",
+              "value": "Aukstojas 294 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -195,10 +192,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Aukstojas 294 m",
-              "value": "Aukstojas 294 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "110 m",
+              "title": "mean elevation",
+              "value": "110",
+              "suffix": "m"
             }
           ]
         },
@@ -288,32 +286,6 @@
           "field_id": 292,
           "comparative": false,
           "content": "occasional floods, droughts"
-        },
-        {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "water pollution; air pollution; deforestation; threatened animal and plant species; chemicals and waste materials released into the environment contaminate soil and groundwater; soil degradation and erosion"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulphur 85, Air Pollution-Sulphur 94, Air Pollution-Volatile Organic Compounds, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulphur 85, Air Pollution-Sulphur 94, Air Pollution-Volatile Organic Compounds, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "value": "Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulphur 85, Air Pollution-Sulphur 94, Air Pollution-Volatile Organic Compounds, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
         },
         {
           "name": "Geography - note",
@@ -428,9 +400,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/LH_popgraph2021.pdf?1613504546",
-              "alt": "Lithuania population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/LH_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Lithuania. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -549,30 +523,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>68% of total population (2020)<br><br><strong>rate of urbanization: </strong>-0.31% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>68.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>-0.12% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "68% of total population (2020)",
+              "content": "68.2% of total population (2021)",
               "title": "urban population",
-              "value": "68",
+              "value": "68.2",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "-0.31% annual rate of change (2015-20 est.)",
+              "content": "-0.12% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "-0.31",
+              "value": "-0.12",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_LH.pdf?1602791322",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_LH.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -1002,29 +978,330 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>11.1%<br><br><strong>male: </strong>12%<br><br><strong>female: </strong>10.1% (2018 est.)",
+          "content": "<strong>total: </strong>11.9%<br><br><strong>male: </strong>14.1%<br><br><strong>female: </strong>9.3% (2019 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "11.1%",
+              "content": "11.9%",
               "title": "total",
-              "value": "11.1",
+              "value": "11.9",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "12%",
+              "content": "14.1%",
               "title": "male",
-              "value": "12",
+              "value": "14.1",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "10.1% (2018 est.)",
+              "content": "9.3% (2019 est.)",
               "title": "female",
-              "value": "10.1",
+              "value": "9.3",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "water pollution; air pollution; deforestation; threatened animal and plant species; chemicals and waste materials released into the environment contaminate soil and groundwater; soil degradation and erosion"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Air Pollution, Air Pollution-Heavy Metals, Air Pollution-Multi-effect Protocol, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulphur 85, Air Pollution-Sulphur 94, Air Pollution-Volatile Organic Compounds, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Air Pollution, Air Pollution-Heavy Metals, Air Pollution-Multi-effect Protocol, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulphur 85, Air Pollution-Sulphur 94, Air Pollution-Volatile Organic Compounds, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+              "value": "Air Pollution, Air Pollution-Heavy Metals, Air Pollution-Multi-effect Protocol, Air Pollution-Nitrogen Oxides, Air Pollution-Persistent Organic Pollutants, Air Pollution-Sulphur 85, Air Pollution-Sulphur 94, Air Pollution-Volatile Organic Compounds, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>11.49 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>12.96 megatons (2016 est.)<br><br><strong>methane emissions: </strong>3.15 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "11.49 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "11.49",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "12.96 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "12.96",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "3.15 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "3.15",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>130.4 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>69.7 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>58.9 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "130.4 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "130,400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "69.7 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "69,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "58.9 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "58,900,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "24.5 billion cubic meters (2017 est.)",
+          "value": "24,500,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "transitional, between maritime and continental; wet, moderate winters and summers"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>44.8% (2018 est.)<br><br>arable land: 34.9% (2018 est.)<br><br>permanent crops: 0.5% (2018 est.)<br><br>permanent pasture: 9.4% (2018 est.)<br><br><strong>forest: </strong>34.6% (2018 est.)<br><br><strong>other: </strong>20.6% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "44.8% (2018 est.)",
+              "title": "agricultural land",
+              "value": "44.8",
               "estimated": true,
               "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 34.9% (2018 est.)",
+              "value": "34.9",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0.5% (2018 est.)",
+              "value": "0.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 9.4% (2018 est.)",
+              "value": "9.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "34.6% (2018 est.)",
+              "title": "forest",
+              "value": "34.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "20.6% (2018 est.)",
+              "title": "other",
+              "value": "20.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>0.31% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "0.31% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "0.31",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>68.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>-0.12% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "68.2% of total population (2021)",
+              "title": "urban population",
+              "value": "68.2",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "-0.12% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "-0.12",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_LH.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>intermediate (2020)<br><br><strong>vectorborne diseases: </strong>tickborne encephalitis",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "intermediate (2020)",
+              "value": "intermediate",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "tickborne encephalitis",
+              "value": "tickborne encephalitis",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>1.3 million tons (2015 est.)<br><br><strong>municipal solid waste recycled annually: </strong>297,960 tons (2015 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>22.9% (2015 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "1.3 million tons (2015 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "1,300,000",
+              "estimated": true,
+              "info_date": "2015",
+              "suffix": "tons"
+            },
+            {
+              "name": "municipal solid waste recycled annually",
+              "content": "297,960 tons (2015 est.)",
+              "title": "municipal solid waste recycled annually",
+              "value": "297,960",
+              "estimated": true,
+              "info_date": "2015",
+              "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "22.9% (2015 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "22.9",
+              "estimated": true,
+              "info_date": "2015",
               "suffix": "%"
             }
           ]
@@ -1089,7 +1366,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Vilnius<br><br><strong>geographic coordinates: </strong>54 41 N, 25 19 E<br><br><strong>time difference: </strong>UTC+2 (7 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1hr, begins last Sunday in March; ends last Sunday in October",
+          "content": "<strong>name: </strong>Vilnius<br><br><strong>geographic coordinates: </strong>54 41 N, 25 19 E<br><br><strong>time difference: </strong>UTC+2 (7 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1hr, begins last Sunday in March; ends last Sunday in October<br><br><strong>etymology:</strong> named after the Vilnia River, which flows into the Neris River at Vilnius; the river name derives from the Lithuanian word \"vilnis\" meaning \"a surge\"",
           "subfields": [
             {
               "name": "name",
@@ -1116,7 +1393,7 @@
               "title": "daylight saving time"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> named after the Vilnia River, which flows into the Neris River at Vilnius; the river name derives from the Lithuanian word \"vilnis\" meaning \"a surge\""
+          "field_note": "<strong>etymology:</strong> named after the Vilnia River, which flows into the Neris River at Vilnius; the river name derives from the Lithuanian word \"vilnis\" meaning \"a surge\""
         },
         {
           "name": "Administrative divisions",
@@ -1140,7 +1417,7 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>several previous; latest adopted by referendum 25 October 1992, entered into force 2 November 1992<br><br><strong>amendments: </strong>proposed by at least one fourth of all Parliament members or by petition of at least 300,000 voters; passage requires two-thirds majority vote of Parliament in each of two readings three months apart and a presidential signature; amendments to constitutional articles on national sovereignty and constitutional amendment procedure also require three-fourths voter approval in a referendum; amended 1996, 2003, 2006",
+          "content": "<strong>history: </strong>several previous; latest adopted by referendum 25 October 1992, entered into force 2 November 1992<br><br><strong>amendments: </strong>proposed by at least one fourth of all Parliament members or by petition of at least 300,000 voters; passage requires two-thirds majority vote of Parliament in each of two readings three months apart and a presidential signature; amendments to constitutional articles on national sovereignty and constitutional amendment procedure also require three-fourths voter approval in a referendum; amended many times, last in 2019",
           "subfields": [
             {
               "name": "history",
@@ -1150,8 +1427,8 @@
             },
             {
               "name": "amendments",
-              "content": "proposed by at least one fourth of all Parliament members or by petition of at least 300,000 voters; passage requires two-thirds majority vote of Parliament in each of two readings three months apart and a presidential signature; amendments to constitutional articles on national sovereignty and constitutional amendment procedure also require three-fourths voter approval in a referendum; amended 1996, 2003, 2006",
-              "value": "proposed by at least one fourth of all Parliament members or by petition of at least 300,000 voters; passage requires two-thirds majority vote of Parliament in each of two readings three months apart and a presidential signature; amendments to constitutional articles on national sovereignty and constitutional amendment procedure also require three-fourths voter approval in a referendum; amended 1996, 2003, 2006",
+              "content": "proposed by at least one fourth of all Parliament members or by petition of at least 300,000 voters; passage requires two-thirds majority vote of Parliament in each of two readings three months apart and a presidential signature; amendments to constitutional articles on national sovereignty and constitutional amendment procedure also require three-fourths voter approval in a referendum; amended many times, last in 2019",
+              "value": "proposed by at least one fourth of all Parliament members or by petition of at least 300,000 voters; passage requires two-thirds majority vote of Parliament in each of two readings three months apart and a presidential signature; amendments to constitutional articles on national sovereignty and constitutional amendment procedure also require three-fourths voter approval in a referendum; amended many times, last in 2019",
               "title": "amendments"
             }
           ]
@@ -1312,12 +1589,12 @@
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong>Ambassador Rolandas KRISCIUNAS (since 17 September 2015)<br><br><strong>chancery: </strong>2622 16th Street NW, Washington, DC 20009<br><br><strong>telephone: </strong>[1] (202) 234-5860<br><br><strong>FAX: </strong>[1] (202) 328-0466<br><br><strong>consulate(s) general: </strong>Chicago, Los Angeles, New York",
+          "content": "<strong>chief of mission: </strong>Ambassador (vacant); Charge d'Affaires Dovydas SPOKAUSKAS (since 31 July 2020)<br><br><strong>chancery: </strong>2622 16th Street NW, Washington, DC 20009<br><br><strong>telephone: </strong>[1] (202) 234-5860<br><br><strong>FAX: </strong>[1] (202) 328-0466<br><br><strong>consulate(s) general: </strong>Chicago, Los Angeles, New York",
           "subfields": [
             {
               "name": "chief of mission",
-              "content": "Ambassador Rolandas KRISCIUNAS (since 17 September 2015)",
-              "value": "Ambassador Rolandas KRISCIUNAS (since 17 September 2015)",
+              "content": "Ambassador (vacant); Charge d'Affaires Dovydas SPOKAUSKAS (since 31 July 2020)",
+              "value": "Ambassador (vacant); Charge d'Affaires Dovydas SPOKAUSKAS (since 31 July 2020)",
               "title": "chief of mission"
             },
             {
@@ -1350,12 +1627,12 @@
           "name": "Diplomatic representation from the US",
           "field_id": 319,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong>Ambassador Robert S. GILCHRIST (since 4 February 2010)<br><br><strong>telephone: </strong>[370] (5) 266-5500<br><br><strong>embassy: </strong>Akmenu gatve 6, Vilnius, LT-03106<br><br><strong>mailing address: </strong>American Embassy, Akmenu Gatve 6, Vilnius LT-03106<br><br><strong>FAX: </strong>[370] (5) 266-5510",
+          "content": "<strong>chief of mission: </strong>Ambassador Robert S. GILCHRIST (since 4 February 2020)<br><br><strong>telephone: </strong>[370] (5) 266-5500<br><br><strong>embassy: </strong>Akmenu gatve 6, Vilnius, LT-03106<br><br><strong>mailing address: </strong>American Embassy, Akmenu Gatve 6, Vilnius LT-03106<br><br><strong>FAX: </strong>[370] (5) 266-5510",
           "subfields": [
             {
               "name": "chief of mission",
-              "content": "Ambassador Robert S. GILCHRIST (since 4 February 2010)",
-              "value": "Ambassador Robert S. GILCHRIST (since 4 February 2010)",
+              "content": "Ambassador Robert S. GILCHRIST (since 4 February 2020)",
+              "value": "Ambassador Robert S. GILCHRIST (since 4 February 2020)",
               "title": "chief of mission"
             },
             {
@@ -1400,7 +1677,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Tautiska giesme\" (The National Song)<br><br><strong>lyrics/music: </strong>Vincas KUDIRKA",
+          "content": "<strong>name: </strong>\"Tautiska giesme\" (The National Song)<br><br><strong>lyrics/music: </strong>Vincas KUDIRKA<br><br><strong>note:</strong> adopted 1918, restored 1990; written in 1898 while Lithuania was a part of Russia; banned during the Soviet occupation from 1940 to 1990",
           "subfields": [
             {
               "name": "name",
@@ -1415,12 +1692,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1918, restored 1990; written in 1898 while Lithuania was a part of Russia; banned during the Soviet occupation from 1940 to 1990</p>",
+          "field_note": "<strong>note:</strong> adopted 1918, restored 1990; written in 1898 while Lithuania was a part of Russia; banned during the Soviet occupation from 1940 to 1990",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/LH.mp3?1538604756",
-              "alt": "National Anthem audio file for Lithuania"
+              "src": "/attachments/audios/original/LH.mp3",
+              "alt": "National Anthem audio file for Lithuania",
+              "caption": "This is an audio of the National Anthem for Lithuania. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1527,7 +1806,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$103.756 billion (2019 est.)<br><br>$99.442 billion (2018 est.)<br><br>$95.675 billion (2017 est.)",
+          "content": "$103.756 billion (2019 est.)<br><br>$99.442 billion (2018 est.)<br><br>$95.675 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1551,7 +1830,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1567,7 +1846,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$37,231 (2019 est.)<br><br>$35,496 (2018 est.)<br><br>$33,827 (2017 est.)",
+          "content": "$37,231 (2019 est.)<br><br>$35,496 (2018 est.)<br><br>$33,827 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1591,7 +1870,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1723,13 +2002,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "93.3 (2020)",
+          "content": "<strong>Overall score: </strong>81.6 (2020)<br><br><strong>Starting a Business score: </strong>93.3 (2020)<br><br><strong>Trading score: </strong>97.8 (2020)<br><br><strong>Enforcement score: </strong>78.8 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
+              "content": "81.6 (2020)",
+              "title": "Overall score",
+              "value": "81.6",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
               "content": "93.3 (2020)",
+              "title": "Starting a Business score",
               "value": "93.3",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "97.8 (2020)",
+              "title": "Trading score",
+              "value": "97.8",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "78.8 (2020)",
+              "title": "Enforcement score",
+              "value": "78.8",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1821,10 +2126,10 @@
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "22.2% (2015 est.)",
-          "value": "22.2",
+          "content": "20.6% (2018 est.)",
+          "value": "20.6",
           "estimated": true,
-          "info_date": "2015",
+          "info_date": "2018",
           "suffix": "%"
         },
         {
@@ -1919,7 +2224,7 @@
           "name": "Public debt",
           "field_id": 227,
           "comparative": true,
-          "content": "39.7% of GDP (2017 est.)<br><br>40.1% of GDP (2016 est.)",
+          "content": "39.7% of GDP (2017 est.)<br><br>40.1% of GDP (2016 est.)<br><br><strong>note:</strong> official data; data cover general government debt and include debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities, debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are sold at public auctions",
           "subfields": [
             {
               "name": "Public debt 2017",
@@ -1936,7 +2241,7 @@
               "suffix": "% of GDP"
             }
           ],
-          "field_note": "<p><strong>note:</strong> official data; data cover general government debt and include debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities, debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are sold at public auctions</p>"
+          "field_note": "<strong>note:</strong> official data; data cover general government debt and include debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities, debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are sold at public auctions"
         },
         {
           "name": "Fiscal year",
@@ -1999,14 +2304,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "Russia 15%, Latvia 9.9%, Poland 8.1%, Germany 7.3%, US 5.2%, Estonia 5%, Sweden 4.8% (2017)",
-          "info_date": "2017"
+          "content": "Russia 13%, Latvia 9%, Poland 8%, Germany 7%, Estonia 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "refined fuel, machinery and equipment, chemicals, textiles, foodstuffs, plastics"
+          "content": "refined petroleum, furniture, cigarettes, wheat, polyethylene (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2041,14 +2347,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "Russia 13%, Germany 12.3%, Poland 10.6%, Latvia 7.1%, Italy 5.2%, Netherlands 5.1%, Sweden 4% (2017)",
-          "info_date": "2017"
+          "content": "Poland 12%, Russia 12%, Germany 12%, Latvia 7%, Netherlands 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "oil, natural gas, machinery and equipment, transport equipment, chemicals, textiles and clothing, metals"
+          "content": "crude petroleum, cars, packaged medicines, refined petroleum, electricity (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2379,16 +2686,6 @@
           "estimated": true,
           "info_date": "2016",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "13.49 million Mt (2017 est.)",
-          "value": "13,490,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2444,7 +2741,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>adequate; improved international capability and better residential access; SIM card penetration is high for the region; prepaid sector accounts for most subscribers; postpaid subscribers is increasing; LTE&nbsp;networks&nbsp;available to more than 99% of the population; Lithuanian FttP (fiber to the home cable connections for Internet) penetration ranked third highest in Europe; govt. and telecoms invest in fiber, fiber accounts for most new broadband connections; effective competition with 3 network operators in mobile sector and all investing in LTE and mobile data services (2020)<br><br><strong>domestic: </strong>13 per 100 for fixed-line subscriptions; rapid expansion of mobile-cellular services has resulted in a steady decline in the number of fixed-line connections; mobile-cellular teledensity stands at about 169 per 100 persons (2019)<br><br><strong>international: </strong>country code - 370; landing points for the BCS East, BCS East-West Interlink and NordBalt connecting Lithuania to Sweden, and Latvia&nbsp;; further transmission by satellite; landline connections to Latvia and Poland (2019)",
+          "content": "<strong>general assessment: </strong>adequate; improved international capability and better residential access; SIM card penetration is high for the region; prepaid sector accounts for most subscribers; postpaid subscribers is increasing; LTE&nbsp;networks&nbsp;available to more than 99% of the population; Lithuanian FttP (fiber to the home cable connections for Internet) penetration ranked third highest in Europe; govt. and telecoms invest in fiber, fiber accounts for most new broadband connections; effective competition with 3 network operators in mobile sector and all investing in LTE and mobile data services (2020)<br><br><strong>domestic: </strong>13 per 100 for fixed-line subscriptions; rapid expansion of mobile-cellular services has resulted in a steady decline in the number of fixed-line connections; mobile-cellular teledensity stands at about 169 per 100 persons (2019)<br><br><strong>international: </strong>country code - 370; landing points for the BCS East, BCS East-West Interlink and NordBalt connecting Lithuania to Sweden, and Latvia&nbsp;; further transmission by satellite; landline connections to Latvia and Poland (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2468,7 +2765,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2567,8 +2864,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "LY (2016)",
-          "info_date": "2016"
+          "content": "LY"
         },
         {
           "name": "Airports",
@@ -2837,33 +3133,33 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "2.28% of GDP (2020 est.)<br><br>2.02% of GDP (2019)<br><br>1.98% of GDP (2018)<br><br>0.72% of GDP (2017)<br><br>1.48% of GDP (2016)",
+          "content": "2.13% of GDP (2020 est.)<br><br>2% of GDP (2019)<br><br>1.97% of GDP (2018)<br><br>1.71% of GDP (2017)<br><br>1.48% of GDP (2016)",
           "subfields": [
             {
               "name": "Military Expenditures 2020",
-              "content": "2.28% of GDP (2020 est.)",
-              "value": "2.28",
+              "content": "2.13% of GDP (2020 est.)",
+              "value": "2.13",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2019",
-              "content": "2.02% of GDP (2019)",
-              "value": "2.02",
+              "content": "2% of GDP (2019)",
+              "value": "2",
               "estimated": false,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "1.98% of GDP (2018)",
-              "value": "1.98",
+              "content": "1.97% of GDP (2018)",
+              "value": "1.97",
               "estimated": false,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2017",
-              "content": "0.72% of GDP (2017)",
-              "value": "0.72",
+              "content": "1.71% of GDP (2017)",
+              "value": "1.71",
               "estimated": false,
               "suffix": "% of GDP"
             },
@@ -2887,15 +3183,14 @@
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the Lithuanian Armed Forces' inventory is mostly a mix of Western weapons systems and Soviet-era equipment (primarily aircraft and helicopters); Germany and the UK are the leading suppliers of armaments to Lithuania since 2010 (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the Lithuanian Armed Forces' inventory is mostly a mix of Western weapons systems and Soviet-era equipment (primarily aircraft and helicopters); Germany and the UK are the leading suppliers of armaments to Lithuania since 2010 (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "contributes about 350 troops to the Lithuania, Poland, and Ukraine joint military brigade (LITPOLUKRBRIG), which was established in 2014; the brigade is headquartered in Warsaw and is comprised of an international staff, three battalions, and specialized units (2019)",
-          "info_date": "2019"
+          "content": "contributes about 350 troops to the Lithuania, Poland, and Ukraine joint military brigade (LITPOLUKRBRIG), which was established in 2014; the brigade is headquartered in Warsaw and is comprised of an international staff, three battalions, and specialized units"
         },
         {
           "name": "Military service age and obligation",

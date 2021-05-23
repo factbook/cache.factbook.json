@@ -2,8 +2,8 @@
   "name": "Barbados",
   "code": "BB",
   "region": "Central America",
-  "published": "2021-02-24 12:13:49 -0500",
-  "updated": "2021-02-24 10:31:57 -0500",
+  "published": "2021-05-19 12:12:03 -0400",
+  "updated": "2021-05-19 08:00:18 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/BB-map.jpg"
+      "src": "/attachments/maps/BB-map.jpg",
+      "caption": "Barbados map showing the island situated in the Caribbean Sea."
     },
     {
       "type": "locator-map",
@@ -28,32 +29,22 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/BB_002_large.jpg?1528323224",
+      "src": "/attachments/images/original/BB_002_large.jpg",
       "category": "Space",
       "alt": "Barbados as seen from space. Fringing reefs around the island have declined over many decades although there are still submerged reefs off the west and southern coasts. Image courtesy of NASA.",
       "caption": "Barbados as seen from space. Fringing reefs around the island have declined over many decades although there are still submerged reefs off the west and southern coasts. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 526.0,
-        "width": 540.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 30314,
+      "dimensions": "540x526",
+      "file_size": 28037,
       "position": 0
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/BB_001_large.jpg?1528323224",
+      "src": "/attachments/images/original/BB_001_large.jpg",
       "category": "Space",
       "alt": "Bridgetown is the capital city of the island nation of Barbados, located to the east of the Lesser Antilles Island chain. While Barbados is considered part of the Lesser Antilles, it is located within the western Atlantic Ocean rather than the Caribbean Sea. Besides being the seat of government, Bridgetown is the largest city in Barbados. It and the surrounding towns that make up the Greater Bridgetown area are located along the southwestern coastline of the island. The metropolitan area is readily recognizable in this astronaut photograph due to the gray and white rooftops and street grids (image center) that contrast with green vegetated fields and riverside areas of the island&apos;s interior to the northeast (image top center). Bridgetown is a major port destination for both commercial and cruise ships serving the eastern Caribbean - several ships are visible within Carlisle Bay. Water color in the image changes from light blue along the coastline - indicating shallow water - to the dark blue of deeper water away from the island. Photo courtesy of NASA.",
       "caption": "Bridgetown is the capital city of the island nation of Barbados, located to the east of the Lesser Antilles Island chain. While Barbados is considered part of the Lesser Antilles, it is located within the western Atlantic Ocean rather than the Caribbean Sea. Besides being the seat of government, Bridgetown is the largest city in Barbados. It and the surrounding towns that make up the Greater Bridgetown area are located along the southwestern coastline of the island. The metropolitan area is readily recognizable in this astronaut photograph due to the gray and white rooftops and street grids (image center) that contrast with green vegetated fields and riverside areas of the island&apos;s interior to the northeast (image top center). Bridgetown is a major port destination for both commercial and cruise ships serving the eastern Caribbean - several ships are visible within Carlisle Bay. Water color in the image changes from light blue along the coastline - indicating shallow water - to the dark blue of deeper water away from the island. Photo courtesy of NASA.",
-      "dimensions": {
-        "height": 480.0,
-        "width": 720.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 110393,
+      "dimensions": "720x480",
+      "file_size": 102461,
       "position": 1
     }
   ],
@@ -188,19 +179,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Mount Hillaby 336 m",
+          "content": "<strong>highest point: </strong>Mount Hillaby 336 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Atlantic Ocean 0 m",
-              "value": "Atlantic Ocean 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Mount Hillaby 336 m",
               "value": "Mount Hillaby 336 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Atlantic Ocean 0 m",
+              "value": "Atlantic Ocean 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -290,32 +281,6 @@
           "field_id": 292,
           "comparative": false,
           "content": "infrequent hurricanes; periodic landslides"
-        },
-        {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "pollution of coastal waters from waste disposal by ships; soil erosion; illegal solid waste disposal threatens contamination of aquifers"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping, Ozone Layer Protection, Ship Pollution, Wetlands",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
         },
         {
           "name": "Geography - note",
@@ -429,9 +394,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/BB_popgraph2021.pdf?1613491461",
-              "alt": "Barbados population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/BB_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Barbados. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -550,30 +517,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>31.2% of total population (2020)<br><br><strong>rate of urbanization: </strong>0.2% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>31.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.46% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "31.2% of total population (2020)",
+              "content": "31.2% of total population (2021)",
               "title": "urban population",
               "value": "31.2",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "0.2% annual rate of change (2015-20 est.)",
+              "content": "0.46% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "0.2",
+              "value": "0.46",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_BB.pdf?1602698704",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_BB.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -943,29 +912,308 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>29.6%<br><br><strong>male: </strong>27.9%<br><br><strong>female: </strong>31.5% (2016 est.)",
+          "content": "<strong>total: </strong>26%<br><br><strong>male: </strong>30.3%<br><br><strong>female: </strong>21.2% (2019 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "29.6%",
+              "content": "26%",
               "title": "total",
-              "value": "29.6",
+              "value": "26",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "27.9%",
+              "content": "30.3%",
               "title": "male",
-              "value": "27.9",
+              "value": "30.3",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "31.5% (2016 est.)",
+              "content": "21.2% (2019 est.)",
               "title": "female",
-              "value": "31.5",
+              "value": "21.2",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "pollution of coastal waters from waste disposal by ships; soil erosion; illegal solid waste disposal threatens contamination of aquifers"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Ozone Layer Protection, Ship Pollution, Wetlands",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Ozone Layer Protection, Ship Pollution, Wetlands",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>22.24 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>1.28 megatons (2016 est.)<br><br><strong>methane emissions: </strong>2.35 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "22.24 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "22.24",
               "estimated": true,
               "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "1.28 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "1.28",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "2.35 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "2.35",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>20 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>6.2 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>54.8 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "20 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "20,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "6.2 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "6,200,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "54.8 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "54,800,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "80 million cubic meters (2017 est.)",
+          "value": "80,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical; rainy season (June to October)"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>32.6% (2018 est.)<br><br>arable land: 25.6% (2018 est.)<br><br>permanent crops: 2.3% (2018 est.)<br><br>permanent pasture: 4.7% (2018 est.)<br><br><strong>forest: </strong>19.4% (2018 est.)<br><br><strong>other: </strong>48% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "32.6% (2018 est.)",
+              "title": "agricultural land",
+              "value": "32.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 25.6% (2018 est.)",
+              "value": "25.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 2.3% (2018 est.)",
+              "value": "2.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 4.7% (2018 est.)",
+              "value": "4.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "19.4% (2018 est.)",
+              "title": "forest",
+              "value": "19.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "48% (2018 est.)",
+              "title": "other",
+              "value": "48",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>0.01% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "0.01% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "0.01",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>31.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.46% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "31.2% of total population (2021)",
+              "title": "urban population",
+              "value": "31.2",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.46% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.46",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_BB.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>174,815 tons (2011 est.)<br><br><strong>municipal solid waste recycled annually: </strong>15,733 tons (2015 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>9% (2015 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "174,815 tons (2011 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "174,815",
+              "estimated": true,
+              "info_date": "2011",
+              "suffix": "tons"
+            },
+            {
+              "name": "municipal solid waste recycled annually",
+              "content": "15,733 tons (2015 est.)",
+              "title": "municipal solid waste recycled annually",
+              "value": "15,733",
+              "estimated": true,
+              "info_date": "2015",
+              "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "9% (2015 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "9",
+              "estimated": true,
+              "info_date": "2015",
               "suffix": "%"
             }
           ]
@@ -1012,7 +1260,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Bridgetown<br><br><strong>geographic coordinates: </strong>13 06 N, 59 37 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Bridgetown<br><br><strong>geographic coordinates: </strong>13 06 N, 59 37 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> named after a bridge constructed over the swampy area (known as the Careenage) around the Constitution River that flows through the center of Bridgetown",
           "subfields": [
             {
               "name": "name",
@@ -1033,7 +1281,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> named after a bridge constructed over the swampy area (known as the Careenage) around the Constitution River that flows through the center of Bridgetown"
+          "field_note": "<strong>etymology:</strong> named after a bridge constructed over the swampy area (known as the Careenage) around the Constitution River that flows through the center of Bridgetown"
         },
         {
           "name": "Administrative divisions",
@@ -1057,7 +1305,7 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>adopted 22 November 1966, effective 30 November 1966<br><br><strong>amendments: </strong>proposed by Parliament; passage of amendments to constitutional sections such as citizenship, fundamental rights and freedoms, and the organization and authorities of the branches of government requires two-thirds majority vote by the membership of both houses of Parliament; passage of other amendments only requires a majority vote of both houses; amended several times, last in 2010",
+          "content": "<strong>history: </strong>adopted 22 November 1966, effective 30 November 1966<br><br><strong>amendments: </strong>proposed by Parliament; passage of amendments to constitutional sections such as citizenship, fundamental rights and freedoms, and the organization and authorities of the branches of government requires two-thirds majority vote by the membership of both houses of Parliament; passage of other amendments only requires a majority vote of both houses; amended several times, last in 2020",
           "subfields": [
             {
               "name": "history",
@@ -1067,8 +1315,8 @@
             },
             {
               "name": "amendments",
-              "content": "proposed by Parliament; passage of amendments to constitutional sections such as citizenship, fundamental rights and freedoms, and the organization and authorities of the branches of government requires two-thirds majority vote by the membership of both houses of Parliament; passage of other amendments only requires a majority vote of both houses; amended several times, last in 2010",
-              "value": "proposed by Parliament; passage of amendments to constitutional sections such as citizenship, fundamental rights and freedoms, and the organization and authorities of the branches of government requires two-thirds majority vote by the membership of both houses of Parliament; passage of other amendments only requires a majority vote of both houses; amended several times, last in 2010",
+              "content": "proposed by Parliament; passage of amendments to constitutional sections such as citizenship, fundamental rights and freedoms, and the organization and authorities of the branches of government requires two-thirds majority vote by the membership of both houses of Parliament; passage of other amendments only requires a majority vote of both houses; amended several times, last in 2020",
+              "value": "proposed by Parliament; passage of amendments to constitutional sections such as citizenship, fundamental rights and freedoms, and the organization and authorities of the branches of government requires two-thirds majority vote by the membership of both houses of Parliament; passage of other amendments only requires a majority vote of both houses; amended several times, last in 2020",
               "title": "amendments"
             }
           ]
@@ -1159,7 +1407,7 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>bicameral Parliament consists of:<br />Senate (21 seats; members appointed by the governor general - 12 on the advice of the Prime Minister, 2 on the advice of the opposition leader, and 7 at the discretion of the governor general) <br />House of Assembly (30 seats; members directly elected in single-seat constituencies by simple majority vote to serve 5-year terms)<br><br><strong>elections: </strong><br />Senate - last appointments on 5 June 2018 (next appointments NA)<br />House of Assembly - last held on 24 May 2018 (next to be held in 2023)<br><br><strong>election results: </strong><br />Senate - appointed; composition - men 16, women 5, percent of women 23.8% <br />House of Assembly - percent of vote by party - BLP 74.6%, DLP 22.6%, other 2.8%; seats by party - BLP 30; composition - men 24, women 6, percent of women 20%; note - total Parliament percent of women 21.6%",
+          "content": "<strong>description: </strong>bicameral Parliament consists of:<br />Senate (21 seats; members appointed by the governor general - 12 on the advice of the Prime Minister, 2 on the advice of the opposition leader, and 7 at the discretion of the governor general) <br />House of Assembly (30 seats; members directly elected in single-seat constituencies by simple majority vote to serve 5-year terms)<br><br><strong>elections: </strong><br />Senate - last appointments on 5 June 2018 (next appointments NA)<br />House of Assembly - last held on 24 May 2018 (next to be held in 2023)<br><br><strong>election results: </strong><br />Senate - appointed; composition - men 16, women 5, percent of women 23.8% <br />House of Assembly - percent of vote by party - BLP 74.6%, DLP 22.6%, other 2.8%; seats by party - BLP 30; composition - men 24, women 6, percent of women 20%; note - total Parliament percent of women 21.6%<br><br><strong>note:</strong> tradition dictates that the election is held within 5 years of the last election, but constitutionally it is 5 years from the first seating of Parliament plus a 90-day grace period",
           "subfields": [
             {
               "name": "description",
@@ -1180,7 +1428,7 @@
               "title": "election results"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> tradition dictates that the election is held within 5 years of the last election, but constitutionally it is 5 years from the first seating of Parliament plus a 90-day grace period"
+          "field_note": "<strong>note:</strong> tradition dictates that the election is held within 5 years of the last election, but constitutionally it is 5 years from the first seating of Parliament plus a 90-day grace period"
         },
         {
           "name": "Judicial branch",
@@ -1312,7 +1560,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>The National Anthem of Barbados<br><br><strong>lyrics/music: </strong>Irving BURGIE/C. Van Roland EDWARDS",
+          "content": "<strong>name: </strong>The National Anthem of Barbados<br><br><strong>lyrics/music: </strong>Irving BURGIE/C. Van Roland EDWARDS<br><br><strong>note:</strong> adopted 1966; the anthem is also known as \"In Plenty and In Time of Need\"",
           "subfields": [
             {
               "name": "name",
@@ -1327,12 +1575,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1966; the anthem is also known as \"In Plenty and In Time of Need\"</p>",
+          "field_note": "<strong>note:</strong> adopted 1966; the anthem is also known as \"In Plenty and In Time of Need\"",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/BB.mp3?1538604750",
-              "alt": "National Anthem audio file for Barbados"
+              "src": "/attachments/audios/original/BB.mp3",
+              "alt": "National Anthem audio file for Barbados",
+              "caption": "This is an audio of the National Anthem for Barbados. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1425,7 +1675,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$4.488 billion (2019 est.)<br><br>$4.493 billion (2018 est.)<br><br>$4.519 billion (2017 est.)",
+          "content": "$4.488 billion (2019 est.)<br><br>$4.493 billion (2018 est.)<br><br>$4.519 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1449,7 +1699,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1465,7 +1715,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$15,639 (2019 est.)<br><br>$15,675 (2018 est.)<br><br>$15,789 (2017 est.)",
+          "content": "$15,639 (2019 est.)<br><br>$15,675 (2018 est.)<br><br>$15,789 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1489,7 +1739,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1621,13 +1871,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "57.9 (2020)",
+          "content": "<strong>Overall score: </strong>57.9 (2020)<br><br><strong>Starting a Business score: </strong>86.4 (2020)<br><br><strong>Trading score: </strong>62.8 (2020)<br><br><strong>Enforcement score: </strong>38.9 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
               "content": "57.9 (2020)",
+              "title": "Overall score",
               "value": "57.9",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "86.4 (2020)",
+              "title": "Starting a Business score",
+              "value": "86.4",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "62.8 (2020)",
+              "title": "Trading score",
+              "value": "62.8",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "38.9 (2020)",
+              "title": "Enforcement score",
+              "value": "38.9",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1866,14 +2142,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "US 38%, Trinidad and Tobago 10.2%, Guyana 5.5%, Jamaica 5%, China 4.8%, St. Lucia 4.6% (2017)",
-          "info_date": "2017"
+          "content": "US 21%, Poland 14%, Jamaica 8%, Guyana 6%,Trinidad and Tobago 6% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "manufactures, sugar, molasses, rum, other foodstuffs and beverages, chemicals, electrical components"
+          "content": "rums and other hard liquor, ships, orthopedic appliances, cement, packaged medicines (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -1901,14 +2178,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "US 38.5%, Trinidad and Tobago 14.6%, China 7.1%, UK 4.7% (2017)",
-          "info_date": "2017"
+          "content": "United States 35%, Trinidad and Tobago 14%, China 9%, Netherlands 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "consumer goods, machinery, foodstuffs, construction materials, chemicals, fuel, electrical components"
+          "content": "refined petroleum, ships, cars, shipping containers, packaged medicines (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -1958,7 +2236,7 @@
           "name": "Exchange rates",
           "field_id": 249,
           "comparative": false,
-          "content": "Barbadian dollars (BBD) per US dollar -<br><br>2 (2017 est.)<br><br>2 (2016 est.)<br><br>2 (2015 est.)<br><br>2 (2014 est.)<br><br>2 (2013 est.)",
+          "content": "Barbadian dollars (BBD) per US dollar -<br><br>2 (2017 est.)<br><br>2 (2016 est.)<br><br>2 (2015 est.)<br><br>2 (2014 est.)<br><br>2 (2013 est.)<br><br><strong>note:</strong> the Barbadian dollar is pegged to the US dollar",
           "subfields": [
             {
               "name": "currency",
@@ -1996,7 +2274,7 @@
               "estimated": true
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the Barbadian dollar is pegged to the US dollar"
+          "field_note": "<strong>note:</strong> the Barbadian dollar is pegged to the US dollar"
         }
       ]
     },
@@ -2240,16 +2518,6 @@
           "estimated": true,
           "info_date": "1 January 2018",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "1.76 million Mt (2017 est.)",
-          "value": "1,760,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2305,7 +2573,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>island-wide automatic telephone system; telecom sector across the Caribbean region remains one of the key growth areas and contributors to the overall GDP; numerous competitors licensed, but small and localized (2020)<br><br><strong>domestic: </strong>fixed-line teledensity of roughly 48 per 100 persons; mobile-cellular telephone density about 109 per 100 persons (2019)<br><br><strong>international: </strong>country code - 1-246; landing points for the ECFS and Southern Caribbean Fiber submarine cable with links to 15 other islands in the eastern Caribbean extending from the British Virgin Islands to Trinidad and Puerto Ricco; satellite earth stations - 1 (Intelsat - Atlantic Ocean); tropospheric scatter to Trinidad and Saint Lucia (2019)",
+          "content": "<strong>general assessment: </strong>island-wide automatic telephone system; telecom sector across the Caribbean region remains one of the key growth areas and contributors to the overall GDP; numerous competitors licensed, but small and localized (2020)<br><br><strong>domestic: </strong>fixed-line teledensity of roughly 48 per 100 persons; mobile-cellular telephone density about 109 per 100 persons (2019)<br><br><strong>international: </strong>country code - 1-246; landing points for the ECFS and Southern Caribbean Fiber submarine cable with links to 15 other islands in the eastern Caribbean extending from the British Virgin Islands to Trinidad and Puerto Ricco; satellite earth stations - 1 (Intelsat - Atlantic Ocean); tropospheric scatter to Trinidad and Saint Lucia (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2329,7 +2597,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2398,8 +2666,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "8P (2016)",
-          "info_date": "2016"
+          "content": "8P"
         },
         {
           "name": "Airports",
@@ -2517,15 +2784,58 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Royal Barbados Defense Force: The Barbados Regiment, The Barbados Coast Guard (2020)",
-          "info_date": "2020"
+          "content": "Royal Barbados Defense Force: The Barbados Regiment, The Barbados Coast Guard (2021)",
+          "info_date": "2021"
+        },
+        {
+          "name": "Military expenditures",
+          "field_id": 330,
+          "comparative": true,
+          "content": "0.9% of GDP (2017)<br><br>0.9% of GDP (2016)<br><br>0.7% of GDP (2015)<br><br>0.7% of GDP (2014)<br><br>0.7% of GDP (2013)",
+          "subfields": [
+            {
+              "name": "Military Expenditures 2017",
+              "content": "0.9% of GDP (2017)",
+              "value": "0.9",
+              "estimated": false,
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Military Expenditures 2016",
+              "content": "0.9% of GDP (2016)",
+              "value": "0.9",
+              "estimated": false,
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Military Expenditures 2015",
+              "content": "0.7% of GDP (2015)",
+              "value": "0.7",
+              "estimated": false,
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Military Expenditures 2014",
+              "content": "0.7% of GDP (2014)",
+              "value": "0.7",
+              "estimated": false,
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Military Expenditures 2013",
+              "content": "0.7% of GDP (2013)",
+              "value": "0.7",
+              "estimated": false,
+              "suffix": "% of GDP"
+            }
+          ]
         },
         {
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Royal Barbados Defense Force (RBDF) has approximately 550 active personnel (450 Barbados Regiment; 100 Coast Guard) (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the Royal Barbados Defense Force (RBDF) has approximately 600 active personnel (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
@@ -2538,8 +2848,8 @@
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18 years of age for voluntary military service, or earlier with parental consent; no conscription (2013)",
-          "info_date": "2013"
+          "content": "<span style=\"left: 120.04px; top: 744.817px; font-size: 20px; font-family: sans-serif; transform: scaleX(0.999682);\">voluntary service only; 17 years, 9 months </span><span style=\"left: 539.317px; top: 744.811px; font-size: 20px; font-family: sans-serif;\">to </span><span style=\"left: 556.117px; top: 744.817px; font-size: 20px; font-family: sans-serif; transform: scaleX(1.00462);\">17 years, 11 months with a letter of </span><span style=\"left: 120.04px; top: 769.617px; font-size: 20px; font-family: sans-serif; transform: scaleX(0.999881);\">consent from a parent or guardian, or be in the age range of 18</span><span style=\"left: 678.567px; top: 769.617px; font-size: 20px; font-family: sans-serif;\">-</span><span style=\"left: 690.767px; top: 769.617px; font-size: 20px; font-family: sans-serif; transform: scaleX(0.999739);\">25 years at the start of </span><span style=\"left: 120.04px; top: 794.217px; font-size: 20px; font-family: sans-serif; transform: scaleX(1.00038);\">recruit training; citizen of Barbados by descent or naturalization </span> (2021)",
+          "info_date": "2021"
         }
       ]
     },

@@ -2,8 +2,8 @@
   "name": "Falkland Islands (Islas Malvinas)",
   "code": "FK",
   "region": "South America",
-  "published": "2021-02-24 12:20:42 -0500",
-  "updated": "2021-02-24 11:27:36 -0500",
+  "published": "2021-05-12 12:06:34 -0400",
+  "updated": "2021-05-11 18:05:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/FK-map.jpg"
+      "src": "/attachments/maps/FK-map.jpg",
+      "caption": "Falkland Islands (Islas Malvinas) map showing the islands that make up this UK territory in the South Atlantic Ocean."
     },
     {
       "type": "locator-map",
@@ -24,47 +25,32 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/FK_003_large.jpg?1528323689",
+      "src": "/attachments/images/original/FK_003_large.jpg",
       "category": "Capital",
       "alt": "A Stanley shoreline view with a cruise ship in the background. Stanley is the only &quot;city&quot; on the islands (population about 2,100) and is the main shopping area.",
       "caption": "A Stanley shoreline view with a cruise ship in the background. Stanley is the only &quot;city&quot; on the islands (population about 2,100) and is the main shopping area.",
-      "dimensions": {
-        "height": 800.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 170914,
+      "dimensions": "1200x800",
+      "file_size": 106990,
       "position": 0
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/FK_002_large.jpg?1528323690",
+      "src": "/attachments/images/original/FK_002_large.jpg",
       "category": "Capital",
       "alt": "A mid-summer Stanley neighborhood scene.",
       "caption": "A mid-summer Stanley neighborhood scene.",
-      "dimensions": {
-        "height": 800.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 228096,
+      "dimensions": "1200x800",
+      "file_size": 147473,
       "position": 1
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/FK_001_large.jpg?1528323691",
+      "src": "/attachments/images/original/FK_001_large.jpg",
       "category": "Capital",
       "alt": "Colorful blossoms brighten a park in Stanley.",
       "caption": "Colorful blossoms brighten a park in Stanley.",
-      "dimensions": {
-        "height": 1200.0,
-        "width": 800.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 289447,
+      "dimensions": "800x1200",
+      "file_size": 192118,
       "position": 2
     }
   ],
@@ -107,7 +93,7 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>12,173 sq km<br><br><strong>land: </strong>12,173 sq km<br><br><strong>water: </strong>0 sq km",
+          "content": "<strong>total: </strong>12,173 sq km<br><br><strong>land: </strong>12,173 sq km<br><br><strong>water: </strong>0 sq km<br><br><strong>note:</strong> includes the two main islands of East and West Falkland and about 200 small islands",
           "subfields": [
             {
               "name": "total",
@@ -131,7 +117,7 @@
               "suffix": "sq km"
             }
           ],
-          "field_note": "<p><strong>note:</strong> includes the two main islands of East and West Falkland and about 200 small islands</p>"
+          "field_note": "<strong>note:</strong> includes the two main islands of East and West Falkland and about 200 small islands"
         },
         {
           "name": "Area - comparative",
@@ -207,19 +193,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Mount Usborne 705 m",
+          "content": "<strong>highest point: </strong>Mount Usborne 705 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Atlantic Ocean 0 m",
-              "value": "Atlantic Ocean 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Mount Usborne 705 m",
               "value": "Mount Usborne 705 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Atlantic Ocean 0 m",
+              "value": "Atlantic Ocean 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -309,12 +295,6 @@
           "content": "strong winds persist throughout the year"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "overfishing by unlicensed vessels is a problem; reindeer - introduced to the islands in 2001 from South Georgia - are part of a farming effort to produce specialty meat and diversify the islands' economy; this is the only commercial reindeer herd in the world unaffected by the 1986 Chornobyl disaster; grazing threatens important habitats including tussac grass and its ecosystem with penguins and sea lions; soil erosion from fires"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -330,11 +310,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "3,198 (2016 est.)",
+          "content": "3,198 (2016 est.)<br><br><strong>note:</strong> data include all persons usually resident in the islands at the time of the 2016 census",
           "value": "3,198",
           "estimated": true,
           "info_date": "2016",
-          "field_note": "<p><strong>note:</strong> data include all persons usually resident in the islands at the time of the 2016 census</p>"
+          "field_note": "<strong>note:</strong> data include all persons usually resident in the islands at the time of the 2016 census"
         },
         {
           "name": "Nationality",
@@ -425,30 +405,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>78.5% of total population (2020)<br><br><strong>rate of urbanization: </strong>0.76% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>78.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.53% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "78.5% of total population (2020)",
+              "content": "78.9% of total population (2021)",
               "title": "urban population",
-              "value": "78.5",
+              "value": "78.9",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "0.76% annual rate of change (2015-20 est.)",
+              "content": "0.53% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "0.76",
+              "value": "0.53",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_FK.pdf?1602789452",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_FK.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -463,7 +445,7 @@
           "name": "Sex ratio",
           "field_id": 351,
           "comparative": false,
-          "content": "<strong>total population: </strong>1.12 male(s)/female (2016 est.)",
+          "content": "<strong>total population: </strong>1.12 male(s)/female (2016 est.)<br><br><strong>note:</strong> sex ratio is somewhat skewed by the high proportion of males at the Royal Air Force station, Mount Pleasant Airport (MPA); excluding MPA, the sex ratio of the total population would be 1.04",
           "subfields": [
             {
               "name": "total population",
@@ -475,7 +457,7 @@
               "suffix": "male(s)/female"
             }
           ],
-          "field_note": "<p><strong>note:</strong> sex ratio is somewhat skewed by the high proportion of males at the Royal Air Force station, Mount Pleasant Airport (MPA); excluding MPA, the sex ratio of the total population would be 1.04</p>"
+          "field_note": "<strong>note:</strong> sex ratio is somewhat skewed by the high proportion of males at the Royal Air Force station, Mount Pleasant Airport (MPA); excluding MPA, the sex ratio of the total population would be 1.04"
         },
         {
           "name": "Infant mortality rate",
@@ -668,6 +650,116 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "overfishing by unlicensed vessels is a problem; reindeer - introduced to the islands in 2001 from South Georgia - are part of a farming effort to produce specialty meat and diversify the islands' economy; this is the only commercial reindeer herd in the world unaffected by the 1986 Chornobyl disaster; grazing threatens important habitats including tussac grass and its ecosystem with penguins and sea lions; soil erosion from fires"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "cold marine; strong westerly winds, cloudy, humid; rain occurs on more than half of days in year; average annual rainfall is 60 cm in Stanley; occasional snow all year, except in January and February, but typically does not accumulate"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>92.4% (2018 est.)<br><br>arable land: 0% (2018 est.)<br><br>permanent crops: 0% (2018 est.)<br><br>permanent pasture: 92.4% (2018 est.)<br><br><strong>forest: </strong>0% (2018 est.)<br><br><strong>other: </strong>7.6% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "92.4% (2018 est.)",
+              "title": "agricultural land",
+              "value": "92.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 0% (2018 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0% (2018 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 92.4% (2018 est.)",
+              "value": "92.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "0% (2018 est.)",
+              "title": "forest",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "7.6% (2018 est.)",
+              "title": "other",
+              "value": "7.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>78.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.53% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "78.9% of total population (2021)",
+              "title": "urban population",
+              "value": "78.9",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.53% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.53",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_FK.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -713,7 +805,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Stanley<br><br><strong>geographic coordinates: </strong>51 42 S, 57 51 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Stanley<br><br><strong>geographic coordinates: </strong>51 42 S, 57 51 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> named after Edward SMITH-STANLEY (1799-1869), the 14th Earl of Derby, a British statesman and three-time prime minister of the UK who never visited the islands",
           "subfields": [
             {
               "name": "name",
@@ -734,7 +826,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> named after Edward SMITH-STANLEY (1799-1869), the 14th Earl of Derby, a British statesman and three-time prime minister of the UK who never visited the islands"
+          "field_note": "<strong>etymology:</strong> named after Edward SMITH-STANLEY (1799-1869), the 14th Earl of Derby, a British statesman and three-time prime minister of the UK who never visited the islands"
         },
         {
           "name": "Administrative divisions",
@@ -758,19 +850,13 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>previous 1985; latest entered into force 1 January 2009 (The Falkland Islands Constitution Order 2008)<br><br><strong>amendments: </strong>NA",
+          "content": "<strong>history: </strong>previous 1985; latest entered into force 1 January 2009 (The Falkland Islands Constitution Order 2008)",
           "subfields": [
             {
               "name": "history",
               "content": "previous 1985; latest entered into force 1 January 2009 (The Falkland Islands Constitution Order 2008)",
               "value": "previous 1985; latest entered into force 1 January 2009 (The Falkland Islands Constitution Order 2008)",
               "title": "history"
-            },
-            {
-              "name": "amendments",
-              "content": "NA",
-              "value": "NA",
-              "title": "amendments"
             }
           ]
         },
@@ -922,7 +1008,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>Song of the Falklands\"<br><br><strong>lyrics/music: </strong>Christopher LANHAM",
+          "content": "<strong>name: </strong>Song of the Falklands\"<br><br><strong>lyrics/music: </strong>Christopher LANHAM<br><br><strong>note:</strong> adopted 1930s; the song is the local unofficial anthem; as a territory of the United Kingdom, \"God Save the Queen\" is official (see United Kingdom)",
           "subfields": [
             {
               "name": "name",
@@ -937,7 +1023,7 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1930s; the song is the local unofficial anthem; as a territory of the United Kingdom, \"God Save the Queen\" is official (see United Kingdom)</p>"
+          "field_note": "<strong>note:</strong> adopted 1930s; the song is the local unofficial anthem; as a territory of the United Kingdom, \"God Save the Queen\" is official (see United Kingdom)"
         }
       ]
     },
@@ -1303,14 +1389,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "Spain 74.4%, Namibia 10.4%, US 5% (2017)",
-          "info_date": "2017"
+          "content": "Spain 78%, United States 6% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "wool, hides, meat, venison, fish, squid"
+          "content": "mollusks, fish, wool, sheep/goat meats, engine parts (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -1331,14 +1418,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "UK 47.8%, Spain 28.4%, Greece 10.2%, Netherlands 5.7%, Cote d'Ivoire 4.3% (2017)",
-          "info_date": "2017"
+          "content": "United Kingdom 79%, Netherlands 16% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "fuel, food and drink, building materials, clothing"
+          "content": "refined petroleum, spark-ignition engines, stone processing machinery, construction vehicles, cars (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Debt - external",
@@ -1630,16 +1718,6 @@
           "estimated": true,
           "info_date": "1 January 2014",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "44,070 Mt (2017 est.)",
-          "value": "44,070",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -1809,8 +1887,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "VP-F (2016)",
-          "info_date": "2016"
+          "content": "VP-F"
         },
         {
           "name": "Airports",

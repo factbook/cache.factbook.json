@@ -2,8 +2,8 @@
   "name": "British Virgin Islands",
   "code": "VI",
   "region": "Central America",
-  "published": "2021-02-24 12:15:15 -0500",
-  "updated": "2021-02-24 10:36:49 -0500",
+  "published": "2021-05-12 12:21:24 -0400",
+  "updated": "2021-05-11 16:34:09 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/VI-map.jpg"
+      "src": "/attachments/maps/VI-map.jpg",
+      "caption": "British Virgin Islands map showing the many islands that make up this UK territory in the Caribbean Sea."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/VI_001_large.jpg?1528323279",
+      "src": "/attachments/images/original/VI_001_large.jpg",
       "category": "Space",
       "alt": "St. Thomas, St. John, Tortola, and Virgin Gorda are the four main islands (front to back) in this east-looking view of the US Virgin Islands and British Virgin Islands. For this view, a nearly cloud-free Landsat image was draped over radar elevation data, and shading was added to enhance the topographic expression. Elevation is shown with 1.5x scaled vertical exaggeration. Coral reefs fringe the islands in many locations and appear as very light shades of blue. Tropical vegetation appears green, while developed areas appear in shades of brown and white. Image credit: NASA, JPL, and NIMA.",
       "caption": "St. Thomas, St. John, Tortola, and Virgin Gorda are the four main islands (front to back) in this east-looking view of the US Virgin Islands and British Virgin Islands. For this view, a nearly cloud-free Landsat image was draped over radar elevation data, and shading was added to enhance the topographic expression. Elevation is shown with 1.5x scaled vertical exaggeration. Coral reefs fringe the islands in many locations and appear as very light shades of blue. Tropical vegetation appears green, while developed areas appear in shades of brown and white. Image credit: NASA, JPL, and NIMA.",
-      "dimensions": {
-        "height": 432.0,
-        "width": 768.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 55621,
+      "dimensions": "768x432",
+      "file_size": 49004,
       "position": 0
     }
   ],
@@ -81,7 +77,7 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>151 sq km<br><br><strong>land: </strong>151 sq km<br><br><strong>water: </strong>0 sq km",
+          "content": "<strong>total: </strong>151 sq km<br><br><strong>land: </strong>151 sq km<br><br><strong>water: </strong>0 sq km<br><br><strong>note:</strong> comprised of 16 inhabited and more than 20 uninhabited islands; includes the islands of Tortola, Anegada, Virgin Gorda, Jost van Dyke",
           "subfields": [
             {
               "name": "total",
@@ -105,7 +101,7 @@
               "suffix": "sq km"
             }
           ],
-          "field_note": "<p><strong>note:</strong> comprised of 16 inhabited and more than 20 uninhabited islands; includes the islands of Tortola, Anegada, Virgin Gorda, Jost van Dyke</p>"
+          "field_note": "<strong>note:</strong> comprised of 16 inhabited and more than 20 uninhabited islands; includes the islands of Tortola, Anegada, Virgin Gorda, Jost van Dyke"
         },
         {
           "name": "Area - comparative",
@@ -140,13 +136,13 @@
           "name": "Maritime claims",
           "field_id": 283,
           "comparative": false,
-          "content": "<strong>territorial sea: </strong>3 nm<br><br><strong>exclusive fishing zone: </strong>200 nm",
+          "content": "<strong>territorial sea: </strong>12 nm<br><br><strong>exclusive fishing zone: </strong>200 nm",
           "subfields": [
             {
               "name": "territorial sea",
-              "content": "3 nm",
+              "content": "12 nm",
               "title": "territorial sea",
-              "value": "3",
+              "value": "12",
               "subfield_note": "nm"
             },
             {
@@ -174,19 +170,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Caribbean Sea 0 m<br><br><strong>highest point: </strong>Mount Sage 521 m",
+          "content": "<strong>highest point: </strong>Mount Sage 521 m<br><br><strong>lowest point: </strong>Caribbean Sea 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Caribbean Sea 0 m",
-              "value": "Caribbean Sea 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Mount Sage 521 m",
               "value": "Mount Sage 521 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Caribbean Sea 0 m",
+              "value": "Caribbean Sea 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -274,12 +270,6 @@
           "field_id": 292,
           "comparative": false,
           "content": "hurricanes and tropical storms (July to October)"
-        },
-        {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "limited natural freshwater resources except for a few seasonal streams and springs on Tortola; most of the islands' water supply comes from desalination plants; sewage and mining/industry waste contribute to water pollution, threatening coral reefs"
         },
         {
           "name": "Geography - note",
@@ -393,9 +383,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/VI_popgraph2021.pdf?1613491795",
-              "alt": "British Virgin Islands population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/VI_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for British Virgin Islands. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -480,30 +472,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>48.5% of total population (2020)<br><br><strong>rate of urbanization: </strong>2.42% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>48.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.73% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "48.5% of total population (2020)",
+              "content": "48.9% of total population (2021)",
               "title": "urban population",
-              "value": "48.5",
+              "value": "48.9",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "2.42% annual rate of change (2015-20 est.)",
+              "content": "1.73% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "2.42",
+              "value": "1.73",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_VI.pdf?1602856170",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_VI.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -783,6 +777,150 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "limited natural freshwater resources except for a few seasonal streams and springs on Tortola; most of the islands' water supply comes from desalination plants; sewage and mining/industry waste contribute to water pollution, threatening coral reefs"
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>carbon dioxide emissions: </strong>0.21 megatons (2016 est.)",
+          "subfields": [
+            {
+              "name": "carbon dioxide emissions",
+              "content": "0.21 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "0.21",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "subtropical; humid; temperatures moderated by trade winds"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>46.7% (2018 est.)<br><br>arable land: 6.7% (2018 est.)<br><br>permanent crops: 6.7% (2018 est.)<br><br>permanent pasture: 33.3% (2018 est.)<br><br><strong>forest: </strong>24.3% (2018 est.)<br><br><strong>other: </strong>29% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "46.7% (2018 est.)",
+              "title": "agricultural land",
+              "value": "46.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 6.7% (2018 est.)",
+              "value": "6.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 6.7% (2018 est.)",
+              "value": "6.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 33.3% (2018 est.)",
+              "value": "33.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "24.3% (2018 est.)",
+              "title": "forest",
+              "value": "24.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "29% (2018 est.)",
+              "title": "other",
+              "value": "29",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>48.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.73% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "48.9% of total population (2021)",
+              "title": "urban population",
+              "value": "48.9",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.73% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.73",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_VI.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>21,099 tons (2000 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "21,099 tons (2000 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "21,099",
+              "estimated": true,
+              "info_date": "2000",
+              "suffix": "tons"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -834,7 +972,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Road Town<br><br><strong>geographic coordinates: </strong>18 25 N, 64 37 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Road Town<br><br><strong>geographic coordinates: </strong>18 25 N, 64 37 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> name refers to the nautical term \"roadstead\" or \"roads,\" a body of water less sheltered than a harbor but where where ships can lie reasonably safely at anchor sheltered from rip currents, spring tides, or ocean swells",
           "subfields": [
             {
               "name": "name",
@@ -855,7 +993,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> name refers to the nautical term \"roadstead\" or \"roads,\" a body of water less sheltered than a harbor but where where ships can lie reasonably safely at anchor sheltered from rip currents, spring tides, or ocean swells"
+          "field_note": "<strong>etymology:</strong> name refers to the nautical term \"roadstead\" or \"roads,\" a body of water less sheltered than a harbor but where where ships can lie reasonably safely at anchor sheltered from rip currents, spring tides, or ocean swells"
         },
         {
           "name": "Administrative divisions",
@@ -879,13 +1017,19 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>several previous; latest effective 15 June 2007 (The Virgin Islands Constitution Order 2007)",
+          "content": "<strong>history: </strong>several previous; latest effective 15 June 2007 (The Virgin Islands Constitution Order 2007)<br><br><strong>amendments: </strong>initiated by any elected member of the House of Assembly; passage requires simple majority vote by the elected members of the Assembly and assent by the governor on behalf of the monarch; amended 2015",
           "subfields": [
             {
               "name": "history",
               "content": "several previous; latest effective 15 June 2007 (The Virgin Islands Constitution Order 2007)",
               "value": "several previous; latest effective 15 June 2007 (The Virgin Islands Constitution Order 2007)",
               "title": "history"
+            },
+            {
+              "name": "amendments",
+              "content": "initiated by any elected member of the House of Assembly; passage requires simple majority vote by the elected members of the Assembly and assent by the governor on behalf of the monarch; amended 2015",
+              "value": "initiated by any elected member of the House of Assembly; passage requires simple majority vote by the elected members of the Assembly and assent by the governor on behalf of the monarch; amended 2015",
+              "title": "amendments"
             }
           ]
         },
@@ -1454,10 +1598,18 @@
           ]
         },
         {
+          "name": "Exports - partners",
+          "field_id": 241,
+          "comparative": false,
+          "content": "Malta 30%, Seychelles 29%, Switzerland 14% (2019)",
+          "info_date": "2019"
+        },
+        {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "rum, fresh fish, fruits, animals; gravel, sand"
+          "content": "recreational boats, aircraft, diamonds, paintings, precious stones (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -1483,10 +1635,18 @@
           ]
         },
         {
+          "name": "Imports - partners",
+          "field_id": 403,
+          "comparative": false,
+          "content": "Germany 32%, United States 22%%, Italy 9%, France 7%, Seychelles 7% (2019)",
+          "info_date": "2019"
+        },
+        {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "building materials, automobiles, foodstuffs, machinery"
+          "content": "recreational boats, aircraft, refined petroleum, cars, furniture (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Debt - external",
@@ -1750,16 +1910,6 @@
           "estimated": true,
           "info_date": "1 January 2014",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "183,300 Mt (2017 est.)",
-          "value": "183,300",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -1815,7 +1965,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>good overall telephone service; major&nbsp;expansion sectors include the mobile telephony and data segments, which continue to&nbsp;appeal to&nbsp;operator investment;&nbsp;several operators licensed to provide services within individual markets, most of them are small and localized; telecommunication contributes to overall GDP (2020)<br><br><strong>domestic: </strong>fixed-line connections exceed 21 per 100 persons and mobile cellular subscribership is roughly 198 per 100 persons (2019)<br><br><strong>international: </strong>country code - 1-284; landing points for PCCS, ECFS, CBUS, Deep Blue Cable, East-West, PAN-AM, Americas-1, Southern Caribbean Fiber, Columbus- IIb, St Thomas - St Croix System, Taino-Carib, and Americas I- North&nbsp;via submarine cable to Caribbean, Central and South America, and US (2019)",
+          "content": "<strong>general assessment: </strong>good overall telephone service; major&nbsp;expansion sectors include the mobile telephony and data segments, which continue to&nbsp;appeal to&nbsp;operator investment;&nbsp;several operators licensed to provide services within individual markets, most of them are small and localized; telecommunication contributes to overall GDP (2020)<br><br><strong>domestic: </strong>fixed-line connections exceed 21 per 100 persons and mobile cellular subscribership is roughly 198 per 100 persons (2019)<br><br><strong>international: </strong>country code - 1-284; landing points for PCCS, ECFS, CBUS, Deep Blue Cable, East-West, PAN-AM, Americas-1, Southern Caribbean Fiber, Columbus- IIb, St Thomas - St Croix System, Taino-Carib, and Americas I- North&nbsp;via submarine cable to Caribbean, Central and South America, and US (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -1839,7 +1989,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -1908,8 +2058,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "VP-L (2016)",
-          "info_date": "2016"
+          "content": "VP-L"
         },
         {
           "name": "Airports",

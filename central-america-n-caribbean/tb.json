@@ -2,8 +2,8 @@
   "name": "Saint Barthelemy",
   "code": "TB",
   "region": "Central America",
-  "published": "2021-02-23 06:51:38 -0500",
-  "updated": "2021-02-17 09:15:43 -0500",
+  "published": "2021-05-05 12:46:04 -0400",
+  "updated": "2021-05-03 13:35:53 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/TB-map.jpg"
+      "src": "/attachments/maps/TB-map.jpg",
+      "caption": "Saint Barthelemy map showing the islands of this French overseas collectivity in the Caribbean Sea."
     },
     {
       "type": "locator-map",
@@ -24,17 +25,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/TB_002.png?1528324786",
+      "src": "/attachments/images/original/TB_002.png",
       "category": "Space",
       "alt": "Satellite image of Saint Barthelemy.",
       "caption": "Satellite image of Saint Barthelemy.",
-      "dimensions": {
-        "height": 532.0,
-        "width": 650.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 629638,
+      "dimensions": "650x532",
+      "file_size": 384615,
       "position": 0
     }
   ],
@@ -140,19 +136,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Caribbean Ocean 0 m<br><br><strong>highest point: </strong>Morne du Vitet 286 m",
+          "content": "<strong>highest point: </strong>Morne du Vitet 286 m<br><br><strong>lowest point: </strong>Caribbean Ocean 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Caribbean Ocean 0 m",
-              "value": "Caribbean Ocean 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Morne du Vitet 286 m",
               "value": "Morne du Vitet 286 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Caribbean Ocean 0 m",
+              "value": "Caribbean Ocean 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -167,12 +163,6 @@
           "field_id": 348,
           "comparative": false,
           "content": "most of the populace concentrated in and around the capital of Gustavia, but scattered settlements exist around the island periphery"
-        },
-        {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "land-based pollution; urbanization; with no natural rivers or streams, fresh water is in short supply, especially in summer, and is provided by the desalination of sea water, the collection of rain water, or imported via water tanker; overfishing"
         },
         {
           "name": "Geography - note",
@@ -264,9 +254,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/TB_popgraph2021.pdf?1613508243",
-              "alt": "Saint Barthelemy population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/TB_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Saint Barthelemy. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -496,6 +488,24 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "land-based pollution; urbanization; with no natural rivers or streams, fresh water is in short supply, especially in summer, and is provided by the desalination of sea water, the collection of rain water, or imported via water tanker; overfishing"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical, with practically no variation in temperature; has two seasons (dry and humid)"
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -559,7 +569,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Gustavia<br><br><strong>geographic coordinates: </strong>17 53 N, 62 51 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Gustavia<br><br><strong>geographic coordinates: </strong>17 53 N, 62 51 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> named in honor of King Gustav III (1746-1792) of Sweden during whose reign the island was obtained from France in 1784; the name was retained when in 1878 the island was sold back to France",
           "subfields": [
             {
               "name": "name",
@@ -580,7 +590,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> named in honor of King Gustav III (1746-1792) of Sweden during whose reign the island was obtained from France in 1784; the name was retained when in 1878 the island was sold back to France"
+          "field_note": "<strong>etymology:</strong> named in honor of King Gustav III (1746-1792) of Sweden during whose reign the island was obtained from France in 1784; the name was retained when in 1878 the island was sold back to France"
         },
         {
           "name": "Independence",
@@ -742,7 +752,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"L'Hymne a St. Barthelemy\" (Hymn to St. Barthelemy)<br><br><strong>lyrics/music: </strong>Isabelle Massart DERAVIN/Michael VALENTI",
+          "content": "<strong>name: </strong>\"L'Hymne a St. Barthelemy\" (Hymn to St. Barthelemy)<br><br><strong>lyrics/music: </strong>Isabelle Massart DERAVIN/Michael VALENTI<br><br><strong>note:</strong> local anthem in use since 1999; as a collectivity of France, \"La Marseillaise\" is official (see France)",
           "subfields": [
             {
               "name": "name",
@@ -757,7 +767,7 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> local anthem in use since 1999; as a collectivity of France, \"La Marseillaise\" is official (see France)</p>"
+          "field_note": "<strong>note:</strong> local anthem in use since 1999; as a collectivity of France, \"La Marseillaise\" is official (see France)"
         }
       ]
     },
@@ -770,6 +780,34 @@
           "field_id": 207,
           "comparative": false,
           "content": "The economy of Saint Barthelemy is based upon high-end tourism and duty-free luxury commerce, serving visitors primarily from North America. The luxury hotels and villas host 70,000 visitors each year with another 130,000 arriving by boat. The relative isolation and high cost of living inhibits mass tourism. The construction and public sectors also enjoy significant investment in support of tourism. With limited fresh water resources, all food must be imported, as must all energy resources and most manufactured goods. The tourism sector creates a strong employment demand and attracts labor from Brazil and Portugal. The country’s currency is the euro."
+        },
+        {
+          "name": "Exports - partners",
+          "field_id": 241,
+          "comparative": false,
+          "content": "France 60%, Germany 27% (2019)",
+          "info_date": "2019"
+        },
+        {
+          "name": "Exports - commodities",
+          "field_id": 240,
+          "comparative": false,
+          "content": "beauty products, broadcasting equipment, sunflower seed oil, plastics, cars (2019)",
+          "info_date": "2019"
+        },
+        {
+          "name": "Imports - partners",
+          "field_id": 403,
+          "comparative": false,
+          "content": "France 78%, Switzerland 7%, Italy 7% (2019)",
+          "info_date": "2019"
+        },
+        {
+          "name": "Imports - commodities",
+          "field_id": 243,
+          "comparative": false,
+          "content": "furniture, wine, refined petroleum, jewelry, food preparation materials (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exchange rates",
@@ -841,7 +879,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>fully integrated access; 4G and LTE services (2020)<br><br><strong>domestic: </strong>direct dial capability with both fixed and wireless systems, 3 FM channels, no broadcasting (2018)<br><br><strong>international: </strong>country code - 590; landing points for the SSCS and the Southern Caribbean Fiber submarine&nbsp;cables providing voice and data connectivity to numerous Caribbean Islands (2019)",
+          "content": "<strong>general assessment: </strong>fully integrated access; 4G and LTE services (2020)<br><br><strong>domestic: </strong>direct dial capability with both fixed and wireless systems, 3 FM channels, no broadcasting (2018)<br><br><strong>international: </strong>country code - 590; landing points for the SSCS and the Southern Caribbean Fiber submarine&nbsp;cables providing voice and data connectivity to numerous Caribbean Islands (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -865,7 +903,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",

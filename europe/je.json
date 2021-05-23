@@ -2,8 +2,8 @@
   "name": "Jersey",
   "code": "JE",
   "region": "Europe",
-  "published": "2021-02-24 12:25:49 -0500",
-  "updated": "2021-02-24 11:46:01 -0500",
+  "published": "2021-05-12 12:10:33 -0400",
+  "updated": "2021-05-11 16:39:36 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/JE-map.jpg"
+      "src": "/attachments/maps/JE-map.jpg",
+      "caption": "Jersey map showing this British crown dependency island in the English Channel."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/JE_002_large.jpg?1528324329",
+      "src": "/attachments/images/original/JE_002_large.jpg",
       "category": "Space",
       "alt": "The Isle of Jersey (officially called the Bailiwick of Jersey) is the largest of the Channel Islands in the Bay of Mont St. Michel off the northwest coast of France. This Terra satellite image vividly displays the island&apos;s agricultural patchwork terrain. Image courtesy of NASA.",
       "caption": "The Isle of Jersey (officially called the Bailiwick of Jersey) is the largest of the Channel Islands in the Bay of Mont St. Michel off the northwest coast of France. This Terra satellite image vividly displays the island&apos;s agricultural patchwork terrain. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 424.0,
-        "width": 540.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 39403,
+      "dimensions": "540x424",
+      "file_size": 35867,
       "position": 0
     }
   ],
@@ -173,19 +169,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>English Channel 0 m<br><br><strong>highest point: </strong>Les Platons 136 m",
+          "content": "<strong>highest point: </strong>Les Platons 136 m<br><br><strong>lowest point: </strong>English Channel 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "English Channel 0 m",
-              "value": "English Channel 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Les Platons 136 m",
               "value": "Les Platons 136 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "English Channel 0 m",
+              "value": "English Channel 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -275,12 +271,6 @@
           "content": "very large tidal variation can be hazardous to navigation"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "habitat and species depletion due to human encroachment; water pollution; improper solid waste disposal"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -332,9 +322,9 @@
           "name": "Languages",
           "field_id": 402,
           "comparative": false,
-          "content": "<p>English (official)&nbsp;94.5%, Portuguese 4.6%, other .9% (includes French (official) and Jerriais)</p> (2001 est.)",
+          "content": "<p>English (official)&nbsp;94.5%, Portuguese 4.6%, other .9% (includes French (official) and Jerriais)</p> (2001 est.)<br><br><strong>note:&nbsp;</strong>data represent main spoken language; the traditional language of Jersey is Jerriais or Jersey French (a Norman language), which was spoken by fewer than 3,000 people as of 2001;&nbsp; two thirds of Jerriais speakers are aged 60 and over",
           "info_date": "2001 est.",
-          "field_note": "<br><br><strong>note:&nbsp;</strong>data represent main spoken language; the traditional language of Jersey is Jerriais or Jersey French (a Norman language), which was spoken by fewer than 3,000 people as of 2001;&nbsp; two thirds of Jerriais speakers are aged 60 and over"
+          "field_note": "<strong>note:&nbsp;</strong>data represent main spoken language; the traditional language of Jersey is Jerriais or Jersey French (a Norman language), which was spoken by fewer than 3,000 people as of 2001;&nbsp; two thirds of Jerriais speakers are aged 60 and over"
         },
         {
           "name": "Religions",
@@ -393,9 +383,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/JE_popgraph2021.pdf?1613503756",
-              "alt": "Jersey population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/JE_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Jersey. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -403,7 +395,7 @@
           "name": "Dependency ratios",
           "field_id": 342,
           "comparative": false,
-          "content": "<strong>total dependency ratio: </strong>49<br><br><strong>youth dependency ratio: </strong>22.3<br><br><strong>elderly dependency ratio: </strong>26.7<br><br><strong>potential support ratio: </strong>3.7 (2020 est.)",
+          "content": "<strong>total dependency ratio: </strong>49<br><br><strong>youth dependency ratio: </strong>22.3<br><br><strong>elderly dependency ratio: </strong>26.7<br><br><strong>potential support ratio: </strong>3.7 (2020 est.)<br><br><strong>note:</strong> data represent Guernsey and Jersey",
           "subfields": [
             {
               "name": "total dependency ratio",
@@ -432,7 +424,7 @@
               "info_date": "2020"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data represent Guernsey and Jersey</p>"
+          "field_note": "<strong>note:</strong> data represent Guernsey and Jersey"
         },
         {
           "name": "Median age",
@@ -515,31 +507,33 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>31% of total population (2020)<br><br><strong>rate of urbanization: </strong>0.46% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>31% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.68% annual rate of change (2020-25 est.)<br><br><strong>note:</strong> data include Guernsey and Jersey",
           "subfields": [
             {
               "name": "urban population",
-              "content": "31% of total population (2020)",
+              "content": "31% of total population (2021)",
               "title": "urban population",
               "value": "31",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "0.46% annual rate of change (2015-20 est.)",
+              "content": "0.68% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "0.46",
+              "value": "0.68",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data represent Guernsey and Jersey</p>",
+          "field_note": "<strong>note:</strong> data include Guernsey and Jersey",
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_JE.pdf?1602790799",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_JE.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -685,7 +679,7 @@
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
-          "content": "<strong>improved: </strong>total: 94.2% of population<br><br><strong>unimproved: </strong>total: 5.9% of population (2017 est.)",
+          "content": "<strong>improved: </strong>total: 94.2% of population<br><br><strong>unimproved: </strong>total: 5.9% of population (2017 est.)<br><br><strong>note</strong>: includes data for Guernsey",
           "subfields": [
             {
               "name": "improved: total",
@@ -704,7 +698,7 @@
               "suffix": "% of population"
             }
           ],
-          "field_note": "<br><br><strong>note</strong>: includes data for Guernsey"
+          "field_note": "<strong>note</strong>: includes data for Guernsey"
         },
         {
           "name": "Sanitation facility access",
@@ -763,6 +757,153 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "habitat and species depletion due to human encroachment; water pollution; improper solid waste disposal"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "temperate; mild winters and cool summers"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>66% (2018 est.)<br><br>arable land: 66% (2018 est.)<br><br>permanent crops: 0% (2018 est.)<br><br>permanent pasture: 0% (2018 est.)<br><br><strong>forest: </strong>0% (2018 est.)<br><br><strong>other: </strong>34% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "66% (2018 est.)",
+              "title": "agricultural land",
+              "value": "66",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 66% (2018 est.)",
+              "value": "66",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0% (2018 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 0% (2018 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "0% (2018 est.)",
+              "title": "forest",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "34% (2018 est.)",
+              "title": "other",
+              "value": "34",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>31% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.68% annual rate of change (2020-25 est.)<br><br><strong>note:</strong> data include Guernsey and Jersey",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "31% of total population (2021)",
+              "title": "urban population",
+              "value": "31",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.68% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.68",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "field_note": "<strong>note:</strong> data include Guernsey and Jersey",
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_JE.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>178,933 tons (2016 est.)<br><br><strong>municipal solid waste recycled annually: </strong>50,871 tons (2016 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>28.4% (2016 est.)<br><br><strong>note:</strong> data include combined totals for Guernsey and Jersey.",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "178,933 tons (2016 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "178,933",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "tons"
+            },
+            {
+              "name": "municipal solid waste recycled annually",
+              "content": "50,871 tons (2016 est.)",
+              "title": "municipal solid waste recycled annually",
+              "value": "50,871",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "28.4% (2016 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "28.4",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "%"
+            }
+          ],
+          "field_note": "<strong>note:</strong> data include combined totals for Guernsey and Jersey."
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -814,7 +955,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Saint Helier<br><br><strong>geographic coordinates: </strong>49 11 N, 2 06 W<br><br><strong>time difference: </strong>UTC 0 (5 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1hr, begins last Sunday in March; ends last Sunday in October",
+          "content": "<strong>name: </strong>Saint Helier<br><br><strong>geographic coordinates: </strong>49 11 N, 2 06 W<br><br><strong>time difference: </strong>UTC 0 (5 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1hr, begins last Sunday in March; ends last Sunday in October<br><br><strong>etymology:</strong> named after Saint Helier, the patron saint of Jersey, who was reputedly martyred on the island in A.D. 555",
           "subfields": [
             {
               "name": "name",
@@ -841,7 +982,7 @@
               "title": "daylight saving time"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> named after Saint Helier, the patron saint of Jersey, who was reputedly martyred on the island in A.D. 555"
+          "field_note": "<strong>etymology:</strong> named after Saint Helier, the patron saint of Jersey, who was reputedly martyred on the island in A.D. 555"
         },
         {
           "name": "Administrative divisions",
@@ -986,8 +1127,8 @@
           "name": "Political parties and leaders",
           "field_id": 315,
           "comparative": false,
-          "content": "<strong>one registered party:</strong> Reform Jersey [Sam MEZEC]",
-          "field_note": "<p><strong>note:</strong> most senators and deputies sit as independents</p>"
+          "content": "<strong>one registered party:</strong> Reform Jersey [Sam MEZEC]<br><br><strong>note:</strong> most senators and deputies sit as independents",
+          "field_note": "<strong>note:</strong> most senators and deputies sit as independents"
         },
         {
           "name": "International organization participation",
@@ -999,7 +1140,7 @@
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong>none (British Crown dependency)",
+          "content": "<strong>chief of mission: </strong>none (British Crown dependency)<br><br>none (British Crown dependency)",
           "subfields": [
             {
               "name": "chief of mission",
@@ -1008,7 +1149,7 @@
               "title": "chief of mission"
             }
           ],
-          "field_note": "<br><br>none (British Crown dependency)"
+          "field_note": "none (British Crown dependency)"
         },
         {
           "name": "Diplomatic representation from the US",
@@ -1040,7 +1181,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Isle de Siez Nous\" (Island Home)<br><br><strong>lyrics/music: </strong>Gerard LE FEUVRE",
+          "content": "<strong>name: </strong>\"Isle de Siez Nous\" (Island Home)<br><br><strong>lyrics/music: </strong>Gerard LE FEUVRE<br><br><strong>note:</strong> adopted 2008; serves as a local anthem; as a British Crown dependency, \"God Save the Queen\" is official (see United Kingdom)",
           "subfields": [
             {
               "name": "name",
@@ -1055,7 +1196,7 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 2008; serves as a local anthem; as a British Crown dependency, \"God Save the Queen\" is official (see United Kingdom)</p>"
+          "field_note": "<strong>note:</strong> adopted 2008; serves as a local anthem; as a British Crown dependency, \"God Save the Queen\" is official (see United Kingdom)"
         }
       ]
     },
@@ -1110,7 +1251,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$5.569 billion (2016 est.)<br><br>$5.514 billion (2015 est.)<br><br>$4.98 billion (2014 est.)",
+          "content": "$5.569 billion (2016 est.)<br><br>$5.514 billion (2015 est.)<br><br>$4.98 billion (2014 est.)<br><br><strong>note:</strong> data are in 2015 US dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2016",
@@ -1134,7 +1275,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2015 US dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2015 US dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1497,16 +1638,6 @@
           "estimated": true,
           "info_date": "2004",
           "suffix": "kWh"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "450,000 Mt (2012 est.)",
-          "value": "450,000",
-          "estimated": true,
-          "info_date": "2012",
-          "suffix": "Mt"
         }
       ]
     },
@@ -1562,7 +1693,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>good system with broadband access (2018)<br><br><strong>domestic: </strong>fixed-line and mobile-cellular services widely available; fixed-line 58 per 100 and mobile-cellular 119 per 100 subscriptions (2018)<br><br><strong>international: </strong>country code - 44; landing points for the INGRID, UK-Channel Islands-8, and Guernsey-Jersey-4, submarine cable connectivity to Guernsey, the UK, and France (2019)",
+          "content": "<strong>general assessment: </strong>good system with broadband access (2018)<br><br><strong>domestic: </strong>fixed-line and mobile-cellular services widely available; fixed-line 58 per 100 and mobile-cellular 119 per 100 subscriptions (2018)<br><br><strong>international: </strong>country code - 44; landing points for the INGRID, UK-Channel Islands-8, and Guernsey-Jersey-4, submarine cable connectivity to Guernsey, the UK, and France (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -1586,7 +1717,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",

@@ -2,8 +2,8 @@
   "name": "Grenada",
   "code": "GJ",
   "region": "Central America",
-  "published": "2021-02-24 12:22:41 -0500",
-  "updated": "2021-02-24 11:33:45 -0500",
+  "published": "2021-05-05 12:32:35 -0400",
+  "updated": "2021-04-30 15:32:38 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/GJ-map.jpg"
+      "src": "/attachments/maps/GJ-map.jpg",
+      "caption": "Grenada map showing the islands that make up this country in the Caribbean Sea."
     },
     {
       "type": "locator-map",
@@ -28,47 +29,32 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/GJ_003_large.jpg?1528324037",
+      "src": "/attachments/images/original/GJ_003_large.jpg",
       "category": "Landscapes",
       "alt": "Photo taken from the island of Carriacau, part of Grenada. The island visible on the horizon is Petit Martinique, also part of Grenadan territory.",
       "caption": "Photo taken from the island of Carriacau, part of Grenada. The island visible on the horizon is Petit Martinique, also part of Grenadan territory.",
-      "dimensions": {
-        "height": 900.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 204711,
+      "dimensions": "1200x900",
+      "file_size": 128529,
       "position": 0
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/GJ_002_large.jpg?1528324038",
+      "src": "/attachments/images/original/GJ_002_large.jpg",
       "category": "Places",
       "alt": "A view of Fort Rupert as seen from the entry to the harbor of St. George&apos;s.",
       "caption": "A view of Fort Rupert as seen from the entry to the harbor of St. George&apos;s.",
-      "dimensions": {
-        "height": 900.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 370605,
+      "dimensions": "1200x900",
+      "file_size": 228862,
       "position": 1
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/GJ_001_large.jpg?1528324039",
+      "src": "/attachments/images/original/GJ_001_large.jpg",
       "category": "Capital",
       "alt": "The harbor of St. George&apos;s.",
       "caption": "The harbor of St. George&apos;s.",
-      "dimensions": {
-        "height": 900.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 348326,
+      "dimensions": "1200x900",
+      "file_size": 228253,
       "position": 2
     }
   ],
@@ -144,8 +130,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/GJ_area.jpg?1562688700",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/GJ_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>twice the size of Washington, DC</p>",
+              "position": 0
             }
           ]
         },
@@ -210,19 +198,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Caribbean Sea 0 m<br><br><strong>highest point: </strong>Mount Saint Catherine 840 m",
+          "content": "<strong>highest point: </strong>Mount Saint Catherine 840 m<br><br><strong>lowest point: </strong>Caribbean Sea 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Caribbean Sea 0 m",
-              "value": "Caribbean Sea 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Mount Saint Catherine 840 m",
               "value": "Mount Saint Catherine 840 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Caribbean Sea 0 m",
+              "value": "Caribbean Sea 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -312,32 +300,6 @@
           "field_id": 292,
           "comparative": false,
           "content": "<p>lies on edge of hurricane belt; hurricane season lasts from June to November</p><p><strong>volcanism:</strong> Mount Saint Catherine (840 m) lies on the island of Grenada; Kick 'em Jenny, an active submarine volcano (seamount) on the Caribbean Sea floor, lies about 8 km north of the island of Grenada; these two volcanoes are at the southern end of the volcanic island arc of the Lesser Antilles that extends up to the Netherlands dependency of Saba in the north</p>"
-        },
-        {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "deforestation causing habitat destruction and species loss; coastal erosion and contamination; pollution and sedimentation; inadequate solid waste management"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Law of the Sea, Ozone Layer Protection, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Law of the Sea, Ozone Layer Protection, Whaling",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Law of the Sea, Ozone Layer Protection, Whaling",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
         },
         {
           "name": "Geography - note",
@@ -451,9 +413,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/GJ_popgraph2021.pdf?1613495224",
-              "alt": "Grenada population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/GJ_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Grenada. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -572,30 +536,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>36.5% of total population (2020)<br><br><strong>rate of urbanization: </strong>0.76% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>36.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.86% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "36.5% of total population (2020)",
+              "content": "36.7% of total population (2021)",
               "title": "urban population",
-              "value": "36.5",
+              "value": "36.7",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "0.76% annual rate of change (2015-20 est.)",
+              "content": "0.86% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "0.76",
+              "value": "0.86",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_GJ.pdf?1602789836",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_GJ.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -944,6 +910,267 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "deforestation causing habitat destruction and species loss; coastal erosion and contamination; pollution and sedimentation; inadequate solid waste management"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>21.56 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>0.27 megatons (2016 est.)<br><br><strong>methane emissions: </strong>2.04 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "21.56 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "21.56",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "0.27 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "0.27",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "2.04 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "2.04",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>12 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>0 cubic meters (2017 est.)<br><br><strong>agricultural: </strong>2.1 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "12 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "12,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "0 cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "2.1 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "2,100,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "200 million cubic meters (2017 est.)",
+          "value": "200,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical; tempered by northeast trade winds"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>32.3% (2018 est.)<br><br>arable land: 8.8% (2018 est.)<br><br>permanent crops: 20.6% (2018 est.)<br><br>permanent pasture: 2.9% (2018 est.)<br><br><strong>forest: </strong>50% (2018 est.)<br><br><strong>other: </strong>17.7% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "32.3% (2018 est.)",
+              "title": "agricultural land",
+              "value": "32.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 8.8% (2018 est.)",
+              "value": "8.8",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 20.6% (2018 est.)",
+              "value": "20.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 2.9% (2018 est.)",
+              "value": "2.9",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "50% (2018 est.)",
+              "title": "forest",
+              "value": "50",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "17.7% (2018 est.)",
+              "title": "other",
+              "value": "17.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>36.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.86% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "36.7% of total population (2021)",
+              "title": "urban population",
+              "value": "36.7",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.86% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.86",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_GJ.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>29,536 tons (2012 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "29,536 tons (2012 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "29,536",
+              "estimated": true,
+              "info_date": "2012",
+              "suffix": "tons"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -983,7 +1210,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Saint George's<br><br><strong>geographic coordinates: </strong>12 03 N, 61 45 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Saint George's<br><br><strong>geographic coordinates: </strong>12 03 N, 61 45 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> the 1763 Treaty of Paris transferred possession of Grenada from France to Great Britain; the new administration renamed Ville de Fort Royal (Fort Royal Town) to Saint George's Town, after the patron saint of England; eventually the name became simply Saint George's",
           "subfields": [
             {
               "name": "name",
@@ -1004,7 +1231,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> the 1763 Treaty of Paris transferred possession of Grenada from France to Great Britain; the new administration renamed Ville de Fort Royal (Fort Royal Town) to Saint George's Town, after the patron saint of England; eventually the name became simply Saint George's"
+          "field_note": "<strong>etymology:</strong> the 1763 Treaty of Paris transferred possession of Grenada from France to Great Britain; the new administration renamed Ville de Fort Royal (Fort Royal Town) to Saint George's Town, after the patron saint of England; eventually the name became simply Saint George's"
         },
         {
           "name": "Administrative divisions",
@@ -1282,7 +1509,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>Hail Grenada<br><br><strong>lyrics/music: </strong>Irva Merle BAPTISTE/Louis Arnold MASANTO",
+          "content": "<strong>name: </strong>Hail Grenada<br><br><strong>lyrics/music: </strong>Irva Merle BAPTISTE/Louis Arnold MASANTO<br><br><strong>note:</strong> adopted 1974",
           "subfields": [
             {
               "name": "name",
@@ -1297,7 +1524,7 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1974</p>"
+          "field_note": "<strong>note:</strong> adopted 1974"
         }
       ]
     },
@@ -1381,7 +1608,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$1.908 billion (2019 est.)<br><br>$1.872 billion (2018 est.)<br><br>$1.798 billion (2017 est.)",
+          "content": "$1.908 billion (2019 est.)<br><br>$1.872 billion (2018 est.)<br><br>$1.798 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1405,7 +1632,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1421,7 +1648,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$17,039 (2019 est.)<br><br>$16,801 (2018 est.)<br><br>$16,218 (2017 est.)",
+          "content": "$17,039 (2019 est.)<br><br>$16,801 (2018 est.)<br><br>$16,218 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1445,7 +1672,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1577,13 +1804,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "53.4 (2020)",
+          "content": "<strong>Overall score: </strong>53.4 (2020)<br><br><strong>Starting a Business score: </strong>88 (2020)<br><br><strong>Trading score: </strong>61.5 (2020)<br><br><strong>Enforcement score: </strong>59.3 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
               "content": "53.4 (2020)",
+              "title": "Overall score",
               "value": "53.4",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "88 (2020)",
+              "title": "Starting a Business score",
+              "value": "88",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "61.5 (2020)",
+              "title": "Trading score",
+              "value": "61.5",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "59.3 (2020)",
+              "title": "Enforcement score",
+              "value": "59.3",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1823,14 +2076,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "US 25.3%, Japan 10.1%, Guyana 8.7%, Dominica 6.6%, St. Lucia 6.4%, Netherlands 4.7%, Barbados 4.1%, St. Kitts and Nevis 4% (2017)",
-          "info_date": "2017"
+          "content": "United States 40%, Saint Vincent and the Grenadines 7%, Saint Lucia 7%, France 6%, Netherlands 5%, Germany 5%, Ireland 5%, Antigua and Barbuda 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "nutmeg, bananas, cocoa, fruit and vegetables, clothing, mace, chocolate, fish"
+          "content": "fish, nutmeg, cocoa beans, fruits, wheat, toilet paper (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -1858,14 +2112,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "US 31.7%, Trinidad and Tobago 24.9%, China 6.7% (2017)",
-          "info_date": "2017"
+          "content": "United States 35%, Canada 24%, China 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "food, manufactured goods, machinery, chemicals, fuel"
+          "content": "aircraft, poultry meat, cars, refined petroleum, food preparation materials (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2196,16 +2451,6 @@
           "estimated": true,
           "info_date": "1 January 2014",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "283,600 Mt (2017 est.)",
-          "value": "283,600",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2261,7 +2506,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>adequate, island-wide telephone system; lack of local competition, but telecoms are a high contributors to overall GDP; growth sectors include the mobile telephony and data segments (2020)<br><br><strong>domestic: </strong>interisland VHF and UHF radiotelephone links; 29 per 100 for fixed-line and 102 per 100 for mobile-cellular (2019)<br><br><strong>international: </strong>country code - 1-473; landing points for the&nbsp;ECFS, Southern Caribbean Fiber and CARCIP&nbsp;submarine cables with links to&nbsp;13 Caribbean islands extending from the British Virgin Islands to Trinidad &amp; Tobago including Puerto Rico and Barbados; SHF radiotelephone links to Trinidad and Tobago and Saint Vincent; VHF and UHF radio links to Trinidad (2019)",
+          "content": "<strong>general assessment: </strong>adequate, island-wide telephone system; lack of local competition, but telecoms are a high contributors to overall GDP; growth sectors include the mobile telephony and data segments (2020)<br><br><strong>domestic: </strong>interisland VHF and UHF radiotelephone links; 29 per 100 for fixed-line and 102 per 100 for mobile-cellular (2019)<br><br><strong>international: </strong>country code - 1-473; landing points for the&nbsp;ECFS, Southern Caribbean Fiber and CARCIP&nbsp;submarine cables with links to&nbsp;13 Caribbean islands extending from the British Virgin Islands to Trinidad &amp; Tobago including Puerto Rico and Barbados; SHF radiotelephone links to Trinidad and Tobago and Saint Vincent; VHF and UHF radio links to Trinidad (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2285,7 +2530,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2355,8 +2600,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "J3 (2016)",
-          "info_date": "2016"
+          "content": "J3"
         },
         {
           "name": "Airports",
@@ -2494,8 +2738,14 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "no regular military forces; Royal Grenada Police Force (includes Coast Guard) (2019)",
-          "info_date": "2019"
+          "content": "no regular military forces; the Royal Grenada Police Force includes a Coast Guard and a paramilitary Special Services Unit (2021)",
+          "info_date": "2021"
+        },
+        {
+          "name": "Military - note",
+          "field_id": 332,
+          "comparative": false,
+          "content": "Grenada is a member of the Regional Security System (RSS), an international agreement for the defense and security of the eastern Caribbean region"
         }
       ]
     },

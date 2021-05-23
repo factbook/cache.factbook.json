@@ -2,8 +2,8 @@
   "name": "Nicaragua",
   "code": "NU",
   "region": "Central America",
-  "published": "2021-02-24 12:31:03 -0500",
-  "updated": "2021-02-24 07:10:37 -0500",
+  "published": "2021-05-05 12:41:22 -0400",
+  "updated": "2021-05-03 10:03:10 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/NU-map.jpg"
+      "src": "/attachments/maps/NU-map.jpg",
+      "caption": "Nicaragua map showing major cities as well as parts of surrounding countries and the North Pacific Ocean and Caribbean Sea."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/NU_001_large.jpg?1528324576",
+      "src": "/attachments/images/original/NU_001_large.jpg",
       "category": "Landscapes",
       "alt": "A beachfront restaurant awaits the crowds.",
       "caption": "A beachfront restaurant awaits the crowds.",
-      "dimensions": {
-        "height": 818.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 253819,
+      "dimensions": "1200x818",
+      "file_size": 159678,
       "position": 0
     }
   ],
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/NU_area.jpg?1538604830",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/NU_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>slightly larger than Pennsylvania; slightly smaller than New York state</p>",
+              "position": 0
             }
           ]
         },
@@ -193,14 +191,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>298 m<br><br><strong>lowest point: </strong>Pacific Ocean 0 m<br><br><strong>highest point: </strong>Mogoton 2,085 m",
+          "content": "<strong>highest point: </strong>Mogoton 2,085 m<br><br><strong>lowest point: </strong>Pacific Ocean 0 m<br><br><strong>mean elevation: </strong>298 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "298 m",
-              "title": "mean elevation",
-              "value": "298",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Mogoton 2,085 m",
+              "value": "Mogoton 2,085 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -209,10 +206,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Mogoton 2,085 m",
-              "value": "Mogoton 2,085 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "298 m",
+              "title": "mean elevation",
+              "value": "298",
+              "suffix": "m"
             }
           ]
         },
@@ -304,32 +302,6 @@
           "content": "<p>destructive earthquakes; volcanoes; landslides; extremely susceptible to hurricanes</p><p><strong>volcanism:</strong> significant volcanic activity; Cerro Negro (728 m), which last erupted in 1999, is one of Nicaragua's most active volcanoes; its lava flows and ash have been known to cause significant damage to farmland and buildings; other historically active volcanoes include Concepcion, Cosiguina, Las Pilas, Masaya, Momotombo, San Cristobal, and Telica</p>"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "deforestation; soil erosion; water pollution; drought"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -380,9 +352,9 @@
           "name": "Languages",
           "field_id": 402,
           "comparative": false,
-          "content": "Spanish (official) 95.3%, Miskito 2.2%, Mestizo of the Caribbean coast 2%, other 0.5% (2005 est.)",
+          "content": "Spanish (official) 95.3%, Miskito 2.2%, Mestizo of the Caribbean coast 2%, other 0.5% (2005 est.)<br><br><strong>note:</strong> English and indigenous languages found on the Caribbean coast",
           "info_date": "2005 est.",
-          "field_note": "<p><strong>note:</strong> English and indigenous languages found on the Caribbean coast</p>"
+          "field_note": "<strong>note:</strong> English and indigenous languages found on the Caribbean coast"
         },
         {
           "name": "Religions",
@@ -448,9 +420,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/NU_popgraph2021.pdf?1613506988",
-              "alt": "Nicaragua population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/NU_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Nicaragua. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -569,30 +543,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>59% of total population (2020)<br><br><strong>rate of urbanization: </strong>1.45% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>59.3% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.45% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "59% of total population (2020)",
+              "content": "59.3% of total population (2021)",
               "title": "urban population",
-              "value": "59",
+              "value": "59.3",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "1.45% annual rate of change (2015-20 est.)",
+              "content": "1.45% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.45",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_NU.pdf?1602851325",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_NU.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -666,12 +642,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "19.2 years (2011/12 est.)",
+          "content": "19.2 years (2011/12 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "19.2",
           "estimated": true,
           "info_date": "2011/12",
           "suffix": "years",
-          "field_note": "<p><strong>note:</strong> median age at first birth among women 25-29</p>"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -962,10 +938,10 @@
           "name": "Children under the age of 5 years underweight",
           "field_id": 368,
           "comparative": true,
-          "content": "4.6% (2012)",
+          "content": "4.6% (2011/12)",
           "value": "4.6",
           "estimated": false,
-          "info_date": "2012",
+          "info_date": "2011/12",
           "suffix": "%"
         },
         {
@@ -1049,6 +1025,296 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "deforestation; soil erosion; water pollution; drought"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>16.87 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>5.59 megatons (2016 est.)<br><br><strong>methane emissions: </strong>6.46 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "16.87 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "16.87",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "5.59 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "5.59",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "6.46 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "6.46",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>286 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>73.6 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.185 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "286 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "286,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "73.6 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "73,600,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "1.185 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "1,185,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "164.52 billion cubic meters (2017 est.)",
+          "value": "164,520,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical in lowlands, cooler in highlands"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>42.2% (2018 est.)<br><br>arable land: 12.5% (2018 est.)<br><br>permanent crops: 2.5% (2018 est.)<br><br>permanent pasture: 27.2% (2018 est.)<br><br><strong>forest: </strong>25.3% (2018 est.)<br><br><strong>other: </strong>32.5% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "42.2% (2018 est.)",
+              "title": "agricultural land",
+              "value": "42.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 12.5% (2018 est.)",
+              "value": "12.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 2.5% (2018 est.)",
+              "value": "2.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 27.2% (2018 est.)",
+              "value": "27.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "25.3% (2018 est.)",
+              "title": "forest",
+              "value": "25.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "32.5% (2018 est.)",
+              "title": "other",
+              "value": "32.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>1.26% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "1.26% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "1.26",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>59.3% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.45% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "59.3% of total population (2021)",
+              "title": "urban population",
+              "value": "59.3",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.45% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.45",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_NU.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>dengue fever and malaria",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "high (2020)",
+              "value": "high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "dengue fever and malaria",
+              "value": "dengue fever and malaria",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>1,528,816 tons (2010 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "1,528,816 tons (2010 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "1,528,816",
+              "estimated": true,
+              "info_date": "2010",
+              "suffix": "tons"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -1100,7 +1366,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Managua<br><br><strong>geographic coordinates: </strong>12 08 N, 86 15 W<br><br><strong>time difference: </strong>UTC-6 (1 hour behind Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Managua<br><br><strong>geographic coordinates: </strong>12 08 N, 86 15 W<br><br><strong>time difference: </strong>UTC-6 (1 hour behind Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> may derive from the indigenous Nahuatl term \"mana-ahuac,\" which translates as \"adjacent to the water\" or a site \"surrounded by water\"; the city is situated on the southwestern shore of Lake Managua",
           "subfields": [
             {
               "name": "name",
@@ -1121,7 +1387,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> may derive from the indigenous Nahuatl term \"mana-ahuac,\" which translates as \"adjacent to the water\" or a site \"surrounded by water\"; the city is situated on the southwestern shore of Lake Managua"
+          "field_note": "<strong>etymology:</strong> may derive from the indigenous Nahuatl term \"mana-ahuac,\" which translates as \"adjacent to the water\" or a site \"surrounded by water\"; the city is situated on the southwestern shore of Lake Managua"
         },
         {
           "name": "Administrative divisions",
@@ -1145,7 +1411,7 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>several previous; latest adopted 19 November 1986, effective 9 January 1987<br><br><strong>amendments: </strong>proposed by the president of the republic or assent of at least half of the National Assembly membership; passage requires approval by 60% of the membership of the next elected Assembly and promulgation by the president of the republic; amended several times, last in 2014",
+          "content": "<strong>history: </strong>several previous; latest adopted 19 November 1986, effective 9 January 1987<br><br><strong>amendments: </strong>proposed by the president of the republic or assent of at least half of the National Assembly membership; passage requires approval by 60% of the membership of the next elected Assembly and promulgation by the president of the republic; amended several times, last in 2021",
           "subfields": [
             {
               "name": "history",
@@ -1155,8 +1421,8 @@
             },
             {
               "name": "amendments",
-              "content": "proposed by the president of the republic or assent of at least half of the National Assembly membership; passage requires approval by 60% of the membership of the next elected Assembly and promulgation by the president of the republic; amended several times, last in 2014",
-              "value": "proposed by the president of the republic or assent of at least half of the National Assembly membership; passage requires approval by 60% of the membership of the next elected Assembly and promulgation by the president of the republic; amended several times, last in 2014",
+              "content": "proposed by the president of the republic or assent of at least half of the National Assembly membership; passage requires approval by 60% of the membership of the next elected Assembly and promulgation by the president of the republic; amended several times, last in 2021",
+              "value": "proposed by the president of the republic or assent of at least half of the National Assembly membership; passage requires approval by 60% of the membership of the next elected Assembly and promulgation by the president of the republic; amended several times, last in 2021",
               "title": "amendments"
             }
           ]
@@ -1393,8 +1659,8 @@
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
-          "content": "three equal horizontal bands of blue (top), white, and blue with the national coat of arms centered in the white band; the coat of arms features a triangle encircled by the words REPUBLICA DE NICARAGUA on the top and AMERICA CENTRAL on the bottom; the banner is based on the former blue-white-blue flag of the Federal Republic of Central America; the blue bands symbolize the Pacific Ocean and the Caribbean Sea, while the white band represents the land between the two bodies of water",
-          "field_note": "<p><strong>note:</strong> similar to the flag of El Salvador, which features a round emblem encircled by the words REPUBLICA DE EL SALVADOR EN LA AMERICA CENTRAL centered in the white band; also similar to the flag of Honduras, which has five blue stars arranged in an X pattern centered in the white band</p>"
+          "content": "three equal horizontal bands of blue (top), white, and blue with the national coat of arms centered in the white band; the coat of arms features a triangle encircled by the words REPUBLICA DE NICARAGUA on the top and AMERICA CENTRAL on the bottom; the banner is based on the former blue-white-blue flag of the Federal Republic of Central America; the blue bands symbolize the Pacific Ocean and the Caribbean Sea, while the white band represents the land between the two bodies of water<br><br><strong>note:</strong> similar to the flag of El Salvador, which features a round emblem encircled by the words REPUBLICA DE EL SALVADOR EN LA AMERICA CENTRAL centered in the white band; also similar to the flag of Honduras, which has five blue stars arranged in an X pattern centered in the white band",
+          "field_note": "<strong>note:</strong> similar to the flag of El Salvador, which features a round emblem encircled by the words REPUBLICA DE EL SALVADOR EN LA AMERICA CENTRAL centered in the white band; also similar to the flag of Honduras, which has five blue stars arranged in an X pattern centered in the white band"
         },
         {
           "name": "National symbol(s)",
@@ -1406,7 +1672,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Salve a ti, Nicaragua\" (Hail to Thee, Nicaragua)<br><br><strong>lyrics/music: </strong>Salomon Ibarra MAYORGA/traditional, arranged by Luis Abraham DELGADILLO",
+          "content": "<strong>name: </strong>\"Salve a ti, Nicaragua\" (Hail to Thee, Nicaragua)<br><br><strong>lyrics/music: </strong>Salomon Ibarra MAYORGA/traditional, arranged by Luis Abraham DELGADILLO<br><br><strong>note:</strong> although only officially adopted in 1971, the music was approved in 1918 and the lyrics in 1939; the tune, originally from Spain, was used as an anthem for Nicaragua from the 1830s until 1876",
           "subfields": [
             {
               "name": "name",
@@ -1421,12 +1687,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> although only officially adopted in 1971, the music was approved in 1918 and the lyrics in 1939; the tune, originally from Spain, was used as an anthem for Nicaragua from the 1830s until 1876</p>",
+          "field_note": "<strong>note:</strong> although only officially adopted in 1971, the music was approved in 1918 and the lyrics in 1939; the tune, originally from Spain, was used as an anthem for Nicaragua from the 1830s until 1876",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/NU.mp3?1538604757",
-              "alt": "National Anthem audio file for Nicaragua"
+              "src": "/attachments/audios/original/NU.mp3",
+              "alt": "National Anthem audio file for Nicaragua",
+              "caption": "This is an audio of the National Anthem for Nicaragua. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1533,7 +1801,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$35.392 billion (2019 est.)<br><br>$36.82 billion (2018 est.)<br><br>$38.334 billion (2017 est.)",
+          "content": "$35.392 billion (2019 est.)<br><br>$36.82 billion (2018 est.)<br><br>$38.334 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1557,7 +1825,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1573,7 +1841,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$5,407 (2019 est.)<br><br>$5,695 (2018 est.)<br><br>$6,004 (2017 est.)",
+          "content": "$5,407 (2019 est.)<br><br>$5,695 (2018 est.)<br><br>$6,004 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1597,7 +1865,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1729,13 +1997,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "79.6 (2020)",
+          "content": "<strong>Overall score: </strong>54.4 (2020)<br><br><strong>Starting a Business score: </strong>79.6 (2020)<br><br><strong>Trading score: </strong>77 (2020)<br><br><strong>Enforcement score: </strong>58.6 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
+              "content": "54.4 (2020)",
+              "title": "Overall score",
+              "value": "54.4",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
               "content": "79.6 (2020)",
+              "title": "Starting a Business score",
               "value": "79.6",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "77 (2020)",
+              "title": "Trading score",
+              "value": "77",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "58.6 (2020)",
+              "title": "Enforcement score",
+              "value": "58.6",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1805,7 +2099,7 @@
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": true,
-          "content": "6.4% (2017 est.)<br><br>6.2% (2016 est.)",
+          "content": "6.4% (2017 est.)<br><br>6.2% (2016 est.)<br><br><strong>note:</strong> underemployment was 46.5% in 2008",
           "subfields": [
             {
               "name": "Unemployment rate 2017",
@@ -1822,16 +2116,16 @@
               "suffix": "%"
             }
           ],
-          "field_note": "<p><strong>note:</strong> underemployment was 46.5% in 2008</p>"
+          "field_note": "<strong>note:</strong> underemployment was 46.5% in 2008"
         },
         {
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "29.6% (2015 est.)",
-          "value": "29.6",
+          "content": "24.9% (2016 est.)",
+          "value": "24.9",
           "estimated": true,
-          "info_date": "2015",
+          "info_date": "2016",
           "suffix": "%"
         },
         {
@@ -1926,7 +2220,7 @@
           "name": "Public debt",
           "field_id": 227,
           "comparative": true,
-          "content": "33.3% of GDP (2017 est.)<br><br>31.2% of GDP (2016 est.)",
+          "content": "33.3% of GDP (2017 est.)<br><br>31.2% of GDP (2016 est.)<br><br><strong>note:</strong> official data; data cover general government debt and include debt instruments issued (or owned) by Government entities other than the treasury; the data include treasury debt held by foreign entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as retirement, medical care, and unemployment, debt instruments for the social funds are not sold at public auctions; Nicaragua rebased its GDP figures in 2012, which reduced the figures for debt as a percentage of GDP",
           "subfields": [
             {
               "name": "Public debt 2017",
@@ -1943,7 +2237,7 @@
               "suffix": "% of GDP"
             }
           ],
-          "field_note": "<p><strong>note:</strong> official data; data cover general government debt and include debt instruments issued (or owned) by Government entities other than the treasury; the data include treasury debt held by foreign entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as retirement, medical care, and unemployment, debt instruments for the social funds are not sold at public auctions; Nicaragua rebased its GDP figures in 2012, which reduced the figures for debt as a percentage of GDP</p>"
+          "field_note": "<strong>note:</strong> official data; data cover general government debt and include debt instruments issued (or owned) by Government entities other than the treasury; the data include treasury debt held by foreign entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as retirement, medical care, and unemployment, debt instruments for the social funds are not sold at public auctions; Nicaragua rebased its GDP figures in 2012, which reduced the figures for debt as a percentage of GDP"
         },
         {
           "name": "Fiscal year",
@@ -1999,14 +2293,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "US 44.2%, El Salvador 6.4%, Venezuela 5.5%, Costa Rica 5.5% (2017)",
-          "info_date": "2017"
+          "content": "United States 60%, El Salvador 5%, Mexico 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "coffee, beef, gold, sugar, peanuts, shrimp and lobster, tobacco, cigars, automobile wiring harnesses, textiles, apparel"
+          "content": "clothing and apparel, gold, insulated wiring, coffee, beef (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2034,14 +2329,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "US 20.8%, China 14.3%, Mexico 11.1%, Costa Rica 7.9%, Guatemala 7%, El Salvador 5.6% (2017)",
-          "info_date": "2017"
+          "content": "United States 27%, Mexico 12%, China 11%, Guatemala 9%, Costa Rica 7%, El Salvador 6%, Honduras 6% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "consumer goods, machinery and equipment, raw materials, petroleum products"
+          "content": "refined petroleum, clothing and apparel, crude petroleum, packaged medicines, insulated wiring (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2390,16 +2686,6 @@
           "estimated": true,
           "info_date": "1 January 2015",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "5.405 million Mt (2017 est.)",
-          "value": "5,405,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2455,7 +2741,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>system being upgraded by foreign investment; new canal being built between Pacific and Caribbean with Chinese funding; nearly all installed telecommunications capacity now uses digital technology, owing to investments since privatization of the formerly state-owned telecommunications company; lowest fixed-line teledensity and mobile penetration in Central America; Internet cafe's&nbsp;provide&nbsp;access to Internet and email services; telecom is bigger in the cities and marginal in rural area; liberalization slow;&nbsp;a Russian state corporation is operating in the area; LTE service in 60 towns and cities (2020)<br><br><strong>domestic: </strong>since privatization, access to fixed-line and mobile-cellular services has improved; fixed-line teledensity roughly 4 per 100 persons; mobile-cellular telephone subscribership has increased to 88 per 100 persons (2019)<br><br><strong>international: </strong>country code - 505; landing point for the ARCOS fiber-optic submarine cable which provides connectivity to South and Central America, parts of the Caribbean, and the US; satellite earth stations - 1 Intersputnik (Atlantic Ocean region) and 1 Intelsat (Atlantic Ocean) (2019)",
+          "content": "<strong>general assessment: </strong>system being upgraded by foreign investment; new canal being built between Pacific and Caribbean with Chinese funding; nearly all installed telecommunications capacity now uses digital technology, owing to investments since privatization of the formerly state-owned telecommunications company; lowest fixed-line teledensity and mobile penetration in Central America; Internet cafe's&nbsp;provide&nbsp;access to Internet and email services; telecom is bigger in the cities and marginal in rural area; liberalization slow;&nbsp;a Russian state corporation is operating in the area; LTE service in 60 towns and cities (2020)<br><br><strong>domestic: </strong>since privatization, access to fixed-line and mobile-cellular services has improved; fixed-line teledensity roughly 4 per 100 persons; mobile-cellular telephone subscribership has increased to 88 per 100 persons (2019)<br><br><strong>international: </strong>country code - 505; landing point for the ARCOS fiber-optic submarine cable which provides connectivity to South and Central America, parts of the Caribbean, and the US; satellite earth stations - 1 Intersputnik (Atlantic Ocean region) and 1 Intelsat (Atlantic Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2479,7 +2765,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2571,8 +2857,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "YN (2016)",
-          "info_date": "2016"
+          "content": "YN"
         },
         {
           "name": "Airports",
@@ -2776,14 +3061,14 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Army of Nicaragua (Ejercito de Nicaragua, EN; includes Navy, Air Force) (2020)",
-          "info_date": "2020"
+          "content": "Army of Nicaragua (Ejercito de Nicaragua, EN): Land Forces (Fuerza Terrestre); Naval Forces (Fuerza Naval); Air Forces (Fuerza A&eacute;rea); Special Operations Command (Comando de Operaciones Especiales) (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "0.7% of GDP (2019)<br><br>0.6% of GDP (2018)<br><br>0.6% of GDP (2017)<br><br>0.6% of GDP (2016)<br><br>0.8% of GDP (2015)",
+          "content": "0.7% of GDP (2019)<br><br>0.6% of GDP (2018)<br><br>0.6% of GDP (2017)<br><br>0.5% of GDP (2016)<br><br>0.8% of GDP (2015)",
           "subfields": [
             {
               "name": "Military Expenditures 2019",
@@ -2808,8 +3093,8 @@
             },
             {
               "name": "Military Expenditures 2016",
-              "content": "0.6% of GDP (2016)",
-              "value": "0.6",
+              "content": "0.5% of GDP (2016)",
+              "value": "0.5",
               "estimated": false,
               "suffix": "% of GDP"
             },
@@ -2826,22 +3111,22 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Army of Nicaragua has approximately 12,000 active personnel (10,000 Army; 800 Navy; 1,200 Air Force) (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the Army of Nicaragua has approximately 12,000 active personnel (10,000 Army; 800 Navy; 1,200 Air Force) (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the Nicaraguan military's inventory includes mostly Russian/Soviet-era equipment; since 2010, Russia is the leading arms supplier to Nicaragua (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the Nicaraguan military's inventory includes mostly Russian/Soviet-era equipment; since 2010, Russia is the leading arms supplier to Nicaragua (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18-30 years of age for voluntary military service; no conscription; tour of duty 18-36 months; requires Nicaraguan nationality and 6th-grade education (2017)",
-          "info_date": "2017"
+          "content": "18-30 years of age for voluntary military service; no conscription; tour of duty 18-36 months; requires Nicaraguan nationality and 6th-grade education (2019)",
+          "info_date": "2019"
         }
       ]
     },

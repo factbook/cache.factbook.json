@@ -2,8 +2,8 @@
   "name": "Eswatini",
   "code": "WZ",
   "region": "Africa",
-  "published": "2021-02-24 12:20:23 -0500",
-  "updated": "2021-02-24 11:26:35 -0500",
+  "published": "2021-05-05 12:52:48 -0400",
+  "updated": "2021-04-30 13:34:31 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/WZ-map.jpg"
+      "src": "/attachments/maps/WZ-map.jpg",
+      "caption": "Eswatini map showing major population centers as well as parts of surrounding countries."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/WZ_001_large.jpg?1528325029",
+      "src": "/attachments/images/original/WZ_001_large.jpg",
       "category": "Space",
-      "alt": "Satellite view of southern Africa. The bulk of image is taken up by the Republic of South Africa. Within South Africa is the roughly circular enclave of Lesotho. Northeast of Lesotho is the smaller country of Eswatini (formerly known as Swaziland). Photo courtesy of NASA. ",
-      "caption": "Satellite view of southern Africa. The bulk of image is taken up by the Republic of South Africa. Within South Africa is the roughly circular enclave of Lesotho. Northeast of Lesotho is the smaller country of Eswatini (formerly known as Swaziland). Photo courtesy of NASA. ",
-      "dimensions": {
-        "height": 947.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 336604,
+      "alt": "Satellite view of southern Africa. The bulk of image is taken up by the Republic of South Africa. Within South Africa is the roughly circular enclave of Lesotho. Northeast of Lesotho is the smaller country of Eswatini (formerly known as Swaziland). Photo courtesy of NASA.",
+      "caption": "Satellite view of southern Africa. The bulk of image is taken up by the Republic of South Africa. Within South Africa is the roughly circular enclave of Lesotho. Northeast of Lesotho is the smaller country of Eswatini (formerly known as Swaziland). Photo courtesy of NASA.",
+      "dimensions": "1200x947",
+      "file_size": 197264,
       "position": 0
     }
   ],
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/WZ_area.jpg?1562691889",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/WZ_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>slightly smaller than New Jersey</p>",
+              "position": 0
             }
           ]
         },
@@ -170,14 +168,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>305 m<br><br><strong>lowest point: </strong>Great Usutu River 21 m<br><br><strong>highest point: </strong>Emlembe 1,862 m",
+          "content": "<strong>highest point: </strong>Emlembe 1,862 m<br><br><strong>lowest point: </strong>Great Usutu River 21 m<br><br><strong>mean elevation: </strong>305 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "305 m",
-              "title": "mean elevation",
-              "value": "305",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Emlembe 1,862 m",
+              "value": "Emlembe 1,862 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -186,10 +183,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Emlembe 1,862 m",
-              "value": "Emlembe 1,862 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "305 m",
+              "title": "mean elevation",
+              "value": "305",
+              "suffix": "m"
             }
           ]
         },
@@ -281,32 +279,6 @@
           "content": "drought"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "limited supplies of potable water; wildlife populations being depleted because of excessive hunting; population growth, deforestation, and overgrazing lead to soil erosion and soil degradation"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection<br><br><strong>signed, but not ratified: </strong>Law of the Sea",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "Law of the Sea",
-              "value": "Law of the Sea",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -322,11 +294,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "1,113,276 (July 2021 est.)",
+          "content": "1,113,276 (July 2021 est.)<br><br><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected",
           "value": "1,113,276",
           "estimated": true,
           "info_date": "July 2021",
-          "field_note": "<p><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected</p>"
+          "field_note": "<strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected"
         },
         {
           "name": "Nationality",
@@ -424,9 +396,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/WZ_popgraph2021.pdf?1613494685",
-              "alt": "Eswatini population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/WZ_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Eswatini. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -545,30 +519,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>24.2% of total population (2020)<br><br><strong>rate of urbanization: </strong>2.46% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>24.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.42% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "24.2% of total population (2020)",
+              "content": "24.4% of total population (2021)",
               "title": "urban population",
-              "value": "24.2",
+              "value": "24.4",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "2.46% annual rate of change (2015-20 est.)",
+              "content": "2.42% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "2.46",
+              "value": "2.42",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_WZ.pdf?1602856565",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_WZ.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -1022,7 +998,7 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>47.1%<br><br><strong>male: </strong>44.2%<br><br><strong>female: </strong>50.1% (2016)",
+          "content": "<strong>total: </strong>47.1%<br><br><strong>male: </strong>44.2%<br><br><strong>female: </strong>50% (2016)",
           "subfields": [
             {
               "name": "total",
@@ -1040,12 +1016,324 @@
             },
             {
               "name": "female",
-              "content": "50.1% (2016)",
+              "content": "50% (2016)",
               "title": "female",
-              "value": "50.1",
+              "value": "50",
               "estimated": false,
               "info_date": "2016",
               "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "limited supplies of potable water; wildlife populations being depleted because of excessive hunting; population growth, deforestation, and overgrazing lead to soil erosion and soil degradation"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Wetlands",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Wetlands",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>16.26 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>1.16 megatons (2016 est.)<br><br><strong>methane emissions: </strong>1.9 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "16.26 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "16.26",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "1.16 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "1.16",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "1.9 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "1.9",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>41.3 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>20.7 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.006 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "41.3 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "41,300,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "20.7 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "20,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "1.006 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "1,006,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "4.51 billion cubic meters (2017 est.)",
+          "value": "4,510,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "varies from tropical to near temperate"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>68.3% (2018 est.)<br><br>arable land: 9.8% (2018 est.)<br><br>permanent crops: 0.8% (2018 est.)<br><br>permanent pasture: 57.7% (2018 est.)<br><br><strong>forest: </strong>31.7% (2018 est.)<br><br><strong>other: </strong>0% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "68.3% (2018 est.)",
+              "title": "agricultural land",
+              "value": "68.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 9.8% (2018 est.)",
+              "value": "9.8",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0.8% (2018 est.)",
+              "value": "0.8",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 57.7% (2018 est.)",
+              "value": "57.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "31.7% (2018 est.)",
+              "title": "forest",
+              "value": "31.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "0% (2018 est.)",
+              "title": "other",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>2.25% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "2.25% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "2.25",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0.1% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0.1% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>24.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.42% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "24.4% of total population (2021)",
+              "title": "urban population",
+              "value": "24.4",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "2.42% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "2.42",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_WZ.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>intermediate (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria<br><br><strong>water contact diseases: </strong>schistosomiasis",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "intermediate (2020)",
+              "value": "intermediate",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "malaria",
+              "value": "malaria",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "schistosomiasis",
+              "value": "schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Food insecurity",
+          "field_id": 418,
+          "comparative": false,
+          "content": "<strong>severe localized food insecurity: </strong>due to localized shortfalls in production and reduction in income-generating activities - between October 2020 and March 2021, an estimated 366,000 people were food insecure and in need of humanitarian assistance, above the estimate for the same period in 2019/20; the deterioration reflects localized shortfalls in cereal production, high food prices, and the loss of income-generating activities due to the COVID‑19-induced economic downturn (2021)",
+          "subfields": [
+            {
+              "name": "severe localized food insecurity",
+              "content": "due to localized shortfalls in production and reduction in income-generating activities - between October 2020 and March 2021, an estimated 366,000 people were food insecure and in need of humanitarian assistance, above the estimate for the same period in 2019/20; the deterioration reflects localized shortfalls in cereal production, high food prices, and the loss of income-generating activities due to the COVID‑19-induced economic downturn (2021)",
+              "value": "due to localized shortfalls in production and reduction in income-generating activities - between October 2020 and March 2021, an estimated 366,000 people were food insecure and in need of humanitarian assistance, above the estimate for the same period in 2019/20; the deterioration reflects localized shortfalls in cereal production, high food prices, and the loss of income-generating activities due to the COVID‑19-induced economic downturn",
+              "title": "severe localized food insecurity",
+              "info_date": "(2021)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>218,199 tons (2016 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "218,199 tons (2016 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "218,199",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "tons"
             }
           ]
         }
@@ -1059,7 +1347,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>Kingdom of Eswatini<br><br><strong>conventional short form: </strong>Eswatini<br><br><strong>local long form: </strong>Umbuso weSwatini<br><br><strong>local short form: </strong>eSwatini<br><br><strong>former: </strong>Swaziland<br><br><strong>etymology: </strong>the country name derives from 19th century King MSWATI II, under whose rule Swati territory was expanded and unified",
+          "content": "<strong>conventional long form: </strong>Kingdom of Eswatini<br><br><strong>conventional short form: </strong>Eswatini<br><br><strong>local long form: </strong>Umbuso weSwatini<br><br><strong>local short form: </strong>eSwatini<br><br><strong>former: </strong>Swaziland<br><br><strong>etymology: </strong>the country name derives from 19th century King MSWATI II, under whose rule Swati territory was expanded and unified<br><br><strong>note:</strong> pronounced ay-swatini or eh-swatini",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1098,7 +1386,7 @@
               "title": "etymology"
             }
           ],
-          "field_note": "<p><strong>note:</strong> pronounced ay-swatini or eh-swatini</p>"
+          "field_note": "<strong>note:</strong> pronounced ay-swatini or eh-swatini"
         },
         {
           "name": "Government type",
@@ -1110,7 +1398,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Mbabane (administrative capital); Lobamba (royal and legislative capital)<br><br><strong>geographic coordinates: </strong>26 19 S, 31 08 E<br><br><strong>time difference: </strong>UTC+2 (7 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Mbabane (administrative capital); Lobamba (royal and legislative capital)<br><br><strong>geographic coordinates: </strong>26 19 S, 31 08 E<br><br><strong>time difference: </strong>UTC+2 (7 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> named after a Swati chief, Mbabane Kunene, who lived in the area at the onset of British settlement",
           "subfields": [
             {
               "name": "name",
@@ -1131,7 +1419,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> named after a Swati chief, Mbabane Kunene, who lived in the area at the onset of British settlement"
+          "field_note": "<strong>etymology:</strong> named after a Swati chief, Mbabane Kunene, who lived in the area at the onset of British settlement"
         },
         {
           "name": "Administrative divisions",
@@ -1403,7 +1691,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Nkulunkulu Mnikati wetibusiso temaSwati\" (Oh God, Bestower of the Blessings of the Swazi)<br><br><strong>lyrics/music: </strong>Andrease Enoke Fanyana SIMELANE/David Kenneth RYCROFT",
+          "content": "<strong>name: </strong>\"Nkulunkulu Mnikati wetibusiso temaSwati\" (Oh God, Bestower of the Blessings of the Swazi)<br><br><strong>lyrics/music: </strong>Andrease Enoke Fanyana SIMELANE/David Kenneth RYCROFT<br><br><strong>note:</strong> adopted 1968; uses elements of both ethnic Swazi and Western music styles",
           "subfields": [
             {
               "name": "name",
@@ -1418,12 +1706,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1968; uses elements of both ethnic Swazi and Western music styles</p>",
+          "field_note": "<strong>note:</strong> adopted 1968; uses elements of both ethnic Swazi and Western music styles",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/WZ.mp3?1538604760",
-              "alt": "National Anthem audio file for Swaziland"
+              "src": "/attachments/audios/original/WZ.mp3",
+              "alt": "National Anthem audio file for Swaziland",
+              "caption": "This is an audio of the National Anthem for Swaziland. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1509,7 +1799,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$9.898 billion (2019 est.)<br><br>$9.681 billion (2018 est.)<br><br>$9.457 billion (2017 est.)",
+          "content": "$9.898 billion (2019 est.)<br><br>$9.681 billion (2018 est.)<br><br>$9.457 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1533,7 +1823,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1549,7 +1839,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$8,622 (2019 est.)<br><br>$8,521 (2018 est.)<br><br>$8,408 (2017 est.)",
+          "content": "$8,622 (2019 est.)<br><br>$8,521 (2018 est.)<br><br>$8,408 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1573,7 +1863,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2010 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1705,13 +1995,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "59.5 (2020)",
+          "content": "<strong>Overall score: </strong>59.5 (2020)<br><br><strong>Starting a Business score: </strong>77.2 (2020)<br><br><strong>Trading score: </strong>92.9 (2020)<br><br><strong>Enforcement score: </strong>36.7 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
               "content": "59.5 (2020)",
+              "title": "Overall score",
               "value": "59.5",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "77.2 (2020)",
+              "title": "Starting a Business score",
+              "value": "77.2",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "92.9 (2020)",
+              "title": "Trading score",
+              "value": "92.9",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "36.7 (2020)",
+              "title": "Enforcement score",
+              "value": "36.7",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1803,10 +2119,10 @@
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "63% (2010 est.)",
-          "value": "63",
+          "content": "58.9% (2016 est.)",
+          "value": "58.9",
           "estimated": true,
-          "info_date": "2010",
+          "info_date": "2016",
           "suffix": "%"
         },
         {
@@ -2358,16 +2674,6 @@
           "estimated": true,
           "info_date": "1 January 2014",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "1.14 million Mt (2017 est.)",
-          "value": "1,140,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2423,7 +2729,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>earlier government monopoly in telecommunications hindered its growth; new regulatory authority established in 2013 has aided expansion in&nbsp;the telecom sector; 2G, 3G, 4G and LTE services (2019)<br><br><strong>domestic: </strong>Eswatini has 2 mobile-cellular providers; communication infrastructure has a geographic coverage of about 90% and a rising subscriber base; fixed-line stands at 4 per 100 and mobile-cellular teledensity roughly 94 telephones per 100 persons; telephone system consists of carrier-equipped, open-wire lines and low-capacity, microwave radio relay (2019)<br><br><strong>international: </strong>country code - 268; satellite earth station - 1 Intelsat (Atlantic Ocean)",
+          "content": "<strong>general assessment: </strong>earlier government monopoly in telecommunications hindered its growth; new regulatory authority established in 2013 has aided expansion in&nbsp;the telecom sector; 2G, 3G, 4G and LTE services (2019)<br><br><strong>domestic: </strong>Eswatini has 2 mobile-cellular providers; communication infrastructure has a geographic coverage of about 90% and a rising subscriber base; fixed-line stands at 4 per 100 and mobile-cellular teledensity roughly 94 telephones per 100 persons; telephone system consists of carrier-equipped, open-wire lines and low-capacity, microwave radio relay (2019)<br><br><strong>international: </strong>country code - 268; satellite earth station - 1 Intelsat (Atlantic Ocean)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2447,7 +2753,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2518,8 +2824,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "3 (2016)",
-          "info_date": "2016"
+          "content": "3DC"
         },
         {
           "name": "Airports",
@@ -2651,48 +2956,48 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Umbutfo Eswatini Defense Force (UEDF): Ground Force (includes Air Wing (no operational aircraft)) (2019)",
-          "info_date": "2019"
+          "content": "Umbutfo Eswatini Defense Force (UEDF): Army (includes a small air wing) (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "1.8% of GDP (2019)<br><br>1.9% of GDP (2018)<br><br>1.9% of GDP (2017)<br><br>2% of GDP (2016)<br><br>1.8% of GDP (2015)",
+          "content": "1.8% of GDP (2019 est.)<br><br>1.9% of GDP (2018 est.)<br><br>1.9% of GDP (2017 est.)<br><br>2% of GDP (2016 est.)<br><br>1.8% of GDP (2015 est.)",
           "subfields": [
             {
               "name": "Military Expenditures 2019",
-              "content": "1.8% of GDP (2019)",
+              "content": "1.8% of GDP (2019 est.)",
               "value": "1.8",
-              "estimated": false,
+              "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "1.9% of GDP (2018)",
+              "content": "1.9% of GDP (2018 est.)",
               "value": "1.9",
-              "estimated": false,
+              "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2017",
-              "content": "1.9% of GDP (2017)",
+              "content": "1.9% of GDP (2017 est.)",
               "value": "1.9",
-              "estimated": false,
+              "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2016",
-              "content": "2% of GDP (2016)",
+              "content": "2% of GDP (2016 est.)",
               "value": "2",
-              "estimated": false,
+              "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2015",
-              "content": "1.8% of GDP (2015)",
+              "content": "1.8% of GDP (2015 est.)",
               "value": "1.8",
-              "estimated": false,
+              "estimated": true,
               "suffix": "% of GDP"
             }
           ]
@@ -2701,22 +3006,22 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Umbutfo Eswatini Defense Force has approximately 3,100 active personnel (3,000 Army; 100 Air Force) (2020 est.)",
-          "info_date": "2020 est."
+          "content": "the Umbutfo Eswatini Defense Force has approximately 3,000 active personnel (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the inventory of the UEDF consists mostly of equipment from South Africa; the only publicly recorded military acquisitions since 2010 were two secondhand helicopters from Taiwan in 2019 (2020)",
-          "info_date": "2020"
+          "content": "the UEDF is lightly armed with mostly South African weapons and equipment; the only publicly recorded military acquisitions since 2010 were two secondhand utility helicopters from Taiwan that were delivered in 2020 (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18-30 years of age for male and female voluntary military service; no conscription; compulsory HIV testing required, only HIV-negative applicants accepted (2013)",
-          "info_date": "2013"
+          "content": "18-30 years of age for male and female voluntary military service; no conscription; compulsory HIV testing required, only HIV-negative applicants accepted (2019)",
+          "info_date": "2019"
         }
       ]
     },

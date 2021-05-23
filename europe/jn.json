@@ -2,8 +2,8 @@
   "name": "Jan Mayen",
   "code": "JN",
   "region": "Europe",
-  "published": "2021-02-24 12:25:33 -0500",
-  "updated": "2021-02-24 11:44:54 -0500",
+  "published": "2021-05-05 12:36:47 -0400",
+  "updated": "2021-04-30 15:32:38 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/JN-map.jpg"
+      "src": "/attachments/maps/JN-map.jpg",
+      "caption": "Jan Mayen map showing the island – a territory of Norway – situated in the Greenland Sea."
     },
     {
       "type": "locator-map",
@@ -20,17 +21,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/JN_001_large.jpg?1528324313",
+      "src": "/attachments/images/original/JN_001_large.jpg",
       "category": "Space",
       "alt": "Tiny Jan Mayen Island sits about 1,040 km (650 mi) northeast of Iceland between the Norwegian and Greenland Seas. Covering 377 sq km (146 sq mi), the island is about twice the size of Washington, D.C. The white peak on the northeast section of the island is Haakon VII Toppen/Beerenberg, the northernmost active volcano in the world. Image courtesy of NASA.",
       "caption": "Tiny Jan Mayen Island sits about 1,040 km (650 mi) northeast of Iceland between the Norwegian and Greenland Seas. Covering 377 sq km (146 sq mi), the island is about twice the size of Washington, D.C. The white peak on the northeast section of the island is Haakon VII Toppen/Beerenberg, the northernmost active volcano in the world. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 340.0,
-        "width": 440.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 6608,
+      "dimensions": "440x340",
+      "file_size": 5370,
       "position": 0
     }
   ],
@@ -179,22 +175,22 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Norwegian Sea 0 m<br><br><strong>highest point: </strong>Haakon VII Toppen on Beerenberg 2,277",
+          "content": "<strong>highest point: </strong>Haakon VII Toppen on Beerenberg 2,277<br><br><strong>lowest point: </strong>Norwegian Sea 0 m<br><br><strong>note:</strong> Beerenberg volcano has numerous peaks; the highest point on the volcano rim is named Haakon VII Toppen, after Norway's first king following the reestablishment of Norwegian independence in 1905",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Norwegian Sea 0 m",
-              "value": "Norwegian Sea 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Haakon VII Toppen on Beerenberg 2,277",
               "value": "Haakon VII Toppen on Beerenberg 2,277",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Norwegian Sea 0 m",
+              "value": "Norwegian Sea 0 m",
+              "title": "lowest point"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> Beerenberg volcano has numerous peaks; the highest point on the volcano rim is named Haakon VII Toppen, after Norway's first king following the reestablishment of Norwegian independence in 1905"
+          "field_note": "<strong>note:</strong> Beerenberg volcano has numerous peaks; the highest point on the volcano rim is named Haakon VII Toppen, after Norway's first king following the reestablishment of Norwegian independence in 1905"
         },
         {
           "name": "Natural resources",
@@ -245,12 +241,6 @@
           "content": "<p>dominated by the volcano Beerenberg</p><p><strong>volcanism:</strong> Beerenberg (2,227 m) is Norway's only active volcano; volcanic activity resumed in 1970; the most recent eruption occurred in 1985</p>"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "pollutants transported from southerly latitudes by winds, ocean currents, and rivers accumulate in the food chains of native animals; climate change"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -266,9 +256,53 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "no indigenous inhabitants",
+          "content": "no indigenous inhabitants<br><br><strong>note:</strong> military personnel operate the the weather and coastal services radio station",
           "subfield_note": "no indigenous inhabitants",
-          "field_note": "<p><strong>note:</strong> military personnel operate the the weather and coastal services radio station</p>"
+          "field_note": "<strong>note:</strong> military personnel operate the the weather and coastal services radio station"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "pollutants transported from southerly latitudes by winds, ocean currents, and rivers accumulate in the food chains of native animals; climate change"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "arctic maritime with frequent storms and persistent fog"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>0% (2011 est.)<br><br><strong>other: </strong>100% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "0% (2011 est.)",
+              "title": "agricultural land",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2011",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "100% (2018 est.)",
+              "title": "other",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
         }
       ]
     },

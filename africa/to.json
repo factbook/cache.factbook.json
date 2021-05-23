@@ -2,8 +2,8 @@
   "name": "Togo",
   "code": "TO",
   "region": "Africa",
-  "published": "2021-02-24 12:36:53 -0500",
-  "updated": "2021-02-24 07:10:32 -0500",
+  "published": "2021-05-05 12:46:51 -0400",
+  "updated": "2021-05-04 12:49:16 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/TO-map.jpg"
+      "src": "/attachments/maps/TO-map.jpg",
+      "caption": "Togo map showing major population centers as well as parts of surrounding countries and the Bight of Benin."
     },
     {
       "type": "locator-map",
@@ -164,14 +165,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>236 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Mont Agou 986 m",
+          "content": "<strong>highest point: </strong>Mont Agou 986 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>mean elevation: </strong>236 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "236 m",
-              "title": "mean elevation",
-              "value": "236",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Mont Agou 986 m",
+              "value": "Mont Agou 986 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -180,10 +180,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Mont Agou 986 m",
-              "value": "Mont Agou 986 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "236 m",
+              "title": "mean elevation",
+              "value": "236",
+              "suffix": "m"
             }
           ]
         },
@@ -275,32 +276,6 @@
           "content": "hot, dry harmattan wind can reduce visibility in north during winter; periodic droughts"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "deforestation attributable to slash-and-burn agriculture and the use of wood for fuel; very little rain forest still present and what remains is highly degraded; desertification; water pollution presents health hazards and hinders the fishing industry; air pollution increasing in urban areas"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -316,11 +291,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "8,283,189 (July 2021 est.)",
+          "content": "8,283,189 (July 2021 est.)<br><br><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected",
           "value": "8,283,189",
           "estimated": true,
           "info_date": "July 2021",
-          "field_note": "<p><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected</p>"
+          "field_note": "<strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected"
         },
         {
           "name": "Nationality",
@@ -346,9 +321,9 @@
           "name": "Ethnic groups",
           "field_id": 400,
           "comparative": false,
-          "content": "Adja-Ewe/Mina 42.4%, Kabye/Tem 25.9%, Para-Gourma/Akan 17.1%, Akposso/Akebu 4.1%, Ana-Ife 3.2%, other Togolese 1.7%, foreigners 5.2%, no response .4% (2013-14 est.)",
+          "content": "Adja-Ewe/Mina 42.4%, Kabye/Tem 25.9%, Para-Gourma/Akan 17.1%, Akposso/Akebu 4.1%, Ana-Ife 3.2%, other Togolese 1.7%, foreigners 5.2%, no response .4% (2013-14 est.)<br><br><strong>note:</strong> Togo has an estimated 37 ethnic groups",
           "info_date": "2013-14 est.",
-          "field_note": "<br><br><strong>note:</strong> Togo has an estimated 37 ethnic groups"
+          "field_note": "<strong>note:</strong> Togo has an estimated 37 ethnic groups"
         },
         {
           "name": "Languages",
@@ -420,9 +395,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/TO_popgraph2021.pdf?1613509567",
-              "alt": "Togo population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/TO_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Togo. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -541,7 +518,7 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>42.8% of total population (2020)<br><br><strong>rate of urbanization: </strong>3.76% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>42.8% of total population (2020)<br><br><strong>rate of urbanization: </strong>3.6% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
@@ -553,18 +530,20 @@
             },
             {
               "name": "rate of urbanization",
-              "content": "3.76% annual rate of change (2015-20 est.)",
+              "content": "3.6% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "3.76",
+              "value": "3.6",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_TO.pdf?1602853274",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_TO.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -638,12 +617,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "21 years (2013/14 est.)",
+          "content": "21 years (2013/14 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "21",
           "estimated": true,
           "info_date": "2013/14",
           "suffix": "years",
-          "field_note": "<p><strong>note:</strong> median age at first birth among women 25-29</p>"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -1043,29 +1022,358 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>3.9%<br><br><strong>male: </strong>3.7%<br><br><strong>female: </strong>4.1% (2015 est.)",
+          "content": "<strong>total: </strong>9.5%<br><br><strong>male: </strong>12.3%<br><br><strong>female: </strong>7.4% (2017 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "3.9%",
+              "content": "9.5%",
               "title": "total",
-              "value": "3.9",
+              "value": "9.5",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "3.7%",
+              "content": "12.3%",
               "title": "male",
-              "value": "3.7",
+              "value": "12.3",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "4.1% (2015 est.)",
+              "content": "7.4% (2017 est.)",
               "title": "female",
-              "value": "4.1",
+              "value": "7.4",
               "estimated": true,
-              "info_date": "2015",
+              "info_date": "2017",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "deforestation attributable to slash-and-burn agriculture and the use of wood for fuel; very little rain forest still present and what remains is highly degraded; desertification; water pollution presents health hazards and hinders the fishing industry; air pollution increasing in urban areas"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>32.71 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>3 megatons (2016 est.)<br><br><strong>methane emissions: </strong>3.06 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "32.71 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "32.71",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "3 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "3",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "3.06 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "3.06",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>140.7 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>6.3 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>76 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "140.7 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "140,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "6.3 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "6,300,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "76 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "76,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "14.7 billion cubic meters (2017 est.)",
+          "value": "14,700,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical; hot, humid in south; semiarid in north"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>67.4% (2018 est.)<br><br>arable land: 45.2% (2018 est.)<br><br>permanent crops: 3.8% (2018 est.)<br><br>permanent pasture: 18.4% (2018 est.)<br><br><strong>forest: </strong>4.9% (2018 est.)<br><br><strong>other: </strong>27.7% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "67.4% (2018 est.)",
+              "title": "agricultural land",
+              "value": "67.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 45.2% (2018 est.)",
+              "value": "45.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 3.8% (2018 est.)",
+              "value": "3.8",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 18.4% (2018 est.)",
+              "value": "18.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "4.9% (2018 est.)",
+              "title": "forest",
+              "value": "4.9",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "27.7% (2018 est.)",
+              "title": "other",
+              "value": "27.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>3.96% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "3.96% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "3.96",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>42.8% of total population (2020)<br><br><strong>rate of urbanization: </strong>3.6% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "42.8% of total population (2020)",
+              "title": "urban population",
+              "value": "42.8",
+              "suffix": "% of total population",
+              "subfield_note": "(2020)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "3.6% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "3.6",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_TO.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial and protozoal diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria, dengue fever, and yellow fever<br><br><strong>water contact diseases: </strong>schistosomiasis<br><br><strong>animal contact diseases: </strong>rabies<br><br><strong>respiratory diseases: </strong>meningococcal meningitis",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "very high (2020)",
+              "value": "very high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "malaria, dengue fever, and yellow fever",
+              "value": "malaria, dengue fever, and yellow fever",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "schistosomiasis",
+              "value": "schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "animal contact diseases",
+              "content": "rabies",
+              "value": "rabies",
+              "title": "animal contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "respiratory diseases",
+              "content": "meningococcal meningitis",
+              "value": "meningococcal meningitis",
+              "title": "respiratory diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>1,109,030 tons (2014 est.)<br><br><strong>municipal solid waste recycled annually: </strong>22,181 tons (2012 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>2% (2012 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "1,109,030 tons (2014 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "1,109,030",
+              "estimated": true,
+              "info_date": "2014",
+              "suffix": "tons"
+            },
+            {
+              "name": "municipal solid waste recycled annually",
+              "content": "22,181 tons (2012 est.)",
+              "title": "municipal solid waste recycled annually",
+              "value": "22,181",
+              "estimated": true,
+              "info_date": "2012",
+              "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "2% (2012 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "2",
+              "estimated": true,
+              "info_date": "2012",
               "suffix": "%"
             }
           ]
@@ -1130,7 +1438,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Lome<br><br><strong>geographic coordinates: </strong>6 07 N, 1 13 E<br><br><strong>time difference: </strong>UTC 0 (5 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Lome<br><br><strong>geographic coordinates: </strong>6 07 N, 1 13 E<br><br><strong>time difference: </strong>UTC 0 (5 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> Lome comes from \"alotime\" which in the native Ewe language means \"among the alo plants\"; alo trees dominated the city's original founding site",
           "subfields": [
             {
               "name": "name",
@@ -1151,7 +1459,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> Lome comes from \"alotime\" which in the native Ewe language means \"among the alo plants\"; alo trees dominated the city's original founding site"
+          "field_note": "<strong>etymology:</strong> Lome comes from \"alotime\" which in the native Ewe language means \"among the alo plants\"; alo trees dominated the city's original founding site"
         },
         {
           "name": "Administrative divisions",
@@ -1175,7 +1483,7 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>several previous; latest adopted 27 September 1992, effective 14 October 1992<br><br><strong>amendments: </strong>proposed by the president of the republic or supported by at least one fifth of the National Assembly membership; passage requires four-fifths majority vote by the Assembly; a referendum is required if approved by only two-thirds majority of the Assembly or if requested by the president; constitutional articles on the republican and secular form of government cannot be amended; amended 2002, 2007, 2019 when the National Assembly unanimously approved a package of amendments, including setting presidential term limits of two 5-year mandates",
+          "content": "<strong>history: </strong>several previous; latest adopted 27 September 1992, effective 14 October 1992<br><br><strong>amendments: </strong>proposed by the president of the republic or supported by at least one fifth of the National Assembly membership; passage requires four-fifths majority vote by the Assembly; a referendum is required if approved by only two-thirds majority of the Assembly or if requested by the president; constitutional articles on the republican and secular form of government cannot be amended; amended 2002, 2007, last in 2019 when the National Assembly unanimously approved a package of amendments, including setting presidential term limits of two 5-year mandates",
           "subfields": [
             {
               "name": "history",
@@ -1185,8 +1493,8 @@
             },
             {
               "name": "amendments",
-              "content": "proposed by the president of the republic or supported by at least one fifth of the National Assembly membership; passage requires four-fifths majority vote by the Assembly; a referendum is required if approved by only two-thirds majority of the Assembly or if requested by the president; constitutional articles on the republican and secular form of government cannot be amended; amended 2002, 2007, 2019 when the National Assembly unanimously approved a package of amendments, including setting presidential term limits of two 5-year mandates",
-              "value": "proposed by the president of the republic or supported by at least one fifth of the National Assembly membership; passage requires four-fifths majority vote by the Assembly; a referendum is required if approved by only two-thirds majority of the Assembly or if requested by the president; constitutional articles on the republican and secular form of government cannot be amended; amended 2002, 2007, 2019 when the National Assembly unanimously approved a package of amendments, including setting presidential term limits of two 5-year mandates",
+              "content": "proposed by the president of the republic or supported by at least one fifth of the National Assembly membership; passage requires four-fifths majority vote by the Assembly; a referendum is required if approved by only two-thirds majority of the Assembly or if requested by the president; constitutional articles on the republican and secular form of government cannot be amended; amended 2002, 2007, last in 2019 when the National Assembly unanimously approved a package of amendments, including setting presidential term limits of two 5-year mandates",
+              "value": "proposed by the president of the republic or supported by at least one fifth of the National Assembly membership; passage requires four-fifths majority vote by the Assembly; a referendum is required if approved by only two-thirds majority of the Assembly or if requested by the president; constitutional articles on the republican and secular form of government cannot be amended; amended 2002, 2007, last in 2019 when the National Assembly unanimously approved a package of amendments, including setting presidential term limits of two 5-year mandates",
               "title": "amendments"
             }
           ]
@@ -1417,8 +1725,8 @@
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
-          "content": "five equal horizontal bands of green (top and bottom) alternating with yellow; a white five-pointed star on a red square is in the upper hoist-side corner; the five horizontal stripes stand for the five different regions of the country; the red square is meant to express the loyalty and patriotism of the people, green symbolizes hope, fertility, and agriculture, while yellow represents mineral wealth and faith that hard work and strength will bring prosperity; the star symbolizes life, purity, peace, dignity, and Togo's independence",
-          "field_note": "<p><strong>note:</strong> uses the popular Pan-African colors of Ethiopia</p>"
+          "content": "five equal horizontal bands of green (top and bottom) alternating with yellow; a white five-pointed star on a red square is in the upper hoist-side corner; the five horizontal stripes stand for the five different regions of the country; the red square is meant to express the loyalty and patriotism of the people, green symbolizes hope, fertility, and agriculture, while yellow represents mineral wealth and faith that hard work and strength will bring prosperity; the star symbolizes life, purity, peace, dignity, and Togo's independence<br><br><strong>note:</strong> uses the popular Pan-African colors of Ethiopia",
+          "field_note": "<strong>note:</strong> uses the popular Pan-African colors of Ethiopia"
         },
         {
           "name": "National symbol(s)",
@@ -1430,7 +1738,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Salut a toi, pays de nos aieux\" (Hail to Thee, Land of Our Forefathers)<br><br><strong>lyrics/music: </strong>Alex CASIMIR-DOSSEH",
+          "content": "<strong>name: </strong>\"Salut a toi, pays de nos aieux\" (Hail to Thee, Land of Our Forefathers)<br><br><strong>lyrics/music: </strong>Alex CASIMIR-DOSSEH<br><br><strong>note:</strong> adopted 1960, restored 1992; this anthem was replaced by another during one-party rule between 1979 and 1992",
           "subfields": [
             {
               "name": "name",
@@ -1445,12 +1753,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1960, restored 1992; this anthem was replaced by another during one-party rule between 1979 and 1992</p>",
+          "field_note": "<strong>note:</strong> adopted 1960, restored 1992; this anthem was replaced by another during one-party rule between 1979 and 1992",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/TO.mp3?1538604760",
-              "alt": "National Anthem audio file for Togo"
+              "src": "/attachments/audios/original/TO.mp3",
+              "alt": "National Anthem audio file for Togo",
+              "caption": "This is an audio of the National Anthem for Togo. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1550,7 +1860,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$12.904 billion (2019 est.)<br><br>$12.25 billion (2018 est.)<br><br>$11.674 billion (2017 est.)",
+          "content": "$12.904 billion (2019 est.)<br><br>$12.25 billion (2018 est.)<br><br>$11.674 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1574,7 +1884,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1590,7 +1900,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$1,597 (2019 est.)<br><br>$1,553 (2018 est.)<br><br>$1,517 (2017 est.)",
+          "content": "$1,597 (2019 est.)<br><br>$1,553 (2018 est.)<br><br>$1,517 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1614,7 +1924,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1746,13 +2056,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "63.7 (2020)",
+          "content": "<strong>Overall score: </strong>62.3 (2020)<br><br><strong>Starting a Business score: </strong>95.1 (2020)<br><br><strong>Trading score: </strong>63.7 (2020)<br><br><strong>Enforcement score: </strong>49 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
+              "content": "62.3 (2020)",
+              "title": "Overall score",
+              "value": "62.3",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "95.1 (2020)",
+              "title": "Starting a Business score",
+              "value": "95.1",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
               "content": "63.7 (2020)",
+              "title": "Trading score",
               "value": "63.7",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "49 (2020)",
+              "title": "Enforcement score",
+              "value": "49",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -2001,14 +2337,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "Benin 16.7%, Burkina Faso 15.2%, Niger 8.9%, India 7.3%, Mali 6.7%, Ghana 5.5%, Cote dIvoire 5.4%, Nigeria 4.1% (2017)",
-          "info_date": "2017"
+          "content": "India 16%, Benin 15%, Burkina Faso 6%, France 6%, Morocco 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "reexports, cotton, phosphates, coffee, cocoa"
+          "content": "refined petroleum, crude petroleum, electricity, calcium phosphates, cotton (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2036,14 +2373,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "China 27.5%, France 9.1%, Netherlands 4.4%, Japan 4.3% (2017)",
-          "info_date": "2017"
+          "content": "China 18%, South Korea 13%, India 11%, Belgium 10%, Netherlands 8%, United States 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "machinery and equipment, foodstuffs, petroleum products"
+          "content": "refined petroleum, motorcycles, crude petroleum, rice, broadcasting equipment (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2392,16 +2730,6 @@
           "estimated": true,
           "info_date": "1 January 2014",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "2.651 million Mt (2017 est.)",
-          "value": "2,651,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2458,7 +2786,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>system based on a network of microwave radio relay routes supplemented by open-wire lines and a mobile-cellular system; telecoms supply 8% of GDP; 3 mobile operators; 12% of residents have access to the Internet; mobile subscribers and mobile broadband both increasing (2020)<br><br><strong>domestic: </strong>fixed-line less than 1 per 100 and mobile-cellular 77 telephones per 100 persons with mobile-cellular use predominating (2019)<br><br><strong>international: </strong>country code - 228; landing point for the WACS submarine cable, linking countries along the west coast of Africa with each other and with Portugal; satellite earth stations - 1 Intelsat (Atlantic Ocean), 1 Symphonie (2020)",
+          "content": "<strong>general assessment: </strong>system based on a network of microwave radio relay routes supplemented by open-wire lines and a mobile-cellular system; telecoms supply 8% of GDP; 3 mobile operators; 12% of residents have access to the Internet; mobile subscribers and mobile broadband both increasing (2020)<br><br><strong>domestic: </strong>fixed-line less than 1 per 100 and mobile-cellular 77 telephones per 100 persons with mobile-cellular use predominating (2019)<br><br><strong>international: </strong>country code - 228; landing point for the WACS submarine cable, linking countries along the west coast of Africa with each other and with Portugal; satellite earth stations - 1 Intelsat (Atlantic Ocean), 1 Symphonie (2020)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2482,7 +2810,7 @@
               "info_date": "(2020)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2592,8 +2920,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "5V (2016)",
-          "info_date": "2016"
+          "content": "5V"
         },
         {
           "name": "Airports",
@@ -2798,15 +3125,22 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Togolese Armed Forces (Forces Armees Togolaise, FAT): Togolese Army (l'Armee de Terre), Togolese Navy (Forces Naval Togolaises), Togolese Air Force (Armee de l&rsquo;Air), National Gendarmerie (2020)",
-          "info_date": "2020"
+          "content": "Togolese Armed Forces (Forces Armees Togolaise, FAT): Togolese Army (l'Armee de Terre), Togolese Navy (Forces Naval Togolaises), Togolese Air Force (Armee de l&rsquo;Air), National Gendarmerie (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "3.1% of GDP (2019)<br><br>2% of GDP (2018)<br><br>1.9% of GDP (2017)<br><br>1.9% of GDP (2016)<br><br>1.7% of GDP (2015)",
+          "content": "2% of GDP (2020 est.)<br><br>3.1% of GDP (2019)<br><br>2% of GDP (2018)<br><br>1.9% of GDP (2017)<br><br>1.8% of GDP (2016)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2020",
+              "content": "2% of GDP (2020 est.)",
+              "value": "2",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2019",
               "content": "3.1% of GDP (2019)",
@@ -2830,15 +3164,8 @@
             },
             {
               "name": "Military Expenditures 2016",
-              "content": "1.9% of GDP (2016)",
-              "value": "1.9",
-              "estimated": false,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2015",
-              "content": "1.7% of GDP (2015)",
-              "value": "1.7",
+              "content": "1.8% of GDP (2016)",
+              "value": "1.8",
               "estimated": false,
               "suffix": "% of GDP"
             }
@@ -2848,29 +3175,35 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Togolese Armed Forces (FAT) are comprised of approximately 9,100 personnel (8,000 Army; 200 Navy; 200 Navy; 750 Gendarmerie) (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the Togolese Armed Forces (FAT) are comprised of approximately 9,000 personnel (8,000 Army; 200 Navy; 200 Air Force; 600 Gendarmerie) (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the FAT's small inventory is a mix of older Brazilian, British, French, German, Russian/Soviet, and US equipment; since 2010, France is the leading supplier of military hardware to Togo (2020)",
+          "content": "the FAT's small inventory is a mix of older equipment from a variety of countries, including Brazil, France, Germany, Russia/former Soviet Union, the UK, and the US; since 2010, France is the leading supplier of military hardware to Togo (2020)",
           "info_date": "2020"
         },
         {
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "920 Mali (MINUSMA) (2020)",
-          "info_date": "2020"
+          "content": "925 Mali (MINUSMA) (Jan 2021)",
+          "info_date": "Jan 2021"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18 years of age for military service; 2-year service obligation; currently the military is only an all-volunteer force (2017)",
-          "info_date": "2017"
+          "content": "18 years of age for military service; 2-year service obligation; the military is an all-volunteer force (2021)",
+          "info_date": "2021"
+        },
+        {
+          "name": "Maritime threats",
+          "field_id": 334,
+          "comparative": false,
+          "content": "the International Maritime Bureau reports the territorial and offshore waters in the Niger Delta and Gulf of Guinea remain a very high risk for piracy and armed robbery of ships; in 2020, there were 98 reported incidents of piracy and armed robbery at sea in the Gulf of Guinea region; although a 24% decrease from the total number of incidents in 2019, it included all three hijackings and 9 of 11 ships fired upon worldwide; while boarding and attempted boarding to steal valuables from ships and crews are the most common types of incidents, almost a third of all incidents involve a hijacking and/or kidnapping; in 2020, a record 130 crew members were kidnapped in 22 separate incidents in the Gulf of Guinea, representing 95% of kidnappings worldwide; approximately 51% of all incidents of piracy and armed robbery are taking place off Nigeria, which is a decrease from the 71% in 2019 and an indication pirates are traveling further to target vessels; Nigerian pirates are well armed and very aggressive, operating as far as 200 nm offshore; the Maritime Administration of the US Department of Transportation has issued a Maritime Advisory (2021-002 - Gulf of Guinea-Piracy/Armed Robbery/Kidnapping for Ransom) effective 9 January 2021, which states in part, \"Piracy, armed robbery, and kidnapping for ransom continue to serve as significant threats to US-flagged vessels transiting or operating in the Gulf of Guinea.&rdquo;"
         }
       ]
     },
@@ -2888,12 +3221,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>9,556 (Ghana) (2020)",
+          "content": "<strong>refugees (country of origin): </strong>8,391 (Ghana) (2021)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "9,556 (Ghana) (2020)",
-              "value": "9,556 (Ghana) (2020)",
+              "content": "8,391 (Ghana) (2021)",
+              "value": "8,391 (Ghana) (2021)",
               "title": "refugees (country of origin)"
             }
           ]

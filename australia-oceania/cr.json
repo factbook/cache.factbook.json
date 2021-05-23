@@ -2,8 +2,8 @@
   "name": "Coral Sea Islands",
   "code": "CR",
   "region": "Australia - Oceania",
-  "published": "2021-02-24 12:17:59 -0500",
-  "updated": "2021-02-24 11:18:50 -0500",
+  "published": "2021-05-05 12:28:21 -0400",
+  "updated": "2021-04-30 15:32:38 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/CR-map.jpg"
+      "src": "/attachments/maps/CR-map.jpg",
+      "caption": "Coral Sea Islands map showing the Australian territory in the Coral Sea."
     },
     {
       "type": "locator-map",
@@ -20,17 +21,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/CR_001_large.jpg?1528323444",
+      "src": "/attachments/images/original/CR_001_large.jpg",
       "category": "Space",
       "alt": "This view of the Queensland coast of northeast Australia taken by the Aqua satellite vividly shows the many offshore reefs that together form the Great Barrier Reef. The various white specks in the deeper blue waters of the Coral Sea to the east are some of the reefs, cays, and islets that make up the Coral Sea Islands. Image courtesy of NASA.",
       "caption": "This view of the Queensland coast of northeast Australia taken by the Aqua satellite vividly shows the many offshore reefs that together form the Great Barrier Reef. The various white specks in the deeper blue waters of the Coral Sea to the east are some of the reefs, cays, and islets that make up the Coral Sea Islands. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 1200.0,
-        "width": 1058.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 390757,
+      "dimensions": "1058x1200",
+      "file_size": 228680,
       "position": 0
     }
   ],
@@ -73,7 +69,7 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>3 sq km less than<br><br><strong>land: </strong>3 sq km less than<br><br><strong>water: </strong>0 sq km",
+          "content": "<strong>total: </strong>3 sq km less than<br><br><strong>land: </strong>3 sq km less than<br><br><strong>water: </strong>0 sq km<br><br><strong>note:</strong> includes numerous small islands and reefs scattered over a sea area of about 780,000 sq km (300,000 sq mi) with the Willis Islets the most important",
           "subfields": [
             {
               "name": "total",
@@ -99,7 +95,7 @@
               "suffix": "sq km"
             }
           ],
-          "field_note": "<p><strong>note:</strong> includes numerous small islands and reefs scattered over a sea area of about 780,000 sq km (300,000 sq mi) with the Willis Islets the most important</p>"
+          "field_note": "<strong>note:</strong> includes numerous small islands and reefs scattered over a sea area of about 780,000 sq km (300,000 sq mi) with the Willis Islets the most important"
         },
         {
           "name": "Area - comparative",
@@ -168,19 +164,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Pacific Ocean 0 m<br><br><strong>highest point: </strong>unnamed location on Cato Island 9 m",
+          "content": "<strong>highest point: </strong>unnamed location on Cato Island 9 m<br><br><strong>lowest point: </strong>Pacific Ocean 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Pacific Ocean 0 m",
-              "value": "Pacific Ocean 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "unnamed location on Cato Island 9 m",
               "value": "unnamed location on Cato Island 9 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Pacific Ocean 0 m",
+              "value": "Pacific Ocean 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -223,12 +219,6 @@
           "content": "occasional tropical cyclones"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "no permanent freshwater resources; damaging activities include coral mining, destructive fishing practices (overfishing, blast fishing)"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -244,11 +234,55 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "no indigenous inhabitants (July 2021 est.)",
+          "content": "no indigenous inhabitants (July 2021 est.)<br><br><strong>note:</strong> there is a staff of four at the meteorological station on Willis Island",
           "estimated": true,
           "info_date": "July 2021",
           "subfield_note": "no indigenous inhabitants",
-          "field_note": "<p><strong>note:</strong> there is a staff of four at the meteorological station on Willis Island</p>"
+          "field_note": "<strong>note:</strong> there is a staff of four at the meteorological station on Willis Island"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "no permanent freshwater resources; damaging activities include coral mining, destructive fishing practices (overfishing, blast fishing)"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>0% (2018 est.)<br><br><strong>other: </strong>100% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "0% (2018 est.)",
+              "title": "agricultural land",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "100% (2018 est.)",
+              "title": "other",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
         }
       ]
     },

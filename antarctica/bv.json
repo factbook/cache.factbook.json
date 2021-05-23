@@ -2,8 +2,8 @@
   "name": "Bouvet Island",
   "code": "BV",
   "region": "Antarctica",
-  "published": "2021-02-24 12:14:57 -0500",
-  "updated": "2021-02-24 10:35:41 -0500",
+  "published": "2021-05-05 12:26:05 -0400",
+  "updated": "2021-04-30 15:32:37 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/BV-map.jpg"
+      "src": "/attachments/maps/BV-map.jpg",
+      "caption": "Bouvet Island map showing the island – a territory of Norway – situated in the South Atlantic Ocean."
     },
     {
       "type": "locator-map",
@@ -20,32 +21,22 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/BV_001_large.jpg?1528323270",
+      "src": "/attachments/images/original/BV_001_large.jpg",
       "category": "Space",
       "alt": "Bouvet Island is one of the most remote islands in the world; Antarctica, over 1,600 km (1,000 mi) to the south, is the nearest land mass. Located near the junction of three tectonic plates, the island is mostly formed from a shield volcano that is almost entirely covered by glaciers. The prominent Kapp (Cape) Valdivia on the northern coastline is a peninsula formed by a lava dome. It is only along the steep cliffs of the coastline that the underlying dark volcanic rock is visible against the white snow and ice blanketing the island. Photo courtesy of NASA.",
       "caption": "Bouvet Island is one of the most remote islands in the world; Antarctica, over 1,600 km (1,000 mi) to the south, is the nearest land mass. Located near the junction of three tectonic plates, the island is mostly formed from a shield volcano that is almost entirely covered by glaciers. The prominent Kapp (Cape) Valdivia on the northern coastline is a peninsula formed by a lava dome. It is only along the steep cliffs of the coastline that the underlying dark volcanic rock is visible against the white snow and ice blanketing the island. Photo courtesy of NASA.",
-      "dimensions": {
-        "height": 325.0,
-        "width": 540.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 34144,
+      "dimensions": "540x325",
+      "file_size": 32718,
       "position": 0
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/Bouvet_aerial_photo.jpg?1549558524",
+      "src": "/attachments/images/original/Bouvet_aerial_photo.jpg",
       "category": "Space",
       "alt": "Aerial photo of glacier-blanketed Bouvet Island. Image courtesy of NASA.",
       "caption": "Aerial photo of glacier-blanketed Bouvet Island. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 768.0,
-        "width": 1024.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 908282,
+      "dimensions": "1024x768",
+      "file_size": 891164,
       "position": 1
     }
   ],
@@ -173,19 +164,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>South Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Olavtoppen (Olav Peak) 780 m",
+          "content": "<strong>highest point: </strong>Olavtoppen (Olav Peak) 780 m<br><br><strong>lowest point: </strong>South Atlantic Ocean 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "South Atlantic Ocean 0 m",
-              "value": "South Atlantic Ocean 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Olavtoppen (Olav Peak) 780 m",
               "value": "Olavtoppen (Olav Peak) 780 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "South Atlantic Ocean 0 m",
+              "value": "South Atlantic Ocean 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -261,12 +252,6 @@
           "content": "occasional volcanism, rock slides; harsh climate, surrounded by pack ice in winter"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "none; almost entirely ice covered"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -288,6 +273,83 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "none; almost entirely ice covered"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "antarctic"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>0% (2018 est.)<br><br>arable land: 0% (2018 est.)<br><br>permanent crops: 0% (2018 est.)<br><br>permanent pasture: 0% (2018 est.)<br><br><strong>forest: </strong>0% (2018 est.)<br><br><strong>other: </strong>100% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "0% (2018 est.)",
+              "title": "agricultural land",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 0% (2018 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0% (2018 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 0% (2018 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "0% (2018 est.)",
+              "title": "forest",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "100% (2018 est.)",
+              "title": "other",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -295,7 +357,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>none<br><br><strong>conventional short form: </strong>Bouvet Island<br><br><strong>etymology: </strong>named after the French naval officer Jean-Baptiste Charles BOUVET who discovered the island in 1739",
+          "content": "<strong>conventional long form: </strong>none<br><br><strong>conventional short form: </strong>Bouvet Island<br><br><strong>etymology: </strong>named after the French naval officer Jean-Baptiste Charles BOUVET who discovered the island in 1739<br><br><strong>note:</strong> pronounced boo-vay i-land",
           "subfields": [
             {
               "name": "conventional long form",
@@ -316,7 +378,7 @@
               "title": "etymology"
             }
           ],
-          "field_note": "<p><strong>note:</strong> pronounced boo-vay i-land</p>"
+          "field_note": "<strong>note:</strong> pronounced boo-vay i-land"
         },
         {
           "name": "Dependency status",

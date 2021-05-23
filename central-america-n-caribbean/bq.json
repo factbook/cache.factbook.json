@@ -2,8 +2,8 @@
   "name": "Navassa Island",
   "code": "BQ",
   "region": "Central America",
-  "published": "2021-02-24 12:30:32 -0500",
-  "updated": "2021-02-17 12:05:08 -0500",
+  "published": "2021-05-05 12:25:47 -0400",
+  "updated": "2021-05-03 13:35:53 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/BQ-map.jpg"
+      "src": "/attachments/maps/BQ-map.jpg",
+      "caption": "Navassa Island map shows some features on this island in the Caribbean Sea."
     },
     {
       "type": "locator-map",
@@ -20,62 +21,42 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/BQ_001.jpg?1528324528",
+      "src": "/attachments/images/original/BQ_001.jpg",
       "category": "Space",
       "alt": "Astronaut photo of teardrop-shaped Navassa Island. The island is basically a plateau encircled by fairly steep cliffs. Image courtesy of NASA.",
       "caption": "Astronaut photo of teardrop-shaped Navassa Island. The island is basically a plateau encircled by fairly steep cliffs. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 440.0,
-        "width": 650.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 34701,
+      "dimensions": "650x440",
+      "file_size": 29592,
       "position": 0
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/NavassaCoastAerialUSGS.jpg?1583775846",
+      "src": "/attachments/images/original/NavassaCoastAerialUSGS.jpg",
       "category": "Places",
       "alt": "Navassa Island has a steep and rocky coastline that rings the island. Image courtesy USGS.",
       "caption": "Navassa Island has a steep and rocky coastline that rings the island. Image courtesy USGS.",
-      "dimensions": {
-        "height": 788.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 434111,
+      "dimensions": "1200x788",
+      "file_size": 398918,
       "position": 1
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/Navassa_Lighthouse.jpg?1583776248",
+      "src": "/attachments/images/original/Navassa_Lighthouse.jpg",
       "category": "Places",
       "alt": "Navassa Island's lighthouse with the ruins of the light keeper's quarters in the foreground. Photo courtesy USGS.",
       "caption": "Navassa Island's lighthouse with the ruins of the light keeper's quarters in the foreground. Photo courtesy USGS.",
-      "dimensions": {
-        "height": 1200.0,
-        "width": 795.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 210567,
+      "dimensions": "795x1200",
+      "file_size": 196294,
       "position": 2
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/Navassa_Lighthouse_Keeper_Residence.jpg?1583776109",
+      "src": "/attachments/images/original/Navassa_Lighthouse_Keeper_Residence.jpg",
       "category": "Places",
       "alt": "The ruins of Navassa Island's light keeper's quarters as seen from the lighthouse tower. Photo courtesy USGS.",
       "caption": "The ruins of Navassa Island's light keeper's quarters as seen from the lighthouse tower. Photo courtesy USGS.",
-      "dimensions": {
-        "height": 777.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 666811,
+      "dimensions": "1200x777",
+      "file_size": 564402,
       "position": 3
     }
   ],
@@ -210,19 +191,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Caribbean Sea 0 m<br><br><strong>highest point: </strong>200 m NNW of lighthouse 85 m",
+          "content": "<strong>highest point: </strong>200 m NNW of lighthouse 85 m<br><br><strong>lowest point: </strong>Caribbean Sea 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Caribbean Sea 0 m",
-              "value": "Caribbean Sea 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "200 m NNW of lighthouse 85 m",
               "value": "200 m NNW of lighthouse 85 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Caribbean Sea 0 m",
+              "value": "Caribbean Sea 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -256,12 +237,6 @@
           "content": "hurricanes"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "some coral bleaching"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -287,6 +262,41 @@
           "content": "NA",
           "suffix": "% of GDP",
           "subfield_note": "NA"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "some coral bleaching"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "marine, tropical"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>other: </strong>100% (2018 est.)",
+          "subfields": [
+            {
+              "name": "other",
+              "content": "100% (2018 est.)",
+              "title": "other",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
         }
       ]
     },

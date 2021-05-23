@@ -2,8 +2,8 @@
   "name": "Cameroon",
   "code": "CM",
   "region": "Africa",
-  "published": "2021-02-24 12:16:20 -0500",
-  "updated": "2021-02-24 10:40:43 -0500",
+  "published": "2021-05-19 12:13:00 -0400",
+  "updated": "2021-05-19 07:59:54 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/CM-map.jpg"
+      "src": "/attachments/maps/CM-map.jpg",
+      "caption": "Cameroon map showing major cities as well as parts of surrounding countries and the Bight of Benin."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/CM_001_large.jpg?1528323327",
+      "src": "/attachments/images/original/CM_001_large.jpg",
       "category": "Places",
       "alt": "Lake Nyos is a crater lake on the flank of an inactive volcano. Magma beneath the lake leaks carbon dioxide into the waters. In 1986, the lake emitted a large cloud of carbon dioxide that suffocated nearly 1,800 people and some 3,500 livestock in nearby villages.",
       "caption": "Lake Nyos is a crater lake on the flank of an inactive volcano. Magma beneath the lake leaks carbon dioxide into the waters. In 1986, the lake emitted a large cloud of carbon dioxide that suffocated nearly 1,800 people and some 3,500 livestock in nearby villages.",
-      "dimensions": {
-        "height": 802.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 263248,
+      "dimensions": "1200x802",
+      "file_size": 166840,
       "position": 0
     }
   ],
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/CM_area.jpg?1562684371",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/CM_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>slightly larger than California; about four times the size of Pennsylvania</p>",
+              "position": 0
             }
           ]
         },
@@ -186,14 +184,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>667 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>highest point: </strong>Fako on Mont Cameroun 4,045 m",
+          "content": "<strong>highest point: </strong>Fako on Mont Cameroun 4,045 m<br><br><strong>lowest point: </strong>Atlantic Ocean 0 m<br><br><strong>mean elevation: </strong>667 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "667 m",
-              "title": "mean elevation",
-              "value": "667",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Fako on Mont Cameroun 4,045 m",
+              "value": "Fako on Mont Cameroun 4,045 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -202,10 +199,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Fako on Mont Cameroun 4,045 m",
-              "value": "Fako on Mont Cameroun 4,045 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "667 m",
+              "title": "mean elevation",
+              "value": "667",
+              "suffix": "m"
             }
           ]
         },
@@ -297,32 +295,6 @@
           "content": "<p>volcanic activity with periodic releases of poisonous gases from Lake Nyos and Lake Monoun volcanoes</p><p><strong>volcanism:</strong> Mt. Cameroon (4,095 m), which last erupted in 2000, is the most frequently active volcano in West Africa; lakes in Oku volcanic field have released fatal levels of gas on occasion, killing some 1,700 people in 1986</p>"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "waterborne diseases are prevalent; deforestation and overgrazing result in erosion, desertification, and reduced quality of pastureland; poaching; overfishing; overhunting"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Tropical Timber 83, Tropical Timber 94, Wetlands, Whaling",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -338,11 +310,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "28,524,175 (July 2021 est.)",
+          "content": "28,524,175 (July 2021 est.)<br><br><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected",
           "value": "28,524,175",
           "estimated": true,
           "info_date": "July 2021",
-          "field_note": "<p><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected</p>"
+          "field_note": "<strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected"
         },
         {
           "name": "Nationality",
@@ -441,9 +413,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/CM_popgraph2021.pdf?1613492919",
-              "alt": "Cameroon population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/CM_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Cameroon. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -562,30 +536,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>57.6% of total population (2020)<br><br><strong>rate of urbanization: </strong>3.63% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>58.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.43% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "57.6% of total population (2020)",
+              "content": "58.1% of total population (2021)",
               "title": "urban population",
-              "value": "57.6",
+              "value": "58.1",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "3.63% annual rate of change (2015-20 est.)",
+              "content": "3.43% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "3.63",
+              "value": "3.43",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_CM.pdf?1602787600",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_CM.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -659,12 +635,12 @@
           "name": "Mother's mean age at first birth",
           "field_id": 352,
           "comparative": false,
-          "content": "19.7 years (2011 est.)",
+          "content": "19.7 years (2011 est.)<br><br><strong>note:</strong> median age at first birth among women 25-29",
           "value": "19.7",
           "estimated": true,
           "info_date": "2011",
           "suffix": "years",
-          "field_note": "<p><strong>note:</strong> median age at first birth among women 25-29</p>"
+          "field_note": "<strong>note:</strong> median age at first birth among women 25-29"
         },
         {
           "name": "Maternal mortality rate",
@@ -976,10 +952,10 @@
           "name": "Children under the age of 5 years underweight",
           "field_id": 368,
           "comparative": true,
-          "content": "11% (2018)",
+          "content": "11% (2018/19)",
           "value": "11",
           "estimated": false,
-          "info_date": "2018",
+          "info_date": "2018/19",
           "suffix": "%"
         },
         {
@@ -1094,6 +1070,350 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "waterborne diseases are prevalent; deforestation and overgrazing result in erosion, desertification, and reduced quality of pastureland; poaching; overfishing; overhunting"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>Nuclear Test Ban",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "Nuclear Test Ban",
+              "value": "Nuclear Test Ban",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>65.26 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>8.29 megatons (2016 est.)<br><br><strong>methane emissions: </strong>30.71 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "65.26 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "65.26",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "8.29 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "8.29",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "30.71 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "30.71",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>246.8 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>104.6 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>737 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "246.8 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "246,800,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "104.6 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "104,600,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "737 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "737,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "283.15 billion cubic meters (2017 est.)",
+          "value": "283,150,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "varies with terrain, from tropical along coast to semiarid and hot in north"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>20.6% (2018 est.)<br><br>arable land: 13.1% (2018 est.)<br><br>permanent crops: 3.3% (2018 est.)<br><br>permanent pasture: 4.2% (2018 est.)<br><br><strong>forest: </strong>41.7% (2018 est.)<br><br><strong>other: </strong>37.7% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "20.6% (2018 est.)",
+              "title": "agricultural land",
+              "value": "20.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 13.1% (2018 est.)",
+              "value": "13.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 3.3% (2018 est.)",
+              "value": "3.3",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 4.2% (2018 est.)",
+              "value": "4.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "41.7% (2018 est.)",
+              "title": "forest",
+              "value": "41.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "37.7% (2018 est.)",
+              "title": "other",
+              "value": "37.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>2.5% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "2.5% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "2.5",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>58.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.43% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "58.1% of total population (2021)",
+              "title": "urban population",
+              "value": "58.1",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "3.43% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "3.43",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_CM.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial and protozoal diarrhea, hepatitis A, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria and&nbsp;dengue fever<br><br><strong>water contact diseases: </strong>schistosomiasis<br><br><strong>animal contact diseases: </strong>rabies<br><br><strong>respiratory diseases: </strong>meningococcal meningitis",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "very high (2020)",
+              "value": "very high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
+              "value": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "malaria and&nbsp;dengue fever",
+              "value": "malaria and&nbsp;dengue fever",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "schistosomiasis",
+              "value": "schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "animal contact diseases",
+              "content": "rabies",
+              "value": "rabies",
+              "title": "animal contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "respiratory diseases",
+              "content": "meningococcal meningitis",
+              "value": "meningococcal meningitis",
+              "title": "respiratory diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Food insecurity",
+          "field_id": 418,
+          "comparative": false,
+          "content": "<strong>severe localized food insecurity: </strong>due to civil insecurity and population displacements - about 2.7 million people were estimated to be severely food insecure in the October‑December 2020 period, well above the previous year&rsquo;s level; this is mainly the result of conflict, socio‑political unrest, flooding, and COVID‑19-related economic shocks; in the Far North Region, incursions by Boko Haram increased by 55% in 2020 compared to the previous year and triggered new population displacements (2021)",
+          "subfields": [
+            {
+              "name": "severe localized food insecurity",
+              "content": "due to civil insecurity and population displacements - about 2.7 million people were estimated to be severely food insecure in the October‑December 2020 period, well above the previous year&rsquo;s level; this is mainly the result of conflict, socio‑political unrest, flooding, and COVID‑19-related economic shocks; in the Far North Region, incursions by Boko Haram increased by 55% in 2020 compared to the previous year and triggered new population displacements (2021)",
+              "value": "due to civil insecurity and population displacements - about 2.7 million people were estimated to be severely food insecure in the October‑December 2020 period, well above the previous year&rsquo;s level; this is mainly the result of conflict, socio‑political unrest, flooding, and COVID‑19-related economic shocks; in the Far North Region, incursions by Boko Haram increased by 55% in 2020 compared to the previous year and triggered new population displacements",
+              "title": "severe localized food insecurity",
+              "info_date": "(2021)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>3,270,617 tons (2013 est.)<br><br><strong>municipal solid waste recycled annually: </strong>13,082 tons (2009 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>0.4% (2009 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "3,270,617 tons (2013 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "3,270,617",
+              "estimated": true,
+              "info_date": "2013",
+              "suffix": "tons"
+            },
+            {
+              "name": "municipal solid waste recycled annually",
+              "content": "13,082 tons (2009 est.)",
+              "title": "municipal solid waste recycled annually",
+              "value": "13,082",
+              "estimated": true,
+              "info_date": "2009",
+              "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "0.4% (2009 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "0.4",
+              "estimated": true,
+              "info_date": "2009",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -1151,7 +1471,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Yaounde<br><br><strong>geographic coordinates: </strong>3 52 N, 11 31 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Yaounde<br><br><strong>geographic coordinates: </strong>3 52 N, 11 31 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:&nbsp;</strong>founded as a German colonial settlement of&nbsp;Jaunde in 1888 and named after the local Yaunde (Ewondo) people",
           "subfields": [
             {
               "name": "name",
@@ -1172,7 +1492,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:&nbsp;</strong>founded as a German colonial settlement of&nbsp;Jaunde in 1888 and named after the local Yaunde (Ewondo) people"
+          "field_note": "<strong>etymology:&nbsp;</strong>founded as a German colonial settlement of&nbsp;Jaunde in 1888 and named after the local Yaunde (Ewondo) people"
         },
         {
           "name": "Administrative divisions",
@@ -1444,8 +1764,8 @@
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
-          "content": "three equal vertical bands of green (hoist side), red, and yellow, with a yellow five-pointed star centered in the red band; the vertical tricolor recalls the flag of France; red symbolizes unity, yellow the sun, happiness, and the savannahs in the north, and green hope and the forests in the south; the star is referred to as the \"star of unity\"",
-          "field_note": "<p><strong>note:</strong> uses the popular Pan-African colors of Ethiopia</p>"
+          "content": "three equal vertical bands of green (hoist side), red, and yellow, with a yellow five-pointed star centered in the red band; the vertical tricolor recalls the flag of France; red symbolizes unity, yellow the sun, happiness, and the savannahs in the north, and green hope and the forests in the south; the star is referred to as the \"star of unity\"<br><br><strong>note:</strong> uses the popular Pan-African colors of Ethiopia",
+          "field_note": "<strong>note:</strong> uses the popular Pan-African colors of Ethiopia"
         },
         {
           "name": "National symbol(s)",
@@ -1457,7 +1777,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"O Cameroun, Berceau de nos Ancetres\" (O Cameroon, Cradle of Our Forefathers)<br><br><strong>lyrics/music: </strong>Rene Djam AFAME, Samuel Minkio BAMBA, Moise Nyatte NKO'O [French], Benard Nsokika FONLON [English]/Rene Djam AFAME",
+          "content": "<strong>name: </strong>\"O Cameroun, Berceau de nos Ancetres\" (O Cameroon, Cradle of Our Forefathers)<br><br><strong>lyrics/music: </strong>Rene Djam AFAME, Samuel Minkio BAMBA, Moise Nyatte NKO'O [French], Benard Nsokika FONLON [English]/Rene Djam AFAME<br><br><strong>note:</strong> adopted 1957; Cameroon's anthem, also known as \"Chant de Ralliement\" (The Rallying Song), has been used unofficially since 1948 and officially adopted in 1957; the anthem has French and English versions whose lyrics differ",
           "subfields": [
             {
               "name": "name",
@@ -1472,12 +1792,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1957; Cameroon's anthem, also known as \"Chant de Ralliement\" (The Rallying Song), has been used unofficially since 1948 and officially adopted in 1957; the anthem has French and English versions whose lyrics differ</p>",
+          "field_note": "<strong>note:</strong> adopted 1957; Cameroon's anthem, also known as \"Chant de Ralliement\" (The Rallying Song), has been used unofficially since 1948 and officially adopted in 1957; the anthem has French and English versions whose lyrics differ",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/CM.mp3?1538604751",
-              "alt": "National Anthem audio file for Cameroon"
+              "src": "/attachments/audios/original/CM.mp3",
+              "alt": "National Anthem audio file for Cameroon",
+              "caption": "This is an audio of the National Anthem for Cameroon. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1584,7 +1906,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$94.248 billion (2019 est.)<br><br>$90.868 billion (2018 est.)<br><br>$87.32 billion (2017 est.)",
+          "content": "$94.248 billion (2019 est.)<br><br>$90.868 billion (2018 est.)<br><br>$87.32 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1608,7 +1930,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1624,7 +1946,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$3,642 (2019 est.)<br><br>$3,604 (2018 est.)<br><br>$3,555 (2017 est.)",
+          "content": "$3,642 (2019 est.)<br><br>$3,604 (2018 est.)<br><br>$3,555 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1648,7 +1970,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1780,13 +2102,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "46.1 (2020)",
+          "content": "<strong>Overall score: </strong>46.1 (2020)<br><br><strong>Starting a Business score: </strong>86.3 (2020)<br><br><strong>Trading score: </strong>16 (2020)<br><br><strong>Enforcement score: </strong>39.9 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
               "content": "46.1 (2020)",
+              "title": "Overall score",
               "value": "46.1",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "86.3 (2020)",
+              "title": "Starting a Business score",
+              "value": "86.3",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "16 (2020)",
+              "title": "Trading score",
+              "value": "16",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "39.9 (2020)",
+              "title": "Enforcement score",
+              "value": "39.9",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1878,10 +2226,10 @@
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "30% (2001 est.)",
-          "value": "30",
+          "content": "37.5% (2014 est.)",
+          "value": "37.5",
           "estimated": true,
-          "info_date": "2001",
+          "info_date": "2014",
           "suffix": "%"
         },
         {
@@ -2048,14 +2396,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "Netherlands 15.6%, France 12.6%, China 11.7%, Belgium 6.8%, Italy 6.3%, Algeria 4.8%, Malaysia 4.4% (2017)",
-          "info_date": "2017"
+          "content": "China 17%, Netherlands 14%, Italy 9%, United Arab Emirates 8%, India 7%, United States 6%, Belgium 6%, Spain 5%, France 5% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "crude oil and petroleum products, lumber, cocoa beans, aluminum, coffee, cotton"
+          "content": "crude petroleum, cocoa beans, lumber, gold, natural gas, bananas (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -2083,14 +2432,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "China 19%, France 10.3%, Thailand 7.9%, Nigeria 4.1% (2017)",
-          "info_date": "2017"
+          "content": "China 28%, Nigeria 15%, France 9%, Belgium 6% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "machinery, electrical equipment, transport equipment, fuel, food"
+          "content": "crude petroleum, scrap vessels, rice, special purpose ships, packaged medicines (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2439,16 +2789,6 @@
           "estimated": true,
           "info_date": "1 January 2018",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "7.672 million Mt (2017 est.)",
-          "value": "7,672,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2504,7 +2844,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>3G service and&nbsp;LTE service both developing given growing competition, along with a fast-developing mobile broadband sector; govt. supportive of launching programs who's aim is to improve connections nationally; about 95% of electronic transactions carried out through M-commerce services (2020)<br><br><strong>domestic: </strong>only about 4 per 100 persons for fixed-line subscriptions; mobile-cellular usage has increased sharply, reaching a subscribership base of over 82 per 100 persons (2019)<br><br><strong>international: </strong>country code - 237; landing points for the SAT-3/WASC, SAIL, ACE, NCSCS, Ceiba-2, and WACS&nbsp;fiber-optic submarine cable that provides connectivity to Europe, South America, and West Africa; satellite earth stations - 2 Intelsat (Atlantic Ocean) (2019)",
+          "content": "<strong>general assessment: </strong>3G service and&nbsp;LTE service both developing given growing competition, along with a fast-developing mobile broadband sector; govt. supportive of launching programs who's aim is to improve connections nationally; about 95% of electronic transactions carried out through M-commerce services (2020)<br><br><strong>domestic: </strong>only about 4 per 100 persons for fixed-line subscriptions; mobile-cellular usage has increased sharply, reaching a subscribership base of over 82 per 100 persons (2019)<br><br><strong>international: </strong>country code - 237; landing points for the SAT-3/WASC, SAIL, ACE, NCSCS, Ceiba-2, and WACS&nbsp;fiber-optic submarine cable that provides connectivity to Europe, South America, and West Africa; satellite earth stations - 2 Intelsat (Atlantic Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2528,7 +2868,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2638,8 +2978,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "TJ (2016)",
-          "info_date": "2016"
+          "content": "TJ"
         },
         {
           "name": "Airports",
@@ -2756,7 +3095,7 @@
           "name": "Railways",
           "field_id": 384,
           "comparative": true,
-          "content": "<strong>total: </strong>987 km (2014)<br><br><strong>narrow gauge: </strong>987 km 1.000-m gauge (2014)",
+          "content": "<strong>total: </strong>987 km (2014)<br><br><strong>narrow gauge: </strong>987 km 1.000-m gauge (2014)<br><br><strong>note:</strong> railway connections generally efficient but limited; rail lines connect major cities of Douala, Yaounde, Ngaoundere, and Garoua; passenger and freight service provided by CAMRAIL",
           "subfields": [
             {
               "name": "total",
@@ -2778,7 +3117,7 @@
               "subfield_note": "1.000-m gauge"
             }
           ],
-          "field_note": "<p><strong>note:</strong> railway connections generally efficient but limited; rail lines connect major cities of Douala, Yaounde, Ngaoundere, and Garoua; passenger and freight service provided by CAMRAIL</p>"
+          "field_note": "<strong>note:</strong> railway connections generally efficient but limited; rail lines connect major cities of Douala, Yaounde, Ngaoundere, and Garoua; passenger and freight service provided by CAMRAIL"
         },
         {
           "name": "Roadways",
@@ -2850,7 +3189,7 @@
           "name": "Ports and terminals",
           "field_id": 388,
           "comparative": false,
-          "content": "<strong>oil terminal(s): </strong>Limboh Terminal<br><br><strong>river port(s): </strong>Douala (Wouri)",
+          "content": "<strong>oil terminal(s): </strong>Limboh Terminal<br><br><strong>river port(s): </strong>Douala (Wouri)<br><br>Garoua (Benoue)",
           "subfields": [
             {
               "name": "oil terminal(s)",
@@ -2865,7 +3204,7 @@
               "title": "river port(s)"
             }
           ],
-          "field_note": "<br><br>Garoua (Benoue)"
+          "field_note": "Garoua (Benoue)"
         }
       ]
     },
@@ -2877,8 +3216,9 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Cameroon Armed Forces (Forces Armees Camerounaises, FAC): Army (L'Armee de Terre), Navy (Marine Nationale Republique, MNR, includes naval infantry), Air Force (Armee de l'Air du Cameroun, AAC), Gendarmerie, Presidential Guard (2019)",
-          "info_date": "2019"
+          "content": "Cameroon Armed Forces (Forces Armees Camerounaises, FAC): Army (L'Armee de Terre), Navy (Marine Nationale Republique, MNR, includes naval infantry), Air Force (Armee de l'Air du Cameroun, AAC), Rapid Intervention Battalion (Bataillons d&rsquo;Intervention Rapide, BIR), Gendarmerie, Presidential Guard (2020)<br><br>note - the Rapid Intervention Battalion, a brigade-sized force comprised of several high-readiness land units, maintains its own command and control structure and reports directly to President BIYA, rather than the Defense Minister",
+          "info_date": "2020",
+          "field_note": "note - the Rapid Intervention Battalion, a brigade-sized force comprised of several high-readiness land units, maintains its own command and control structure and reports directly to President BIYA, rather than the Defense Minister"
         },
         {
           "name": "Military expenditures",
@@ -2927,29 +3267,36 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "size assessments for the Cameroon Armed Forces (FAC) vary widely; approximately 40,000 active duty troops; (25,000 Army, including the Presidential Guard; 2,000 Navy; 1,000 Air Force; 12,000 Gendarmerie) (2019 est.)",
-          "info_date": "2019 est."
+          "content": "size assessments for the Cameroon Armed Forces (FAC) vary widely; approximately 45,000 active duty troops; (30,000 ground forces, including the BIR and Presidential Guard; 2,000 Navy; 1,000 Air Force; 12,000 Gendarmerie) (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the FAC inventory includes a mix of mostly older or second-hand Chinese, Russian, and Western equipment, with a limited quantity of more modern weapons; since 2010, the top suppliers to the FAC are China, Russia, Spain, and the US (2019)",
-          "info_date": "2019"
+          "content": "the FAC inventory includes a mix of mostly older or second-hand Chinese, Russian, and Western equipment, with a limited quantity of more modern weapons; since 2010, China is the leading supplier of armaments to the FAC (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "750 Central African Republic (MINUSCA); MNJTF (approximately 2,000-2,500 troops committed; note - the national MNJTF troop contingents are deployed within their own country territories, although cross‐border operations occur occasionally) (2020)",
-          "info_date": "2020"
+          "content": "750 Central African Republic (MINUSCA) (Jan 2021)<br><br>note: Cameroon has committed approximately 2,000-2,500 troops to the Multinational Joint Task Force (MNJTF) against Boko Haram; national MNJTF troop contingents are deployed within their own country territories, although cross‐border operations occur occasionally",
+          "info_date": "Jan 2021",
+          "field_note": "note: Cameroon has committed approximately 2,000-2,500 troops to the Multinational Joint Task Force (MNJTF) against Boko Haram; national MNJTF troop contingents are deployed within their own country territories, although cross‐border operations occur occasionally"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18-23 years of age for male and female voluntary military service; no conscription; high school graduation required; service obligation 4 years; periodic government calls for volunteers (2012)",
-          "info_date": "2012"
+          "content": "18-23 years of age for male and female voluntary military service; no conscription; high school graduation required; service obligation 4 years; periodic government calls for volunteers (2019)",
+          "info_date": "2019"
+        },
+        {
+          "name": "Maritime threats",
+          "field_id": 334,
+          "comparative": false,
+          "content": "tthe International Maritime Bureau reports the territorial and offshore waters in the Niger Delta and Gulf of Guinea remain a very high risk for piracy and armed robbery of ships; in 2020, there were 98 reported incidents of piracy and armed robbery at sea in the Gulf of Guinea region; although a 24% decrease from the total number of incidents in 2019, it included all three hijackings and 9 of 11 ships fired upon worldwide; while boarding and attempted boarding to steal valuables from ships and crews are the most common types of incidents, almost a third of all incidents involve a hijacking and/or kidnapping; in 2020, a record 130 crew members were kidnapped in 22 separate incidents in the Gulf of Guinea, representing 95% of kidnappings worldwide; approximately 51% of all incidents of piracy and armed robbery are taking place off Nigeria, which is a decrease from the 71% in 2019 and an indication pirates are traveling further to target vessels; Nigerian pirates are well armed and very aggressive, operating as far as 200 nm offshore; the Maritime Administration of the US Department of Transportation has issued a Maritime Advisory (2021-002 - Gulf of Guinea-Piracy/Armed Robbery/Kidnapping for Ransom) effective 9 January 2021, which states in part, \"Piracy, armed robbery, and kidnapping for ransom continue to serve as significant threats to US-flagged vessels transiting or operating in the Gulf of Guinea.&rdquo;"
         },
         {
           "name": "Military - note",
@@ -2968,9 +3315,9 @@
           "name": "Terrorist group(s)",
           "field_id": 413,
           "comparative": false,
-          "content": "Boko Haram; Islamic State of Iraq and ash-Sham &ndash; West Africa (2020)",
+          "content": "Boko Haram; Islamic State of Iraq and ash-Sham &ndash; West Africa (2020)<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../appendix/appendix-t.html\">Appendix-T</a>",
           "info_date": "2020",
-          "field_note": "<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../appendix/appendix-t.html\">Appendix-T</a>"
+          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../appendix/appendix-t.html\">Appendix-T</a>"
         }
       ]
     },
@@ -2988,18 +3335,18 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>316,017 (Central African Republic), 117,826 (Nigeria) (2021)<br><br><strong>IDPs: </strong>1,032,942 (2020) (includes far north, northwest, and southwest)",
+          "content": "<strong>refugees (country of origin): </strong>321,603 (Central African Republic), 117,061 (Nigeria) (2021)<br><br><strong>IDPs: </strong>1,032,942 (2021) (includes far north, northwest, and southwest)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "316,017 (Central African Republic), 117,826 (Nigeria) (2021)",
-              "value": "316,017 (Central African Republic), 117,826 (Nigeria) (2021)",
+              "content": "321,603 (Central African Republic), 117,061 (Nigeria) (2021)",
+              "value": "321,603 (Central African Republic), 117,061 (Nigeria) (2021)",
               "title": "refugees (country of origin)"
             },
             {
               "name": "IDPs",
-              "content": "1,032,942 (2020) (includes far north, northwest, and southwest)",
-              "value": "1,032,942 (2020) (includes far north, northwest, and southwest)",
+              "content": "1,032,942 (2021) (includes far north, northwest, and southwest)",
+              "value": "1,032,942 (2021) (includes far north, northwest, and southwest)",
               "title": "IDPs"
             }
           ]

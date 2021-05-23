@@ -2,8 +2,8 @@
   "name": "Akrotiri",
   "code": "AX",
   "region": "Europe",
-  "published": "2021-02-24 12:11:24 -0500",
-  "updated": "2021-02-24 10:05:35 -0500",
+  "published": "2021-05-05 12:24:07 -0400",
+  "updated": "2021-04-30 15:32:37 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/AX-map.jpg"
+      "src": "/attachments/maps/AX-map.jpg",
+      "caption": "Akrotiri map showing the UK Sovereign Base Area as well as the adjacent part of south Cyprus."
     },
     {
       "type": "locator-map",
@@ -20,32 +21,22 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/AX_003_large.jpg?1528322970",
+      "src": "/attachments/images/original/AX_003_large.jpg",
       "category": "Space",
       "alt": "The Sovereign Base Area of Akrotiri juts into the Mediterranean Sea in this astronaut photo from 2003. The salt lake appears green in this image; the gray area further north is the Cypriot city of Limassol. Image courtesy of NASA.",
       "caption": "The Sovereign Base Area of Akrotiri juts into the Mediterranean Sea in this astronaut photo from 2003. The salt lake appears green in this image; the gray area further north is the Cypriot city of Limassol. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 423.0,
-        "width": 639.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 36742,
+      "dimensions": "639x423",
+      "file_size": 34418,
       "position": 0
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/AX_002_large.jpg?1528322970",
+      "src": "/attachments/images/original/AX_002_large.jpg",
       "category": "Space",
       "alt": "The salt lake on Akrotiri takes on a cloudy greenish-tan hue in this close-up view of the peninsula. The airfield appears prominently in the lower center. Image courtesy of NASA.",
       "caption": "The salt lake on Akrotiri takes on a cloudy greenish-tan hue in this close-up view of the peninsula. The airfield appears prominently in the lower center. Image courtesy of NASA.",
-      "dimensions": {
-        "height": 426.0,
-        "width": 640.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 36006,
+      "dimensions": "640x426",
+      "file_size": 33576,
       "position": 1
     }
   ],
@@ -88,7 +79,7 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>123 sq km",
+          "content": "<strong>total: </strong>123 sq km<br><br><strong>note:</strong> includes a salt lake and wetlands",
           "subfields": [
             {
               "name": "total",
@@ -98,7 +89,7 @@
               "suffix": "sq km"
             }
           ],
-          "field_note": "<p><strong>note:</strong> includes a salt lake and wetlands</p>"
+          "field_note": "<strong>note:</strong> includes a salt lake and wetlands"
         },
         {
           "name": "Area - comparative",
@@ -142,12 +133,6 @@
           "content": "temperate; Mediterranean with hot, dry summers and cool winters"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "hunting around the salt lake; note - breeding place for loggerhead and green turtles; only remaining colony of griffon vultures is on the base"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -181,6 +166,24 @@
           "content": "NA",
           "suffix": "%",
           "subfield_note": "NA"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "hunting around the salt lake; note - breeding place for loggerhead and green turtles; only remaining colony of griffon vultures is on the base"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "temperate; Mediterranean with hot, dry summers and cool winters"
         }
       ]
     },
@@ -224,7 +227,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Episkopi Cantonment (base administrative center for Akrotiri and Dhekelia)<br><br><strong>geographic coordinates: </strong>34 40 N, 32 51 E<br><br><strong>time difference: </strong>UTC+2 (7 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1hr, begins last Sunday in March; ends last Sunday in October",
+          "content": "<strong>name: </strong>Episkopi Cantonment (base administrative center for Akrotiri and Dhekelia)<br><br><strong>geographic coordinates: </strong>34 40 N, 32 51 E<br><br><strong>time difference: </strong>UTC+2 (7 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1hr, begins last Sunday in March; ends last Sunday in October<br><br><strong>etymology:</strong> \"Episkopi\" means \"episcopal\" in Greek and stems from the fact that the site previously served as the bishop's seat of an Orthodox diocese",
           "subfields": [
             {
               "name": "name",
@@ -251,7 +254,7 @@
               "title": "daylight saving time"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> \"Episkopi\" means \"episcopal\" in Greek and stems from the fact that the site previously served as the bishop's seat of an Orthodox diocese"
+          "field_note": "<strong>etymology:</strong> \"Episkopi\" means \"episcopal\" in Greek and stems from the fact that the site previously served as the bishop's seat of an Orthodox diocese"
         },
         {
           "name": "Constitution",
@@ -438,7 +441,7 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "defense is the responsibility of the UK; Akrotiri has a full RAF base, headquarters for British Forces Cyprus, and Episkopi Support Unit"
+          "content": "defense is the responsibility of the UK; Akrotiri (aka the Western Sovereign Base Area) has a full RAF base, headquarters for British Forces Cyprus, and the Episkopi Cantonment"
         }
       ]
     }

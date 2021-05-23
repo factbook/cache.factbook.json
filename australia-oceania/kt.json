@@ -2,8 +2,8 @@
   "name": "Christmas Island",
   "code": "KT",
   "region": "Australia - Oceania",
-  "published": "2021-02-24 12:17:15 -0500",
-  "updated": "2021-02-24 10:45:44 -0500",
+  "published": "2021-05-05 12:37:41 -0400",
+  "updated": "2021-04-30 15:32:38 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/KT-map.jpg"
+      "src": "/attachments/maps/KT-map.jpg",
+      "caption": "Christmas Island map showing the Australian territory in the Indian Ocean."
     },
     {
       "type": "locator-map",
@@ -157,19 +158,19 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>lowest point: </strong>Indian Ocean 0 m<br><br><strong>highest point: </strong>Murray Hill 361 m",
+          "content": "<strong>highest point: </strong>Murray Hill 361 m<br><br><strong>lowest point: </strong>Indian Ocean 0 m",
           "subfields": [
-            {
-              "name": "lowest point",
-              "content": "Indian Ocean 0 m",
-              "value": "Indian Ocean 0 m",
-              "title": "lowest point"
-            },
             {
               "name": "highest point",
               "content": "Murray Hill 361 m",
               "value": "Murray Hill 361 m",
               "title": "highest point"
+            },
+            {
+              "name": "lowest point",
+              "content": "Indian Ocean 0 m",
+              "value": "Indian Ocean 0 m",
+              "title": "lowest point"
             }
           ]
         },
@@ -226,12 +227,6 @@
           "content": "the narrow fringing reef surrounding the island can be a maritime hazard"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "loss of rainforest; impact of phosphate mining"
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -276,17 +271,17 @@
           "name": "Ethnic groups",
           "field_id": 400,
           "comparative": false,
-          "content": "Chinese 70%, European 20%, Malay 10% (2001)",
+          "content": "Chinese 70%, European 20%, Malay 10% (2001)<br><br><strong>note:</strong> no indigenous population",
           "info_date": "2001",
-          "field_note": "<p><strong>note:</strong> no indigenous population</p>"
+          "field_note": "<strong>note:</strong> no indigenous population"
         },
         {
           "name": "Languages",
           "field_id": 402,
           "comparative": false,
-          "content": "English (official) 27.6%, Mandarin 17.2%, Malay 17.1%, Cantonese 3.9%, Min Nan 1.6%, Tagalog 1%, other 4.5%, unspecified 27.1% (2016 est.)",
+          "content": "English (official) 27.6%, Mandarin 17.2%, Malay 17.1%, Cantonese 3.9%, Min Nan 1.6%, Tagalog 1%, other 4.5%, unspecified 27.1% (2016 est.)<br><br><strong>note:</strong> data represent language spoken at home",
           "info_date": "2016 est.",
-          "field_note": "<p><strong>note:</strong> data represent language spoken at home</p>"
+          "field_note": "<strong>note:</strong> data represent language spoken at home"
         },
         {
           "name": "Religions",
@@ -469,6 +464,50 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "loss of rainforest; impact of phosphate mining"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical with a wet season (December to April) and dry season; heat and humidity moderated by trade winds"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>0% (2018 est.)<br><br><strong>other: </strong>100% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "0% (2018 est.)",
+              "title": "agricultural land",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "100% (2018 est.)",
+              "title": "other",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -514,7 +553,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>The Settlement (Flying Fish Cove)<br><br><strong>geographic coordinates: </strong>10 25 S, 105 43 E<br><br><strong>time difference: </strong>UTC+7 (12 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>The Settlement (Flying Fish Cove)<br><br><strong>geographic coordinates: </strong>10 25 S, 105 43 E<br><br><strong>time difference: </strong>UTC+7 (12 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> self-descriptive name for the main locus of population",
           "subfields": [
             {
               "name": "name",
@@ -535,7 +574,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> self-descriptive name for the main locus of population"
+          "field_note": "<strong>etymology:</strong> self-descriptive name for the main locus of population"
         },
         {
           "name": "Administrative divisions",
@@ -559,7 +598,7 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>1 October 1958 (Christmas Island Act 1958)<br><br><strong>amendments: </strong>amended many times, last in 2016",
+          "content": "<strong>history: </strong>1 October 1958 (Christmas Island Act 1958)<br><br><strong>amendments: </strong>amended many times, last in 2020",
           "subfields": [
             {
               "name": "history",
@@ -569,8 +608,8 @@
             },
             {
               "name": "amendments",
-              "content": "amended many times, last in 2016",
-              "value": "amended many times, last in 2016",
+              "content": "amended many times, last in 2020",
+              "value": "amended many times, last in 2020",
               "title": "amendments"
             }
           ]
@@ -693,8 +732,8 @@
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
-          "content": "territorial flag; divided diagonally from upper hoist to lower fly; the upper triangle is green with a yellow image of the Golden Bosun Bird superimposed; the lower triangle is blue with the Southern Cross constellation, representing Australia, superimposed; a centered yellow disk displays a green map of the island",
-          "field_note": "<p><strong>note:</strong> the flag of Australia is used for official purposes</p>"
+          "content": "territorial flag; divided diagonally from upper hoist to lower fly; the upper triangle is green with a yellow image of the Golden Bosun Bird superimposed; the lower triangle is blue with the Southern Cross constellation, representing Australia, superimposed; a centered yellow disk displays a green map of the island<br><br><strong>note:</strong> the flag of Australia is used for official purposes",
+          "field_note": "<strong>note:</strong> the flag of Australia is used for official purposes"
         },
         {
           "name": "National symbol(s)",
@@ -775,10 +814,18 @@
           "content": "<p>NA</p>"
         },
         {
+          "name": "Exports - partners",
+          "field_id": 241,
+          "comparative": false,
+          "content": "Malaysia 36%, New Zealand 21%, Indonesia 20%, Australia 10% (2019)",
+          "info_date": "2019"
+        },
+        {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "phosphate"
+          "content": "calcium phosphates, fertilizers, valves, air pumps, industrial printers (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -786,10 +833,18 @@
           "content": "<p>NA</p>"
         },
         {
+          "name": "Imports - partners",
+          "field_id": 403,
+          "comparative": false,
+          "content": "Australia 80%, United States 7%, Canada 5% (2019)",
+          "info_date": "2019"
+        },
+        {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "consumer goods"
+          "content": "refined petroleum, cars, iron structures, aircraft, crustaceans (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exchange rates",
@@ -951,7 +1006,7 @@
           "name": "Railways",
           "field_id": 384,
           "comparative": true,
-          "content": "<strong>total: </strong>18 km (2017)<br><br><strong>standard gauge: </strong>18 km 1.435-m (not in operation) (2017)",
+          "content": "<strong>total: </strong>18 km (2017)<br><br><strong>standard gauge: </strong>18 km 1.435-m (not in operation) (2017)<br><br><strong>note:</strong> the 18-km Christmas Island Phosphate Company Railway between Flying Fish Cove and South Point was decommissioned in 1987; some tracks and scrap remain in place",
           "subfields": [
             {
               "name": "total",
@@ -973,7 +1028,7 @@
               "subfield_note": "1.435-m (not in operation)"
             }
           ],
-          "field_note": "<p><strong>note:</strong> the 18-km Christmas Island Phosphate Company Railway between Flying Fish Cove and South Point was decommissioned in 1987; some tracks and scrap remain in place</p>"
+          "field_note": "<strong>note:</strong> the 18-km Christmas Island Phosphate Company Railway between Flying Fish Cove and South Point was decommissioned in 1987; some tracks and scrap remain in place"
         },
         {
           "name": "Roadways",

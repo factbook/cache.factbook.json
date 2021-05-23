@@ -2,8 +2,8 @@
   "name": "Central African Republic",
   "code": "CT",
   "region": "Africa",
-  "published": "2021-02-24 12:16:43 -0500",
-  "updated": "2021-02-24 10:42:05 -0500",
+  "published": "2021-05-05 12:28:30 -0400",
+  "updated": "2021-04-30 15:32:38 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/CT-map.jpg"
+      "src": "/attachments/maps/CT-map.jpg",
+      "caption": "Central African Republic map showing major cities as well as parts of surrounding countries."
     },
     {
       "type": "locator-map",
@@ -28,16 +29,11 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/Central_Afr_Rep_wave_clouds.jpg?1612961174",
+      "src": "/attachments/images/original/Central_Afr_Rep_wave_clouds.jpg",
       "category": "Space",
       "alt": "The image shows wave clouds rippling over a fire-speckled Central African Republic landscape. Wave clouds typically form when a mountain, island, or even another mass of air forces an air mass to rise, then fall again, in a wave pattern. The air cools as it rises, and if there is moisture in the air, the water condenses into clouds at the top of the wave. As the air begins to sink, the air warms and the cloud dissipates. The result is a line of clouds marking the crests of the wave separated by clear areas in the troughs of the wave. Each red “hotspot” marks an area of actively burning fires deliberately set to manage the land. Image courtesy of NASA/ Jeff Schmaltz.",
       "caption": "The image shows wave clouds rippling over a fire-speckled Central African Republic landscape. Wave clouds typically form when a mountain, island, or even another mass of air forces an air mass to rise, then fall again, in a wave pattern. The air cools as it rises, and if there is moisture in the air, the water condenses into clouds at the top of the wave. As the air begins to sink, the air warms and the cloud dissipates. The result is a line of clouds marking the crests of the wave separated by clear areas in the troughs of the wave. Each red “hotspot” marks an area of actively burning fires deliberately set to manage the land. Image courtesy of NASA/ Jeff Schmaltz.",
-      "dimensions": {
-        "height": 750.0,
-        "width": 1000.0,
-        "modifier": null,
-        "orientation": 0
-      },
+      "dimensions": "1000x750",
       "file_size": 62636,
       "position": 0
     }
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/CT_area.jpg?1562684551",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/CT_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>slightly smaller than Texas; about four times the size of Georgia</p>",
+              "position": 0
             }
           ]
         },
@@ -170,14 +168,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>635 m<br><br><strong>lowest point: </strong>Oubangui River 335 m<br><br><strong>highest point: </strong>Mont Ngaoui 1,410 m",
+          "content": "<strong>highest point: </strong>Mont Ngaoui 1,410 m<br><br><strong>lowest point: </strong>Oubangui River 335 m<br><br><strong>mean elevation: </strong>635 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "635 m",
-              "title": "mean elevation",
-              "value": "635",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Mont Ngaoui 1,410 m",
+              "value": "Mont Ngaoui 1,410 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -186,10 +183,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Mont Ngaoui 1,410 m",
-              "value": "Mont Ngaoui 1,410 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "635 m",
+              "title": "mean elevation",
+              "value": "635",
+              "suffix": "m"
             }
           ]
         },
@@ -281,32 +279,6 @@
           "content": "hot, dry, dusty harmattan winds affect northern areas; floods are common"
         },
         {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "water pollution; tap water is not potable; poaching and mismanagement have diminished the country's reputation as one of the last great wildlife refuges; desertification; deforestation; soil erosion"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Tropical Timber 94, Wetlands<br><br><strong>signed, but not ratified: </strong>Law of the Sea",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Tropical Timber 94, Wetlands",
-              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Hazardous Wastes, Ozone Layer Protection, Tropical Timber 94, Wetlands",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "Law of the Sea",
-              "value": "Law of the Sea",
-              "title": "signed, but not ratified"
-            }
-          ]
-        },
-        {
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
@@ -322,11 +294,11 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "5,357,984 (July 2021 est.)",
+          "content": "5,357,984 (July 2021 est.)<br><br><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected",
           "value": "5,357,984",
           "estimated": true,
           "info_date": "July 2021",
-          "field_note": "<p><strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected</p>"
+          "field_note": "<strong>note:</strong> estimates for this country explicitly take into account the effects of excess mortality due to AIDS; this can result in lower life expectancy, higher infant mortality, higher death rates, lower population growth rates, and changes in the distribution of population by age and sex than would otherwise be expected"
         },
         {
           "name": "Nationality",
@@ -364,9 +336,9 @@
           "name": "Religions",
           "field_id": 401,
           "comparative": false,
-          "content": "Christian 89.5%, Muslim 8.5%, folk 1%, unaffiliated 1% (2010 est.)",
+          "content": "Christian 89.5%, Muslim 8.5%, folk 1%, unaffiliated 1% (2010 est.)<br><br><strong>note:</strong> animistic beliefs and practices strongly influence the Christian majority",
           "info_date": "2010 est.",
-          "field_note": "<p><strong>note:</strong> animistic beliefs and practices strongly influence the Christian majority</p>"
+          "field_note": "<strong>note:</strong> animistic beliefs and practices strongly influence the Christian majority"
         },
         {
           "name": "Demographic profile",
@@ -426,9 +398,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/CT_popgraph2021.pdf?1613493067",
-              "alt": "Central African Republic population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/CT_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Central African Republic. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -547,30 +521,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>42.2% of total population (2020)<br><br><strong>rate of urbanization: </strong>2.52% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>42.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.32% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "42.2% of total population (2020)",
+              "content": "42.6% of total population (2021)",
               "title": "urban population",
-              "value": "42.2",
+              "value": "42.6",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "2.52% annual rate of change (2015-20 est.)",
+              "content": "3.32% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "2.52",
+              "value": "3.32",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_CT.pdf?1602787822",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_CT.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -950,10 +926,10 @@
           "name": "Children under the age of 5 years underweight",
           "field_id": 368,
           "comparative": true,
-          "content": "20.8% (2018)",
-          "value": "20.8",
+          "content": "20.5% (2019)",
+          "value": "20.5",
           "estimated": false,
-          "info_date": "2018",
+          "info_date": "2019",
           "suffix": "%"
         },
         {
@@ -1037,6 +1013,332 @@
       ]
     },
     {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "water pollution; tap water is not potable; poaching and mismanagement have diminished the country's reputation as one of the last great wildlife refuges; desertification; deforestation; soil erosion"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Nuclear Test Ban, Ozone Layer Protection, Tropical Timber 2006, Wetlands<br><br><strong>signed, but not ratified: </strong>Law of the Sea",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Nuclear Test Ban, Ozone Layer Protection, Tropical Timber 2006, Wetlands",
+              "value": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Nuclear Test Ban, Ozone Layer Protection, Tropical Timber 2006, Wetlands",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "Law of the Sea",
+              "value": "Law of the Sea",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>49.5 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>0.3 megatons (2016 est.)<br><br><strong>methane emissions: </strong>22.44 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "49.5 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "49.5",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "0.3 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "0.3",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "22.44 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "22.44",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>60.1 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>12 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>400,000 cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "60.1 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "60,100,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "12 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "12,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "400,000 cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "141 billion cubic meters (2017 est.)",
+          "value": "141,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "tropical; hot, dry winters; mild to hot, wet summers"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>8.1% (2018 est.)<br><br>arable land: 2.9% (2018 est.)<br><br>permanent crops: 0.1% (2018 est.)<br><br>permanent pasture: 5.1% (2018 est.)<br><br><strong>forest: </strong>36.2% (2018 est.)<br><br><strong>other: </strong>55.7% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "8.1% (2018 est.)",
+              "title": "agricultural land",
+              "value": "8.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 2.9% (2018 est.)",
+              "value": "2.9",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 0.1% (2018 est.)",
+              "value": "0.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 5.1% (2018 est.)",
+              "value": "5.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "36.2% (2018 est.)",
+              "title": "forest",
+              "value": "36.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "55.7% (2018 est.)",
+              "title": "other",
+              "value": "55.7",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>8.99% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "8.99% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "8.99",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>42.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.32% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "42.6% of total population (2021)",
+              "title": "urban population",
+              "value": "42.6",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "3.32% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "3.32",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_CT.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>very high (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever<br><br><strong>vectorborne diseases: </strong>malaria and dengue fever<br><br><strong>water contact diseases: </strong>schistosomiasis<br><br><strong>animal contact diseases: </strong>rabies<br><br><strong>respiratory diseases: </strong>meningococcal meningitis",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "very high (2020)",
+              "value": "very high",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever",
+              "value": "bacterial and protozoal diarrhea, hepatitis A and E, and typhoid fever",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "malaria and dengue fever",
+              "value": "malaria and dengue fever",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "water contact diseases",
+              "content": "schistosomiasis",
+              "value": "schistosomiasis",
+              "title": "water contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "animal contact diseases",
+              "content": "rabies",
+              "value": "rabies",
+              "title": "animal contact diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "respiratory diseases",
+              "content": "meningococcal meningitis",
+              "value": "meningococcal meningitis",
+              "title": "respiratory diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Food insecurity",
+          "field_id": 418,
+          "comparative": false,
+          "content": "<strong>exceptional shortfall in aggregate food production/supplies: </strong>due to conflict and population displacements - the 2020 aggregate crop production was forecast slightly below the average of the last five years, due to the impacts of floods and persistent insecurity, coupled with the effects of the COVID‑19 pandemic; according to Food and Agriculture Organization analysis, the number of severely food insecure people was estimated at 1.9 million in the September 2020-April 2021 period, a 20% increase over the previous year; the escalation is due to persistent fighting and the upsurge of violence between armed groups that has contributed to the high level of food prices and resulted in widespread population displacements (2021)",
+          "subfields": [
+            {
+              "name": "exceptional shortfall in aggregate food production/supplies",
+              "content": "due to conflict and population displacements - the 2020 aggregate crop production was forecast slightly below the average of the last five years, due to the impacts of floods and persistent insecurity, coupled with the effects of the COVID‑19 pandemic; according to Food and Agriculture Organization analysis, the number of severely food insecure people was estimated at 1.9 million in the September 2020-April 2021 period, a 20% increase over the previous year; the escalation is due to persistent fighting and the upsurge of violence between armed groups that has contributed to the high level of food prices and resulted in widespread population displacements (2021)",
+              "value": "due to conflict and population displacements - the 2020 aggregate crop production was forecast slightly below the average of the last five years, due to the impacts of floods and persistent insecurity, coupled with the effects of the COVID‑19 pandemic; according to Food and Agriculture Organization analysis, the number of severely food insecure people was estimated at 1.9 million in the September 2020-April 2021 period, a 20% increase over the previous year; the escalation is due to persistent fighting and the upsurge of violence between armed groups that has contributed to the high level of food prices and resulted in widespread population displacements",
+              "title": "exceptional shortfall in aggregate food production/supplies",
+              "info_date": "(2021)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>1,105,983 tons (2014 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "1,105,983 tons (2014 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "1,105,983",
+              "estimated": true,
+              "info_date": "2014",
+              "suffix": "tons"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "government",
       "title": "Government",
       "fields": [
@@ -1100,7 +1402,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Bangui<br><br><strong>geographic coordinates: </strong>4 22 N, 18 35 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)",
+          "content": "<strong>name: </strong>Bangui<br><br><strong>geographic coordinates: </strong>4 22 N, 18 35 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)<br><br><strong>etymology:</strong> established as a French settlement in 1889 and named after its location on the northern bank of the Ubangi River; the Ubangi itself was named from the native word for the \"rapids\" located beside the outpost, which marked the end of navigable water north from from Brazzaville",
           "subfields": [
             {
               "name": "name",
@@ -1121,7 +1423,7 @@
               "title": "time difference"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> established as a French settlement in 1889 and named after its location on the northern bank of the Ubangi River; the Ubangi itself was named from the native word for the \"rapids\" located beside the outpost, which marked the end of navigable water north from from Brazzaville"
+          "field_note": "<strong>etymology:</strong> established as a French settlement in 1889 and named after its location on the northern bank of the Ubangi River; the Ubangi itself was named from the native word for the \"rapids\" located beside the outpost, which marked the end of navigable water north from from Brazzaville"
         },
         {
           "name": "Administrative divisions",
@@ -1215,7 +1517,7 @@
           "name": "Executive branch",
           "field_id": 312,
           "comparative": false,
-          "content": "<strong>chief of state: </strong>President Faustin-Archange TOUADERA (since 30 March 2016; reelected 27 December 2020)<br><br><strong>head of government: </strong>Prime Minister Firmin NGREBADA (since 25 February 2019)<br><br><strong>cabinet: </strong>Council of Ministers appointed by the president<br><br><strong>elections/appointments: </strong>under the 2015 constitution, the president is elected by universal direct suffrage for a period of 5 years (eligible for a second term); election last held 27 December 2020 (next to be held in December 2025)<br><br><strong>election results: </strong>Faustin-Archange TOUADERA reelected president in first round; percent of vote - Faustin-Archange TOUADERA (independent) 59.3%, Anicet Georges DOLOGUELE (URCA) 21%, other 19.7%",
+          "content": "<strong>chief of state: </strong>President Faustin-Archange TOUADERA (since 30 March 2016; reelected 27 December 2020)<br><br><strong>head of government: </strong>Prime Minister Firmin NGREBADA (since 25 February 2019)<br><br><strong>cabinet: </strong>Council of Ministers appointed by the president<br><br><strong>elections/appointments: </strong>under the 2015 constitution, the president is elected by universal direct suffrage for a period of 5 years (eligible for a second term); election last held 27 December 2020 (next to be held in December 2025)<br><br><strong>election results: </strong>Faustin-Archange TOUADERA reelected president in first round; percent of vote - Faustin-Archange TOUADERA (independent) 59.3%, Anicet Georges DOLOGUELE (URCA) 21%, other 19.7%<br><br><strong>note:</strong> rebel forces seized the capital in March 2013, forcing former President BOZIZE to flee the country; Interim President Michel DJOTODIA assumed the presidency, reinstated the prime minister, and established a National Transitional Council (CNT) in April 2013; the NTC elected Catherine SAMBA-PANZA interim president in January 2014 to serve until February 2015, when new elections were to be held; her term was extended because instability delayed new elections and the transition did not take place until the end of March 2016",
           "subfields": [
             {
               "name": "chief of state",
@@ -1248,7 +1550,7 @@
               "title": "election results"
             }
           ],
-          "field_note": "<p><strong>note:</strong> rebel forces seized the capital in March 2013, forcing former President BOZIZE to flee the country; Interim President Michel DJOTODIA assumed the presidency, reinstated the prime minister, and established a National Transitional Council (CNT) in April 2013; the NTC elected Catherine SAMBA-PANZA interim president in January 2014 to serve until February 2015, when new elections were to be held; her term was extended because instability delayed new elections and the transition did not take place until the end of March 2016</p>"
+          "field_note": "<strong>note:</strong> rebel forces seized the capital in March 2013, forcing former President BOZIZE to flee the country; Interim President Michel DJOTODIA assumed the presidency, reinstated the prime minister, and established a National Transitional Council (CNT) in April 2013; the NTC elected Catherine SAMBA-PANZA interim president in January 2014 to serve until February 2015, when new elections were to be held; her term was extended because instability delayed new elections and the transition did not take place until the end of March 2016"
         },
         {
           "name": "Legislative branch",
@@ -1400,7 +1702,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Le Renaissance\" (The Renaissance)<br><br><strong>lyrics/music: </strong>Barthelemy BOGANDA/Herbert PEPPER",
+          "content": "<strong>name: </strong>\"Le Renaissance\" (The Renaissance)<br><br><strong>lyrics/music: </strong>Barthelemy BOGANDA/Herbert PEPPER<br><br><strong>note:</strong> adopted 1960; Barthelemy BOGANDA wrote the anthem's lyrics and was the first prime minister of the autonomous French territory",
           "subfields": [
             {
               "name": "name",
@@ -1415,12 +1717,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 1960; Barthelemy BOGANDA wrote the anthem's lyrics and was the first prime minister of the autonomous French territory</p>",
+          "field_note": "<strong>note:</strong> adopted 1960; Barthelemy BOGANDA wrote the anthem's lyrics and was the first prime minister of the autonomous French territory",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/CT.mp3?1538604751",
-              "alt": "National Anthem audio file for Central African Republic"
+              "src": "/attachments/audios/original/CT.mp3",
+              "alt": "National Anthem audio file for Central African Republic",
+              "caption": "This is an audio of the National Anthem for Central African Republic. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1498,7 +1802,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$4.483 billion (2019 est.)<br><br>$4.354 billion (2018 est.)<br><br>$4.195 billion (2017 est.)",
+          "content": "$4.483 billion (2019 est.)<br><br>$4.354 billion (2018 est.)<br><br>$4.195 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1522,7 +1826,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1538,7 +1842,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$945 (2019 est.)<br><br>$933 (2018 est.)<br><br>$913 (2017 est.)",
+          "content": "$945 (2019 est.)<br><br>$933 (2018 est.)<br><br>$913 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1562,7 +1866,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1694,13 +1998,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "35.6 (2020)",
+          "content": "<strong>Overall score: </strong>35.6 (2020)<br><br><strong>Starting a Business score: </strong>63.2 (2020)<br><br><strong>Trading score: </strong>52.4 (2020)<br><br><strong>Enforcement score: </strong>31.4 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
               "content": "35.6 (2020)",
+              "title": "Overall score",
               "value": "35.6",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
+              "content": "63.2 (2020)",
+              "title": "Starting a Business score",
+              "value": "63.2",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "52.4 (2020)",
+              "title": "Trading score",
+              "value": "52.4",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "31.4 (2020)",
+              "title": "Enforcement score",
+              "value": "31.4",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1925,14 +2255,15 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "France 31.2%, Burundi 16.2%, China 12.5%, Cameroon 9.6%, Austria 7.8% (2017)",
-          "info_date": "2017"
+          "content": "China 41%, United Arab Emirates 19%, France 7% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "diamonds, timber, cotton, coffee"
+          "content": "lumber, gold, diamonds, sea vessels, cocoa paste (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports",
@@ -1960,14 +2291,15 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "France 17.1%, US 12.3%, India 11.5%, China 8.2%, South Africa 7.4%, Japan 5.8%, Italy 5.1%, Cameroon 4.9%, Netherlands 4.6% (2017)",
-          "info_date": "2017"
+          "content": "India 18%, France 12%, United States 11%, China 9%, Netherlands 7%, Belgium 7%, Malta 6% (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "food, textiles, petroleum products, machinery, electrical equipment, motor vehicles, chemicals, pharmaceuticals"
+          "content": "refined petroleum, packaged medicines, natural gas, broadcasting equipment, second-hand clothing (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2316,16 +2648,6 @@
           "estimated": true,
           "info_date": "1 January 2014",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "413,800 Mt (2017 est.)",
-          "value": "413,800",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2382,7 +2704,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>network consists principally of microwave radio relay and at low-capacity; ongoing conflict has&nbsp;obstructed&nbsp;telecommunication and media development,&nbsp;although there are&nbsp;ISP (Internet service providers) and mobile phone carriers,&nbsp;radio is the most-popular communications medium (2018)<br><br><strong>domestic: </strong>very limited telephone service with less than 1 fixed-line connection per 100 persons; with the presence of multiple providers mobile-cellular service has reached 33 per 100 mobile-cellular subscribers; cellular usage is increasing from a low base; most fixed-line and mobile-cellular telephone services are concentrated in Bangui (2019)<br><br><strong>international: </strong>country code - 236; satellite earth station - 1 Intelsat (Atlantic Ocean)",
+          "content": "<strong>general assessment: </strong>network consists principally of microwave radio relay and at low-capacity; ongoing conflict has&nbsp;obstructed&nbsp;telecommunication and media development,&nbsp;although there are&nbsp;ISP (Internet service providers) and mobile phone carriers,&nbsp;radio is the most-popular communications medium (2018)<br><br><strong>domestic: </strong>very limited telephone service with less than 1 fixed-line connection per 100 persons; with the presence of multiple providers mobile-cellular service has reached 33 per 100 mobile-cellular subscribers; cellular usage is increasing from a low base; most fixed-line and mobile-cellular telephone services are concentrated in Bangui (2019)<br><br><strong>international: </strong>country code - 236; satellite earth station - 1 Intelsat (Atlantic Ocean)<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2406,7 +2728,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2516,8 +2838,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "TL (2016)",
-          "info_date": "2016"
+          "content": "TL"
         },
         {
           "name": "Airports",
@@ -2655,7 +2976,7 @@
           "name": "Ports and terminals",
           "field_id": 388,
           "comparative": false,
-          "content": "<strong>river port(s): </strong>Bangui (Oubangui)",
+          "content": "<strong>river port(s): </strong>Bangui (Oubangui)<br><br>Nola (Sangha)",
           "subfields": [
             {
               "name": "river port(s)",
@@ -2664,7 +2985,7 @@
               "title": "river port(s)"
             }
           ],
-          "field_note": "<br><br>Nola (Sangha)"
+          "field_note": "Nola (Sangha)"
         }
       ]
     },
@@ -2676,8 +2997,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Central African Armed Forces (Forces Armees Centrafricaines, FACA): Ground Forces (includes Military Air Service), General Directorate of Gendarmerie Inspection (DGIG); National Police (2019)",
-          "info_date": "2019"
+          "content": "Central African Armed Forces (Forces Armees Centrafricaines, FACA): Army (includes an air squadron, Escadrille Centrafricaine), General Directorate of Gendarmerie Inspection (DGIG); National Police (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military expenditures",
@@ -2726,16 +3047,16 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Central African Armed Forces (FACA) have an estimated 8,000 Army troops (including an Air Service component of about 150) and about 1,500 Gendarmerie (2019)",
-          "info_date": "2019"
+          "content": "size estimates for the FACA vary; approximately 8-10,000 troops (includes a small air component of 100-200) and up to 2,000 Gendarmerie (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the FACA is armed mostly with second-hand equipment from China, Russia, and Ukraine (2020)",
+          "content": "the FACA is lightly and poorly armed with mostly outdated weapons; since 2010, it has received small amounts of second-hand equipment from China, Russia, and Ukraine (2020)<br><br>note: since 2013, CAR has been under a UNSC arms embargo; the embargo bans all supplies of arms and related materiel to the country except to the CAR security forces if approved in advance by the relevant UN Sanctions Committee",
           "info_date": "2020",
-          "field_note": "<br><br>note: since 2013, CAR has been under a UNSC arms embargo; the embargo bans all supplies of arms and related materiel to the country except to the CAR security forces if approved in advance by the relevant UN Sanctions Committee"
+          "field_note": "note: since 2013, CAR has been under a UNSC arms embargo; the embargo bans all supplies of arms and related materiel to the country except to the CAR security forces if approved in advance by the relevant UN Sanctions Committee"
         },
         {
           "name": "Military service age and obligation",
@@ -2748,8 +3069,7 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the FACA is currently assessed as unable to provide adequate internal security for the country; the military was dissolved following the 2013 rebel seizure of the government and has struggled to rebuild in the years of instability since; France, Russia, the UN, and the European Union are providing various levels of security assistance <br /><br />the UN Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA) has operated in the country since 2014; its peacekeeping mission includes providing security, protecting civilians, facilitating humanitarian assistance, disarming and demobilizing armed groups, and supporting the country&rsquo;s fragile transitional government; in November 2019, the UN Security Council extended the mandate of the MINUSCA peacekeeping mission another year; as of March 2020, MINUSCA had approximately 13,200 total personnel, including about 10,700 troops and 2,000 police<br /><br />the European Union Training Mission in the Central African Republic (EUTM-RCA) has operated in the country since 2016; the EUTM-RCA contributes to the restructuring of the country's military and defense sector through advice, training, and educational programs (2020)",
-          "info_date": "2020"
+          "content": "the FACA is currently assessed as unable to provide adequate internal security for the country; the military was dissolved following the 2013 rebel seizure of the government and has struggled to rebuild in the years of instability since; France, Russia, the UN, and the European Union are providing various levels of security assistance <br /><br />the UN Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA) has operated in the country since 2014; its peacekeeping mission includes providing security, protecting civilians, facilitating humanitarian assistance, disarming and demobilizing armed groups, and supporting the country&rsquo;s fragile transitional government; in November 2019, the UN Security Council extended the mandate of the MINUSCA peacekeeping mission another year; as of January 2021, MINUSCA had nearly 15,000 total personnel, including about 11,000 troops and 2,000 police<br /><br />the European Union Training Mission in the Central African Republic (EUTM-RCA) has operated in the country since 2016; the EUTM-RCA contributes to the restructuring of the country's military and defense sector through advice, training, and educational programs"
         }
       ]
     },
@@ -2767,18 +3087,18 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>5,541 (Democratic Republic of Congo) (2020)<br><br><strong>IDPs: </strong>630,834 (clashes between army and rebel groups since 2005; tensions between ethnic groups) (2020)",
+          "content": "<strong>refugees (country of origin): </strong>5,541 (Democratic Republic of Congo) (2021)<br><br><strong>IDPs: </strong>738,279 (clashes between army and rebel groups since 2005; tensions between ethnic groups) (2021)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "5,541 (Democratic Republic of Congo) (2020)",
-              "value": "5,541 (Democratic Republic of Congo) (2020)",
+              "content": "5,541 (Democratic Republic of Congo) (2021)",
+              "value": "5,541 (Democratic Republic of Congo) (2021)",
               "title": "refugees (country of origin)"
             },
             {
               "name": "IDPs",
-              "content": "630,834 (clashes between army and rebel groups since 2005; tensions between ethnic groups) (2020)",
-              "value": "630,834 (clashes between army and rebel groups since 2005; tensions between ethnic groups) (2020)",
+              "content": "738,279 (clashes between army and rebel groups since 2005; tensions between ethnic groups) (2021)",
+              "value": "738,279 (clashes between army and rebel groups since 2005; tensions between ethnic groups) (2021)",
               "title": "IDPs"
             }
           ]

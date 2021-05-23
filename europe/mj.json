@@ -2,8 +2,8 @@
   "name": "Montenegro",
   "code": "MJ",
   "region": "Europe",
-  "published": "2021-02-24 12:29:59 -0500",
-  "updated": "2021-02-24 12:03:25 -0500",
+  "published": "2021-05-19 12:16:37 -0400",
+  "updated": "2021-05-17 09:24:31 -0400",
   "media": [
     {
       "type": "flag",
@@ -12,7 +12,8 @@
     },
     {
       "type": "map",
-      "src": "/attachments/maps/MJ-map.jpg"
+      "src": "/attachments/maps/MJ-map.jpg",
+      "caption": "Montenegro map showing major population centers as well as parts of surrounding countries and the Adriatic Sea."
     },
     {
       "type": "locator-map",
@@ -28,17 +29,12 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/MJ_002_large.jpg?1528324509",
+      "src": "/attachments/images/original/MJ_002_large.jpg",
       "category": "Landscapes",
-      "alt": "A view of the countryside around Podgorica. ",
-      "caption": "A view of the countryside around Podgorica. ",
-      "dimensions": {
-        "height": 814.0,
-        "width": 1200.0,
-        "modifier": null,
-        "orientation": 0
-      },
-      "file_size": 315066,
+      "alt": "A view of the countryside around Podgorica.",
+      "caption": "A view of the countryside around Podgorica.",
+      "dimensions": "1200x814",
+      "file_size": 194602,
       "position": 0
     }
   ],
@@ -114,8 +110,10 @@
           "media": [
             {
               "type": "image",
-              "src": "/attachments/images/original/MJ_area.jpg?1562689291",
-              "alt": "Area comparison map"
+              "src": "/attachments/images/original/MJ_area.jpg",
+              "alt": "Area comparison map",
+              "caption": "<p>slightly smaller than Connecticut; slightly larger than twice the size of Delaware</p>",
+              "position": 0
             }
           ]
         },
@@ -186,14 +184,13 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>mean elevation: </strong>1,086 m<br><br><strong>lowest point: </strong>Adriatic Sea 0 m<br><br><strong>highest point: </strong>Bobotov Kuk 2,522 m",
+          "content": "<strong>highest point: </strong>Bobotov Kuk 2,522 m<br><br><strong>lowest point: </strong>Adriatic Sea 0 m<br><br><strong>mean elevation: </strong>1,086 m",
           "subfields": [
             {
-              "name": "mean elevation",
-              "content": "1,086 m",
-              "title": "mean elevation",
-              "value": "1,086",
-              "suffix": "m"
+              "name": "highest point",
+              "content": "Bobotov Kuk 2,522 m",
+              "value": "Bobotov Kuk 2,522 m",
+              "title": "highest point"
             },
             {
               "name": "lowest point",
@@ -202,10 +199,11 @@
               "title": "lowest point"
             },
             {
-              "name": "highest point",
-              "content": "Bobotov Kuk 2,522 m",
-              "value": "Bobotov Kuk 2,522 m",
-              "title": "highest point"
+              "name": "mean elevation",
+              "content": "1,086 m",
+              "title": "mean elevation",
+              "value": "1,086",
+              "suffix": "m"
             }
           ]
         },
@@ -295,32 +293,6 @@
           "field_id": 292,
           "comparative": false,
           "content": "destructive earthquakes"
-        },
-        {
-          "name": "Environment - current issues",
-          "field_id": 293,
-          "comparative": false,
-          "content": "pollution of coastal waters from sewage outlets, especially in tourist-related areas such as Kotor; serious air pollution in Podgorica, Pljevlja and Niksie; air pollution in Pljevlja is caused by the nearby lignite power plant and the domestic use of coal and wood for household heating"
-        },
-        {
-          "name": "Environment - international agreements",
-          "field_id": 294,
-          "comparative": false,
-          "content": "<strong>party to: </strong>Air Pollution, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
-          "subfields": [
-            {
-              "name": "party to",
-              "content": "Air Pollution, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution",
-              "value": "Air Pollution, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Hazardous Wastes, Law of the Sea, Marine Dumping, Marine Life Conservation, Ozone Layer Protection, Ship Pollution",
-              "title": "party to"
-            },
-            {
-              "name": "signed, but not ratified",
-              "content": "none of the selected agreements",
-              "value": "none of the selected agreements",
-              "title": "signed, but not ratified"
-            }
-          ]
         },
         {
           "name": "Geography - note",
@@ -435,9 +407,11 @@
           ],
           "media": [
             {
-              "type": "document",
-              "src": "/attachments/docs/original/MJ_popgraph2021.pdf?1613506101",
-              "alt": "Montenegro population pyramid"
+              "type": "image",
+              "src": "/attachments/images/original/MJ_popgraph2021.jpg",
+              "alt": "population pyramid",
+              "caption": "This is the population pyramid for Montenegro. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
+              "position": 0
             }
           ]
         },
@@ -556,30 +530,32 @@
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
-          "content": "<strong>urban population: </strong>67.5% of total population (2020)<br><br><strong>rate of urbanization: </strong>0.54% annual rate of change (2015-20 est.)",
+          "content": "<strong>urban population: </strong>67.8% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.45% annual rate of change (2020-25 est.)",
           "subfields": [
             {
               "name": "urban population",
-              "content": "67.5% of total population (2020)",
+              "content": "67.8% of total population (2021)",
               "title": "urban population",
-              "value": "67.5",
+              "value": "67.8",
               "suffix": "% of total population",
-              "subfield_note": "(2020)"
+              "subfield_note": "(2021)"
             },
             {
               "name": "rate of urbanization",
-              "content": "0.54% annual rate of change (2015-20 est.)",
+              "content": "0.45% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
-              "value": "0.54",
+              "value": "0.45",
               "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "subfield_note": "(2020-25 est.)"
             }
           ],
           "media": [
             {
               "type": "document",
-              "src": "/attachments/docs/original/urban_MJ.pdf?1602850221",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030"
+              "src": "/attachments/docs/original/urban_MJ.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
             }
           ]
         },
@@ -948,10 +924,10 @@
           "name": "Children under the age of 5 years underweight",
           "field_id": 368,
           "comparative": true,
-          "content": "1% (2013)",
-          "value": "1",
+          "content": "3.7% (2018/19)",
+          "value": "3.7",
           "estimated": false,
-          "info_date": "2013",
+          "info_date": "2018/19",
           "suffix": "%"
         },
         {
@@ -1034,29 +1010,327 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>29.4%<br><br><strong>male: </strong>33.3%<br><br><strong>female: </strong>23.6% (2018 est.)",
+          "content": "<strong>total: </strong>25.2%<br><br><strong>male: </strong>25.8%<br><br><strong>female: </strong>24.3% (2019 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "29.4%",
+              "content": "25.2%",
               "title": "total",
-              "value": "29.4",
+              "value": "25.2",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "33.3%",
+              "content": "25.8%",
               "title": "male",
-              "value": "33.3",
+              "value": "25.8",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "23.6% (2018 est.)",
+              "content": "24.3% (2019 est.)",
               "title": "female",
-              "value": "23.6",
+              "value": "24.3",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "fields": [
+        {
+          "name": "Environment - current issues",
+          "field_id": 293,
+          "comparative": false,
+          "content": "pollution of coastal waters from sewage outlets, especially in tourist-related areas such as Kotor; serious air pollution in Podgorica, Pljevlja and Niksie; air pollution in Pljevlja is caused by the nearby lignite power plant and the domestic use of coal and wood for household heating"
+        },
+        {
+          "name": "Environment - international agreements",
+          "field_id": 294,
+          "comparative": false,
+          "content": "<strong>party to: </strong>Air Pollution, Air Pollution-Heavy Metals, Air Pollution-Persistent Organic Pollutants, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
+          "subfields": [
+            {
+              "name": "party to",
+              "content": "Air Pollution, Air Pollution-Heavy Metals, Air Pollution-Persistent Organic Pollutants, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands",
+              "value": "Air Pollution, Air Pollution-Heavy Metals, Air Pollution-Persistent Organic Pollutants, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands",
+              "title": "party to"
+            },
+            {
+              "name": "signed, but not ratified",
+              "content": "none of the selected agreements",
+              "value": "none of the selected agreements",
+              "title": "signed, but not ratified"
+            }
+          ]
+        },
+        {
+          "name": "Air pollutants",
+          "field_id": 416,
+          "comparative": false,
+          "content": "<strong>particulate matter emissions: </strong>20.17 micrograms per cubic meter (2016 est.)<br><br><strong>carbon dioxide emissions: </strong>2.02 megatons (2016 est.)<br><br><strong>methane emissions: </strong>0.75 megatons (2020 est.)",
+          "subfields": [
+            {
+              "name": "particulate matter emissions",
+              "content": "20.17 micrograms per cubic meter (2016 est.)",
+              "title": "particulate matter emissions",
+              "value": "20.17",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "micrograms per cubic meter"
+            },
+            {
+              "name": "carbon dioxide emissions",
+              "content": "2.02 megatons (2016 est.)",
+              "title": "carbon dioxide emissions",
+              "value": "2.02",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "megatons"
+            },
+            {
+              "name": "methane emissions",
+              "content": "0.75 megatons (2020 est.)",
+              "title": "methane emissions",
+              "value": "0.75",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "megatons"
+            }
+          ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>96.4 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>62.8 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.7 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "96.4 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "96,400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "62.8 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "62,800,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "1.7 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "1,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Climate",
+          "field_id": 284,
+          "comparative": false,
+          "content": "Mediterranean climate, hot dry summers and autumns and relatively cold winters with heavy snowfalls inland"
+        },
+        {
+          "name": "Land use",
+          "field_id": 288,
+          "comparative": false,
+          "content": "<strong>agricultural land: </strong>38.2% (2018 est.)<br><br>arable land: 12.9% (2018 est.)<br><br>permanent crops: 1.2% (2018 est.)<br><br>permanent pasture: 24.1% (2018 est.)<br><br><strong>forest: </strong>40.4% (2018 est.)<br><br><strong>other: </strong>21.4% (2018 est.)",
+          "subfields": [
+            {
+              "name": "agricultural land",
+              "content": "38.2% (2018 est.)",
+              "title": "agricultural land",
+              "value": "38.2",
               "estimated": true,
               "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: arable land",
+              "content": "arable land: 12.9% (2018 est.)",
+              "value": "12.9",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent crops",
+              "content": "permanent crops: 1.2% (2018 est.)",
+              "value": "1.2",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "agricultural land: permanent pasture",
+              "content": "permanent pasture: 24.1% (2018 est.)",
+              "value": "24.1",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "forest",
+              "content": "40.4% (2018 est.)",
+              "title": "forest",
+              "value": "40.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            },
+            {
+              "name": "other",
+              "content": "21.4% (2018 est.)",
+              "title": "other",
+              "value": "21.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>0.43% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "0.43% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "0.43",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>0.12% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "0.12% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "0.12",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
+            }
+          ]
+        },
+        {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>67.8% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.45% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "67.8% of total population (2021)",
+              "title": "urban population",
+              "value": "67.8",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.45% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.45",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_MJ.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Major infectious diseases",
+          "field_id": 366,
+          "comparative": false,
+          "content": "<strong>degree of risk: </strong>intermediate (2020)<br><br><strong>food or waterborne diseases: </strong>bacterial diarrhea<br><br><strong>vectorborne diseases: </strong>Crimean-Congo hemorrhagic fever",
+          "subfields": [
+            {
+              "name": "degree of risk",
+              "content": "intermediate (2020)",
+              "value": "intermediate",
+              "title": "degree of risk",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "food or waterborne diseases",
+              "content": "bacterial diarrhea",
+              "value": "bacterial diarrhea",
+              "title": "food or waterborne diseases",
+              "info_date": "(2020)"
+            },
+            {
+              "name": "vectorborne diseases",
+              "content": "Crimean-Congo hemorrhagic fever",
+              "value": "Crimean-Congo hemorrhagic fever",
+              "title": "vectorborne diseases",
+              "info_date": "(2020)"
+            }
+          ]
+        },
+        {
+          "name": "Waste and recycling",
+          "field_id": 422,
+          "comparative": false,
+          "content": "<strong>municipal solid waste generated annually: </strong>332,000 tons (2015 est.)<br><br><strong>municipal solid waste recycled annually: </strong>17,994 tons (2015 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>5.4% (2015 est.)",
+          "subfields": [
+            {
+              "name": "municipal solid waste generated annually",
+              "content": "332,000 tons (2015 est.)",
+              "title": "municipal solid waste generated annually",
+              "value": "332,000",
+              "estimated": true,
+              "info_date": "2015",
+              "suffix": "tons"
+            },
+            {
+              "name": "municipal solid waste recycled annually",
+              "content": "17,994 tons (2015 est.)",
+              "title": "municipal solid waste recycled annually",
+              "value": "17,994",
+              "estimated": true,
+              "info_date": "2015",
+              "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "5.4% (2015 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "5.4",
+              "estimated": true,
+              "info_date": "2015",
               "suffix": "%"
             }
           ]
@@ -1121,7 +1395,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>Podgorica; note - Cetinje retains the status of \"Old Royal Capital\"<br><br><strong>geographic coordinates: </strong>42 26 N, 19 16 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1 hr, begins last Sunday in March; ends last Sunday in October",
+          "content": "<strong>name: </strong>Podgorica; note - Cetinje retains the status of \"Old Royal Capital\"<br><br><strong>geographic coordinates: </strong>42 26 N, 19 16 E<br><br><strong>time difference: </strong>UTC+1 (6 hours ahead of Washington, DC, during Standard Time)<br><br><strong>daylight saving time: </strong>+1 hr, begins last Sunday in March; ends last Sunday in October<br><br><strong>etymology:</strong> the name translates as \"beneath Gorica\"; the meaning of Gorica is \"hillock\"; the reference is to the small hill named Gorica that the city is built around",
           "subfields": [
             {
               "name": "name",
@@ -1148,7 +1422,7 @@
               "title": "daylight saving time"
             }
           ],
-          "field_note": "<br><br><strong>etymology:</strong> the name translates as \"beneath Gorica\"; the meaning of Gorica is \"hillock\"; the reference is to the small hill named Gorica that the city is built around"
+          "field_note": "<strong>etymology:</strong> the name translates as \"beneath Gorica\"; the meaning of Gorica is \"hillock\"; the reference is to the small hill named Gorica that the city is built around"
         },
         {
           "name": "Administrative divisions",
@@ -1172,7 +1446,7 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>several previous; latest adopted 22 October 2007<br><br><strong>amendments: </strong>proposed by the president of Montenegro, by the government, or by at least 25 members of the Assembly; passage of draft proposals requires two-thirds majority vote of the Assembly, followed by a public hearing; passage of draft amendments requires two-thirds majority vote of the Assembly; changes to certain constitutional articles, such as sovereignty, state symbols, citizenship, and constitutional change procedures, require three-fifths majority vote in a referendum; amended 2013, 2014",
+          "content": "<strong>history: </strong>several previous; latest adopted 22 October 2007<br><br><strong>amendments: </strong>proposed by the president of Montenegro, by the government, or by at least 25 members of the Assembly; passage of draft proposals requires two-thirds majority vote of the Assembly, followed by a public hearing; passage of draft amendments requires two-thirds majority vote of the Assembly; changes to certain constitutional articles, such as sovereignty, state symbols, citizenship, and constitutional change procedures, require three-fifths majority vote in a referendum; amended 2013",
           "subfields": [
             {
               "name": "history",
@@ -1182,8 +1456,8 @@
             },
             {
               "name": "amendments",
-              "content": "proposed by the president of Montenegro, by the government, or by at least 25 members of the Assembly; passage of draft proposals requires two-thirds majority vote of the Assembly, followed by a public hearing; passage of draft amendments requires two-thirds majority vote of the Assembly; changes to certain constitutional articles, such as sovereignty, state symbols, citizenship, and constitutional change procedures, require three-fifths majority vote in a referendum; amended 2013, 2014",
-              "value": "proposed by the president of Montenegro, by the government, or by at least 25 members of the Assembly; passage of draft proposals requires two-thirds majority vote of the Assembly, followed by a public hearing; passage of draft amendments requires two-thirds majority vote of the Assembly; changes to certain constitutional articles, such as sovereignty, state symbols, citizenship, and constitutional change procedures, require three-fifths majority vote in a referendum; amended 2013, 2014",
+              "content": "proposed by the president of Montenegro, by the government, or by at least 25 members of the Assembly; passage of draft proposals requires two-thirds majority vote of the Assembly, followed by a public hearing; passage of draft amendments requires two-thirds majority vote of the Assembly; changes to certain constitutional articles, such as sovereignty, state symbols, citizenship, and constitutional change procedures, require three-fifths majority vote in a referendum; amended 2013",
+              "value": "proposed by the president of Montenegro, by the government, or by at least 25 members of the Assembly; passage of draft proposals requires two-thirds majority vote of the Assembly, followed by a public hearing; passage of draft amendments requires two-thirds majority vote of the Assembly; changes to certain constitutional articles, such as sovereignty, state symbols, citizenship, and constitutional change procedures, require three-fifths majority vote in a referendum; amended 2013",
               "title": "amendments"
             }
           ]
@@ -1344,12 +1618,12 @@
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong>Ambassador Nebojsa KALUDEROVIC (since 18 January 2017)<br><br><strong>chancery: </strong>1610 New Hampshire Avenue NW, Washington, DC, 20009<br><br><strong>telephone: </strong>[1] (202) 234-6108<br><br><strong>FAX: </strong>[1] (202) 234-6109<br><br><strong>consulate(s) general: </strong>New York",
+          "content": "<strong>chief of mission: </strong>Ambassador (vacant); Charge d'Affaires Marija STJEPCEVIC (since 4 February 2021)<br><br><strong>chancery: </strong>1610 New Hampshire Avenue NW, Washington, DC, 20009<br><br><strong>telephone: </strong>[1] (202) 234-6108<br><br><strong>FAX: </strong>[1] (202) 234-6109<br><br><strong>consulate(s) general: </strong>New York",
           "subfields": [
             {
               "name": "chief of mission",
-              "content": "Ambassador Nebojsa KALUDEROVIC (since 18 January 2017)",
-              "value": "Ambassador Nebojsa KALUDEROVIC (since 18 January 2017)",
+              "content": "Ambassador (vacant); Charge d'Affaires Marija STJEPCEVIC (since 4 February 2021)",
+              "value": "Ambassador (vacant); Charge d'Affaires Marija STJEPCEVIC (since 4 February 2021)",
               "title": "chief of mission"
             },
             {
@@ -1432,7 +1706,7 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Oj, svijetla majska zoro\" (Oh, Bright Dawn of May)<br><br><strong>lyrics/music: </strong>Sekula DRLJEVIC/unknown, arranged by Zarko MIKOVIC",
+          "content": "<strong>name: </strong>\"Oj, svijetla majska zoro\" (Oh, Bright Dawn of May)<br><br><strong>lyrics/music: </strong>Sekula DRLJEVIC/unknown, arranged by Zarko MIKOVIC<br><br><strong>note:</strong> adopted 2004; music based on a Montenegrin folk song",
           "subfields": [
             {
               "name": "name",
@@ -1447,12 +1721,14 @@
               "title": "lyrics/music"
             }
           ],
-          "field_note": "<p><strong>note:</strong> adopted 2004; music based on a Montenegrin folk song</p>",
+          "field_note": "<strong>note:</strong> adopted 2004; music based on a Montenegrin folk song",
           "media": [
             {
               "type": "audio",
-              "src": "/attachments/audios/original/MJ.mp3?1538604757",
-              "alt": "National Anthem audio file for Montenegro"
+              "src": "/attachments/audios/original/MJ.mp3",
+              "alt": "National Anthem audio file for Montenegro",
+              "caption": "This is an audio of the National Anthem for Montenegro. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
+              "position": 0
             }
           ]
         }
@@ -1552,7 +1828,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$13.357 billion (2019 est.)<br><br>$12.835 billion (2018 est.)<br><br>$12.215 billion (2017 est.)",
+          "content": "$13.357 billion (2019 est.)<br><br>$12.835 billion (2018 est.)<br><br>$12.215 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
@@ -1576,7 +1852,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
@@ -1592,7 +1868,7 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$21,470 (2019 est.)<br><br>$20,629 (2018 est.)<br><br>$19,627 (2017 est.)",
+          "content": "$21,470 (2019 est.)<br><br>$20,629 (2018 est.)<br><br>$19,627 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
@@ -1616,7 +1892,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data are in 2017 dollars</p>"
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "Gross national saving",
@@ -1748,13 +2024,39 @@
           "name": "Ease of Doing Business Index scores",
           "field_id": 405,
           "comparative": false,
-          "content": "86.7 (2020)",
+          "content": "<strong>Overall score: </strong>73.8 (2020)<br><br><strong>Starting a Business score: </strong>86.7 (2020)<br><br><strong>Trading score: </strong>91.9 (2020)<br><br><strong>Enforcement score: </strong>66.8 (2020)",
           "subfields": [
             {
-              "name": "Overall Ease of Doing Business score 2020",
+              "name": "Overall score",
+              "content": "73.8 (2020)",
+              "title": "Overall score",
+              "value": "73.8",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Starting a Business score",
               "content": "86.7 (2020)",
+              "title": "Starting a Business score",
               "value": "86.7",
-              "estimated": false
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Trading score",
+              "content": "91.9 (2020)",
+              "title": "Trading score",
+              "value": "91.9",
+              "estimated": false,
+              "info_date": "2020"
+            },
+            {
+              "name": "Enforcement score",
+              "content": "66.8 (2020)",
+              "title": "Enforcement score",
+              "value": "66.8",
+              "estimated": false,
+              "info_date": "2020"
             }
           ]
         },
@@ -1846,10 +2148,10 @@
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "8.6% (2013 est.)",
-          "value": "8.6",
+          "content": "24.5% (2018 est.)",
+          "value": "24.5",
           "estimated": true,
-          "info_date": "2013",
+          "info_date": "2018",
           "suffix": "%"
         },
         {
@@ -1944,7 +2246,7 @@
           "name": "Public debt",
           "field_id": 227,
           "comparative": true,
-          "content": "67.2% of GDP (2017 est.)<br><br>66.4% of GDP (2016 est.)",
+          "content": "67.2% of GDP (2017 est.)<br><br>66.4% of GDP (2016 est.)<br><br><strong>note:</strong> data cover general government debt, and includes debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities; the data include debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are not sold at public auctions",
           "subfields": [
             {
               "name": "Public debt 2017",
@@ -1961,7 +2263,7 @@
               "suffix": "% of GDP"
             }
           ],
-          "field_note": "<p><strong>note:</strong> data cover general government debt, and includes debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities; the data include debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are not sold at public auctions</p>"
+          "field_note": "<strong>note:</strong> data cover general government debt, and includes debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities; the data include debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are not sold at public auctions"
         },
         {
           "name": "Fiscal year",
@@ -2014,6 +2316,20 @@
           ]
         },
         {
+          "name": "Exports - partners",
+          "field_id": 241,
+          "comparative": false,
+          "content": "Serbia 17%, Hungary 15%, China 11%, Russia 7%, Bosnia and Herzegovina 6%, Germany 6%, Italy 5%, Poland 5% (2019)",
+          "info_date": "2019"
+        },
+        {
+          "name": "Exports - commodities",
+          "field_id": 240,
+          "comparative": false,
+          "content": "aluminum, packaged medicines, cars, zinc, wine (2019)",
+          "info_date": "2019"
+        },
+        {
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
@@ -2034,6 +2350,20 @@
               "prefix": "$"
             }
           ]
+        },
+        {
+          "name": "Imports - partners",
+          "field_id": 403,
+          "comparative": false,
+          "content": "Serbia 30%, Bosnia and Herzegovina 8%, Croatia 8%, Italy 6%, Greece 6%, Germany 5% (2019)",
+          "info_date": "2019"
+        },
+        {
+          "name": "Imports - commodities",
+          "field_id": 243,
+          "comparative": false,
+          "content": "refined petroleum, cars, packaged medicines, recreational boats, cigarettes (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Reserves of foreign exchange and gold",
@@ -2364,16 +2694,6 @@
           "estimated": true,
           "info_date": "2016",
           "suffix": "cu m"
-        },
-        {
-          "name": "Carbon dioxide emissions from consumption of energy",
-          "field_id": 274,
-          "comparative": true,
-          "content": "2.287 million Mt (2017 est.)",
-          "value": "2,287,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "Mt"
         }
       ]
     },
@@ -2429,7 +2749,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>modern telecommunications system with access to European satellites; telecom sector in-line with EU norms which means competition, access and tariff structures; DSL, cable, leased line, fiber and wireless available; seasonal tourist have boosted mobile penetration; wide availability of LTE technologies has made mobile broadband a viable alternative to fixed-line broadband in rural areas; 5G services anticipated in the future (2020)<br><br><strong>domestic: </strong>GSM mobile-cellular service, available through multiple providers with national coverage growing; fixed-line 30 per 100 and mobile-cellular 183 per 100 persons (2019)<br><br><strong>international: </strong>country code - 382; 2 international switches connect the national system",
+          "content": "<strong>general assessment: </strong>modern telecommunications system with access to European satellites; telecom sector in-line with EU norms which means competition, access and tariff structures; DSL, cable, leased line, fiber and wireless available; seasonal tourist have boosted mobile penetration; wide availability of LTE technologies has made mobile broadband a viable alternative to fixed-line broadband in rural areas; 5G services anticipated in the future (2020)<br><br><strong>domestic: </strong>GSM mobile-cellular service, available through multiple providers with national coverage growing; fixed-line 30 per 100 and mobile-cellular 183 per 100 persons (2019)<br><br><strong>international: </strong>country code - 382; 2 international switches connect the national system<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated",
           "subfields": [
             {
               "name": "general assessment",
@@ -2453,7 +2773,7 @@
               "info_date": "(2019)"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
+          "field_note": "<strong>note:</strong> the COVID-19 outbreak is negatively impacting telecommunications production and supply chains globally; consumer spending on telecom devices and services has also slowed due to the pandemic's effect on economies worldwide; overall progress towards improvements in all facets of the telecom industry - mobile, fixed-line, broadband, submarine cable and satellite - has moderated"
         },
         {
           "name": "Broadcast media",
@@ -2562,8 +2882,7 @@
           "name": "Civil aircraft registration country code prefix",
           "field_id": 378,
           "comparative": false,
-          "content": "4O (2016)",
-          "info_date": "2016"
+          "content": "4O"
         },
         {
           "name": "Airports",
@@ -2737,40 +3056,40 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Armed Forces of the Republic of Montenegro: Army, Navy, Air Force (2020)",
+          "content": "the Armed Forces of the Republic of Montenegro are a joint force with land, air, and naval elements (2020)",
           "info_date": "2020"
         },
         {
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "1.91% of GDP (2020 est.)<br><br>1.41% of GDP (2019)<br><br>1.38% of GDP (2018)<br><br>1.35% of GDP (2017)<br><br>1.42% of GDP (2016)",
+          "content": "1.72% of GDP (2020 est.)<br><br>1.33% of GDP (2019)<br><br>1.37% of GDP (2018)<br><br>1.34% of GDP (2017)<br><br>1.42% of GDP (2016)",
           "subfields": [
             {
               "name": "Military Expenditures 2020",
-              "content": "1.91% of GDP (2020 est.)",
-              "value": "1.91",
+              "content": "1.72% of GDP (2020 est.)",
+              "value": "1.72",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2019",
-              "content": "1.41% of GDP (2019)",
-              "value": "1.41",
+              "content": "1.33% of GDP (2019)",
+              "value": "1.33",
               "estimated": false,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "1.38% of GDP (2018)",
-              "value": "1.38",
+              "content": "1.37% of GDP (2018)",
+              "value": "1.37",
               "estimated": false,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2017",
-              "content": "1.35% of GDP (2017)",
-              "value": "1.35",
+              "content": "1.34% of GDP (2017)",
+              "value": "1.34",
               "estimated": false,
               "suffix": "% of GDP"
             },
@@ -2787,22 +3106,22 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Armed Forces of the Republic of Montenegro have approximately 2,000 total active duty troops (1,400 Army; 400 Navy; 200 Air Force) (2020)",
+          "content": "the Armed Forces of the Republic of Montenegro have approximately 2,000 total active duty troops (2020)",
           "info_date": "2020"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the inventory of the Armed Forces of Montenegro is small and consists mostly of equipment inherited from the former Yugoslavia military, with a limited mix of other imported systems, such as French-made helicopters; since 2010, it has received small quantities of equipment from Austria, Turkey, and the US (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the inventory of the Armed Forces of Montenegro is small and consists mostly of equipment inherited from the former Yugoslavia military, with a limited mix of other imported systems; since 2010, it has received small quantities of equipment from Austria, Turkey, and the US (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "18 is the legal minimum age for voluntary military service; no conscription (2012)",
-          "info_date": "2012"
+          "content": "18 is the legal minimum age for voluntary military service; conscription abolished in 2006 (2019)",
+          "info_date": "2019"
         }
       ]
     },
@@ -2827,7 +3146,7 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>stateless persons: </strong>142 (2019)",
+          "content": "<strong>stateless persons: </strong>142 (2019)<br><br><strong>note:</strong> 18,382 estimated refugee and migrant arrivals (January 2015-May 2021)",
           "subfields": [
             {
               "name": "stateless persons",
@@ -2836,7 +3155,7 @@
               "title": "stateless persons"
             }
           ],
-          "field_note": "<br><br><strong>note:</strong> 17,461 estimated refugee and migrant arrivals (January 2015-February 2021)"
+          "field_note": "<strong>note:</strong> 18,382 estimated refugee and migrant arrivals (January 2015-May 2021)"
         }
       ]
     }
