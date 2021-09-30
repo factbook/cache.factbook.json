@@ -2,8 +2,8 @@
   "name": "Czechia",
   "code": "EZ",
   "region": "Europe",
-  "published": "2021-09-22 12:13:02 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:08:50 -0400",
+  "updated": "2021-09-22 16:15:17 -0400",
   "media": [
     {
       "type": "flag",
@@ -914,6 +914,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -1076,6 +1084,14 @@
           "estimated": false,
           "info_date": "2016",
           "suffix": "%"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Education expenditures",
@@ -1887,6 +1903,36 @@
           "content": "<p>Czechia is a prosperous market economy that boasts one of the highest GDP growth rates and lowest unemployment levels in the EU, but its dependence on exports makes economic growth vulnerable to contractions in external demand. Czechia’s exports comprise some 80% of GDP and largely consist of automobiles, the country’s single largest industry. Czechia acceded to the EU in 2004 but has yet to join the euro-zone. While the flexible koruna helps Czechia weather external shocks, it was one of the world’s strongest performing currencies in 2017, appreciating approximately 16% relative to the US dollar after the central bank (Czech National Bank - CNB) ended its cap on the currency’s value in early April 2017, which it had maintained since November 2013. The CNB hiked rates in August and November 2017 - the first rate changes in nine years - to address rising inflationary pressures brought by strong economic growth and a tight labor market.</p><p></p><p>Since coming to power in 2014, the new government has undertaken some reforms to try to reduce corruption, attract investment, and improve social welfare programs, which could help increase the government’s revenues and improve living conditions for Czechs. The government introduced in December 2016 an online tax reporting system intended to reduce tax evasion and increase revenues. The government also plans to remove labor market rigidities to improve the business climate, bring procurement procedures in line with EU best practices, and boost wages. The country's low unemployment rate has led to steady increases in salaries, and the government is facing pressure from businesses to allow greater migration of qualified workers, at least from Ukraine and neighboring Central European countries.</p><p></p><p>Long-term challenges include dealing with a rapidly aging population, a shortage of skilled workers, a lagging education system, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.</p>"
         },
         {
+          "name": "Real GDP (purchasing power parity)",
+          "field_id": 208,
+          "comparative": true,
+          "content": "$435.987 billion (2019 est.)<br><br>$426.038 billion (2018 est.)<br><br>$412.902 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "subfields": [
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$435.987 billion (2019 est.)",
+              "value": "435,987,000,000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2018",
+              "content": "$426.038 billion (2018 est.)",
+              "value": "426,038,000,000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2017",
+              "content": "$412.902 billion (2017 est.)",
+              "value": "412,902,000,000",
+              "estimated": true,
+              "prefix": "$"
+            }
+          ],
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
+        },
+        {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
@@ -1914,6 +1960,46 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Real GDP per capita",
+          "field_id": 211,
+          "comparative": true,
+          "content": "$40,862 (2019 est.)<br><br>$40,079 (2018 est.)<br><br>$38,974 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "subfields": [
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$40,862 (2019 est.)",
+              "value": "40,862",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP per capita 2018",
+              "content": "$40,079 (2018 est.)",
+              "value": "40,079",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP per capita 2017",
+              "content": "$38,974 (2017 est.)",
+              "value": "38,974",
+              "estimated": true,
+              "prefix": "$"
+            }
+          ],
+          "field_note": "<strong>note:</strong> data are in 2010 dollars"
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$250.631 billion (2019 est.)",
+          "value": "250,631,000,000",
+          "estimated": true,
+          "info_date": "2019",
+          "prefix": "$"
         },
         {
           "name": "Inflation rate (consumer prices)",
@@ -1970,105 +2056,6 @@
               "value": "AA-",
               "title": "Standard & Poors rating",
               "info_date": "(2011)"
-            }
-          ]
-        },
-        {
-          "name": "Real GDP (purchasing power parity)",
-          "field_id": 208,
-          "comparative": true,
-          "content": "$435.987 billion (2019 est.)<br><br>$426.038 billion (2018 est.)<br><br>$412.902 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
-          "subfields": [
-            {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$435.987 billion (2019 est.)",
-              "value": "435,987,000,000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$426.038 billion (2018 est.)",
-              "value": "426,038,000,000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$412.902 billion (2017 est.)",
-              "value": "412,902,000,000",
-              "estimated": true,
-              "prefix": "$"
-            }
-          ],
-          "field_note": "<strong>note:</strong> data are in 2010 dollars"
-        },
-        {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$250.631 billion (2019 est.)",
-          "value": "250,631,000,000",
-          "estimated": true,
-          "info_date": "2019",
-          "prefix": "$"
-        },
-        {
-          "name": "Real GDP per capita",
-          "field_id": 211,
-          "comparative": true,
-          "content": "$40,862 (2019 est.)<br><br>$40,079 (2018 est.)<br><br>$38,974 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
-          "subfields": [
-            {
-              "name": "Real GDP per capita 2019",
-              "content": "$40,862 (2019 est.)",
-              "value": "40,862",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2018",
-              "content": "$40,079 (2018 est.)",
-              "value": "40,079",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$38,974 (2017 est.)",
-              "value": "38,974",
-              "estimated": true,
-              "prefix": "$"
-            }
-          ],
-          "field_note": "<strong>note:</strong> data are in 2010 dollars"
-        },
-        {
-          "name": "Gross national saving",
-          "field_id": 212,
-          "comparative": true,
-          "content": "26.2% of GDP (2019 est.)<br><br>26.8% of GDP (2018 est.)<br><br>27.3% of GDP (2017 est.)",
-          "subfields": [
-            {
-              "name": "Gross national saving 2019",
-              "content": "26.2% of GDP (2019 est.)",
-              "value": "26.2",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Gross national saving 2018",
-              "content": "26.8% of GDP (2018 est.)",
-              "value": "26.8",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Gross national saving 2017",
-              "content": "27.3% of GDP (2017 est.)",
-              "value": "27.3",
-              "estimated": true,
-              "suffix": "% of GDP"
             }
           ]
         },
@@ -2166,46 +2153,6 @@
               "estimated": true,
               "info_date": "2017",
               "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Ease of Doing Business Index scores",
-          "field_id": 405,
-          "comparative": false,
-          "content": "<strong>Overall score: </strong>76.3 (2020)<br><br><strong>Starting a Business score: </strong>82.1 (2020)<br><br><strong>Trading score: </strong>100 (2020)<br><br><strong>Enforcement score: </strong>56.4 (2020)",
-          "subfields": [
-            {
-              "name": "Overall score",
-              "content": "76.3 (2020)",
-              "title": "Overall score",
-              "value": "76.3",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Starting a Business score",
-              "content": "82.1 (2020)",
-              "title": "Starting a Business score",
-              "value": "82.1",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Trading score",
-              "content": "100 (2020)",
-              "title": "Trading score",
-              "value": "100",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Enforcement score",
-              "content": "56.4 (2020)",
-              "title": "Enforcement score",
-              "value": "56.4",
-              "estimated": false,
-              "info_date": "2020"
             }
           ]
         },
@@ -2372,16 +2319,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "40.5% (of GDP) (2017 est.)",
-          "value": "40.5",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -2412,6 +2349,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "40.5% (of GDP) (2017 est.)",
+          "value": "40.5",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",

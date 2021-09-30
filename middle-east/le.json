@@ -2,8 +2,8 @@
   "name": "Lebanon",
   "code": "LE",
   "region": "Middle East",
-  "published": "2021-09-22 12:20:28 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:15:48 -0400",
+  "updated": "2021-09-23 09:31:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -742,6 +742,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -861,6 +869,14 @@
           "estimated": false,
           "info_date": "2016",
           "suffix": "%"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Education expenditures",
@@ -1698,6 +1714,36 @@
           "content": "<p>Lebanon has a free-market economy and a strong laissez-faire commercial tradition. The government does not restrict foreign investment; however, the investment climate suffers from red tape, corruption, arbitrary licensing decisions, complex customs procedures, high taxes, tariffs, and fees, archaic legislation, and inadequate intellectual property rights protection. The Lebanese economy is service-oriented; main growth sectors include banking and tourism.</p><p></p><p>The 1975-90 civil war seriously damaged Lebanon's economic infrastructure, cut national output by half, and derailed Lebanon's position as a Middle Eastern banking hub. Following the civil war, Lebanon rebuilt much of its war-torn physical and financial infrastructure by borrowing heavily, mostly from domestic banks, which saddled the government with a huge debt burden. Pledges of economic and financial reforms made at separate international donor conferences during the 2000s have mostly gone unfulfilled, including those made during the Paris III Donor Conference in 2007, following the July 2006 war. The \"CEDRE\" investment event hosted by France in April 2018 again rallied the international community to assist Lebanon with concessional financing and some grants for capital infrastructure improvements, conditioned upon long-delayed structural economic reforms in fiscal management, electricity tariffs, and transparent public procurement, among many others.</p><p></p><p>The Syria conflict cut off one of Lebanon's major markets and a transport corridor through the Levant. The influx of nearly one million registered and an estimated 300,000 unregistered Syrian refugees has increased social tensions and heightened competition for low-skill jobs and public services. Lebanon continues to face several long-term structural weaknesses that predate the Syria crisis, notably, weak infrastructure, poor service delivery, institutionalized corruption, and bureaucratic over-regulation. Chronic fiscal deficits have increased Lebanon’s debt-to-GDP ratio, the third highest in the world; most of the debt is held internally by Lebanese banks. These factors combined to slow economic growth to the 1-2% range in 2011-17, after four years of averaging 8% growth. Weak economic growth limits tax revenues, while the largest government expenditures remain debt servicing, salaries for government workers, and transfers to the electricity sector. These limitations constrain other government spending, limiting its ability to invest in necessary infrastructure improvements, such as water, electricity, and transportation. In early 2018, the Lebanese government signed long-awaited contract agreements with an international consortium for petroleum exploration and production as part of the country’s first offshore licensing round. Exploration is expected to begin in 2019.</p>"
         },
         {
+          "name": "Real GDP (purchasing power parity)",
+          "field_id": 208,
+          "comparative": true,
+          "content": "$99.761 billion (2019 est.)<br><br>$106.925 billion (2018 est.)<br><br>$109.025 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "subfields": [
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$99.761 billion (2019 est.)",
+              "value": "99,761,000,000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2018",
+              "content": "$106.925 billion (2018 est.)",
+              "value": "106,925,000,000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2017",
+              "content": "$109.025 billion (2017 est.)",
+              "value": "109,025,000,000",
+              "estimated": true,
+              "prefix": "$"
+            }
+          ],
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
+        },
+        {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
@@ -1725,6 +1771,46 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Real GDP per capita",
+          "field_id": 211,
+          "comparative": true,
+          "content": "$14,552 (2019 est.)<br><br>$15,612 (2018 est.)<br><br>$16,005 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "subfields": [
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$14,552 (2019 est.)",
+              "value": "14,552",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP per capita 2018",
+              "content": "$15,612 (2018 est.)",
+              "value": "15,612",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP per capita 2017",
+              "content": "$16,005 (2017 est.)",
+              "value": "16,005",
+              "estimated": true,
+              "prefix": "$"
+            }
+          ],
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$53.253 billion (2019 est.)",
+          "value": "53,253,000,000",
+          "estimated": true,
+          "info_date": "2019",
+          "prefix": "$"
         },
         {
           "name": "Inflation rate (consumer prices)",
@@ -1781,105 +1867,6 @@
               "value": "D",
               "title": "Standard & Poors rating",
               "info_date": "(2020)"
-            }
-          ]
-        },
-        {
-          "name": "Real GDP (purchasing power parity)",
-          "field_id": 208,
-          "comparative": true,
-          "content": "$99.761 billion (2019 est.)<br><br>$106.925 billion (2018 est.)<br><br>$109.025 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
-          "subfields": [
-            {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$99.761 billion (2019 est.)",
-              "value": "99,761,000,000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$106.925 billion (2018 est.)",
-              "value": "106,925,000,000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$109.025 billion (2017 est.)",
-              "value": "109,025,000,000",
-              "estimated": true,
-              "prefix": "$"
-            }
-          ],
-          "field_note": "<strong>note:</strong> data are in 2017 dollars"
-        },
-        {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$53.253 billion (2019 est.)",
-          "value": "53,253,000,000",
-          "estimated": true,
-          "info_date": "2019",
-          "prefix": "$"
-        },
-        {
-          "name": "Real GDP per capita",
-          "field_id": 211,
-          "comparative": true,
-          "content": "$14,552 (2019 est.)<br><br>$15,612 (2018 est.)<br><br>$16,005 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
-          "subfields": [
-            {
-              "name": "Real GDP per capita 2019",
-              "content": "$14,552 (2019 est.)",
-              "value": "14,552",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2018",
-              "content": "$15,612 (2018 est.)",
-              "value": "15,612",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$16,005 (2017 est.)",
-              "value": "16,005",
-              "estimated": true,
-              "prefix": "$"
-            }
-          ],
-          "field_note": "<strong>note:</strong> data are in 2017 dollars"
-        },
-        {
-          "name": "Gross national saving",
-          "field_id": 212,
-          "comparative": true,
-          "content": "-3.1% of GDP (2019 est.)<br><br>-4% of GDP (2018 est.)<br><br>-1.3% of GDP (2017 est.)",
-          "subfields": [
-            {
-              "name": "Gross national saving 2019",
-              "content": "-3.1% of GDP (2019 est.)",
-              "value": "-3.1",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Gross national saving 2018",
-              "content": "-4% of GDP (2018 est.)",
-              "value": "-4",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Gross national saving 2017",
-              "content": "-1.3% of GDP (2017 est.)",
-              "value": "-1.3",
-              "estimated": true,
-              "suffix": "% of GDP"
             }
           ]
         },
@@ -1977,46 +1964,6 @@
               "estimated": true,
               "info_date": "2017",
               "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Ease of Doing Business Index scores",
-          "field_id": 405,
-          "comparative": false,
-          "content": "<strong>Overall score: </strong>54.3 (2020)<br><br><strong>Starting a Business score: </strong>78.2 (2020)<br><br><strong>Trading score: </strong>57.9 (2020)<br><br><strong>Enforcement score: </strong>50.8 (2020)",
-          "subfields": [
-            {
-              "name": "Overall score",
-              "content": "54.3 (2020)",
-              "title": "Overall score",
-              "value": "54.3",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Starting a Business score",
-              "content": "78.2 (2020)",
-              "title": "Starting a Business score",
-              "value": "78.2",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Trading score",
-              "content": "57.9 (2020)",
-              "title": "Trading score",
-              "value": "57.9",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Enforcement score",
-              "content": "50.8 (2020)",
-              "title": "Enforcement score",
-              "value": "50.8",
-              "estimated": false,
-              "info_date": "2020"
             }
           ]
         },
@@ -2172,16 +2119,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "21.5% (of GDP) (2017 est.)",
-          "value": "21.5",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -2213,6 +2150,16 @@
             }
           ],
           "field_note": "<strong>note:</strong> data cover central government debt and exclude debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities; the data include debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment"
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "21.5% (of GDP) (2017 est.)",
+          "value": "21.5",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",

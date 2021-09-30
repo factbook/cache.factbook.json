@@ -2,8 +2,8 @@
   "name": "Curacao",
   "code": "UC",
   "region": "Central America",
-  "published": "2021-09-22 12:30:39 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:24:28 -0400",
+  "updated": "2021-09-23 13:18:23 -0400",
   "media": [
     {
       "type": "flag",
@@ -638,6 +638,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -660,6 +668,14 @@
               "suffix": "% of population"
             }
           ]
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Sanitation facility access",
@@ -705,6 +721,14 @@
           "field_id": 365,
           "comparative": true,
           "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
           "subfield_note": "NA"
         },
         {
@@ -1293,57 +1317,6 @@
           "content": "<p>Most of Curacao's GDP results from services. Tourism, petroleum refining and bunkering, offshore finance, and transportation and communications are the mainstays of this small island economy, which is closely tied to the outside world. Curacao has limited natural resources, poor soil, and inadequate water supplies, and budgetary problems complicate reform of the health and education systems. Although GDP grew only slightly during the past decade, Curacao enjoys a high per capita income and a well-developed infrastructure compared to other countries in the region.</p> <p>Curacao has an excellent natural harbor that can accommodate large oil tankers, and the port of Willemstad hosts a free trade zone and a dry dock. Venezuelan state-owned oil company PdVSA, under a contract in effect until 2019, leases the single refinery on the island from the government, directly employing some 1,000 people. Most of the oil for the refinery is imported from Venezuela and most of the refined products are exported to the US and Asia. Almost all consumer and capital goods are imported, with the US, the Netherlands, and Venezuela being the major suppliers.</p> <p>The government is attempting to diversify its industry and trade. Curacao is an Overseas Countries and Territories (OCT) of the European Union. Nationals of Curacao are citizens of the European Union, even though it is not a member. Based on its OCT status, products that originate in Curacao have preferential access to the EU and are exempt from import duties. Curacao is a beneficiary of the Caribbean Basin Initiative and, as a result, products originating in Curacao can be imported tax free into the US if at least 35% has been added to the value of these products in Curacao. The island has state-of-the-art information and communication technology connectivity with the rest of the world, including a Tier IV datacenter. With several direct satellite and submarine optic fiber cables, Curacao has one of the best Internet speeds and reliability in the Western Hemisphere.</p>"
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "3.6% (2012 est.)<br><br>2% (2011 est.)<br><br>0.1% (2010 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2012",
-              "content": "3.6% (2012 est.)",
-              "value": "3.6",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2011",
-              "content": "2% (2011 est.)",
-              "value": "2",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2010",
-              "content": "0.1% (2010 est.)",
-              "value": "0.1",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "2.6% (2013 est.)<br><br>2.8% (2012 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2013",
-              "content": "2.6% (2013 est.)",
-              "value": "2.6",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2012",
-              "content": "2.8% (2012 est.)",
-              "value": "2.8",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1374,14 +1347,33 @@
           "field_note": "<div><strong><span class=\"category\">note: </span></strong><span class=\"category_data\">data are in 2012 US dollars</span></div>"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$5.6 billion (2012 est.)",
-          "value": "5,600,000,000",
-          "estimated": true,
-          "info_date": "2012",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "3.6% (2012 est.)<br><br>2% (2011 est.)<br><br>0.1% (2010 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2012",
+              "content": "3.6% (2012 est.)",
+              "value": "3.6",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2011",
+              "content": "2% (2011 est.)",
+              "value": "2",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2010",
+              "content": "0.1% (2010 est.)",
+              "value": "0.1",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1409,6 +1401,38 @@
               "value": "25,475",
               "estimated": true,
               "prefix": "$"
+            }
+          ]
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$5.6 billion (2012 est.)",
+          "value": "5,600,000,000",
+          "estimated": true,
+          "info_date": "2012",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
+          "comparative": true,
+          "content": "2.6% (2013 est.)<br><br>2.8% (2012 est.)",
+          "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2013",
+              "content": "2.6% (2013 est.)",
+              "value": "2.6",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Inflation rate (consumer prices) 2012",
+              "content": "2.8% (2012 est.)",
+              "value": "2.8",
+              "estimated": true,
+              "suffix": "%"
             }
           ]
         },
@@ -1592,16 +1616,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "16.6% (of GDP) (2012 est.)",
-          "value": "16.6",
-          "estimated": true,
-          "info_date": "2012",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -1632,6 +1646,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "16.6% (of GDP) (2012 est.)",
+          "value": "16.6",
+          "estimated": true,
+          "info_date": "2012",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Current account balance",

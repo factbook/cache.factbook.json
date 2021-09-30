@@ -2,8 +2,8 @@
   "name": "Nauru",
   "code": "NR",
   "region": "Australia - Oceania",
-  "published": "2021-09-22 12:23:51 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:18:35 -0400",
+  "updated": "2021-09-22 16:20:35 -0400",
   "media": [
     {
       "type": "flag",
@@ -635,6 +635,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -796,6 +804,14 @@
           "estimated": false,
           "info_date": "2016",
           "suffix": "%"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Education expenditures",
@@ -1437,57 +1453,6 @@
           "content": "<p>Revenues of this tiny island - a coral atoll with a land area of 21 square kilometers - traditionally have come from exports of phosphates. Few other resources exist, with most necessities being imported, mainly from Australia, its former occupier and later major source of support. Primary reserves of phosphates were exhausted and mining ceased in 2006, but mining of a deeper layer of \"secondary phosphate\" in the interior of the island began the following year. The secondary phosphate deposits may last another 30 years. Earnings from Nauru’s export of phosphate remains an important source of income. Few comprehensive statistics on the Nauru economy exist; estimates of Nauru's GDP vary widely.</p><p></p><p>The rehabilitation of mined land and the replacement of income from phosphates are serious long-term problems. In anticipation of the exhaustion of Nauru's phosphate deposits, substantial amounts of phosphate income were invested in trust funds to help cushion the transition and provide for Nauru's economic future.</p><p></p><p>Although revenue sources for government are limited, the opening of the Australian Regional Processing Center for asylum seekers since 2012 has sparked growth in the economy. Revenue derived from fishing licenses under the \"vessel day scheme\" has also boosted government income. Housing, hospitals, and other capital plant are deteriorating. The cost to Australia of keeping the Nauruan government and economy afloat continues to climb.</p>"
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "4% (2017 est.)<br><br>10.4% (2016 est.)<br><br>2.8% (2015 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2017",
-              "content": "4% (2017 est.)",
-              "value": "4",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2016",
-              "content": "10.4% (2016 est.)",
-              "value": "10.4",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2015",
-              "content": "2.8% (2015 est.)",
-              "value": "2.8",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "5.1% (2017 est.)<br><br>8.2% (2016 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2017",
-              "content": "5.1% (2017 est.)",
-              "value": "5.1",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2016",
-              "content": "8.2% (2016 est.)",
-              "value": "8.2",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1518,14 +1483,33 @@
           "field_note": "<strong>note:</strong> data are in 2015 dollars"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$114 million (2017 est.)",
-          "value": "114,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "4% (2017 est.)<br><br>10.4% (2016 est.)<br><br>2.8% (2015 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2017",
+              "content": "4% (2017 est.)",
+              "value": "4",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2016",
+              "content": "10.4% (2016 est.)",
+              "value": "10.4",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2015",
+              "content": "2.8% (2015 est.)",
+              "value": "2.8",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1556,6 +1540,38 @@
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2015 US dollars"
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$114 million (2017 est.)",
+          "value": "114,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
+          "comparative": true,
+          "content": "5.1% (2017 est.)<br><br>8.2% (2016 est.)",
+          "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2017",
+              "content": "5.1% (2017 est.)",
+              "value": "5.1",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Inflation rate (consumer prices) 2016",
+              "content": "8.2% (2016 est.)",
+              "value": "8.2",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -1754,16 +1770,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "90.3% (of GDP) (2017 est.)",
-          "value": "90.3",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -1794,6 +1800,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "90.3% (of GDP) (2017 est.)",
+          "value": "90.3",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",

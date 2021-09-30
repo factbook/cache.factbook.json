@@ -2,8 +2,8 @@
   "name": "Dominica",
   "code": "DO",
   "region": "Central America",
-  "published": "2021-09-22 12:11:11 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:06:57 -0400",
+  "updated": "2021-09-22 16:15:35 -0400",
   "media": [
     {
       "type": "flag",
@@ -647,6 +647,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -735,6 +743,14 @@
           "estimated": false,
           "info_date": "2016",
           "suffix": "%"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Education expenditures",
@@ -1386,57 +1402,6 @@
           "content": "The Dominican economy was dependent on agriculture - primarily bananas - in years past, but increasingly has been driven by tourism, as the government seeks to promote Dominica as an \"ecotourism\" destination. However, Hurricane Maria, which passed through the island in September 2017, destroyed much of the country’s agricultural sector and caused damage to all of the country’s transportation and physical infrastructure. Before Hurricane Maria, the government had attempted to foster an offshore financial industry and planned to sign agreements with the private sector to develop geothermal energy resources. At a time when government finances are fragile, the government’s focus has been to get the country back in shape to service cruise ships. The economy contracted in 2015 and recovered to positive growth in 2016 due to a recovery of agriculture and tourism. Dominica suffers from high debt levels, which increased from 67% of GDP in 2010 to 77% in 2016. Dominica is one of five countries in the East Caribbean that have citizenship by investment programs whereby foreigners can obtain passports for a fee and revenue from this contribute to government budgets."
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "-4.7% (2017 est.)<br><br>2.6% (2016 est.)<br><br>-3.7% (2015 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2017",
-              "content": "-4.7% (2017 est.)",
-              "value": "-4.7",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2016",
-              "content": "2.6% (2016 est.)",
-              "value": "2.6",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2015",
-              "content": "-3.7% (2015 est.)",
-              "value": "-3.7",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "0.6% (2017 est.)<br><br>0% (2016 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2017",
-              "content": "0.6% (2017 est.)",
-              "value": "0.6",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2016",
-              "content": "0% (2016 est.)",
-              "value": "0",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1467,14 +1432,33 @@
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$557 million (2017 est.)",
-          "value": "557,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "-4.7% (2017 est.)<br><br>2.6% (2016 est.)<br><br>-3.7% (2015 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2017",
+              "content": "-4.7% (2017 est.)",
+              "value": "-4.7",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2016",
+              "content": "2.6% (2016 est.)",
+              "value": "2.6",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2015",
+              "content": "-3.7% (2015 est.)",
+              "value": "-3.7",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1507,31 +1491,34 @@
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
-          "name": "Gross national saving",
-          "field_id": 212,
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$557 million (2017 est.)",
+          "value": "557,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
           "comparative": true,
-          "content": "10.8% of GDP (2017 est.)<br><br>20% of GDP (2016 est.)<br><br>14.3% of GDP (2015 est.)",
+          "content": "0.6% (2017 est.)<br><br>0% (2016 est.)",
           "subfields": [
             {
-              "name": "Gross national saving 2017",
-              "content": "10.8% of GDP (2017 est.)",
-              "value": "10.8",
+              "name": "Inflation rate (consumer prices) 2017",
+              "content": "0.6% (2017 est.)",
+              "value": "0.6",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             },
             {
-              "name": "Gross national saving 2016",
-              "content": "20% of GDP (2016 est.)",
-              "value": "20",
+              "name": "Inflation rate (consumer prices) 2016",
+              "content": "0% (2016 est.)",
+              "value": "0",
               "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Gross national saving 2015",
-              "content": "14.3% of GDP (2015 est.)",
-              "value": "14.3",
-              "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             }
           ]
         },
@@ -1629,46 +1616,6 @@
               "estimated": true,
               "info_date": "2017",
               "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Ease of Doing Business Index scores",
-          "field_id": 405,
-          "comparative": false,
-          "content": "<strong>Overall score: </strong>60.5 (2020)<br><br><strong>Starting a Business score: </strong>89.3 (2020)<br><br><strong>Trading score: </strong>74.3 (2020)<br><br><strong>Enforcement score: </strong>57.5 (2020)",
-          "subfields": [
-            {
-              "name": "Overall score",
-              "content": "60.5 (2020)",
-              "title": "Overall score",
-              "value": "60.5",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Starting a Business score",
-              "content": "89.3 (2020)",
-              "title": "Starting a Business score",
-              "value": "89.3",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Trading score",
-              "content": "74.3 (2020)",
-              "title": "Trading score",
-              "value": "74.3",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Enforcement score",
-              "content": "57.5 (2020)",
-              "title": "Enforcement score",
-              "value": "57.5",
-              "estimated": false,
-              "info_date": "2020"
             }
           ]
         },
@@ -1807,16 +1754,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "40.9% (of GDP) (2017 est.)",
-          "value": "40.9",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -1847,6 +1784,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "40.9% (of GDP) (2017 est.)",
+          "value": "40.9",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",

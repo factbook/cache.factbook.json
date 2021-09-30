@@ -2,8 +2,8 @@
   "name": "Syria",
   "code": "SY",
   "region": "Middle East",
-  "published": "2021-09-22 12:28:41 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:22:41 -0400",
+  "updated": "2021-09-23 13:25:11 -0400",
   "media": [
     {
       "type": "flag",
@@ -743,6 +743,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -789,6 +797,14 @@
               "suffix": "% of population"
             }
           ]
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Physicians density",
@@ -895,6 +911,14 @@
           "estimated": false,
           "info_date": "2016",
           "suffix": "%"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Education expenditures",
@@ -1662,51 +1686,6 @@
           "content": "<p>Syria's economy has deeply deteriorated amid the ongoing conflict that began in 2011, declining by more than 70% from 2010 to 2017. The government has struggled to fully address the effects of international sanctions, widespread infrastructure damage, diminished domestic consumption and production, reduced subsidies, and high inflation, which have caused dwindling foreign exchange reserves, rising budget and trade deficits, a decreasing value of the Syrian pound, and falling household purchasing power. In 2017, some economic indicators began to stabilize, including the exchange rate and inflation, but economic activity remains depressed and GDP almost certainly fell.</p><p></p><p>During 2017, the ongoing conflict and continued unrest and economic decline worsened the humanitarian crisis, necessitating high levels of international assistance, as more than 13 million people remain in need inside Syria, and the number of registered Syrian refugees increased from 4.8 million in 2016 to more than 5.4 million.</p><p></p><p>Prior to the turmoil, Damascus had begun liberalizing economic policies, including cutting lending interest rates, opening private banks, consolidating multiple exchange rates, raising prices on some subsidized items, and establishing the Damascus Stock Exchange, but the economy remains highly regulated. Long-run economic constraints include foreign trade barriers, declining oil production, high unemployment, rising budget deficits, increasing pressure on water supplies caused by heavy use in agriculture, industrial contaction, water pollution, and widespread infrastructure damage.</p>"
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "-36.5% (2014 est.)<br><br>-30.9% (2013 est.)<br><br><strong>note:</strong> data are in 2015 dollars",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2014",
-              "content": "-36.5% (2014 est.)",
-              "value": "-36.5",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2013",
-              "content": "-30.9% (2013 est.)",
-              "value": "-30.9",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ],
-          "field_note": "<strong>note:</strong> data are in 2015 dollars"
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "28.1% (2017 est.)<br><br>47.3% (2016 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2017",
-              "content": "28.1% (2017 est.)",
-              "value": "28.1",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2016",
-              "content": "47.3% (2016 est.)",
-              "value": "47.3",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1737,14 +1716,27 @@
           "field_note": "<strong>note:</strong> data are in 2015 US dollars<br />the war-driven deterioration of the economy resulted in a disappearance of quality national level statistics in the 2012-13 period"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$24.6 billion (2014 est.)",
-          "value": "24,600,000,000",
-          "estimated": true,
-          "info_date": "2014",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "-36.5% (2014 est.)<br><br>-30.9% (2013 est.)<br><br><strong>note:</strong> data are in 2015 dollars",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2014",
+              "content": "-36.5% (2014 est.)",
+              "value": "-36.5",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2013",
+              "content": "-30.9% (2013 est.)",
+              "value": "-30.9",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ],
+          "field_note": "<strong>note:</strong> data are in 2015 dollars"
         },
         {
           "name": "Real GDP per capita",
@@ -1777,31 +1769,34 @@
           "field_note": "<strong>note:</strong> data are in 2015 US dollars"
         },
         {
-          "name": "Gross national saving",
-          "field_id": 212,
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$24.6 billion (2014 est.)",
+          "value": "24,600,000,000",
+          "estimated": true,
+          "info_date": "2014",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
           "comparative": true,
-          "content": "17% of GDP (2017 est.)<br><br>15.3% of GDP (2016 est.)<br><br>16.1% of GDP (2015 est.)",
+          "content": "28.1% (2017 est.)<br><br>47.3% (2016 est.)",
           "subfields": [
             {
-              "name": "Gross national saving 2017",
-              "content": "17% of GDP (2017 est.)",
-              "value": "17",
+              "name": "Inflation rate (consumer prices) 2017",
+              "content": "28.1% (2017 est.)",
+              "value": "28.1",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             },
             {
-              "name": "Gross national saving 2016",
-              "content": "15.3% of GDP (2016 est.)",
-              "value": "15.3",
+              "name": "Inflation rate (consumer prices) 2016",
+              "content": "47.3% (2016 est.)",
+              "value": "47.3",
               "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Gross national saving 2015",
-              "content": "16.1% of GDP (2015 est.)",
-              "value": "16.1",
-              "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             }
           ]
         },
@@ -1899,46 +1894,6 @@
               "estimated": true,
               "info_date": "2017",
               "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Ease of Doing Business Index scores",
-          "field_id": 405,
-          "comparative": false,
-          "content": "<strong>Overall score: </strong>42 (2020)<br><br><strong>Starting a Business score: </strong>80.1 (2020)<br><br><strong>Trading score: </strong>29.8 (2020)<br><br><strong>Enforcement score: </strong>42.6 (2020)",
-          "subfields": [
-            {
-              "name": "Overall score",
-              "content": "42 (2020)",
-              "title": "Overall score",
-              "value": "42",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Starting a Business score",
-              "content": "80.1 (2020)",
-              "title": "Starting a Business score",
-              "value": "80.1",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Trading score",
-              "content": "29.8 (2020)",
-              "title": "Trading score",
-              "value": "29.8",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Enforcement score",
-              "content": "42.6 (2020)",
-              "title": "Enforcement score",
-              "value": "42.6",
-              "estimated": false,
-              "info_date": "2020"
             }
           ]
         },
@@ -2084,16 +2039,6 @@
           "field_note": "<strong>note:</strong> government projections for FY2016"
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "4.2% (of GDP) (2017 est.)",
-          "value": "4.2",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -2124,6 +2069,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "4.2% (of GDP) (2017 est.)",
+          "value": "4.2",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",
@@ -3013,6 +2968,11 @@
           "content": "Syrian Armed Forces: Syrian Arab Army (includes Republican Guard), Syrian Naval Forces, Syrian Air Forces, Syrian Air Defense Forces, National Defense Forces (pro-government militia and auxiliary forces) (2021)<br><br>note: the Syrian government is working to demobilize militias or integrate them into its regular forces",
           "info_date": "2021",
           "field_note": "note: the Syrian government is working to demobilize militias or integrate them into its regular forces"
+        },
+        {
+          "name": "Military expenditures",
+          "field_id": 330,
+          "content": "not available"
         },
         {
           "name": "Military and security service personnel strengths",

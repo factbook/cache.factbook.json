@@ -2,8 +2,8 @@
   "name": "Gibraltar",
   "code": "GI",
   "region": "Europe",
-  "published": "2021-09-22 12:14:41 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:10:17 -0400",
+  "updated": "2021-09-23 13:19:30 -0400",
   "media": [
     {
       "type": "flag",
@@ -683,6 +683,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -717,6 +725,14 @@
               "suffix": "% of population"
             }
           ]
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Sanitation facility access",
@@ -774,6 +790,14 @@
           "field_id": 365,
           "comparative": true,
           "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
           "subfield_note": "NA"
         },
         {
@@ -1196,28 +1220,6 @@
           "content": "<p>Self-sufficient Gibraltar benefits from an extensive shipping trade, offshore banking, and its position as an international conference center. Tax rates are low to attract foreign investment. The British military presence has been sharply reduced and now contributes about 7% to the local economy, compared with 60% in 1984. In recent years, Gibraltar has seen major structural change from a public to a private sector economy, but changes in government spending still have a major impact on the level of employment.</p><p></p><p>The financial sector, tourism (over 11 million visitors in 2012), gaming revenues, shipping services fees, and duties on consumer goods also generate revenue. The financial sector, tourism, and the shipping sector contribute 30%, 30%, and 25%, respectively, of GDP. Telecommunications, e-commerce, and e-gaming account for the remaining 15%.</p>"
         },
         {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "2.5% (2013 est.)<br><br>2.2% (2012 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2013",
-              "content": "2.5% (2013 est.)",
-              "value": "2.5",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2012",
-              "content": "2.2% (2012 est.)",
-              "value": "2.2",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1248,16 +1250,6 @@
           "field_note": "<strong>note:</strong> data are in 2014 dollars"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$2.044 billion (2014 est.)",
-          "value": "2,044,000,000",
-          "estimated": true,
-          "info_date": "2014",
-          "prefix": "$"
-        },
-        {
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
@@ -1283,6 +1275,38 @@
               "value": "41,200",
               "estimated": true,
               "prefix": "$"
+            }
+          ]
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$2.044 billion (2014 est.)",
+          "value": "2,044,000,000",
+          "estimated": true,
+          "info_date": "2014",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
+          "comparative": true,
+          "content": "2.5% (2013 est.)<br><br>2.2% (2012 est.)",
+          "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2013",
+              "content": "2.5% (2013 est.)",
+              "value": "2.5",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Inflation rate (consumer prices) 2012",
+              "content": "2.2% (2012 est.)",
+              "value": "2.2",
+              "estimated": true,
+              "suffix": "%"
             }
           ]
         },
@@ -1451,16 +1475,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "23.3% (of GDP) (2008 est.)",
-          "value": "23.3",
-          "estimated": true,
-          "info_date": "2008",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -1491,6 +1505,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "23.3% (of GDP) (2008 est.)",
+          "value": "23.3",
+          "estimated": true,
+          "info_date": "2008",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",

@@ -2,8 +2,8 @@
   "name": "World",
   "code": "XX",
   "region": "",
-  "published": "2021-09-22 12:36:06 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:29:40 -0400",
+  "updated": "2021-09-22 16:25:40 -0400",
   "media": [
     {
       "type": "map",
@@ -845,6 +845,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -982,6 +990,14 @@
           "name": "Major infectious diseases",
           "field_id": 366,
           "content": "<strong>note:</strong> widespread ongoing transmission of a respiratory illness caused by the novel coronavirus (COVID-19) is occurring globally; older adults and people of any age with serious chronic medical conditions are at increased risk for severe disease; some health care systems are becoming overwhelmed and there may be limited access to adequate medical care in affected areas; many countries are implementing travel restrictions and mandatory quarantines, closing borders, and prohibiting non-citizens from entry with little advance notice; US residents may have difficulty returning to the United States; as of 19 July 2021, 190,671,330 <span class=\"sc-AxmLO llTkUY\">confirmed </span>cases of COVID-19 and <span style=\"left: 838.56px; top: 626.51px; font-family: sans-serif; font-size: 18.4px; transform: scaleX(0.89745);\">4,098,758 </span>deaths have been reported to the World Health Organization; as of 19 July 2021, 26.5% of the World population has received at least one dose of COVID-19 vaccine"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Education expenditures",
@@ -1270,58 +1286,6 @@
           ]
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "3.7% (2017 est.)<br><br>3.2% (2016 est.)<br><br>3.3% (2014 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2017",
-              "content": "3.7% (2017 est.)",
-              "value": "3.7",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2016",
-              "content": "3.2% (2016 est.)",
-              "value": "3.2",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2014",
-              "content": "3.3% (2014 est.)",
-              "value": "3.3",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "6.4% (2017 est.)<br><br>3.7% (2016 est.)<br><br><strong>developed countries:</strong> 1.9% (2017 est.) 0.9% (2016 est.)<br /><br /><strong>developing countries: </strong>8.8% (2017 est.) 3.7% (2016 est.)<br /><br /><strong>note:</strong> the above estimates are weighted averages; inflation in developed countries is 0% to 4% typically, in developing countries, 4% to 10% typically; national inflation rates vary widely in individual cases; inflation rates have declined for most countries for the last several years, held in check by increasing international competition from several low wage countries and by soft demand due to the world financial crisis",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2017",
-              "content": "6.4% (2017 est.)",
-              "value": "6.4",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2016",
-              "content": "3.7% (2016 est.)",
-              "value": "3.7",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ],
-          "field_note": "<strong>developed countries:</strong> 1.9% (2017 est.) 0.9% (2016 est.)<br /><br /><strong>developing countries: </strong>8.8% (2017 est.) 3.7% (2016 est.)<br /><br /><strong>note:</strong> the above estimates are weighted averages; inflation in developed countries is 0% to 4% typically, in developing countries, 4% to 10% typically; national inflation rates vary widely in individual cases; inflation rates have declined for most countries for the last several years, held in check by increasing international competition from several low wage countries and by soft demand due to the world financial crisis"
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1352,15 +1316,33 @@
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$80.27 trillion SGWP (gross world product) (2017 est.)",
-          "value": "80,270,000,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "prefix": "$",
-          "subfield_note": "SGWP (gross world product)"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "3.7% (2017 est.)<br><br>3.2% (2016 est.)<br><br>3.3% (2014 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2017",
+              "content": "3.7% (2017 est.)",
+              "value": "3.7",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2016",
+              "content": "3.2% (2016 est.)",
+              "value": "3.2",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2014",
+              "content": "3.3% (2014 est.)",
+              "value": "3.3",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1393,33 +1375,38 @@
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
-          "name": "Gross national saving",
-          "field_id": 212,
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$80.27 trillion SGWP (gross world product) (2017 est.)",
+          "value": "80,270,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "prefix": "$",
+          "subfield_note": "SGWP (gross world product)"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
           "comparative": true,
-          "content": "27.9% of GDP (2017 est.)<br><br>27.4% of GDP (2016 est.)<br><br>27.8% of GDP (2015 est.)",
+          "content": "6.4% (2017 est.)<br><br>3.7% (2016 est.)<br><br><strong>developed countries:</strong> 1.9% (2017 est.) 0.9% (2016 est.)<br /><br /><strong>developing countries: </strong>8.8% (2017 est.) 3.7% (2016 est.)<br /><br /><strong>note:</strong> the above estimates are weighted averages; inflation in developed countries is 0% to 4% typically, in developing countries, 4% to 10% typically; national inflation rates vary widely in individual cases; inflation rates have declined for most countries for the last several years, held in check by increasing international competition from several low wage countries and by soft demand due to the world financial crisis",
           "subfields": [
             {
-              "name": "Gross national saving 2017",
-              "content": "27.9% of GDP (2017 est.)",
-              "value": "27.9",
+              "name": "Inflation rate (consumer prices) 2017",
+              "content": "6.4% (2017 est.)",
+              "value": "6.4",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             },
             {
-              "name": "Gross national saving 2016",
-              "content": "27.4% of GDP (2016 est.)",
-              "value": "27.4",
+              "name": "Inflation rate (consumer prices) 2016",
+              "content": "3.7% (2016 est.)",
+              "value": "3.7",
               "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Gross national saving 2015",
-              "content": "27.8% of GDP (2015 est.)",
-              "value": "27.8",
-              "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             }
-          ]
+          ],
+          "field_note": "<strong>developed countries:</strong> 1.9% (2017 est.) 0.9% (2016 est.)<br /><br /><strong>developing countries: </strong>8.8% (2017 est.) 3.7% (2016 est.)<br /><br /><strong>note:</strong> the above estimates are weighted averages; inflation in developed countries is 0% to 4% typically, in developing countries, 4% to 10% typically; national inflation rates vary widely in individual cases; inflation rates have declined for most countries for the last several years, held in check by increasing international competition from several low wage countries and by soft demand due to the world financial crisis"
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -1665,16 +1652,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "26.7% (of GDP) (2016 est.)",
-          "value": "26.7",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -1705,6 +1682,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "26.7% (of GDP) (2016 est.)",
+          "value": "26.7",
+          "estimated": true,
+          "info_date": "2016",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Exports",

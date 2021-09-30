@@ -2,8 +2,8 @@
   "name": "Puerto Rico",
   "code": "RQ",
   "region": "Central America",
-  "published": "2021-09-22 12:26:30 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:20:47 -0400",
+  "updated": "2021-09-23 13:23:40 -0400",
   "media": [
     {
       "type": "flag",
@@ -854,6 +854,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -876,6 +884,14 @@
               "suffix": "% of population"
             }
           ]
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Physicians density",
@@ -931,6 +947,14 @@
           "field_id": 365,
           "comparative": true,
           "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
           "subfield_note": "NA"
         },
         {
@@ -1582,6 +1606,36 @@
           "content": "<p>Puerto Rico had one of the most dynamic economies in the Caribbean region until 2006; however, growth has been negative for each of the last 11 years. The downturn coincided with the phaseout of tax preferences that had led US firms to invest heavily in the Commonwealth since the 1950s, and a steep rise in the price of oil, which generates most of the island's electricity.</p><p></p><p>Diminished job opportunities prompted a sharp rise in outmigration, as many Puerto Ricans sought jobs on the US mainland. Unemployment reached 16% in 2011, but declined to 11.5% in December 2017. US minimum wage laws apply in Puerto Rico, hampering job expansion. Per capita income is about two-thirds that of the US mainland.</p><p></p><p>The industrial sector greatly exceeds agriculture as the locus of economic activity and income. Tourism has traditionally been an important source of income with estimated arrivals of more than 3.6 million tourists in 2008. Puerto Rico's merchandise trade surplus is exceptionally strong, with exports nearly 50% greater than imports, and its current account surplus about 10% of GDP.</p><p></p><p>Closing the budget deficit while restoring economic growth and employment remain the central concerns of the government. The gap between revenues and expenditures amounted to 0.6% of GDP in 2016, although analysts believe that not all expenditures have been accounted for in the budget and a better accounting of costs would yield an overall deficit of roughly 5% of GDP. Public debt remained steady at 92.5% of GDP in 2017, about $17,000 per person, or nearly three times the per capita debt of the State of Connecticut, the highest in the US. Much of that debt was issued by state-run schools and public corporations, including water and electric utilities. In June 2015, Governor Alejandro GARCIA Padilla announced that the island could not pay back at least $73 billion in debt and that it would seek a deal with its creditors.</p><p></p><p>Hurricane Maria hit Puerto Rico square on in September 2017, causing electrical power outages to 90% of the territory, as well as extensive loss of housing and infrastructure and contamination of potable water. Despite massive efforts, more than 40% of the territory remained without electricity as of yearend 2017. As a result of the destruction, many Puerto Ricans have emigrated to the US mainland.</p>"
         },
         {
+          "name": "Real GDP (purchasing power parity)",
+          "field_id": 208,
+          "comparative": true,
+          "content": "$110.238 billion (2019 est.)<br><br>$108.944 billion (2018 est.)<br><br>$114.269 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "subfields": [
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$110.238 billion (2019 est.)",
+              "value": "110,238,000,000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2018",
+              "content": "$108.944 billion (2018 est.)",
+              "value": "108,944,000,000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2017",
+              "content": "$114.269 billion (2017 est.)",
+              "value": "114,269,000,000",
+              "estimated": true,
+              "prefix": "$"
+            }
+          ],
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
+        },
+        {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
@@ -1609,6 +1663,46 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Real GDP per capita",
+          "field_id": 211,
+          "comparative": true,
+          "content": "$34,518 (2019 est.)<br><br>$34,116 (2018 est.)<br><br>$34,364 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "subfields": [
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$34,518 (2019 est.)",
+              "value": "34,518",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP per capita 2018",
+              "content": "$34,116 (2018 est.)",
+              "value": "34,116",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP per capita 2017",
+              "content": "$34,364 (2017 est.)",
+              "value": "34,364",
+              "estimated": true,
+              "prefix": "$"
+            }
+          ],
+          "field_note": "<strong>note:</strong> data are in 2017 dollars"
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$104.2 billion (2017 est.)",
+          "value": "104,200,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "prefix": "$"
         },
         {
           "name": "Inflation rate (consumer prices)",
@@ -1646,76 +1740,6 @@
               "info_date": "(2015)"
             }
           ]
-        },
-        {
-          "name": "Real GDP (purchasing power parity)",
-          "field_id": 208,
-          "comparative": true,
-          "content": "$110.238 billion (2019 est.)<br><br>$108.944 billion (2018 est.)<br><br>$114.269 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
-          "subfields": [
-            {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$110.238 billion (2019 est.)",
-              "value": "110,238,000,000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$108.944 billion (2018 est.)",
-              "value": "108,944,000,000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$114.269 billion (2017 est.)",
-              "value": "114,269,000,000",
-              "estimated": true,
-              "prefix": "$"
-            }
-          ],
-          "field_note": "<strong>note:</strong> data are in 2017 dollars"
-        },
-        {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$104.2 billion (2017 est.)",
-          "value": "104,200,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "prefix": "$"
-        },
-        {
-          "name": "Real GDP per capita",
-          "field_id": 211,
-          "comparative": true,
-          "content": "$34,518 (2019 est.)<br><br>$34,116 (2018 est.)<br><br>$34,364 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
-          "subfields": [
-            {
-              "name": "Real GDP per capita 2019",
-              "content": "$34,518 (2019 est.)",
-              "value": "34,518",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2018",
-              "content": "$34,116 (2018 est.)",
-              "value": "34,116",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$34,364 (2017 est.)",
-              "value": "34,364",
-              "estimated": true,
-              "prefix": "$"
-            }
-          ],
-          "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -1811,46 +1835,6 @@
               "estimated": true,
               "info_date": "2017",
               "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Ease of Doing Business Index scores",
-          "field_id": 405,
-          "comparative": false,
-          "content": "<strong>Overall score: </strong>70.1 (2020)<br><br><strong>Starting a Business score: </strong>91.2 (2020)<br><br><strong>Trading score: </strong>81.9 (2020)<br><br><strong>Enforcement score: </strong>61.8 (2020)",
-          "subfields": [
-            {
-              "name": "Overall score",
-              "content": "70.1 (2020)",
-              "title": "Overall score",
-              "value": "70.1",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Starting a Business score",
-              "content": "91.2 (2020)",
-              "title": "Starting a Business score",
-              "value": "91.2",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Trading score",
-              "content": "81.9 (2020)",
-              "title": "Trading score",
-              "value": "81.9",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Enforcement score",
-              "content": "61.8 (2020)",
-              "title": "Enforcement score",
-              "value": "61.8",
-              "estimated": false,
-              "info_date": "2020"
             }
           ]
         },
@@ -1993,16 +1977,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "8.9% (of GDP) (2017 est.)",
-          "value": "8.9",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -2033,6 +2007,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "8.9% (of GDP) (2017 est.)",
+          "value": "8.9",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",

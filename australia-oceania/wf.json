@@ -2,8 +2,8 @@
   "name": "Wallis and Futuna",
   "code": "WF",
   "region": "Australia - Oceania",
-  "published": "2021-09-22 12:35:34 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:29:18 -0400",
+  "updated": "2021-09-23 13:26:15 -0400",
   "media": [
     {
       "type": "flag",
@@ -632,6 +632,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -666,6 +674,14 @@
               "suffix": "% of population"
             }
           ]
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Sanitation facility access",
@@ -753,6 +769,14 @@
               "info_date": "(2020)"
             }
           ]
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Education expenditures",
@@ -1192,9 +1216,50 @@
           "content": "<p>The economy is limited to traditional subsistence agriculture, with about 80% of labor force earnings coming from agriculture (coconuts and vegetables), livestock (mostly pigs), and fishing. However, roughly 70% of the labor force is employed in the public sector, although only about a third of the population is in salaried employment.</p><p></p><p>Revenues come from French Government subsidies, licensing of fishing rights to Japan and South Korea, import taxes, and remittances from expatriate workers in New Caledonia. France directly finances the public sector and health-care and education services. It also provides funding for key development projects in a range of areas, including infrastructure, economic development, environmental management, and health-care facilities.</p><p></p><p>A key concern for Wallis and Futuna is an aging population with consequent economic development issues. Very few people aged 18-30 live on the islands due to the limited formal employment opportunities. Improving job creation is a current priority for the territorial government.</p>"
         },
         {
+          "name": "Real GDP (purchasing power parity)",
+          "field_id": 208,
+          "comparative": true,
+          "content": "$60 million (2004 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP (purchasing power parity) 2004",
+              "content": "$60 million (2004 est.)",
+              "value": "60,000,000",
+              "estimated": true,
+              "prefix": "$"
+            }
+          ]
+        },
+        {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "content": "<p>NA</p>"
+        },
+        {
+          "name": "Real GDP per capita",
+          "field_id": 211,
+          "comparative": true,
+          "content": "$3,800 (2004 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP per capita 2004",
+              "content": "$3,800 (2004 est.)",
+              "value": "3,800",
+              "estimated": true,
+              "prefix": "$"
+            }
+          ]
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$195 million (2005) (2005)",
+          "value": "195,000,000",
+          "estimated": false,
+          "info_date": "2005",
+          "prefix": "$",
+          "subfield_note": "(2005)"
         },
         {
           "name": "Inflation rate (consumer prices)",
@@ -1215,47 +1280,6 @@
               "value": "2.8",
               "estimated": false,
               "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Real GDP (purchasing power parity)",
-          "field_id": 208,
-          "comparative": true,
-          "content": "$60 million (2004 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP (purchasing power parity) 2004",
-              "content": "$60 million (2004 est.)",
-              "value": "60,000,000",
-              "estimated": true,
-              "prefix": "$"
-            }
-          ]
-        },
-        {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$195 million (2005) (2005)",
-          "value": "195,000,000",
-          "estimated": false,
-          "info_date": "2005",
-          "prefix": "$",
-          "subfield_note": "(2005)"
-        },
-        {
-          "name": "Real GDP per capita",
-          "field_id": 211,
-          "comparative": true,
-          "content": "$3,800 (2004 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP per capita 2004",
-              "content": "$3,800 (2004 est.)",
-              "value": "3,800",
-              "estimated": true,
-              "prefix": "$"
             }
           ]
         },
@@ -1453,17 +1477,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "16.7% (of GDP) NA (2015 est.)",
-          "value": "16.7",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "% (of GDP)",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -1489,6 +1502,17 @@
             }
           ],
           "field_note": "<strong>note:</strong> offical data; data cover general government debt and include debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities; the data include debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are not sold at public auctions"
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "16.7% (of GDP) NA (2015 est.)",
+          "value": "16.7",
+          "estimated": true,
+          "info_date": "2015",
+          "suffix": "% (of GDP)",
+          "subfield_note": "NA"
         },
         {
           "name": "Fiscal year",

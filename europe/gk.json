@@ -2,8 +2,8 @@
   "name": "Guernsey",
   "code": "GK",
   "region": "Europe",
-  "published": "2021-09-22 12:14:48 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:10:26 -0400",
+  "updated": "2021-09-23 13:19:54 -0400",
   "media": [
     {
       "type": "flag",
@@ -635,6 +635,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -658,6 +666,14 @@
             }
           ],
           "field_note": "<strong>note</strong>: includes data for Jersey"
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Sanitation facility access",
@@ -704,6 +720,14 @@
           "field_id": 365,
           "comparative": true,
           "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
           "subfield_note": "NA"
         },
         {
@@ -1113,50 +1137,6 @@
           "content": "Financial services accounted for about 21% of employment and about 32% of total income in 2016 in this tiny, prosperous Channel Island economy. Construction, manufacturing, and horticulture, mainly tomatoes and cut flowers, have been declining. Financial services, professional services, tourism, retail, and the public sector have been growing. Light tax and death duties make Guernsey a popular offshore financial center."
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "0.4% (2015 est.)<br><br>1.2% (2014 est.)<br><br>4.2% (2012 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2015",
-              "content": "0.4% (2015 est.)",
-              "value": "0.4",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2014",
-              "content": "1.2% (2014 est.)",
-              "value": "1.2",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2012",
-              "content": "4.2% (2012 est.)",
-              "value": "4.2",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "3.4% (June 2006 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) June 2006",
-              "content": "3.4% (June 2006 est.)",
-              "value": "3.4",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1187,14 +1167,33 @@
           "field_note": "<strong>note:</strong> data are in 2015 dollars"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$2.742 billion (2005 est.)",
-          "value": "2,742,000,000",
-          "estimated": true,
-          "info_date": "2005",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "0.4% (2015 est.)<br><br>1.2% (2014 est.)<br><br>4.2% (2012 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2015",
+              "content": "0.4% (2015 est.)",
+              "value": "0.4",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2014",
+              "content": "1.2% (2014 est.)",
+              "value": "1.2",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2012",
+              "content": "4.2% (2012 est.)",
+              "value": "4.2",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1208,6 +1207,31 @@
               "value": "52,500",
               "estimated": true,
               "prefix": "$"
+            }
+          ]
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$2.742 billion (2005 est.)",
+          "value": "2,742,000,000",
+          "estimated": true,
+          "info_date": "2005",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
+          "comparative": true,
+          "content": "3.4% (June 2006 est.)",
+          "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) June 2006",
+              "content": "3.4% (June 2006 est.)",
+              "value": "3.4",
+              "estimated": true,
+              "suffix": "%"
             }
           ]
         },
@@ -1345,21 +1369,21 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "20.6% (of GDP) (2005)",
-          "value": "20.6",
-          "estimated": false,
-          "info_date": "2005",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
           "content": "1.2% (of GDP) (2005)",
           "value": "1.2",
+          "estimated": false,
+          "info_date": "2005",
+          "suffix": "% (of GDP)"
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "20.6% (of GDP) (2005)",
+          "value": "20.6",
           "estimated": false,
           "info_date": "2005",
           "suffix": "% (of GDP)"

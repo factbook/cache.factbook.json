@@ -2,8 +2,8 @@
   "name": "Jersey",
   "code": "JE",
   "region": "Europe",
-  "published": "2021-09-22 12:18:54 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:14:27 -0400",
+  "updated": "2021-09-23 13:20:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -676,6 +676,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -699,6 +707,14 @@
             }
           ],
           "field_note": "<strong>note</strong>: includes data for Guernsey"
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Sanitation facility access",
@@ -744,6 +760,14 @@
           "field_id": 365,
           "comparative": true,
           "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
           "subfield_note": "NA"
         },
         {
@@ -1216,43 +1240,6 @@
           "content": "Jersey's economy is based on international financial services, agriculture, and tourism. In 2016, the financial services sector accounted for about 41% of the island's output. Agriculture represented about 1% of Jersey’s economy in 2016. Potatoes are an important export crop, shipped mostly to the UK. The Jersey breed of dairy cattle originated on the island and is known worldwide. The dairy industry remains important to the island with approximately $8.8 million gallons of milk produced in 2015. Tourism accounts for a significant portion of Jersey’s economy, with more than 700,000 total visitors in 2015. Living standards come close to those of the UK. All raw material and energy requirements are imported as well as a large share of Jersey's food needs. Light taxes and death duties make the island a popular offshore financial center. Jersey maintains its relationship with the EU through the UK. Therefore, in light of the UK’s decision to leave the EU, Jersey will also need to renegotiate its ties to the EU."
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "1% (2016 est.)<br><br>10.7% (2015 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2016",
-              "content": "1% (2016 est.)",
-              "value": "1",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2015",
-              "content": "10.7% (2015 est.)",
-              "value": "10.7",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "3.7% (2006)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2006",
-              "content": "3.7% (2006)",
-              "value": "3.7",
-              "estimated": false,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1283,14 +1270,26 @@
           "field_note": "<strong>note:</strong> data are in 2015 US dollars"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$5.004 billion (2015 est.)",
-          "value": "5,004,000,000",
-          "estimated": true,
-          "info_date": "2015",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "1% (2016 est.)<br><br>10.7% (2015 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2016",
+              "content": "1% (2016 est.)",
+              "value": "1",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2015",
+              "content": "10.7% (2015 est.)",
+              "value": "10.7",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1311,6 +1310,31 @@
               "value": "49,500",
               "estimated": true,
               "prefix": "$"
+            }
+          ]
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$5.004 billion (2015 est.)",
+          "value": "5,004,000,000",
+          "estimated": true,
+          "info_date": "2015",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
+          "comparative": true,
+          "content": "3.7% (2006)",
+          "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2006",
+              "content": "3.7% (2006)",
+              "value": "3.7",
+              "estimated": false,
+              "suffix": "%"
             }
           ]
         },
@@ -1506,21 +1530,21 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "16.6% (of GDP) (2005)",
-          "value": "16.6",
-          "estimated": false,
-          "info_date": "2005",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
           "content": "-0.4% (of GDP) (2005)",
           "value": "-0.4",
+          "estimated": false,
+          "info_date": "2005",
+          "suffix": "% (of GDP)"
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "16.6% (of GDP) (2005)",
+          "value": "16.6",
           "estimated": false,
           "info_date": "2005",
           "suffix": "% (of GDP)"

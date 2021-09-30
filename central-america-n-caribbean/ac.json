@@ -2,8 +2,8 @@
   "name": "Antigua and Barbuda",
   "code": "AC",
   "region": "Central America",
-  "published": "2021-09-22 12:03:59 -0400",
-  "updated": "2021-09-22 09:58:22 -0400",
+  "published": "2021-09-29 12:00:17 -0400",
+  "updated": "2021-09-22 15:36:50 -0400",
   "media": [
     {
       "type": "flag",
@@ -712,6 +712,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -826,6 +834,14 @@
           "estimated": false,
           "info_date": "2016",
           "suffix": "%"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Education expenditures",
@@ -1531,57 +1547,6 @@
           "content": "<p>Tourism continues to dominate Antigua and Barbuda's economy, accounting for nearly 60% of GDP and 40% of investment. The dual-island nation's agricultural production is focused on the domestic market and constrained by a limited water supply and a labor shortage stemming from the lure of higher wages in tourism and construction. Manufacturing comprises enclave-type assembly for export with major products being bedding, handicrafts, and electronic components.</p><p></p><p>Like other countries in the region, Antigua's economy was severely hit by effects of the global economic recession in 2009. The country suffered from the collapse of its largest private sector employer, a steep decline in tourism, a rise in debt, and a sharp economic contraction between 2009 and 2011. Antigua has not yet returned to its pre-crisis growth levels. Barbuda suffered significant damages after hurricanes Irma and Maria passed through the Caribbean in 2017.</p><p></p><p>Prospects for economic growth in the medium term will continue to depend on tourist arrivals from the US, Canada, and Europe and could be disrupted by potential damage from natural disasters. The new government, elected in 2014 and led by Prime Minister Gaston Browne, continues to face significant fiscal challenges. The government places some hope in a new Citizenship by Investment Program, to both reduce public debt levels and spur growth, and a resolution of a WTO dispute with the US.</p>"
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "2.8% (2017 est.)<br><br>5.3% (2016 est.)<br><br>4.1% (2015 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2017",
-              "content": "2.8% (2017 est.)",
-              "value": "2.8",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2016",
-              "content": "5.3% (2016 est.)",
-              "value": "5.3",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2015",
-              "content": "4.1% (2015 est.)",
-              "value": "4.1",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "2.5% (2017 est.)<br><br>-0.5% (2016 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2017",
-              "content": "2.5% (2017 est.)",
-              "value": "2.5",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2016",
-              "content": "-0.5% (2016 est.)",
-              "value": "-0.5",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1612,14 +1577,33 @@
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$1.524 billion (2017 est.)",
-          "value": "1,524,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "2.8% (2017 est.)<br><br>5.3% (2016 est.)<br><br>4.1% (2015 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2017",
+              "content": "2.8% (2017 est.)",
+              "value": "2.8",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2016",
+              "content": "5.3% (2016 est.)",
+              "value": "5.3",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2015",
+              "content": "4.1% (2015 est.)",
+              "value": "4.1",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1652,31 +1636,34 @@
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
         },
         {
-          "name": "Gross national saving",
-          "field_id": 212,
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$1.524 billion (2017 est.)",
+          "value": "1,524,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
           "comparative": true,
-          "content": "19.2% of GDP (2018 est.)<br><br>17.5% of GDP (2017 est.)<br><br>24.5% of GDP (2016 est.)",
+          "content": "2.5% (2017 est.)<br><br>-0.5% (2016 est.)",
           "subfields": [
             {
-              "name": "Gross national saving 2018",
-              "content": "19.2% of GDP (2018 est.)",
-              "value": "19.2",
+              "name": "Inflation rate (consumer prices) 2017",
+              "content": "2.5% (2017 est.)",
+              "value": "2.5",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             },
             {
-              "name": "Gross national saving 2017",
-              "content": "17.5% of GDP (2017 est.)",
-              "value": "17.5",
+              "name": "Inflation rate (consumer prices) 2016",
+              "content": "-0.5% (2016 est.)",
+              "value": "-0.5",
               "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Gross national saving 2016",
-              "content": "24.5% of GDP (2016 est.)",
-              "value": "24.5",
-              "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             }
           ]
         },
@@ -1774,46 +1761,6 @@
               "estimated": true,
               "info_date": "2017",
               "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Ease of Doing Business Index scores",
-          "field_id": 405,
-          "comparative": false,
-          "content": "<strong>Overall score: </strong>60.3 (2020)<br><br><strong>Starting a Business score: </strong>82.6 (2020)<br><br><strong>Trading score: </strong>68.7 (2020)<br><br><strong>Enforcement score: </strong>68.1 (2020)",
-          "subfields": [
-            {
-              "name": "Overall score",
-              "content": "60.3 (2020)",
-              "title": "Overall score",
-              "value": "60.3",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Starting a Business score",
-              "content": "82.6 (2020)",
-              "title": "Starting a Business score",
-              "value": "82.6",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Trading score",
-              "content": "68.7 (2020)",
-              "title": "Trading score",
-              "value": "68.7",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
-              "name": "Enforcement score",
-              "content": "68.1 (2020)",
-              "title": "Enforcement score",
-              "value": "68.1",
-              "estimated": false,
-              "info_date": "2020"
             }
           ]
         },
@@ -1949,16 +1896,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "19.6% (of GDP) (2017 est.)",
-          "value": "19.6",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -1989,6 +1926,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "19.6% (of GDP) (2017 est.)",
+          "value": "19.6",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",

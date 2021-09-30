@@ -2,8 +2,8 @@
   "name": "British Virgin Islands",
   "code": "VI",
   "region": "Central America",
-  "published": "2021-09-22 12:34:33 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:28:20 -0400",
+  "updated": "2021-09-23 13:17:21 -0400",
   "media": [
     {
       "type": "flag",
@@ -640,6 +640,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -662,6 +670,14 @@
               "suffix": "% of population"
             }
           ]
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Sanitation facility access",
@@ -731,6 +747,14 @@
           "field_id": 365,
           "comparative": true,
           "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
           "subfield_note": "NA"
         },
         {
@@ -1209,57 +1233,6 @@
           "content": "<p>The economy, one of the most stable and prosperous in the Caribbean, is highly dependent on tourism, which generates an estimated 45% of the national income. More than 934,000 tourists, mainly from the US, visited the islands in 2008. Because of traditionally close links with the US Virgin Islands, the British Virgin Islands has used the US dollar as its currency since 1959.</p><p></p><p>Livestock raising is the most important agricultural activity; poor soils limit the islands' ability to meet domestic food requirements.</p><p></p><p>In the mid-1980s, the government began offering offshore registration to companies wishing to incorporate in the islands, and incorporation fees now generate substantial revenues. Roughly 400,000 companies were on the offshore registry by yearend 2000. The adoption of a comprehensive insurance law in late 1994, which provides a blanket of confidentiality with regulated statutory gateways for investigation of criminal offenses, made the British Virgin Islands even more attractive to international business.</p>"
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "2% (2017 est.)<br><br>1.9% (2016 est.)<br><br>1.8% (2015 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2017",
-              "content": "2% (2017 est.)",
-              "value": "2",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2016",
-              "content": "1.9% (2016 est.)",
-              "value": "1.9",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2015",
-              "content": "1.8% (2015 est.)",
-              "value": "1.8",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "1.1% (2017 est.)<br><br>1.1% (2016 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2017",
-              "content": "1.1% (2017 est.)",
-              "value": "1.1",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2016",
-              "content": "1.1% (2016 est.)",
-              "value": "1.1",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1289,14 +1262,33 @@
           ]
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$1.028 billion (2017 est.)",
-          "value": "1,028,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "2% (2017 est.)<br><br>1.9% (2016 est.)<br><br>1.8% (2015 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2017",
+              "content": "2% (2017 est.)",
+              "value": "2",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2016",
+              "content": "1.9% (2016 est.)",
+              "value": "1.9",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2015",
+              "content": "1.8% (2015 est.)",
+              "value": "1.8",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1310,6 +1302,38 @@
               "value": "34,200",
               "estimated": true,
               "prefix": "$"
+            }
+          ]
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$1.028 billion (2017 est.)",
+          "value": "1,028,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
+          "comparative": true,
+          "content": "1.1% (2017 est.)<br><br>1.1% (2016 est.)",
+          "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2017",
+              "content": "1.1% (2017 est.)",
+              "value": "1.1",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Inflation rate (consumer prices) 2016",
+              "content": "1.1% (2016 est.)",
+              "value": "1.1",
+              "estimated": true,
+              "suffix": "%"
             }
           ]
         },
@@ -1542,21 +1566,21 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "38.9% (of GDP) (2017 est.)",
-          "value": "38.9",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
           "content": "0% (of GDP) (2017 est.)",
           "value": "0",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "% (of GDP)"
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "38.9% (of GDP) (2017 est.)",
+          "value": "38.9",
           "estimated": true,
           "info_date": "2017",
           "suffix": "% (of GDP)"

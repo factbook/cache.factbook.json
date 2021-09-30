@@ -2,8 +2,8 @@
   "name": "Guam",
   "code": "GQ",
   "region": "Australia - Oceania",
-  "published": "2021-09-22 12:15:26 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:11:02 -0400",
+  "updated": "2021-09-27 10:15:39 -0400",
   "media": [
     {
       "type": "flag",
@@ -826,6 +826,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -848,6 +856,14 @@
               "suffix": "% of population"
             }
           ]
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Sanitation facility access",
@@ -927,6 +943,14 @@
           "field_id": 365,
           "comparative": true,
           "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
           "subfield_note": "NA"
         },
         {
@@ -1465,57 +1489,6 @@
           "content": "US national defense spending is the main driver of Guam’s economy, followed closely by tourism and other services. Guam serves as a forward US base for the Western Pacific and is home to thousands of American military personnel. Total federal spending (defense and non-defense) amounted to $1.988 billion in 2016, or 34.2 of Guam’s GDP. Of that total, federal grants and cover-over payments amounted to $3444.1 million in 2016, or 35.8% of Guam’s total revenues for the fiscal year. In 2016, Guam’s economy grew 0.3%. Despite slow growth, Guam’s economy has been stable over the last decade. National defense spending cushions the island’s economy against fluctuations in tourism. Service exports, mainly spending by foreign tourists in Guam, amounted to over $1 billion for the first time in 2016, or 17.8% of GDP."
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "0.4% (2016 est.)<br><br>0.5% (2015 est.)<br><br>1.6% (2014 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2016",
-              "content": "0.4% (2016 est.)",
-              "value": "0.4",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2015",
-              "content": "0.5% (2015 est.)",
-              "value": "0.5",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2014",
-              "content": "1.6% (2014 est.)",
-              "value": "1.6",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "1% (2017 est.)<br><br>0% (2016 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2017",
-              "content": "1% (2017 est.)",
-              "value": "1",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2016",
-              "content": "0% (2016 est.)",
-              "value": "0",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1545,14 +1518,33 @@
           ]
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$5.793 billion (2016 est.)",
-          "value": "5,793,000,000",
-          "estimated": true,
-          "info_date": "2016",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "0.4% (2016 est.)<br><br>0.5% (2015 est.)<br><br>1.6% (2014 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2016",
+              "content": "0.4% (2016 est.)",
+              "value": "0.4",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2015",
+              "content": "0.5% (2015 est.)",
+              "value": "0.5",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2014",
+              "content": "1.6% (2014 est.)",
+              "value": "1.6",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1584,10 +1576,42 @@
           ]
         },
         {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$5.793 billion (2016 est.)",
+          "value": "5,793,000,000",
+          "estimated": true,
+          "info_date": "2016",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
+          "comparative": true,
+          "content": "1% (2017 est.)<br><br>0% (2016 est.)",
+          "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2017",
+              "content": "1% (2017 est.)",
+              "value": "1",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Inflation rate (consumer prices) 2016",
+              "content": "0% (2016 est.)",
+              "value": "0",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
+        },
+        {
           "name": "GDP - composition, by sector of origin",
           "field_id": 214,
           "comparative": false,
-          "content": "<strong>agriculture: </strong>NA<br><br><strong>industry: </strong>NA<br><br><strong>services: </strong>58.4% NA (2015 est.)",
+          "content": "<strong>agriculture: </strong>NA<br><br><strong>industry: </strong>NA<br><br><strong>services: </strong>58.4% (2015 est.)",
           "subfields": [
             {
               "name": "agriculture",
@@ -1605,13 +1629,12 @@
             },
             {
               "name": "services",
-              "content": "58.4% NA (2015 est.)",
+              "content": "58.4% (2015 est.)",
               "title": "services",
               "value": "58.4",
               "estimated": true,
               "info_date": "2015",
-              "suffix": "%",
-              "subfield_note": "NA"
+              "suffix": "%"
             }
           ]
         },
@@ -1818,16 +1841,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "21.4% (of GDP) (2016 est.)",
-          "value": "21.4",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -1858,6 +1871,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "21.4% (of GDP) (2016 est.)",
+          "value": "21.4",
+          "estimated": true,
+          "info_date": "2016",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",

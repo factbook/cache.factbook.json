@@ -2,8 +2,8 @@
   "name": "Greenland",
   "code": "GL",
   "region": "North America",
-  "published": "2021-09-22 12:14:57 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:10:35 -0400",
+  "updated": "2021-09-27 12:24:35 -0400",
   "media": [
     {
       "type": "flag",
@@ -887,6 +887,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -933,6 +941,14 @@
               "suffix": "% of population"
             }
           ]
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Physicians density",
@@ -1022,6 +1038,14 @@
           "field_id": 365,
           "comparative": true,
           "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
           "subfield_note": "NA"
         },
         {
@@ -1575,57 +1599,6 @@
           "content": "<p>Greenland’s economy depends on exports of shrimp and fish, and on a substantial subsidy from the Danish Government. Fish account for over 90% of its exports, subjecting the economy to price fluctuations. The subsidy from the Danish Government is budgeted to be about $535 million in 2017, more than 50% of government revenues, and 25% of GDP.</p><p></p><p>The economy is expanding after a period of decline. The economy contracted between 2012 and 2014, grew by 1.7% in 2015 and by 7.7%in 2016. The expansion has been driven by larger quotas for shrimp, the predominant Greenlandic export, and also by increased activity in the construction sector, especially in Nuuk, the capital. Private consumption and tourism also are contributing to GDP growth more than in previous years. Tourism in Greenland grew annually around 20% in 2015 and 2016, largely a result of increasing numbers of cruise lines now operating in Greenland's western and southern waters during the peak summer tourism season.</p><p></p><p>The public sector, including publicly owned enterprises and the municipalities, plays a dominant role in Greenland's economy. During the last decade the Greenland Self Rule Government pursued conservative fiscal and monetary policies, but public pressure has increased for better schools, health care, and retirement systems. The budget was in deficit in 2014 and 2016, but public debt remains low at about 5% of GDP. The government plans a balanced budget for the 2017–20 period.</p><p></p><p>Significant challenges face the island, including low levels of qualified labor, geographic dispersion, lack of industry diversification, the long-term sustainability of the public budget, and a declining population due to emigration. Hydrocarbon exploration has ceased with declining oil prices. The island has potential for natural resource exploitation with rare-earth, uranium, and iron ore mineral projects proposed, but a lack of infrastructure hinders development.</p>"
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "7.7% (2016 est.)<br><br>1.7% (2015 est.)<br><br>-0.8% (2014 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2016",
-              "content": "7.7% (2016 est.)",
-              "value": "7.7",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2015",
-              "content": "1.7% (2015 est.)",
-              "value": "1.7",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2014",
-              "content": "-0.8% (2014 est.)",
-              "value": "-0.8",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "0.3% (January 2017 est.)<br><br>1.2% (January 2016 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) January 2017",
-              "content": "0.3% (January 2017 est.)",
-              "value": "0.3",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) January 2016",
-              "content": "1.2% (January 2016 est.)",
-              "value": "1.2",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1656,14 +1629,33 @@
           "field_note": "<strong>note:</strong> data are in 2015 US dollars"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$2.221 billion (2015 est.)",
-          "value": "2,221,000,000",
-          "estimated": true,
-          "info_date": "2015",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "7.7% (2016 est.)<br><br>1.7% (2015 est.)<br><br>-0.8% (2014 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2016",
+              "content": "7.7% (2016 est.)",
+              "value": "7.7",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2015",
+              "content": "1.7% (2015 est.)",
+              "value": "1.7",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2014",
+              "content": "-0.8% (2014 est.)",
+              "value": "-0.8",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1691,6 +1683,38 @@
               "value": "38,500",
               "estimated": true,
               "prefix": "$"
+            }
+          ]
+        },
+        {
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$2.221 billion (2015 est.)",
+          "value": "2,221,000,000",
+          "estimated": true,
+          "info_date": "2015",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
+          "comparative": true,
+          "content": "0.3% (January 2017 est.)<br><br>1.2% (January 2016 est.)",
+          "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) January 2017",
+              "content": "0.3% (January 2017 est.)",
+              "value": "0.3",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Inflation rate (consumer prices) January 2016",
+              "content": "1.2% (January 2016 est.)",
+              "value": "1.2",
+              "estimated": true,
+              "suffix": "%"
             }
           ]
         },
@@ -1950,16 +1974,6 @@
           ]
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "77.4% (of GDP) (2016 est.)",
-          "value": "77.4",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Budget surplus (+) or deficit (-)",
           "field_id": 226,
           "comparative": true,
@@ -1983,6 +1997,16 @@
               "suffix": "% of GDP"
             }
           ]
+        },
+        {
+          "name": "Taxes and other revenues",
+          "field_id": 225,
+          "comparative": true,
+          "content": "77.4% (of GDP) (2016 est.)",
+          "value": "77.4",
+          "estimated": true,
+          "info_date": "2016",
+          "suffix": "% (of GDP)"
         },
         {
           "name": "Fiscal year",

@@ -2,8 +2,8 @@
   "name": "Sint Maarten",
   "code": "NN",
   "region": "Central America",
-  "published": "2021-09-22 12:23:27 -0400",
-  "updated": "2021-09-22 07:07:54 -0400",
+  "published": "2021-09-29 12:18:11 -0400",
+  "updated": "2021-09-23 13:24:25 -0400",
   "media": [
     {
       "type": "flag",
@@ -578,6 +578,14 @@
           "suffix": "children born/woman"
         },
         {
+          "name": "Contraceptive prevalence rate",
+          "field_id": 357,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -600,6 +608,14 @@
               "suffix": "% of population"
             }
           ]
+        },
+        {
+          "name": "Current Health Expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Sanitation facility access",
@@ -645,6 +661,14 @@
           "field_id": 365,
           "comparative": true,
           "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "Children under the age of 5 years underweight",
+          "field_id": 368,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
           "subfield_note": "NA"
         },
         {
@@ -1052,57 +1076,6 @@
           "content": "The economy of Sint Maarten centers around tourism with nearly four-fifths of the labor force engaged in this sector. Nearly 1.8 million visitors came to the island by cruise ship and roughly 500,000 visitors arrived through Princess Juliana International Airport in 2013. Cruise ships and yachts also call on Sint Maarten's numerous ports and harbors. Limited agriculture and local fishing means that almost all food must be imported. Energy resources and manufactured goods are also imported. Sint Maarten had the highest per capita income among the five islands that formerly comprised the Netherlands Antilles."
         },
         {
-          "name": "Real GDP growth rate",
-          "field_id": 210,
-          "comparative": true,
-          "content": "3.6% (2014 est.)<br><br>4.1% (2013 est.)<br><br>1.9% (2012 est.)",
-          "subfields": [
-            {
-              "name": "Real GDP growth rate 2014",
-              "content": "3.6% (2014 est.)",
-              "value": "3.6",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2013",
-              "content": "4.1% (2013 est.)",
-              "value": "4.1",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2012",
-              "content": "1.9% (2012 est.)",
-              "value": "1.9",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Inflation rate (consumer prices)",
-          "field_id": 229,
-          "comparative": true,
-          "content": "4% (2012 est.)<br><br>0.7% (2009 est.)",
-          "subfields": [
-            {
-              "name": "Inflation rate (consumer prices) 2012",
-              "content": "4% (2012 est.)",
-              "value": "4",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2009",
-              "content": "0.7% (2009 est.)",
-              "value": "0.7",
-              "estimated": true,
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
@@ -1133,14 +1106,33 @@
           "field_note": "<div><strong><span class=\"category\">note: </span></strong><span class=\"category_data\">data are in 2014 US dollars</span></div>"
         },
         {
-          "name": "GDP (official exchange rate)",
-          "field_id": 209,
-          "comparative": false,
-          "content": "$304.1 million (2014 est.)",
-          "value": "304,100,000",
-          "estimated": true,
-          "info_date": "2014",
-          "prefix": "$"
+          "name": "Real GDP growth rate",
+          "field_id": 210,
+          "comparative": true,
+          "content": "3.6% (2014 est.)<br><br>4.1% (2013 est.)<br><br>1.9% (2012 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP growth rate 2014",
+              "content": "3.6% (2014 est.)",
+              "value": "3.6",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2013",
+              "content": "4.1% (2013 est.)",
+              "value": "4.1",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Real GDP growth rate 2012",
+              "content": "1.9% (2012 est.)",
+              "value": "1.9",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Real GDP per capita",
@@ -1173,24 +1165,34 @@
           "field_note": "<strong>note: </strong>data are in 2015 US dollars"
         },
         {
-          "name": "Gross national saving",
-          "field_id": 212,
+          "name": "GDP (official exchange rate)",
+          "field_id": 209,
+          "comparative": false,
+          "content": "$304.1 million (2014 est.)",
+          "value": "304,100,000",
+          "estimated": true,
+          "info_date": "2014",
+          "prefix": "$"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
           "comparative": true,
-          "content": "44.6% of GDP (2018 est.)<br><br>25.5% of GDP (2017 est.)",
+          "content": "4% (2012 est.)<br><br>0.7% (2009 est.)",
           "subfields": [
             {
-              "name": "Gross national saving 2018",
-              "content": "44.6% of GDP (2018 est.)",
-              "value": "44.6",
+              "name": "Inflation rate (consumer prices) 2012",
+              "content": "4% (2012 est.)",
+              "value": "4",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             },
             {
-              "name": "Gross national saving 2017",
-              "content": "25.5% of GDP (2017 est.)",
-              "value": "25.5",
+              "name": "Inflation rate (consumer prices) 2009",
+              "content": "0.7% (2009 est.)",
+              "value": "0.7",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "%"
             }
           ]
         },
