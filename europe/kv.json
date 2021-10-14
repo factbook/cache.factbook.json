@@ -2,8 +2,8 @@
   "name": "Kosovo",
   "code": "KV",
   "region": "Europe",
-  "published": "2021-09-29 12:15:43 -0400",
-  "updated": "2021-09-23 13:21:24 -0400",
+  "published": "2021-10-13 12:22:14 -0400",
+  "updated": "2021-10-12 11:10:34 -0400",
   "media": [
     {
       "type": "flag",
@@ -265,6 +265,11 @@
           "field_id": 295,
           "comparative": false,
           "content": "the 41-km long Nerodimka River divides into two branches each of which flows into a different sea: the northern branch flows into the Sitnica River, which via the Ibar, Morava, and Danube Rivers ultimately flows into the Black Sea; the southern branch flows via the Lepenac and Vardar Rivers into the Aegean Sea"
+        },
+        {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: <em>(Black Sea)</em> Danube (795,656 sq km)"
         }
       ]
     },
@@ -403,6 +408,38 @@
               "alt": "population pyramid",
               "caption": "This is the population pyramid for Kosovo. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
               "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Dependency ratios",
+          "field_id": 342,
+          "comparative": false,
+          "content": "<strong>total dependency ratio: </strong>NA<br><br><strong>youth dependency ratio: </strong>NA<br><br><strong>elderly dependency ratio: </strong>NA<br><br><strong>potential support ratio: </strong>NA",
+          "subfields": [
+            {
+              "name": "total dependency ratio",
+              "content": "NA",
+              "title": "total dependency ratio",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "youth dependency ratio",
+              "content": "NA",
+              "title": "youth dependency ratio",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "elderly dependency ratio",
+              "content": "NA",
+              "title": "elderly dependency ratio",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "potential support ratio",
+              "content": "NA",
+              "title": "potential support ratio",
+              "subfield_note": "NA"
             }
           ]
         },
@@ -628,6 +665,52 @@
           "content": "NA",
           "suffix": "%",
           "subfield_note": "NA"
+        },
+        {
+          "name": "Drinking water source",
+          "field_id": 361,
+          "comparative": false,
+          "content": "<strong>improved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA<br><br><strong>unimproved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA",
+          "subfields": [
+            {
+              "name": "improved: urban",
+              "content": "urban: NA",
+              "title": "improved",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "improved: rural",
+              "content": "rural: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "improved: total",
+              "content": "total: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: urban",
+              "content": "urban: NA",
+              "title": "unimproved",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: rural",
+              "content": "rural: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: total",
+              "content": "total: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            }
+          ]
         },
         {
           "name": "Current Health Expenditure",
@@ -859,6 +942,11 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: <em>(Black Sea)</em> Danube (795,656 sq km)"
         }
       ]
     },
@@ -2301,15 +2389,13 @@
           "name": "Airports - with paved runways",
           "field_id": 380,
           "comparative": false,
-          "content": "<strong>total: </strong>3 (2019)<br><br><strong>2,438 to 3,047 m: </strong>1<br><br><strong>1,524 to 2,437 m: </strong>1<br><br><strong>under 914 m: </strong>1",
+          "content": "<strong>total: </strong>3<br><br><strong>2,438 to 3,047 m: </strong>1<br><br><strong>1,524 to 2,437 m: </strong>1<br><br><strong>under 914 m: </strong>1 (2019)",
           "subfields": [
             {
               "name": "total",
-              "content": "3 (2019)",
+              "content": "3",
               "title": "total",
-              "value": "3",
-              "estimated": false,
-              "info_date": "2019"
+              "value": "3"
             },
             {
               "name": "2,438 to 3,047 m",
@@ -2325,9 +2411,11 @@
             },
             {
               "name": "under 914 m",
-              "content": "1",
+              "content": "1 (2019)",
               "title": "under 914 m",
-              "value": "1"
+              "value": "1",
+              "estimated": false,
+              "info_date": "2019"
             }
           ]
         },
@@ -2335,22 +2423,20 @@
           "name": "Airports - with unpaved runways",
           "field_id": 381,
           "comparative": false,
-          "content": "<strong>total: </strong>3 (2013)<br><br><strong>under 914 m: </strong>3 (2013)",
+          "content": "<strong>total: </strong>3<br><br><strong>under 914 m: </strong>3 (2013)",
           "subfields": [
             {
               "name": "total",
-              "content": "3 (2013)",
+              "content": "3",
               "title": "total",
-              "value": "3",
-              "estimated": null,
-              "info_date": "2013"
+              "value": "3"
             },
             {
               "name": "under 914 m",
               "content": "3 (2013)",
               "title": "under 914 m",
               "value": "3",
-              "estimated": null,
+              "estimated": false,
               "info_date": "2013"
             }
           ]
@@ -2498,17 +2584,17 @@
           "info_date": "2020"
         },
         {
-          "name": "Military - note",
-          "field_id": 332,
-          "comparative": false,
-          "content": "the NATO-led Kosovo Force (KFOR) has operated in the country as a peace support force since 1999; as of 2021, it numbered about 3,500 troops; KFOR also assists in developing the Kosovo Security Force"
-        },
-        {
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
           "content": "<span class=\"ILfuVd\"><span class=\"hgKElc\">service is voluntary; must be over the age of 18 and a citizen of Kosovo; upper age for enlisting is 30 for officers, 25 for other ranks, although these may be waived for recruits with key skills considered essential for the KSF<br /></span></span> (2019)",
           "info_date": "2019"
+        },
+        {
+          "name": "Military - note",
+          "field_id": 332,
+          "comparative": false,
+          "content": "the NATO-led Kosovo Force (KFOR) has operated in the country as a peace support force since 1999; as of 2021, it numbered about 3,500 troops; KFOR also assists in developing the Kosovo Security Force"
         }
       ]
     },
@@ -2526,7 +2612,7 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>IDPs: </strong>16,000 (primarily ethnic Serbs displaced during the 1998-1999 war fearing reprisals from the majority ethnic-Albanian population; a smaller number of ethnic Serbs, Roma, Ashkali, and Egyptians fled their homes in 2,004 as a result of violence) (2020)<br><br><strong>note:</strong> 6,940 estimated refugee and migrant arrivals (January 2015-August 2021)",
+          "content": "<strong>IDPs: </strong>16,000 (primarily ethnic Serbs displaced during the 1998-1999 war fearing reprisals from the majority ethnic-Albanian population; a smaller number of ethnic Serbs, Roma, Ashkali, and Egyptians fled their homes in 2,004 as a result of violence) (2020)<br><br><strong>note:</strong> 7,355 estimated refugee and migrant arrivals (January 2015-September 2021)",
           "subfields": [
             {
               "name": "IDPs",
@@ -2535,7 +2621,7 @@
               "title": "IDPs"
             }
           ],
-          "field_note": "<strong>note:</strong> 6,940 estimated refugee and migrant arrivals (January 2015-August 2021)"
+          "field_note": "<strong>note:</strong> 7,355 estimated refugee and migrant arrivals (January 2015-September 2021)"
         }
       ]
     }

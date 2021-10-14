@@ -2,8 +2,8 @@
   "name": "American Samoa",
   "code": "AQ",
   "region": "Australia - Oceania",
-  "published": "2021-09-29 12:01:10 -0400",
-  "updated": "2021-09-23 13:14:57 -0400",
+  "published": "2021-10-06 12:04:05 -0400",
+  "updated": "2021-10-06 12:02:47 -0400",
   "media": [
     {
       "type": "flag",
@@ -1141,6 +1141,38 @@
           ]
         },
         {
+          "name": "Dependency ratios",
+          "field_id": 342,
+          "comparative": false,
+          "content": "<strong>total dependency ratio: </strong>NA<br><br><strong>youth dependency ratio: </strong>NA<br><br><strong>elderly dependency ratio: </strong>NA<br><br><strong>potential support ratio: </strong>NA",
+          "subfields": [
+            {
+              "name": "total dependency ratio",
+              "content": "NA",
+              "title": "total dependency ratio",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "youth dependency ratio",
+              "content": "NA",
+              "title": "youth dependency ratio",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "elderly dependency ratio",
+              "content": "NA",
+              "title": "elderly dependency ratio",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "potential support ratio",
+              "content": "NA",
+              "title": "potential support ratio",
+              "subfield_note": "NA"
+            }
+          ]
+        },
+        {
           "name": "Median age",
           "field_id": 343,
           "comparative": true,
@@ -1394,23 +1426,51 @@
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
-          "content": "<strong>improved: </strong>total: 100% of population<br><br><strong>unimproved: </strong>total: 0% of population (2017 est.)",
+          "content": "<strong>improved: </strong>urban: NA<br><br>rural: NA<br><br>total: 100% of population NA<br><br><strong>unimproved: </strong>urban: NA<br><br>rural: NA<br><br>total: 0% of population NA (2017 est.)",
           "subfields": [
             {
-              "name": "improved: total",
-              "content": "total: 100% of population",
+              "name": "improved: urban",
+              "content": "urban: NA",
               "title": "improved",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "improved: rural",
+              "content": "rural: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "improved: total",
+              "content": "total: 100% of population NA",
               "value": "100",
-              "suffix": "% of population"
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: urban",
+              "content": "urban: NA",
+              "title": "unimproved",
+              "value": "100",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: rural",
+              "content": "rural: NA",
+              "value": "100",
+              "suffix": "% of population",
+              "subfield_note": "NA"
             },
             {
               "name": "unimproved: total",
-              "content": "total: 0% of population (2017 est.)",
-              "title": "unimproved",
+              "content": "total: 0% of population NA (2017 est.)",
               "value": "0",
               "estimated": true,
               "info_date": "2017",
-              "suffix": "% of population"
+              "suffix": "% of population",
+              "subfield_note": "NA"
             }
           ]
         },
@@ -2755,15 +2815,13 @@
           "name": "Airports - with paved runways",
           "field_id": 380,
           "comparative": false,
-          "content": "<strong>total: </strong>3 (2019)<br><br><strong>over 3,047 m: </strong>1<br><br><strong>914 to 1,523 m: </strong>1<br><br><strong>under 914 m: </strong>1",
+          "content": "<strong>total: </strong>3<br><br><strong>over 3,047 m: </strong>1<br><br><strong>914 to 1,523 m: </strong>1<br><br><strong>under 914 m: </strong>1 (2019)",
           "subfields": [
             {
               "name": "total",
-              "content": "3 (2019)",
+              "content": "3",
               "title": "total",
-              "value": "3",
-              "estimated": false,
-              "info_date": "2019"
+              "value": "3"
             },
             {
               "name": "over 3,047 m",
@@ -2779,9 +2837,11 @@
             },
             {
               "name": "under 914 m",
-              "content": "1",
+              "content": "1 (2019)",
               "title": "under 914 m",
-              "value": "1"
+              "value": "1",
+              "estimated": false,
+              "info_date": "2019"
             }
           ]
         },

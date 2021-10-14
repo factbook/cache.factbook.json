@@ -2,8 +2,8 @@
   "name": "Saint Barthelemy",
   "code": "TB",
   "region": "Central America",
-  "published": "2021-09-29 12:22:51 -0400",
-  "updated": "2021-09-23 13:23:50 -0400",
+  "published": "2021-10-13 12:26:50 -0400",
+  "updated": "2021-10-07 12:13:37 -0400",
   "media": [
     {
       "type": "flag",
@@ -285,6 +285,38 @@
           ]
         },
         {
+          "name": "Dependency ratios",
+          "field_id": 342,
+          "comparative": false,
+          "content": "<strong>total dependency ratio: </strong>NA<br><br><strong>youth dependency ratio: </strong>NA<br><br><strong>elderly dependency ratio: </strong>NA<br><br><strong>potential support ratio: </strong>NA",
+          "subfields": [
+            {
+              "name": "total dependency ratio",
+              "content": "NA",
+              "title": "total dependency ratio",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "youth dependency ratio",
+              "content": "NA",
+              "title": "youth dependency ratio",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "elderly dependency ratio",
+              "content": "NA",
+              "title": "elderly dependency ratio",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "potential support ratio",
+              "content": "NA",
+              "title": "potential support ratio",
+              "subfield_note": "NA"
+            }
+          ]
+        },
+        {
           "name": "Median age",
           "field_id": 343,
           "comparative": true,
@@ -501,6 +533,52 @@
           "subfield_note": "NA"
         },
         {
+          "name": "Drinking water source",
+          "field_id": 361,
+          "comparative": false,
+          "content": "<strong>improved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA<br><br><strong>unimproved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA",
+          "subfields": [
+            {
+              "name": "improved: urban",
+              "content": "urban: NA",
+              "title": "improved",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "improved: rural",
+              "content": "rural: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "improved: total",
+              "content": "total: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: urban",
+              "content": "urban: NA",
+              "title": "unimproved",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: rural",
+              "content": "rural: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: total",
+              "content": "total: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            }
+          ]
+        },
+        {
           "name": "Current Health Expenditure",
           "field_id": 409,
           "comparative": false,
@@ -509,8 +587,23 @@
           "subfield_note": "NA"
         },
         {
+          "name": "HIV/AIDS - adult prevalence rate",
+          "field_id": 363,
+          "comparative": true,
+          "content": "NA",
+          "suffix": "%",
+          "subfield_note": "NA"
+        },
+        {
           "name": "HIV/AIDS - people living with HIV/AIDS",
           "field_id": 364,
+          "comparative": true,
+          "content": "NA",
+          "subfield_note": "NA"
+        },
+        {
+          "name": "HIV/AIDS - deaths",
+          "field_id": 365,
           "comparative": true,
           "content": "NA",
           "subfield_note": "NA"
@@ -995,21 +1088,21 @@
           "name": "Airports - with paved runways",
           "field_id": 380,
           "comparative": false,
-          "content": "<strong>total: </strong>1 (2019)<br><br><strong>under 914 m: </strong>1",
+          "content": "<strong>total: </strong>1<br><br><strong>under 914 m: </strong>1 (2019)",
           "subfields": [
             {
               "name": "total",
-              "content": "1 (2019)",
+              "content": "1",
               "title": "total",
-              "value": "1",
-              "estimated": false,
-              "info_date": "2019"
+              "value": "1"
             },
             {
               "name": "under 914 m",
-              "content": "1",
+              "content": "1 (2019)",
               "title": "under 914 m",
-              "value": "1"
+              "value": "1",
+              "estimated": false,
+              "info_date": "2019"
             }
           ]
         },
