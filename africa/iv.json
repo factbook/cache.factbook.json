@@ -2,8 +2,8 @@
   "name": "Cote d'Ivoire",
   "code": "IV",
   "region": "Africa",
-  "published": "2021-10-06 12:17:40 -0400",
-  "updated": "2021-10-06 09:49:45 -0400",
+  "published": "2021-10-20 12:12:35 -0400",
+  "updated": "2021-10-19 16:05:04 -0400",
   "media": [
     {
       "type": "flag",
@@ -329,6 +329,11 @@
           "estimated": false,
           "info_date": "2012",
           "suffix": "sq km"
+        },
+        {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Niger (2,261,741 sq km), Volta (410,991 sq km)"
         },
         {
           "name": "Population distribution",
@@ -1195,51 +1200,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>320 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>242 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>600 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "320 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "320,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "242 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "242,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "600 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "600,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "84.14 billion cubic meters (2017 est.)",
-          "value": "84,140,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1305,6 +1265,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>52.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.38% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "52.2% of total population (2021)",
+              "title": "urban population",
+              "value": "52.2",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "3.38% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "3.38",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_IV.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1335,39 +1328,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>52.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.38% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "52.2% of total population (2021)",
-              "title": "urban population",
-              "value": "52.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "3.38% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "3.38",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_IV.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1455,6 +1415,56 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Niger (2,261,741 sq km), Volta (410,991 sq km)"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>320 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>242 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>600 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "320 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "320,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "242 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "242,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "600 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "600,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "84.14 billion cubic meters (2017 est.)",
+          "value": "84,140,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1877,28 +1887,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$134.048 billion (2019 est.)<br><br>$126.185 billion (2018 est.)<br><br>$118.051 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$136.48 billion note: data are in 2017 dollars (2020 est.)<br><br>$134.05 billion note: data are in 2017 dollars (2019 est.)<br><br>$126.19 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$134.048 billion (2019 est.)",
-              "value": "134,048,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$136.48 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "136,480,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$134.05 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "134,050,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$126.185 billion (2018 est.)",
-              "value": "126,185,000,000",
+              "content": "$126.19 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "126,190,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$118.051 billion (2017 est.)",
-              "value": "118,051,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1936,28 +1949,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$5,213 (2019 est.)<br><br>$5,033 (2018 est.)<br><br>$4,831 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$5,200 note: data are in 2017 dollars (2020 est.)<br><br>$5,200 note: data are in 2017 dollars (2019 est.)<br><br>$5,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$5,213 (2019 est.)",
-              "value": "5,213",
+              "name": "Real GDP per capita 2020",
+              "content": "$5,200 note: data are in 2017 dollars (2020 est.)",
+              "value": "5,200",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$5,200 note: data are in 2017 dollars (2019 est.)",
+              "value": "5,200",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$5,033 (2018 est.)",
-              "value": "5,033",
+              "content": "$5,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "5,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$4,831 (2017 est.)",
-              "value": "4,831",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2335,21 +2351,23 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$16.326 billion (2018 est.)<br><br>$16.274 billion (2017 est.)",
+          "content": "$13.79 billion note: data are in current year dollars (2019 est.)<br><br>$13.08 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2018",
-              "content": "$16.326 billion (2018 est.)",
-              "value": "16,326,000,000",
+              "name": "Exports 2019",
+              "content": "$13.79 billion note: data are in current year dollars (2019 est.)",
+              "value": "13,790,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2017",
-              "content": "$16.274 billion (2017 est.)",
-              "value": "16,274,000,000",
+              "name": "Exports 2018",
+              "content": "$13.08 billion note: data are in current year dollars (2018 est.)",
+              "value": "13,080,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2371,21 +2389,23 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$14.248 billion (2018 est.)<br><br>$13.486 billion (2017 est.)",
+          "content": "$12.88 billion note: data are in current year dollars (2019 est.)<br><br>$13.18 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2018",
-              "content": "$14.248 billion (2018 est.)",
-              "value": "14,248,000,000",
+              "name": "Imports 2019",
+              "content": "$12.88 billion note: data are in current year dollars (2019 est.)",
+              "value": "12,880,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2017",
-              "content": "$13.486 billion (2017 est.)",
-              "value": "13,486,000,000",
+              "name": "Imports 2018",
+              "content": "$13.18 billion note: data are in current year dollars (2018 est.)",
+              "value": "13,180,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3166,8 +3186,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Armed Forces of Cote d'Ivoire (Forces Armees de Cote d'Ivoire, FACI; aka Republican Forces of Ivory Coast, FRCI): Army (Armee de Terre), Navy (Marine Nationale), Cote Air Force (Force Aerienne Cote), Special Forces (Forces Speciale); National Gendarmerie (under the Ministry of Defense); National Police (under the Ministry of Security and Civil Protection); Coordination Center for Operational Decisions (a mix of police, gendarmerie, and FACI personnel for assisting police in providing security in some large cities) (2020)",
-          "info_date": "2020"
+          "content": "Armed Forces of Cote d'Ivoire (Forces Armees de Cote d'Ivoire, FACI; aka Republican Forces of Ivory Coast, FRCI): Army (Armee de Terre), Navy (Marine Nationale), Cote Air Force (Force Aerienne Cote), Special Forces (Forces Speciale); National Gendarmerie (under the Ministry of Defense); National Police (under the Ministry of Security and Civil Protection); Coordination Center for Operational Decisions (a mix of police, gendarmerie, and FACI personnel for assisting police in providing security in some large cities) (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military expenditures",
@@ -3250,7 +3270,7 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the military has mutinied several times since the late 1990s, most recently in 2017, and has had a large role in the country&rsquo;s political turmoil; currently, the FACI is focused on internal security and the growing threat posed by Islamic militants associated with the al-Qa&rsquo;ida in the Islamic Maghreb (AQIM) terrorist group operating across the border in Burkina Faso; AQIM militants conducted significant attacks in the country in 2016 and 2020; C&ocirc;te d&rsquo;Ivoire since 2016 has stepped up border security and completed building a joint counter-terrorism training center with France near Abidjan in 2020<br /><br />the UN maintained a 9,000-strong peacekeeping force in Cote d&rsquo;Ivoire (UNOCI) from 2004 until 2017"
+          "content": "the military has mutinied several times since the late 1990s, most recently in 2017, and has had a large role in the country&rsquo;s political turmoil; as of late 2021, the FACI was focused on internal security and the growing threat posed by Islamic militants associated with the al-Qa&rsquo;ida in the Islamic Maghreb (AQIM) terrorist group operating across the border in Burkina Faso; AQIM militants conducted significant attacks in the country in 2016 and 2020; C&ocirc;te d&rsquo;Ivoire since 2016 has stepped up border security and completed building a joint counter-terrorism training center with France near Abidjan in 2020<br /><br />the UN maintained a 9,000-strong peacekeeping force in Cote d&rsquo;Ivoire (UNOCI) from 2004 until 2017"
         }
       ]
     },

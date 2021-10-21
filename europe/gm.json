@@ -2,8 +2,8 @@
   "name": "Germany",
   "code": "GM",
   "region": "Europe",
-  "published": "2021-10-13 12:18:14 -0400",
-  "updated": "2021-10-12 14:49:08 -0400",
+  "published": "2021-10-20 12:09:25 -0400",
+  "updated": "2021-10-20 09:54:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -960,6 +960,11 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Rhine-Maas (198,735 sq km), <em>(Black Sea)</em> Danube (795,656 sq km)"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -976,11 +981,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "strategic location on North European Plain and along the entrance to the Baltic Sea; most major rivers in Germany - the Rhine, Weser, Oder, Elbe - flow northward; the Danube, which originates in the Black Forest, flows eastward"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Rhine-Maas (198,735 sq km), <em>(Black Sea)</em> Danube (795,656 sq km)"
         }
       ]
     },
@@ -1748,51 +1748,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>4.388 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>19.75 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>299.7 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "4.388 billion cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "4,388,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "19.75 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "19,750,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "299.7 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "299,700,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "154 billion cubic meters (2017 est.)",
-          "value": "154,000,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1858,6 +1813,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>77.5% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.13% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "77.5% of total population (2021)",
+              "title": "urban population",
+              "value": "77.5",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.13% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.13",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_GM.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1888,39 +1876,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>77.5% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.13% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "77.5% of total population (2021)",
-              "title": "urban population",
-              "value": "77.5",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.13% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.13",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_GM.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1963,6 +1918,51 @@
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
           "content": "Atlantic Ocean drainage: Rhine-Maas (198,735 sq km), <em>(Black Sea)</em> Danube (795,656 sq km)"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>4.388 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>19.75 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>299.7 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "4.388 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "4,388,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "19.75 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "19,750,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "299.7 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "299,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "154 billion cubic meters (2017 est.)",
+          "value": "154,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -2188,12 +2188,12 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>bicameral Parliament or Parlament consists of:<br />Federal Council or Bundesrat (69 seats; members appointed by each of the 16 state governments)<br />Federal Diet or Bundestag (735 seats for the 2021-25 term - total seats can vary each electoral term; approximately one-half of members directly elected in multi-seat constituencies by proportional representation vote and approximately one-half directly elected in single-seat constituencies by simple majority vote; members serve 4-year terms)<br><br><strong>elections: </strong><br />Bundesrat - none; determined by the composition of the state-level governments; the composition of the Bundesrat has the potential to change any time one of the 16 states holds an election<br />Bundestag - last held on 26 September 2021 (next to be held in September 2025 at the latest); most postwar German governments have been coalitions<br><br><strong>election results: </strong><br />Bundesrat - composition - men 50, women 19, percent of women 27.5%<br />Bundestag - percent of vote by party - SPD 25.7%, CDU/CSU 24.1%, Alliance '90/Greens 14.8%, FDP 11.5%, AfD 10.3%, The Left 4.9%, other 8.7%; seats by party - SPD 206, CDU/CSU 196, Alliance '90/Greens 118, FDP 92, AfD 83, The Left 39, other 1; note - total Bundestag percent of women NA%",
+          "content": "<strong>description: </strong>bicameral Parliament or Parlament consists of:<br />Federal Council or Bundesrat (69 seats; members appointed by each of the 16 state governments)<br />Federal Diet or Bundestag (735 seats for the 2021-25 term - total seats can vary each electoral term; approximately one-half of members directly elected in multi-seat constituencies by proportional representation vote and approximately one-half directly elected in single-seat constituencies by simple majority vote; members' terms depend upon the states they represent)<br><br><strong>elections: </strong><br />Bundesrat - none; determined by the composition of the state-level governments; the composition of the Bundesrat has the potential to change any time one of the 16 states holds an election<br />Bundestag - last held on 26 September 2021 (next to be held in September 2025 at the latest); most postwar German governments have been coalitions<br><br><strong>election results: </strong><br />Bundesrat - composition - men 50, women 23, percent of women 33.3%<br />Bundestag - percent of vote by party - SPD 25.7%, CDU/CSU 24.1%, Alliance '90/Greens 14.8%, FDP 11.5%, AfD 10.3%, The Left 4.9%, other 8.7%; seats by party - SPD 206, CDU/CSU 196, Alliance '90/Greens 118, FDP 92, AfD 83, The Left 39, other 1; note - total Bundestag percent of women NA%",
           "subfields": [
             {
               "name": "description",
-              "content": "bicameral Parliament or Parlament consists of:<br />Federal Council or Bundesrat (69 seats; members appointed by each of the 16 state governments)<br />Federal Diet or Bundestag (735 seats for the 2021-25 term - total seats can vary each electoral term; approximately one-half of members directly elected in multi-seat constituencies by proportional representation vote and approximately one-half directly elected in single-seat constituencies by simple majority vote; members serve 4-year terms)",
-              "value": "bicameral Parliament or Parlament consists of:<br />Federal Council or Bundesrat (69 seats; members appointed by each of the 16 state governments)<br />Federal Diet or Bundestag (735 seats for the 2021-25 term - total seats can vary each electoral term; approximately one-half of members directly elected in multi-seat constituencies by proportional representation vote and approximately one-half directly elected in single-seat constituencies by simple majority vote; members serve 4-year terms)",
+              "content": "bicameral Parliament or Parlament consists of:<br />Federal Council or Bundesrat (69 seats; members appointed by each of the 16 state governments)<br />Federal Diet or Bundestag (735 seats for the 2021-25 term - total seats can vary each electoral term; approximately one-half of members directly elected in multi-seat constituencies by proportional representation vote and approximately one-half directly elected in single-seat constituencies by simple majority vote; members' terms depend upon the states they represent)",
+              "value": "bicameral Parliament or Parlament consists of:<br />Federal Council or Bundesrat (69 seats; members appointed by each of the 16 state governments)<br />Federal Diet or Bundestag (735 seats for the 2021-25 term - total seats can vary each electoral term; approximately one-half of members directly elected in multi-seat constituencies by proportional representation vote and approximately one-half directly elected in single-seat constituencies by simple majority vote; members' terms depend upon the states they represent)",
               "title": "description"
             },
             {
@@ -2204,8 +2204,8 @@
             },
             {
               "name": "election results",
-              "content": "<br />Bundesrat - composition - men 50, women 19, percent of women 27.5%<br />Bundestag - percent of vote by party - SPD 25.7%, CDU/CSU 24.1%, Alliance '90/Greens 14.8%, FDP 11.5%, AfD 10.3%, The Left 4.9%, other 8.7%; seats by party - SPD 206, CDU/CSU 196, Alliance '90/Greens 118, FDP 92, AfD 83, The Left 39, other 1; note - total Bundestag percent of women NA%",
-              "value": "<br />Bundesrat - composition - men 50, women 19, percent of women 27.5%<br />Bundestag - percent of vote by party - SPD 25.7%, CDU/CSU 24.1%, Alliance '90/Greens 14.8%, FDP 11.5%, AfD 10.3%, The Left 4.9%, other 8.7%; seats by party - SPD 206, CDU/CSU 196, Alliance '90/Greens 118, FDP 92, AfD 83, The Left 39, other 1; note - total Bundestag percent of women NA%",
+              "content": "<br />Bundesrat - composition - men 50, women 23, percent of women 33.3%<br />Bundestag - percent of vote by party - SPD 25.7%, CDU/CSU 24.1%, Alliance '90/Greens 14.8%, FDP 11.5%, AfD 10.3%, The Left 4.9%, other 8.7%; seats by party - SPD 206, CDU/CSU 196, Alliance '90/Greens 118, FDP 92, AfD 83, The Left 39, other 1; note - total Bundestag percent of women NA%",
+              "value": "<br />Bundesrat - composition - men 50, women 23, percent of women 33.3%<br />Bundestag - percent of vote by party - SPD 25.7%, CDU/CSU 24.1%, Alliance '90/Greens 14.8%, FDP 11.5%, AfD 10.3%, The Left 4.9%, other 8.7%; seats by party - SPD 206, CDU/CSU 196, Alliance '90/Greens 118, FDP 92, AfD 83, The Left 39, other 1; note - total Bundestag percent of women NA%",
               "title": "election results"
             }
           ]
@@ -2400,28 +2400,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$4,482,448,000,000 (2019 est.)<br><br>$4,457,688,000,000 (2018 est.)<br><br>$4,401,873,000,000 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$4,238,800,000,000 note: data are in 2017 dollars (2020 est.)<br><br>$4,457,050,000,000 note: data are in 2017 dollars (2019 est.)<br><br>$4,432,430,000,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$4,482,448,000,000 (2019 est.)",
-              "value": "4,482,448,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$4,238,800,000,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "4,238,800,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$4,457,050,000,000 note: data are in 2017 dollars (2019 est.)",
+              "value": "4,457,050,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$4,457,688,000,000 (2018 est.)",
-              "value": "4,457,688,000,000",
+              "content": "$4,432,430,000,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "4,432,430,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$4,401,873,000,000 (2017 est.)",
-              "value": "4,401,873,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2459,28 +2462,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$53,919 (2019 est.)<br><br>$53,768 (2018 est.)<br><br>$53,255 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$50,900 note: data are in 2017 dollars (2020 est.)<br><br>$53,600 note: data are in 2017 dollars (2019 est.)<br><br>$53,500 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$53,919 (2019 est.)",
-              "value": "53,919",
+              "name": "Real GDP per capita 2020",
+              "content": "$50,900 note: data are in 2017 dollars (2020 est.)",
+              "value": "50,900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$53,600 note: data are in 2017 dollars (2019 est.)",
+              "value": "53,600",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$53,768 (2018 est.)",
-              "value": "53,768",
+              "content": "$53,500 note: data are in 2017 dollars (2018 est.)",
+              "value": "53,500",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$53,255 (2017 est.)",
-              "value": "53,255",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2888,28 +2894,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$2,004,158,000,000 (2019 est.)<br><br>$1,984,745,000,000 (2018 est.)<br><br>$1,937,273,000,000 (2017 est.)",
+          "content": "$1,671,650,000,000 note: data are in current year dollars (2020 est.)<br><br>$1,813,190,000,000 note: data are in current year dollars (2019 est.)<br><br>$1,881,510,000,000 note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$2,004,158,000,000 (2019 est.)",
-              "value": "2,004,158,000,000",
+              "name": "Exports 2020",
+              "content": "$1,671,650,000,000 note: data are in current year dollars (2020 est.)",
+              "value": "1,671,650,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$1,813,190,000,000 note: data are in current year dollars (2019 est.)",
+              "value": "1,813,190,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$1,984,745,000,000 (2018 est.)",
-              "value": "1,984,745,000,000",
+              "content": "$1,881,510,000,000 note: data are in current year dollars (2018 est.)",
+              "value": "1,881,510,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$1,937,273,000,000 (2017 est.)",
-              "value": "1,937,273,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2931,28 +2940,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$1,804,453,000,000 (2019 est.)<br><br>$1,759,299,000,000 (2018 est.)<br><br>$1,695,300,000,000 (2017 est.)",
+          "content": "$1,452,560,000,000 note: data are in current year dollars (2020 est.)<br><br>$1,593,720,000,000 note: data are in current year dollars (2019 est.)<br><br>$1,635,580,000,000 note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$1,804,453,000,000 (2019 est.)",
-              "value": "1,804,453,000,000",
+              "name": "Imports 2020",
+              "content": "$1,452,560,000,000 note: data are in current year dollars (2020 est.)",
+              "value": "1,452,560,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$1,593,720,000,000 note: data are in current year dollars (2019 est.)",
+              "value": "1,593,720,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$1,759,299,000,000 (2018 est.)",
-              "value": "1,759,299,000,000",
+              "content": "$1,635,580,000,000 note: data are in current year dollars (2018 est.)",
+              "value": "1,635,580,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$1,695,300,000,000 (2017 est.)",
-              "value": "1,695,300,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3826,7 +3838,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the Federal Republic of Germany joined NATO in May 1955; with the reunification of Germany in October 1990, the states of the former German Democratic Republic joined the Federal Republic of Germany in its membership of NATO<br /> <p>the German Army has incorporated a joint Franco-German mechanized infantry brigade since 1989, a Dutch airmobile infantry brigade since 2014, and a Dutch mechanized infantry brigade since 2016; in addition, the German Navy&rsquo;s Sea Battalion (includes marine infantry, naval divers, reconnaissance, and security forces) has worked closely with the Dutch Marine Corps since 2016, including as a binational amphibious landing group</p>"
+          "content": "the Federal Republic of Germany joined NATO in May 1955; with the reunification of Germany in October 1990, the states of the former German Democratic Republic joined the Federal Republic of Germany in its membership of NATO<br /><br /> <p>the German Army has incorporated a joint Franco-German mechanized infantry brigade since 1989, a Dutch airmobile infantry brigade since 2014, and a Dutch mechanized infantry brigade since 2016; in addition, the German Navy&rsquo;s Sea Battalion (includes marine infantry, naval divers, reconnaissance, and security forces) has worked closely with the Dutch Marine Corps since 2016, including as a binational amphibious landing group</p> (2021)",
+          "info_date": "2021"
         }
       ]
     },
@@ -3857,12 +3870,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>572,818 (Syria), 141,650 (Iraq), 140,366 (Afghanistan), 58,569 (Eritrea), 43,244 (Iran), 28,470 (Turkey), 26,015 (Somalia), 8,722 (Russia), 8,639 (Serbia and Kosovo), 8,125 (Pakistan), 7,828 (Nigeria) (2019)<br><br><strong>stateless persons: </strong>26,675 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>605,338 (Syria), 147,994 (Afghanistan), 146,009 (Iraq), 61,226 (Eritrea), 44,965 (Iran), 33,345 (Turkey), 28,061 (Somalia), 9,172 (Russia), 8,813 (Nigeria), 8,475 (Pakistan), 7,926 (Serbia and Kosovo), 5,385 (Ethiopia) (2020)<br><br><strong>stateless persons: </strong>26,675 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "572,818 (Syria), 141,650 (Iraq), 140,366 (Afghanistan), 58,569 (Eritrea), 43,244 (Iran), 28,470 (Turkey), 26,015 (Somalia), 8,722 (Russia), 8,639 (Serbia and Kosovo), 8,125 (Pakistan), 7,828 (Nigeria) (2019)",
-              "value": "572,818 (Syria), 141,650 (Iraq), 140,366 (Afghanistan), 58,569 (Eritrea), 43,244 (Iran), 28,470 (Turkey), 26,015 (Somalia), 8,722 (Russia), 8,639 (Serbia and Kosovo), 8,125 (Pakistan), 7,828 (Nigeria) (2019)",
+              "content": "605,338 (Syria), 147,994 (Afghanistan), 146,009 (Iraq), 61,226 (Eritrea), 44,965 (Iran), 33,345 (Turkey), 28,061 (Somalia), 9,172 (Russia), 8,813 (Nigeria), 8,475 (Pakistan), 7,926 (Serbia and Kosovo), 5,385 (Ethiopia) (2020)",
+              "value": "605,338 (Syria), 147,994 (Afghanistan), 146,009 (Iraq), 61,226 (Eritrea), 44,965 (Iran), 33,345 (Turkey), 28,061 (Somalia), 9,172 (Russia), 8,813 (Nigeria), 8,475 (Pakistan), 7,926 (Serbia and Kosovo), 5,385 (Ethiopia) (2020)",
               "title": "refugees (country of origin)"
             },
             {

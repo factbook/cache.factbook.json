@@ -2,8 +2,8 @@
   "name": "Finland",
   "code": "FI",
   "region": "Europe",
-  "published": "2021-10-06 12:12:18 -0400",
-  "updated": "2021-10-06 10:00:42 -0400",
+  "published": "2021-10-20 12:07:12 -0400",
+  "updated": "2021-10-20 09:40:08 -0400",
   "media": [
     {
       "type": "flag",
@@ -1166,51 +1166,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>400 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>1.417 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>50 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "400 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "400,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "1.417 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "1,417,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "50 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "50,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "110 billion cubic meters (2017 est.)",
-          "value": "110,000,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1276,6 +1231,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>85.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.42% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "85.6% of total population (2021)",
+              "title": "urban population",
+              "value": "85.6",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.42% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.42",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_FI.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1306,39 +1294,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>85.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.42% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "85.6% of total population (2021)",
-              "title": "urban population",
-              "value": "85.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.42% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.42",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_FI.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1376,6 +1331,51 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>400 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>1.417 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>50 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "400 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "400,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "1.417 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "1,417,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "50 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "50,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "110 billion cubic meters (2017 est.)",
+          "value": "110,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1595,28 +1595,25 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>unicameral Parliament or Eduskunta (200 seats; 199 members directly elected in single- and multi-seat constituencies by proportional representation vote and 1 member in the province of Aland directly elected by simple majority vote; members serve 4-year terms) (e.g. 2019)<br><br><strong>elections: </strong>last held on 14 April 2019 (next to be held on April 2023) (e.g. 2019)<br><br><strong>election results: </strong>percent of vote by party/coalition - SDP 17.7%, Finn Party 17.5%, Kok 17.0%. Centre Party&nbsp; 13.8%, Green League 11.5%, Left Alliance 8.2%; seats by party/coalition -SDP 40, Finn Party 39, Kok 38, Centre Party 31, Green League 20, Left Alliance 16; composition men 107, women 93, percent of women 46.5% (e.g. 2019)",
+          "content": "<strong>description: </strong>unicameral Parliament or Eduskunta (200 seats; 199 members directly elected in single- and multi-seat constituencies by proportional representation vote and 1 member in the province of Aland directly elected by simple majority vote; members serve 4-year terms)<br><br><strong>elections: </strong>last held on 14 April 2019 (next to be held in April 2023)<br><br><strong>election results: </strong>percent of vote by party/coalition - SDP 17.7%, Finn Party 17.5%, Kok 17.0%. Centre Party&nbsp; 13.8%, Green League 11.5%, Left Alliance 8.2%; seats by party/coalition -SDP 40, Finn Party 39, Kok 38, Centre Party 31, Green League 20, Left Alliance 16; composition men 108, women 92, percent of women 46%",
           "subfields": [
             {
               "name": "description",
-              "content": "unicameral Parliament or Eduskunta (200 seats; 199 members directly elected in single- and multi-seat constituencies by proportional representation vote and 1 member in the province of Aland directly elected by simple majority vote; members serve 4-year terms) (e.g. 2019)",
+              "content": "unicameral Parliament or Eduskunta (200 seats; 199 members directly elected in single- and multi-seat constituencies by proportional representation vote and 1 member in the province of Aland directly elected by simple majority vote; members serve 4-year terms)",
               "value": "unicameral Parliament or Eduskunta (200 seats; 199 members directly elected in single- and multi-seat constituencies by proportional representation vote and 1 member in the province of Aland directly elected by simple majority vote; members serve 4-year terms)",
-              "title": "description",
-              "info_date": "(e.g. 2019)"
+              "title": "description"
             },
             {
               "name": "elections",
-              "content": "last held on 14 April 2019 (next to be held on April 2023) (e.g. 2019)",
-              "value": "last held on 14 April 2019 (next to be held on April 2023)",
-              "title": "elections",
-              "info_date": "(e.g. 2019)"
+              "content": "last held on 14 April 2019 (next to be held in April 2023)",
+              "value": "last held on 14 April 2019 (next to be held in April 2023)",
+              "title": "elections"
             },
             {
               "name": "election results",
-              "content": "percent of vote by party/coalition - SDP 17.7%, Finn Party 17.5%, Kok 17.0%. Centre Party&nbsp; 13.8%, Green League 11.5%, Left Alliance 8.2%; seats by party/coalition -SDP 40, Finn Party 39, Kok 38, Centre Party 31, Green League 20, Left Alliance 16; composition men 107, women 93, percent of women 46.5% (e.g. 2019)",
-              "value": "percent of vote by party/coalition - SDP 17.7%, Finn Party 17.5%, Kok 17.0%. Centre Party&nbsp; 13.8%, Green League 11.5%, Left Alliance 8.2%; seats by party/coalition -SDP 40, Finn Party 39, Kok 38, Centre Party 31, Green League 20, Left Alliance 16; composition men 107, women 93, percent of women 46.5%",
-              "title": "election results",
-              "info_date": "(e.g. 2019)"
+              "content": "percent of vote by party/coalition - SDP 17.7%, Finn Party 17.5%, Kok 17.0%. Centre Party&nbsp; 13.8%, Green League 11.5%, Left Alliance 8.2%; seats by party/coalition -SDP 40, Finn Party 39, Kok 38, Centre Party 31, Green League 20, Left Alliance 16; composition men 108, women 92, percent of women 46%",
+              "value": "percent of vote by party/coalition - SDP 17.7%, Finn Party 17.5%, Kok 17.0%. Centre Party&nbsp; 13.8%, Green League 11.5%, Left Alliance 8.2%; seats by party/coalition -SDP 40, Finn Party 39, Kok 38, Centre Party 31, Green League 20, Left Alliance 16; composition men 108, women 92, percent of women 46%",
+              "title": "election results"
             }
           ]
         },
@@ -1804,28 +1801,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$268.662 billion (2019 est.)<br><br>$265.619 billion (2018 est.)<br><br>$261.649 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$261.39 billion note: data are in 2017 dollars (2020 est.)<br><br>$268.84 billion note: data are in 2017 dollars (2019 est.)<br><br>$265.46 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$268.662 billion (2019 est.)",
-              "value": "268,662,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$261.39 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "261,390,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$268.84 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "268,840,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$265.619 billion (2018 est.)",
-              "value": "265,619,000,000",
+              "content": "$265.46 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "265,460,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$261.649 billion (2017 est.)",
-              "value": "261,649,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -1863,28 +1863,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$48,668 (2019 est.)<br><br>$48,159 (2018 est.)<br><br>$47,502 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$47,300 note: data are in 2017 dollars (2020 est.)<br><br>$48,700 note: data are in 2017 dollars (2019 est.)<br><br>$48,100 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$48,668 (2019 est.)",
-              "value": "48,668",
+              "name": "Real GDP per capita 2020",
+              "content": "$47,300 note: data are in 2017 dollars (2020 est.)",
+              "value": "47,300",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$48,700 note: data are in 2017 dollars (2019 est.)",
+              "value": "48,700",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$48,159 (2018 est.)",
-              "value": "48,159",
+              "content": "$48,100 note: data are in 2017 dollars (2018 est.)",
+              "value": "48,100",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$47,502 (2017 est.)",
-              "value": "47,502",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2292,21 +2295,23 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$119.887 billion (2019 est.)<br><br>$111.339 billion (2018 est.)<br><br>$109.513 billion (2017 est.)",
+          "content": "$108.22 billion note: data are in current year dollars (2019 est.)<br><br>$106.01 billion note: data are in current year dollars (2018 est.)<br><br>$109.513 billion (2017 est.)",
           "subfields": [
             {
               "name": "Exports 2019",
-              "content": "$119.887 billion (2019 est.)",
-              "value": "119,887,000,000",
+              "content": "$108.22 billion note: data are in current year dollars (2019 est.)",
+              "value": "108,220,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$111.339 billion (2018 est.)",
-              "value": "111,339,000,000",
+              "content": "$106.01 billion note: data are in current year dollars (2018 est.)",
+              "value": "106,010,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2017",
@@ -2335,21 +2340,23 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$120.437 billion (2019 est.)<br><br>$116.628 billion (2018 est.)<br><br>$110.701 billion (2017 est.)",
+          "content": "$107.39 billion note: data are in current year dollars (2019 est.)<br><br>$109.45 billion note: data are in current year dollars (2018 est.)<br><br>$110.701 billion (2017 est.)",
           "subfields": [
             {
               "name": "Imports 2019",
-              "content": "$120.437 billion (2019 est.)",
-              "value": "120,437,000,000",
+              "content": "$107.39 billion note: data are in current year dollars (2019 est.)",
+              "value": "107,390,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$116.628 billion (2018 est.)",
-              "value": "116,628,000,000",
+              "content": "$109.45 billion note: data are in current year dollars (2018 est.)",
+              "value": "109,450,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2017",
@@ -3215,12 +3222,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>8,862 (Iraq) (2019)<br><br><strong>stateless persons: </strong>3,428 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>8,398 (Iraq) (2020)<br><br><strong>stateless persons: </strong>3,428 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "8,862 (Iraq) (2019)",
-              "value": "8,862 (Iraq) (2019)",
+              "content": "8,398 (Iraq) (2020)",
+              "value": "8,398 (Iraq) (2020)",
               "title": "refugees (country of origin)"
             },
             {

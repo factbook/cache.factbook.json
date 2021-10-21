@@ -2,8 +2,8 @@
   "name": "Sint Maarten",
   "code": "NN",
   "region": "Central America",
-  "published": "2021-10-06 12:22:43 -0400",
-  "updated": "2021-10-06 11:08:30 -0400",
+  "published": "2021-10-20 12:17:37 -0400",
+  "updated": "2021-10-19 16:05:10 -0400",
   "media": [
     {
       "type": "flag",
@@ -1111,8 +1111,16 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$1.436 billion (2018 est.)<br><br>$1.538 billion (2017 est.)<br><br>$365.8 million (2014 est.)<br><br><div><strong><span class=\"category\">note: </span></strong><span class=\"category_data\">data are in 2014 US dollars</span></div>",
+          "content": "$1.44 billion note: data are in 2017 dollars (2018 est.)<br><br>$1.436 billion (2018 est.)<br><br>$1.538 billion (2017 est.)<br><br><div><strong><span class=\"category\">note: </span></strong><span class=\"category_data\">data are in 2014 US dollars</span></div>",
           "subfields": [
+            {
+              "name": "Real GDP (purchasing power parity) 2018",
+              "content": "$1.44 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "1,440,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
             {
               "name": "Real GDP (purchasing power parity) 2018",
               "content": "$1.436 billion (2018 est.)",
@@ -1124,13 +1132,6 @@
               "name": "Real GDP (purchasing power parity) 2017",
               "content": "$1.538 billion (2017 est.)",
               "value": "1,538,000,000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2014",
-              "content": "$365.8 million (2014 est.)",
-              "value": "365,800,000",
               "estimated": true,
               "prefix": "$"
             }
@@ -1170,8 +1171,16 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$35,342 (2018 est.)<br><br>$37,914 (2017 est.)<br><br>$66,800 (2014 est.)<br><br><strong>note: </strong>data are in 2015 US dollars",
+          "content": "$35,300 note: data are in 2017 dollars (2018 est.)<br><br>$35,342 (2018 est.)<br><br>$37,914 (2017 est.)<br><br><strong>note: </strong>data are in 2015 US dollars",
           "subfields": [
+            {
+              "name": "Real GDP per capita 2018",
+              "content": "$35,300 note: data are in 2017 dollars (2018 est.)",
+              "value": "35,300",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
             {
               "name": "Real GDP per capita 2018",
               "content": "$35,342 (2018 est.)",
@@ -1183,13 +1192,6 @@
               "name": "Real GDP per capita 2017",
               "content": "$37,914 (2017 est.)",
               "value": "37,914",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2014",
-              "content": "$66,800 (2014 est.)",
-              "value": "66,800",
               "estimated": true,
               "prefix": "$"
             }
@@ -1338,10 +1340,58 @@
           ]
         },
         {
+          "name": "Exports",
+          "field_id": 239,
+          "comparative": true,
+          "content": "$1.09 billion note: data are in current year dollars (2019 est.)<br><br>$800 million note: data are in current year dollars (2018 est.)",
+          "subfields": [
+            {
+              "name": "Exports 2019",
+              "content": "$1.09 billion note: data are in current year dollars (2019 est.)",
+              "value": "1,090,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2018",
+              "content": "$800 million note: data are in current year dollars (2018 est.)",
+              "value": "800,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            }
+          ]
+        },
+        {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
           "content": "sugar"
+        },
+        {
+          "name": "Imports",
+          "field_id": 242,
+          "comparative": true,
+          "content": "$1.23 billion note: data are in current year dollars (2019 est.)<br><br>$1.22 billion note: data are in current year dollars (2018 est.)",
+          "subfields": [
+            {
+              "name": "Imports 2019",
+              "content": "$1.23 billion note: data are in current year dollars (2019 est.)",
+              "value": "1,230,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2018",
+              "content": "$1.22 billion note: data are in current year dollars (2018 est.)",
+              "value": "1,220,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            }
+          ]
         },
         {
           "name": "Exchange rates",

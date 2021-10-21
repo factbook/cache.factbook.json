@@ -2,8 +2,8 @@
   "name": "Israel",
   "code": "IS",
   "region": "Middle East",
-  "published": "2021-10-13 12:20:00 -0400",
-  "updated": "2021-10-12 16:24:51 -0400",
+  "published": "2021-10-20 12:11:45 -0400",
+  "updated": "2021-10-19 16:05:06 -0400",
   "media": [
     {
       "type": "flag",
@@ -1156,51 +1156,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>983 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>72 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.249 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "983 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "983,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "72 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "72,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "1.249 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "1,249,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "1.78 billion cubic meters (2017 est.)",
-          "value": "1,780,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1266,6 +1221,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>92.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.51% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "92.7% of total population (2021)",
+              "title": "urban population",
+              "value": "92.7",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.51% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.51",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_IS.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1296,39 +1284,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>92.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.51% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "92.7% of total population (2021)",
-              "title": "urban population",
-              "value": "92.7",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "1.51% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "1.51",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_IS.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1366,6 +1321,51 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>983 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>72 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.249 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "983 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "983,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "72 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "72,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "1.249 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "1,249,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "1.78 billion cubic meters (2017 est.)",
+          "value": "1,780,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1612,7 +1612,7 @@
           "name": "Judicial branch",
           "field_id": 314,
           "comparative": false,
-          "content": "<strong>highest courts: </strong>Supreme Court (consists of the president, deputy president, 13 justices, and 2 registrars) and normally sits in panels of 3 justices; in special cases, the panel is expanded with an uneven number of justices<br><br><strong>judge selection and term of office: </strong>judges selected by the 9-member Judicial Selection Committee, consisting of the Minister of Justice (chair), the president of the Supreme Court, two other Supreme Court justices, 1 other Cabinet minister, 2 Knesset members, and 2 representatives of the Israel Bar Association; judges can serve up to mandatory retirement at age 70<br><br><strong>subordinate courts: </strong>district and magistrate courts; national and regional labor courts; family and juvenile courts; special and religious courts",
+          "content": "<strong>highest courts: </strong>Supreme Court (consists of the president, deputy president, 13 justices, and 2 registrars) and normally sits in panels of 3 justices; in special cases, the panel is expanded with an uneven number of justices<br><br><strong>judge selection and term of office: </strong>judges selected by the 9-member Judicial Selection Committee, consisting of the Minister of Justice (chair), the president of the Supreme Court, two other Supreme Court justices, 1 other Cabinet minister, 2 Knesset members, and 2 representatives of the Israel Bar Association; judges can serve up to mandatory retirement at age 70<br><br><strong>subordinate courts: </strong>district and magistrate courts; national and regional labor courts; family and juvenile courts; special and Rabbinical courts",
           "subfields": [
             {
               "name": "highest courts",
@@ -1628,8 +1628,8 @@
             },
             {
               "name": "subordinate courts",
-              "content": "district and magistrate courts; national and regional labor courts; family and juvenile courts; special and religious courts",
-              "value": "district and magistrate courts; national and regional labor courts; family and juvenile courts; special and religious courts",
+              "content": "district and magistrate courts; national and regional labor courts; family and juvenile courts; special and Rabbinical courts",
+              "value": "district and magistrate courts; national and regional labor courts; family and juvenile courts; special and Rabbinical courts",
               "title": "subordinate courts"
             }
           ]
@@ -1800,28 +1800,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$394.7 billion (2019 est.)<br><br>$351.254 billion (2018 est.)<br><br>$339.528 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$353.39 billion note: data are in 2017 dollars (2020 est.)<br><br>$362.23 billion note: data are in 2017 dollars (2019 est.)<br><br>$350.15 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$394.7 billion (2019 est.)",
-              "value": "394,700,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$353.39 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "353,390,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$362.23 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "362,230,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$351.254 billion (2018 est.)",
-              "value": "351,254,000,000",
+              "content": "$350.15 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "350,150,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$339.528 billion (2017 est.)",
-              "value": "339,528,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -1859,28 +1862,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$41,953 (2020 est.)<br><br>$40,145 (2019 est.)<br><br>$39,543 (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$38,300 note: data are in 2017 dollars (2020 est.)<br><br>$40,000 note: data are in 2017 dollars (2019 est.)<br><br>$39,400 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2020",
-              "content": "$41,953 (2020 est.)",
-              "value": "41,953",
+              "content": "$38,300 note: data are in 2017 dollars (2020 est.)",
+              "value": "38,300",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2019",
-              "content": "$40,145 (2019 est.)",
-              "value": "40,145",
+              "content": "$40,000 note: data are in 2017 dollars (2019 est.)",
+              "value": "40,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$39,543 (2018 est.)",
-              "value": "39,543",
+              "content": "$39,400 note: data are in 2017 dollars (2018 est.)",
+              "value": "39,400",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2315,28 +2321,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$104.992 billion (2019 est.)<br><br>$101.389 billion (2018 est.)<br><br>$95.196 billion (2017 est.)",
+          "content": "$113.87 billion note: data are in current year dollars (2020 est.)<br><br>$115.57 billion note: data are in current year dollars (2019 est.)<br><br>$110.05 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$104.992 billion (2019 est.)",
-              "value": "104,992,000,000",
+              "name": "Exports 2020",
+              "content": "$113.87 billion note: data are in current year dollars (2020 est.)",
+              "value": "113,870,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$115.57 billion note: data are in current year dollars (2019 est.)",
+              "value": "115,570,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$101.389 billion (2018 est.)",
-              "value": "101,389,000,000",
+              "content": "$110.05 billion note: data are in current year dollars (2018 est.)",
+              "value": "110,050,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$95.196 billion (2017 est.)",
-              "value": "95,196,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2358,28 +2367,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$116.23 billion (2019 est.)<br><br>$111.652 billion (2018 est.)<br><br>$104.252 billion (2017 est.)",
+          "content": "$96.53 billion note: data are in current year dollars (2020 est.)<br><br>$108.26 billion note: data are in current year dollars (2019 est.)<br><br>$107.74 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$116.23 billion (2019 est.)",
-              "value": "116,230,000,000",
+              "name": "Imports 2020",
+              "content": "$96.53 billion note: data are in current year dollars (2020 est.)",
+              "value": "96,530,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$108.26 billion note: data are in current year dollars (2019 est.)",
+              "value": "108,260,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$111.652 billion (2018 est.)",
-              "value": "111,652,000,000",
+              "content": "$107.74 billion note: data are in current year dollars (2018 est.)",
+              "value": "107,740,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$104.252 billion (2017 est.)",
-              "value": "104,252,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3214,7 +3226,7 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the United Nations Disengagement Observer Force (UNDOF) has operated in the Golan between Israel and Syria since 1974 to monitor the ceasefire following the 1973 Arab-Israeli War and supervise the areas of separation between the two countries; as of August 2021, UNDOF consisted of about 1,250 personnel<br /> <p>as of 2021 and since the outbreak of the Syrian civil war in 2011, Israel has routinely carried out air strikes in Syria targeting Iranian, Iranian-backed militia and Hizballah forces, and some Syrian Government troops; over the same period, the IDF has carried out numerous strikes against Hizballah in Lebanon in response to attacks on Israeli territory; Israel fought a month-long war in Lebanon with Hizballah in 2006 (see <a href=\"https://www.cia.gov/the-world-factbook/references/terrorist-organizations/\">Appendix-T</a> for details on Hizballah)</p> <p>as of 2021, the IDF also conducted frequent operations against the HAMAS and Palestine Islamic Jihad (PIJ) terrorist groups operating out of the Gaza Strip; since seizing control of the Gaza Strip in 2007, HAMAS has claimed responsibility for numerous rocket attacks into Israel and organized protests at the border between Gaza and Israel, resulting in violent clashes, casualties, and reprisal military actions by the IDF; HAMAS and Israel fought an 11-day conflict in May of 2021, which ended in an informal truce; sporadic clashes continued through 2021, including incendiary balloon attacks from Palestinian territory and retaliatory IDF strikes; PIJ has conducted numerous attacks on Israel since the 1980s,&nbsp;including a barrage of mortar and rocket strikes in February 2020 (see <a href=\"https://www.cia.gov/the-world-factbook/references/terrorist-organizations/\">Appendix-T</a> for more details on HAMAS and Palestine Islamic Jihad)<br /><br />Israel has Major Non-NATO Ally (MNNA) status with the US; MNNA is a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; while MNNA status provides military and economic privileges, it does not entail any security commitments</p>"
+          "content": "the United Nations Disengagement Observer Force (UNDOF) has operated in the Golan between Israel and Syria since 1974 to monitor the ceasefire following the 1973 Arab-Israeli War and supervise the areas of separation between the two countries; as of August 2021, UNDOF consisted of about 1,250 personnel<br /><br /> <p>as of 2021 and since the outbreak of the Syrian civil war in 2011, Israel has routinely carried out air strikes in Syria targeting Iranian, Iranian-backed militia and Hizballah forces, and some Syrian Government troops; over the same period, the IDF has carried out numerous strikes against Hizballah in Lebanon in response to attacks on Israeli territory; Israel fought a month-long war in Lebanon with Hizballah in 2006 (see <a href=\"https://www.cia.gov/the-world-factbook/references/terrorist-organizations/\">Appendix-T</a> for details on Hizballah)</p> <p>as of 2021, the IDF also conducted frequent operations against the HAMAS and Palestine Islamic Jihad (PIJ) terrorist groups operating out of the Gaza Strip; since seizing control of the Gaza Strip in 2007, HAMAS has claimed responsibility for numerous rocket attacks into Israel and organized protests at the border between Gaza and Israel, resulting in violent clashes, casualties, and reprisal military actions by the IDF; HAMAS and Israel fought an 11-day conflict in May of 2021, which ended in an informal truce; sporadic clashes continued through 2021, including incendiary balloon attacks from Palestinian territory and retaliatory IDF strikes; PIJ has conducted numerous attacks on Israel since the 1980s,&nbsp;including a barrage of mortar and rocket strikes in February 2020 (see <a href=\"https://www.cia.gov/the-world-factbook/references/terrorist-organizations/\">Appendix-T</a> for more details on HAMAS and Palestine Islamic Jihad)<br /><br />Israel has Major Non-NATO Ally (MNNA) status with the US; MNNA is a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; while MNNA status provides military and economic privileges, it does not entail any security commitments</p>"
         }
       ]
     },

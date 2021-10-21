@@ -2,8 +2,8 @@
   "name": "Bolivia",
   "code": "BL",
   "region": "South America",
-  "published": "2021-10-13 12:13:19 -0400",
-  "updated": "2021-10-12 07:46:47 -0400",
+  "published": "2021-10-20 12:01:13 -0400",
+  "updated": "2021-10-19 16:05:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -277,6 +277,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Amazon (6,145,186 sq km), Paran&aacute; (2,582,704 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Amazon Basin"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -292,16 +302,6 @@
           "name": "Geography - note",
           "field_id": 295,
           "content": "<strong>note 1:</strong> landlocked; shares control of Lago Titicaca, world's highest navigable lake (elevation 3,805 m), with Peru<br /><br /><strong>note 2:</strong> the southern regions of Peru and the extreme northwestern part of Bolivia are considered to be the place of origin for the common potato, while southeast Bolivia and northwest Argentina seem to be the original development site for peanuts"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Amazon (6,145,186 sq km), Paran&aacute; (2,582,704 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Amazon Basin"
         }
       ]
     },
@@ -1109,51 +1109,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>136 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>32 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.92 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "136 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "136,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "32 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "32,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "1.92 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "1,920,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "574 billion cubic meters (2017 est.)",
-          "value": "574,000,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1219,6 +1174,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>70.5% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.87% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "70.5% of total population (2021)",
+              "title": "urban population",
+              "value": "70.5",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.87% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.87",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_BL.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1249,39 +1237,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>70.5% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.87% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "70.5% of total population (2021)",
-              "title": "urban population",
-              "value": "70.5",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "1.87% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "1.87",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_BL.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1358,6 +1313,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Amazon Basin"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>136 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>32 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.92 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "136 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "136,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "32 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "32,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "1.92 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "1,920,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "574 billion cubic meters (2017 est.)",
+          "value": "574,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1782,28 +1782,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$100.445 billion (2019 est.)<br><br>$98.267 billion (2018 est.)<br><br>$94.285 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$92.59 billion note: data are in 2017 dollars (2020 est.)<br><br>$100.45 billion note: data are in 2017 dollars (2019 est.)<br><br>$98.27 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$100.445 billion (2019 est.)",
-              "value": "100,445,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$92.59 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "92,590,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$100.45 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "100,450,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$98.267 billion (2018 est.)",
-              "value": "98,267,000,000",
+              "content": "$98.27 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "98,270,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$94.285 billion (2017 est.)",
-              "value": "94,285,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -1841,28 +1844,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$8,724 (2019 est.)<br><br>$8,656 (2018 est.)<br><br>$8,424 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$7,900 note: data are in 2017 dollars (2020 est.)<br><br>$8,700 note: data are in 2017 dollars (2019 est.)<br><br>$8,700 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$8,724 (2019 est.)",
-              "value": "8,724",
+              "name": "Real GDP per capita 2020",
+              "content": "$7,900 note: data are in 2017 dollars (2020 est.)",
+              "value": "7,900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$8,700 note: data are in 2017 dollars (2019 est.)",
+              "value": "8,700",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$8,656 (2018 est.)",
-              "value": "8,656",
+              "content": "$8,700 note: data are in 2017 dollars (2018 est.)",
+              "value": "8,700",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$8,424 (2017 est.)",
-              "value": "8,424",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2270,28 +2276,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$9.632 billion (2019 est.)<br><br>$9.81 billion (2018 est.)<br><br>$9.326 billion (2017 est.)",
+          "content": "$7.55 billion note: data are in current year dollars (2020 est.)<br><br>$10.26 billion note: data are in current year dollars (2019 est.)<br><br>$10.35 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$9.632 billion (2019 est.)",
-              "value": "9,632,000,000",
+              "name": "Exports 2020",
+              "content": "$7.55 billion note: data are in current year dollars (2020 est.)",
+              "value": "7,550,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$10.26 billion note: data are in current year dollars (2019 est.)",
+              "value": "10,260,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$9.81 billion (2018 est.)",
-              "value": "9,810,000,000",
+              "content": "$10.35 billion note: data are in current year dollars (2018 est.)",
+              "value": "10,350,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$9.326 billion (2017 est.)",
-              "value": "9,326,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2313,28 +2322,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$10.142 billion (2019 est.)<br><br>$9.99 billion (2018 est.)<br><br>$9.8 billion (2017 est.)",
+          "content": "$8.27 billion note: data are in current year dollars (2020 est.)<br><br>$11.95 billion note: data are in current year dollars (2019 est.)<br><br>$12.44 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$10.142 billion (2019 est.)",
-              "value": "10,142,000,000",
+              "name": "Imports 2020",
+              "content": "$8.27 billion note: data are in current year dollars (2020 est.)",
+              "value": "8,270,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$11.95 billion note: data are in current year dollars (2019 est.)",
+              "value": "11,950,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$9.99 billion (2018 est.)",
-              "value": "9,990,000,000",
+              "content": "$12.44 billion note: data are in current year dollars (2018 est.)",
+              "value": "12,440,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$9.8 billion (2017 est.)",
-              "value": "9,800,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2754,14 +2766,14 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong><p>with low national GDP and remote landlocked geography, Bolivia&rsquo;s telecom services are historically expensive and neglected resulting in low penetration; fixed telecom market is provided by non-profit cooperatives focused on improvement of services such as broadband and paid TV services; some operators adopted fixed-wireless technologies and fiber-optic capacity; fixed broadband services migrating from DSL to fiber remain expensive and largely unavailable in many areas; historically relied on satellite services or terrestrial links and inaugurated a new cable running via Peru to the Pacific; operator aims to increase coverage through mobile networks for voice and data access, especially to rural areas; space agency plans to boost satellite-based Internet; in 2020, communications towers in Yapacani were destroyed due to pandemic conspiracy fears; importer of broadcasting equipment from China (2021)</p> (2020)<br><br><strong>domestic: </strong>6 per 100 fixed-line, mobile-cellular telephone use expanding rapidly and teledensity stands at&nbsp;101 per 100 persons; most telephones are concentrated in La Paz, Santa Cruz, and other capital cities (2019)<br><br><strong>international: </strong>country code - 591; Bolivia has no direct access to submarine cable networks and must therefore connect to the rest of the world either via satellite or through terrestrial links across neighboring countries; satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong><p>with low national GDP and remote landlocked geography, Bolivia&rsquo;s telecom services are historically expensive and neglected resulting in low penetration; fixed telecom market is provided by non-profit cooperatives focused on improvement of services such as broadband and paid TV services; some operators adopted fixed-wireless technologies and fiber-optic capacity; fixed broadband services migrating from DSL to fiber remain expensive and largely unavailable in many areas; historically relied on satellite services or terrestrial links and inaugurated a new cable running via Peru to the Pacific; operator aims to increase coverage through mobile networks for voice and data access, especially to rural areas; space agency plans to boost satellite-based Internet; in 2020, communications towers in Yapacani were destroyed due to pandemic conspiracy fears; importer of broadcasting equipment from China</p> (2021)<br><br><strong>domestic: </strong>6 per 100 fixed-line, mobile-cellular telephone use expanding rapidly and teledensity stands at&nbsp;101 per 100 persons; most telephones are concentrated in La Paz, Santa Cruz, and other capital cities (2019)<br><br><strong>international: </strong>country code - 591; Bolivia has no direct access to submarine cable networks and must therefore connect to the rest of the world either via satellite or through terrestrial links across neighboring countries; satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "<p>with low national GDP and remote landlocked geography, Bolivia&rsquo;s telecom services are historically expensive and neglected resulting in low penetration; fixed telecom market is provided by non-profit cooperatives focused on improvement of services such as broadband and paid TV services; some operators adopted fixed-wireless technologies and fiber-optic capacity; fixed broadband services migrating from DSL to fiber remain expensive and largely unavailable in many areas; historically relied on satellite services or terrestrial links and inaugurated a new cable running via Peru to the Pacific; operator aims to increase coverage through mobile networks for voice and data access, especially to rural areas; space agency plans to boost satellite-based Internet; in 2020, communications towers in Yapacani were destroyed due to pandemic conspiracy fears; importer of broadcasting equipment from China (2021)</p> (2020)",
-              "value": "<p>with low national GDP and remote landlocked geography, Bolivia&rsquo;s telecom services are historically expensive and neglected resulting in low penetration; fixed telecom market is provided by non-profit cooperatives focused on improvement of services such as broadband and paid TV services; some operators adopted fixed-wireless technologies and fiber-optic capacity; fixed broadband services migrating from DSL to fiber remain expensive and largely unavailable in many areas; historically relied on satellite services or terrestrial links and inaugurated a new cable running via Peru to the Pacific; operator aims to increase coverage through mobile networks for voice and data access, especially to rural areas; space agency plans to boost satellite-based Internet; in 2020, communications towers in Yapacani were destroyed due to pandemic conspiracy fears; importer of broadcasting equipment from China (2021)</p>",
+              "content": "<p>with low national GDP and remote landlocked geography, Bolivia&rsquo;s telecom services are historically expensive and neglected resulting in low penetration; fixed telecom market is provided by non-profit cooperatives focused on improvement of services such as broadband and paid TV services; some operators adopted fixed-wireless technologies and fiber-optic capacity; fixed broadband services migrating from DSL to fiber remain expensive and largely unavailable in many areas; historically relied on satellite services or terrestrial links and inaugurated a new cable running via Peru to the Pacific; operator aims to increase coverage through mobile networks for voice and data access, especially to rural areas; space agency plans to boost satellite-based Internet; in 2020, communications towers in Yapacani were destroyed due to pandemic conspiracy fears; importer of broadcasting equipment from China</p> (2021)",
+              "value": "<p>with low national GDP and remote landlocked geography, Bolivia&rsquo;s telecom services are historically expensive and neglected resulting in low penetration; fixed telecom market is provided by non-profit cooperatives focused on improvement of services such as broadband and paid TV services; some operators adopted fixed-wireless technologies and fiber-optic capacity; fixed broadband services migrating from DSL to fiber remain expensive and largely unavailable in many areas; historically relied on satellite services or terrestrial links and inaugurated a new cable running via Peru to the Pacific; operator aims to increase coverage through mobile networks for voice and data access, especially to rural areas; space agency plans to boost satellite-based Internet; in 2020, communications towers in Yapacani were destroyed due to pandemic conspiracy fears; importer of broadcasting equipment from China</p>",
               "title": "general assessment",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             },
             {
               "name": "domestic",

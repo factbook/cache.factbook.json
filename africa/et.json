@@ -2,8 +2,8 @@
   "name": "Ethiopia",
   "code": "ET",
   "region": "Africa",
-  "published": "2021-10-13 12:16:44 -0400",
-  "updated": "2021-10-12 17:47:00 -0400",
+  "published": "2021-10-20 12:06:57 -0400",
+  "updated": "2021-10-19 16:05:05 -0400",
   "media": [
     {
       "type": "flag",
@@ -438,6 +438,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Ogaden-Juba Basin, Sudd Basin (Umm Ruwaba Aquifer)"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -453,16 +463,6 @@
           "name": "Geography - note",
           "field_id": 295,
           "content": "<strong>note 1:</strong> landlocked - entire coastline along the Red Sea was lost with the de jure independence of Eritrea on 24 May 1993; Ethiopia is, therefore, the most populous landlocked country in the world; the Blue Nile, the chief headstream of the Nile by water volume, rises in T'ana Hayk (Lake Tana) in northwest Ethiopia<br /><br /><strong>note 2:</strong> three major crops are believed to have originated in Ethiopia: coffee, grain sorghum, and castor bean"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Ogaden-Juba Basin, Sudd Basin (Umm Ruwaba Aquifer)"
         }
       ]
     },
@@ -1330,51 +1330,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>810 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>51.1 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>9.687 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "810 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "810,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "51.1 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "51,100,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "9.687 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "9,687,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "122 billion cubic meters (2017 est.)",
-          "value": "122,000,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1440,6 +1395,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>22.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>4.4% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "22.2% of total population (2021)",
+              "title": "urban population",
+              "value": "22.2",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "4.4% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "4.4",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_ET.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1470,39 +1458,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>22.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>4.4% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "22.2% of total population (2021)",
-              "title": "urban population",
-              "value": "22.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "4.4% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "4.4",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_ET.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1597,6 +1552,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Ogaden-Juba Basin, Sudd Basin (Umm Ruwaba Aquifer)"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>810 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>51.1 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>9.687 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "810 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "810,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "51.1 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "51,100,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "9.687 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "9,687,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "122 billion cubic meters (2017 est.)",
+          "value": "122,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -2038,28 +2038,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$248.972 billion (2019 est.)<br><br>$229.755 billion (2018 est.)<br><br>$215.094 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$264.05 billion note: data are in 2017 dollars (2020 est.)<br><br>$248.97 billion note: data are in 2017 dollars (2019 est.)<br><br>$229.76 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$248.972 billion (2019 est.)",
-              "value": "248,972,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$264.05 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "264,050,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$248.97 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "248,970,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$229.755 billion (2018 est.)",
-              "value": "229,755,000,000",
+              "content": "$229.76 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "229,760,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$215.094 billion (2017 est.)",
-              "value": "215,094,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2097,28 +2100,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$2,221 (2019 est.)<br><br>$2,104 (2018 est.)<br><br>$2,022 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$2,300 note: data are in 2017 dollars (2020 est.)<br><br>$2,200 note: data are in 2017 dollars (2019 est.)<br><br>$2,100 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$2,221 (2019 est.)",
-              "value": "2,221",
+              "name": "Real GDP per capita 2020",
+              "content": "$2,300 note: data are in 2017 dollars (2020 est.)",
+              "value": "2,300",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$2,200 note: data are in 2017 dollars (2019 est.)",
+              "value": "2,200",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$2,104 (2018 est.)",
-              "value": "2,104",
+              "content": "$2,100 note: data are in 2017 dollars (2018 est.)",
+              "value": "2,100",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$2,022 (2017 est.)",
-              "value": "2,022",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2524,14 +2530,15 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$3.23 billion (2017 est.)<br><br>$2.814 billion (2016 est.)",
+          "content": "$7.62 billion note: data are in current year dollars (2018 est.)<br><br>$2.814 billion (2016 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$3.23 billion (2017 est.)",
-              "value": "3,230,000,000",
+              "name": "Exports 2018",
+              "content": "$7.62 billion note: data are in current year dollars (2018 est.)",
+              "value": "7,620,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2016",
@@ -2560,14 +2567,15 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$15.59 billion (2017 est.)<br><br>$14.69 billion (2016 est.)",
+          "content": "$19.93 billion note: data are in current year dollars (2018 est.)<br><br>$14.69 billion (2016 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$15.59 billion (2017 est.)",
-              "value": "15,590,000,000",
+              "name": "Imports 2018",
+              "content": "$19.93 billion note: data are in current year dollars (2018 est.)",
+              "value": "19,930,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2016",
@@ -3307,8 +3315,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Ethiopian National Defense Force (ENDF): Ground Forces, Ethiopian Air Force (Ye Ityopya Ayer Hayl, ETAF) (2020)<br><br>note(s): in January 2020 the Ethiopian Government announced <span class=\"highlight \">it </span>had re-established a <span class=\"highlight \">navy</span>, which was disbanded in 1996; in March 2019 <span class=\"highlight \">Ethiopia</span> signed a defense cooperation agreement with <span class=\"inlineLinkContainer \"><a class=\"inlineLinkAnchor\" title=\"France\" data-bind=\"attr: { title: label }, click : onClick, event : { contextmenu : onClick}\">France</a></span> which stipulated that <span class=\"inlineLinkContainer \"><a class=\"inlineLinkAnchor\" title=\"France\" data-bind=\"attr: { title: label }, click : onClick, event : { contextmenu : onClick}\">France</a></span> would support the establishment of an Ethiopian <span class=\"highlight \">navy, which will reportedly be based out of Djibouti<br /><br />in 2018, Ethiopia established a Republican Guard for protecting senior officials; the Republican Guard is a military unit accountable to the Prime Minister<br /><br /></span>",
-          "info_date": "2020",
+          "content": "Ethiopian National Defense Force (ENDF): Ground Forces, Ethiopian Air Force (Ye Ityopya Ayer Hayl, ETAF) (2021)<br><br>note(s): in January 2020 the Ethiopian Government announced <span class=\"highlight \">it </span>had re-established a <span class=\"highlight \">navy</span>, which was disbanded in 1996; in March 2019 <span class=\"highlight \">Ethiopia</span> signed a defense cooperation agreement with <span class=\"inlineLinkContainer \"><a class=\"inlineLinkAnchor\" title=\"France\" data-bind=\"attr: { title: label }, click : onClick, event : { contextmenu : onClick}\">France</a></span> which stipulated that <span class=\"inlineLinkContainer \"><a class=\"inlineLinkAnchor\" title=\"France\" data-bind=\"attr: { title: label }, click : onClick, event : { contextmenu : onClick}\">France</a></span> would support the establishment of an Ethiopian <span class=\"highlight \">navy, which will reportedly be based out of Djibouti<br /><br />in 2018, Ethiopia established a Republican Guard for protecting senior officials; the Republican Guard is a military unit accountable to the Prime Minister<br /><br /></span>",
+          "info_date": "2021",
           "field_note": "note(s): in January 2020 the Ethiopian Government announced <span class=\"highlight \">it </span>had re-established a <span class=\"highlight \">navy</span>, which was disbanded in 1996; in March 2019 <span class=\"highlight \">Ethiopia</span> signed a defense cooperation agreement with <span class=\"inlineLinkContainer \"><a class=\"inlineLinkAnchor\" title=\"France\" data-bind=\"attr: { title: label }, click : onClick, event : { contextmenu : onClick}\">France</a></span> which stipulated that <span class=\"inlineLinkContainer \"><a class=\"inlineLinkAnchor\" title=\"France\" data-bind=\"attr: { title: label }, click : onClick, event : { contextmenu : onClick}\">France</a></span> would support the establishment of an Ethiopian <span class=\"highlight \">navy, which will reportedly be based out of Djibouti<br /><br />in 2018, Ethiopia established a Republican Guard for protecting senior officials; the Republican Guard is a military unit accountable to the Prime Minister<br /><br /></span>"
         },
         {

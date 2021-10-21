@@ -2,8 +2,8 @@
   "name": "France",
   "code": "FR",
   "region": "Europe",
-  "published": "2021-10-13 12:17:36 -0400",
-  "updated": "2021-10-11 18:16:23 -0400",
+  "published": "2021-10-20 12:08:22 -0400",
+  "updated": "2021-10-20 09:47:26 -0400",
   "media": [
     {
       "type": "flag",
@@ -1577,6 +1577,16 @@
           "field_note": "<strong>metropolitan France: </strong>26,000 sq km (2012)"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Loire (115,282 sq km), Seine 78,919 sq km), Rhine-Maas (198,735 sq km), <em>(Adriatic Sea)</em> Po (76,997 sq km), <em>(Mediterranean Sea)&nbsp;</em>Rhone (100,543 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Paris Basin"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -1593,16 +1603,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "largest West European nation; most major French rivers - the Meuse, Seine, Loire, Charente, Dordogne, and Garonne - flow northward or westward into the Atlantic Ocean, only the Rhone flows southward into the Mediterranean Sea"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Loire (115,282 sq km), Seine 78,919 sq km), Rhine-Maas (198,735 sq km), <em>(Adriatic Sea)</em> Po (76,997 sq km), <em>(Mediterranean Sea)&nbsp;</em>Rhone (100,543 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Paris Basin"
         }
       ]
     },
@@ -2361,51 +2361,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>5.175 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>18.15 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>3.113 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "5.175 billion cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "5,175,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "18.15 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "18,150,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "3.113 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "3,113,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "211 billion cubic meters (2017 est.)",
-          "value": "211,000,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -2471,6 +2426,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>81.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.67% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "81.2% of total population (2021)",
+              "title": "urban population",
+              "value": "81.2",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.67% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.67",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_FR.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -2501,39 +2489,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>81.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.67% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "81.2% of total population (2021)",
-              "title": "urban population",
-              "value": "81.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.67% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.67",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_FR.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -2586,6 +2541,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Paris Basin"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>5.175 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>18.15 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>3.113 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "5.175 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "5,175,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "18.15 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "18,150,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "3.113 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "3,113,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "211 billion cubic meters (2017 est.)",
+          "value": "211,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -2819,24 +2819,24 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>bicameral Parliament or Parlement consists of:<br />Senate or Senat (348 seats - 328 for metropolitan France and overseas departments and regions of Guadeloupe, Martinique, French Guiana, Reunion, and Mayotte, 2 for New Caledonia, 2 for French Polynesia, 1 for Saint-Pierre and Miquelon, 1 for Saint-Barthelemy, 1 for Saint-Martin, 1 for Wallis and Futuna, and 12 for French nationals abroad; members indirectly elected by departmental electoral colleges using absolute majority vote in 2 rounds if needed for departments with 1-3 members and proportional representation vote in departments with 4 or more members; members serve 6-year terms with one-half of the membership renewed every 3 years)<br /> National Assembly or Assemblee Nationale (577 seats - 556 for metropolitan France, 10 for overseas departments, and 11 for citizens abroad; members directly elected by absolute majority vote in 2 rounds if needed to serve 5-year terms)<br><br><strong>elections: </strong><br />Senate - last held on 24 September 2017 (next to be held on 24 September 2020)<br /> National Assembly - last held on 11 and 18 June 2017 (next to be held in June 2022)<br><br><strong>election results: </strong><br />Senate - percent of vote by party - NA; seats by political caucus (party or group of parties)&nbsp; - LR 144, PS 73, UC 51. LREM 23, RDSE 22, CRCE 16, RTLI 13, other 6; composition - men 246, women 102, percent of women 29.3%<br /> National Assembly - percent of vote by party first round - LREM 28.2%, LR 15.8%. FN 13.2%, FI 11%, PS 7.4%, other 24.4%; percent of vote by party second round - LREM 43.1%, LR 22.2%, FN 8.8%, MoDEM 6.1%, PS 5.7%. FI 4.9%, other 9.2%; seats by political caucus (party or group of parties) - LREM 306, LR 104, MoDEM 46, UDI/Agir 29, PS 29, UDI 18, FI 17, Liberties and Territories 16, PCF 16, other 14; composition - men 349, women 228, percent of women 39.5%; note - total Parliament percent of women 35.7%",
+          "content": "<strong>description: </strong>bicameral Parliament or Parlement consists of:<br />Senate or Senat (348 seats - 328 for metropolitan France and overseas departments and regions of Guadeloupe, Martinique, French Guiana, Reunion, and Mayotte, 2 for New Caledonia, 2 for French Polynesia, 1 for Saint-Pierre and Miquelon, 1 for Saint-Barthelemy, 1 for Saint-Martin, 1 for Wallis and Futuna, and 12 for French nationals abroad; members indirectly elected by departmental electoral colleges using absolute majority vote in 2 rounds if needed for departments with 1-3 members, and proportional representation vote in departments with 4 or more members; members serve 6-year terms with one-half of the membership renewed every 3 years)<br />National Assembly or Assemblee Nationale (577 seats - 556 for metropolitan France, 10 for overseas departments, and 11 for citizens abroad; members directly elected by absolute majority vote in 2 rounds if needed to serve 5-year terms)<br><br><strong>elections: </strong><br />Senate - last held on 24 and 27 September 2020 (next to be held in September 2023)<br />National Assembly - last held on 11 and 18 June 2017 (next to be held in June 2022)<br><br><strong>election results: </strong><br />Senate - percent of vote by party - NA; seats by political caucus (party or group of parties)&nbsp; - NA; composition (as of September 2021) - men 226, women 122, percent of women 35.1%<br />National Assembly - percent of vote by party first round - LREM 28.2%, LR 15.8%. FN 13.2%, FI 11%, PS 7.4%, other 24.4%; percent of vote by party second round - LREM 43.1%, LR 22.2%, FN 8.8%, MoDEM 6.1%, PS 5.7%. FI 4.9%, other 9.2%; seats by political caucus (party or group of parties) - LREM 306, LR 104, MoDEM 46, UDI/Agir 29, PS 29, UDI 18, FI 17, Liberties and Territories 16, PCF 16, other 14; composition - men 349, women 228, percent of women 39.5%; note - total Parliament percent of women 37.8%",
           "subfields": [
             {
               "name": "description",
-              "content": "bicameral Parliament or Parlement consists of:<br />Senate or Senat (348 seats - 328 for metropolitan France and overseas departments and regions of Guadeloupe, Martinique, French Guiana, Reunion, and Mayotte, 2 for New Caledonia, 2 for French Polynesia, 1 for Saint-Pierre and Miquelon, 1 for Saint-Barthelemy, 1 for Saint-Martin, 1 for Wallis and Futuna, and 12 for French nationals abroad; members indirectly elected by departmental electoral colleges using absolute majority vote in 2 rounds if needed for departments with 1-3 members and proportional representation vote in departments with 4 or more members; members serve 6-year terms with one-half of the membership renewed every 3 years)<br /> National Assembly or Assemblee Nationale (577 seats - 556 for metropolitan France, 10 for overseas departments, and 11 for citizens abroad; members directly elected by absolute majority vote in 2 rounds if needed to serve 5-year terms)",
-              "value": "bicameral Parliament or Parlement consists of:<br />Senate or Senat (348 seats - 328 for metropolitan France and overseas departments and regions of Guadeloupe, Martinique, French Guiana, Reunion, and Mayotte, 2 for New Caledonia, 2 for French Polynesia, 1 for Saint-Pierre and Miquelon, 1 for Saint-Barthelemy, 1 for Saint-Martin, 1 for Wallis and Futuna, and 12 for French nationals abroad; members indirectly elected by departmental electoral colleges using absolute majority vote in 2 rounds if needed for departments with 1-3 members and proportional representation vote in departments with 4 or more members; members serve 6-year terms with one-half of the membership renewed every 3 years)<br /> National Assembly or Assemblee Nationale (577 seats - 556 for metropolitan France, 10 for overseas departments, and 11 for citizens abroad; members directly elected by absolute majority vote in 2 rounds if needed to serve 5-year terms)",
+              "content": "bicameral Parliament or Parlement consists of:<br />Senate or Senat (348 seats - 328 for metropolitan France and overseas departments and regions of Guadeloupe, Martinique, French Guiana, Reunion, and Mayotte, 2 for New Caledonia, 2 for French Polynesia, 1 for Saint-Pierre and Miquelon, 1 for Saint-Barthelemy, 1 for Saint-Martin, 1 for Wallis and Futuna, and 12 for French nationals abroad; members indirectly elected by departmental electoral colleges using absolute majority vote in 2 rounds if needed for departments with 1-3 members, and proportional representation vote in departments with 4 or more members; members serve 6-year terms with one-half of the membership renewed every 3 years)<br />National Assembly or Assemblee Nationale (577 seats - 556 for metropolitan France, 10 for overseas departments, and 11 for citizens abroad; members directly elected by absolute majority vote in 2 rounds if needed to serve 5-year terms)",
+              "value": "bicameral Parliament or Parlement consists of:<br />Senate or Senat (348 seats - 328 for metropolitan France and overseas departments and regions of Guadeloupe, Martinique, French Guiana, Reunion, and Mayotte, 2 for New Caledonia, 2 for French Polynesia, 1 for Saint-Pierre and Miquelon, 1 for Saint-Barthelemy, 1 for Saint-Martin, 1 for Wallis and Futuna, and 12 for French nationals abroad; members indirectly elected by departmental electoral colleges using absolute majority vote in 2 rounds if needed for departments with 1-3 members, and proportional representation vote in departments with 4 or more members; members serve 6-year terms with one-half of the membership renewed every 3 years)<br />National Assembly or Assemblee Nationale (577 seats - 556 for metropolitan France, 10 for overseas departments, and 11 for citizens abroad; members directly elected by absolute majority vote in 2 rounds if needed to serve 5-year terms)",
               "title": "description"
             },
             {
               "name": "elections",
-              "content": "<br />Senate - last held on 24 September 2017 (next to be held on 24 September 2020)<br /> National Assembly - last held on 11 and 18 June 2017 (next to be held in June 2022)",
-              "value": "<br />Senate - last held on 24 September 2017 (next to be held on 24 September 2020)<br /> National Assembly - last held on 11 and 18 June 2017 (next to be held in June 2022)",
+              "content": "<br />Senate - last held on 24 and 27 September 2020 (next to be held in September 2023)<br />National Assembly - last held on 11 and 18 June 2017 (next to be held in June 2022)",
+              "value": "<br />Senate - last held on 24 and 27 September 2020 (next to be held in September 2023)<br />National Assembly - last held on 11 and 18 June 2017 (next to be held in June 2022)",
               "title": "elections"
             },
             {
               "name": "election results",
-              "content": "<br />Senate - percent of vote by party - NA; seats by political caucus (party or group of parties)&nbsp; - LR 144, PS 73, UC 51. LREM 23, RDSE 22, CRCE 16, RTLI 13, other 6; composition - men 246, women 102, percent of women 29.3%<br /> National Assembly - percent of vote by party first round - LREM 28.2%, LR 15.8%. FN 13.2%, FI 11%, PS 7.4%, other 24.4%; percent of vote by party second round - LREM 43.1%, LR 22.2%, FN 8.8%, MoDEM 6.1%, PS 5.7%. FI 4.9%, other 9.2%; seats by political caucus (party or group of parties) - LREM 306, LR 104, MoDEM 46, UDI/Agir 29, PS 29, UDI 18, FI 17, Liberties and Territories 16, PCF 16, other 14; composition - men 349, women 228, percent of women 39.5%; note - total Parliament percent of women 35.7%",
-              "value": "<br />Senate - percent of vote by party - NA; seats by political caucus (party or group of parties)&nbsp; - LR 144, PS 73, UC 51. LREM 23, RDSE 22, CRCE 16, RTLI 13, other 6; composition - men 246, women 102, percent of women 29.3%<br /> National Assembly - percent of vote by party first round - LREM 28.2%, LR 15.8%. FN 13.2%, FI 11%, PS 7.4%, other 24.4%; percent of vote by party second round - LREM 43.1%, LR 22.2%, FN 8.8%, MoDEM 6.1%, PS 5.7%. FI 4.9%, other 9.2%; seats by political caucus (party or group of parties) - LREM 306, LR 104, MoDEM 46, UDI/Agir 29, PS 29, UDI 18, FI 17, Liberties and Territories 16, PCF 16, other 14; composition - men 349, women 228, percent of women 39.5%; note - total Parliament percent of women 35.7%",
+              "content": "<br />Senate - percent of vote by party - NA; seats by political caucus (party or group of parties)&nbsp; - NA; composition (as of September 2021) - men 226, women 122, percent of women 35.1%<br />National Assembly - percent of vote by party first round - LREM 28.2%, LR 15.8%. FN 13.2%, FI 11%, PS 7.4%, other 24.4%; percent of vote by party second round - LREM 43.1%, LR 22.2%, FN 8.8%, MoDEM 6.1%, PS 5.7%. FI 4.9%, other 9.2%; seats by political caucus (party or group of parties) - LREM 306, LR 104, MoDEM 46, UDI/Agir 29, PS 29, UDI 18, FI 17, Liberties and Territories 16, PCF 16, other 14; composition - men 349, women 228, percent of women 39.5%; note - total Parliament percent of women 37.8%",
+              "value": "<br />Senate - percent of vote by party - NA; seats by political caucus (party or group of parties)&nbsp; - NA; composition (as of September 2021) - men 226, women 122, percent of women 35.1%<br />National Assembly - percent of vote by party first round - LREM 28.2%, LR 15.8%. FN 13.2%, FI 11%, PS 7.4%, other 24.4%; percent of vote by party second round - LREM 43.1%, LR 22.2%, FN 8.8%, MoDEM 6.1%, PS 5.7%. FI 4.9%, other 9.2%; seats by political caucus (party or group of parties) - LREM 306, LR 104, MoDEM 46, UDI/Agir 29, PS 29, UDI 18, FI 17, Liberties and Territories 16, PCF 16, other 14; composition - men 349, women 228, percent of women 39.5%; note - total Parliament percent of women 37.8%",
               "title": "election results"
             }
           ]
@@ -3039,28 +3039,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$3,097,061,000,000 (2019 est.)<br><br>$3,051,034,000,000 (2018 est.)<br><br>$2,997,296,000,000 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$2,832,170,000,000 note: data are in 2017 dollars (2020 est.)<br><br>$3,082,300,000,000 note: data are in 2017 dollars (2019 est.)<br><br>$3,036,490,000,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$3,097,061,000,000 (2019 est.)",
-              "value": "3,097,061,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$2,832,170,000,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "2,832,170,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$3,082,300,000,000 note: data are in 2017 dollars (2019 est.)",
+              "value": "3,082,300,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$3,051,034,000,000 (2018 est.)",
-              "value": "3,051,034,000,000",
+              "content": "$3,036,490,000,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "3,036,490,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$2,997,296,000,000 (2017 est.)",
-              "value": "2,997,296,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -3098,28 +3101,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$46,184 (2019 est.)<br><br>$45,561 (2018 est.)<br><br>$44,827 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$42,000 note: data are in 2017 dollars (2020 est.)<br><br>$45,800 note: data are in 2017 dollars (2019 est.)<br><br>$45,300 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$46,184 (2019 est.)",
-              "value": "46,184",
+              "name": "Real GDP per capita 2020",
+              "content": "$42,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "42,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$45,800 note: data are in 2017 dollars (2019 est.)",
+              "value": "45,800",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$45,561 (2018 est.)",
-              "value": "45,561",
+              "content": "$45,300 note: data are in 2017 dollars (2018 est.)",
+              "value": "45,300",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$44,827 (2017 est.)",
-              "value": "44,827",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -3531,28 +3537,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$969.077 billion (2019 est.)<br><br>$952.316 billion (2018 est.)<br><br>$910.613 billion (2017 est.)",
+          "content": "$746.91 billion note: data are in current year dollars (2020 est.)<br><br>$891.18 billion note: data are in current year dollars (2019 est.)<br><br>$918.97 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$969.077 billion (2019 est.)",
-              "value": "969,077,000,000",
+              "name": "Exports 2020",
+              "content": "$746.91 billion note: data are in current year dollars (2020 est.)",
+              "value": "746,910,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$891.18 billion note: data are in current year dollars (2019 est.)",
+              "value": "891,180,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$952.316 billion (2018 est.)",
-              "value": "952,316,000,000",
+              "content": "$918.97 billion note: data are in current year dollars (2018 est.)",
+              "value": "918,970,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$910.613 billion (2017 est.)",
-              "value": "910,613,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3574,28 +3583,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$1,021,633,000,000 (2019 est.)<br><br>$995.937 billion (2018 est.)<br><br>$965.949 billion (2017 est.)",
+          "content": "$803.66 billion note: data are in current year dollars (2020 est.)<br><br>$919.63 billion note: data are in current year dollars (2019 est.)<br><br>$947.31 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$1,021,633,000,000 (2019 est.)",
-              "value": "1,021,633,000,000",
+              "name": "Imports 2020",
+              "content": "$803.66 billion note: data are in current year dollars (2020 est.)",
+              "value": "803,660,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$919.63 billion note: data are in current year dollars (2019 est.)",
+              "value": "919,630,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$995.937 billion (2018 est.)",
-              "value": "995,937,000,000",
+              "content": "$947.31 billion note: data are in current year dollars (2018 est.)",
+              "value": "947,310,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$965.949 billion (2017 est.)",
-              "value": "965,949,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -4457,8 +4469,8 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the French military has approximately 205,000 active duty troops (115,000 Army; 35,000 Navy; 40,000 Air Force; 15,000 other, such as joint staffs, medical service, etc.); approximately 100,000 National Gendarmerie; approximately 75,000 National Guard (2020)",
-          "info_date": "2020"
+          "content": "the French military has approximately 205,000 active duty troops (115,000 Army; 35,000 Navy; 40,000 Air Force; 15,000 other, such as joint staffs, medical service, etc.); approximately 100,000 National Gendarmerie; approximately 75,000 National Guard (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military equipment inventories and acquisitions",
@@ -4487,7 +4499,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "France was one of the original 12 countries to sign the North Atlantic Treaty (also known as the Washington Treaty), which created NATO in 1949; in 1966, President Charles DE GAULLE decided to withdraw France from NATO&rsquo;s integrated military structure, reflecting his desire for greater military independence, particularly vis-&agrave;-vis the US, and the refusal to integrate France&rsquo;s nuclear deterrent or accept any form of control over its armed forces; it did, however, sign agreements with NATO setting out procedures in the event of Soviet aggression; beginning with the fall of the Berlin Wall in 1989, France distanced itself from the 1966 decision and has regularly contributed troops to NATO&rsquo;s military operations, being one of the largest troop-contributing states; in 2009 it officially announced its decision to fully participate in NATO structures<br /> <p>in 2010, France and the UK signed a declaration on defense and security cooperation that included greater military interoperability and a Combined Joint Expeditionary Force (CJEF), a deployable, combined Anglo-French military force for use in a wide range of crisis scenarios, up to and including high intensity combat operations; the CJEF has no standing forces, but would be available at short notice for French-UK bilateral, NATO, EU, UN, or other operations; combined training exercises began in 2011; as of 2020, the CJEF was assessed as having full operating capacity with the ability to rapidly deploy over 10,000 personnel capable of high intensity operations, peacekeeping, disaster relief, and humanitarian assistance</p> <p>the French Foreign Legion, established in 1831, is a military force that is open to foreign recruits willing to serve in the French Armed Forces for service in France and abroad; the Foreign Legion is an integrated part of the French Army and is comprised of approximately 8,000 personnel in eight regiments, a regiment-sized demi-brigade, a battalion-sized overseas detachment, a battalion-sized recruiting group, and a command staff; the combat units are a mix of armored cavalry and airborne, light, mechanized, and motorized infantry</p>"
+          "content": "France was one of the original 12 countries to sign the North Atlantic Treaty (also known as the Washington Treaty), which created NATO in 1949; in 1966, President Charles DE GAULLE decided to withdraw France from NATO&rsquo;s integrated military structure, reflecting his desire for greater military independence, particularly vis-&agrave;-vis the US, and the refusal to integrate France&rsquo;s nuclear deterrent or accept any form of control over its armed forces; it did, however, sign agreements with NATO setting out procedures in the event of Soviet aggression; beginning with the fall of the Berlin Wall in 1989, France distanced itself from the 1966 decision and has regularly contributed troops to NATO&rsquo;s military operations, being one of the largest troop-contributing states; in 2009 it officially announced its decision to fully participate in NATO structures<br /><br /> <p>in 2010, France and the UK signed a declaration on defense and security cooperation that included greater military interoperability and a Combined Joint Expeditionary Force (CJEF), a deployable, combined Anglo-French military force for use in a wide range of crisis scenarios, up to and including high intensity combat operations; the CJEF has no standing forces, but would be available at short notice for French-UK bilateral, NATO, EU, UN, or other operations; combined training exercises began in 2011; as of 2020, the CJEF was assessed as having full operating capacity with the ability to rapidly deploy over 10,000 personnel capable of high intensity operations, peacekeeping, disaster relief, and humanitarian assistance</p> <p>the French Foreign Legion, established in 1831, is a military force that is open to foreign recruits willing to serve in the French Armed Forces for service in France and abroad; the Foreign Legion is an integrated part of the French Army and is comprised of approximately 8,000 personnel in eight regiments, a regiment-sized demi-brigade, a battalion-sized overseas detachment, a battalion-sized recruiting group, and a command staff; the combat units are a mix of armored cavalry and airborne, light, mechanized, and motorized infantry</p> (2021)",
+          "info_date": "2021"
         }
       ]
     },
@@ -4518,12 +4531,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>24,293 (Afghanistan), 23,821 (Sri Lanka), 18,473 (Sudan), 18,244 (Syria), 17,512 (Democratic Republic of the Congo), 16,412 (Russia), 14,141 (Serbia and Kosovo), 11,863 (Turkey), 11,038 (Guinea), 11,021 (Cambodia), 8,829 (Iraq), 7,735 (Vietnam), 6,918 (China), 6,464 (Laos), 6,372 (Eritrea), 6,156 (Bangladesh), 5,675 (Mauritania), 5,652 (Cote d'Ivoire), 5,169 (Mali) (2019)<br><br><strong>stateless persons: </strong>2,068 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>31,546 (Afghanistan), 23,764 (Sri Lanka), 21,849 (Syria), 20,236 (Sudan), 18,332 (Democratic Republic of the Congo), 16,775 (Russia), 14,268 (Serbia and Kosovo), 13,277 (Guinea), 12,459 (Turkey), 10,894 (Cambodia), 9,075 (Iraq), 8,343 (China), 7,6,71 (Vietnam), 7,318 (Eritrea), 7,023 (Cote d'Ivoire), 6,496 (Bangladesh), 6,397 (Laos), 6,229 (Albania), 5,891 (Mauritania), 5,774 (Somalia), 5,576 (Mali) (2020)<br><br><strong>stateless persons: </strong>2,068 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "24,293 (Afghanistan), 23,821 (Sri Lanka), 18,473 (Sudan), 18,244 (Syria), 17,512 (Democratic Republic of the Congo), 16,412 (Russia), 14,141 (Serbia and Kosovo), 11,863 (Turkey), 11,038 (Guinea), 11,021 (Cambodia), 8,829 (Iraq), 7,735 (Vietnam), 6,918 (China), 6,464 (Laos), 6,372 (Eritrea), 6,156 (Bangladesh), 5,675 (Mauritania), 5,652 (Cote d'Ivoire), 5,169 (Mali) (2019)",
-              "value": "24,293 (Afghanistan), 23,821 (Sri Lanka), 18,473 (Sudan), 18,244 (Syria), 17,512 (Democratic Republic of the Congo), 16,412 (Russia), 14,141 (Serbia and Kosovo), 11,863 (Turkey), 11,038 (Guinea), 11,021 (Cambodia), 8,829 (Iraq), 7,735 (Vietnam), 6,918 (China), 6,464 (Laos), 6,372 (Eritrea), 6,156 (Bangladesh), 5,675 (Mauritania), 5,652 (Cote d'Ivoire), 5,169 (Mali) (2019)",
+              "content": "31,546 (Afghanistan), 23,764 (Sri Lanka), 21,849 (Syria), 20,236 (Sudan), 18,332 (Democratic Republic of the Congo), 16,775 (Russia), 14,268 (Serbia and Kosovo), 13,277 (Guinea), 12,459 (Turkey), 10,894 (Cambodia), 9,075 (Iraq), 8,343 (China), 7,6,71 (Vietnam), 7,318 (Eritrea), 7,023 (Cote d'Ivoire), 6,496 (Bangladesh), 6,397 (Laos), 6,229 (Albania), 5,891 (Mauritania), 5,774 (Somalia), 5,576 (Mali) (2020)",
+              "value": "31,546 (Afghanistan), 23,764 (Sri Lanka), 21,849 (Syria), 20,236 (Sudan), 18,332 (Democratic Republic of the Congo), 16,775 (Russia), 14,268 (Serbia and Kosovo), 13,277 (Guinea), 12,459 (Turkey), 10,894 (Cambodia), 9,075 (Iraq), 8,343 (China), 7,6,71 (Vietnam), 7,318 (Eritrea), 7,023 (Cote d'Ivoire), 6,496 (Bangladesh), 6,397 (Laos), 6,229 (Albania), 5,891 (Mauritania), 5,774 (Somalia), 5,576 (Mali) (2020)",
               "title": "refugees (country of origin)"
             },
             {

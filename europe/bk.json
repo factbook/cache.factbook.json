@@ -2,8 +2,8 @@
   "name": "Bosnia and Herzegovina",
   "code": "BK",
   "region": "Europe",
-  "published": "2021-10-13 12:13:15 -0400",
-  "updated": "2021-10-12 11:09:03 -0400",
+  "published": "2021-10-20 12:01:09 -0400",
+  "updated": "2021-10-20 09:10:16 -0400",
   "media": [
     {
       "type": "flag",
@@ -346,6 +346,11 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: <em>(Black Sea)</em> Danube (795,656 sq km)"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -362,11 +367,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "within Bosnia and Herzegovina's recognized borders, the country is divided into a joint Bosniak/Croat Federation (about 51% of the territory) and the Bosnian Serb-led Republika Srpska or RS (about 49% of the territory); the region called Herzegovina is contiguous to Croatia and Montenegro, and traditionally has been settled by an ethnic Croat majority in the west and an ethnic Serb majority in the east"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: <em>(Black Sea)</em> Danube (795,656 sq km)"
         }
       ]
     },
@@ -1182,42 +1182,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>360.8 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>71.8 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "360.8 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "360,800,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "71.8 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "71,800,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "37.5 billion cubic meters (2017 est.)",
-          "value": "37,500,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1283,6 +1247,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>49.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.61% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "49.4% of total population (2021)",
+              "title": "urban population",
+              "value": "49.4",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.61% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.61",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_BK.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1313,39 +1310,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>49.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.61% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "49.4% of total population (2021)",
-              "title": "urban population",
-              "value": "49.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.61% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.61",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_BK.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1388,6 +1352,42 @@
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
           "content": "Atlantic Ocean drainage: <em>(Black Sea)</em> Danube (795,656 sq km)"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>360.8 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>71.8 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "360.8 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "360,800,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "71.8 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "71,800,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "37.5 billion cubic meters (2017 est.)",
+          "value": "37,500,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1834,28 +1834,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$49.224 billion (2019 est.)<br><br>$47.94 billion (2018 est.)<br><br>$46.212 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$47.05 billion note: data are in 2017 dollars (2020 est.)<br><br>$49.17 billion note: data are in 2017 dollars (2019 est.)<br><br>$47.82 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$49.224 billion (2019 est.)",
-              "value": "49,224,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$47.05 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "47,050,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$49.17 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "49,170,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$47.94 billion (2018 est.)",
-              "value": "47,940,000,000",
+              "content": "$47.82 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "47,820,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$46.212 billion (2017 est.)",
-              "value": "46,212,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -1893,28 +1896,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$14,912 (2019 est.)<br><br>$14,423 (2018 est.)<br><br>$13,788 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$14,300 note: data are in 2017 dollars (2020 est.)<br><br>$14,900 note: data are in 2017 dollars (2019 est.)<br><br>$14,400 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$14,912 (2019 est.)",
-              "value": "14,912",
+              "name": "Real GDP per capita 2020",
+              "content": "$14,300 note: data are in 2017 dollars (2020 est.)",
+              "value": "14,300",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$14,900 note: data are in 2017 dollars (2019 est.)",
+              "value": "14,900",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$14,423 (2018 est.)",
-              "value": "14,423",
+              "content": "$14,400 note: data are in 2017 dollars (2018 est.)",
+              "value": "14,400",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$13,788 (2017 est.)",
-              "value": "13,788",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2308,28 +2314,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$8.843 billion (2019 est.)<br><br>$8.91 billion (2018 est.)<br><br>$8.395 billion (2017 est.)",
+          "content": "$6.81 billion note: data are in current year dollars (2020 est.)<br><br>$8.17 billion note: data are in current year dollars (2019 est.)<br><br>$8.57 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$8.843 billion (2019 est.)",
-              "value": "8,843,000,000",
+              "name": "Exports 2020",
+              "content": "$6.81 billion note: data are in current year dollars (2020 est.)",
+              "value": "6,810,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$8.17 billion note: data are in current year dollars (2019 est.)",
+              "value": "8,170,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$8.91 billion (2018 est.)",
-              "value": "8,910,000,000",
+              "content": "$8.57 billion note: data are in current year dollars (2018 est.)",
+              "value": "8,570,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$8.395 billion (2017 est.)",
-              "value": "8,395,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2351,28 +2360,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$12.561 billion (2019 est.)<br><br>$12.441 billion (2018 est.)<br><br>$11.999 billion (2017 est.)",
+          "content": "$9.71 billion note: data are in current year dollars (2020 est.)<br><br>$11.15 billion note: data are in current year dollars (2019 est.)<br><br>$11.55 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$12.561 billion (2019 est.)",
-              "value": "12,561,000,000",
+              "name": "Imports 2020",
+              "content": "$9.71 billion note: data are in current year dollars (2020 est.)",
+              "value": "9,710,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$11.15 billion note: data are in current year dollars (2019 est.)",
+              "value": "11,150,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$12.441 billion (2018 est.)",
-              "value": "12,441,000,000",
+              "content": "$11.55 billion note: data are in current year dollars (2018 est.)",
+              "value": "11,550,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$11.999 billion (2017 est.)",
-              "value": "11,999,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2774,14 +2786,14 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong><p>Bosnia-Herzegovina aims for national LTE coverage through integration with European Union (EU); roaming agreements with EU and Balkan neighbors; fixed-line broadband is underdeveloped, investments in mobile upgrades facilitate broadband connectivity to a greater extent than in Europe; DSL and cable are the main platforms for fixed-line connectivity while fiber broadband has a small market presence; operators support broadband in rural areas where fixed-line infrastructure is insufficient; LTE services under test licenses; 5G awaits market maturity; importer of broadcasting equipment from China (2021)</p> (2020)<br><br><strong>domestic: </strong>fixed-line teledensity roughly 24 per 100 persons and mobile-cellular subscribership has been increasing rapidly and stands at roughly 112 telephones per 100 persons (2019)<br><br><strong>international: </strong>country code - 387; no satellite earth stations<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong><p>Bosnia-Herzegovina aims for national LTE coverage through integration with European Union (EU); roaming agreements with EU and Balkan neighbors; fixed-line broadband is underdeveloped, investments in mobile upgrades facilitate broadband connectivity to a greater extent than in Europe; DSL and cable are the main platforms for fixed-line connectivity while fiber broadband has a small market presence; operators support broadband in rural areas where fixed-line infrastructure is insufficient; LTE services under test licenses; 5G awaits market maturity; importer of broadcasting equipment from China</p> (2021)<br><br><strong>domestic: </strong>fixed-line teledensity roughly 24 per 100 persons and mobile-cellular subscribership has been increasing rapidly and stands at roughly 112 telephones per 100 persons (2019)<br><br><strong>international: </strong>country code - 387; no satellite earth stations<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "<p>Bosnia-Herzegovina aims for national LTE coverage through integration with European Union (EU); roaming agreements with EU and Balkan neighbors; fixed-line broadband is underdeveloped, investments in mobile upgrades facilitate broadband connectivity to a greater extent than in Europe; DSL and cable are the main platforms for fixed-line connectivity while fiber broadband has a small market presence; operators support broadband in rural areas where fixed-line infrastructure is insufficient; LTE services under test licenses; 5G awaits market maturity; importer of broadcasting equipment from China (2021)</p> (2020)",
-              "value": "<p>Bosnia-Herzegovina aims for national LTE coverage through integration with European Union (EU); roaming agreements with EU and Balkan neighbors; fixed-line broadband is underdeveloped, investments in mobile upgrades facilitate broadband connectivity to a greater extent than in Europe; DSL and cable are the main platforms for fixed-line connectivity while fiber broadband has a small market presence; operators support broadband in rural areas where fixed-line infrastructure is insufficient; LTE services under test licenses; 5G awaits market maturity; importer of broadcasting equipment from China (2021)</p>",
+              "content": "<p>Bosnia-Herzegovina aims for national LTE coverage through integration with European Union (EU); roaming agreements with EU and Balkan neighbors; fixed-line broadband is underdeveloped, investments in mobile upgrades facilitate broadband connectivity to a greater extent than in Europe; DSL and cable are the main platforms for fixed-line connectivity while fiber broadband has a small market presence; operators support broadband in rural areas where fixed-line infrastructure is insufficient; LTE services under test licenses; 5G awaits market maturity; importer of broadcasting equipment from China</p> (2021)",
+              "value": "<p>Bosnia-Herzegovina aims for national LTE coverage through integration with European Union (EU); roaming agreements with EU and Balkan neighbors; fixed-line broadband is underdeveloped, investments in mobile upgrades facilitate broadband connectivity to a greater extent than in Europe; DSL and cable are the main platforms for fixed-line connectivity while fiber broadband has a small market presence; operators support broadband in rural areas where fixed-line infrastructure is insufficient; LTE services under test licenses; 5G awaits market maturity; importer of broadcasting equipment from China</p>",
               "title": "general assessment",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             },
             {
               "name": "domestic",
@@ -3207,12 +3219,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>5,116 (Croatia) (2019)<br><br><strong>IDPs: </strong>99,000 (Bosnian Croats, Serbs, and Bosniaks displaced by inter-ethnic violence, human rights violations, and armed conflict during the 1992-95 war) (2020)<br><br><strong>stateless persons: </strong>66 (2020)<br><br><strong>note:</strong> 83,028 estimated refugee and migrant arrivals (January 2015-October 2021)",
+          "content": "<strong>refugees (country of origin): </strong>5,112 (Croatia) (2020)<br><br><strong>IDPs: </strong>99,000 (Bosnian Croats, Serbs, and Bosniaks displaced by inter-ethnic violence, human rights violations, and armed conflict during the 1992-95 war) (2020)<br><br><strong>stateless persons: </strong>66 (2020)<br><br><strong>note:</strong> 83,369 estimated refugee and migrant arrivals (January 2015-October 2021)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "5,116 (Croatia) (2019)",
-              "value": "5,116 (Croatia) (2019)",
+              "content": "5,112 (Croatia) (2020)",
+              "value": "5,112 (Croatia) (2020)",
               "title": "refugees (country of origin)"
             },
             {
@@ -3228,7 +3240,7 @@
               "title": "stateless persons"
             }
           ],
-          "field_note": "<strong>note:</strong> 83,028 estimated refugee and migrant arrivals (January 2015-October 2021)"
+          "field_note": "<strong>note:</strong> 83,369 estimated refugee and migrant arrivals (January 2015-October 2021)"
         },
         {
           "name": "Trafficking in persons",

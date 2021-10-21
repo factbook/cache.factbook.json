@@ -2,8 +2,8 @@
   "name": "United Arab Emirates",
   "code": "AE",
   "region": "Middle East",
-  "published": "2021-10-13 12:10:58 -0400",
-  "updated": "2021-10-07 12:39:43 -0400",
+  "published": "2021-10-20 11:57:31 -0400",
+  "updated": "2021-10-19 16:04:50 -0400",
   "media": [
     {
       "type": "flag",
@@ -1178,51 +1178,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>617 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>69 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>3.312 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "617 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "617,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "69 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "69,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "3.312 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "3,312,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "150 million cubic meters (2017 est.)",
-          "value": "150,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1288,6 +1243,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>87.3% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.5% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "87.3% of total population (2021)",
+              "title": "urban population",
+              "value": "87.3",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.5% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.5",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_AE.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1318,39 +1306,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>87.3% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.5% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "87.3% of total population (2021)",
-              "title": "urban population",
-              "value": "87.3",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "1.5% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "1.5",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_AE.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1393,6 +1348,51 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>617 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>69 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>3.312 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "617 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "617,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "69 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "69,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "3.312 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "3,312,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "150 million cubic meters (2017 est.)",
+          "value": "150,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1831,21 +1831,23 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$655.789 billion (2019 est.)<br><br>$644.968 billion (2018 est.)<br><br>$637.384 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$655.79 billion note: data are in 2017 dollars (2019 est.)<br><br>$644.97 billion note: data are in 2017 dollars (2018 est.)<br><br>$637.384 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$655.789 billion (2019 est.)",
-              "value": "655,789,000,000",
+              "content": "$655.79 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "655,790,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$644.968 billion (2018 est.)",
-              "value": "644,968,000,000",
+              "content": "$644.97 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "644,970,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2017",
@@ -1890,21 +1892,23 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$67,119 (2019 est.)<br><br>$66,968 (2018 est.)<br><br>$67,184 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$67,100 note: data are in 2017 dollars (2019 est.)<br><br>$67,000 note: data are in 2017 dollars (2018 est.)<br><br>$67,184 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
-              "content": "$67,119 (2019 est.)",
-              "value": "67,119",
+              "content": "$67,100 note: data are in 2017 dollars (2019 est.)",
+              "value": "67,100",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$66,968 (2018 est.)",
-              "value": "66,968",
+              "content": "$67,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "67,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2017",

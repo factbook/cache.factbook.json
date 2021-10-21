@@ -2,8 +2,8 @@
   "name": "Brunei",
   "code": "BX",
   "region": "East Asia/Southeast Asia",
-  "published": "2021-10-06 12:07:14 -0400",
-  "updated": "2021-10-06 09:22:32 -0400",
+  "published": "2021-10-20 12:02:03 -0400",
+  "updated": "2021-10-19 16:05:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -1063,42 +1063,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>151.5 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>5.3 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "151.5 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "151,500,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "5.3 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "5,300,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "8.5 billion cubic meters (2017 est.)",
-          "value": "8,500,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1164,6 +1128,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>78.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.44% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "78.6% of total population (2021)",
+              "title": "urban population",
+              "value": "78.6",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.44% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.44",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_BX.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1198,39 +1195,6 @@
           ]
         },
         {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>78.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.44% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "78.6% of total population (2021)",
-              "title": "urban population",
-              "value": "78.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "1.44% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "1.44",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_BX.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
-            }
-          ]
-        },
-        {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
@@ -1246,6 +1210,42 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>151.5 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>5.3 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "151.5 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "151,500,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "5.3 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "5,300,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "8.5 billion cubic meters (2017 est.)",
+          "value": "8,500,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1660,28 +1660,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$26.906 billion (2019 est.)<br><br>$25.904 billion (2018 est.)<br><br>$25.891 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$27.23 billion note: data are in 2017 dollars (2020 est.)<br><br>$26.91 billion note: data are in 2017 dollars (2019 est.)<br><br>$25.9 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$26.906 billion (2019 est.)",
-              "value": "26,906,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$27.23 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "27,230,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$26.91 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "26,910,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$25.904 billion (2018 est.)",
-              "value": "25,904,000,000",
+              "content": "$25.9 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "25,900,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$25.891 billion (2017 est.)",
-              "value": "25,891,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1719,28 +1722,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$62,100 (2019 est.)<br><br>$60,389 (2018 est.)<br><br>$60,996 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$62,200 note: data are in 2017 dollars (2020 est.)<br><br>$62,100 note: data are in 2017 dollars (2019 est.)<br><br>$60,400 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
+              "name": "Real GDP per capita 2020",
+              "content": "$62,200 note: data are in 2017 dollars (2020 est.)",
+              "value": "62,200",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
               "name": "Real GDP per capita 2019",
-              "content": "$62,100 (2019 est.)",
+              "content": "$62,100 note: data are in 2017 dollars (2019 est.)",
               "value": "62,100",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$60,389 (2018 est.)",
-              "value": "60,389",
+              "content": "$60,400 note: data are in 2017 dollars (2018 est.)",
+              "value": "60,400",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$60,996 (2017 est.)",
-              "value": "60,996",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2086,21 +2092,23 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$5.885 billion (2017 est.)<br><br>$5.023 billion (2016 est.)",
+          "content": "$7.83 billion note: data are in current year dollars (2019 est.)<br><br>$7.04 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$5.885 billion (2017 est.)",
-              "value": "5,885,000,000",
+              "name": "Exports 2019",
+              "content": "$7.83 billion note: data are in current year dollars (2019 est.)",
+              "value": "7,830,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2016",
-              "content": "$5.023 billion (2016 est.)",
-              "value": "5,023,000,000",
+              "name": "Exports 2018",
+              "content": "$7.04 billion note: data are in current year dollars (2018 est.)",
+              "value": "7,040,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2122,21 +2130,23 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$2.998 billion (2017 est.)<br><br>$2.658 billion (2016 est.)",
+          "content": "$6.81 billion note: data are in current year dollars (2019 est.)<br><br>$5.68 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$2.998 billion (2017 est.)",
-              "value": "2,998,000,000",
+              "name": "Imports 2019",
+              "content": "$6.81 billion note: data are in current year dollars (2019 est.)",
+              "value": "6,810,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2016",
-              "content": "$2.658 billion (2016 est.)",
-              "value": "2,658,000,000",
+              "name": "Imports 2018",
+              "content": "$5.68 billion note: data are in current year dollars (2018 est.)",
+              "value": "5,680,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2830,8 +2840,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Royal Brunei Armed Forces: Royal Brunei Land Force, Royal Brunei Navy, Royal Brunei Air Force (2020)",
-          "info_date": "2020"
+          "content": "Royal Brunei Armed Forces: Royal Brunei Land Force, Royal Brunei Navy, Royal Brunei Air Force (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military expenditures",
@@ -2880,8 +2890,8 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Royal Brunei Armed Forces is comprised of approximately 6,500 total active troops (4,500 Army; 1,000 Navy; 1,000 Air Force) (2020)",
-          "info_date": "2020"
+          "content": "the Royal Brunei Armed Forces is comprised of approximately 6,500 total active troops (4,500 Army; 1,000 Navy; 1,000 Air Force) (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military equipment inventories and acquisitions",
@@ -2901,8 +2911,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "<div>Brunei has a long-standing defense relationship with the United Kingdom and hosts a British Army garrison, which includes the Gurkha Battalion and a jungle warfare school; Brunei also hosts a Singaporean military training base</div> (2020)",
-          "info_date": "2020"
+          "content": "<div>Brunei has a long-standing defense relationship with the United Kingdom and hosts a British Army garrison, which includes the Gurkha Battalion and a jungle warfare school; Brunei also hosts a Singaporean military training base</div> (2021)",
+          "info_date": "2021"
         }
       ]
     },

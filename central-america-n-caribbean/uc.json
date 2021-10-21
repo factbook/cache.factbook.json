@@ -2,8 +2,8 @@
   "name": "Curacao",
   "code": "UC",
   "region": "Central America",
-  "published": "2021-10-06 12:29:49 -0400",
-  "updated": "2021-10-06 09:50:35 -0400",
+  "published": "2021-10-20 12:24:50 -0400",
+  "updated": "2021-10-19 16:05:04 -0400",
   "media": [
     {
       "type": "flag",
@@ -833,14 +833,6 @@
           ]
         },
         {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "NA",
-          "suffix": "cubic meters",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -881,6 +873,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>89.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.57% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "89.1% of total population (2021)",
+              "title": "urban population",
+              "value": "89.1",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.57% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.57",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_UC.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -911,39 +936,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>89.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.57% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "89.1% of total population (2021)",
-              "title": "urban population",
-              "value": "89.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.57% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.57",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_UC.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -981,6 +973,14 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "NA",
+          "suffix": "cubic meters",
+          "subfield_note": "NA"
         }
       ]
     },
@@ -1320,21 +1320,23 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$3.856 billion (2019 est.)<br><br>$3.992 billion (2018 est.)<br><br>$4.08 billion (2017 est.)<br><br><div><strong><span class=\"category\">note: </span></strong><span class=\"category_data\">data are in 2012 US dollars</span></div>",
+          "content": "$3.86 billion note: data are in 2017 dollars (2019 est.)<br><br>$3.99 billion note: data are in 2017 dollars (2018 est.)<br><br>$4.08 billion (2017 est.)<br><br><div><strong><span class=\"category\">note: </span></strong><span class=\"category_data\">data are in 2012 US dollars</span></div>",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$3.856 billion (2019 est.)",
-              "value": "3,856,000,000",
+              "content": "$3.86 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "3,860,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$3.992 billion (2018 est.)",
-              "value": "3,992,000,000",
+              "content": "$3.99 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "3,990,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2017",
@@ -1379,21 +1381,23 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$24,479 (2019 est.)<br><br>$24,982 (2018 est.)<br><br>$25,475 (2017 est.)",
+          "content": "$24,500 note: data are in 2017 dollars (2019 est.)<br><br>$25,100 note: data are in 2017 dollars (2018 est.)<br><br>$25,475 (2017 est.)",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
-              "content": "$24,479 (2019 est.)",
-              "value": "24,479",
+              "content": "$24,500 note: data are in 2017 dollars (2019 est.)",
+              "value": "24,500",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$24,982 (2018 est.)",
-              "value": "24,982",
+              "content": "$25,100 note: data are in 2017 dollars (2018 est.)",
+              "value": "25,100",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2017",
@@ -1683,21 +1687,23 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$839.7 million (2017 est.)<br><br>$1.44 billion (2010 est.)",
+          "content": "$1.77 billion note: data are in current year dollars (2019 est.)<br><br>$1.93 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$839.7 million (2017 est.)",
-              "value": "839,700,000",
+              "name": "Exports 2019",
+              "content": "$1.77 billion note: data are in current year dollars (2019 est.)",
+              "value": "1,770,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2010",
-              "content": "$1.44 billion (2010 est.)",
-              "value": "1,440,000,000",
+              "name": "Exports 2018",
+              "content": "$1.93 billion note: data are in current year dollars (2018 est.)",
+              "value": "1,930,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -1719,21 +1725,23 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$540.3 billion (2018 est.)<br><br>$453.8 billion (2017 est.)",
+          "content": "$2.33 billion note: data are in current year dollars (2019 est.)<br><br>$2.75 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2018",
-              "content": "$540.3 billion (2018 est.)",
-              "value": "540,300,000,000",
+              "name": "Imports 2019",
+              "content": "$2.33 billion note: data are in current year dollars (2019 est.)",
+              "value": "2,330,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2017",
-              "content": "$453.8 billion (2017 est.)",
-              "value": "453,800,000,000",
+              "name": "Imports 2018",
+              "content": "$2.75 billion note: data are in current year dollars (2018 est.)",
+              "value": "2,750,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2286,13 +2294,6 @@
           "comparative": false,
           "content": "no regular military forces; <span class=\"VIiyi\" lang=\"en\"><span class=\"JLqJ4b ChMk0b C1N51c\" data-language-for-alternatives=\"en\" data-language-to-translate-into=\"auto\" data-phrase-index=\"2\">Cura&ccedil;ao Militia (CURMIL)</span></span> (2021)",
           "info_date": "2021"
-        },
-        {
-          "name": "Military service age and obligation",
-          "field_id": 333,
-          "comparative": false,
-          "content": "no conscription (2010)",
-          "info_date": "2010"
         },
         {
           "name": "Military - note",

@@ -2,8 +2,8 @@
   "name": "Central African Republic",
   "code": "CT",
   "region": "Africa",
-  "published": "2021-10-13 12:15:27 -0400",
-  "updated": "2021-10-07 11:49:02 -0400",
+  "published": "2021-10-20 12:04:27 -0400",
+  "updated": "2021-10-19 18:03:01 -0400",
   "media": [
     {
       "type": "flag",
@@ -267,6 +267,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km), <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)<br />Internal <em>(endorheic basin) </em>drainage: Lake Chad (2,497,738 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Congo Basin, Lake Chad Basin"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -283,16 +293,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "landlocked; almost the precise center of Africa"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km), <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)<br />Lake Chad drainage <em>(endorheic basin)</em>: Lake Chad (2,497,738 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Congo Basin, Lake Chad Basin"
         }
       ]
     },
@@ -1089,51 +1089,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>60.1 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>12 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>400,000 cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "60.1 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "60,100,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "12 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "12,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "400,000 cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "400,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "141 billion cubic meters (2017 est.)",
-          "value": "141,000,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1199,6 +1154,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>42.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.32% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "42.6% of total population (2021)",
+              "title": "urban population",
+              "value": "42.6",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "3.32% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "3.32",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_CT.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1229,39 +1217,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>42.6% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.32% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "42.6% of total population (2021)",
-              "title": "urban population",
-              "value": "42.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "3.32% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "3.32",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_CT.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1350,12 +1305,57 @@
         {
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
-          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km), <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)<br />Lake Chad drainage <em>(endorheic basin)</em>: Lake Chad (2,497,738 sq km)"
+          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km), <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)<br />Internal <em>(endorheic basin) </em>drainage: Lake Chad (2,497,738 sq km)"
         },
         {
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Congo Basin, Lake Chad Basin"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>60.1 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>12 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>400,000 cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "60.1 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "60,100,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "12 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "12,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "400,000 cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "141 billion cubic meters (2017 est.)",
+          "value": "141,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1841,28 +1841,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$945 (2019 est.)<br><br>$933 (2018 est.)<br><br>$913 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$900 note: data are in 2017 dollars (2020 est.)<br><br>$900 note: data are in 2017 dollars (2019 est.)<br><br>$900 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$945 (2019 est.)",
-              "value": "945",
+              "name": "Real GDP per capita 2020",
+              "content": "$900 note: data are in 2017 dollars (2020 est.)",
+              "value": "900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$900 note: data are in 2017 dollars (2019 est.)",
+              "value": "900",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$933 (2018 est.)",
-              "value": "933",
+              "content": "$900 note: data are in 2017 dollars (2018 est.)",
+              "value": "900",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$913 (2017 est.)",
-              "value": "913",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2958,8 +2961,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Central African Armed Forces (Forces Armees Centrafricaines, FACA): Army (includes an air squadron, Escadrille Centrafricaine), General Directorate of Gendarmerie Inspection (DGIG); National Police (2020)",
-          "info_date": "2020"
+          "content": "Central African Armed Forces (Forces Armees Centrafricaines, FACA): Army (includes an air squadron, Escadrille Centrafricaine), General Directorate of Gendarmerie Inspection (DGIG); National Police (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military expenditures",
@@ -3008,8 +3011,8 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "information varies; approximately 10,000 active troops, including an air component of 100-200 and up to 2,000 Gendarmerie (2020)",
-          "info_date": "2020"
+          "content": "information varies; approximately 10,000 active troops, including an air component of 100-200 and up to 2,000 Gendarmerie (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military equipment inventories and acquisitions",

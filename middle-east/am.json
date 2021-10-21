@@ -2,8 +2,8 @@
   "name": "Armenia",
   "code": "AM",
   "region": "Middle East",
-  "published": "2021-10-13 12:11:24 -0400",
-  "updated": "2021-10-11 16:49:15 -0400",
+  "published": "2021-10-20 11:58:03 -0400",
+  "updated": "2021-10-20 09:00:48 -0400",
   "media": [
     {
       "type": "flag",
@@ -1095,51 +1095,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>616.4 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>122.4 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>2.127 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "616.4 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "616,400,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "122.4 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "122,400,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "2.127 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "2,127,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "7.769 billion cubic meters (2017 est.)",
-          "value": "7,769,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1205,6 +1160,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>63.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.23% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "63.4% of total population (2021)",
+              "title": "urban population",
+              "value": "63.4",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.23% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.23",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_AM.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1239,39 +1227,6 @@
           ]
         },
         {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>63.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.23% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "63.4% of total population (2021)",
-              "title": "urban population",
-              "value": "63.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.23% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.23",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_AM.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
-            }
-          ]
-        },
-        {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
@@ -1287,6 +1242,51 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>616.4 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>122.4 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>2.127 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "616.4 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "616,400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "122.4 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "122,400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "2.127 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "2,127,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "7.769 billion cubic meters (2017 est.)",
+          "value": "7,769,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1713,28 +1713,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$40.384 billion (2019 est.)<br><br>$37.531 billion (2018 est.)<br><br>$35.676 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$37.31 billion note: data are in 2017 dollars (2020 est.)<br><br>$40.38 billion note: data are in 2017 dollars (2019 est.)<br><br>$37.53 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$40.384 billion (2019 est.)",
-              "value": "40,384,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$37.31 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "37,310,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$40.38 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "40,380,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$37.531 billion (2018 est.)",
-              "value": "37,531,000,000",
+              "content": "$37.53 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "37,530,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$35.676 billion (2017 est.)",
-              "value": "35,676,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1772,28 +1775,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$13,654 (2019 est.)<br><br>$12,715 (2018 est.)<br><br>$12,115 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$12,600 note: data are in 2017 dollars (2020 est.)<br><br>$13,700 note: data are in 2017 dollars (2019 est.)<br><br>$12,700 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$13,654 (2019 est.)",
-              "value": "13,654",
+              "name": "Real GDP per capita 2020",
+              "content": "$12,600 note: data are in 2017 dollars (2020 est.)",
+              "value": "12,600",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$13,700 note: data are in 2017 dollars (2019 est.)",
+              "value": "13,700",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$12,715 (2018 est.)",
-              "value": "12,715",
+              "content": "$12,700 note: data are in 2017 dollars (2018 est.)",
+              "value": "12,700",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$12,115 (2017 est.)",
-              "value": "12,115",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2192,21 +2198,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$2.361 billion (2017 est.)<br><br>$1.891 billion (2016 est.)",
+          "content": "$3.82 billion note: data are in current year dollars (2020 est.)<br><br>$5.64 billion note: data are in current year dollars (2019 est.)<br><br>$4.91 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$2.361 billion (2017 est.)",
-              "value": "2,361,000,000",
+              "name": "Exports 2020",
+              "content": "$3.82 billion note: data are in current year dollars (2020 est.)",
+              "value": "3,820,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2016",
-              "content": "$1.891 billion (2016 est.)",
-              "value": "1,891,000,000",
+              "name": "Exports 2019",
+              "content": "$5.64 billion note: data are in current year dollars (2019 est.)",
+              "value": "5,640,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2018",
+              "content": "$4.91 billion note: data are in current year dollars (2018 est.)",
+              "value": "4,910,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2228,21 +2244,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$3.771 billion (2017 est.)<br><br>$2.835 billion (2016 est.)",
+          "content": "$5 billion note: data are in current year dollars (2020 est.)<br><br>$7.47 billion note: data are in current year dollars (2019 est.)<br><br>$6.61 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$3.771 billion (2017 est.)",
-              "value": "3,771,000,000",
+              "name": "Imports 2020",
+              "content": "$5 billion note: data are in current year dollars (2020 est.)",
+              "value": "5,000,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2016",
-              "content": "$2.835 billion (2016 est.)",
-              "value": "2,835,000,000",
+              "name": "Imports 2019",
+              "content": "$7.47 billion note: data are in current year dollars (2019 est.)",
+              "value": "7,470,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2018",
+              "content": "$6.61 billion note: data are in current year dollars (2018 est.)",
+              "value": "6,610,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2644,14 +2670,14 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong><p>telecom market struggles to provide an effective national telecom service; country remains dependent on the economic health of&nbsp; Russian and EU economies; fixed-line penetration falling, driven by growth in mobile and fixed-line broadband; growth of 4G networks and falling prices due to growing competition; fixed broadband is growing but remains low by international comparisons; flat mobile market; strong growth predicted for mobile broadband market; government participating in a project to ensure eventual nationwide 5G network; government approved plans for a new data center built via public-private partnership; communication technologies sectors have attracted foreign investment; top importer of broadcast equipment from China (2021)</p> (2020)<br><br><strong>domestic: </strong>15 per 100 fixed-line, 122 per 100 mobile-cellular; reliable fixed-line and mobile-cellular services are available across Yerevan and in major cities and towns; mobile-cellular coverage available in most rural areas (2019)<br><br><strong>international: </strong>country code - 374; Yerevan is connected to the&nbsp;Caucasus Cable System&nbsp;fiber-optic cable through Georgia and Iran to Europe; additional international service is available by microwave radio relay and landline connections to the other countries of the Commonwealth of Independent States, through the Moscow international switch, and by satellite to the rest of the world; satellite earth stations - 3 (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong><p>telecom market struggles to provide an effective national telecom service; country remains dependent on the economic health of&nbsp; Russian and EU economies; fixed-line penetration falling, driven by growth in mobile and fixed-line broadband; growth of 4G networks and falling prices due to growing competition; fixed broadband is growing but remains low by international comparisons; flat mobile market; strong growth predicted for mobile broadband market; government participating in a project to ensure eventual nationwide 5G network; government approved plans for a new data center built via public-private partnership; communication technologies sectors have attracted foreign investment; top importer of broadcast equipment from China&nbsp;</p> (2021)<br><br><strong>domestic: </strong>15 per 100 fixed-line, 122 per 100 mobile-cellular; reliable fixed-line and mobile-cellular services are available across Yerevan and in major cities and towns; mobile-cellular coverage available in most rural areas (2019)<br><br><strong>international: </strong>country code - 374; Yerevan is connected to the&nbsp;Caucasus Cable System&nbsp;fiber-optic cable through Georgia and Iran to Europe; additional international service is available by microwave radio relay and landline connections to the other countries of the Commonwealth of Independent States, through the Moscow international switch, and by satellite to the rest of the world; satellite earth stations - 3 (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "<p>telecom market struggles to provide an effective national telecom service; country remains dependent on the economic health of&nbsp; Russian and EU economies; fixed-line penetration falling, driven by growth in mobile and fixed-line broadband; growth of 4G networks and falling prices due to growing competition; fixed broadband is growing but remains low by international comparisons; flat mobile market; strong growth predicted for mobile broadband market; government participating in a project to ensure eventual nationwide 5G network; government approved plans for a new data center built via public-private partnership; communication technologies sectors have attracted foreign investment; top importer of broadcast equipment from China (2021)</p> (2020)",
-              "value": "<p>telecom market struggles to provide an effective national telecom service; country remains dependent on the economic health of&nbsp; Russian and EU economies; fixed-line penetration falling, driven by growth in mobile and fixed-line broadband; growth of 4G networks and falling prices due to growing competition; fixed broadband is growing but remains low by international comparisons; flat mobile market; strong growth predicted for mobile broadband market; government participating in a project to ensure eventual nationwide 5G network; government approved plans for a new data center built via public-private partnership; communication technologies sectors have attracted foreign investment; top importer of broadcast equipment from China (2021)</p>",
+              "content": "<p>telecom market struggles to provide an effective national telecom service; country remains dependent on the economic health of&nbsp; Russian and EU economies; fixed-line penetration falling, driven by growth in mobile and fixed-line broadband; growth of 4G networks and falling prices due to growing competition; fixed broadband is growing but remains low by international comparisons; flat mobile market; strong growth predicted for mobile broadband market; government participating in a project to ensure eventual nationwide 5G network; government approved plans for a new data center built via public-private partnership; communication technologies sectors have attracted foreign investment; top importer of broadcast equipment from China&nbsp;</p> (2021)",
+              "value": "<p>telecom market struggles to provide an effective national telecom service; country remains dependent on the economic health of&nbsp; Russian and EU economies; fixed-line penetration falling, driven by growth in mobile and fixed-line broadband; growth of 4G networks and falling prices due to growing competition; fixed broadband is growing but remains low by international comparisons; flat mobile market; strong growth predicted for mobile broadband market; government participating in a project to ensure eventual nationwide 5G network; government approved plans for a new data center built via public-private partnership; communication technologies sectors have attracted foreign investment; top importer of broadcast equipment from China&nbsp;</p>",
               "title": "general assessment",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             },
             {
               "name": "domestic",
@@ -3005,12 +3031,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>14,730 (Syria - ethnic Armenians) (2019)<br><br><strong>stateless persons: </strong>1,000 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>91,766 (Armenia), 14,741 (Syria - ethnic Armenians) (2020)<br><br><strong>stateless persons: </strong>1,000 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "14,730 (Syria - ethnic Armenians) (2019)",
-              "value": "14,730 (Syria - ethnic Armenians) (2019)",
+              "content": "91,766 (Armenia), 14,741 (Syria - ethnic Armenians) (2020)",
+              "value": "91,766 (Armenia), 14,741 (Syria - ethnic Armenians) (2020)",
               "title": "refugees (country of origin)"
             },
             {

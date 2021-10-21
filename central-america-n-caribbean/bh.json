@@ -2,8 +2,8 @@
   "name": "Belize",
   "code": "BH",
   "region": "Central America",
-  "published": "2021-10-13 12:13:09 -0400",
-  "updated": "2021-10-12 07:37:56 -0400",
+  "published": "2021-10-20 12:01:03 -0400",
+  "updated": "2021-10-19 16:05:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -1072,51 +1072,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>11.4 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>21.2 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>68.4 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "11.4 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "11,400,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "21.2 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "21,200,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "68.4 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "68,400,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "21.734 billion cubic meters (2017 est.)",
-          "value": "21,734,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1182,6 +1137,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>46.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.3% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "46.2% of total population (2021)",
+              "title": "urban population",
+              "value": "46.2",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "2.3% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "2.3",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_BH.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1216,39 +1204,6 @@
           ]
         },
         {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>46.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.3% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "46.2% of total population (2021)",
-              "title": "urban population",
-              "value": "46.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "2.3% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "2.3",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_BH.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
-            }
-          ]
-        },
-        {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
@@ -1264,6 +1219,51 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>11.4 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>21.2 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>68.4 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "11.4 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "11,400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "21.2 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "21,200,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "68.4 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "68,400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "21.734 billion cubic meters (2017 est.)",
+          "value": "21,734,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1679,28 +1679,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$2.734 billion (2019 est.)<br><br>$2.726 billion (2018 est.)<br><br>$2.671 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$2.43 billion note: data are in 2017 dollars (2020 est.)<br><br>$2.83 billion note: data are in 2017 dollars (2019 est.)<br><br>$2.78 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$2.734 billion (2019 est.)",
-              "value": "2,734,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$2.43 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "2,430,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$2.83 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "2,830,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$2.726 billion (2018 est.)",
-              "value": "2,726,000,000",
+              "content": "$2.78 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "2,780,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$2.671 billion (2017 est.)",
-              "value": "2,671,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1738,28 +1741,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$7,005 (2019 est.)<br><br>$7,118 (2018 est.)<br><br>$7,109 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$6,100 note: data are in 2017 dollars (2020 est.)<br><br>$7,300 note: data are in 2017 dollars (2019 est.)<br><br>$7,300 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$7,005 (2019 est.)",
-              "value": "7,005",
+              "name": "Real GDP per capita 2020",
+              "content": "$6,100 note: data are in 2017 dollars (2020 est.)",
+              "value": "6,100",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$7,300 note: data are in 2017 dollars (2019 est.)",
+              "value": "7,300",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$7,118 (2018 est.)",
-              "value": "7,118",
+              "content": "$7,300 note: data are in 2017 dollars (2018 est.)",
+              "value": "7,300",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$7,109 (2017 est.)",
-              "value": "7,109",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2130,21 +2136,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$457.5 million (2017 est.)<br><br>$442.7 million (2016 est.)",
+          "content": "$710 million note: data are in current year dollars (2020 est.)<br><br>$1.1 billion note: data are in current year dollars (2019 est.)<br><br>$1.07 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$457.5 million (2017 est.)",
-              "value": "457,500,000",
+              "name": "Exports 2020",
+              "content": "$710 million note: data are in current year dollars (2020 est.)",
+              "value": "710,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2016",
-              "content": "$442.7 million (2016 est.)",
-              "value": "442,700,000",
+              "name": "Exports 2019",
+              "content": "$1.1 billion note: data are in current year dollars (2019 est.)",
+              "value": "1,100,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2018",
+              "content": "$1.07 billion note: data are in current year dollars (2018 est.)",
+              "value": "1,070,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2166,21 +2182,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$845.9 million (2017 est.)<br><br>$916.2 million (2016 est.)",
+          "content": "$900 million note: data are in current year dollars (2020 est.)<br><br>$1.2 billion note: data are in current year dollars (2019 est.)<br><br>$1.16 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$845.9 million (2017 est.)",
-              "value": "845,900,000",
+              "name": "Imports 2020",
+              "content": "$900 million note: data are in current year dollars (2020 est.)",
+              "value": "900,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2016",
-              "content": "$916.2 million (2016 est.)",
-              "value": "916,200,000",
+              "name": "Imports 2019",
+              "content": "$1.2 billion note: data are in current year dollars (2019 est.)",
+              "value": "1,200,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2018",
+              "content": "$1.16 billion note: data are in current year dollars (2018 est.)",
+              "value": "1,160,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2600,14 +2626,14 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>Belize&rsquo;s fixed-line tele-density and mobile penetration is lower than average for the region, due to insufficient competition, underinvestment in services, and lax standards; mobile accounts for 90% of all phones; operator aims to provide cheaper prices and customer retention through investment in broadband to over 80% of premises and LTE infrastructure; operator launched safe cities project to fight crime; government distributed tablets to students to promote e-learning; submarine cable to Ambergris Caye enables FttP service in San Pedro; importer of broadcast equipment from the United States (2021) (2020)<br><br><strong>domestic: </strong>5 per 100 fixed-line and mobile-cellular teledensity approaching 65 per 100 persons; mobile sector accounting for over 90% of all phone subscriptions (2019)<br><br><strong>international: </strong>country code - 501; landing points for the&nbsp;ARCOS and SEUL&nbsp;fiber-optic telecommunications submarine cable that provides links to South and Central America, parts of the Caribbean, and the US; satellite earth station - 8 (Intelsat - 2, unknown - 6) (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong>Belize&rsquo;s fixed-line tele-density and mobile penetration is lower than average for the region, due to insufficient competition, underinvestment in services, and lax standards; mobile accounts for 90% of all phones; operator aims to provide cheaper prices and customer retention through investment in broadband to over 80% of premises and LTE infrastructure; operator launched safe cities project to fight crime; government distributed tablets to students to promote e-learning; submarine cable to Ambergris Caye enables FttP service in San Pedro; importer of broadcast equipment from the United States&nbsp; (2021)<br><br><strong>domestic: </strong>5 per 100 fixed-line and mobile-cellular teledensity approaching 65 per 100 persons; mobile sector accounting for over 90% of all phone subscriptions (2019)<br><br><strong>international: </strong>country code - 501; landing points for the&nbsp;ARCOS and SEUL&nbsp;fiber-optic telecommunications submarine cable that provides links to South and Central America, parts of the Caribbean, and the US; satellite earth station - 8 (Intelsat - 2, unknown - 6) (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "Belize&rsquo;s fixed-line tele-density and mobile penetration is lower than average for the region, due to insufficient competition, underinvestment in services, and lax standards; mobile accounts for 90% of all phones; operator aims to provide cheaper prices and customer retention through investment in broadband to over 80% of premises and LTE infrastructure; operator launched safe cities project to fight crime; government distributed tablets to students to promote e-learning; submarine cable to Ambergris Caye enables FttP service in San Pedro; importer of broadcast equipment from the United States (2021) (2020)",
-              "value": "Belize&rsquo;s fixed-line tele-density and mobile penetration is lower than average for the region, due to insufficient competition, underinvestment in services, and lax standards; mobile accounts for 90% of all phones; operator aims to provide cheaper prices and customer retention through investment in broadband to over 80% of premises and LTE infrastructure; operator launched safe cities project to fight crime; government distributed tablets to students to promote e-learning; submarine cable to Ambergris Caye enables FttP service in San Pedro; importer of broadcast equipment from the United States (2021)",
+              "content": "Belize&rsquo;s fixed-line tele-density and mobile penetration is lower than average for the region, due to insufficient competition, underinvestment in services, and lax standards; mobile accounts for 90% of all phones; operator aims to provide cheaper prices and customer retention through investment in broadband to over 80% of premises and LTE infrastructure; operator launched safe cities project to fight crime; government distributed tablets to students to promote e-learning; submarine cable to Ambergris Caye enables FttP service in San Pedro; importer of broadcast equipment from the United States&nbsp; (2021)",
+              "value": "Belize&rsquo;s fixed-line tele-density and mobile penetration is lower than average for the region, due to insufficient competition, underinvestment in services, and lax standards; mobile accounts for 90% of all phones; operator aims to provide cheaper prices and customer retention through investment in broadband to over 80% of premises and LTE infrastructure; operator launched safe cities project to fight crime; government distributed tablets to students to promote e-learning; submarine cable to Ambergris Caye enables FttP service in San Pedro; importer of broadcast equipment from the United States&nbsp;",
               "title": "general assessment",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             },
             {
               "name": "domestic",

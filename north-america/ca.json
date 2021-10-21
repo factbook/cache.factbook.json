@@ -2,8 +2,8 @@
   "name": "Canada",
   "code": "CA",
   "region": "North America",
-  "published": "2021-10-13 12:13:58 -0400",
-  "updated": "2021-10-08 16:36:06 -0400",
+  "published": "2021-10-20 12:02:22 -0400",
+  "updated": "2021-10-20 09:19:25 -0400",
   "media": [
     {
       "type": "flag",
@@ -749,6 +749,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Mississippi* <em>(Gulf of Mexico)</em> (3,202,185 sq km, Canada only 32,000 sq km), Nelson <em>(Hudson Bay)</em> (1,093,141 sq km), Saint Lawrence* (1,049,636 sq km, Canada only 839,200 sq km)<br />Arctic Ocean drainage: Mackenzie (1,706,388 sq km)<br />Pacific Ocean drainage: Yukon* (847,620 sq km, Canada only 823,800 sq km), Columbia* (657,501 sq km, Canada only 103,000 sq km)<br />note - watersheds shared with the US shown with *"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Northern Great Plains Aquifer"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -764,16 +774,6 @@
           "name": "Geography - note",
           "field_id": 295,
           "content": "<p><strong>note 1:</strong> second-largest country in world (after Russia) and largest in the Americas; strategic location between Russia and US via north polar route; approximately 90% of the population is concentrated within 160 km (100 mi) of the US border</p> <p><strong>note 2:</strong> Canada has more fresh water than any other country and almost 9% of Canadian territory is water; Canada has at least 2 million and possibly over 3 million lakes - that is more than all other countries combined</p>"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Mississippi* <em>(Gulf of Mexico)</em> (3,202,185 sq km, Canada only 32,000 sq km), Nelson <em>(Hudson Bay)</em> (1,093,141 sq km), Saint Lawrence* (1,049,636 sq km, Canada only 839,200 sq km)<br />Arctic Ocean drainage: Mackenzie (1,706,388 sq km)<br />Pacific Ocean drainage: Yukon* (847,620 sq km, Canada only 823,800 sq km), Columbia* (657,501 sq km, Canada only 103,000 sq km)<br />note - watersheds shared with the US shown with *"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Northern Great Plains Aquifer"
         }
       ]
     },
@@ -1530,51 +1530,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>4.888 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>28.07 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>2.639 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "4.888 billion cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "4,888,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "28.07 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "28,070,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "2.639 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "2,639,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "2.902 trillion cubic meters (2017 est.)",
-          "value": "2,902,000,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1640,6 +1595,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>81.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.95% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "81.7% of total population (2021)",
+              "title": "urban population",
+              "value": "81.7",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.95% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.95",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_CA.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1670,39 +1658,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>81.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.95% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "81.7% of total population (2021)",
-              "title": "urban population",
-              "value": "81.7",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.95% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.95",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_CA.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1750,6 +1705,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Northern Great Plains Aquifer"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>4.888 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>28.07 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>2.639 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "4.888 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "4,888,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "28.07 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "28,070,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "2.639 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "2,639,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "2.902 trillion cubic meters (2017 est.)",
+          "value": "2,902,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -2182,28 +2182,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$1,843,053,000,000 (2019 est.)<br><br>$1,813,028,000,000 (2018 est.)<br><br>$1,777,241,000,000 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$1,742,790,000,000 note: data are in 2017 dollars (2020 est.)<br><br>$1,842,330,000,000 note: data are in 2017 dollars (2019 est.)<br><br>$1,808,660,000,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$1,843,053,000,000 (2019 est.)",
-              "value": "1,843,053,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$1,742,790,000,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "1,742,790,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$1,842,330,000,000 note: data are in 2017 dollars (2019 est.)",
+              "value": "1,842,330,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$1,813,028,000,000 (2018 est.)",
-              "value": "1,813,028,000,000",
+              "content": "$1,808,660,000,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "1,808,660,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$1,777,241,000,000 (2017 est.)",
-              "value": "1,777,241,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2241,28 +2244,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$49,031 (2019 est.)<br><br>$48,924 (2018 est.)<br><br>$48,634 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$45,900 note: data are in 2017 dollars (2020 est.)<br><br>$49,000 note: data are in 2017 dollars (2019 est.)<br><br>$48,800 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$49,031 (2019 est.)",
-              "value": "49,031",
+              "name": "Real GDP per capita 2020",
+              "content": "$45,900 note: data are in 2017 dollars (2020 est.)",
+              "value": "45,900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$49,000 note: data are in 2017 dollars (2019 est.)",
+              "value": "49,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$48,924 (2018 est.)",
-              "value": "48,924",
+              "content": "$48,800 note: data are in 2017 dollars (2018 est.)",
+              "value": "48,800",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$48,634 (2017 est.)",
-              "value": "48,634",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2684,28 +2690,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$618.762 billion (2019 est.)<br><br>$610.926 billion (2018 est.)<br><br>$589.222 billion (2017 est.)",
+          "content": "$477.31 billion note: data are in current year dollars (2020 est.)<br><br>$555.83 billion note: data are in current year dollars (2019 est.)<br><br>$556.89 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$618.762 billion (2019 est.)",
-              "value": "618,762,000,000",
+              "name": "Exports 2020",
+              "content": "$477.31 billion note: data are in current year dollars (2020 est.)",
+              "value": "477,310,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$555.83 billion note: data are in current year dollars (2019 est.)",
+              "value": "555,830,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$610.926 billion (2018 est.)",
-              "value": "610,926,000,000",
+              "content": "$556.89 billion note: data are in current year dollars (2018 est.)",
+              "value": "556,890,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$589.222 billion (2017 est.)",
-              "value": "589,222,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2727,28 +2736,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$629.402 billion (2019 est.)<br><br>$627.162 billion (2018 est.)<br><br>$606.814 billion (2017 est.)",
+          "content": "$510.29 billion note: data are in current year dollars (2020 est.)<br><br>$583.6 billion note: data are in current year dollars (2019 est.)<br><br>$589.55 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$629.402 billion (2019 est.)",
-              "value": "629,402,000,000",
+              "name": "Imports 2020",
+              "content": "$510.29 billion note: data are in current year dollars (2020 est.)",
+              "value": "510,290,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$583.6 billion note: data are in current year dollars (2019 est.)",
+              "value": "583,600,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$627.162 billion (2018 est.)",
-              "value": "627,162,000,000",
+              "content": "$589.55 billion note: data are in current year dollars (2018 est.)",
+              "value": "589,550,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$606.814 billion (2017 est.)",
-              "value": "606,814,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3602,15 +3614,16 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "the Canadian Armed Forces have approximately 66,000 total active personnel (23,000 Army; 8,000 Navy; 12,000 Air Force; 23,000 other uniformed personnel) (2020)",
-          "info_date": "2020"
+          "content": "the Canadian Armed Forces have approximately 70,000 total active personnel (23,000 Army; 12,000 Navy; 12,000 Air Force; 23,000 other) (2021)<br><br>note - the Army also has 19,000 part-time, volunteer soldiers in the Reserve Force, including about 5,500 Rangers who serve in sparsely settled northern, coastal, and isolated areas of Canada",
+          "info_date": "2021",
+          "field_note": "note - the Army also has 19,000 part-time, volunteer soldiers in the Reserve Force, including about 5,500 Rangers who serve in sparsely settled northern, coastal, and isolated areas of Canada"
         },
         {
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the CAF's inventory is a mix of domestically-produced equipment and imported weapons systems from Australia, Europe, Israel, and the US; since 2010, the leading supplier by far is the US; Canada's defense industry develops, maintains, and produces a range of equipment, including aircraft, combat vehicles, naval vessels, and associated components (2020)",
-          "info_date": "2020"
+          "content": "the CAF's inventory is a mix of domestically-produced equipment and imported weapons systems from Australia, Europe, Israel, and the US; since 2010, the leading supplier is the US; Canada's defense industry develops, maintains, and produces a range of equipment, including aircraft, combat vehicles, naval vessels, and associated components (2021)",
+          "info_date": "2021"
         },
         {
           "name": "Military deployments",
@@ -3661,12 +3674,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>7,356 (Colombia), 6,640 (Nigeria), 6,563 (Haiti), 6,060 (China), 5,876 (Turkey), 5,498 (Pakistan) (2018); 6,751 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2019)<br><br><strong>stateless persons: </strong>4,139 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>22,400 (Venezuela) (refugees and migrants), 8,082 (Nigeria), 6,387 (Turkey), 6,085 (Pakistan), 5,916 (China), 5,085 (Iran) (2020)<br><br><strong>stateless persons: </strong>4,139 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "7,356 (Colombia), 6,640 (Nigeria), 6,563 (Haiti), 6,060 (China), 5,876 (Turkey), 5,498 (Pakistan) (2018); 6,751 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2019)",
-              "value": "7,356 (Colombia), 6,640 (Nigeria), 6,563 (Haiti), 6,060 (China), 5,876 (Turkey), 5,498 (Pakistan) (2018); 6,751 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2019)",
+              "content": "22,400 (Venezuela) (refugees and migrants), 8,082 (Nigeria), 6,387 (Turkey), 6,085 (Pakistan), 5,916 (China), 5,085 (Iran) (2020)",
+              "value": "22,400 (Venezuela) (refugees and migrants), 8,082 (Nigeria), 6,387 (Turkey), 6,085 (Pakistan), 5,916 (China), 5,085 (Iran) (2020)",
               "title": "refugees (country of origin)"
             },
             {

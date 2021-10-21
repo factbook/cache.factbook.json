@@ -2,8 +2,8 @@
   "name": "Barbados",
   "code": "BB",
   "region": "Central America",
-  "published": "2021-10-13 12:12:57 -0400",
-  "updated": "2021-10-07 11:09:24 -0400",
+  "published": "2021-10-20 12:00:17 -0400",
+  "updated": "2021-10-19 16:04:39 -0400",
   "media": [
     {
       "type": "flag",
@@ -1007,51 +1007,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>20 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>6.2 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>54.8 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "20 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "20,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "6.2 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "6,200,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "54.8 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "54,800,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "80 million cubic meters (2017 est.)",
-          "value": "80,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1117,6 +1072,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>31.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.46% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "31.2% of total population (2021)",
+              "title": "urban population",
+              "value": "31.2",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.46% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.46",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_BB.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1147,39 +1135,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>31.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.46% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "31.2% of total population (2021)",
-              "title": "urban population",
-              "value": "31.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.46% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.46",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_BB.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1217,6 +1172,51 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>20 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>6.2 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>54.8 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "20 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "20,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "6.2 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "6,200,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "54.8 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "54,800,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "80 million cubic meters (2017 est.)",
+          "value": "80,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1619,28 +1619,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$4.488 billion (2019 est.)<br><br>$4.493 billion (2018 est.)<br><br>$4.519 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$3.7 billion note: data are in 2017 dollars (2020 est.)<br><br>$4.49 billion note: data are in 2017 dollars (2019 est.)<br><br>$4.49 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$4.488 billion (2019 est.)",
-              "value": "4,488,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$3.7 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "3,700,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$4.49 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "4,490,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$4.493 billion (2018 est.)",
-              "value": "4,493,000,000",
+              "content": "$4.49 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "4,490,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$4.519 billion (2017 est.)",
-              "value": "4,519,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1678,28 +1681,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$15,639 (2019 est.)<br><br>$15,675 (2018 est.)<br><br>$15,789 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$12,900 note: data are in 2017 dollars (2020 est.)<br><br>$15,600 note: data are in 2017 dollars (2019 est.)<br><br>$15,700 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$15,639 (2019 est.)",
-              "value": "15,639",
+              "name": "Real GDP per capita 2020",
+              "content": "$12,900 note: data are in 2017 dollars (2020 est.)",
+              "value": "12,900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$15,600 note: data are in 2017 dollars (2019 est.)",
+              "value": "15,600",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$15,675 (2018 est.)",
-              "value": "15,675",
+              "content": "$15,700 note: data are in 2017 dollars (2018 est.)",
+              "value": "15,700",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$15,789 (2017 est.)",
-              "value": "15,789",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2796,7 +2802,7 @@
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "<span style=\"left: 120.04px; top: 744.817px; font-size: 20px; font-family: sans-serif; transform: scaleX(0.999682);\">Voluntary service only; 17 years, 9 months </span><span style=\"left: 539.317px; top: 744.811px; font-size: 20px; font-family: sans-serif;\">to </span><span style=\"left: 556.117px; top: 744.817px; font-size: 20px; font-family: sans-serif; transform: scaleX(1.00462);\">17 years, 11 months with a letter of </span><span style=\"left: 120.04px; top: 769.617px; font-size: 20px; font-family: sans-serif; transform: scaleX(0.999881);\">consent from a parent or guardian, or be in the age range of 18</span><span style=\"left: 678.567px; top: 769.617px; font-size: 20px; font-family: sans-serif;\">-</span><span style=\"left: 690.767px; top: 769.617px; font-size: 20px; font-family: sans-serif; transform: scaleX(0.999739);\">25 years at the start of </span><span style=\"left: 120.04px; top: 794.217px; font-size: 20px; font-family: sans-serif; transform: scaleX(1.00038);\">recruit training; citizen of Barbados by descent or naturalization</span> (2021)",
+          "content": "Voluntary service only; 17 years, 9 months to 17 years, 11 months with letter of consent from a parent or guardian, or be in the age range of 18-25 years at the start of recruit training; citizens of Barbados by descent or naturalization (2021)",
           "info_date": "2021"
         },
         {

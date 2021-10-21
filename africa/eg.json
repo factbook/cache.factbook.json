@@ -2,8 +2,8 @@
   "name": "Egypt",
   "code": "EG",
   "region": "Africa",
-  "published": "2021-10-13 12:16:26 -0400",
-  "updated": "2021-10-12 11:50:22 -0400",
+  "published": "2021-10-20 12:06:16 -0400",
+  "updated": "2021-10-20 09:38:51 -0400",
   "media": [
     {
       "type": "flag",
@@ -1587,6 +1587,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Nubian Aquifer System"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -1602,16 +1612,6 @@
           "name": "Geography - note",
           "field_id": 295,
           "content": "<strong>note 1:</strong> controls Sinai Peninsula, the only land bridge between Africa and remainder of Eastern Hemisphere; controls Suez Canal, a sea link between Indian Ocean and Mediterranean Sea; size, and juxtaposition to Israel, establish its major role in Middle Eastern geopolitics; dependence on upstream neighbors; dominance of Nile basin issues; prone to influxes of refugees from Sudan and the Palestinian territories<br /><br /><strong>note 2:</strong> the earliest evidence for wild sorghum cultivation occurs in southern Egypt and dates to roughly 7500 B.C."
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Nubian Aquifer System"
         }
       ]
     },
@@ -2459,51 +2459,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>10.75 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>5.4 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>61.35 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "10.75 billion cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "10,750,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "5.4 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "5,400,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "61.35 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "61,350,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "57.5 billion cubic meters (2017 est.)",
-          "value": "57,500,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -2569,23 +2524,6 @@
           ]
         },
         {
-          "name": "Revenue from forest resources",
-          "field_id": 420,
-          "comparative": true,
-          "content": "<strong>forest revenues: </strong>0.15% of GDP (2018 est.)",
-          "subfields": [
-            {
-              "name": "forest revenues",
-              "content": "0.15% of GDP (2018 est.)",
-              "title": "forest revenues",
-              "value": "0.15",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
@@ -2615,6 +2553,23 @@
               "alt": "total population growth rate v. urban population growth rate, 2000-2030",
               "caption": "",
               "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>0.15% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "0.15% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "0.15",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
             }
           ]
         },
@@ -2691,6 +2646,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Nubian Aquifer System"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>10.75 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>5.4 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>61.35 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "10.75 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "10,750,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "5.4 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "5,400,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "61.35 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "61,350,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "57.5 billion cubic meters (2017 est.)",
+          "value": "57,500,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -3124,28 +3124,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$1,180,890,000,000 (2019 est.)<br><br>$1,118,715,000,000 (2018 est.)<br><br>$1,062,265,000,000 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$1,223,040,000,000 note: data are in 2017 dollars (2020 est.)<br><br>$1,180,890,000,000 note: data are in 2017 dollars (2019 est.)<br><br>$1,118,720,000,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$1,223,040,000,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "1,223,040,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
               "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$1,180,890,000,000 (2019 est.)",
+              "content": "$1,180,890,000,000 note: data are in 2017 dollars (2019 est.)",
               "value": "1,180,890,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$1,118,715,000,000 (2018 est.)",
-              "value": "1,118,715,000,000",
+              "content": "$1,118,720,000,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "1,118,720,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$1,062,265,000,000 (2017 est.)",
-              "value": "1,062,265,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -3183,28 +3186,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$11,763 (2019 est.)<br><br>$11,366 (2018 est.)<br><br>$11,014 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$12,000 note: data are in 2017 dollars (2020 est.)<br><br>$11,800 note: data are in 2017 dollars (2019 est.)<br><br>$11,400 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$11,763 (2019 est.)",
-              "value": "11,763",
+              "name": "Real GDP per capita 2020",
+              "content": "$12,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "12,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$11,800 note: data are in 2017 dollars (2019 est.)",
+              "value": "11,800",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$11,366 (2018 est.)",
-              "value": "11,366",
+              "content": "$11,400 note: data are in 2017 dollars (2018 est.)",
+              "value": "11,400",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$11,014 (2017 est.)",
-              "value": "11,014",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -3611,21 +3617,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$87.891 billion (2018 est.)<br><br>$66.506 billion (2017 est.)",
+          "content": "$40.1 billion note: data are in current year dollars (2020 est.)<br><br>$53.52 billion note: data are in current year dollars (2019 est.)<br><br>$51.62 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2018",
-              "content": "$87.891 billion (2018 est.)",
-              "value": "87,891,000,000",
+              "name": "Exports 2020",
+              "content": "$40.1 billion note: data are in current year dollars (2020 est.)",
+              "value": "40,100,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2017",
-              "content": "$66.506 billion (2017 est.)",
-              "value": "66,506,000,000",
+              "name": "Exports 2019",
+              "content": "$53.52 billion note: data are in current year dollars (2019 est.)",
+              "value": "53,520,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2018",
+              "content": "$51.62 billion note: data are in current year dollars (2018 est.)",
+              "value": "51,620,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3647,21 +3663,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$115.345 billion (2018 est.)<br><br>$103.636 billion (2017 est.)",
+          "content": "$72.48 billion note: data are in current year dollars (2020 est.)<br><br>$78.95 billion note: data are in current year dollars (2019 est.)<br><br>$76.33 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2018",
-              "content": "$115.345 billion (2018 est.)",
-              "value": "115,345,000,000",
+              "name": "Imports 2020",
+              "content": "$72.48 billion note: data are in current year dollars (2020 est.)",
+              "value": "72,480,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2017",
-              "content": "$103.636 billion (2017 est.)",
-              "value": "103,636,000,000",
+              "name": "Imports 2019",
+              "content": "$78.95 billion note: data are in current year dollars (2019 est.)",
+              "value": "78,950,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2018",
+              "content": "$76.33 billion note: data are in current year dollars (2018 est.)",
+              "value": "76,330,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -4520,8 +4546,8 @@
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "1,000 Central African Republic (MINUSCA); 1,050 Mali (MINUSMA); 150 Sudan (UNAMID) (Jan 2021)",
-          "info_date": "Jan 2021"
+          "content": "1,000 Central African Republic (MINUSCA); 1,050 Mali (MINUSMA) (Sep 2021)",
+          "info_date": "Sep 2021"
         },
         {
           "name": "Military service age and obligation",
@@ -4534,7 +4560,7 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "<p>since 2011, the Egyptian Armed Forces, police, and other security forces have been actively engaged in counterinsurgency and counter-terrorism operations in the North Sinai governorate against several militant groups, particularly the Islamic State of Iraq and ash-Sham &ndash; Sinai Province; as of 2020, Egypt reportedly had over 40,000 military troops, police, and other security personnel deployed to the Sinai for internal security duties; in addition, tribal militias were assisting Egyptian security forces<br /><br />the military has a large stake in the civilian economy, including running banks, businesses, and shipping lines, producing consumer and industrial goods, importing commodities, and building and managing infrastructure projects, such as bridges, roads, hospitals, and housing<br /><br />Egypt has Major Non-NATO Ally (MNNA) status with the US; MNNA is a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; while MNNA status provides military and economic privileges, it does not entail any security commitments<br /><br /></p> the Multinational Force &amp; Observers (MFO) has operated in the Sinai since 1982 as a peacekeeping and monitoring force to supervise the implementation of the security provisions of the 1979 Egyptian-Israeli Treaty of Peace; the MFO is an independent international organization, created by agreement between Egypt and Israel; as of 2021, it was composed of about 1,150 troops from 13 countries"
+          "content": "<p>since 2011, the Egyptian Armed Forces, police, and other security forces have been actively engaged in counterinsurgency and counter-terrorism operations in the North Sinai governorate against several militant groups, particularly the Islamic State of Iraq and ash-Sham &ndash; Sinai Province; as of 2020, Egypt reportedly had over 40,000 military troops, police, and other security personnel deployed to the Sinai for internal security duties; in addition, tribal militias were assisting Egyptian security forces (2021)<br /><br />the military has a large stake in the civilian economy, including running banks, businesses, and shipping lines, producing consumer and industrial goods, importing commodities, and building and managing infrastructure projects, such as bridges, roads, hospitals, and housing<br /><br />Egypt has Major Non-NATO Ally (MNNA) status with the US; MNNA is a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; while MNNA status provides military and economic privileges, it does not entail any security commitments<br /><br /></p> the Multinational Force &amp; Observers (MFO) has operated in the Sinai since 1982 as a peacekeeping and monitoring force to supervise the implementation of the security provisions of the 1979 Egyptian-Israeli Treaty of Peace; the MFO is an independent international organization, created by agreement between Egypt and Israel; as of 2021, it was composed of about 1,150 troops from 13 countries"
         }
       ]
     },
@@ -4565,12 +4591,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>70,010 (West Bank and Gaza Strip) (2019); 134,952 (Syria) (refugees), 50,759 (Sudan) (refugees and asylum seekers), 20,245 (South Sudan) (refugees and asylum seekers), 19,347 (Eritrea) (refugees and asylum seekers), 15,532 (Ethiopia) (refugees and asylum seekers), 9,449 (Yemen) (refugees and asylum seekers), 6,806 (Iraq) (refugees and asylum seekers), 6,770 (Somalia) (refugees and asylum seekers) (2021)<br><br><strong>stateless persons: </strong>10 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>70,022 (West Bank and Gaza Strip) (2020); 134,952 (Syria) (refugees), 50,759 (Sudan) (refugees and asylum seekers), 20,245 (South Sudan) (refugees and asylum seekers), 19,347 (Eritrea) (refugees and asylum seekers), 15,532 (Ethiopia) (refugees and asylum seekers), 9,449 (Yemen) (refugees and asylum seekers), 6,806 (Iraq) (refugees and asylum seekers), 6,770 (Somalia) (refugees and asylum seekers) (2021)<br><br><strong>stateless persons: </strong>10 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "70,010 (West Bank and Gaza Strip) (2019); 134,952 (Syria) (refugees), 50,759 (Sudan) (refugees and asylum seekers), 20,245 (South Sudan) (refugees and asylum seekers), 19,347 (Eritrea) (refugees and asylum seekers), 15,532 (Ethiopia) (refugees and asylum seekers), 9,449 (Yemen) (refugees and asylum seekers), 6,806 (Iraq) (refugees and asylum seekers), 6,770 (Somalia) (refugees and asylum seekers) (2021)",
-              "value": "70,010 (West Bank and Gaza Strip) (2019); 134,952 (Syria) (refugees), 50,759 (Sudan) (refugees and asylum seekers), 20,245 (South Sudan) (refugees and asylum seekers), 19,347 (Eritrea) (refugees and asylum seekers), 15,532 (Ethiopia) (refugees and asylum seekers), 9,449 (Yemen) (refugees and asylum seekers), 6,806 (Iraq) (refugees and asylum seekers), 6,770 (Somalia) (refugees and asylum seekers) (2021)",
+              "content": "70,022 (West Bank and Gaza Strip) (2020); 134,952 (Syria) (refugees), 50,759 (Sudan) (refugees and asylum seekers), 20,245 (South Sudan) (refugees and asylum seekers), 19,347 (Eritrea) (refugees and asylum seekers), 15,532 (Ethiopia) (refugees and asylum seekers), 9,449 (Yemen) (refugees and asylum seekers), 6,806 (Iraq) (refugees and asylum seekers), 6,770 (Somalia) (refugees and asylum seekers) (2021)",
+              "value": "70,022 (West Bank and Gaza Strip) (2020); 134,952 (Syria) (refugees), 50,759 (Sudan) (refugees and asylum seekers), 20,245 (South Sudan) (refugees and asylum seekers), 19,347 (Eritrea) (refugees and asylum seekers), 15,532 (Ethiopia) (refugees and asylum seekers), 9,449 (Yemen) (refugees and asylum seekers), 6,806 (Iraq) (refugees and asylum seekers), 6,770 (Somalia) (refugees and asylum seekers) (2021)",
               "title": "refugees (country of origin)"
             },
             {

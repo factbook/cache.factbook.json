@@ -2,8 +2,8 @@
   "name": "Lebanon",
   "code": "LE",
   "region": "Middle East",
-  "published": "2021-10-13 12:22:25 -0400",
-  "updated": "2021-10-07 13:01:27 -0400",
+  "published": "2021-10-20 12:14:37 -0400",
+  "updated": "2021-10-20 11:11:43 -0400",
   "media": [
     {
       "type": "flag",
@@ -1055,51 +1055,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>240 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>900 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>700 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "240 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "240,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "900 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "900,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "700 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "700,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "4.503 billion cubic meters (2017 est.)",
-          "value": "4,503,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1165,6 +1120,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>89.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>-1.23% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "89.1% of total population (2021)",
+              "title": "urban population",
+              "value": "89.1",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "-1.23% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "-1.23",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_LE.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1195,39 +1183,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>89.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>-1.23% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "89.1% of total population (2021)",
-              "title": "urban population",
-              "value": "89.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "-1.23% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "-1.23",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_LE.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1285,6 +1240,51 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>240 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>900 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>700 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "240 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "240,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "900 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "900,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "700 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "700,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "4.503 billion cubic meters (2017 est.)",
+          "value": "4,503,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1717,28 +1717,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$99.761 billion (2019 est.)<br><br>$106.925 billion (2018 est.)<br><br>$109.025 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$79.51 billion note: data are in 2017 dollars (2020 est.)<br><br>$99.76 billion note: data are in 2017 dollars (2019 est.)<br><br>$106.93 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$99.761 billion (2019 est.)",
-              "value": "99,761,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$79.51 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "79,510,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$99.76 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "99,760,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$106.925 billion (2018 est.)",
-              "value": "106,925,000,000",
+              "content": "$106.93 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "106,930,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$109.025 billion (2017 est.)",
-              "value": "109,025,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1776,28 +1779,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$14,552 (2019 est.)<br><br>$15,612 (2018 est.)<br><br>$16,005 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$11,600 note: data are in 2017 dollars (2020 est.)<br><br>$14,600 note: data are in 2017 dollars (2019 est.)<br><br>$15,600 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$14,552 (2019 est.)",
-              "value": "14,552",
+              "name": "Real GDP per capita 2020",
+              "content": "$11,600 note: data are in 2017 dollars (2020 est.)",
+              "value": "11,600",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$14,600 note: data are in 2017 dollars (2019 est.)",
+              "value": "14,600",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$15,612 (2018 est.)",
-              "value": "15,612",
+              "content": "$15,600 note: data are in 2017 dollars (2018 est.)",
+              "value": "15,600",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$16,005 (2017 est.)",
-              "value": "16,005",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2193,21 +2199,23 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$3.524 billion (2017 est.)<br><br>$3.689 billion (2016 est.)",
+          "content": "$18.17 billion note: data are in current year dollars (2019 est.)<br><br>$19.16 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$3.524 billion (2017 est.)",
-              "value": "3,524,000,000",
+              "name": "Exports 2019",
+              "content": "$18.17 billion note: data are in current year dollars (2019 est.)",
+              "value": "18,170,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2016",
-              "content": "$3.689 billion (2016 est.)",
-              "value": "3,689,000,000",
+              "name": "Exports 2018",
+              "content": "$19.16 billion note: data are in current year dollars (2018 est.)",
+              "value": "19,160,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2229,21 +2237,23 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$18.34 billion (2017 est.)<br><br>$17.71 billion (2016 est.)",
+          "content": "$31.34 billion note: data are in current year dollars (2019 est.)<br><br>$32.78 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$18.34 billion (2017 est.)",
-              "value": "18,340,000,000",
+              "name": "Imports 2019",
+              "content": "$31.34 billion note: data are in current year dollars (2019 est.)",
+              "value": "31,340,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2016",
-              "content": "$17.71 billion (2016 est.)",
-              "value": "17,710,000,000",
+              "name": "Imports 2018",
+              "content": "$32.78 billion note: data are in current year dollars (2018 est.)",
+              "value": "32,780,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3045,8 +3055,8 @@
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the LAF inventory includes a wide mix of mostly older equipment, largely from the US and European countries, particularly France and Germany; since 2010, the US is the leading supplier of armaments (mostly second hand equipment) to Lebanon (2019 est.)",
-          "info_date": "2019 est."
+          "content": "the LAF inventory includes a wide mix of mostly older equipment, largely from the US and European countries, particularly France and Germany; since 2010, the US is the leading supplier of armaments (mostly second hand equipment) to Lebanon (2020)",
+          "info_date": "2020"
         },
         {
           "name": "Military service age and obligation",
@@ -3059,7 +3069,7 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "<p>as of late 2021, the Lebanese military faced multiple challenges, including securing the border with war- torn Syria from infiltrations of militants linked to the Islamic State and al-Qa&rsquo;ida terrorist groups and maintaining stability along its volatile border with Israel, where the Iranian-backed and Lebanon-based militant group Hizballah conducted a war with Israel in 2006 and tensions remained high, including occasional armed skirmishes; in 2021, the military also faced a financial crisis as government debt and national economic difficulties undercut its ability to fully pay and supply personnel, which has sparked domestic and international fears that the armed forces may disintegrate&nbsp;<br /><br /></p> the United Nations Interim Force In Lebanon (UNIFIL) has operated in the country since 1978, originally under UNSCRs 425 and 426 to confirm Israeli withdrawal from Lebanon, restore international peace and security and assist the Lebanese Government in restoring its effective authority in the area; following the July-August 2006 war, the UN Security Council adopted resolution 1701 enhancing UNIFIL and deciding that in addition to the original mandate, it would, among other things, monitor the cessation of hostilities; accompany and support the Lebanese Armed Forces (LAF) as they deploy throughout the south of Lebanon; and extend its assistance to help ensure humanitarian access to civilian populations and the voluntary and safe return of displaced persons; UNIFIL had about 10,000 personnel deployed in the country as of September 2021"
+          "content": "<p>as of late 2021, the Lebanese military faced multiple challenges, including securing the border with war-torn Syria from infiltrations of militants linked to the Islamic State and al-Qa&rsquo;ida terrorist groups and maintaining stability along its volatile border with Israel, where the Iranian-backed and Lebanon-based militant group Hizballah conducted a war with Israel in 2006 and tensions remained high, including occasional armed skirmishes; in 2021, the military also faced a financial crisis as government debt and national economic difficulties undercut its ability to fully pay and supply personnel, which has sparked domestic and international fears that the armed forces may disintegrate&nbsp;<br /><br /></p> the United Nations Interim Force In Lebanon (UNIFIL) has operated in the country since 1978, originally under UNSCRs 425 and 426 to confirm Israeli withdrawal from Lebanon, restore international peace and security, and assist the Lebanese Government in restoring its effective authority in the area; following the July-August 2006 war, the UN Security Council adopted resolution 1701 enhancing UNIFIL and deciding that in addition to the original mandate, it would, among other things, monitor the cessation of hostilities; accompany and support the Lebanese Armed Forces (LAF) as they deploy throughout the south of Lebanon; and extend its assistance to help ensure humanitarian access to civilian populations and the voluntary and safe return of displaced persons; UNIFIL had about 10,000 personnel deployed in the country as of September 2021"
         }
       ]
     },
@@ -3090,12 +3100,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>476,033 (Palestinian refugees) (2020); 855,172 (Syria) (2021)<br><br><strong>IDPs: </strong>7,000 (2020)<br><br><strong>stateless persons: </strong>undetermined (2016); note - tens of thousands of persons are stateless in Lebanon, including many Palestinian refugees and their descendants, Syrian Kurds denaturalized in Syria in 1962, children born to Lebanese women married to foreign or stateless men; most babies born to Syrian refugees, and Lebanese children whose births are unregistered",
+          "content": "<strong>refugees (country of origin): </strong>479,537 (Palestinian refugees) (2020); 851,717 (Syria) (2021)<br><br><strong>IDPs: </strong>7,000 (2020)<br><br><strong>stateless persons: </strong>undetermined (2016); note - tens of thousands of persons are stateless in Lebanon, including many Palestinian refugees and their descendants, Syrian Kurds denaturalized in Syria in 1962, children born to Lebanese women married to foreign or stateless men; most babies born to Syrian refugees, and Lebanese children whose births are unregistered",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "476,033 (Palestinian refugees) (2020); 855,172 (Syria) (2021)",
-              "value": "476,033 (Palestinian refugees) (2020); 855,172 (Syria) (2021)",
+              "content": "479,537 (Palestinian refugees) (2020); 851,717 (Syria) (2021)",
+              "value": "479,537 (Palestinian refugees) (2020); 851,717 (Syria) (2021)",
               "title": "refugees (country of origin)"
             },
             {

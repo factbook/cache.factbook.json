@@ -2,8 +2,8 @@
   "name": "Bhutan",
   "code": "BT",
   "region": "South Asia",
-  "published": "2021-10-06 12:07:00 -0400",
-  "updated": "2021-10-06 09:20:35 -0400",
+  "published": "2021-10-20 12:01:47 -0400",
+  "updated": "2021-10-19 18:07:45 -0400",
   "media": [
     {
       "type": "flag",
@@ -1045,51 +1045,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>17 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>3 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>318 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "17 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "17,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "3 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "3,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "318 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "318,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "78 billion cubic meters (2017 est.)",
-          "value": "78,000,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1155,6 +1110,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>43% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.52% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "43% of total population (2021)",
+              "title": "urban population",
+              "value": "43",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "2.52% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "2.52",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_BT.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1185,39 +1173,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>43% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.52% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "43% of total population (2021)",
-              "title": "urban population",
-              "value": "43",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "2.52% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "2.52",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_BT.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1255,6 +1210,51 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>17 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>3 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>318 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "17 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "17,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "3 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "3,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "318 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "318,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "78 billion cubic meters (2017 est.)",
+          "value": "78,000,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1605,28 +1605,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$9.029 billion (2019 est.)<br><br>$8.561 billion (2018 est.)<br><br>$8.307 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$8.42 billion note: data are in 2017 dollars (2020 est.)<br><br>$9.03 billion note: data are in 2017 dollars (2019 est.)<br><br>$8.56 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$9.029 billion (2019 est.)",
-              "value": "9,029,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$8.42 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "8,420,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$9.03 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "9,030,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$8.561 billion (2018 est.)",
-              "value": "8,561,000,000",
+              "content": "$8.56 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "8,560,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$8.307 billion (2017 est.)",
-              "value": "8,307,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1664,28 +1667,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$11,832 (2019 est.)<br><br>$11,348 (2018 est.)<br><br>$11,142 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$10,900 note: data are in 2017 dollars (2020 est.)<br><br>$11,800 note: data are in 2017 dollars (2019 est.)<br><br>$11,300 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$11,832 (2019 est.)",
-              "value": "11,832",
+              "name": "Real GDP per capita 2020",
+              "content": "$10,900 note: data are in 2017 dollars (2020 est.)",
+              "value": "10,900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$11,800 note: data are in 2017 dollars (2019 est.)",
+              "value": "11,800",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$11,348 (2018 est.)",
-              "value": "11,348",
+              "content": "$11,300 note: data are in 2017 dollars (2018 est.)",
+              "value": "11,300",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$11,142 (2017 est.)",
-              "value": "11,142",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2057,21 +2063,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$554.6 million (2017 est.)<br><br>$495.3 million (2016 est.)",
+          "content": "$790 million note: data are in current year dollars (2020 est.)<br><br>$780 million note: data are in current year dollars (2019 est.)<br><br>$790 million note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$554.6 million (2017 est.)",
-              "value": "554,600,000",
+              "name": "Exports 2020",
+              "content": "$790 million note: data are in current year dollars (2020 est.)",
+              "value": "790,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2016",
-              "content": "$495.3 million (2016 est.)",
-              "value": "495,300,000",
+              "name": "Exports 2019",
+              "content": "$780 million note: data are in current year dollars (2019 est.)",
+              "value": "780,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2018",
+              "content": "$790 million note: data are in current year dollars (2018 est.)",
+              "value": "790,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2093,21 +2109,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$1.025 billion (2017 est.)<br><br>$1.03 billion (2016 est.)",
+          "content": "$1.19 billion note: data are in current year dollars (2020 est.)<br><br>$1.23 billion note: data are in current year dollars (2019 est.)<br><br>$1.25 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$1.025 billion (2017 est.)",
-              "value": "1,025,000,000",
+              "name": "Imports 2020",
+              "content": "$1.19 billion note: data are in current year dollars (2020 est.)",
+              "value": "1,190,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2016",
-              "content": "$1.03 billion (2016 est.)",
-              "value": "1,030,000,000",
+              "name": "Imports 2019",
+              "content": "$1.23 billion note: data are in current year dollars (2019 est.)",
+              "value": "1,230,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2018",
+              "content": "$1.25 billion note: data are in current year dollars (2018 est.)",
+              "value": "1,250,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2509,14 +2535,14 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong><p>Bhutan&rsquo;s telecom market is dominated by the mobile sector for voice and data connections due to poor fixed-line infrastructure and topographic issues; investment is focused on mobile infrastructure and an emergency telecom network for natural disasters; extended LTE to 60% of all mobile Internet users; regulator developing 5G plan; international communication through landline and microwave relay; nascent satellite service; importer of broadcast equipment from India (2021)</p> (2020)<br><br><strong>domestic: </strong>3 to 100 fixed-line, 96 to 100 mobile cellular; domestic service inadequate, notably in rural areas (2019)<br><br><strong>international: </strong>country code - 975; international telephone and telegraph service via landline and microwave relay through India; satellite earth station - 1 Intelsat<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong><p>Bhutan&rsquo;s telecom market is dominated by the mobile sector for voice and data connections due to poor fixed-line infrastructure and topographic issues; investment is focused on mobile infrastructure and an emergency telecom network for natural disasters; extended LTE to 60% of all mobile Internet users; regulator developing 5G plan; international communication through landline and microwave relay; nascent satellite service; importer of broadcast equipment from India&nbsp;</p> (2021)<br><br><strong>domestic: </strong>3 to 100 fixed-line, 96 to 100 mobile cellular; domestic service inadequate, notably in rural areas (2019)<br><br><strong>international: </strong>country code - 975; international telephone and telegraph service via landline and microwave relay through India; satellite earth station - 1 Intelsat<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "<p>Bhutan&rsquo;s telecom market is dominated by the mobile sector for voice and data connections due to poor fixed-line infrastructure and topographic issues; investment is focused on mobile infrastructure and an emergency telecom network for natural disasters; extended LTE to 60% of all mobile Internet users; regulator developing 5G plan; international communication through landline and microwave relay; nascent satellite service; importer of broadcast equipment from India (2021)</p> (2020)",
-              "value": "<p>Bhutan&rsquo;s telecom market is dominated by the mobile sector for voice and data connections due to poor fixed-line infrastructure and topographic issues; investment is focused on mobile infrastructure and an emergency telecom network for natural disasters; extended LTE to 60% of all mobile Internet users; regulator developing 5G plan; international communication through landline and microwave relay; nascent satellite service; importer of broadcast equipment from India (2021)</p>",
+              "content": "<p>Bhutan&rsquo;s telecom market is dominated by the mobile sector for voice and data connections due to poor fixed-line infrastructure and topographic issues; investment is focused on mobile infrastructure and an emergency telecom network for natural disasters; extended LTE to 60% of all mobile Internet users; regulator developing 5G plan; international communication through landline and microwave relay; nascent satellite service; importer of broadcast equipment from India&nbsp;</p> (2021)",
+              "value": "<p>Bhutan&rsquo;s telecom market is dominated by the mobile sector for voice and data connections due to poor fixed-line infrastructure and topographic issues; investment is focused on mobile infrastructure and an emergency telecom network for natural disasters; extended LTE to 60% of all mobile Internet users; regulator developing 5G plan; international communication through landline and microwave relay; nascent satellite service; importer of broadcast equipment from India&nbsp;</p>",
               "title": "general assessment",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             },
             {
               "name": "domestic",
@@ -2775,7 +2801,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "<span style=\"display: inline !important; float: none; background-color: #ffffff; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">India is responsible for military training, arms supplies, and the air defense of Bhutan</span>"
+          "content": "<span style=\"display: inline !important; float: none; background-color: #ffffff; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;\">India is responsible for military training, arms supplies, and the air defense of Bhutan</span> (2021)",
+          "info_date": "2021"
         }
       ]
     },

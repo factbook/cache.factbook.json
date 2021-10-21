@@ -2,8 +2,8 @@
   "name": "Mexico",
   "code": "MX",
   "region": "North America",
-  "published": "2021-10-13 12:23:30 -0400",
-  "updated": "2021-10-07 12:29:22 -0400",
+  "published": "2021-10-20 12:16:49 -0400",
+  "updated": "2021-10-20 11:15:25 -0400",
   "media": [
     {
       "type": "flag",
@@ -407,6 +407,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: <em>(Gulf of Mexico)</em> Rio Grande/Bravo (607,965 sq km)<br />Pacific Ocean drainage: <em>(Gulf of California)</em> Colorado (703,148 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Atlantic and Gulf Coastal Plains Aquifer"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -422,16 +432,6 @@
           "name": "Geography - note",
           "field_id": 295,
           "content": "<p><strong>note 1:</strong> strategic location on southern border of the US; Mexico is one of the countries along the Ring of Fire, a belt of active volcanoes and earthquake epicenters bordering the Pacific Ocean; up to 90% of the world's earthquakes and some 75% of the world's volcanoes occur within the Ring of Fire</p> <p><strong>note 2:</strong> some of the world's most important food crops were first domesticated in Mexico; the \"Three Sisters\" companion plants - winter squash, maize (corn), and climbing beans - served as the main agricultural crops for various North American Indian groups; all three apparently originated in Mexico but then were widely disseminated through much of North America; avocado, amaranth, and chili peppers also emanate from Mexico, as does vanilla, the world's most popular aroma and flavor spice; although cherry tomatoes originated in Ecuador, their domestication in Mexico transformed them into the larger modern tomato<br /><br /><strong>note 3:&nbsp;</strong>the Sac Actun cave system at 348 km (216 mi) is the longest underwater cave in the world and the second longest cave worldwide, after Mammoth Cave in the United States (see \"Geography - note\" under United States)<br /><br /><strong>note 4:</strong> the prominent Yucatan Peninsula that divides the Gulf of Mexico from the Caribbean Sea is shared by Mexico, Guatemala, and Belize; just on the northern coast of Yucatan, near the town of Chicxulub (pronounce cheek-sha-loob), lie the remnants of a massive crater (some 150 km in diameter and extending well out into the Gulf of Mexico); formed by an asteroid or comet when it struck the earth 66 million years ago, the impact is now widely accepted as initiating a worldwide climate disruption that caused a mass extinction of 75% of all the earth's plant and animal species - including the non-avian dinosaurs</p>"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: <em>(Gulf of Mexico)</em> Rio Grande/Bravo (607,965 sq km)<br />Pacific Ocean drainage: <em>(Gulf of California)</em> Colorado (703,148 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Atlantic and Gulf Coastal Plains Aquifer"
         }
       ]
     },
@@ -1266,51 +1266,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>14.23 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>6.814 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>66.8 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "14.23 billion cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "14,230,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "6.814 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "6,814,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "66.8 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "66,800,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "461.888 billion cubic meters (2017 est.)",
-          "value": "461,888,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1376,6 +1331,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>81% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.4% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "81% of total population (2021)",
+              "title": "urban population",
+              "value": "81",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.4% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.4",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_MX.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1406,39 +1394,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>81% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.4% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "81% of total population (2021)",
-              "title": "urban population",
-              "value": "81",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "1.4% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "1.4",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_MX.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1516,6 +1471,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Atlantic and Gulf Coastal Plains Aquifer"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>14.23 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>6.814 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>66.8 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "14.23 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "14,230,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "6.814 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "6,814,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "66.8 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "66,800,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "461.888 billion cubic meters (2017 est.)",
+          "value": "461,888,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1963,28 +1963,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$2,525,481,000,000 (2019 est.)<br><br>$2,526,859,000,000 (2018 est.)<br><br>$2,472,586,000,000 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$2,306,320,000,000 note: data are in 2017 dollars (2020 est.)<br><br>$2,513,410,000,000 note: data are in 2017 dollars (2019 est.)<br><br>$2,514,780,000,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$2,525,481,000,000 (2019 est.)",
-              "value": "2,525,481,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$2,306,320,000,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "2,306,320,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$2,513,410,000,000 note: data are in 2017 dollars (2019 est.)",
+              "value": "2,513,410,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$2,526,859,000,000 (2018 est.)",
-              "value": "2,526,859,000,000",
+              "content": "$2,514,780,000,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "2,514,780,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$2,472,586,000,000 (2017 est.)",
-              "value": "2,472,586,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2022,28 +2025,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$19,796 (2019 est.)<br><br>$20,024 (2018 est.)<br><br>$19,816 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$17,900 note: data are in 2017 dollars (2020 est.)<br><br>$19,700 note: data are in 2017 dollars (2019 est.)<br><br>$19,900 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$19,796 (2019 est.)",
-              "value": "19,796",
+              "name": "Real GDP per capita 2020",
+              "content": "$17,900 note: data are in 2017 dollars (2020 est.)",
+              "value": "17,900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$19,700 note: data are in 2017 dollars (2019 est.)",
+              "value": "19,700",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$20,024 (2018 est.)",
-              "value": "20,024",
+              "content": "$19,900 note: data are in 2017 dollars (2018 est.)",
+              "value": "19,900",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$19,816 (2017 est.)",
-              "value": "19,816",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2450,28 +2456,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$491.593 billion (2019 est.)<br><br>$484.595 billion (2018 est.)<br><br>$457.693 billion (2017 est.)",
+          "content": "$434.93 billion note: data are in current year dollars (2020 est.)<br><br>$492.73 billion note: data are in current year dollars (2019 est.)<br><br>$480.1 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$491.593 billion (2019 est.)",
-              "value": "491,593,000,000",
+              "name": "Exports 2020",
+              "content": "$434.93 billion note: data are in current year dollars (2020 est.)",
+              "value": "434,930,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$492.73 billion note: data are in current year dollars (2019 est.)",
+              "value": "492,730,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$484.595 billion (2018 est.)",
-              "value": "484,595,000,000",
+              "content": "$480.1 billion note: data are in current year dollars (2018 est.)",
+              "value": "480,100,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$457.693 billion (2017 est.)",
-              "value": "457,693,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2493,28 +2502,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$480.886 billion (2019 est.)<br><br>$485.211 billion (2018 est.)<br><br>$458.381 billion (2017 est.)",
+          "content": "$410.66 billion note: data are in current year dollars (2020 est.)<br><br>$495.79 billion note: data are in current year dollars (2019 est.)<br><br>$505.05 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$480.886 billion (2019 est.)",
-              "value": "480,886,000,000",
+              "name": "Imports 2020",
+              "content": "$410.66 billion note: data are in current year dollars (2020 est.)",
+              "value": "410,660,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$495.79 billion note: data are in current year dollars (2019 est.)",
+              "value": "495,790,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$485.211 billion (2018 est.)",
-              "value": "485,211,000,000",
+              "content": "$505.05 billion note: data are in current year dollars (2018 est.)",
+              "value": "505,050,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$458.381 billion (2017 est.)",
-              "value": "458,381,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3409,12 +3421,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>9,257 (Honduras) (2019); 102,223 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2020)<br><br><strong>IDPs: </strong>357,000 (government's quashing of Zapatista uprising in 1994 in eastern Chiapas Region; drug cartel violence and government's military response since 2007; violence between and within indigenous groups) (2020)<br><br><strong>stateless persons: </strong>13 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>15,676 (Honduras), 9,231 (El Salvador) (2020); 102,223 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2020)<br><br><strong>IDPs: </strong>357,000 (government's quashing of Zapatista uprising in 1994 in eastern Chiapas Region; drug cartel violence and government's military response since 2007; violence between and within indigenous groups) (2020)<br><br><strong>stateless persons: </strong>13 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "9,257 (Honduras) (2019); 102,223 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2020)",
-              "value": "9,257 (Honduras) (2019); 102,223 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2020)",
+              "content": "15,676 (Honduras), 9,231 (El Salvador) (2020); 102,223 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2020)",
+              "value": "15,676 (Honduras), 9,231 (El Salvador) (2020); 102,223 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or have received alternative legal stay) (2020)",
               "title": "refugees (country of origin)"
             },
             {

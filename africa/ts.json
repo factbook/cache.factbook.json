@@ -2,8 +2,8 @@
   "name": "Tunisia",
   "code": "TS",
   "region": "Africa",
-  "published": "2021-10-13 12:27:21 -0400",
-  "updated": "2021-10-12 09:26:07 -0400",
+  "published": "2021-10-20 12:23:58 -0400",
+  "updated": "2021-10-19 16:05:11 -0400",
   "media": [
     {
       "type": "flag",
@@ -290,6 +290,11 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "North Western Sahara Aquifer System"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -306,11 +311,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "strategic location in central Mediterranean; Malta and Tunisia are discussing the commercial exploitation of the continental shelf between their countries, particularly for oil exploration"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "North Western Sahara Aquifer System"
         }
       ]
     },
@@ -1121,51 +1121,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>137 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>965 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>3.773 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "137 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "137,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "965 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "965,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "3.773 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "3,773,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "4.615 billion cubic meters (2017 est.)",
-          "value": "4,615,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1231,6 +1186,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>69.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.34% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "69.9% of total population (2021)",
+              "title": "urban population",
+              "value": "69.9",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.34% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.34",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_TS.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1261,39 +1249,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>69.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.34% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "69.9% of total population (2021)",
-              "title": "urban population",
-              "value": "69.9",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "1.34% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "1.34",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_TS.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1336,6 +1291,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "North Western Sahara Aquifer System"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>137 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>965 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>3.773 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "137 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "137,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "965 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "965,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "3.773 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "3,773,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "4.615 billion cubic meters (2017 est.)",
+          "value": "4,615,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1511,7 +1511,7 @@
           "name": "Executive branch",
           "field_id": 312,
           "comparative": false,
-          "content": "<strong>chief of state: </strong>President Kais SAIED (elected 13 October, sworn in 23 October 2019)<br><br><strong>head of government: </strong>prime minister (vacant); on 25 July 2021, President SAIED removed Prime Minister Hichem MECHICHI from office<br><br><strong>cabinet: </strong>selected by the prime minister and approved by the Assembly of the Representatives of the People<br><br><strong>elections/appointments: </strong>president directly elected by absolute majority popular vote in 2 rounds if needed for a 5-year term (eligible for a second term); last held on 15 September 2019 with a runoff on 13 October 2019 (next to be&nbsp;held in 2024); following legislative elections, the prime minister is selected by the winning party or winning coalition and appointed by the president<br><br><strong>election results: </strong><p>first round - Kais SAIED (independent) 18.4%, Nabil KAROUI (Heart of Tunisia) 15.6%, Abdelfattah MOUROU (Nahda Movement) 12.9%, Abdelkrim ZBIDI(independent) 10.7%,Youssef CHAHED (Long Live Tunisia) 7.4%, Safi SAID (independent) 7.1%, Lotfi MRAIHI (Republican People's Union) 6.6%, other 21.3%; runoff - Kais SAIED elected president; Kais SAIED 72.7%, Nabil KAROUI 27.3%</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>",
+          "content": "<strong>chief of state: </strong>President Kais SAIED (elected 13 October, sworn in 23 October 2019)<br><br><strong>head of government: </strong>Prime Minister Najla Bouden ROMDHANE (since 11 October 2021)<br><br><strong>cabinet: </strong>selected by the prime minister and approved by the Assembly of the Representatives of the People<br><br><strong>elections/appointments: </strong>president directly elected by absolute majority popular vote in 2 rounds if needed for a 5-year term (eligible for a second term); last held on 15 September 2019 with a runoff on 13 October 2019 (next to be&nbsp;held in 2024); following legislative elections, the prime minister is selected by the winning party or winning coalition and appointed by the president<br><br><strong>election results: </strong><p>first round - Kais SAIED (independent) 18.4%, Nabil KAROUI (Heart of Tunisia) 15.6%, Abdelfattah MOUROU (Nahda Movement) 12.9%, Abdelkrim ZBIDI(independent) 10.7%,Youssef CHAHED (Long Live Tunisia) 7.4%, Safi SAID (independent) 7.1%, Lotfi MRAIHI (Republican People's Union) 6.6%, other 21.3%; runoff - Kais SAIED elected president; Kais SAIED 72.7%, Nabil KAROUI 27.3%</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>",
           "subfields": [
             {
               "name": "chief of state",
@@ -1521,8 +1521,8 @@
             },
             {
               "name": "head of government",
-              "content": "prime minister (vacant); on 25 July 2021, President SAIED removed Prime Minister Hichem MECHICHI from office",
-              "value": "prime minister (vacant); on 25 July 2021, President SAIED removed Prime Minister Hichem MECHICHI from office",
+              "content": "Prime Minister Najla Bouden ROMDHANE (since 11 October 2021)",
+              "value": "Prime Minister Najla Bouden ROMDHANE (since 11 October 2021)",
               "title": "head of government"
             },
             {
@@ -1751,28 +1751,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$125.783 billion (2019 est.)<br><br>$124.485 billion (2018 est.)<br><br>$121.254 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$114.97 billion note: data are in 2017 dollars (2020 est.)<br><br>$125.78 billion note: data are in 2017 dollars (2019 est.)<br><br>$124.48 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$125.783 billion (2019 est.)",
-              "value": "125,783,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$114.97 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "114,970,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$125.78 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "125,780,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$124.485 billion (2018 est.)",
-              "value": "124,485,000,000",
+              "content": "$124.48 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "124,480,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$121.254 billion (2017 est.)",
-              "value": "121,254,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1810,28 +1813,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$10,756 (2019 est.)<br><br>$10,764 (2018 est.)<br><br>$10,605 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$9,700 note: data are in 2017 dollars (2020 est.)<br><br>$10,800 note: data are in 2017 dollars (2019 est.)<br><br>$10,800 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$10,756 (2019 est.)",
-              "value": "10,756",
+              "name": "Real GDP per capita 2020",
+              "content": "$9,700 note: data are in 2017 dollars (2020 est.)",
+              "value": "9,700",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$10,800 note: data are in 2017 dollars (2019 est.)",
+              "value": "10,800",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$10,764 (2018 est.)",
-              "value": "10,764",
+              "content": "$10,800 note: data are in 2017 dollars (2018 est.)",
+              "value": "10,800",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$10,605 (2017 est.)",
-              "value": "10,605",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2237,21 +2243,23 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$13.82 billion (2017 est.)<br><br>$13.57 billion (2016 est.)",
+          "content": "$19.17 billion note: data are in current year dollars (2019 est.)<br><br>$19.42 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$13.82 billion (2017 est.)",
-              "value": "13,820,000,000",
+              "name": "Exports 2019",
+              "content": "$19.17 billion note: data are in current year dollars (2019 est.)",
+              "value": "19,170,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2016",
-              "content": "$13.57 billion (2016 est.)",
-              "value": "13,570,000,000",
+              "name": "Exports 2018",
+              "content": "$19.42 billion note: data are in current year dollars (2018 est.)",
+              "value": "19,420,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2273,21 +2281,23 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$19.09 billion (2017 est.)<br><br>$18.37 billion (2016 est.)",
+          "content": "$23.42 billion note: data are in current year dollars (2019 est.)<br><br>$24.65 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$19.09 billion (2017 est.)",
-              "value": "19,090,000,000",
+              "name": "Imports 2019",
+              "content": "$23.42 billion note: data are in current year dollars (2019 est.)",
+              "value": "23,420,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2016",
-              "content": "$18.37 billion (2016 est.)",
-              "value": "18,370,000,000",
+              "name": "Imports 2018",
+              "content": "$24.65 billion note: data are in current year dollars (2018 est.)",
+              "value": "24,650,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },

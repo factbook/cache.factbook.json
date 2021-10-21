@@ -2,8 +2,8 @@
   "name": "Russia",
   "code": "RS",
   "region": "Central Asia",
-  "published": "2021-10-13 12:25:34 -0400",
-  "updated": "2021-10-12 14:06:29 -0400",
+  "published": "2021-10-20 12:20:48 -0400",
+  "updated": "2021-10-20 11:44:51 -0400",
   "media": [
     {
       "type": "flag",
@@ -627,6 +627,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Arctic Ocean drainage: Kolyma (679,934 sq km), Lena (2,306,743 sq km), Ob (2,972,493 sq km), Pechora (289,532 sq km), Yenisei (2,554,388 sq km)<br />Atlantic Ocean drainage: <em>(Black Sea)&nbsp;</em>Don (458,694 sq km), Dnieper (533,966 sq km)<br />Pacific Ocean drainage: Amur (1,929,955 sq km)<br />Internal <em>(endorheic basin) </em>drainage: <em>(Caspian Sea basin)</em> Volga (1,410,951 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Angara-Lena Basin, Pechora Basin, North Caucasus Basin, East European Aquifer System, West Siberian Basin, Tunguss Basin, Yakut Basin"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -642,16 +652,6 @@
           "name": "Geography - note",
           "field_id": 295,
           "content": "<p><strong>note 1:</strong> largest country in the world in terms of area but unfavorably located in relation to major sea lanes of the world; despite its size, much of the country lacks proper soils and climates (either too cold or too dry) for agriculture</p> <p><strong>note 2:</strong> Russia's far east, particularly the Kamchatka Peninsula, lies along the Ring of Fire, a belt of active volcanoes and earthquake epicenters bordering the Pacific Ocean; up to 90% of the world's earthquakes and some 75% of the world's volcanoes occur within the Ring of Fire</p> <p><strong>note 3:</strong> Mount El'brus is Europe's tallest peak; Lake Baikal, the deepest lake in the world, is estimated to hold one fifth of the world's fresh surface water<br /><br /><strong>note 4:</strong> Kaliningrad oblast is an exclave annexed from Germany following World War II (it was formerly part of East Prussia); its capital city of Kaliningrad - formerly Koenigsberg - is the only Baltic port in Russia that remains ice free in the winter</p>"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Arctic Ocean drainage: Kolyma (679,934 sq km), Lena (2,306,743 sq km), Ob (2,972,493 sq km), Pechora (289,532 sq km), Yenisei (2,554,388 sq km)<br />Atlantic Ocean drainage: <em>(Black Sea)&nbsp;</em>Don (458,694 sq km), Dnieper (533,966 sq km)<br />Pacific Ocean drainage: Amur (1,929,955 sq km)<br />Caspian Sea drainage <em>(endorheic basin)</em>: Volga (1,410,951 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Angara-Lena Basin, Pechora Basin, North Caucasus Basin, East European Aquifer System, West Siberian Basin, Tunguss Basin, Yakut Basin"
         }
       ]
     },
@@ -1482,51 +1482,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>17.71 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>28.04 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>18.66 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "17.71 billion cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "17,710,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "28.04 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "28,040,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "18.66 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "18,660,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "4,525,445,000,000 cubic meters (2017 est.)",
-          "value": "4,525,445,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1592,6 +1547,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>74.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.11% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "74.9% of total population (2021)",
+              "title": "urban population",
+              "value": "74.9",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.11% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.11",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_RS.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1622,39 +1610,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>74.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.11% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "74.9% of total population (2021)",
-              "title": "urban population",
-              "value": "74.9",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.11% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.11",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_RS.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1726,12 +1681,57 @@
         {
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
-          "content": "Arctic Ocean drainage: Kolyma (679,934 sq km), Lena (2,306,743 sq km), Ob (2,972,493 sq km), Pechora (289,532 sq km), Yenisei (2,554,388 sq km)<br />Atlantic Ocean drainage: <em>(Black Sea)&nbsp;</em>Don (458,694 sq km), Dnieper (533,966 sq km)<br />Pacific Ocean drainage: Amur (1,929,955 sq km)<br />Caspian Sea drainage <em>(endorheic basin)</em>: Volga (1,410,951 sq km)"
+          "content": "Arctic Ocean drainage: Kolyma (679,934 sq km), Lena (2,306,743 sq km), Ob (2,972,493 sq km), Pechora (289,532 sq km), Yenisei (2,554,388 sq km)<br />Atlantic Ocean drainage: <em>(Black Sea)&nbsp;</em>Don (458,694 sq km), Dnieper (533,966 sq km)<br />Pacific Ocean drainage: Amur (1,929,955 sq km)<br />Internal <em>(endorheic basin) </em>drainage: <em>(Caspian Sea basin)</em> Volga (1,410,951 sq km)"
         },
         {
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Angara-Lena Basin, Pechora Basin, North Caucasus Basin, East European Aquifer System, West Siberian Basin, Tunguss Basin, Yakut Basin"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>17.71 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>28.04 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>18.66 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "17.71 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "17,710,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "28.04 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "28,040,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "18.66 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "18,660,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "4,525,445,000,000 cubic meters (2017 est.)",
+          "value": "4,525,445,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -2180,28 +2180,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$3,968,180,000,000 (2019 est.)<br><br>$3,915,637,000,000 (2018 est.)<br><br>$3,818,780,000,000 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$3,875,690,000,000 note: data are in 2017 dollars (2020 est.)<br><br>$3,993,550,000,000 note: data are in 2017 dollars (2019 est.)<br><br>$3,913,980,000,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$3,968,180,000,000 (2019 est.)",
-              "value": "3,968,180,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$3,875,690,000,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "3,875,690,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$3,993,550,000,000 note: data are in 2017 dollars (2019 est.)",
+              "value": "3,993,550,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$3,915,637,000,000 (2018 est.)",
-              "value": "3,915,637,000,000",
+              "content": "$3,913,980,000,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "3,913,980,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$3,818,780,000,000 (2017 est.)",
-              "value": "3,818,780,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2239,28 +2242,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$27,044 (2019 est.)<br><br>$26,668 (2018 est.)<br><br>$26,006 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$26,500 note: data are in 2017 dollars (2020 est.)<br><br>$27,200 note: data are in 2017 dollars (2019 est.)<br><br>$26,700 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$27,044 (2019 est.)",
-              "value": "27,044",
+              "name": "Real GDP per capita 2020",
+              "content": "$26,500 note: data are in 2017 dollars (2020 est.)",
+              "value": "26,500",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$27,200 note: data are in 2017 dollars (2019 est.)",
+              "value": "27,200",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$26,668 (2018 est.)",
-              "value": "26,668",
+              "content": "$26,700 note: data are in 2017 dollars (2018 est.)",
+              "value": "26,700",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$26,006 (2017 est.)",
-              "value": "26,006",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2667,28 +2673,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$551.128 billion (2019 est.)<br><br>$564.314 billion (2018 est.)<br><br>$534.657 billion (2017 est.)",
+          "content": "$379.12 billion note: data are in current year dollars (2020 est.)<br><br>$481.76 billion note: data are in current year dollars (2019 est.)<br><br>$508.56 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$551.128 billion (2019 est.)",
-              "value": "551,128,000,000",
+              "name": "Exports 2020",
+              "content": "$379.12 billion note: data are in current year dollars (2020 est.)",
+              "value": "379,120,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$481.76 billion note: data are in current year dollars (2019 est.)",
+              "value": "481,760,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$564.314 billion (2018 est.)",
-              "value": "564,314,000,000",
+              "content": "$508.56 billion note: data are in current year dollars (2018 est.)",
+              "value": "508,560,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$534.657 billion (2017 est.)",
-              "value": "534,657,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2710,28 +2719,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$366.919 billion (2019 est.)<br><br>$355.022 billion (2018 est.)<br><br>$345.926 billion (2017 est.)",
+          "content": "$304.68 billion note: data are in current year dollars (2020 est.)<br><br>$353.25 billion note: data are in current year dollars (2019 est.)<br><br>$343.58 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$366.919 billion (2019 est.)",
-              "value": "366,919,000,000",
+              "name": "Imports 2020",
+              "content": "$304.68 billion note: data are in current year dollars (2020 est.)",
+              "value": "304,680,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$353.25 billion note: data are in current year dollars (2019 est.)",
+              "value": "353,250,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$355.022 billion (2018 est.)",
-              "value": "355,022,000,000",
+              "content": "$343.58 billion note: data are in current year dollars (2018 est.)",
+              "value": "343,580,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$345.926 billion (2017 est.)",
-              "value": "345,926,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3660,12 +3672,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>41,251 (Ukraine) (2019)<br><br><strong>stateless persons: </strong>60,185 (2020); note - Russia's stateless population consists of Roma, Meskhetian Turks, and ex-Soviet citizens from the former republics; between 2003 and 2010 more than 600,000 stateless people were naturalized; most Meskhetian Turks, followers of Islam with origins in Georgia, fled or were evacuated from Uzbekistan after a 1989 pogrom and have lived in Russia for more than the required five-year residency period; they continue to be denied registration for citizenship and basic rights by local Krasnodar Krai authorities on the grounds that they are temporary illegal migrants",
+          "content": "<strong>refugees (country of origin): </strong>18,428 (Ukraine) (2020)<br><br><strong>stateless persons: </strong>60,185 (2020); note - Russia's stateless population consists of Roma, Meskhetian Turks, and ex-Soviet citizens from the former republics; between 2003 and 2010 more than 600,000 stateless people were naturalized; most Meskhetian Turks, followers of Islam with origins in Georgia, fled or were evacuated from Uzbekistan after a 1989 pogrom and have lived in Russia for more than the required five-year residency period; they continue to be denied registration for citizenship and basic rights by local Krasnodar Krai authorities on the grounds that they are temporary illegal migrants",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "41,251 (Ukraine) (2019)",
-              "value": "41,251 (Ukraine) (2019)",
+              "content": "18,428 (Ukraine) (2020)",
+              "value": "18,428 (Ukraine) (2020)",
               "title": "refugees (country of origin)"
             },
             {

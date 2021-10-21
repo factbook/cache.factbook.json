@@ -2,8 +2,8 @@
   "name": "Nauru",
   "code": "NR",
   "region": "Australia - Oceania",
-  "published": "2021-10-13 12:24:03 -0400",
-  "updated": "2021-10-07 14:00:21 -0400",
+  "published": "2021-10-20 12:18:01 -0400",
+  "updated": "2021-10-19 16:05:08 -0400",
   "media": [
     {
       "type": "flag",
@@ -1003,16 +1003,6 @@
           ]
         },
         {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "10 million cubic meters (2017 est.)",
-          "value": "10,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1078,23 +1068,6 @@
           ]
         },
         {
-          "name": "Revenue from forest resources",
-          "field_id": 420,
-          "comparative": true,
-          "content": "<strong>forest revenues: </strong>0% of GDP (2018 est.)",
-          "subfields": [
-            {
-              "name": "forest revenues",
-              "content": "0% of GDP (2018 est.)",
-              "title": "forest revenues",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
@@ -1124,6 +1097,23 @@
               "alt": "total population growth rate v. urban population growth rate, 2000-2030",
               "caption": "",
               "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
             }
           ]
         },
@@ -1172,6 +1162,16 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "10 million cubic meters (2017 est.)",
+          "value": "10,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1508,21 +1508,23 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$145 million (2019 est.)<br><br>$145 million (2018 est.)<br><br>$137 million (2017 est.)<br><br><strong>note:</strong> data are in 2015 dollars",
+          "content": "$150 million note: data are in 2017 dollars (2019 est.)<br><br>$150 million note: data are in 2017 dollars (2018 est.)<br><br>$137 million (2017 est.)<br><br><strong>note:</strong> data are in 2015 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$145 million (2019 est.)",
-              "value": "145,000,000",
+              "content": "$150 million note: data are in 2017 dollars (2019 est.)",
+              "value": "150,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$145 million (2018 est.)",
-              "value": "145,000,000",
+              "content": "$150 million note: data are in 2017 dollars (2018 est.)",
+              "value": "150,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2017",
@@ -1567,21 +1569,23 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$11,583 (2019 est.)<br><br>$11,471 (2018 est.)<br><br>$10,667 (2017 est.)<br><br><strong>note:</strong> data are in 2015 US dollars",
+          "content": "$13,500 note: data are in 2017 dollars (2019 est.)<br><br>$13,600 note: data are in 2017 dollars (2018 est.)<br><br>$10,667 (2017 est.)<br><br><strong>note:</strong> data are in 2015 US dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
-              "content": "$11,583 (2019 est.)",
-              "value": "11,583",
+              "content": "$13,500 note: data are in 2017 dollars (2019 est.)",
+              "value": "13,500",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$11,471 (2018 est.)",
-              "value": "11,471",
+              "content": "$13,600 note: data are in 2017 dollars (2018 est.)",
+              "value": "13,600",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2017",
@@ -1895,14 +1899,15 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$125 million (2013 est.)<br><br>$110.3 million (2012 est.)",
+          "content": "$30 million note: data are in current year dollars (2018 est.)<br><br>$110.3 million (2012 est.)",
           "subfields": [
             {
-              "name": "Exports 2013",
-              "content": "$125 million (2013 est.)",
-              "value": "125,000,000",
+              "name": "Exports 2018",
+              "content": "$30 million note: data are in current year dollars (2018 est.)",
+              "value": "30,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2012",
@@ -1931,19 +1936,20 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$64.9 million (2016 est.)<br><br>$143.1 million (2013 est.)",
+          "content": "$90 million note: data are in current year dollars (2018 est.)<br><br>$64.9 million (2016 est.)",
           "subfields": [
+            {
+              "name": "Imports 2018",
+              "content": "$90 million note: data are in current year dollars (2018 est.)",
+              "value": "90,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
             {
               "name": "Imports 2016",
               "content": "$64.9 million (2016 est.)",
               "value": "64,900,000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2013",
-              "content": "$143.1 million (2013 est.)",
-              "value": "143,100,000",
               "estimated": true,
               "prefix": "$"
             }

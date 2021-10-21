@@ -2,8 +2,8 @@
   "name": "South Africa",
   "code": "SF",
   "region": "Africa",
-  "published": "2021-10-13 12:25:51 -0400",
-  "updated": "2021-10-12 12:04:50 -0400",
+  "published": "2021-10-20 12:21:20 -0400",
+  "updated": "2021-10-20 11:48:22 -0400",
   "media": [
     {
       "type": "flag",
@@ -608,6 +608,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Orange (941,351 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Karoo Basin, Lower Kalahari-Stampriet Basin"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -624,16 +634,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "South Africa completely surrounds Lesotho and almost completely surrounds Eswatini"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Orange (941,351 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Karoo Basin, Lower Kalahari-Stampriet Basin"
         }
       ]
     },
@@ -1455,51 +1455,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>3.89 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>4.1 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>11.39 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "3.89 billion cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "3,890,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "4.1 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "4,100,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "11.39 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "11,390,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "51.35 billion cubic meters (2017 est.)",
-          "value": "51,350,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1565,23 +1520,6 @@
           ]
         },
         {
-          "name": "Revenue from coal",
-          "field_id": 421,
-          "comparative": true,
-          "content": "<strong>coal revenues: </strong>2.4% of GDP (2018 est.)",
-          "subfields": [
-            {
-              "name": "coal revenues",
-              "content": "2.4% of GDP (2018 est.)",
-              "title": "coal revenues",
-              "value": "2.4",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
@@ -1611,6 +1549,23 @@
               "alt": "total population growth rate v. urban population growth rate, 2000-2030",
               "caption": "",
               "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Revenue from coal",
+          "field_id": 421,
+          "comparative": true,
+          "content": "<strong>coal revenues: </strong>2.4% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "coal revenues",
+              "content": "2.4% of GDP (2018 est.)",
+              "title": "coal revenues",
+              "value": "2.4",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
             }
           ]
         },
@@ -1688,6 +1643,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Karoo Basin, Lower Kalahari-Stampriet Basin"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>3.89 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>4.1 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>11.39 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "3.89 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "3,890,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "4.1 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "4,100,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "11.39 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "11,390,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "51.35 billion cubic meters (2017 est.)",
+          "value": "51,350,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -2114,28 +2114,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$730.913 billion (2019 est.)<br><br>$729.799 billion (2018 est.)<br><br>$724.1 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$680.04 billion note: data are in 2017 dollars (2020 est.)<br><br>$730.91 billion note: data are in 2017 dollars (2019 est.)<br><br>$729.8 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$730.913 billion (2019 est.)",
-              "value": "730,913,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$680.04 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "680,040,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$730.91 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "730,910,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$729.799 billion (2018 est.)",
-              "value": "729,799,000,000",
+              "content": "$729.8 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "729,800,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$724.1 billion (2017 est.)",
-              "value": "724,100,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2173,28 +2176,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$12,482 (2019 est.)<br><br>$12,631 (2018 est.)<br><br>$12,703 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$11,500 note: data are in 2017 dollars (2020 est.)<br><br>$12,500 note: data are in 2017 dollars (2019 est.)<br><br>$12,600 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$12,482 (2019 est.)",
-              "value": "12,482",
+              "name": "Real GDP per capita 2020",
+              "content": "$11,500 note: data are in 2017 dollars (2020 est.)",
+              "value": "11,500",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$12,500 note: data are in 2017 dollars (2019 est.)",
+              "value": "12,500",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$12,631 (2018 est.)",
-              "value": "12,631",
+              "content": "$12,600 note: data are in 2017 dollars (2018 est.)",
+              "value": "12,600",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$12,703 (2017 est.)",
-              "value": "12,703",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2600,28 +2606,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$123.864 billion (2019 est.)<br><br>$127.055 billion (2018 est.)<br><br>$123.79 billion (2017 est.)",
+          "content": "$93.01 billion note: data are in current year dollars (2020 est.)<br><br>$104.85 billion note: data are in current year dollars (2019 est.)<br><br>$110.07 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$123.864 billion (2019 est.)",
-              "value": "123,864,000,000",
+              "name": "Exports 2020",
+              "content": "$93.01 billion note: data are in current year dollars (2020 est.)",
+              "value": "93,010,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$104.85 billion note: data are in current year dollars (2019 est.)",
+              "value": "104,850,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$127.055 billion (2018 est.)",
-              "value": "127,055,000,000",
+              "content": "$110.07 billion note: data are in current year dollars (2018 est.)",
+              "value": "110,070,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$123.79 billion (2017 est.)",
-              "value": "123,790,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2643,28 +2652,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$131.721 billion (2019 est.)<br><br>$132.365 billion (2018 est.)<br><br>$128.141 billion (2017 est.)",
+          "content": "$77.86 billion note: data are in current year dollars (2020 est.)<br><br>$103.12 billion note: data are in current year dollars (2019 est.)<br><br>$108.91 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$131.721 billion (2019 est.)",
-              "value": "131,721,000,000",
+              "name": "Imports 2020",
+              "content": "$77.86 billion note: data are in current year dollars (2020 est.)",
+              "value": "77,860,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$103.12 billion note: data are in current year dollars (2019 est.)",
+              "value": "103,120,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$132.365 billion (2018 est.)",
-              "value": "132,365,000,000",
+              "content": "$108.91 billion note: data are in current year dollars (2018 est.)",
+              "value": "108,910,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$128.141 billion (2017 est.)",
-              "value": "128,141,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3571,12 +3583,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>27,113 (Somalia), 17,726 (Ethiopia), 5,273 (Republic of the Congo) (2019); 57,595 (Democratic Republic of the Congo) (refugees and asylum seekers) (2021)<br><br><strong>IDPs: </strong>5,000 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>23,054 (Somalia), 15,629 (Ethiopia) (2020); 57,595 (Democratic Republic of the Congo) (refugees and asylum seekers) (2021)<br><br><strong>IDPs: </strong>5,000 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "27,113 (Somalia), 17,726 (Ethiopia), 5,273 (Republic of the Congo) (2019); 57,595 (Democratic Republic of the Congo) (refugees and asylum seekers) (2021)",
-              "value": "27,113 (Somalia), 17,726 (Ethiopia), 5,273 (Republic of the Congo) (2019); 57,595 (Democratic Republic of the Congo) (refugees and asylum seekers) (2021)",
+              "content": "23,054 (Somalia), 15,629 (Ethiopia) (2020); 57,595 (Democratic Republic of the Congo) (refugees and asylum seekers) (2021)",
+              "value": "23,054 (Somalia), 15,629 (Ethiopia) (2020); 57,595 (Democratic Republic of the Congo) (refugees and asylum seekers) (2021)",
               "title": "refugees (country of origin)"
             },
             {

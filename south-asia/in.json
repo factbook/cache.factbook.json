@@ -2,8 +2,8 @@
   "name": "India",
   "code": "IN",
   "region": "South Asia",
-  "published": "2021-10-13 12:19:42 -0400",
-  "updated": "2021-10-12 15:43:41 -0400",
+  "published": "2021-10-20 12:11:26 -0400",
+  "updated": "2021-10-20 10:45:06 -0400",
   "media": [
     {
       "type": "flag",
@@ -577,6 +577,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Indian Ocean drainage: Brahmaputra (651,335 sq km), Ganges (1,016,124 sq km), Indus (1,081,718 sq km), Irrawaddy (413,710 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Indus-Ganges-Brahmaputra Basin"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -593,16 +603,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "dominates South Asian subcontinent; near important Indian Ocean trade routes; Kanchenjunga, third tallest mountain in the world, lies on the border with Nepal"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Indian Ocean drainage: Brahmaputra (651,335 sq km), Ganges (1,016,124 sq km), Indus (1,081,718 sq km), Irrawaddy (413,710 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Indus-Ganges-Brahmaputra Basin"
         }
       ]
     },
@@ -1450,51 +1450,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>56 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>17 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>688 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "56 billion cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "56,000,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "17 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "17,000,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "688 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "688,000,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "1,910,900,000,000 cubic meters (2017 est.)",
-          "value": "1,910,900,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1560,6 +1515,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>35.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.33% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "35.4% of total population (2021)",
+              "title": "urban population",
+              "value": "35.4",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "2.33% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "2.33",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_IN.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1590,39 +1578,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>35.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.33% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "35.4% of total population (2021)",
-              "title": "urban population",
-              "value": "35.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "2.33% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "2.33",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_IN.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1714,6 +1669,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Indus-Ganges-Brahmaputra Basin"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>56 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>17 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>688 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "56 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "56,000,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "17 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "17,000,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "688 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "688,000,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "1,910,900,000,000 cubic meters (2017 est.)",
+          "value": "1,910,900,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -2143,28 +2143,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$9,155,083,000,000 (2019 est.)<br><br>$8,787,694,000,000 (2018 est.)<br><br>$8,280,935,000,000 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$8,443,360,000,000 note: data are in 2017 dollars (2020 est.)<br><br>$9,174,040,000,000 note: data are in 2017 dollars (2019 est.)<br><br>$8,817,670,000,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$9,155,083,000,000 (2019 est.)",
-              "value": "9,155,083,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$8,443,360,000,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "8,443,360,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$9,174,040,000,000 note: data are in 2017 dollars (2019 est.)",
+              "value": "9,174,040,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$8,787,694,000,000 (2018 est.)",
-              "value": "8,787,694,000,000",
+              "content": "$8,817,670,000,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "8,817,670,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$8,280,935,000,000 (2017 est.)",
-              "value": "8,280,935,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2202,28 +2205,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$6,700 (2019 est.)<br><br>$6,497 (2018 est.)<br><br>$6,186 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$6,100 note: data are in 2017 dollars (2020 est.)<br><br>$6,700 note: data are in 2017 dollars (2019 est.)<br><br>$6,500 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
+              "name": "Real GDP per capita 2020",
+              "content": "$6,100 note: data are in 2017 dollars (2020 est.)",
+              "value": "6,100",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
               "name": "Real GDP per capita 2019",
-              "content": "$6,700 (2019 est.)",
+              "content": "$6,700 note: data are in 2017 dollars (2019 est.)",
               "value": "6,700",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$6,497 (2018 est.)",
-              "value": "6,497",
+              "content": "$6,500 note: data are in 2017 dollars (2018 est.)",
+              "value": "6,500",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$6,186 (2017 est.)",
-              "value": "6,186",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2630,28 +2636,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$572.073 billion (2019 est.)<br><br>$564.165 billion (2018 est.)<br><br>$509.661 billion (2017 est.)",
+          "content": "$484.95 billion note: data are in current year dollars (2020 est.)<br><br>$546.03 billion note: data are in current year dollars (2019 est.)<br><br>$537.04 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$572.073 billion (2019 est.)",
-              "value": "572,073,000,000",
+              "name": "Exports 2020",
+              "content": "$484.95 billion note: data are in current year dollars (2020 est.)",
+              "value": "484,950,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$546.03 billion note: data are in current year dollars (2019 est.)",
+              "value": "546,030,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$564.165 billion (2018 est.)",
-              "value": "564,165,000,000",
+              "content": "$537.04 billion note: data are in current year dollars (2018 est.)",
+              "value": "537,040,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$509.661 billion (2017 est.)",
-              "value": "509,661,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2673,28 +2682,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$624.314 billion (2019 est.)<br><br>$656.529 billion (2018 est.)<br><br>$575.121 billion (2017 est.)",
+          "content": "$493.18 billion note: data are in current year dollars (2020 est.)<br><br>$619.48 billion note: data are in current year dollars (2019 est.)<br><br>$642.96 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$624.314 billion (2019 est.)",
-              "value": "624,314,000,000",
+              "name": "Imports 2020",
+              "content": "$493.18 billion note: data are in current year dollars (2020 est.)",
+              "value": "493,180,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$619.48 billion note: data are in current year dollars (2019 est.)",
+              "value": "619,480,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$656.529 billion (2018 est.)",
-              "value": "656,529,000,000",
+              "content": "$642.96 billion note: data are in current year dollars (2018 est.)",
+              "value": "642,960,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$575.121 billion (2017 est.)",
-              "value": "575,121,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3563,8 +3575,8 @@
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "1,900 Democratic Republic of the Congo (MONUSCO); 200 Golan Heights (UNDOF); 780 Lebanon (UNIFIL); 2,350 South Sudan (UNMISS) (Jan 2021)",
-          "info_date": "Jan 2021"
+          "content": "1,850 Democratic Republic of the Congo (MONUSCO); 200 Golan Heights (UNDOF); 850 Lebanon (UNIFIL); 2,350 South Sudan (UNMISS) (Sep 2021)",
+          "info_date": "Sep 2021"
         },
         {
           "name": "Military service age and obligation",
@@ -3608,12 +3620,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>108,008 (Tibet/China), 59,428 (Sri Lanka), 18,813 (Burma), 7,470 (Afghanistan) (2019)<br><br><strong>IDPs: </strong>473,000 (armed conflict and intercommunal violence) (2020)<br><br><strong>stateless persons: </strong>18,174 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>93,259 (Sri Lanka), 73,407 (Tibet/China), 19,398 (Burma), 8,275 (Afghanistan) (2020)<br><br><strong>IDPs: </strong>473,000 (armed conflict and intercommunal violence) (2020)<br><br><strong>stateless persons: </strong>18,174 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "108,008 (Tibet/China), 59,428 (Sri Lanka), 18,813 (Burma), 7,470 (Afghanistan) (2019)",
-              "value": "108,008 (Tibet/China), 59,428 (Sri Lanka), 18,813 (Burma), 7,470 (Afghanistan) (2019)",
+              "content": "93,259 (Sri Lanka), 73,407 (Tibet/China), 19,398 (Burma), 8,275 (Afghanistan) (2020)",
+              "value": "93,259 (Sri Lanka), 73,407 (Tibet/China), 19,398 (Burma), 8,275 (Afghanistan) (2020)",
               "title": "refugees (country of origin)"
             },
             {

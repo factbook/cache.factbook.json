@@ -2,8 +2,8 @@
   "name": "Cambodia",
   "code": "CB",
   "region": "East Asia/Southeast Asia",
-  "published": "2021-10-13 12:14:25 -0400",
-  "updated": "2021-10-12 15:48:47 -0400",
+  "published": "2021-10-20 12:02:50 -0400",
+  "updated": "2021-10-19 16:05:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -1177,6 +1177,11 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Pacific Ocean drainage: Mekong (805,604 sq km)"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -1193,11 +1198,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "a land of paddies and forests dominated by the Mekong River and Tonle Sap (Southeast Asia's largest freshwater lake)"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Pacific Ocean drainage: Mekong (805,604 sq km)"
         }
       ]
     },
@@ -2036,51 +2036,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>98 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>33 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>2.053 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "98 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "98,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "33 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "33,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "2.053 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "2,053,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "476.1 billion cubic meters (2017 est.)",
-          "value": "476,100,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -2146,6 +2101,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>24.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.06% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "24.7% of total population (2021)",
+              "title": "urban population",
+              "value": "24.7",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "3.06% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "3.06",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_CB.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -2176,39 +2164,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>24.7% of total population (2021)<br><br><strong>rate of urbanization: </strong>3.06% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "24.7% of total population (2021)",
-              "title": "urban population",
-              "value": "24.7",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "3.06% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "3.06",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_CB.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -2262,6 +2217,51 @@
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
           "content": "Pacific Ocean drainage: Mekong (805,604 sq km)"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>98 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>33 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>2.053 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "98 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "98,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "33 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "33,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "2.053 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "2,053,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "476.1 billion cubic meters (2017 est.)",
+          "value": "476,100,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -2676,28 +2676,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$72.356 billion (2019 est.)<br><br>$67.588 billion (2018 est.)<br><br>$62.89 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$70.08 billion note: data are in 2017 dollars (2020 est.)<br><br>$72.36 billion note: data are in 2017 dollars (2019 est.)<br><br>$67.59 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$72.356 billion (2019 est.)",
-              "value": "72,356,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$70.08 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "70,080,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$72.36 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "72,360,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$67.588 billion (2018 est.)",
-              "value": "67,588,000,000",
+              "content": "$67.59 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "67,590,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$62.89 billion (2017 est.)",
-              "value": "62,890,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2735,28 +2738,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$4,389 (2019 est.)<br><br>$4,159 (2018 est.)<br><br>$3,928 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$4,200 note: data are in 2017 dollars (2020 est.)<br><br>$4,400 note: data are in 2017 dollars (2019 est.)<br><br>$4,200 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$4,389 (2019 est.)",
-              "value": "4,389",
+              "name": "Real GDP per capita 2020",
+              "content": "$4,200 note: data are in 2017 dollars (2020 est.)",
+              "value": "4,200",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$4,400 note: data are in 2017 dollars (2019 est.)",
+              "value": "4,400",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$4,159 (2018 est.)",
-              "value": "4,159",
+              "content": "$4,200 note: data are in 2017 dollars (2018 est.)",
+              "value": "4,200",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$3,928 (2017 est.)",
-              "value": "3,928",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -3149,21 +3155,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$11.42 billion (2017 est.)<br><br>$10.07 billion (2016 est.)",
+          "content": "$19.4 billion note: data are in current year dollars (2020 est.)<br><br>$21.07 billion note: data are in current year dollars (2019 est.)<br><br>$18.41 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$11.42 billion (2017 est.)",
-              "value": "11,420,000,000",
+              "name": "Exports 2020",
+              "content": "$19.4 billion note: data are in current year dollars (2020 est.)",
+              "value": "19,400,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2016",
-              "content": "$10.07 billion (2016 est.)",
-              "value": "10,070,000,000",
+              "name": "Exports 2019",
+              "content": "$21.07 billion note: data are in current year dollars (2019 est.)",
+              "value": "21,070,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2018",
+              "content": "$18.41 billion note: data are in current year dollars (2018 est.)",
+              "value": "18,410,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3185,21 +3201,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$14.37 billion (2017 est.)<br><br>$12.65 billion (2016 est.)",
+          "content": "$23.12 billion note: data are in current year dollars (2020 est.)<br><br>$25.52 billion note: data are in current year dollars (2019 est.)<br><br>$21.86 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$14.37 billion (2017 est.)",
-              "value": "14,370,000,000",
+              "name": "Imports 2020",
+              "content": "$23.12 billion note: data are in current year dollars (2020 est.)",
+              "value": "23,120,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2016",
-              "content": "$12.65 billion (2016 est.)",
-              "value": "12,650,000,000",
+              "name": "Imports 2019",
+              "content": "$25.52 billion note: data are in current year dollars (2019 est.)",
+              "value": "25,520,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2018",
+              "content": "$21.86 billion note: data are in current year dollars (2018 est.)",
+              "value": "21,860,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3973,8 +3999,9 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Royal Cambodian Armed Forces: High Command Headquarters, Royal Cambodian Army, Royal Khmer Navy, Royal Cambodian Air Force, Royal Gendarmerie; the National Committee for Maritime Security (performs Coast Guard functions and has representation from military and civilian agencies) (2020)",
-          "info_date": "2020"
+          "content": "Royal Cambodian Armed Forces: High Command Headquarters, Royal Cambodian Army, Royal Khmer Navy, Royal Cambodian Air Force, Royal Gendarmerie; the National Committee for Maritime Security (performs Coast Guard functions and has representation from military and civilian agencies) (2021)<br><br>note - the Cambodian National Police is under the Ministry of Interior",
+          "info_date": "2021",
+          "field_note": "note - the Cambodian National Police is under the Ministry of Interior"
         },
         {
           "name": "Military expenditures",

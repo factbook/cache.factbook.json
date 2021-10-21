@@ -2,8 +2,8 @@
   "name": "Angola",
   "code": "AO",
   "region": "Africa",
-  "published": "2021-10-13 12:11:28 -0400",
-  "updated": "2021-10-12 12:05:19 -0400",
+  "published": "2021-10-20 11:58:12 -0400",
+  "updated": "2021-10-19 16:05:02 -0400",
   "media": [
     {
       "type": "flag",
@@ -291,6 +291,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km)<br />Indian Ocean drainage: Zambezi (1,332,412 sq km)<br />Internal <em>(endorheic basin) </em>drainage: Okavango Basin (863,866 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Congo Basin, Upper Kalahari-Cuvelai-Upper Zambezi Basin"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -307,16 +317,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "the province of Cabinda is an exclave, separated from the rest of the country by the Democratic Republic of the Congo"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km)<br />Indian Ocean drainage: Zambezi (1,332,412 sq km)<br />Okavango Basin drainage <em>(endorheic basin)</em>: Okavango (863,866 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Congo Basin, Upper Kalahari-Cuvelai-Upper Zambezi Basin"
         }
       ]
     },
@@ -1136,51 +1136,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>319.5 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>239.6 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>146.7 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "319.5 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "319,500,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "239.6 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "239,600,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "146.7 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "146,700,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "148.4 billion cubic meters (2017 est.)",
-          "value": "148,400,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1237,6 +1192,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>67.5% of total population (2021)<br><br><strong>rate of urbanization: </strong>4.04% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "67.5% of total population (2021)",
+              "title": "urban population",
+              "value": "67.5",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "4.04% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "4.04",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_AO.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1267,39 +1255,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>67.5% of total population (2021)<br><br><strong>rate of urbanization: </strong>4.04% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "67.5% of total population (2021)",
-              "title": "urban population",
-              "value": "67.5",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "4.04% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "4.04",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_AO.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1366,12 +1321,57 @@
         {
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
-          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km)<br />Indian Ocean drainage: Zambezi (1,332,412 sq km)<br />Okavango Basin drainage <em>(endorheic basin)</em>: Okavango (863,866 sq km)"
+          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km)<br />Indian Ocean drainage: Zambezi (1,332,412 sq km)<br />Internal <em>(endorheic basin) </em>drainage: Okavango Basin (863,866 sq km)"
         },
         {
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Congo Basin, Upper Kalahari-Cuvelai-Upper Zambezi Basin"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>319.5 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>239.6 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>146.7 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "319.5 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "319,500,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "239.6 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "239,600,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "146.7 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "146,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "148.4 billion cubic meters (2017 est.)",
+          "value": "148,400,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1804,28 +1804,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$212.285 billion (2019 est.)<br><br>$213.619 billion (2018 est.)<br><br>$217.987 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$203.71 billion note: data are in 2017 dollars (2020 est.)<br><br>$212.29 billion note: data are in 2017 dollars (2019 est.)<br><br>$213.62 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$212.285 billion (2019 est.)",
-              "value": "212,285,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$203.71 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "203,710,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$212.29 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "212,290,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$213.619 billion (2018 est.)",
-              "value": "213,619,000,000",
+              "content": "$213.62 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "213,620,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$217.987 billion (2017 est.)",
-              "value": "217,987,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -1863,28 +1866,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$6,670 (2019 est.)<br><br>$6,934 (2018 est.)<br><br>$7,311 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$6,200 note: data are in 2017 dollars (2020 est.)<br><br>$6,700 note: data are in 2017 dollars (2019 est.)<br><br>$6,900 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$6,670 (2019 est.)",
-              "value": "6,670",
+              "name": "Real GDP per capita 2020",
+              "content": "$6,200 note: data are in 2017 dollars (2020 est.)",
+              "value": "6,200",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$6,700 note: data are in 2017 dollars (2019 est.)",
+              "value": "6,700",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$6,934 (2018 est.)",
-              "value": "6,934",
+              "content": "$6,900 note: data are in 2017 dollars (2018 est.)",
+              "value": "6,900",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$7,311 (2017 est.)",
-              "value": "7,311",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2279,21 +2285,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$33.07 billion (2017 est.)<br><br>$31.03 billion (2016 est.)",
+          "content": "$21 billion note: data are in current year dollars (2020 est.)<br><br>$35.18 billion note: data are in current year dollars (2019 est.)<br><br>$41.39 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$33.07 billion (2017 est.)",
-              "value": "33,070,000,000",
+              "name": "Exports 2020",
+              "content": "$21 billion note: data are in current year dollars (2020 est.)",
+              "value": "21,000,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2016",
-              "content": "$31.03 billion (2016 est.)",
-              "value": "31,030,000,000",
+              "name": "Exports 2019",
+              "content": "$35.18 billion note: data are in current year dollars (2019 est.)",
+              "value": "35,180,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2018",
+              "content": "$41.39 billion note: data are in current year dollars (2018 est.)",
+              "value": "41,390,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2315,21 +2331,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$19.5 billion (2017 est.)<br><br>$13.04 billion (2016 est.)",
+          "content": "$15.12 billion note: data are in current year dollars (2020 est.)<br><br>$22.3 billion note: data are in current year dollars (2019 est.)<br><br>$25.89 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$19.5 billion (2017 est.)",
-              "value": "19,500,000,000",
+              "name": "Imports 2020",
+              "content": "$15.12 billion note: data are in current year dollars (2020 est.)",
+              "value": "15,120,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2016",
-              "content": "$13.04 billion (2016 est.)",
-              "value": "13,040,000,000",
+              "name": "Imports 2019",
+              "content": "$22.3 billion note: data are in current year dollars (2019 est.)",
+              "value": "22,300,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2018",
+              "content": "$25.89 billion note: data are in current year dollars (2018 est.)",
+              "value": "25,890,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2750,14 +2776,14 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong><p>Angola&rsquo;s telecom sector shows consistent recovery following political stability, encouraging foreign investment; while the government opened the telecom sector to new competitors, there has been slow progress in LTE network development; only a small proportion of the country is covered by the 3G network infrastructure; Internet and mobile phone penetration remains low, hindered by high costs and poor infrastructure that limits access, especially in rural areas; upgrading telecom will support e-commerce, and rural access to education and health care; AngoSat-2 satellite expected to be ready in 2021; government aims to connect an additional 160,000 people to free Wi-Fi; importer of broadcasting equipment from China (2021)</p> (2020)<br><br><strong>domestic: </strong>only about one fixed-line per 100 persons; mobile-cellular teledensity about 47 telephones per 100 persons (2019)<br><br><strong>international: </strong>country code - 244; landing points for the SAT-3/WASC, WACS, ACE and SACS&nbsp;fiber-optic submarine cable that provides connectivity to other countries in west Africa, Brazil, Europe and Asia; satellite earth stations - 29, Angosat-2 satellite expected by 2021 (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong><p>Angola&rsquo;s telecom sector shows consistent recovery following political stability, encouraging foreign investment; while the government opened the telecom sector to new competitors, there has been slow progress in LTE network development; only a small proportion of the country is covered by the 3G network infrastructure; Internet and mobile phone penetration remains low, hindered by high costs and poor infrastructure that limits access, especially in rural areas; upgrading telecom will support e-commerce, and rural access to education and health care; AngoSat-2 satellite expected to be ready in 2021; government aims to connect an additional 160,000 people to free Wi-Fi; importer of broadcasting equipment from China</p> (2021)<br><br><strong>domestic: </strong>only about one fixed-line per 100 persons; mobile-cellular teledensity about 47 telephones per 100 persons (2019)<br><br><strong>international: </strong>country code - 244; landing points for the SAT-3/WASC, WACS, ACE and SACS&nbsp;fiber-optic submarine cable that provides connectivity to other countries in west Africa, Brazil, Europe and Asia; satellite earth stations - 29, Angosat-2 satellite expected by 2021 (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "<p>Angola&rsquo;s telecom sector shows consistent recovery following political stability, encouraging foreign investment; while the government opened the telecom sector to new competitors, there has been slow progress in LTE network development; only a small proportion of the country is covered by the 3G network infrastructure; Internet and mobile phone penetration remains low, hindered by high costs and poor infrastructure that limits access, especially in rural areas; upgrading telecom will support e-commerce, and rural access to education and health care; AngoSat-2 satellite expected to be ready in 2021; government aims to connect an additional 160,000 people to free Wi-Fi; importer of broadcasting equipment from China (2021)</p> (2020)",
-              "value": "<p>Angola&rsquo;s telecom sector shows consistent recovery following political stability, encouraging foreign investment; while the government opened the telecom sector to new competitors, there has been slow progress in LTE network development; only a small proportion of the country is covered by the 3G network infrastructure; Internet and mobile phone penetration remains low, hindered by high costs and poor infrastructure that limits access, especially in rural areas; upgrading telecom will support e-commerce, and rural access to education and health care; AngoSat-2 satellite expected to be ready in 2021; government aims to connect an additional 160,000 people to free Wi-Fi; importer of broadcasting equipment from China (2021)</p>",
+              "content": "<p>Angola&rsquo;s telecom sector shows consistent recovery following political stability, encouraging foreign investment; while the government opened the telecom sector to new competitors, there has been slow progress in LTE network development; only a small proportion of the country is covered by the 3G network infrastructure; Internet and mobile phone penetration remains low, hindered by high costs and poor infrastructure that limits access, especially in rural areas; upgrading telecom will support e-commerce, and rural access to education and health care; AngoSat-2 satellite expected to be ready in 2021; government aims to connect an additional 160,000 people to free Wi-Fi; importer of broadcasting equipment from China</p> (2021)",
+              "value": "<p>Angola&rsquo;s telecom sector shows consistent recovery following political stability, encouraging foreign investment; while the government opened the telecom sector to new competitors, there has been slow progress in LTE network development; only a small proportion of the country is covered by the 3G network infrastructure; Internet and mobile phone penetration remains low, hindered by high costs and poor infrastructure that limits access, especially in rural areas; upgrading telecom will support e-commerce, and rural access to education and health care; AngoSat-2 satellite expected to be ready in 2021; government aims to connect an additional 160,000 people to free Wi-Fi; importer of broadcasting equipment from China</p>",
               "title": "general assessment",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             },
             {
               "name": "domestic",

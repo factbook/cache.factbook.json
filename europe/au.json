@@ -2,8 +2,8 @@
   "name": "Austria",
   "code": "AU",
   "region": "Europe",
-  "published": "2021-10-13 12:12:30 -0400",
-  "updated": "2021-10-12 10:09:54 -0400",
+  "published": "2021-10-20 11:59:40 -0400",
+  "updated": "2021-10-20 09:05:20 -0400",
   "media": [
     {
       "type": "flag",
@@ -1057,6 +1057,11 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Rhine-Maas (198,735 sq km), <em>(Black Sea)</em> Danube (795,656 sq km)"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -1072,11 +1077,6 @@
           "name": "Geography - note",
           "field_id": 295,
           "content": "note 1: landlocked; strategic location at the crossroads of central Europe with many easily traversable Alpine passes and valleys; major river is the Danube; population is concentrated on eastern lowlands because of steep slopes, poor soils, and low temperatures elsewhere<br /><br />note 2: the world's largest and longest ice cave system at 42 km (26 mi) is the Eisriesenwelt (Ice Giants World) inside the Hochkogel mountain near Werfen, about 40 km south of Salzburg; ice caves are bedrock caves that contain year-round ice formations; they differ from glacial caves, which are transient and are formed by melting ice and flowing water within and under glaciers"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Rhine-Maas (198,735 sq km), <em>(Black Sea)</em> Danube (795,656 sq km)"
         }
       ]
     },
@@ -1843,51 +1843,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>720 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>2.695 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>77.1 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "720 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "720,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "2.695 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "2,695,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "77.1 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "77,100,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "77.7 billion cubic meters (2017 est.)",
-          "value": "77,700,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1953,6 +1908,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>59% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.68% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "59% of total population (2021)",
+              "title": "urban population",
+              "value": "59",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.68% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.68",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_AU.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1983,39 +1971,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>59% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.68% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "59% of total population (2021)",
-              "title": "urban population",
-              "value": "59",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.68% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.68",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_AU.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -2058,6 +2013,51 @@
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
           "content": "Atlantic Ocean drainage: Rhine-Maas (198,735 sq km), <em>(Black Sea)</em> Danube (795,656 sq km)"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>720 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>2.695 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>77.1 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "720 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "720,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "2.695 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "2,695,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "77.1 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "77,100,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "77.7 billion cubic meters (2017 est.)",
+          "value": "77,700,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -2277,28 +2277,25 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>bicameral Federal Assembly or Bundesversammlung consists of:<br />Federal Council or Bundesrat (61 seats; members appointed by state parliaments with each state receiving 3 to 12 seats in proportion to its population; members serve 5- or 6-year terms)<br />National Council or Nationalrat (183 seats; members directly elected in single-seat constituencies by proportional representation vote; members serve 5-year terms) (e.g. 2019)<br><br><strong>elections: </strong><br />Federal Council - last appointed - NA<br />National Council - last held on 29 September 2019 (next to be held in 2024); note - election was originally scheduled for 2022, but President VAN DER BELLEN called for an early election (e.g. 2019)<br><br><strong>election results: </strong><br />Federal Council - percent of vote by party - NA; seats by party - NA; composition&nbsp;- men 44, women 17, percent of women 27.9%&nbsp;<br />National Council - percent of vote by party - OeVP 37.5%, SPOe 21.2%, FPOe 16.2%, The Greens 13.9%, NEOS 8.1%, other 3.1%; seats by party - OeVP 71, SPOe 40, FPOe 31, The Greens 26,&nbsp; NEOS 15; composition - men 115, women 68, percent of women 37.2%; note -&nbsp;total Federal Assembly percent of women 34.8% (e.g. 2019)",
+          "content": "<strong>description: </strong>bicameral Federal Assembly or Bundesversammlung consists of:<br />Federal Council or Bundesrat (61 seats; members appointed by state parliaments with each state receiving 3 to 12 seats in proportion to its population; members serve 5- or 6-year terms)<br />National Council or Nationalrat (183 seats; members directly elected in single-seat constituencies by proportional representation vote; members serve 5-year terms)<br><br><strong>elections: </strong><br />Federal Council - last appointed - NA<br />National Council - last held on 29 September 2019 (next to be held in 2024); note - election was originally scheduled for 2022, but President VAN DER BELLEN called for an early election<br><br><strong>election results: </strong><br />Federal Council - percent of vote by party - NA; seats by party - NA; composition (as of September 2021) - men 39, women 22, percent of women 36.1%&nbsp;<br />National Council - percent of vote by party - OeVP 37.5%, SPOe 21.2%, FPOe 16.2%, The Greens 13.9%, NEOS 8.1%, other 3.1%; seats by party - OeVP 71, SPOe 40, FPOe 31, The Greens 26,&nbsp; NEOS 15; composition (as of September 2021) - men 109, women 74, percent of women 40.4%; note - total Federal Assembly percent of women 39.3%",
           "subfields": [
             {
               "name": "description",
-              "content": "bicameral Federal Assembly or Bundesversammlung consists of:<br />Federal Council or Bundesrat (61 seats; members appointed by state parliaments with each state receiving 3 to 12 seats in proportion to its population; members serve 5- or 6-year terms)<br />National Council or Nationalrat (183 seats; members directly elected in single-seat constituencies by proportional representation vote; members serve 5-year terms) (e.g. 2019)",
+              "content": "bicameral Federal Assembly or Bundesversammlung consists of:<br />Federal Council or Bundesrat (61 seats; members appointed by state parliaments with each state receiving 3 to 12 seats in proportion to its population; members serve 5- or 6-year terms)<br />National Council or Nationalrat (183 seats; members directly elected in single-seat constituencies by proportional representation vote; members serve 5-year terms)",
               "value": "bicameral Federal Assembly or Bundesversammlung consists of:<br />Federal Council or Bundesrat (61 seats; members appointed by state parliaments with each state receiving 3 to 12 seats in proportion to its population; members serve 5- or 6-year terms)<br />National Council or Nationalrat (183 seats; members directly elected in single-seat constituencies by proportional representation vote; members serve 5-year terms)",
-              "title": "description",
-              "info_date": "(e.g. 2019)"
+              "title": "description"
             },
             {
               "name": "elections",
-              "content": "<br />Federal Council - last appointed - NA<br />National Council - last held on 29 September 2019 (next to be held in 2024); note - election was originally scheduled for 2022, but President VAN DER BELLEN called for an early election (e.g. 2019)",
+              "content": "<br />Federal Council - last appointed - NA<br />National Council - last held on 29 September 2019 (next to be held in 2024); note - election was originally scheduled for 2022, but President VAN DER BELLEN called for an early election",
               "value": "<br />Federal Council - last appointed - NA<br />National Council - last held on 29 September 2019 (next to be held in 2024); note - election was originally scheduled for 2022, but President VAN DER BELLEN called for an early election",
-              "title": "elections",
-              "info_date": "(e.g. 2019)"
+              "title": "elections"
             },
             {
               "name": "election results",
-              "content": "<br />Federal Council - percent of vote by party - NA; seats by party - NA; composition&nbsp;- men 44, women 17, percent of women 27.9%&nbsp;<br />National Council - percent of vote by party - OeVP 37.5%, SPOe 21.2%, FPOe 16.2%, The Greens 13.9%, NEOS 8.1%, other 3.1%; seats by party - OeVP 71, SPOe 40, FPOe 31, The Greens 26,&nbsp; NEOS 15; composition - men 115, women 68, percent of women 37.2%; note -&nbsp;total Federal Assembly percent of women 34.8% (e.g. 2019)",
-              "value": "<br />Federal Council - percent of vote by party - NA; seats by party - NA; composition&nbsp;- men 44, women 17, percent of women 27.9%&nbsp;<br />National Council - percent of vote by party - OeVP 37.5%, SPOe 21.2%, FPOe 16.2%, The Greens 13.9%, NEOS 8.1%, other 3.1%; seats by party - OeVP 71, SPOe 40, FPOe 31, The Greens 26,&nbsp; NEOS 15; composition - men 115, women 68, percent of women 37.2%; note -&nbsp;total Federal Assembly percent of women 34.8%",
-              "title": "election results",
-              "info_date": "(e.g. 2019)"
+              "content": "<br />Federal Council - percent of vote by party - NA; seats by party - NA; composition (as of September 2021) - men 39, women 22, percent of women 36.1%&nbsp;<br />National Council - percent of vote by party - OeVP 37.5%, SPOe 21.2%, FPOe 16.2%, The Greens 13.9%, NEOS 8.1%, other 3.1%; seats by party - OeVP 71, SPOe 40, FPOe 31, The Greens 26,&nbsp; NEOS 15; composition (as of September 2021) - men 109, women 74, percent of women 40.4%; note - total Federal Assembly percent of women 39.3%",
+              "value": "<br />Federal Council - percent of vote by party - NA; seats by party - NA; composition (as of September 2021) - men 39, women 22, percent of women 36.1%&nbsp;<br />National Council - percent of vote by party - OeVP 37.5%, SPOe 21.2%, FPOe 16.2%, The Greens 13.9%, NEOS 8.1%, other 3.1%; seats by party - OeVP 71, SPOe 40, FPOe 31, The Greens 26,&nbsp; NEOS 15; composition (as of September 2021) - men 109, women 74, percent of women 40.4%; note - total Federal Assembly percent of women 39.3%",
+              "title": "election results"
             }
           ]
         },
@@ -2492,28 +2489,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$498.78 billion (2019 est.)<br><br>$491.803 billion (2018 est.)<br><br>$479.433 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$463.12 billion note: data are in 2017 dollars (2020 est.)<br><br>$495.8 billion note: data are in 2017 dollars (2019 est.)<br><br>$488.86 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$498.78 billion (2019 est.)",
-              "value": "498,780,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$463.12 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "463,120,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$495.8 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "495,800,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$491.803 billion (2018 est.)",
-              "value": "491,803,000,000",
+              "content": "$488.86 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "488,860,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$479.433 billion (2017 est.)",
-              "value": "479,433,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2551,28 +2551,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$56,188 (2019 est.)<br><br>$55,631 (2018 est.)<br><br>$54,496 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$51,900 note: data are in 2017 dollars (2020 est.)<br><br>$55,800 note: data are in 2017 dollars (2019 est.)<br><br>$55,300 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$56,188 (2019 est.)",
-              "value": "56,188",
+              "name": "Real GDP per capita 2020",
+              "content": "$51,900 note: data are in 2017 dollars (2020 est.)",
+              "value": "51,900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$55,800 note: data are in 2017 dollars (2019 est.)",
+              "value": "55,800",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$55,631 (2018 est.)",
-              "value": "55,631",
+              "content": "$55,300 note: data are in 2017 dollars (2018 est.)",
+              "value": "55,300",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$54,496 (2017 est.)",
-              "value": "54,496",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2979,28 +2982,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$270.888 billion (2019 est.)<br><br>$263.145 billion (2018 est.)<br><br>$249.312 billion (2017 est.)",
+          "content": "$226.79 billion note: data are in current year dollars (2020 est.)<br><br>$247.17 billion note: data are in current year dollars (2019 est.)<br><br>$253.3 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$270.888 billion (2019 est.)",
-              "value": "270,888,000,000",
+              "name": "Exports 2020",
+              "content": "$226.79 billion note: data are in current year dollars (2020 est.)",
+              "value": "226,790,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$247.17 billion note: data are in current year dollars (2019 est.)",
+              "value": "247,170,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$263.145 billion (2018 est.)",
-              "value": "263,145,000,000",
+              "content": "$253.3 billion note: data are in current year dollars (2018 est.)",
+              "value": "253,300,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$249.312 billion (2017 est.)",
-              "value": "249,312,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3022,28 +3028,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$253.276 billion (2019 est.)<br><br>$247.225 billion (2018 est.)<br><br>$235.385 billion (2017 est.)",
+          "content": "$211.85 billion note: data are in current year dollars (2020 est.)<br><br>$232.8 billion note: data are in current year dollars (2019 est.)<br><br>$238.79 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$253.276 billion (2019 est.)",
-              "value": "253,276,000,000",
+              "name": "Imports 2020",
+              "content": "$211.85 billion note: data are in current year dollars (2020 est.)",
+              "value": "211,850,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$232.8 billion note: data are in current year dollars (2019 est.)",
+              "value": "232,800,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$247.225 billion (2018 est.)",
-              "value": "247,225,000,000",
+              "content": "$238.79 billion note: data are in current year dollars (2018 est.)",
+              "value": "238,790,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$235.385 billion (2017 est.)",
-              "value": "235,385,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -3445,14 +3454,14 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong><p>mature telecom market benefitting from effective competition; government and regulator are focused on improving telecom infrastructure; program to provide a national gigabit service by 2030 based on 5G networks; fixed-line broadband market is dominated by DSL sector, while cable broadband enjoys steady share of connections; fiber penetration remains low pending build out network infrastructure; EU-funded projects develop infrastructure to enable an 'Internet of Services; Vienna is a smart city; importer of broadcasting equipment from Vietnam and China (2021)</p> (2020)<br><br><strong>domestic: </strong>developed and efficient; 41 per 100 fixed-line for households, 174 per 100 for companies; 120 per 100 mobile-cellular; broadband: 138 per 100 on smartphones; 62 per 100 fixed broadband, 54 per 100 mobile broadband (2019)<br><br><strong>international: </strong>country code - 43; earth stations available in the Astra, Intelsat, Eutelsat satellite systems (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong><p>mature telecom market benefitting from effective competition; government and regulator are focused on improving telecom infrastructure; program to provide a national gigabit service by 2030 based on 5G networks; fixed-line broadband market is dominated by DSL sector, while cable broadband enjoys steady share of connections; fiber penetration remains low pending build out network infrastructure; EU-funded projects develop infrastructure to enable an 'Internet of Services; Vienna is a smart city; importer of broadcasting equipment from Vietnam and China</p> (2021)<br><br><strong>domestic: </strong>developed and efficient; 41 per 100 fixed-line for households, 174 per 100 for companies; 120 per 100 mobile-cellular; broadband: 138 per 100 on smartphones; 62 per 100 fixed broadband, 54 per 100 mobile broadband (2019)<br><br><strong>international: </strong>country code - 43; earth stations available in the Astra, Intelsat, Eutelsat satellite systems (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "<p>mature telecom market benefitting from effective competition; government and regulator are focused on improving telecom infrastructure; program to provide a national gigabit service by 2030 based on 5G networks; fixed-line broadband market is dominated by DSL sector, while cable broadband enjoys steady share of connections; fiber penetration remains low pending build out network infrastructure; EU-funded projects develop infrastructure to enable an 'Internet of Services; Vienna is a smart city; importer of broadcasting equipment from Vietnam and China (2021)</p> (2020)",
-              "value": "<p>mature telecom market benefitting from effective competition; government and regulator are focused on improving telecom infrastructure; program to provide a national gigabit service by 2030 based on 5G networks; fixed-line broadband market is dominated by DSL sector, while cable broadband enjoys steady share of connections; fiber penetration remains low pending build out network infrastructure; EU-funded projects develop infrastructure to enable an 'Internet of Services; Vienna is a smart city; importer of broadcasting equipment from Vietnam and China (2021)</p>",
+              "content": "<p>mature telecom market benefitting from effective competition; government and regulator are focused on improving telecom infrastructure; program to provide a national gigabit service by 2030 based on 5G networks; fixed-line broadband market is dominated by DSL sector, while cable broadband enjoys steady share of connections; fiber penetration remains low pending build out network infrastructure; EU-funded projects develop infrastructure to enable an 'Internet of Services; Vienna is a smart city; importer of broadcasting equipment from Vietnam and China</p> (2021)",
+              "value": "<p>mature telecom market benefitting from effective competition; government and regulator are focused on improving telecom infrastructure; program to provide a national gigabit service by 2030 based on 5G networks; fixed-line broadband market is dominated by DSL sector, while cable broadband enjoys steady share of connections; fiber penetration remains low pending build out network infrastructure; EU-funded projects develop infrastructure to enable an 'Internet of Services; Vienna is a smart city; importer of broadcasting equipment from Vietnam and China</p>",
               "title": "general assessment",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             },
             {
               "name": "domestic",
@@ -3853,8 +3862,8 @@
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "registration requirement at age 17, the legal minimum age for voluntary military service; 18 is the legal minimum age for compulsory military service (6 months), or optionally, alternative civil/community service (9 months); males 18 to 50 years old in the militia or inactive reserve are subject to compulsory service; in a January 2012 referendum, a majority of Austrians voted in favor of retaining the system of compulsory military service (with the option of alternative/non-military service) instead of switching to a professional army system (2015)",
-          "info_date": "2015"
+          "content": "registration requirement at age 17, the legal minimum age for voluntary military service; 18 is the legal minimum age for compulsory military service (6 months), or optionally, alternative civil/community service (9 months); males 18 to 50 years old in the militia or inactive reserve are subject to compulsory service; in a January 2012 referendum, a majority of Austrians voted in favor of retaining the system of compulsory military service (with the option of alternative/non-military service) instead of switching to a professional army system (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Military - note",
@@ -3891,12 +3900,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>51,955 (Syria), 37,276 (Afghanistan), 8,664 (Russia), 8,568 (Iraq), 7,636 (Somalia), 6,393 (Iran) (2019)<br><br><strong>stateless persons: </strong>3,267 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>54,903 (Syria), 40,096 (Afghanistan), 9,152 (Iraq), 8,074 (Somalia), 7,513 (Russia), 6,878 (Iran) (2020)<br><br><strong>stateless persons: </strong>3,267 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "51,955 (Syria), 37,276 (Afghanistan), 8,664 (Russia), 8,568 (Iraq), 7,636 (Somalia), 6,393 (Iran) (2019)",
-              "value": "51,955 (Syria), 37,276 (Afghanistan), 8,664 (Russia), 8,568 (Iraq), 7,636 (Somalia), 6,393 (Iran) (2019)",
+              "content": "54,903 (Syria), 40,096 (Afghanistan), 9,152 (Iraq), 8,074 (Somalia), 7,513 (Russia), 6,878 (Iran) (2020)",
+              "value": "54,903 (Syria), 40,096 (Afghanistan), 9,152 (Iraq), 8,074 (Somalia), 7,513 (Russia), 6,878 (Iran) (2020)",
               "title": "refugees (country of origin)"
             },
             {

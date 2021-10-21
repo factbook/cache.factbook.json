@@ -2,8 +2,8 @@
   "name": "Somalia",
   "code": "SO",
   "region": "Africa",
-  "published": "2021-10-06 12:27:01 -0400",
-  "updated": "2021-10-06 11:09:24 -0400",
+  "published": "2021-10-20 12:21:55 -0400",
+  "updated": "2021-10-20 11:46:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -281,6 +281,11 @@
           "estimated": false,
           "info_date": "2012",
           "suffix": "sq km"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Ogaden-Juba Basin"
         },
         {
           "name": "Population distribution",
@@ -1034,51 +1039,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>15 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>2 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>3.281 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "15 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "15,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "2 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "2,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "3.281 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "3,281,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "14.7 billion cubic meters (2017 est.)",
-          "value": "14,700,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1250,6 +1210,56 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Ogaden-Juba Basin"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>15 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>2 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>3.281 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "15 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "15,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "2 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "2,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "3.281 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "3,281,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "14.7 billion cubic meters (2017 est.)",
+          "value": "14,700,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1656,28 +1666,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$20.44 billion (2017 est.)<br><br>$19.98 billion (2016 est.)<br><br>$19.14 billion (2015 est.)<br><br><strong>note:</strong> data are in 2016 US dollars",
+          "content": "$13.19 billion note: data are in 2017 dollars (2020 est.)<br><br>$13.39 billion note: data are in 2017 dollars (2019 est.)<br><br>$13.01 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2016 US dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$20.44 billion (2017 est.)",
-              "value": "20,440,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$13.19 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "13,190,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
-              "name": "Real GDP (purchasing power parity) 2016",
-              "content": "$19.98 billion (2016 est.)",
-              "value": "19,980,000,000",
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$13.39 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "13,390,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
-              "name": "Real GDP (purchasing power parity) 2015",
-              "content": "$19.14 billion (2015 est.)",
-              "value": "19,140,000,000",
+              "name": "Real GDP (purchasing power parity) 2018",
+              "content": "$13.01 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "13,010,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2016 US dollars"
@@ -1708,6 +1721,38 @@
               "value": "3.9",
               "estimated": true,
               "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Real GDP per capita",
+          "field_id": 211,
+          "comparative": true,
+          "content": "$800 note: data are in 2017 dollars (2020 est.)<br><br>$900 note: data are in 2017 dollars (2019 est.)<br><br>$900 note: data are in 2017 dollars (2018 est.)",
+          "subfields": [
+            {
+              "name": "Real GDP per capita 2020",
+              "content": "$800 note: data are in 2017 dollars (2020 est.)",
+              "value": "800",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$900 note: data are in 2017 dollars (2019 est.)",
+              "value": "900",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2018",
+              "content": "$900 note: data are in 2017 dollars (2018 est.)",
+              "value": "900",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ]
         },
@@ -2856,12 +2901,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>13,235 (Yemen) (2019)<br><br><strong>IDPs: </strong>2.968 million (civil war since 1988, clan-based competition for resources; 2011 famine; insecurity because of fighting between al-Shabaab and the Transitional Federal Government's allied forces) (2020)",
+          "content": "<strong>refugees (country of origin): </strong>6,371 (Yemen) (2020)<br><br><strong>IDPs: </strong>2.968 million (civil war since 1988, clan-based competition for resources; 2011 famine; insecurity because of fighting between al-Shabaab and the Transitional Federal Government's allied forces) (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "13,235 (Yemen) (2019)",
-              "value": "13,235 (Yemen) (2019)",
+              "content": "6,371 (Yemen) (2020)",
+              "value": "6,371 (Yemen) (2020)",
               "title": "refugees (country of origin)"
             },
             {

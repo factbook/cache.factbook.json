@@ -2,8 +2,8 @@
   "name": "Palau",
   "code": "PS",
   "region": "Australia - Oceania",
-  "published": "2021-10-06 12:24:56 -0400",
-  "updated": "2021-10-06 10:59:36 -0400",
+  "published": "2021-10-20 12:19:48 -0400",
+  "updated": "2021-10-19 16:04:47 -0400",
   "media": [
     {
       "type": "flag",
@@ -1339,16 +1339,6 @@
           ]
         },
         {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "0 cubic meters (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1414,23 +1404,6 @@
           ]
         },
         {
-          "name": "Revenue from forest resources",
-          "field_id": 420,
-          "comparative": true,
-          "content": "<strong>forest revenues: </strong>0% of GDP (2018 est.)",
-          "subfields": [
-            {
-              "name": "forest revenues",
-              "content": "0% of GDP (2018 est.)",
-              "title": "forest revenues",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
           "name": "Urbanization",
           "field_id": 349,
           "comparative": false,
@@ -1460,6 +1433,23 @@
               "alt": "total population growth rate v. urban population growth rate, 2000-2030",
               "caption": "",
               "position": 0
+            }
+          ]
+        },
+        {
+          "name": "Revenue from forest resources",
+          "field_id": 420,
+          "comparative": true,
+          "content": "<strong>forest revenues: </strong>0% of GDP (2018 est.)",
+          "subfields": [
+            {
+              "name": "forest revenues",
+              "content": "0% of GDP (2018 est.)",
+              "title": "forest revenues",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% of GDP"
             }
           ]
         },
@@ -1508,6 +1498,16 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "0 cubic meters (2017 est.)",
+          "value": "0",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1934,21 +1934,23 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$316 million (2019 est.)<br><br>$330 million (2018 est.)<br><br>$317 million (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$320 million note: data are in 2017 dollars (2019 est.)<br><br>$330 million note: data are in 2017 dollars (2018 est.)<br><br>$317 million (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$316 million (2019 est.)",
-              "value": "316,000,000",
+              "content": "$320 million note: data are in 2017 dollars (2019 est.)",
+              "value": "320,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$330 million (2018 est.)",
+              "content": "$330 million note: data are in 2017 dollars (2018 est.)",
               "value": "330,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2017",
@@ -1993,21 +1995,23 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$17,579 (2019 est.)<br><br>$18,463 (2018 est.)<br><br>$17,841 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$17,600 note: data are in 2017 dollars (2019 est.)<br><br>$18,400 note: data are in 2017 dollars (2018 est.)<br><br>$17,841 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
-              "content": "$17,579 (2019 est.)",
-              "value": "17,579",
+              "content": "$17,600 note: data are in 2017 dollars (2019 est.)",
+              "value": "17,600",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$18,463 (2018 est.)",
-              "value": "18,463",
+              "content": "$18,400 note: data are in 2017 dollars (2018 est.)",
+              "value": "18,400",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2017",

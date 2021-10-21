@@ -2,8 +2,8 @@
   "name": "Antigua and Barbuda",
   "code": "AC",
   "region": "Central America",
-  "published": "2021-10-06 12:02:57 -0400",
-  "updated": "2021-10-06 09:16:13 -0400",
+  "published": "2021-10-20 11:57:24 -0400",
+  "updated": "2021-10-19 16:05:02 -0400",
   "media": [
     {
       "type": "flag",
@@ -989,51 +989,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>7.2 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>2.5 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.8 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "7.2 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "7,200,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "2.5 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "2,500,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "1.8 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "1,800,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "52 million cubic meters (2017 est.)",
-          "value": "52,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1099,6 +1054,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>24.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.87% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "24.4% of total population (2021)",
+              "title": "urban population",
+              "value": "24.4",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.87% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.87",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_AC.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1133,39 +1121,6 @@
           ]
         },
         {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>24.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.87% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "24.4% of total population (2021)",
-              "title": "urban population",
-              "value": "24.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.87% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.87",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_AC.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
-            }
-          ]
-        },
-        {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
@@ -1181,6 +1136,51 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>7.2 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>2.5 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1.8 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "7.2 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "7,200,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "2.5 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "2,500,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "1.8 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "1,800,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "52 million cubic meters (2017 est.)",
+          "value": "52,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1552,28 +1552,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$2.127 billion (2019 est.)<br><br>$2.033 billion (2018 est.)<br><br>$1.893 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$1.76 billion note: data are in 2017 dollars (2020 est.)<br><br>$2.09 billion note: data are in 2017 dollars (2019 est.)<br><br>$2.02 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$2.127 billion (2019 est.)",
-              "value": "2,127,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$1.76 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "1,760,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$2.09 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "2,090,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$2.033 billion (2018 est.)",
-              "value": "2,033,000,000",
+              "content": "$2.02 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "2,020,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$1.893 billion (2017 est.)",
-              "value": "1,893,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1611,28 +1614,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$21,910 (2019 est.)<br><br>$21,116 (2018 est.)<br><br>$19,840 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$18,000 note: data are in 2017 dollars (2020 est.)<br><br>$21,500 note: data are in 2017 dollars (2019 est.)<br><br>$21,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$21,910 (2019 est.)",
-              "value": "21,910",
+              "name": "Real GDP per capita 2020",
+              "content": "$18,000 note: data are in 2017 dollars (2020 est.)",
+              "value": "18,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$21,500 note: data are in 2017 dollars (2019 est.)",
+              "value": "21,500",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$21,116 (2018 est.)",
-              "value": "21,116",
+              "content": "$21,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "21,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$19,840 (2017 est.)",
-              "value": "19,840",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1971,14 +1977,15 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$86.7 million (2017 est.)<br><br>$56.5 million (2016 est.)",
+          "content": "$1.15 billion note: data are in current year dollars (2018 est.)<br><br>$56.5 million (2016 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$86.7 million (2017 est.)",
-              "value": "86,700,000",
+              "name": "Exports 2018",
+              "content": "$1.15 billion note: data are in current year dollars (2018 est.)",
+              "value": "1,150,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2016",
@@ -2007,14 +2014,15 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$560 million (2017 est.)<br><br>$503.4 million (2016 est.)",
+          "content": "$1.12 billion note: data are in current year dollars (2018 est.)<br><br>$503.4 million (2016 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$560 million (2017 est.)",
-              "value": "560,000,000",
+              "name": "Imports 2018",
+              "content": "$1.12 billion note: data are in current year dollars (2018 est.)",
+              "value": "1,120,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2016",

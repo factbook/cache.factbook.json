@@ -2,8 +2,8 @@
   "name": "Dominica",
   "code": "DO",
   "region": "Central America",
-  "published": "2021-10-06 12:10:18 -0400",
-  "updated": "2021-10-06 09:52:00 -0400",
+  "published": "2021-10-20 12:05:08 -0400",
+  "updated": "2021-10-19 16:05:04 -0400",
   "media": [
     {
       "type": "flag",
@@ -868,51 +868,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>19 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>0 cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "19 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "19,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "0 cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "1 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "1,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "200 million cubic meters (2017 est.)",
-          "value": "200,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -978,6 +933,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>71.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.84% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "71.4% of total population (2021)",
+              "title": "urban population",
+              "value": "71.4",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.84% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.84",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_DO.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1012,39 +1000,6 @@
           ]
         },
         {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>71.4% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.84% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "71.4% of total population (2021)",
-              "title": "urban population",
-              "value": "71.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.84% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.84",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_DO.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
-            }
-          ]
-        },
-        {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
@@ -1060,6 +1015,51 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>19 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>0 cubic meters (2017 est.)<br><br><strong>agricultural: </strong>1 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "19 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "19,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "0 cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "1 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "1,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "200 million cubic meters (2017 est.)",
+          "value": "200,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1437,28 +1437,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$855 million (2019 est.)<br><br>$826 million (2018 est.)<br><br>$807 million (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$710 million note: data are in 2017 dollars (2020 est.)<br><br>$850 million note: data are in 2017 dollars (2019 est.)<br><br>$830 million note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$855 million (2019 est.)",
-              "value": "855,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$710 million note: data are in 2017 dollars (2020 est.)",
+              "value": "710,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$850 million note: data are in 2017 dollars (2019 est.)",
+              "value": "850,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$826 million (2018 est.)",
-              "value": "826,000,000",
+              "content": "$830 million note: data are in 2017 dollars (2018 est.)",
+              "value": "830,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$807 million (2017 est.)",
-              "value": "807,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1496,28 +1499,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$11,917 (2019 est.)<br><br>$11,537 (2018 est.)<br><br>$11,304 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$9,900 note: data are in 2017 dollars (2020 est.)<br><br>$11,900 note: data are in 2017 dollars (2019 est.)<br><br>$11,500 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$11,917 (2019 est.)",
-              "value": "11,917",
+              "name": "Real GDP per capita 2020",
+              "content": "$9,900 note: data are in 2017 dollars (2020 est.)",
+              "value": "9,900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$11,900 note: data are in 2017 dollars (2019 est.)",
+              "value": "11,900",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$11,537 (2018 est.)",
-              "value": "11,537",
+              "content": "$11,500 note: data are in 2017 dollars (2018 est.)",
+              "value": "11,500",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$11,304 (2017 est.)",
-              "value": "11,304",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1859,14 +1865,15 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$28 million (2017 est.)<br><br>$43.7 million (2016 est.)",
+          "content": "$160 million note: data are in current year dollars (2018 est.)<br><br>$43.7 million (2016 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$28 million (2017 est.)",
-              "value": "28,000,000",
+              "name": "Exports 2018",
+              "content": "$160 million note: data are in current year dollars (2018 est.)",
+              "value": "160,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2016",
@@ -1895,14 +1902,15 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$206.6 million (2017 est.)<br><br>$188.4 million (2016 est.)",
+          "content": "$430 million note: data are in current year dollars (2018 est.)<br><br>$188.4 million (2016 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$206.6 million (2017 est.)",
-              "value": "206,600,000",
+              "name": "Imports 2018",
+              "content": "$430 million note: data are in current year dollars (2018 est.)",
+              "value": "430,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2016",
@@ -2531,14 +2539,14 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "no regular military forces; Commonwealth of Dominica Police Force (includes Coast Guard) (2020)",
-          "info_date": "2020"
+          "content": "no regular military forces; Commonwealth of Dominica Police Force (includes Coast Guard)"
         },
         {
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "<p>Dominica has been a member of the Caribbean Regional Security System (RSS) since its creation in 1982; RSS signatories (Antigua and Barbuda, Barbados, Grenada, St. Kitts, St. Lucia, and St. Vincent and the Grenadines) agreed to prepare contingency plans and assist one another, on request, in national emergencies, prevention of smuggling, search and rescue, immigration control, fishery protection, customs and excise control, maritime policing duties, protection of off-shore installations, pollution control, national and other disasters, and threats to national security</p>"
+          "content": "Dominica has been a member of the Caribbean Regional Security System (RSS) since its creation in 1982; RSS signatories (Antigua and Barbuda, Barbados, Grenada, St. Kitts, St. Lucia, and St. Vincent and the Grenadines) agreed to prepare contingency plans and assist one another, on request, in national emergencies, prevention of smuggling, search and rescue, immigration control, fishery protection, customs and excise control, maritime policing duties, protection of off-shore installations, pollution control, national and other disasters, and threats to national security (2021)",
+          "info_date": "2021"
         }
       ]
     },

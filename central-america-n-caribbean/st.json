@@ -2,8 +2,8 @@
   "name": "Saint Lucia",
   "code": "ST",
   "region": "Central America",
-  "published": "2021-10-06 12:27:37 -0400",
-  "updated": "2021-10-06 11:04:26 -0400",
+  "published": "2021-10-20 12:22:31 -0400",
+  "updated": "2021-10-19 16:05:10 -0400",
   "media": [
     {
       "type": "flag",
@@ -1152,51 +1152,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>12.5 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>0 cubic meters (2017 est.)<br><br><strong>agricultural: </strong>30.4 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "12.5 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "12,500,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "0 cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "30.4 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "30,400,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "300 million cubic meters (2017 est.)",
-          "value": "300,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1262,6 +1217,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>18.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.98% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "18.9% of total population (2021)",
+              "title": "urban population",
+              "value": "18.9",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.98% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.98",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_ST.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1296,39 +1284,6 @@
           ]
         },
         {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>18.9% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.98% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "18.9% of total population (2021)",
-              "title": "urban population",
-              "value": "18.9",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.98% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.98",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_ST.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
-            }
-          ]
-        },
-        {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
@@ -1344,6 +1299,51 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>12.5 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>0 cubic meters (2017 est.)<br><br><strong>agricultural: </strong>30.4 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "12.5 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "12,500,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "0 cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "30.4 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "30,400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "300 million cubic meters (2017 est.)",
+          "value": "300,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1540,24 +1540,24 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>bicameral Parliament consists of:<br />Senate (11 seats; 6 members appointed on the advice of the prime minister, 3 on the advice of the leader of the opposition, and 2 upon consultation with religious, economic, and social groups; members serve 5-year terms)<br />House of Assembly (17 seats; members directly elected in single-seat constituencies by simple majority vote to serve 5-year terms)<br><br><strong>elections: </strong>Senate - last appointments on 12 July 2016 (next in 2021)<br />House of Assembly - last held on 26 July 2021 (next to be held in 2026)<br><br><strong>election results: </strong>Senate - percent of vote by party - NA; seats by party - NA; composition - men 8, women 3, percent of women 27.3%<br />House of Assembly - percent of vote by party - SLP 50.1%, UWP 42.9%, independent 6.6%; seats by party - SLP 13, UWP 2, independent 2; composition - NA, percent of women NA; note - total Parliament percent of women NA",
+          "content": "<strong>description: </strong>bicameral Houses of Parliament consists of:<br />Senate (11 seats; all members appointed by the governor general; 6 on the advice of the prime minister, 3 on the advice of the leader of the opposition, and 2 upon consultation with religious, economic, and social groups; members serve 5-year terms)<br />House of Assembly (18 seats; 17 members directly elected in single-seat constituencies by simple majority vote and the speaker, designated from outside the Parliament; members serve 5-year terms)<br><br><strong>elections: </strong>Senate - last appointments on 17 August 2021 (next in 2026)<br />House of Assembly - last held on 26 July 2021 (next to be held in 2026)<br><br><strong>election results: </strong>Senate - percent of vote by party - NA; seats by party - NA; composition - men 6, women 5, percent of women 45.5%<br />House of Assembly - percent of vote by party - SLP 50.1%, UWP 42.9%, other o.3%, independent 6.6%; seats by party - SLP 13, UWP 2, independent 2; composition (including the speaker) - men 16, women 2, percent of women 11.1%; note - total Parliament percent of women 24.1%",
           "subfields": [
             {
               "name": "description",
-              "content": "bicameral Parliament consists of:<br />Senate (11 seats; 6 members appointed on the advice of the prime minister, 3 on the advice of the leader of the opposition, and 2 upon consultation with religious, economic, and social groups; members serve 5-year terms)<br />House of Assembly (17 seats; members directly elected in single-seat constituencies by simple majority vote to serve 5-year terms)",
-              "value": "bicameral Parliament consists of:<br />Senate (11 seats; 6 members appointed on the advice of the prime minister, 3 on the advice of the leader of the opposition, and 2 upon consultation with religious, economic, and social groups; members serve 5-year terms)<br />House of Assembly (17 seats; members directly elected in single-seat constituencies by simple majority vote to serve 5-year terms)",
+              "content": "bicameral Houses of Parliament consists of:<br />Senate (11 seats; all members appointed by the governor general; 6 on the advice of the prime minister, 3 on the advice of the leader of the opposition, and 2 upon consultation with religious, economic, and social groups; members serve 5-year terms)<br />House of Assembly (18 seats; 17 members directly elected in single-seat constituencies by simple majority vote and the speaker, designated from outside the Parliament; members serve 5-year terms)",
+              "value": "bicameral Houses of Parliament consists of:<br />Senate (11 seats; all members appointed by the governor general; 6 on the advice of the prime minister, 3 on the advice of the leader of the opposition, and 2 upon consultation with religious, economic, and social groups; members serve 5-year terms)<br />House of Assembly (18 seats; 17 members directly elected in single-seat constituencies by simple majority vote and the speaker, designated from outside the Parliament; members serve 5-year terms)",
               "title": "description"
             },
             {
               "name": "elections",
-              "content": "Senate - last appointments on 12 July 2016 (next in 2021)<br />House of Assembly - last held on 26 July 2021 (next to be held in 2026)",
-              "value": "Senate - last appointments on 12 July 2016 (next in 2021)<br />House of Assembly - last held on 26 July 2021 (next to be held in 2026)",
+              "content": "Senate - last appointments on 17 August 2021 (next in 2026)<br />House of Assembly - last held on 26 July 2021 (next to be held in 2026)",
+              "value": "Senate - last appointments on 17 August 2021 (next in 2026)<br />House of Assembly - last held on 26 July 2021 (next to be held in 2026)",
               "title": "elections"
             },
             {
               "name": "election results",
-              "content": "Senate - percent of vote by party - NA; seats by party - NA; composition - men 8, women 3, percent of women 27.3%<br />House of Assembly - percent of vote by party - SLP 50.1%, UWP 42.9%, independent 6.6%; seats by party - SLP 13, UWP 2, independent 2; composition - NA, percent of women NA; note - total Parliament percent of women NA",
-              "value": "Senate - percent of vote by party - NA; seats by party - NA; composition - men 8, women 3, percent of women 27.3%<br />House of Assembly - percent of vote by party - SLP 50.1%, UWP 42.9%, independent 6.6%; seats by party - SLP 13, UWP 2, independent 2; composition - NA, percent of women NA; note - total Parliament percent of women NA",
+              "content": "Senate - percent of vote by party - NA; seats by party - NA; composition - men 6, women 5, percent of women 45.5%<br />House of Assembly - percent of vote by party - SLP 50.1%, UWP 42.9%, other o.3%, independent 6.6%; seats by party - SLP 13, UWP 2, independent 2; composition (including the speaker) - men 16, women 2, percent of women 11.1%; note - total Parliament percent of women 24.1%",
+              "value": "Senate - percent of vote by party - NA; seats by party - NA; composition - men 6, women 5, percent of women 45.5%<br />House of Assembly - percent of vote by party - SLP 50.1%, UWP 42.9%, other o.3%, independent 6.6%; seats by party - SLP 13, UWP 2, independent 2; composition (including the speaker) - men 16, women 2, percent of women 11.1%; note - total Parliament percent of women 24.1%",
               "title": "election results"
             }
           ]
@@ -1707,28 +1707,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$2.823 billion (2019 est.)<br><br>$2.775 billion (2018 est.)<br><br>$2.704 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$2.25 billion note: data are in 2017 dollars (2020 est.)<br><br>$2.82 billion note: data are in 2017 dollars (2019 est.)<br><br>$2.78 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$2.823 billion (2019 est.)",
-              "value": "2,823,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$2.25 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "2,250,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$2.82 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "2,820,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$2.775 billion (2018 est.)",
-              "value": "2,775,000,000",
+              "content": "$2.78 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "2,780,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$2.704 billion (2017 est.)",
-              "value": "2,704,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -1766,28 +1769,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$15,449 (2019 est.)<br><br>$15,261 (2018 est.)<br><br>$14,946 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$12,300 note: data are in 2017 dollars (2020 est.)<br><br>$15,400 note: data are in 2017 dollars (2019 est.)<br><br>$15,300 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$15,449 (2019 est.)",
-              "value": "15,449",
+              "name": "Real GDP per capita 2020",
+              "content": "$12,300 note: data are in 2017 dollars (2020 est.)",
+              "value": "12,300",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$15,400 note: data are in 2017 dollars (2019 est.)",
+              "value": "15,400",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$15,261 (2018 est.)",
-              "value": "15,261",
+              "content": "$15,300 note: data are in 2017 dollars (2018 est.)",
+              "value": "15,300",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$14,946 (2017 est.)",
-              "value": "14,946",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2017 dollars"
@@ -2142,14 +2148,15 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$185.1 million (2017 est.)<br><br>$188.2 million (2016 est.)",
+          "content": "$1.22 billion note: data are in current year dollars (2018 est.)<br><br>$188.2 million (2016 est.)",
           "subfields": [
             {
-              "name": "Exports 2017",
-              "content": "$185.1 million (2017 est.)",
-              "value": "185,100,000",
+              "name": "Exports 2018",
+              "content": "$1.22 billion note: data are in current year dollars (2018 est.)",
+              "value": "1,220,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2016",
@@ -2178,14 +2185,15 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$600 million (2017 est.)<br><br>$575.9 million (2016 est.)",
+          "content": "$1 billion note: data are in current year dollars (2018 est.)<br><br>$575.9 million (2016 est.)",
           "subfields": [
             {
-              "name": "Imports 2017",
-              "content": "$600 million (2017 est.)",
-              "value": "600,000,000",
+              "name": "Imports 2018",
+              "content": "$1 billion note: data are in current year dollars (2018 est.)",
+              "value": "1,000,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2016",

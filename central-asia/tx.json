@@ -2,8 +2,8 @@
   "name": "Turkmenistan",
   "code": "TX",
   "region": "Central Asia",
-  "published": "2021-10-06 12:29:36 -0400",
-  "updated": "2021-10-06 11:16:30 -0400",
+  "published": "2021-10-20 12:24:35 -0400",
+  "updated": "2021-10-19 16:35:06 -0400",
   "media": [
     {
       "type": "flag",
@@ -285,6 +285,11 @@
           "estimated": false,
           "info_date": "2012",
           "suffix": "sq km"
+        },
+        {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Internal <em>(endorheic basin) </em>drainage: <em>(Aral Sea basin)</em> Amu Darya (534,739 sq km)"
         },
         {
           "name": "Population distribution",
@@ -1067,51 +1072,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>755 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>839 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>26.36 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "755 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "755,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "839 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "839,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "26.36 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "26,360,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "24.765 billion cubic meters (2017 est.)",
-          "value": "24,765,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1177,6 +1137,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>53% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.23% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "53% of total population (2021)",
+              "title": "urban population",
+              "value": "53",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "2.23% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "2.23",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_TX.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1211,39 +1204,6 @@
           ]
         },
         {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>53% of total population (2021)<br><br><strong>rate of urbanization: </strong>2.23% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "53% of total population (2021)",
-              "title": "urban population",
-              "value": "53",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "2.23% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "2.23",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_TX.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
-            }
-          ]
-        },
-        {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
@@ -1259,6 +1219,56 @@
               "suffix": "tons"
             }
           ]
+        },
+        {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Internal <em>(endorheic basin) </em>drainage: <em>(Aral Sea basin)</em> Amu Darya (534,739 sq km)"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>755 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>839 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>26.36 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "755 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "755,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "839 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "839,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "26.36 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "26,360,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "24.765 billion cubic meters (2017 est.)",
+          "value": "24,765,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1479,7 +1489,7 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>note: in September 2020, the Turkmenistan Parliament adopted a constitutional amendment creating an upper chamber, making the Parliament bicameral<br />bicameral National Council or Khalk Maslakhaty consists of:<br />People's Council (56 seats; 48 members indirectly elected by provincial councils and 8 members appointed by the president)<br />Assembly or Mejlis Hakynda (125 seats; members directly elected in single-seat constituencies by absolute majority vote in 2 rounds if needed to serve 5-year terms)<br><br><strong>elections: </strong>People's Council - first held on 25 March 2021 for 48 indirectly elected members (next to be held in 2026); first held on 14 April 2021 for 8 presidentially appointed members (next to be held NA)<br />Assembly - last held on 25 March 2018 (next to be held in 2026)<br><br><strong>election results: </strong>People's Council - percent of vote by party - NA; seats by party - DPT 3, independent 45<br />Assembly - percent of vote by party - NA; seats by party - DPT 55, APT 11, PIE 11, independent 48 (individuals nominated by citizen groups); composition - men 94, women 31, percent of women 24.8%",
+          "content": "<strong>description: </strong>note: in September 2020, the Turkmenistan Parliament adopted a constitutional amendment creating an upper chamber, making the Parliament bicameral<br />bicameral National Council or Khalk Maslakhaty consists of:<br />People's Council (56 seats; 48 members indirectly elected by provincial councils and 8 members appointed by the president)<br />Assembly or Mejlis Hakynda (125 seats; members directly elected in single-seat constituencies by absolute majority vote in 2 rounds if needed to serve 5-year terms)<br><br><strong>elections: </strong>People's Council - first held on 28 March 2021 for 48 indirectly elected members (next to be held in 2026); first held on 14 April 2021 for 8 presidentially appointed members (next to be held NA)<br />Assembly - last held on 25 March 2018 (next to be held in 2026)<br><br><strong>election results: </strong>People's Council - percent of vote by party - NA; seats by party - DPT 3, independent 45; composition - men 42, women 14, percent of women 32.3%<br />Assembly - percent of vote by party - NA; seats by party - DPT 55, APT 11, PIE 11, independent 48 (individuals nominated by citizen groups); composition (as of March 2018) - men 94, women 31, percent of women 24.8%; note - total percent of National Council percent of women 24.9%",
           "subfields": [
             {
               "name": "description",
@@ -1489,14 +1499,14 @@
             },
             {
               "name": "elections",
-              "content": "People's Council - first held on 25 March 2021 for 48 indirectly elected members (next to be held in 2026); first held on 14 April 2021 for 8 presidentially appointed members (next to be held NA)<br />Assembly - last held on 25 March 2018 (next to be held in 2026)",
-              "value": "People's Council - first held on 25 March 2021 for 48 indirectly elected members (next to be held in 2026); first held on 14 April 2021 for 8 presidentially appointed members (next to be held NA)<br />Assembly - last held on 25 March 2018 (next to be held in 2026)",
+              "content": "People's Council - first held on 28 March 2021 for 48 indirectly elected members (next to be held in 2026); first held on 14 April 2021 for 8 presidentially appointed members (next to be held NA)<br />Assembly - last held on 25 March 2018 (next to be held in 2026)",
+              "value": "People's Council - first held on 28 March 2021 for 48 indirectly elected members (next to be held in 2026); first held on 14 April 2021 for 8 presidentially appointed members (next to be held NA)<br />Assembly - last held on 25 March 2018 (next to be held in 2026)",
               "title": "elections"
             },
             {
               "name": "election results",
-              "content": "People's Council - percent of vote by party - NA; seats by party - DPT 3, independent 45<br />Assembly - percent of vote by party - NA; seats by party - DPT 55, APT 11, PIE 11, independent 48 (individuals nominated by citizen groups); composition - men 94, women 31, percent of women 24.8%",
-              "value": "People's Council - percent of vote by party - NA; seats by party - DPT 3, independent 45<br />Assembly - percent of vote by party - NA; seats by party - DPT 55, APT 11, PIE 11, independent 48 (individuals nominated by citizen groups); composition - men 94, women 31, percent of women 24.8%",
+              "content": "People's Council - percent of vote by party - NA; seats by party - DPT 3, independent 45; composition - men 42, women 14, percent of women 32.3%<br />Assembly - percent of vote by party - NA; seats by party - DPT 55, APT 11, PIE 11, independent 48 (individuals nominated by citizen groups); composition (as of March 2018) - men 94, women 31, percent of women 24.8%; note - total percent of National Council percent of women 24.9%",
+              "value": "People's Council - percent of vote by party - NA; seats by party - DPT 3, independent 45; composition - men 42, women 14, percent of women 32.3%<br />Assembly - percent of vote by party - NA; seats by party - DPT 55, APT 11, PIE 11, independent 48 (individuals nominated by citizen groups); composition (as of March 2018) - men 94, women 31, percent of women 24.8%; note - total percent of National Council percent of women 24.9%",
               "title": "election results"
             }
           ]
@@ -1681,21 +1691,23 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$86.858 billion (2018 est.)<br><br>$103.7 billion (2017 est.)<br><br>$81.787 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$92.33 billion note: data are in 2017 dollars (2019 est.)<br><br>$86.86 billion note: data are in 2017 dollars (2018 est.)<br><br>$81.787 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$86.858 billion (2018 est.)",
-              "value": "86,858,000,000",
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$92.33 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "92,330,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$103.7 billion (2017 est.)",
-              "value": "103,700,000,000",
+              "name": "Real GDP (purchasing power parity) 2018",
+              "content": "$86.86 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "86,860,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2017",
@@ -1740,21 +1752,23 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$14,845 (2018 est.)<br><br>$18,200 (2017 est.)<br><br>$14,205 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$15,500 note: data are in 2017 dollars (2019 est.)<br><br>$14,800 note: data are in 2017 dollars (2018 est.)<br><br>$14,205 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2018",
-              "content": "$14,845 (2018 est.)",
-              "value": "14,845",
+              "name": "Real GDP per capita 2019",
+              "content": "$15,500 note: data are in 2017 dollars (2019 est.)",
+              "value": "15,500",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
-              "name": "Real GDP per capita 2017",
-              "content": "$18,200 (2017 est.)",
-              "value": "18,200",
+              "name": "Real GDP per capita 2018",
+              "content": "$14,800 note: data are in 2017 dollars (2018 est.)",
+              "value": "14,800",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2017",

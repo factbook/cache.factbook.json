@@ -2,8 +2,8 @@
   "name": "Argentina",
   "code": "AR",
   "region": "South America",
-  "published": "2021-10-13 12:11:37 -0400",
-  "updated": "2021-10-12 08:16:34 -0400",
+  "published": "2021-10-20 11:58:45 -0400",
+  "updated": "2021-10-19 16:05:02 -0400",
   "media": [
     {
       "type": "flag",
@@ -507,6 +507,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Paran&aacute; (2,582,704 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Guarani Aquifer System"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -522,16 +532,6 @@
           "name": "Geography - note",
           "field_id": 295,
           "content": "<strong>note 1:</strong> second-largest country in South America (after Brazil); strategic location relative to sea lanes between the South Atlantic and the South Pacific Oceans (Strait of Magellan, Beagle Channel, Drake Passage); diverse geophysical landscapes range from tropical climates in the north to tundra in the far south; Cerro Aconcagua is the Western Hemisphere's tallest mountain, while Laguna del Carbon is the lowest point in the Western Hemisphere; shares Iguazu Falls, the world's largest waterfalls system, with Brazil<br /><br /><strong>note 2: </strong>southeast Bolivia and northwest Argentina seem to be the original development site for peanuts"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Paran&aacute; (2,582,704 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Guarani Aquifer System"
         }
       ]
     },
@@ -1312,51 +1312,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>5.85 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>4 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>27.93 billion cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "5.85 billion cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "5,850,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "4 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "4,000,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "27.93 billion cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "27,930,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "876.24 billion cubic meters (2017 est.)",
-          "value": "876,240,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1422,6 +1377,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>92.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.97% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "92.2% of total population (2021)",
+              "title": "urban population",
+              "value": "92.2",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.97% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.97",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_AR.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1452,39 +1440,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>92.2% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.97% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "92.2% of total population (2021)",
-              "title": "urban population",
-              "value": "92.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.97% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.97",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_AR.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1537,6 +1492,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Guarani Aquifer System"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>5.85 billion cubic meters (2017 est.)<br><br><strong>industrial: </strong>4 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>27.93 billion cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "5.85 billion cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "5,850,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "4 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "4,000,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "27.93 billion cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "27,930,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "876.24 billion cubic meters (2017 est.)",
+          "value": "876,240,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1962,28 +1962,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$991.523 billion (2019 est.)<br><br>$1,012,668,000,000 (2018 est.)<br><br>$1,039,330,000,000 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$893.31 billion note: data are in 2017 dollars (2020 est.)<br><br>$991.52 billion note: data are in 2017 dollars (2019 est.)<br><br>$1,012,670,000,000 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$991.523 billion (2019 est.)",
-              "value": "991,523,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$893.31 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "893,310,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$991.52 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "991,520,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$1,012,668,000,000 (2018 est.)",
-              "value": "1,012,668,000,000",
+              "content": "$1,012,670,000,000 note: data are in 2017 dollars (2018 est.)",
+              "value": "1,012,670,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$1,039,330,000,000 (2017 est.)",
-              "value": "1,039,330,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2021,28 +2024,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$22,064 (2019 est.)<br><br>$22,759 (2018 est.)<br><br>$23,597 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$19,700 note: data are in 2017 dollars (2020 est.)<br><br>$22,100 note: data are in 2017 dollars (2019 est.)<br><br>$22,800 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$22,064 (2019 est.)",
-              "value": "22,064",
+              "name": "Real GDP per capita 2020",
+              "content": "$19,700 note: data are in 2017 dollars (2020 est.)",
+              "value": "19,700",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$22,100 note: data are in 2017 dollars (2019 est.)",
+              "value": "22,100",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$22,759 (2018 est.)",
-              "value": "22,759",
+              "content": "$22,800 note: data are in 2017 dollars (2018 est.)",
+              "value": "22,800",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$23,597 (2017 est.)",
-              "value": "23,597",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2444,28 +2450,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$82.985 billion (2019 est.)<br><br>$76.14 billion (2018 est.)<br><br>$75.766 billion (2017 est.)",
+          "content": "$64.18 billion note: data are in current year dollars (2020 est.)<br><br>$79.29 billion note: data are in current year dollars (2019 est.)<br><br>$77.07 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$82.985 billion (2019 est.)",
-              "value": "82,985,000,000",
+              "name": "Exports 2020",
+              "content": "$64.18 billion note: data are in current year dollars (2020 est.)",
+              "value": "64,180,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$79.29 billion note: data are in current year dollars (2019 est.)",
+              "value": "79,290,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$76.14 billion (2018 est.)",
-              "value": "76,140,000,000",
+              "content": "$77.07 billion note: data are in current year dollars (2018 est.)",
+              "value": "77,070,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$75.766 billion (2017 est.)",
-              "value": "75,766,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2487,28 +2496,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$72.162 billion (2019 est.)<br><br>$89.088 billion (2018 est.)<br><br>$93.308 billion (2017 est.)",
+          "content": "$52.14 billion note: data are in current year dollars (2020 est.)<br><br>$66.28 billion note: data are in current year dollars (2019 est.)<br><br>$86.78 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$72.162 billion (2019 est.)",
-              "value": "72,162,000,000",
+              "name": "Imports 2020",
+              "content": "$52.14 billion note: data are in current year dollars (2020 est.)",
+              "value": "52,140,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$66.28 billion note: data are in current year dollars (2019 est.)",
+              "value": "66,280,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$89.088 billion (2018 est.)",
-              "value": "89,088,000,000",
+              "content": "$86.78 billion note: data are in current year dollars (2018 est.)",
+              "value": "86,780,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$93.308 billion (2017 est.)",
-              "value": "93,308,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2928,14 +2940,14 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>Argentina has one of the most vigorous mobile markets in Latin America; with additional operators in the market, mobile penetration fell in 2020 as incentives for multiple-SIM card ownership eased; LTE with tests of 5G; government plan to boost fixed broadband coverage nationally and declared TV, cable, and mobile services were essential public services; submarine system linking Sao Paolo and Rio De Janeiro with Buenos Aires is operational; national operator increased investment in Uruguay; importer of broadcasting equipment from China (2021) (2020)<br><br><strong>domestic: </strong>17 per 100 fixed-line, 131 per 100 mobile-cellular; microwave radio relay, fiber-optic cable, and a domestic satellite system with 40 earth stations serve the trunk network (2019)<br><br><strong>international: </strong>country code - 54; landing points for the UNISUR, Bicentenario,&nbsp;Atlantis-2, SAm-1, and&nbsp;SAC, Tannat, Malbec and ARBR&nbsp;submarine cable systems that provide links to Europe, Africa, South and Central America, and US; satellite earth stations - 112 (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong>Argentina has one of the most vigorous mobile markets in Latin America; with additional operators in the market, mobile penetration fell in 2020 as incentives for multiple-SIM card ownership eased; LTE with tests of 5G; government plan to boost fixed broadband coverage nationally and declared TV, cable, and mobile services were essential public services; submarine system linking Sao Paolo and Rio De Janeiro with Buenos Aires is operational; national operator increased investment in Uruguay; importer of broadcasting equipment from China (2021)<br><br><strong>domestic: </strong>17 per 100 fixed-line, 131 per 100 mobile-cellular; microwave radio relay, fiber-optic cable, and a domestic satellite system with 40 earth stations serve the trunk network (2019)<br><br><strong>international: </strong>country code - 54; landing points for the UNISUR, Bicentenario,&nbsp;Atlantis-2, SAm-1, and&nbsp;SAC, Tannat, Malbec and ARBR&nbsp;submarine cable systems that provide links to Europe, Africa, South and Central America, and US; satellite earth stations - 112 (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "Argentina has one of the most vigorous mobile markets in Latin America; with additional operators in the market, mobile penetration fell in 2020 as incentives for multiple-SIM card ownership eased; LTE with tests of 5G; government plan to boost fixed broadband coverage nationally and declared TV, cable, and mobile services were essential public services; submarine system linking Sao Paolo and Rio De Janeiro with Buenos Aires is operational; national operator increased investment in Uruguay; importer of broadcasting equipment from China (2021) (2020)",
-              "value": "Argentina has one of the most vigorous mobile markets in Latin America; with additional operators in the market, mobile penetration fell in 2020 as incentives for multiple-SIM card ownership eased; LTE with tests of 5G; government plan to boost fixed broadband coverage nationally and declared TV, cable, and mobile services were essential public services; submarine system linking Sao Paolo and Rio De Janeiro with Buenos Aires is operational; national operator increased investment in Uruguay; importer of broadcasting equipment from China (2021)",
+              "content": "Argentina has one of the most vigorous mobile markets in Latin America; with additional operators in the market, mobile penetration fell in 2020 as incentives for multiple-SIM card ownership eased; LTE with tests of 5G; government plan to boost fixed broadband coverage nationally and declared TV, cable, and mobile services were essential public services; submarine system linking Sao Paolo and Rio De Janeiro with Buenos Aires is operational; national operator increased investment in Uruguay; importer of broadcasting equipment from China (2021)",
+              "value": "Argentina has one of the most vigorous mobile markets in Latin America; with additional operators in the market, mobile penetration fell in 2020 as incentives for multiple-SIM card ownership eased; LTE with tests of 5G; government plan to boost fixed broadband coverage nationally and declared TV, cable, and mobile services were essential public services; submarine system linking Sao Paolo and Rio De Janeiro with Buenos Aires is operational; national operator increased investment in Uruguay; importer of broadcasting equipment from China",
               "title": "general assessment",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             },
             {
               "name": "domestic",

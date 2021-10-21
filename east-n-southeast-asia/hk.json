@@ -2,8 +2,8 @@
   "name": "Hong Kong",
   "code": "HK",
   "region": "East Asia/Southeast Asia",
-  "published": "2021-10-06 12:15:30 -0400",
-  "updated": "2021-10-06 10:06:50 -0400",
+  "published": "2021-10-20 12:10:24 -0400",
+  "updated": "2021-10-19 16:05:06 -0400",
   "media": [
     {
       "type": "flag",
@@ -1255,6 +1255,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>100% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.58% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "100% of total population (2021)",
+              "title": "urban population",
+              "value": "100",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.58% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.58",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_HK.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1285,39 +1318,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>100% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.58% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "100% of total population (2021)",
-              "title": "urban population",
-              "value": "100",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.58% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.58",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_HK.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1683,28 +1683,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$449.299 billion (2019 est.)<br><br>$454.984 billion (2018 est.)<br><br>$442.387 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$420.13 billion note: data are in 2017 dollars (2020 est.)<br><br>$447.34 billion note: data are in 2017 dollars (2019 est.)<br><br>$454.98 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$449.299 billion (2019 est.)",
-              "value": "449,299,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$420.13 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "420,130,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$447.34 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "447,340,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$454.984 billion (2018 est.)",
-              "value": "454,984,000,000",
+              "content": "$454.98 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "454,980,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$442.387 billion (2017 est.)",
-              "value": "442,387,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -1742,28 +1745,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$59,848 (2019 est.)<br><br>$61,064 (2018 est.)<br><br>$59,849 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$56,200 note: data are in 2017 dollars (2020 est.)<br><br>$59,600 note: data are in 2017 dollars (2019 est.)<br><br>$61,100 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$59,848 (2019 est.)",
-              "value": "59,848",
+              "name": "Real GDP per capita 2020",
+              "content": "$56,200 note: data are in 2017 dollars (2020 est.)",
+              "value": "56,200",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$59,600 note: data are in 2017 dollars (2019 est.)",
+              "value": "59,600",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$61,064 (2018 est.)",
-              "value": "61,064",
+              "content": "$61,100 note: data are in 2017 dollars (2018 est.)",
+              "value": "61,100",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$59,849 (2017 est.)",
-              "value": "59,849",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2203,28 +2209,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$568.877 billion (2019 est.)<br><br>$602.306 billion (2018 est.)<br><br>$581.072 billion (2017 est.)",
+          "content": "$615.88 billion note: data are in current year dollars (2020 est.)<br><br>$649.02 billion note: data are in current year dollars (2019 est.)<br><br>$681.28 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$568.877 billion (2019 est.)",
-              "value": "568,877,000,000",
+              "name": "Exports 2020",
+              "content": "$615.88 billion note: data are in current year dollars (2020 est.)",
+              "value": "615,880,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$649.02 billion note: data are in current year dollars (2019 est.)",
+              "value": "649,020,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$602.306 billion (2018 est.)",
-              "value": "602,306,000,000",
+              "content": "$681.28 billion note: data are in current year dollars (2018 est.)",
+              "value": "681,280,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$581.072 billion (2017 est.)",
-              "value": "581,072,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2246,28 +2255,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$565.253 billion (2019 est.)<br><br>$606.177 billion (2018 est.)<br><br>$580.148 billion (2017 est.)",
+          "content": "$609.13 billion note: data are in current year dollars (2020 est.)<br><br>$642.8 billion note: data are in current year dollars (2019 est.)<br><br>$682.05 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$565.253 billion (2019 est.)",
-              "value": "565,253,000,000",
+              "name": "Imports 2020",
+              "content": "$609.13 billion note: data are in current year dollars (2020 est.)",
+              "value": "609,130,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$642.8 billion note: data are in current year dollars (2019 est.)",
+              "value": "642,800,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$606.177 billion (2018 est.)",
-              "value": "606,177,000,000",
+              "content": "$682.05 billion note: data are in current year dollars (2018 est.)",
+              "value": "682,050,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$580.148 billion (2017 est.)",
-              "value": "580,148,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },

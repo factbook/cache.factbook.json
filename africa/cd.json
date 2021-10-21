@@ -2,8 +2,8 @@
   "name": "Chad",
   "code": "CD",
   "region": "Africa",
-  "published": "2021-10-13 12:14:29 -0400",
-  "updated": "2021-10-12 16:34:37 -0400",
+  "published": "2021-10-20 12:02:54 -0400",
+  "updated": "2021-10-19 18:03:01 -0400",
   "media": [
     {
       "type": "flag",
@@ -297,6 +297,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Niger (2,261,741 sq km)<br />Internal <em>(endorheic basin) </em>drainage: Lake Chad (2,497,738 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Lake Chad Basin, Nubian Aquifer System"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -312,16 +322,6 @@
           "name": "Geography - note",
           "field_id": 295,
           "content": "<p><strong>note 1:</strong> Chad is the largest of Africa's 16 landlocked countries</p> <p><strong>note 2:</strong> not long ago - geologically speaking - what is today the Sahara was green savannah teeming with wildlife; during the African Humid Period, roughly 11,000 to 5,000 years ago, a vibrant animal community, including elephants, giraffes, hippos, and antelope lived there; the last remnant of the \"Green Sahara\" exists in the Lakes of Ounianga (oo-nee-ahn-ga) in northern Chad, a series of 18 interconnected freshwater, saline, and hypersaline lakes now protected as a World Heritage site</p> <p><strong>note 3:</strong> Lake Chad, the most significant water body in the Sahel, is a remnant of a former inland sea, paleolake Mega-Chad; at its greatest extent, sometime before 5000 B.C., Lake Mega-Chad was the largest of four Saharan paleolakes that existed during the African Humid Period; it covered an area of about 400,000 sq km (150,000 sq mi), roughly the size of today's Caspian Sea</p>"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Niger (2,261,741 sq km)<br />Lake Chad drainage <em>(endorheic basin)</em>: Lake Chad (2,497,738 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Lake Chad Basin, Nubian Aquifer System"
         }
       ]
     },
@@ -1176,51 +1176,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>103.7 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>103.7 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>672.2 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "103.7 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "103,700,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "103.7 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "103,700,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "672.2 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "672,200,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "45.7 billion cubic meters (2017 est.)",
-          "value": "45,700,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1286,6 +1241,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>23.8% of total population (2021)<br><br><strong>rate of urbanization: </strong>4.1% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "23.8% of total population (2021)",
+              "title": "urban population",
+              "value": "23.8",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "4.1% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "4.1",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_CD.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1316,39 +1304,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>23.8% of total population (2021)<br><br><strong>rate of urbanization: </strong>4.1% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "23.8% of total population (2021)",
-              "title": "urban population",
-              "value": "23.8",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "4.1% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "4.1",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_CD.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1437,12 +1392,57 @@
         {
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
-          "content": "Atlantic Ocean drainage: Niger (2,261,741 sq km)<br />Lake Chad drainage <em>(endorheic basin)</em>: Lake Chad (2,497,738 sq km)"
+          "content": "Atlantic Ocean drainage: Niger (2,261,741 sq km)<br />Internal <em>(endorheic basin) </em>drainage: Lake Chad (2,497,738 sq km)"
         },
         {
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Lake Chad Basin, Nubian Aquifer System"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>103.7 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>103.7 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>672.2 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "103.7 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "103,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "103.7 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "103,700,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "672.2 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "672,200,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "45.7 billion cubic meters (2017 est.)",
+          "value": "45,700,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1851,28 +1851,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$25.19 billion (2019 est.)<br><br>$24.397 billion (2018 est.)<br><br>$23.832 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$24.97 billion note: data are in 2017 dollars (2020 est.)<br><br>$25.19 billion note: data are in 2017 dollars (2019 est.)<br><br>$24.4 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$24.97 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "24,970,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
               "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$25.19 billion (2019 est.)",
+              "content": "$25.19 billion note: data are in 2017 dollars (2019 est.)",
               "value": "25,190,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$24.397 billion (2018 est.)",
-              "value": "24,397,000,000",
+              "content": "$24.4 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "24,400,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$23.832 billion (2017 est.)",
-              "value": "23,832,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -1910,28 +1913,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$1,580 (2019 est.)<br><br>$1,576 (2018 est.)<br><br>$1,587 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$1,500 note: data are in 2017 dollars (2020 est.)<br><br>$1,600 note: data are in 2017 dollars (2019 est.)<br><br>$1,600 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$1,580 (2019 est.)",
-              "value": "1,580",
+              "name": "Real GDP per capita 2020",
+              "content": "$1,500 note: data are in 2017 dollars (2020 est.)",
+              "value": "1,500",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$1,600 note: data are in 2017 dollars (2019 est.)",
+              "value": "1,600",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$1,576 (2018 est.)",
-              "value": "1,576",
+              "content": "$1,600 note: data are in 2017 dollars (2018 est.)",
+              "value": "1,600",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$1,587 (2017 est.)",
-              "value": "1,587",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -3095,7 +3101,7 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the ANT is chiefly focused on counterinsurgency/counter-terrorist operations against Boko Haram (BH) and the Islamic State in West Africa (ISWA) in the Lake Chad Basin area (primarily the Lac Province) and countering the terrorist threat in the Sahel; in 2020, it conducted a large military operation against BH in the Lake Chad region; that same year, Chad sent troops to the tri-border area with Burkina Faso, Mali, and Niger to combat ISWA militants (it also contributes a large force to the UN MINUSCA mission in Mali); the ANT has frequently conducted counter-insurgency operations against internal anti-government militias and armed dissident groups<br /> <p>several Chadian rebel groups, including the Union of Resistance Forces (UFR) and the Front for Change and Concord in Chad (FACT), operate in northern Chad from bases in Libya; former Chadian President Idriss DEBY<strong> </strong>was killed in April 2021 during fighting in the northern part of the country between FACT and the Chadian Army</p>"
+          "content": "as of 2021, the ANT was chiefly focused on counterterrorism and counterinsurgency operations; it was engaged with the Boko Haram (BH) and the Islamic State in West Africa (ISWA) terrorist groups in the Lake Chad Basin area (primarily the Lac Province) and in the Sahel; in 2020, it conducted a large military operation against BH in the Lake Chad region; that same year, Chad sent troops to the tri-border area with Burkina Faso, Mali, and Niger to combat ISWA militants (it also contributes a large force to the UN MINUSCA mission in Mali); in addition, the ANT was conducting operations against internal anti-government militias and armed dissident groups; several Chadian rebel groups, including the Union of Resistance Forces (UFR) and the Front for Change and Concord in Chad (FACT), operate in northern Chad from bases in Libya; former Chadian President Idriss DEBY<strong> </strong>was killed in April 2021 during fighting in the northern part of the country between FACT and the Chadian Army"
         }
       ]
     },

@@ -2,8 +2,8 @@
   "name": "Belgium",
   "code": "BE",
   "region": "Europe",
-  "published": "2021-10-06 12:06:00 -0400",
-  "updated": "2021-10-06 09:19:34 -0400",
+  "published": "2021-10-20 12:00:44 -0400",
+  "updated": "2021-10-20 09:09:34 -0400",
   "media": [
     {
       "type": "flag",
@@ -515,6 +515,11 @@
           "estimated": false,
           "info_date": "2012",
           "suffix": "sq km"
+        },
+        {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Seine 78,919 sq km), Rhine-Maas (198,735 sq km)"
         },
         {
           "name": "Population distribution",
@@ -1297,51 +1302,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>739 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>3.21 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>45 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "739 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "739,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "3.21 billion cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "3,210,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "45 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "45,000,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "18.3 billion cubic meters (2017 est.)",
-          "value": "18,300,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1407,6 +1367,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>98.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.38% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "98.1% of total population (2021)",
+              "title": "urban population",
+              "value": "98.1",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "0.38% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "0.38",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_BE.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1437,39 +1430,6 @@
               "estimated": true,
               "info_date": "2018",
               "suffix": "% of GDP"
-            }
-          ]
-        },
-        {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>98.1% of total population (2021)<br><br><strong>rate of urbanization: </strong>0.38% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "98.1% of total population (2021)",
-              "title": "urban population",
-              "value": "98.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "0.38% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "0.38",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_BE.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
             }
           ]
         },
@@ -1507,6 +1467,56 @@
               "suffix": "%"
             }
           ]
+        },
+        {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Seine 78,919 sq km), Rhine-Maas (198,735 sq km)"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>739 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>3.21 billion cubic meters (2017 est.)<br><br><strong>agricultural: </strong>45 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "739 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "739,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "3.21 billion cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "3,210,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "45 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "45,000,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "18.3 billion cubic meters (2017 est.)",
+          "value": "18,300,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1721,12 +1731,12 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>bicameral Parliament consists of:<br />Senate or Senaat (in Dutch), Senat (in French) (60 seats; 50 members indirectly elected by the community and regional parliaments based on their election results, and 10 elected by the 50 other senators; members serve 5-year terms)<br /> Chamber of Representatives or Kamer van Volksvertegenwoordigers (in Dutch), Chambre des Representants (in French) (150 seats; members directly elected in multi-seat constituencies by proportional representation vote; members serve 5-year terms)<br><br><strong>elections: </strong><p>Senate - last held 26 May 2019 (next to be held in 2024)</p> Chamber of Representatives - last held on 26 May 2019 (next to be held in 2024); note - elections coincided with the EU elections<br><br><strong>election results: </strong>Senate - percent of vote by party - NA; seats by party - NA; composition men 32, women 28, percent of women 46.7%<br /><br />Chamber of Representatives - percent of vote by party - N-VA 16.0%, VB 11.9%, PS 9.5%, CD&amp;V 8.9%, PVDA+/PTB 8.62%, Open VLD 8.5%, MR 7.6%, SP.A 6.7%, Ecolo 6.1%, Groen 6.1%, CDH 3.7%, Defi 2.2%, PP 1.1%, other 20.1%; seats by party - N-VA 25, VB 18, PS 20, CD&amp;V 12, PVDA+PTB 12, Open VLD 12, MR 14, SP.A 9, Ecolo 13, Groen 8, CDH 5, Defi 2; composition - men 86, women 64, percent of women 42.7%<br><br><strong>note:</strong> the 1993 constitutional revision that further devolved Belgium into a federal state created three levels of government (federal, regional, and linguistic community) with a complex division of responsibilities; this reality leaves six governments, each with its own legislative assembly; changes above occurred since the sixth state reform",
+          "content": "<strong>description: </strong>bicameral Parliament consists of:<br />Senate or Senaat (in Dutch), Senat (in French) (60 seats; 50 members indirectly elected by the community and regional parliaments based on their election results, and 10 elected by the 50 other senators; members serve 5-year terms)<br />Chamber of Representatives or Kamer van Volksvertegenwoordigers (in Dutch), Chambre des Representants (in French) (150 seats; members directly elected in multi-seat constituencies by proportional representation vote; members serve 5-year terms)<br><br><strong>elections: </strong><p>Senate - last held 26 May 2019 (next to be held in 2024)</p> Chamber of Representatives - last held on 26 May 2019 (next to be held in 2024); note - elections coincided with the EU elections<br><br><strong>election results: </strong><br />Senate - percent of vote by party - NA; seats by party - NA; composition men 33, women 27, percent of women 45%<br />Chamber of Representatives - percent of vote by party - N-VA 16.0%, VB 11.9%, PS 9.5%, CD&amp;V 8.9%, PVDA+/PTB 8.62%, Open VLD 8.5%, MR 7.6%, SP.A 6.7%, Ecolo 6.1%, Groen 6.1%, CDH 3.7%, Defi 2.2%, PP 1.1%, other 20.1%; seats by party - N-VA 25, VB 18, PS 20, CD&amp;V 12, PVDA+PTB 12, Open VLD 12, MR 14, SP.A 9, Ecolo 13, Groen 8, CDH 5, Defi 2; composition - men 86, women 64, percent of women 42.7%; note - overall Parliament percent of women 43.8%<br><br><strong>note:</strong> the 1993 constitutional revision that further devolved Belgium into a federal state created three levels of government (federal, regional, and linguistic community) with a complex division of responsibilities; this reality leaves six governments, each with its own legislative assembly; changes above occurred since the sixth state reform",
           "subfields": [
             {
               "name": "description",
-              "content": "bicameral Parliament consists of:<br />Senate or Senaat (in Dutch), Senat (in French) (60 seats; 50 members indirectly elected by the community and regional parliaments based on their election results, and 10 elected by the 50 other senators; members serve 5-year terms)<br /> Chamber of Representatives or Kamer van Volksvertegenwoordigers (in Dutch), Chambre des Representants (in French) (150 seats; members directly elected in multi-seat constituencies by proportional representation vote; members serve 5-year terms)",
-              "value": "bicameral Parliament consists of:<br />Senate or Senaat (in Dutch), Senat (in French) (60 seats; 50 members indirectly elected by the community and regional parliaments based on their election results, and 10 elected by the 50 other senators; members serve 5-year terms)<br /> Chamber of Representatives or Kamer van Volksvertegenwoordigers (in Dutch), Chambre des Representants (in French) (150 seats; members directly elected in multi-seat constituencies by proportional representation vote; members serve 5-year terms)",
+              "content": "bicameral Parliament consists of:<br />Senate or Senaat (in Dutch), Senat (in French) (60 seats; 50 members indirectly elected by the community and regional parliaments based on their election results, and 10 elected by the 50 other senators; members serve 5-year terms)<br />Chamber of Representatives or Kamer van Volksvertegenwoordigers (in Dutch), Chambre des Representants (in French) (150 seats; members directly elected in multi-seat constituencies by proportional representation vote; members serve 5-year terms)",
+              "value": "bicameral Parliament consists of:<br />Senate or Senaat (in Dutch), Senat (in French) (60 seats; 50 members indirectly elected by the community and regional parliaments based on their election results, and 10 elected by the 50 other senators; members serve 5-year terms)<br />Chamber of Representatives or Kamer van Volksvertegenwoordigers (in Dutch), Chambre des Representants (in French) (150 seats; members directly elected in multi-seat constituencies by proportional representation vote; members serve 5-year terms)",
               "title": "description"
             },
             {
@@ -1737,8 +1747,8 @@
             },
             {
               "name": "election results",
-              "content": "Senate - percent of vote by party - NA; seats by party - NA; composition men 32, women 28, percent of women 46.7%<br /><br />Chamber of Representatives - percent of vote by party - N-VA 16.0%, VB 11.9%, PS 9.5%, CD&amp;V 8.9%, PVDA+/PTB 8.62%, Open VLD 8.5%, MR 7.6%, SP.A 6.7%, Ecolo 6.1%, Groen 6.1%, CDH 3.7%, Defi 2.2%, PP 1.1%, other 20.1%; seats by party - N-VA 25, VB 18, PS 20, CD&amp;V 12, PVDA+PTB 12, Open VLD 12, MR 14, SP.A 9, Ecolo 13, Groen 8, CDH 5, Defi 2; composition - men 86, women 64, percent of women 42.7%",
-              "value": "Senate - percent of vote by party - NA; seats by party - NA; composition men 32, women 28, percent of women 46.7%<br /><br />Chamber of Representatives - percent of vote by party - N-VA 16.0%, VB 11.9%, PS 9.5%, CD&amp;V 8.9%, PVDA+/PTB 8.62%, Open VLD 8.5%, MR 7.6%, SP.A 6.7%, Ecolo 6.1%, Groen 6.1%, CDH 3.7%, Defi 2.2%, PP 1.1%, other 20.1%; seats by party - N-VA 25, VB 18, PS 20, CD&amp;V 12, PVDA+PTB 12, Open VLD 12, MR 14, SP.A 9, Ecolo 13, Groen 8, CDH 5, Defi 2; composition - men 86, women 64, percent of women 42.7%",
+              "content": "<br />Senate - percent of vote by party - NA; seats by party - NA; composition men 33, women 27, percent of women 45%<br />Chamber of Representatives - percent of vote by party - N-VA 16.0%, VB 11.9%, PS 9.5%, CD&amp;V 8.9%, PVDA+/PTB 8.62%, Open VLD 8.5%, MR 7.6%, SP.A 6.7%, Ecolo 6.1%, Groen 6.1%, CDH 3.7%, Defi 2.2%, PP 1.1%, other 20.1%; seats by party - N-VA 25, VB 18, PS 20, CD&amp;V 12, PVDA+PTB 12, Open VLD 12, MR 14, SP.A 9, Ecolo 13, Groen 8, CDH 5, Defi 2; composition - men 86, women 64, percent of women 42.7%; note - overall Parliament percent of women 43.8%",
+              "value": "<br />Senate - percent of vote by party - NA; seats by party - NA; composition men 33, women 27, percent of women 45%<br />Chamber of Representatives - percent of vote by party - N-VA 16.0%, VB 11.9%, PS 9.5%, CD&amp;V 8.9%, PVDA+/PTB 8.62%, Open VLD 8.5%, MR 7.6%, SP.A 6.7%, Ecolo 6.1%, Groen 6.1%, CDH 3.7%, Defi 2.2%, PP 1.1%, other 20.1%; seats by party - N-VA 25, VB 18, PS 20, CD&amp;V 12, PVDA+PTB 12, Open VLD 12, MR 14, SP.A 9, Ecolo 13, Groen 8, CDH 5, Defi 2; composition - men 86, women 64, percent of women 42.7%; note - overall Parliament percent of women 43.8%",
               "title": "election results"
             }
           ],
@@ -1928,28 +1938,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$596.414 billion (2019 est.)<br><br>$586.192 billion (2018 est.)<br><br>$575.757 billion (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$557.11 billion note: data are in 2017 dollars (2020 est.)<br><br>$594.47 billion note: data are in 2017 dollars (2019 est.)<br><br>$584.05 billion note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$596.414 billion (2019 est.)",
-              "value": "596,414,000,000",
+              "name": "Real GDP (purchasing power parity) 2020",
+              "content": "$557.11 billion note: data are in 2017 dollars (2020 est.)",
+              "value": "557,110,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2019",
+              "content": "$594.47 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "594,470,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$586.192 billion (2018 est.)",
-              "value": "586,192,000,000",
+              "content": "$584.05 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "584,050,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2017",
-              "content": "$575.757 billion (2017 est.)",
-              "value": "575,757,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -1987,28 +2000,31 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$51,934 (2019 est.)<br><br>$51,299 (2018 est.)<br><br>$50,615 (2017 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
+          "content": "$48,200 note: data are in 2017 dollars (2020 est.)<br><br>$51,700 note: data are in 2017 dollars (2019 est.)<br><br>$51,100 note: data are in 2017 dollars (2018 est.)<br><br><strong>note:</strong> data are in 2010 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$51,934 (2019 est.)",
-              "value": "51,934",
+              "name": "Real GDP per capita 2020",
+              "content": "$48,200 note: data are in 2017 dollars (2020 est.)",
+              "value": "48,200",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
+            },
+            {
+              "name": "Real GDP per capita 2019",
+              "content": "$51,700 note: data are in 2017 dollars (2019 est.)",
+              "value": "51,700",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$51,299 (2018 est.)",
-              "value": "51,299",
+              "content": "$51,100 note: data are in 2017 dollars (2018 est.)",
+              "value": "51,100",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2017",
-              "content": "$50,615 (2017 est.)",
-              "value": "50,615",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             }
           ],
           "field_note": "<strong>note:</strong> data are in 2010 dollars"
@@ -2415,28 +2431,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$474.278 billion (2019 est.)<br><br>$469.48 billion (2018 est.)<br><br>$466.732 billion (2017 est.)",
+          "content": "$414.79 billion note: data are in current year dollars (2020 est.)<br><br>$436.3 billion note: data are in current year dollars (2019 est.)<br><br>$451.25 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2019",
-              "content": "$474.278 billion (2019 est.)",
-              "value": "474,278,000,000",
+              "name": "Exports 2020",
+              "content": "$414.79 billion note: data are in current year dollars (2020 est.)",
+              "value": "414,790,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Exports 2019",
+              "content": "$436.3 billion note: data are in current year dollars (2019 est.)",
+              "value": "436,300,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Exports 2018",
-              "content": "$469.48 billion (2018 est.)",
-              "value": "469,480,000,000",
+              "content": "$451.25 billion note: data are in current year dollars (2018 est.)",
+              "value": "451,250,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2017",
-              "content": "$466.732 billion (2017 est.)",
-              "value": "466,732,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2458,28 +2477,31 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$473.129 billion (2019 est.)<br><br>$469.546 billion (2018 est.)<br><br>$463.706 billion (2017 est.)",
+          "content": "$412.85 billion note: data are in current year dollars (2020 est.)<br><br>$433.04 billion note: data are in current year dollars (2019 est.)<br><br>$452.53 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2019",
-              "content": "$473.129 billion (2019 est.)",
-              "value": "473,129,000,000",
+              "name": "Imports 2020",
+              "content": "$412.85 billion note: data are in current year dollars (2020 est.)",
+              "value": "412,850,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
+            },
+            {
+              "name": "Imports 2019",
+              "content": "$433.04 billion note: data are in current year dollars (2019 est.)",
+              "value": "433,040,000,000",
+              "estimated": true,
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
               "name": "Imports 2018",
-              "content": "$469.546 billion (2018 est.)",
-              "value": "469,546,000,000",
+              "content": "$452.53 billion note: data are in current year dollars (2018 est.)",
+              "value": "452,530,000,000",
               "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2017",
-              "content": "$463.706 billion (2017 est.)",
-              "value": "463,706,000,000",
-              "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2881,14 +2903,14 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong><p>Belgium has a highly developed, technologically advanced telecom system; LTE is nearly universal; ongoing investment in 5G with services to dozens of cities and towns; competition between the DSL and cable platforms with investment in fiber networks; 5G; operators accelerating fiber roll-out program; Brussels Airport collaborating with operator to deploy 5G and IoT solutions; international connections through satellite and submarine cables; importer of broadcast equipment from EU neighbors (2021)</p> (2020)<br><br><strong>domestic: </strong>34 per 100 fixed-line, 100 per 100 mobile-cellular; nationwide mobile-cellular telephone system; extensive cable network; limited microwave radio relay network (2019)<br><br><strong>international: </strong>country code - 32; landing points for Concerto, UK-Belgium, Tangerine, and SeaMeWe-3, submarine cables that provide links to Europe, the Middle East, Australia and Asia; satellite earth stations - 7 (Intelsat - 3) (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong>Belgium has a highly developed, technologically advanced telecom system; LTE is nearly universal; ongoing investment in 5G with services to dozens of cities and towns; competition between the DSL and cable platforms with investment in fiber networks; 5G; operators accelerating fiber roll-out program; Brussels Airport collaborating with operator to deploy 5G and IoT solutions; international connections through satellite and submarine cables; importer of broadcast equipment from EU neighbors (2021)<br><br><strong>domestic: </strong>34 per 100 fixed-line, 100 per 100 mobile-cellular; nationwide mobile-cellular telephone system; extensive cable network; limited microwave radio relay network (2019)<br><br><strong>international: </strong>country code - 32; landing points for Concerto, UK-Belgium, Tangerine, and SeaMeWe-3, submarine cables that provide links to Europe, the Middle East, Australia and Asia; satellite earth stations - 7 (Intelsat - 3) (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "<p>Belgium has a highly developed, technologically advanced telecom system; LTE is nearly universal; ongoing investment in 5G with services to dozens of cities and towns; competition between the DSL and cable platforms with investment in fiber networks; 5G; operators accelerating fiber roll-out program; Brussels Airport collaborating with operator to deploy 5G and IoT solutions; international connections through satellite and submarine cables; importer of broadcast equipment from EU neighbors (2021)</p> (2020)",
-              "value": "<p>Belgium has a highly developed, technologically advanced telecom system; LTE is nearly universal; ongoing investment in 5G with services to dozens of cities and towns; competition between the DSL and cable platforms with investment in fiber networks; 5G; operators accelerating fiber roll-out program; Brussels Airport collaborating with operator to deploy 5G and IoT solutions; international connections through satellite and submarine cables; importer of broadcast equipment from EU neighbors (2021)</p>",
+              "content": "Belgium has a highly developed, technologically advanced telecom system; LTE is nearly universal; ongoing investment in 5G with services to dozens of cities and towns; competition between the DSL and cable platforms with investment in fiber networks; 5G; operators accelerating fiber roll-out program; Brussels Airport collaborating with operator to deploy 5G and IoT solutions; international connections through satellite and submarine cables; importer of broadcast equipment from EU neighbors (2021)",
+              "value": "Belgium has a highly developed, technologically advanced telecom system; LTE is nearly universal; ongoing investment in 5G with services to dozens of cities and towns; competition between the DSL and cable platforms with investment in fiber networks; 5G; operators accelerating fiber roll-out program; Brussels Airport collaborating with operator to deploy 5G and IoT solutions; international connections through satellite and submarine cables; importer of broadcast equipment from EU neighbors",
               "title": "general assessment",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             },
             {
               "name": "domestic",
@@ -3356,12 +3378,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>16,604 (Syria), 5,602 (Iraq), 5,070 (Afghanistan) (2019)<br><br><strong>stateless persons: </strong>1,264 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>16,693 (Syria), 5,515 (Iraq) (2020)<br><br><strong>stateless persons: </strong>1,264 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "16,604 (Syria), 5,602 (Iraq), 5,070 (Afghanistan) (2019)",
-              "value": "16,604 (Syria), 5,602 (Iraq), 5,070 (Afghanistan) (2019)",
+              "content": "16,693 (Syria), 5,515 (Iraq) (2020)",
+              "value": "16,693 (Syria), 5,515 (Iraq) (2020)",
               "title": "refugees (country of origin)"
             },
             {

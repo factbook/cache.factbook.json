@@ -2,8 +2,8 @@
   "name": "Kuwait",
   "code": "KU",
   "region": "Middle East",
-  "published": "2021-10-13 12:22:10 -0400",
-  "updated": "2021-10-12 09:01:04 -0400",
+  "published": "2021-10-20 12:14:18 -0400",
+  "updated": "2021-10-19 16:05:07 -0400",
   "media": [
     {
       "type": "flag",
@@ -296,6 +296,16 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Indian Ocean drainage: <em>(Persian Gulf)</em> Tigris and Euphrates (918,044 sq km)"
+        },
+        {
+          "name": "Major aquifers",
+          "field_id": 430,
+          "content": "Arabian Aquifer System"
+        },
+        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -312,16 +322,6 @@
           "field_id": 295,
           "comparative": false,
           "content": "strategic location at head of Persian Gulf"
-        },
-        {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Indian Ocean drainage: <em>(Persian Gulf)</em> Tigris and Euphrates (918,044 sq km)"
-        },
-        {
-          "name": "Major aquifers",
-          "field_id": 430,
-          "content": "Arabian Aquifer System"
         }
       ]
     },
@@ -1073,51 +1073,6 @@
           ]
         },
         {
-          "name": "Total water withdrawal",
-          "field_id": 417,
-          "comparative": false,
-          "content": "<strong>municipal: </strong>448.3 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>23.3 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>778.4 million cubic meters (2017 est.)",
-          "subfields": [
-            {
-              "name": "municipal",
-              "content": "448.3 million cubic meters (2017 est.)",
-              "title": "municipal",
-              "value": "448,300,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "industrial",
-              "content": "23.3 million cubic meters (2017 est.)",
-              "title": "industrial",
-              "value": "23,300,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "agricultural",
-              "content": "778.4 million cubic meters (2017 est.)",
-              "title": "agricultural",
-              "value": "778,400,000",
-              "estimated": true,
-              "info_date": "2017",
-              "suffix": "cubic meters"
-            }
-          ]
-        },
-        {
-          "name": "Total renewable water resources",
-          "field_id": 290,
-          "comparative": false,
-          "content": "20 million cubic meters (2017 est.)",
-          "value": "20,000,000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cubic meters"
-        },
-        {
           "name": "Climate",
           "field_id": 284,
           "comparative": false,
@@ -1183,6 +1138,39 @@
           ]
         },
         {
+          "name": "Urbanization",
+          "field_id": 349,
+          "comparative": false,
+          "content": "<strong>urban population: </strong>100% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.35% annual rate of change (2020-25 est.)",
+          "subfields": [
+            {
+              "name": "urban population",
+              "content": "100% of total population (2021)",
+              "title": "urban population",
+              "value": "100",
+              "suffix": "% of total population",
+              "subfield_note": "(2021)"
+            },
+            {
+              "name": "rate of urbanization",
+              "content": "1.35% annual rate of change (2020-25 est.)",
+              "title": "rate of urbanization",
+              "value": "1.35",
+              "suffix": "% annual rate of change",
+              "subfield_note": "(2020-25 est.)"
+            }
+          ],
+          "media": [
+            {
+              "type": "document",
+              "src": "/attachments/docs/original/urban_KU.pdf",
+              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
+              "caption": "",
+              "position": 0
+            }
+          ]
+        },
+        {
           "name": "Revenue from forest resources",
           "field_id": 420,
           "comparative": true,
@@ -1217,39 +1205,6 @@
           ]
         },
         {
-          "name": "Urbanization",
-          "field_id": 349,
-          "comparative": false,
-          "content": "<strong>urban population: </strong>100% of total population (2021)<br><br><strong>rate of urbanization: </strong>1.35% annual rate of change (2020-25 est.)",
-          "subfields": [
-            {
-              "name": "urban population",
-              "content": "100% of total population (2021)",
-              "title": "urban population",
-              "value": "100",
-              "suffix": "% of total population",
-              "subfield_note": "(2021)"
-            },
-            {
-              "name": "rate of urbanization",
-              "content": "1.35% annual rate of change (2020-25 est.)",
-              "title": "rate of urbanization",
-              "value": "1.35",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
-            }
-          ],
-          "media": [
-            {
-              "type": "document",
-              "src": "/attachments/docs/original/urban_KU.pdf",
-              "alt": "total population growth rate v. urban population growth rate, 2000-2030",
-              "caption": "",
-              "position": 0
-            }
-          ]
-        },
-        {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
@@ -1275,6 +1230,51 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Arabian Aquifer System"
+        },
+        {
+          "name": "Total water withdrawal",
+          "field_id": 417,
+          "comparative": false,
+          "content": "<strong>municipal: </strong>448.3 million cubic meters (2017 est.)<br><br><strong>industrial: </strong>23.3 million cubic meters (2017 est.)<br><br><strong>agricultural: </strong>778.4 million cubic meters (2017 est.)",
+          "subfields": [
+            {
+              "name": "municipal",
+              "content": "448.3 million cubic meters (2017 est.)",
+              "title": "municipal",
+              "value": "448,300,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "industrial",
+              "content": "23.3 million cubic meters (2017 est.)",
+              "title": "industrial",
+              "value": "23,300,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "agricultural",
+              "content": "778.4 million cubic meters (2017 est.)",
+              "title": "agricultural",
+              "value": "778,400,000",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "cubic meters"
+            }
+          ]
+        },
+        {
+          "name": "Total renewable water resources",
+          "field_id": 290,
+          "comparative": false,
+          "content": "20 million cubic meters (2017 est.)",
+          "value": "20,000,000",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "cubic meters"
         }
       ]
     },
@@ -1689,21 +1689,23 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$209.738 billion (2019 est.)<br><br>$208.845 billion (2018 est.)<br><br>$206.274 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$209.74 billion note: data are in 2017 dollars (2019 est.)<br><br>$208.85 billion note: data are in 2017 dollars (2018 est.)<br><br>$206.274 billion (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$209.738 billion (2019 est.)",
-              "value": "209,738,000,000",
+              "content": "$209.74 billion note: data are in 2017 dollars (2019 est.)",
+              "value": "209,740,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2018",
-              "content": "$208.845 billion (2018 est.)",
-              "value": "208,845,000,000",
+              "content": "$208.85 billion note: data are in 2017 dollars (2018 est.)",
+              "value": "208,850,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP (purchasing power parity) 2017",
@@ -1748,21 +1750,23 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$49,854 (2019 est.)<br><br>$50,479 (2018 est.)<br><br>$50,856 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
+          "content": "$49,900 note: data are in 2017 dollars (2019 est.)<br><br>$50,500 note: data are in 2017 dollars (2018 est.)<br><br>$50,856 (2017 est.)<br><br><strong>note:</strong> data are in 2017 dollars",
           "subfields": [
             {
               "name": "Real GDP per capita 2019",
-              "content": "$49,854 (2019 est.)",
-              "value": "49,854",
+              "content": "$49,900 note: data are in 2017 dollars (2019 est.)",
+              "value": "49,900",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2018",
-              "content": "$50,479 (2018 est.)",
-              "value": "50,479",
+              "content": "$50,500 note: data are in 2017 dollars (2018 est.)",
+              "value": "50,500",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in 2017 dollars"
             },
             {
               "name": "Real GDP per capita 2017",
@@ -2143,21 +2147,23 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$84.825 billion (2018 est.)<br><br>$89.098 billion (2017 est.)",
+          "content": "$72.83 billion note: data are in current year dollars (2019 est.)<br><br>$85.2 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Exports 2018",
-              "content": "$84.825 billion (2018 est.)",
-              "value": "84,825,000,000",
+              "name": "Exports 2019",
+              "content": "$72.83 billion note: data are in current year dollars (2019 est.)",
+              "value": "72,830,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Exports 2017",
-              "content": "$89.098 billion (2017 est.)",
-              "value": "89,098,000,000",
+              "name": "Exports 2018",
+              "content": "$85.2 billion note: data are in current year dollars (2018 est.)",
+              "value": "85,200,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2179,21 +2185,23 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$54.556 billion (2018 est.)<br><br>$55.025 billion (2017 est.)",
+          "content": "$59.65 billion note: data are in current year dollars (2019 est.)<br><br>$68.2 billion note: data are in current year dollars (2018 est.)",
           "subfields": [
             {
-              "name": "Imports 2018",
-              "content": "$54.556 billion (2018 est.)",
-              "value": "54,556,000,000",
+              "name": "Imports 2019",
+              "content": "$59.65 billion note: data are in current year dollars (2019 est.)",
+              "value": "59,650,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             },
             {
-              "name": "Imports 2017",
-              "content": "$55.025 billion (2017 est.)",
-              "value": "55,025,000,000",
+              "name": "Imports 2018",
+              "content": "$68.2 billion note: data are in current year dollars (2018 est.)",
+              "value": "68,200,000,000",
               "estimated": true,
-              "prefix": "$"
+              "prefix": "$",
+              "subfield_note": "note: data are in current year dollars"
             }
           ]
         },
@@ -2969,8 +2977,8 @@
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "17-21 years of age for voluntary military service; Kuwait reintroduced one-year mandatory service for men aged 18-35 in May 2017 after having suspended conscription in 2001; service is divided in two phases &ndash; four months for training and eight months for military service (2018)",
-          "info_date": "2018"
+          "content": "17-21 years of age for voluntary military service; Kuwait reintroduced one-year mandatory service for men aged 18-35 in May 2017 after having suspended conscription in 2001; service is divided in two phases &ndash; four months for training and eight months for military service (2019)",
+          "info_date": "2019"
         },
         {
           "name": "Military - note",
