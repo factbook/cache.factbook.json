@@ -2,8 +2,8 @@
   "name": "Malawi",
   "code": "MI",
   "region": "Africa",
-  "published": "2021-11-03 06:27:39 -0400",
-  "updated": "2021-10-26 17:26:09 -0400",
+  "published": "2021-12-01 11:18:59 -0500",
+  "updated": "2021-11-24 10:23:21 -0500",
   "media": [
     {
       "type": "flag",
@@ -267,11 +267,6 @@
           "suffix": "sq km"
         },
         {
-          "name": "Major watersheds (area sq km)",
-          "field_id": 429,
-          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km)<br />Indian Ocean drainage: Zambezi (1,332,412 sq km)"
-        },
-        {
           "name": "Major lakes (area sq km)",
           "field_id": 427,
           "comparative": false,
@@ -294,7 +289,12 @@
         {
           "name": "Major rivers (by length in km)",
           "field_id": 428,
-          "content": "Zambezi (shared with Angola, Zimbabwe, Mozambique, Zambia, Tanzania, and Namibia) - 2,740 km;&nbsp;"
+          "content": "Zambezi (shared with Zambia [s], Angola, Zimbabwe, Namibia, Tanzania, and Mozambique [m]) - 2,740 km<br /><strong>note</strong> &ndash; [s] after country name indicates river source; [m] after country name indicates river mouth"
+        },
+        {
+          "name": "Major watersheds (area sq km)",
+          "field_id": 429,
+          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km)<br />Indian Ocean drainage: Zambezi (1,332,412 sq km)"
         },
         {
           "name": "Population distribution",
@@ -1039,27 +1039,27 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>40.5%<br><br><strong>male: </strong>33.1%<br><br><strong>female: </strong>47.7% (2017 est.)",
+          "content": "<strong>total: </strong>8.5%<br><br><strong>male: </strong>6.7%<br><br><strong>female: </strong>10.6% (2017 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "40.5%",
+              "content": "8.5%",
               "title": "total",
-              "value": "40.5",
+              "value": "8.5",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "33.1%",
+              "content": "6.7%",
               "title": "male",
-              "value": "33.1",
+              "value": "6.7",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "47.7% (2017 est.)",
+              "content": "10.6% (2017 est.)",
               "title": "female",
-              "value": "47.7",
+              "value": "10.6",
               "estimated": true,
               "info_date": "2017",
               "suffix": "%"
@@ -1354,7 +1354,7 @@
         {
           "name": "Major rivers (by length in km)",
           "field_id": 428,
-          "content": "Zambezi (shared with Angola, Zimbabwe, Mozambique, Zambia, Tanzania, and Namibia) - 2,740 km;&nbsp;"
+          "content": "Zambezi (shared with Zambia [s], Angola, Zimbabwe, Namibia, Tanzania, and Mozambique [m]) - 2,740 km<br /><strong>note</strong> &ndash; [s] after country name indicates river source; [m] after country name indicates river mouth"
         },
         {
           "name": "Major watersheds (area sq km)",
@@ -2724,21 +2724,23 @@
           "name": "Telephones - fixed lines",
           "field_id": 196,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>13,101<br><br><strong>subscriptions per 100 inhabitants: </strong>less than 1 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>12,465 (2020)<br><br><strong>subscriptions per 100 inhabitants: </strong>less than 1 (2020 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "13,101",
+              "content": "12,465 (2020)",
               "title": "total subscriptions",
-              "value": "13,101"
+              "value": "12,465",
+              "estimated": false,
+              "info_date": "2020"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "less than 1 (2019 est.)",
+              "content": "less than 1 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "13,101",
+              "value": "12,465",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2020",
               "subfield_note": "less than 1"
             }
           ]
@@ -2747,21 +2749,23 @@
           "name": "Telephones - mobile cellular",
           "field_id": 197,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>8,901,027<br><br><strong>subscriptions per 100 inhabitants: </strong>46.03 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>10,004,680 (2020)<br><br><strong>subscriptions per 100 inhabitants: </strong>52.3 (2020 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "8,901,027",
+              "content": "10,004,680 (2020)",
               "title": "total subscriptions",
-              "value": "8,901,027"
+              "value": "10,004,680",
+              "estimated": false,
+              "info_date": "2020"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "46.03 (2019 est.)",
+              "content": "52.3 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "46.03",
+              "value": "52.3",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2020"
             }
           ]
         },
@@ -2769,12 +2773,12 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong><p>Malawi remains one of the world&rsquo;s least developed countries, with few resources to build efficient fixed-line telecom infrastructure; mobile penetration low compared to region with ample opportunity for growth and competition; some&nbsp;mobile services to rural areas; LTE services are available; national fiber backbone near completion; progress in m-payment methods; prospect of international submarine cables from neighboring countries; importer of broadcast equipment from China (2021)</p> (2020)<br><br><strong>domestic: </strong>limited fixed-line subscribership less than 1 per 100 households; mobile-cellular services are expanding but network coverage is limited and is based around the main urban areas; mobile-cellular subscribership 48 per 100 households (2019)<br><br><strong>international: </strong>country code - 265; satellite earth stations - 2 Intelsat (1 Indian Ocean, 1 Atlantic Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong>Malawi remains one of the world&rsquo;s least developed countries, with few resources to build efficient fixed-line telecom infrastructure; mobile penetration low compared to region with ample opportunity for growth and competition; some mobile services to rural areas; LTE services are available; national fiber backbone near completion; progress in m-payment methods; prospect of international submarine cables from neighboring countries; importer of broadcast equipment from China (2020)<br><br><strong>domestic: </strong>limited fixed-line subscribership less than 1 per 100 households; mobile-cellular services are expanding but network coverage is limited and is based around the main urban areas; mobile-cellular subscribership 48 per 100 households (2019)<br><br><strong>international: </strong>country code - 265; satellite earth stations - 2 Intelsat (1 Indian Ocean, 1 Atlantic Ocean) (2019)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "<p>Malawi remains one of the world&rsquo;s least developed countries, with few resources to build efficient fixed-line telecom infrastructure; mobile penetration low compared to region with ample opportunity for growth and competition; some&nbsp;mobile services to rural areas; LTE services are available; national fiber backbone near completion; progress in m-payment methods; prospect of international submarine cables from neighboring countries; importer of broadcast equipment from China (2021)</p> (2020)",
-              "value": "<p>Malawi remains one of the world&rsquo;s least developed countries, with few resources to build efficient fixed-line telecom infrastructure; mobile penetration low compared to region with ample opportunity for growth and competition; some&nbsp;mobile services to rural areas; LTE services are available; national fiber backbone near completion; progress in m-payment methods; prospect of international submarine cables from neighboring countries; importer of broadcast equipment from China (2021)</p>",
+              "content": "Malawi remains one of the world&rsquo;s least developed countries, with few resources to build efficient fixed-line telecom infrastructure; mobile penetration low compared to region with ample opportunity for growth and competition; some mobile services to rural areas; LTE services are available; national fiber backbone near completion; progress in m-payment methods; prospect of international submarine cables from neighboring countries; importer of broadcast equipment from China (2020)",
+              "value": "Malawi remains one of the world&rsquo;s least developed countries, with few resources to build efficient fixed-line telecom infrastructure; mobile penetration low compared to region with ample opportunity for growth and competition; some mobile services to rural areas; LTE services are available; national fiber backbone near completion; progress in m-payment methods; prospect of international submarine cables from neighboring countries; importer of broadcast equipment from China",
               "title": "general assessment",
               "info_date": "(2020)"
             },
@@ -2835,21 +2839,23 @@
           "name": "Broadband - fixed subscriptions",
           "field_id": 206,
           "comparative": true,
-          "content": "<strong>total: </strong>11,358<br><br><strong>subscriptions per 100 inhabitants: </strong>less than 1 (2018 est.)",
+          "content": "<strong>total: </strong>12,255 (2020)<br><br><strong>subscriptions per 100 inhabitants: </strong>less than 1 (2020 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "11,358",
+              "content": "12,255 (2020)",
               "title": "total",
-              "value": "11,358"
+              "value": "12,255",
+              "estimated": false,
+              "info_date": "2020"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "less than 1 (2018 est.)",
+              "content": "less than 1 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "11,358",
+              "value": "12,255",
               "estimated": true,
-              "info_date": "2018",
+              "info_date": "2020",
               "subfield_note": "less than 1"
             }
           ]
@@ -3161,6 +3167,12 @@
           "comparative": false,
           "content": "18 years of age for voluntary military service; high school equivalent required for enlisted recruits and college equivalent for officer recruits; initial engagement is 7 years for enlisted personnel and 10 years for officers (2021)",
           "info_date": "2021"
+        },
+        {
+          "name": "Military - note",
+          "field_id": 332,
+          "comparative": false,
+          "content": "<p>as of 2021, the Malawi Defense Force&rsquo;s primary responsibility was external security; it was also tasked as necessary with carrying out policing or other domestic activities, such as disaster relief; Malawi contributes regularly to African Union and UN peace support operations</p>"
         }
       ]
     },
@@ -3178,12 +3190,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>31,818 (Democratic Republic of the Congo) (refugees and asylum seekers), 11,873 (Burundi) (refugees and asylum seekers), 7,314 (Rwanda) (refugees and asylum seekers) (2021)",
+          "content": "<strong>refugees (country of origin): </strong>31,992 (Democratic Republic of the Congo) (refugees and asylum seekers), 12,068 (Burundi) (refugees and asylum seekers), 7,392 (Rwanda) (refugees and asylum seekers) (2021)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "31,818 (Democratic Republic of the Congo) (refugees and asylum seekers), 11,873 (Burundi) (refugees and asylum seekers), 7,314 (Rwanda) (refugees and asylum seekers) (2021)",
-              "value": "31,818 (Democratic Republic of the Congo) (refugees and asylum seekers), 11,873 (Burundi) (refugees and asylum seekers), 7,314 (Rwanda) (refugees and asylum seekers) (2021)",
+              "content": "31,992 (Democratic Republic of the Congo) (refugees and asylum seekers), 12,068 (Burundi) (refugees and asylum seekers), 7,392 (Rwanda) (refugees and asylum seekers) (2021)",
+              "value": "31,992 (Democratic Republic of the Congo) (refugees and asylum seekers), 12,068 (Burundi) (refugees and asylum seekers), 7,392 (Rwanda) (refugees and asylum seekers) (2021)",
               "title": "refugees (country of origin)"
             }
           ]

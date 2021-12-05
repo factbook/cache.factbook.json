@@ -2,8 +2,8 @@
   "name": "Nauru",
   "code": "NR",
   "region": "Australia - Oceania",
-  "published": "2021-11-10 12:28:08 -0500",
-  "updated": "2021-11-10 11:35:02 -0500",
+  "published": "2021-12-01 11:21:23 -0500",
+  "updated": "2021-11-23 16:46:26 -0500",
   "media": [
     {
       "type": "flag",
@@ -751,16 +751,6 @@
           "suffix": "physicians/1,000 population"
         },
         {
-          "name": "Hospital bed density",
-          "field_id": 360,
-          "comparative": false,
-          "content": "5 beds/1,000 population (2010)",
-          "value": "5",
-          "estimated": false,
-          "info_date": "2010",
-          "suffix": "beds/1,000 population"
-        },
-        {
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
@@ -872,37 +862,6 @@
           "content": "NA",
           "suffix": "% of GDP",
           "subfield_note": "NA"
-        },
-        {
-          "name": "School life expectancy (primary to tertiary education)",
-          "field_id": 371,
-          "comparative": false,
-          "content": "<strong>total: </strong>9 years<br><br><strong>male: </strong>9 years<br><br><strong>female: </strong>10 years (2008)",
-          "subfields": [
-            {
-              "name": "total",
-              "content": "9 years",
-              "title": "total",
-              "value": "9",
-              "suffix": "years"
-            },
-            {
-              "name": "male",
-              "content": "9 years",
-              "title": "male",
-              "value": "9",
-              "suffix": "years"
-            },
-            {
-              "name": "female",
-              "content": "10 years (2008)",
-              "title": "female",
-              "value": "10",
-              "estimated": false,
-              "info_date": "2008",
-              "suffix": "years"
-            }
-          ]
         },
         {
           "name": "Unemployment, youth ages 15-24",
@@ -2298,21 +2257,23 @@
           "name": "Telephones - fixed lines",
           "field_id": 196,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>1,900<br><br><strong>subscriptions per 100 inhabitants: </strong>14 (July 2016 est.)",
+          "content": "<strong>total subscriptions: </strong>0 (2018 est.)<br><br><strong>subscriptions per 100 inhabitants: </strong>0 (2018 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "1,900",
+              "content": "0 (2018 est.)",
               "title": "total subscriptions",
-              "value": "1,900"
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "14 (July 2016 est.)",
+              "content": "0 (2018 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "14",
+              "value": "0",
               "estimated": true,
-              "info_date": "July 2016"
+              "info_date": "2018"
             }
           ]
         },
@@ -2320,13 +2281,15 @@
           "name": "Telephones - mobile cellular",
           "field_id": 197,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>9,212<br><br><strong>subscriptions per 100 inhabitants: </strong>94.58 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>10,000 (2018)<br><br><strong>subscriptions per 100 inhabitants: </strong>94.58 (2019 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "9,212",
+              "content": "10,000 (2018)",
               "title": "total subscriptions",
-              "value": "9,212"
+              "value": "10,000",
+              "estimated": false,
+              "info_date": "2018"
             },
             {
               "name": "subscriptions per 100 inhabitants",
@@ -2401,6 +2364,30 @@
               "estimated": true,
               "info_date": "July 2018",
               "suffix": "%"
+            }
+          ]
+        },
+        {
+          "name": "Broadband - fixed subscriptions",
+          "field_id": 206,
+          "comparative": true,
+          "content": "<strong>total: </strong>950 (2010)<br><br><strong>subscriptions per 100 inhabitants: </strong>9.5 (2018)",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "950 (2010)",
+              "title": "total",
+              "value": "950",
+              "estimated": false,
+              "info_date": "2010"
+            },
+            {
+              "name": "subscriptions per 100 inhabitants",
+              "content": "9.5 (2018)",
+              "title": "subscriptions per 100 inhabitants",
+              "value": "9.5",
+              "estimated": false,
+              "info_date": "2018"
             }
           ]
         }
@@ -2532,20 +2519,20 @@
           "name": "Merchant marine",
           "field_id": 387,
           "comparative": true,
-          "content": "<strong>total: </strong>5<br><br><strong>by type: </strong>oil tanker 2, other 3 (2020)",
+          "content": "<strong>total: </strong>3<br><br><strong>by type: </strong>oil tanker 1, other 2 (2021)",
           "subfields": [
             {
               "name": "total",
-              "content": "5",
+              "content": "3",
               "title": "total",
-              "value": "5"
+              "value": "3"
             },
             {
               "name": "by type",
-              "content": "oil tanker 2, other 3 (2020)",
-              "value": "oil tanker 2, other 3",
+              "content": "oil tanker 1, other 2 (2021)",
+              "value": "oil tanker 1, other 2",
               "title": "by type",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             }
           ]
         },

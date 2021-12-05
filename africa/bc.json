@@ -2,8 +2,8 @@
   "name": "Botswana",
   "code": "BC",
   "region": "Africa",
-  "published": "2021-11-03 06:13:20 -0400",
-  "updated": "2021-11-02 16:22:37 -0400",
+  "published": "2021-12-01 11:02:57 -0500",
+  "updated": "2021-11-24 08:53:50 -0500",
   "media": [
     {
       "type": "flag",
@@ -557,6 +557,11 @@
           "suffix": "sq km"
         },
         {
+          "name": "Major rivers (by length in km)",
+          "field_id": 428,
+          "content": "<p>Zambezi (shared with Zambia [s]), Angola, Namibia, Zimbabwe, and Mozambique [m]) - 2,740 km; Limpopo (shared with South Africa [s], Zimbabwe, and Mozambique [m]) - 1,800 km; Okavango river mouth (shared with Angola [s], and Namibia) - 1,600 km<br /><strong>note</strong> &ndash; [s] after country name indicates river source; [m] after country name indicates river mouth</p>"
+        },
+        {
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
           "content": "Atlantic Ocean drainage: Orange (941,351 sq km)<br />Indian Ocean drainage: Zambezi (1,332,412 sq km)<br />Internal <em>(endorheic basin) </em>drainage: Okavango Basin (863,866 sq km)"
@@ -565,11 +570,6 @@
           "name": "Major aquifers",
           "field_id": 430,
           "content": "Lower Kalahari-Stampriet Basin, Upper Kalahari-Cuvelai-Upper Zambezi Basin"
-        },
-        {
-          "name": "Major rivers (by length in km)",
-          "field_id": 428,
-          "content": "<p>Zambezi (shared with Zambia [s]), Angola, Namibia, Zimbabwe, and Mozambique [m]) - 2,740 km; Limpopo (shared with South Africa [s], Zimbabwe, and Mozambique [m]) - 1,800 km; Okavango river mouth (shared with Angola [s], and Namibia) - 1,600 km<br /><strong>note</strong> &ndash; <strong>[s]</strong> after country name indicates river source; <strong>[m]</strong> after country name indicates river mouth</p>"
         },
         {
           "name": "Population distribution",
@@ -1084,10 +1084,8 @@
           "name": "Hospital bed density",
           "field_id": 360,
           "comparative": false,
-          "content": "1.8 beds/1,000 population (2010)",
+          "content": "1.8 beds/1,000 population",
           "value": "1.8",
-          "estimated": false,
-          "info_date": "2010",
           "suffix": "beds/1,000 population"
         },
         {
@@ -1295,29 +1293,29 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>37.8%<br><br><strong>male: </strong>39%<br><br><strong>female: </strong>36.4% (2019 est.)",
+          "content": "<strong>total: </strong>46.2%<br><br><strong>male: </strong>44.9%<br><br><strong>female: </strong>47.8% (2020 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "37.8%",
+              "content": "46.2%",
               "title": "total",
-              "value": "37.8",
+              "value": "46.2",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "39%",
+              "content": "44.9%",
               "title": "male",
-              "value": "39",
+              "value": "44.9",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "36.4% (2019 est.)",
+              "content": "47.8% (2020 est.)",
               "title": "female",
-              "value": "36.4",
+              "value": "47.8",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2020",
               "suffix": "%"
             }
           ]
@@ -1588,7 +1586,7 @@
         {
           "name": "Major rivers (by length in km)",
           "field_id": 428,
-          "content": "<p>Zambezi (shared with Zambia [s]), Angola, Namibia, Zimbabwe, and Mozambique [m]) - 2,740 km; Limpopo (shared with South Africa [s], Zimbabwe, and Mozambique [m]) - 1,800 km; Okavango river mouth (shared with Angola [s], and Namibia) - 1,600 km<br /><strong>note</strong> &ndash; <strong>[s]</strong> after country name indicates river source; <strong>[m]</strong> after country name indicates river mouth</p>"
+          "content": "<p>Zambezi (shared with Zambia [s]), Angola, Namibia, Zimbabwe, and Mozambique [m]) - 2,740 km; Limpopo (shared with South Africa [s], Zimbabwe, and Mozambique [m]) - 1,800 km; Okavango river mouth (shared with Angola [s], and Namibia) - 1,600 km<br /><strong>note</strong> &ndash; [s] after country name indicates river source; [m] after country name indicates river mouth</p>"
         },
         {
           "name": "Major watersheds (area sq km)",
@@ -2981,21 +2979,23 @@
           "name": "Telephones - fixed lines",
           "field_id": 196,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>142,587<br><br><strong>subscriptions per 100 inhabitants: </strong>6.25 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>142,587 (2020)<br><br><strong>subscriptions per 100 inhabitants: </strong>5.95 (2020 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "142,587",
+              "content": "142,587 (2020)",
               "title": "total subscriptions",
-              "value": "142,587"
+              "value": "142,587",
+              "estimated": false,
+              "info_date": "2020"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "6.25 (2019 est.)",
+              "content": "5.95 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "6.25",
+              "value": "5.95",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2020"
             }
           ]
         },
@@ -3003,21 +3003,23 @@
           "name": "Telephones - mobile cellular",
           "field_id": 197,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>3,746,760<br><br><strong>subscriptions per 100 inhabitants: </strong>164.12 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>3,819,019 (2020)<br><br><strong>subscriptions per 100 inhabitants: </strong>162.4 (2020 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "3,746,760",
+              "content": "3,819,019 (2020)",
               "title": "total subscriptions",
-              "value": "3,746,760"
+              "value": "3,819,019",
+              "estimated": false,
+              "info_date": "2020"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "164.12 (2019 est.)",
+              "content": "162.4 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "164.12",
+              "value": "162.4",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2020"
             }
           ]
         },
@@ -3091,21 +3093,23 @@
           "name": "Broadband - fixed subscriptions",
           "field_id": 206,
           "comparative": true,
-          "content": "<strong>total: </strong>49,295<br><br><strong>subscriptions per 100 inhabitants: </strong>2.16 (2019 est.)",
+          "content": "<strong>total: </strong>71,898 (2020)<br><br><strong>subscriptions per 100 inhabitants: </strong>3.06 (2020 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "49,295",
+              "content": "71,898 (2020)",
               "title": "total",
-              "value": "49,295"
+              "value": "71,898",
+              "estimated": false,
+              "info_date": "2020"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "2.16 (2019 est.)",
+              "content": "3.06 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "2.16",
+              "value": "3.06",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2020"
             }
           ]
         }
@@ -3388,6 +3392,12 @@
           "comparative": false,
           "content": "18 is the legal minimum age for voluntary military service; no conscription (2019)",
           "info_date": "2019"
+        },
+        {
+          "name": "Military - note",
+          "field_id": 332,
+          "comparative": false,
+          "content": "<p>Bechuanaland/Botswana did not have a permanent military during colonial times, with the British colonial administrators relying instead on small, lightly armed constabularies such as the Bechuanaland Mounted Police, the Bechuanaland Border Police, and by the early 1960s, the Police Mobile Unit (PMU); after independence in 1966, Botswana militarized the PMU and gave it responsibility for the country&rsquo;s defense rather than create a conventional military force; however, turmoil in neighboring countries and numerous cross-border incursions by Rhodesian and South African security forces demonstrated that the PMU was inadequate for defending the country and led to the establishment of the BDF in 1977; as of 2021, the BDF&rsquo;s primary missions included securing territorial integrity/border security and internal duties such as disaster relief and anti-poaching</p> <p>as of 2021, the Army was comprised of approximately 4 small combat brigades (2 infantry, 1 light armored, 1 artillery), while the Air Force had 1 fighter/ground attack squadron; Botswana has no navy, but the Army has a marine unit with boats and other river craft for patrolling the country&rsquo;s numerous waterways, particularly the Chobe River and Okavango swamps</p> <p>Botswana participates in the Southern African Development Community (SADC) Standby Force, and in 2021 contributed nearly 300 troops to the SADC&rsquo;s effort to help the Mozambique Government suppress an insurgency</p>"
         }
       ]
     },

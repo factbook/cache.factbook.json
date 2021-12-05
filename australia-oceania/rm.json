@@ -2,8 +2,8 @@
   "name": "Marshall Islands",
   "code": "RM",
   "region": "Australia - Oceania",
-  "published": "2021-11-03 06:32:07 -0400",
-  "updated": "2021-10-26 16:43:03 -0400",
+  "published": "2021-12-01 11:23:35 -0500",
+  "updated": "2021-11-23 15:27:47 -0500",
   "media": [
     {
       "type": "flag",
@@ -841,10 +841,8 @@
           "name": "Hospital bed density",
           "field_id": 360,
           "comparative": false,
-          "content": "2.7 beds/1,000 population (2010)",
+          "content": "2.7 beds/1,000 population",
           "value": "2.7",
-          "estimated": false,
-          "info_date": "2010",
           "suffix": "beds/1,000 population"
         },
         {
@@ -1048,20 +1046,29 @@
           "name": "Unemployment, youth ages 15-24",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>male: </strong>12.2%<br><br><strong>female: </strong>8.7%",
+          "content": "<strong>total: </strong>26%<br><br><strong>male: </strong>31%<br><br><strong>female: </strong>14.2% (2019 est.)",
           "subfields": [
             {
+              "name": "total",
+              "content": "26%",
+              "title": "total",
+              "value": "26",
+              "suffix": "%"
+            },
+            {
               "name": "male",
-              "content": "12.2%",
+              "content": "31%",
               "title": "male",
-              "value": "12.2",
+              "value": "31",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "8.7%",
+              "content": "14.2% (2019 est.)",
               "title": "female",
-              "value": "8.7",
+              "value": "14.2",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             }
           ]
@@ -2522,21 +2529,23 @@
           "name": "Telephones - fixed lines",
           "field_id": 196,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>3,172<br><br><strong>subscriptions per 100 inhabitants: </strong>4.13 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>2,361 (2018)<br><br><strong>subscriptions per 100 inhabitants: </strong>4.13 (2018 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "3,172",
+              "content": "2,361 (2018)",
               "title": "total subscriptions",
-              "value": "3,172"
+              "value": "2,361",
+              "estimated": false,
+              "info_date": "2018"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "4.13 (2019 est.)",
+              "content": "4.13 (2018 est.)",
               "title": "subscriptions per 100 inhabitants",
               "value": "4.13",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2018"
             }
           ]
         },
@@ -2544,13 +2553,15 @@
           "name": "Telephones - mobile cellular",
           "field_id": 197,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>21,169<br><br><strong>subscriptions per 100 inhabitants: </strong>27.56 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>16,000 (2018)<br><br><strong>subscriptions per 100 inhabitants: </strong>27.56 (2019 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "21,169",
+              "content": "16,000 (2018)",
               "title": "total subscriptions",
-              "value": "21,169"
+              "value": "16,000",
+              "estimated": false,
+              "info_date": "2018"
             },
             {
               "name": "subscriptions per 100 inhabitants",
@@ -2632,21 +2643,23 @@
           "name": "Broadband - fixed subscriptions",
           "field_id": 206,
           "comparative": true,
-          "content": "<strong>total: </strong>1,000<br><br><strong>subscriptions per 100 inhabitants: </strong>1 (2017 est.)",
+          "content": "<strong>total: </strong>1,000 (2017 est.)<br><br><strong>subscriptions per 100 inhabitants: </strong>1.72 (2019 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "1,000",
+              "content": "1,000 (2017 est.)",
               "title": "total",
-              "value": "1,000"
+              "value": "1,000",
+              "estimated": true,
+              "info_date": "2017"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "1 (2017 est.)",
+              "content": "1.72 (2019 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "1",
+              "value": "1.72",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2019"
             }
           ]
         },
@@ -2816,20 +2829,20 @@
           "name": "Merchant marine",
           "field_id": 387,
           "comparative": true,
-          "content": "<strong>total: </strong>3,683<br><br><strong>by type: </strong>bulk carrier 1,647, container ship 249, general cargo 73, oil tanker 915, other 799 (2020)",
+          "content": "<strong>total: </strong>3,817<br><br><strong>by type: </strong>bulk carrier 1,733, container ship 248, general cargo 66, oil tanker 970, other 800 (2021)",
           "subfields": [
             {
               "name": "total",
-              "content": "3,683",
+              "content": "3,817",
               "title": "total",
-              "value": "3,683"
+              "value": "3,817"
             },
             {
               "name": "by type",
-              "content": "bulk carrier 1,647, container ship 249, general cargo 73, oil tanker 915, other 799 (2020)",
-              "value": "bulk carrier 1,647, container ship 249, general cargo 73, oil tanker 915, other 799",
+              "content": "bulk carrier 1,733, container ship 248, general cargo 66, oil tanker 970, other 800 (2021)",
+              "value": "bulk carrier 1,733, container ship 248, general cargo 66, oil tanker 970, other 800",
               "title": "by type",
-              "info_date": "(2020)"
+              "info_date": "(2021)"
             }
           ]
         },
