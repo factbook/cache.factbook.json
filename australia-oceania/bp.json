@@ -2,8 +2,8 @@
   "name": "Solomon Islands",
   "code": "BP",
   "region": "Australia - Oceania",
-  "published": "2021-12-01 11:03:58 -0500",
-  "updated": "2021-11-19 15:38:55 -0500",
+  "published": "2021-12-08 12:03:48 -0500",
+  "updated": "2021-12-02 12:09:25 -0500",
   "media": [
     {
       "type": "flag",
@@ -1952,6 +1952,37 @@
           "content": "<p>NA</p>"
         },
         {
+          "name": "Unemployment, youth ages 15-24",
+          "field_id": 373,
+          "comparative": true,
+          "content": "<strong>total: </strong>1.3%<br><br><strong>male: </strong>1%<br><br><strong>female: </strong>1.6% (2013)",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "1.3%",
+              "title": "total",
+              "value": "1.3",
+              "suffix": "%"
+            },
+            {
+              "name": "male",
+              "content": "1%",
+              "title": "male",
+              "value": "1",
+              "suffix": "%"
+            },
+            {
+              "name": "female",
+              "content": "1.6% (2013)",
+              "title": "female",
+              "value": "1.6",
+              "estimated": false,
+              "info_date": "2013",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
@@ -2541,19 +2572,21 @@
           "name": "Telephones - fixed lines",
           "field_id": 196,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>7,104<br><br><strong>subscriptions per 100 inhabitants: </strong>1.07 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>7,104 (2019)<br><br><strong>subscriptions per 100 inhabitants: </strong>1.06 (2019 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "7,104",
+              "content": "7,104 (2019)",
               "title": "total subscriptions",
-              "value": "7,104"
+              "value": "7,104",
+              "estimated": false,
+              "info_date": "2019"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "1.07 (2019 est.)",
+              "content": "1.06 (2019 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "1.07",
+              "value": "1.06",
               "estimated": true,
               "info_date": "2019"
             }
@@ -2563,19 +2596,21 @@
           "name": "Telephones - mobile cellular",
           "field_id": 197,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>478,116<br><br><strong>subscriptions per 100 inhabitants: </strong>71.75 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>478,116 (2019)<br><br><strong>subscriptions per 100 inhabitants: </strong>71.38 (2019 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "478,116",
+              "content": "478,116 (2019)",
               "title": "total subscriptions",
-              "value": "478,116"
+              "value": "478,116",
+              "estimated": false,
+              "info_date": "2019"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "71.75 (2019 est.)",
+              "content": "71.38 (2019 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "71.75",
+              "value": "71.38",
               "estimated": true,
               "info_date": "2019"
             }
@@ -2651,21 +2686,23 @@
           "name": "Broadband - fixed subscriptions",
           "field_id": 206,
           "comparative": true,
-          "content": "<strong>total: </strong>1,045<br><br><strong>subscriptions per 100 inhabitants: </strong>less than 1 (2018 est.)",
+          "content": "<strong>total: </strong>1,045 (2019)<br><br><strong>subscriptions per 100 inhabitants: </strong>less than 1 (2019 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "1,045",
+              "content": "1,045 (2019)",
               "title": "total",
-              "value": "1,045"
+              "value": "1,045",
+              "estimated": false,
+              "info_date": "2019"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "less than 1 (2018 est.)",
+              "content": "less than 1 (2019 est.)",
               "title": "subscriptions per 100 inhabitants",
               "value": "1,045",
               "estimated": true,
-              "info_date": "2018",
+              "info_date": "2019",
               "subfield_note": "less than 1"
             }
           ]
@@ -2891,6 +2928,12 @@
           "comparative": false,
           "content": "the maritime branch of the Royal Solomon Islands Police Force operates patrol boats provided by Australia (2021)",
           "info_date": "2021"
+        },
+        {
+          "name": "Military - note",
+          "field_id": 332,
+          "comparative": false,
+          "content": "<p>Australia and New Zealand provide material and training assistance to the police</p>"
         }
       ]
     },
