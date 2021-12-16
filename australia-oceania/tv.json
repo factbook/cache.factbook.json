@@ -2,8 +2,8 @@
   "name": "Tuvalu",
   "code": "TV",
   "region": "Australia - Oceania",
-  "published": "2021-12-01 11:27:57 -0500",
-  "updated": "2021-11-24 08:01:41 -0500",
+  "published": "2021-12-08 12:22:07 -0500",
+  "updated": "2021-12-02 15:20:17 -0500",
   "media": [
     {
       "type": "flag",
@@ -1714,6 +1714,37 @@
           "content": "<p>NA</p>"
         },
         {
+          "name": "Unemployment, youth ages 15-24",
+          "field_id": 373,
+          "comparative": true,
+          "content": "<strong>total: </strong>20.6%<br><br><strong>male: </strong>9.8%<br><br><strong>female: </strong>45.9% (2016)",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "20.6%",
+              "title": "total",
+              "value": "20.6",
+              "suffix": "%"
+            },
+            {
+              "name": "male",
+              "content": "9.8%",
+              "title": "male",
+              "value": "9.8",
+              "suffix": "%"
+            },
+            {
+              "name": "female",
+              "content": "45.9% (2016)",
+              "title": "female",
+              "value": "45.9",
+              "estimated": false,
+              "info_date": "2016",
+              "suffix": "%"
+            }
+          ]
+        },
+        {
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
@@ -2162,21 +2193,23 @@
           "name": "Telephones - fixed lines",
           "field_id": 196,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>1,978<br><br><strong>subscriptions per 100 inhabitants: </strong>17.59 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>2,000 (2018)<br><br><strong>subscriptions per 100 inhabitants: </strong>17.59 (2018 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "1,978",
+              "content": "2,000 (2018)",
               "title": "total subscriptions",
-              "value": "1,978"
+              "value": "2,000",
+              "estimated": false,
+              "info_date": "2018"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "17.59 (2019 est.)",
+              "content": "17.59 (2018 est.)",
               "title": "subscriptions per 100 inhabitants",
               "value": "17.59",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2018"
             }
           ]
         },
@@ -2184,13 +2217,15 @@
           "name": "Telephones - mobile cellular",
           "field_id": 197,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>7,911<br><br><strong>subscriptions per 100 inhabitants: </strong>70.36 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>8,000 (2018)<br><br><strong>subscriptions per 100 inhabitants: </strong>70.36 (2019 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "7,911",
+              "content": "8,000 (2018)",
               "title": "total subscriptions",
-              "value": "7,911"
+              "value": "8,000",
+              "estimated": false,
+              "info_date": "2018"
             },
             {
               "name": "subscriptions per 100 inhabitants",
@@ -2272,21 +2307,23 @@
           "name": "Broadband - fixed subscriptions",
           "field_id": 206,
           "comparative": true,
-          "content": "<strong>total: </strong>1,000<br><br><strong>subscriptions per 100 inhabitants: </strong>9 (2017 est.)",
+          "content": "<strong>total: </strong>450 (2017 est.)<br><br><strong>subscriptions per 100 inhabitants: </strong>3.96 (2019 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "1,000",
+              "content": "450 (2017 est.)",
               "title": "total",
-              "value": "1,000"
+              "value": "450",
+              "estimated": true,
+              "info_date": "2017"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "9 (2017 est.)",
+              "content": "3.96 (2019 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "9",
+              "value": "3.96",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2019"
             }
           ]
         }
@@ -2412,6 +2449,12 @@
           "field_id": 331,
           "comparative": false,
           "content": "no regular military forces; Tuvalu Police Force (Ministry of Justice, Communications, and Foreign Affairs)"
+        },
+        {
+          "name": "Military - note",
+          "field_id": 332,
+          "comparative": false,
+          "content": "<p>Australia provides support to the Tuvalu Police Force, including donations of patrol boats</p>"
         }
       ]
     },

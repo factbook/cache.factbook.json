@@ -2,8 +2,8 @@
   "name": "Venezuela",
   "code": "VE",
   "region": "South America",
-  "published": "2021-12-01 11:32:56 -0500",
-  "updated": "2021-11-19 13:27:21 -0500",
+  "published": "2021-12-15 12:27:57 -0500",
+  "updated": "2021-12-08 15:37:50 -0500",
   "media": [
     {
       "type": "flag",
@@ -500,7 +500,7 @@
           "name": "Religions",
           "field_id": 401,
           "comparative": false,
-          "content": "nominally Roman Catholic 96%, Protestant 2%, other 2%"
+          "content": "Roman Catholic 96%, Protestant 2%, other 2%"
         },
         {
           "name": "Demographic profile",
@@ -2137,6 +2137,39 @@
           ]
         },
         {
+          "name": "Unemployment, youth ages 15-24",
+          "field_id": 373,
+          "comparative": true,
+          "content": "<strong>total: </strong>12.1%<br><br><strong>male: </strong>10.5% NA<br><br><strong>female: </strong>14.9% NA (2017 est.)",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "12.1%",
+              "title": "total",
+              "value": "12.1",
+              "suffix": "%"
+            },
+            {
+              "name": "male",
+              "content": "10.5% NA",
+              "title": "male",
+              "value": "10.5",
+              "suffix": "%",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "female",
+              "content": "14.9% NA (2017 est.)",
+              "title": "female",
+              "value": "14.9",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "%",
+              "subfield_note": "NA"
+            }
+          ]
+        },
+        {
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
@@ -2715,21 +2748,23 @@
           "name": "Telephones - fixed lines",
           "field_id": 196,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>5,351,312<br><br><strong>subscriptions per 100 inhabitants: </strong>18.67 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>5,276,274 (2020)<br><br><strong>subscriptions per 100 inhabitants: </strong>18.55 (2020 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "5,351,312",
+              "content": "5,276,274 (2020)",
               "title": "total subscriptions",
-              "value": "5,351,312"
+              "value": "5,276,274",
+              "estimated": false,
+              "info_date": "2020"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "18.67 (2019 est.)",
+              "content": "18.55 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "18.67",
+              "value": "18.55",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2020"
             }
           ]
         },
@@ -2737,21 +2772,23 @@
           "name": "Telephones - mobile cellular",
           "field_id": 197,
           "comparative": true,
-          "content": "<strong>total subscriptions: </strong>13,476,287<br><br><strong>subscriptions per 100 inhabitants: </strong>47.01 (2019 est.)",
+          "content": "<strong>total subscriptions: </strong>18,028,388 (2020)<br><br><strong>subscriptions per 100 inhabitants: </strong>63.4 (2020 est.)",
           "subfields": [
             {
               "name": "total subscriptions",
-              "content": "13,476,287",
+              "content": "18,028,388 (2020)",
               "title": "total subscriptions",
-              "value": "13,476,287"
+              "value": "18,028,388",
+              "estimated": false,
+              "info_date": "2020"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "47.01 (2019 est.)",
+              "content": "63.4 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "47.01",
+              "value": "63.4",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2020"
             }
           ]
         },
@@ -2824,21 +2861,23 @@
           "name": "Broadband - fixed subscriptions",
           "field_id": 206,
           "comparative": true,
-          "content": "<strong>total: </strong>2,560,994<br><br><strong>subscriptions per 100 inhabitants: </strong>8.93 (2019 est.)",
+          "content": "<strong>total: </strong>2,407,187 (2020)<br><br><strong>subscriptions per 100 inhabitants: </strong>8.47 (2020 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "2,560,994",
+              "content": "2,407,187 (2020)",
               "title": "total",
-              "value": "2,560,994"
+              "value": "2,407,187",
+              "estimated": false,
+              "info_date": "2020"
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "8.93 (2019 est.)",
+              "content": "8.47 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "8.93",
+              "value": "8.47",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2020"
             }
           ]
         }
@@ -3117,9 +3156,9 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Bolivarian National Armed Forces (Fuerza Armada Nacional Bolivariana, FANB): Bolivarian Army (Ejercito Bolivariano, EB), Bolivarian Navy (Armada Bolivariana, AB; includes marines, Coast Guard), Bolivarian Military Aviation (Aviacion Militar Bolivariana, AMB; includes a joint-service Aerospace Defense Command (Comando de Defensa Aeroespacial Integral, CODAI); Bolivarian National Guard (Guardia Nacional Bolivaria, GNB); Bolivarian Militia (Milicia Bolivariana, NMB)<br /><br />Bolivarian National Police: Special Action Forces (Fuerzas de Acciones Especiales, FAES) (2021)<br><br>note(s): the CODAI is a joint service command with personnel drawn from other services; <span style=\"font-weight: 400;\">the FAES police paramilitary unit was created by President MADURO after the </span><span style=\"font-weight: 400;\">2017 anti-government protests to fight crime; it has been accused of multiple human rights abuses</span>",
+          "content": "Bolivarian National Armed Forces (Fuerza Armada Nacional Bolivariana, FANB): Bolivarian Army (Ejercito Bolivariano, EB), Bolivarian Navy (Armada Bolivariana, AB; includes marines, Coast Guard), Bolivarian Military Aviation (Aviacion Militar Bolivariana, AMB; includes a joint-service Aerospace Defense Command (Comando de Defensa Aeroespacial Integral, CODAI); Bolivarian National Guard (Guardia Nacional Bolivaria, GNB); Bolivarian Militia (Milicia Bolivariana, NMB)<br /><br />Bolivarian National Police: Special Action Forces (Fuerzas de Acciones Especiales, FAES) (2021)<br><br>note(s) - the CODAI is a joint service command with personnel drawn from other services; <span style=\"font-weight: 400;\">the FAES police paramilitary unit was created by President MADURO after the </span><span style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">2017 anti-government protests to fight crime; it has been accused of multiple human rights abuses; t</span></span>he GNB is responsible for maintaining public order, guarding the exterior of key government installations and prisons, conducting counternarcotics operations, monitoring borders, and providing law enforcement in remote areas; it reports to both the Ministry of Defense and the Ministry of Interior, Justice, and Peace",
           "info_date": "2021",
-          "field_note": "note(s): the CODAI is a joint service command with personnel drawn from other services; <span style=\"font-weight: 400;\">the FAES police paramilitary unit was created by President MADURO after the </span><span style=\"font-weight: 400;\">2017 anti-government protests to fight crime; it has been accused of multiple human rights abuses</span>"
+          "field_note": "note(s) - the CODAI is a joint service command with personnel drawn from other services; <span style=\"font-weight: 400;\">the FAES police paramilitary unit was created by President MADURO after the </span><span style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">2017 anti-government protests to fight crime; it has been accused of multiple human rights abuses; t</span></span>he GNB is responsible for maintaining public order, guarding the exterior of key government installations and prisons, conducting counternarcotics operations, monitoring borders, and providing law enforcement in remote areas; it reports to both the Ministry of Defense and the Ministry of Interior, Justice, and Peace"
         },
         {
           "name": "Military expenditures",
