@@ -2,8 +2,8 @@
   "name": "Guernsey",
   "code": "GK",
   "region": "Europe",
-  "published": "2022-02-08 09:48:21 -0500",
-  "updated": "2022-01-31 17:39:20 -0500",
+  "published": "2022-02-16 11:13:51 -0500",
+  "updated": "2022-02-16 09:37:26 -0500",
   "media": [
     {
       "type": "flag",
@@ -679,22 +679,48 @@
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
-          "content": "<strong>improved: </strong>total: 98% of population<br><br><strong>unimproved: </strong>total: 1.2% of population (2017 est.)<br><br><strong>note:</strong> data represent Guernsey and Jersey",
+          "content": "<strong>improved: </strong>urban: NA<br><br>rural: NA<br><br>total: 98% of population<br><br><strong>unimproved: </strong>urban: NA<br><br>rural: NA<br><br>total: 1.2% of population (2017)<br><br><strong>note:</strong> data represent Guernsey and Jersey",
           "subfields": [
+            {
+              "name": "improved: urban",
+              "content": "urban: NA",
+              "title": "improved",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "improved: rural",
+              "content": "rural: NA",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
             {
               "name": "improved: total",
               "content": "total: 98% of population",
-              "title": "improved",
               "value": "98",
               "suffix": "% of population"
             },
             {
-              "name": "unimproved: total",
-              "content": "total: 1.2% of population (2017 est.)",
+              "name": "unimproved: urban",
+              "content": "urban: NA",
               "title": "unimproved",
+              "value": "98",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: rural",
+              "content": "rural: NA",
+              "value": "98",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: total",
+              "content": "total: 1.2% of population (2017)",
               "value": "1.2",
               "estimated": false,
-              "info_date": "2017 est.",
+              "info_date": "2017",
               "suffix": "% of population"
             }
           ],

@@ -2,8 +2,8 @@
   "name": "Bermuda",
   "code": "BD",
   "region": "North America",
-  "published": "2022-02-08 09:39:36 -0500",
-  "updated": "2022-01-31 16:04:28 -0500",
+  "published": "2022-02-16 11:04:27 -0500",
+  "updated": "2022-02-14 13:02:13 -0500",
   "media": [
     {
       "type": "flag",
@@ -729,22 +729,48 @@
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
-          "content": "<strong>improved: </strong>total: 100% of population<br><br><strong>unimproved: </strong>total: 0% of population (2017 est.)",
+          "content": "<strong>improved: </strong>urban: 99.9% of population<br><br>rural: NA<br><br>total: 99.9% of population<br><br><strong>unimproved: </strong>urban: 0.1% of population<br><br>rural: NA<br><br>total: 0.1% of population (2020)",
           "subfields": [
             {
-              "name": "improved: total",
-              "content": "total: 100% of population",
+              "name": "improved: urban",
+              "content": "urban: 99.9% of population",
               "title": "improved",
-              "value": "100",
+              "value": "99.9",
               "suffix": "% of population"
             },
             {
-              "name": "unimproved: total",
-              "content": "total: 0% of population (2017 est.)",
+              "name": "improved: rural",
+              "content": "rural: NA",
+              "value": "99.9",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "improved: total",
+              "content": "total: 99.9% of population",
+              "value": "99.9",
+              "suffix": "% of population"
+            },
+            {
+              "name": "unimproved: urban",
+              "content": "urban: 0.1% of population",
               "title": "unimproved",
-              "value": "0",
+              "value": "0.1",
+              "suffix": "% of population"
+            },
+            {
+              "name": "unimproved: rural",
+              "content": "rural: NA",
+              "value": "0.1",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "unimproved: total",
+              "content": "total: 0.1% of population (2020)",
+              "value": "0.1",
               "estimated": false,
-              "info_date": "2017 est.",
+              "info_date": "2020",
               "suffix": "% of population"
             }
           ]
@@ -761,34 +787,48 @@
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
-          "content": "<strong>improved: </strong>urban: 100% of population<br><br>total: 100% of population<br><br><strong>unimproved: </strong>urban: 0% of population<br><br>total: 0% of population (2017)",
+          "content": "<strong>improved: </strong>urban: 99.9% of population<br><br>rural: NA<br><br>total: 99.9% of population<br><br><strong>unimproved: </strong>urban: 0.1% of population<br><br>rural: NA<br><br>total: 0.1% of population (2020)",
           "subfields": [
             {
               "name": "improved: urban",
-              "content": "urban: 100% of population",
+              "content": "urban: 99.9% of population",
               "title": "improved",
-              "value": "100",
+              "value": "99.9",
               "suffix": "% of population"
             },
             {
+              "name": "improved: rural",
+              "content": "rural: NA",
+              "value": "99.9",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
               "name": "improved: total",
-              "content": "total: 100% of population",
-              "value": "100",
+              "content": "total: 99.9% of population",
+              "value": "99.9",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: urban",
-              "content": "urban: 0% of population",
+              "content": "urban: 0.1% of population",
               "title": "unimproved",
-              "value": "0",
+              "value": "0.1",
               "suffix": "% of population"
             },
             {
+              "name": "unimproved: rural",
+              "content": "rural: NA",
+              "value": "0.1",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
               "name": "unimproved: total",
-              "content": "total: 0% of population (2017)",
-              "value": "0",
+              "content": "total: 0.1% of population (2020)",
+              "value": "0.1",
               "estimated": false,
-              "info_date": "2017",
+              "info_date": "2020",
               "suffix": "% of population"
             }
           ]

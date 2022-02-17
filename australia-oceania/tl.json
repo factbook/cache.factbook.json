@@ -2,8 +2,8 @@
   "name": "Tokelau",
   "code": "TL",
   "region": "Australia - Oceania",
-  "published": "2022-02-08 10:04:13 -0500",
-  "updated": "2022-02-01 15:32:19 -0500",
+  "published": "2022-02-16 11:31:08 -0500",
+  "updated": "2022-02-15 12:27:25 -0500",
   "media": [
     {
       "type": "flag",
@@ -582,34 +582,46 @@
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
-          "content": "<strong>improved: </strong>rural: 100% of population<br><br>total: 100% of population<br><br><strong>unimproved: </strong>rural: 0% of population<br><br>total: 0% of population (2017 est.)",
+          "content": "<strong>improved: </strong>urban: 0% of population<br><br>rural: 99.7% of population<br><br>total: 99.7% of population<br><br><strong>unimproved: </strong>urban: 0% of population<br><br>rural: 0.3% of population<br><br>total: 0.3% of population (2020 est.)",
           "subfields": [
             {
-              "name": "improved: rural",
-              "content": "rural: 100% of population",
+              "name": "improved: urban",
+              "content": "urban: 0% of population",
               "title": "improved",
-              "value": "100",
+              "value": "0",
+              "suffix": "% of population"
+            },
+            {
+              "name": "improved: rural",
+              "content": "rural: 99.7% of population",
+              "value": "99.7",
               "suffix": "% of population"
             },
             {
               "name": "improved: total",
-              "content": "total: 100% of population",
-              "value": "100",
+              "content": "total: 99.7% of population",
+              "value": "99.7",
               "suffix": "% of population"
             },
             {
-              "name": "unimproved: rural",
-              "content": "rural: 0% of population",
+              "name": "unimproved: urban",
+              "content": "urban: 0% of population",
               "title": "unimproved",
               "value": "0",
               "suffix": "% of population"
             },
             {
+              "name": "unimproved: rural",
+              "content": "rural: 0.3% of population",
+              "value": "0.3",
+              "suffix": "% of population"
+            },
+            {
               "name": "unimproved: total",
-              "content": "total: 0% of population (2017 est.)",
-              "value": "0",
+              "content": "total: 0.3% of population (2020 est.)",
+              "value": "0.3",
               "estimated": true,
-              "info_date": "2017",
+              "info_date": "2020",
               "suffix": "% of population"
             }
           ]
@@ -636,12 +648,18 @@
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
-          "content": "<strong>improved: </strong>rural: 100% of population<br><br>total: 100% of population<br><br><strong>unimproved: </strong>rural: 0% of population<br><br>total: 0% of population (2017 est.)",
+          "content": "<strong>improved: </strong>urban: NA<br><br>rural: 100% of population<br><br>total: 100% of population<br><br><strong>unimproved: </strong>urban: NA<br><br>rural: 0% of population<br><br>total: 0% of population (2020 est.)",
           "subfields": [
+            {
+              "name": "improved: urban",
+              "content": "urban: NA",
+              "title": "improved",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
             {
               "name": "improved: rural",
               "content": "rural: 100% of population",
-              "title": "improved",
               "value": "100",
               "suffix": "% of population"
             },
@@ -652,18 +670,25 @@
               "suffix": "% of population"
             },
             {
+              "name": "unimproved: urban",
+              "content": "urban: NA",
+              "title": "unimproved",
+              "value": "100",
+              "suffix": "% of population",
+              "subfield_note": "NA"
+            },
+            {
               "name": "unimproved: rural",
               "content": "rural: 0% of population",
-              "title": "unimproved",
               "value": "0",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: total",
-              "content": "total: 0% of population (2017 est.)",
+              "content": "total: 0% of population (2020 est.)",
               "value": "0",
               "estimated": true,
-              "info_date": "2017",
+              "info_date": "2020",
               "suffix": "% of population"
             }
           ]
@@ -1486,7 +1511,7 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>modern satellite-based communications system; demand for mobile broadband increasing due to mobile services being the method of access for Internet across the region; 2G widespread with some 4G LTE service; satellite services has improved with the launch of the Kacific-1 satellite launched in 2019 (2020)<br><br><strong>domestic: </strong>radiotelephone service between islands; fixed-line 21 per 100 persons (2019)<br><br><strong>international: </strong>country code - 690; landing point for the Southern Cross NEXT submarine cable linking Australia, Tokelau, Samoa, Kiribati, Fiji, New Zealand and Los Angeles, CA (USA); radiotelephone service to Samoa; government-regulated telephone service (TeleTok); satellite earth stations - 3 (2020)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
+          "content": "<strong>general assessment: </strong>modern satellite-based communications system; demand for mobile broadband increasing due to mobile services being the method of access for Internet across the region; 2G widespread with some 4G LTE service; satellite services has improved with the launch of the Kacific-1 satellite launched in 2019 (2020)<br><br><strong>domestic: </strong>radiotelephone service between islands; fixed-line teledensity is 0 per 100 persons (2019)<br><br><strong>international: </strong>country code - 690; landing point for the Southern Cross NEXT submarine cable linking Australia, Tokelau, Samoa, Kiribati, Fiji, New Zealand and Los Angeles, CA (USA); radiotelephone service to Samoa; government-regulated telephone service (TeleTok); satellite earth stations - 3 (2020)<br><br><strong>note:</strong> the COVID-19 pandemic continues to have a significant impact on production and supply chains globally; since 2020, some aspects of the telecom sector have experienced downturn, particularly in mobile device production; many network operators delayed upgrades to infrastructure; progress towards 5G implementation was postponed or slowed in some countries; consumer spending on telecom services and devices was affected by large-scale job losses and the consequent restriction on disposable incomes; the crucial nature of telecom services as a tool for work and school from home became evident, and received some support from governments",
           "subfields": [
             {
               "name": "general assessment",
@@ -1497,8 +1522,8 @@
             },
             {
               "name": "domestic",
-              "content": "radiotelephone service between islands; fixed-line 21 per 100 persons (2019)",
-              "value": "radiotelephone service between islands; fixed-line 21 per 100 persons",
+              "content": "radiotelephone service between islands; fixed-line teledensity is 0 per 100 persons (2019)",
+              "value": "radiotelephone service between islands; fixed-line teledensity is 0 per 100 persons",
               "title": "domestic",
               "info_date": "(2019)"
             },
