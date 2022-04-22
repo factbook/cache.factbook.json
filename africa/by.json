@@ -2,8 +2,8 @@
   "name": "Burundi",
   "code": "BY",
   "region": "Africa",
-  "published": "2022-04-13 12:05:22 -0400",
-  "updated": "2022-04-12 16:36:31 -0400",
+  "published": "2022-04-19 07:12:59 -0400",
+  "updated": "2022-04-14 15:33:44 -0400",
   "media": [
     {
       "type": "flag",
@@ -964,6 +964,41 @@
           "estimated": false,
           "info_date": "2018/19",
           "suffix": "%"
+        },
+        {
+          "name": "Child marriage",
+          "field_id": 431,
+          "comparative": false,
+          "content": "<strong>women married by age 15: </strong>2.8% (2017)<br><br><strong>women married by age 18: </strong>19% (2017)<br><br><strong>men married by age 18: </strong>1.4% (2017 est.)",
+          "subfields": [
+            {
+              "name": "women married by age 15",
+              "content": "2.8% (2017)",
+              "title": "women married by age 15",
+              "value": "2.8",
+              "estimated": false,
+              "info_date": "2017",
+              "suffix": "%"
+            },
+            {
+              "name": "women married by age 18",
+              "content": "19% (2017)",
+              "title": "women married by age 18",
+              "value": "19",
+              "estimated": false,
+              "info_date": "2017",
+              "suffix": "%"
+            },
+            {
+              "name": "men married by age 18",
+              "content": "1.4% (2017 est.)",
+              "title": "men married by age 18",
+              "value": "1.4",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Education expenditures",
@@ -2882,15 +2917,15 @@
           "name": "Airports",
           "field_id": 379,
           "comparative": true,
-          "content": "<strong>total: </strong>7 (2013)",
+          "content": "<strong>total: </strong>7 (2021)",
           "subfields": [
             {
               "name": "total",
-              "content": "7 (2013)",
+              "content": "7 (2021)",
               "title": "total",
               "value": "7",
-              "estimated": null,
-              "info_date": "2013"
+              "estimated": false,
+              "info_date": "2021"
             }
           ]
         },
@@ -2898,7 +2933,7 @@
           "name": "Airports - with paved runways",
           "field_id": 380,
           "comparative": false,
-          "content": "<strong>total: </strong>1<br><br><strong>over 3,047 m: </strong>1 (2019)",
+          "content": "<strong>total: </strong>1<br><br><strong>over 3,047 m: </strong>1 (2021)",
           "subfields": [
             {
               "name": "total",
@@ -2908,11 +2943,11 @@
             },
             {
               "name": "over 3,047 m",
-              "content": "1 (2019)",
+              "content": "1 (2021)",
               "title": "over 3,047 m",
               "value": "1",
               "estimated": false,
-              "info_date": "2019"
+              "info_date": "2021"
             }
           ]
         },
@@ -2920,7 +2955,7 @@
           "name": "Airports - with unpaved runways",
           "field_id": 381,
           "comparative": false,
-          "content": "<strong>total: </strong>6<br><br><strong>914 to 1,523 m: </strong>4<br><br><strong>under 914 m: </strong>2 (2013)",
+          "content": "<strong>total: </strong>6<br><br><strong>914 to 1,523 m: </strong>4<br><br><strong>under 914 m: </strong>2 (2021)",
           "subfields": [
             {
               "name": "total",
@@ -2936,11 +2971,11 @@
             },
             {
               "name": "under 914 m",
-              "content": "2 (2013)",
+              "content": "2 (2021)",
               "title": "under 914 m",
               "value": "2",
               "estimated": false,
-              "info_date": "2013"
+              "info_date": "2021"
             }
           ]
         },
@@ -3029,7 +3064,7 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "2.1% of GDP (2020 est.)<br><br>3% of GDP (2019 est.)<br><br>2.3% of GDP (2018 est.)<br><br>2.1% of GDP (2017 est.)<br><br>2.4% of GDP (2016 est.)",
+          "content": "2.1% of GDP (2020 est.)<br><br>3% of GDP (approximately $120 million) (2019 est.)<br><br>2.3% of GDP (approximately $100 million) (2018 est.)<br><br>2.1% of GDP (approximately $95 million) (2017 est.)<br><br>2.4% of GDP (approximately $100 million) (2016 est.)",
           "subfields": [
             {
               "name": "Military Expenditures 2020",
@@ -3040,31 +3075,35 @@
             },
             {
               "name": "Military Expenditures 2019",
-              "content": "3% of GDP (2019 est.)",
+              "content": "3% of GDP (approximately $120 million) (2019 est.)",
               "value": "3",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $120 million)"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "2.3% of GDP (2018 est.)",
+              "content": "2.3% of GDP (approximately $100 million) (2018 est.)",
               "value": "2.3",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $100 million)"
             },
             {
               "name": "Military Expenditures 2017",
-              "content": "2.1% of GDP (2017 est.)",
+              "content": "2.1% of GDP (approximately $95 million) (2017 est.)",
               "value": "2.1",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $95 million)"
             },
             {
               "name": "Military Expenditures 2016",
-              "content": "2.4% of GDP (2016 est.)",
+              "content": "2.4% of GDP (approximately $100 million) (2016 est.)",
               "value": "2.4",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $100 million)"
             }
           ]
         },

@@ -2,8 +2,8 @@
   "name": "Philippines",
   "code": "RP",
   "region": "East Asia/Southeast Asia",
-  "published": "2022-04-13 12:23:08 -0400",
-  "updated": "2022-04-12 16:36:33 -0400",
+  "published": "2022-04-20 12:49:38 -0400",
+  "updated": "2022-04-19 15:36:50 -0400",
   "media": [
     {
       "type": "flag",
@@ -1215,6 +1215,32 @@
           "estimated": false,
           "info_date": "2018",
           "suffix": "%"
+        },
+        {
+          "name": "Child marriage",
+          "field_id": 431,
+          "comparative": false,
+          "content": "<strong>women married by age 15: </strong>2.2% (2017)<br><br><strong>women married by age 18: </strong>16.5% (2017 est.)",
+          "subfields": [
+            {
+              "name": "women married by age 15",
+              "content": "2.2% (2017)",
+              "title": "women married by age 15",
+              "value": "2.2",
+              "estimated": false,
+              "info_date": "2017",
+              "suffix": "%"
+            },
+            {
+              "name": "women married by age 18",
+              "content": "16.5% (2017 est.)",
+              "title": "women married by age 18",
+              "value": "16.5",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Education expenditures",
@@ -3254,15 +3280,15 @@
           "name": "Airports",
           "field_id": 379,
           "comparative": true,
-          "content": "<strong>total: </strong>247 (2013)",
+          "content": "<strong>total: </strong>247 (2021)",
           "subfields": [
             {
               "name": "total",
-              "content": "247 (2013)",
+              "content": "247 (2021)",
               "title": "total",
               "value": "247",
-              "estimated": null,
-              "info_date": "2013"
+              "estimated": false,
+              "info_date": "2021"
             }
           ]
         },
@@ -3270,7 +3296,7 @@
           "name": "Airports - with paved runways",
           "field_id": 380,
           "comparative": false,
-          "content": "<strong>total: </strong>89<br><br><strong>over 3,047 m: </strong>4<br><br><strong>2,438 to 3,047 m: </strong>8<br><br><strong>1,524 to 2,437 m: </strong>33<br><br><strong>914 to 1,523 m: </strong>34<br><br><strong>under 914 m: </strong>10 (2019)",
+          "content": "<strong>total: </strong>89<br><br><strong>over 3,047 m: </strong>4<br><br><strong>2,438 to 3,047 m: </strong>8<br><br><strong>1,524 to 2,437 m: </strong>33<br><br><strong>914 to 1,523 m: </strong>34<br><br><strong>under 914 m: </strong>10 (2021)",
           "subfields": [
             {
               "name": "total",
@@ -3304,11 +3330,11 @@
             },
             {
               "name": "under 914 m",
-              "content": "10 (2019)",
+              "content": "10 (2021)",
               "title": "under 914 m",
               "value": "10",
               "estimated": false,
-              "info_date": "2019"
+              "info_date": "2021"
             }
           ]
         },
@@ -3316,7 +3342,7 @@
           "name": "Airports - with unpaved runways",
           "field_id": 381,
           "comparative": false,
-          "content": "<strong>total: </strong>158<br><br><strong>1,524 to 2,437 m: </strong>3<br><br><strong>914 to 1,523 m: </strong>56<br><br><strong>under 914 m: </strong>99 (2013)",
+          "content": "<strong>total: </strong>158<br><br><strong>1,524 to 2,437 m: </strong>3<br><br><strong>914 to 1,523 m: </strong>56<br><br><strong>under 914 m: </strong>99 (2021)",
           "subfields": [
             {
               "name": "total",
@@ -3338,11 +3364,11 @@
             },
             {
               "name": "under 914 m",
-              "content": "99 (2013)",
+              "content": "99 (2021)",
               "title": "under 914 m",
               "value": "99",
               "estimated": false,
-              "info_date": "2013"
+              "info_date": "2021"
             }
           ]
         },
@@ -3505,7 +3531,7 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "1.1% of GDP (2021 est.)<br><br>1% of GDP (2020)<br><br>1.1% of GDP (2019)<br><br>1% of GDP (2018)<br><br>1.3% of GDP (2017)",
+          "content": "1.1% of GDP (2021 est.)<br><br>1% of GDP (2020)<br><br>1.1% of GDP (approximately $6.19 billion) (2019)<br><br>1% of GDP (approximately $5.31 billion) (2018)<br><br>1.3% of GDP (approximately $6.21 billion) (2017)",
           "subfields": [
             {
               "name": "Military Expenditures 2021",
@@ -3523,24 +3549,27 @@
             },
             {
               "name": "Military Expenditures 2019",
-              "content": "1.1% of GDP (2019)",
+              "content": "1.1% of GDP (approximately $6.19 billion) (2019)",
               "value": "1.1",
               "estimated": false,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $6.19 billion)"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "1% of GDP (2018)",
+              "content": "1% of GDP (approximately $5.31 billion) (2018)",
               "value": "1",
               "estimated": false,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $5.31 billion)"
             },
             {
               "name": "Military Expenditures 2017",
-              "content": "1.3% of GDP (2017)",
+              "content": "1.3% of GDP (approximately $6.21 billion) (2017)",
               "value": "1.3",
               "estimated": false,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $6.21 billion)"
             }
           ]
         },

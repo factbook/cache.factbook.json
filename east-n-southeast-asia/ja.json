@@ -2,8 +2,8 @@
   "name": "Japan",
   "code": "JA",
   "region": "East Asia/Southeast Asia",
-  "published": "2022-04-13 12:15:40 -0400",
-  "updated": "2022-04-07 07:53:58 -0400",
+  "published": "2022-04-19 07:24:21 -0400",
+  "updated": "2022-04-14 16:33:12 -0400",
   "media": [
     {
       "type": "flag",
@@ -3452,15 +3452,15 @@
           "name": "Airports",
           "field_id": 379,
           "comparative": true,
-          "content": "<strong>total: </strong>175 (2013)",
+          "content": "<strong>total: </strong>175 (2021)",
           "subfields": [
             {
               "name": "total",
-              "content": "175 (2013)",
+              "content": "175 (2021)",
               "title": "total",
               "value": "175",
-              "estimated": null,
-              "info_date": "2013"
+              "estimated": false,
+              "info_date": "2021"
             }
           ]
         },
@@ -3468,7 +3468,7 @@
           "name": "Airports - with paved runways",
           "field_id": 380,
           "comparative": false,
-          "content": "<strong>total: </strong>142<br><br><strong>over 3,047 m: </strong>6<br><br><strong>2,438 to 3,047 m: </strong>45<br><br><strong>1,524 to 2,437 m: </strong>38<br><br><strong>914 to 1,523 m: </strong>28<br><br><strong>under 914 m: </strong>25 (2017)",
+          "content": "<strong>total: </strong>142<br><br><strong>over 3,047 m: </strong>6<br><br><strong>2,438 to 3,047 m: </strong>45<br><br><strong>1,524 to 2,437 m: </strong>38<br><br><strong>914 to 1,523 m: </strong>28<br><br><strong>under 914 m: </strong>25 (2021)",
           "subfields": [
             {
               "name": "total",
@@ -3502,11 +3502,11 @@
             },
             {
               "name": "under 914 m",
-              "content": "25 (2017)",
+              "content": "25 (2021)",
               "title": "under 914 m",
               "value": "25",
               "estimated": false,
-              "info_date": "2017"
+              "info_date": "2021"
             }
           ]
         },
@@ -3514,7 +3514,7 @@
           "name": "Airports - with unpaved runways",
           "field_id": 381,
           "comparative": false,
-          "content": "<strong>total: </strong>33<br><br><strong>914 to 1,523 m: </strong>5<br><br><strong>under 914 m: </strong>28 (2013)",
+          "content": "<strong>total: </strong>33<br><br><strong>914 to 1,523 m: </strong>5<br><br><strong>under 914 m: </strong>28 (2021)",
           "subfields": [
             {
               "name": "total",
@@ -3530,11 +3530,11 @@
             },
             {
               "name": "under 914 m",
-              "content": "28 (2013)",
+              "content": "28 (2021)",
               "title": "under 914 m",
               "value": "28",
               "estimated": false,
-              "info_date": "2013"
+              "info_date": "2021"
             }
           ]
         },
@@ -3716,7 +3716,7 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "1% of GDP (2021 est.)<br><br>1% of GDP (2020)<br><br>1% of GDP (2019)<br><br>0.93% of GDP (2018)<br><br>0.93% of GDP (2017)",
+          "content": "1% of GDP (2021 est.)<br><br>1% of GDP (2020)<br><br>0.9% of GDP (approximately $53.4 billion) (2019)<br><br>0.9% of GDP (approximately $53.5 billion) (2018)<br><br>0.9% of GDP (approximately $52.6 billion) (2017)",
           "subfields": [
             {
               "name": "Military Expenditures 2021",
@@ -3734,24 +3734,27 @@
             },
             {
               "name": "Military Expenditures 2019",
-              "content": "1% of GDP (2019)",
-              "value": "1",
+              "content": "0.9% of GDP (approximately $53.4 billion) (2019)",
+              "value": "0.9",
               "estimated": false,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $53.4 billion)"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "0.93% of GDP (2018)",
-              "value": "0.93",
+              "content": "0.9% of GDP (approximately $53.5 billion) (2018)",
+              "value": "0.9",
               "estimated": false,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $53.5 billion)"
             },
             {
               "name": "Military Expenditures 2017",
-              "content": "0.93% of GDP (2017)",
-              "value": "0.93",
+              "content": "0.9% of GDP (approximately $52.6 billion) (2017)",
+              "value": "0.9",
               "estimated": false,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $52.6 billion)"
             }
           ]
         },

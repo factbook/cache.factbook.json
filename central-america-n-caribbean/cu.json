@@ -2,8 +2,8 @@
   "name": "Cuba",
   "code": "CU",
   "region": "Central America",
-  "published": "2022-04-13 12:07:44 -0400",
-  "updated": "2022-04-12 16:36:31 -0400",
+  "published": "2022-04-19 07:15:34 -0400",
+  "updated": "2022-04-14 15:51:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -1056,6 +1056,41 @@
           "estimated": false,
           "info_date": "2019",
           "suffix": "%"
+        },
+        {
+          "name": "Child marriage",
+          "field_id": 431,
+          "comparative": false,
+          "content": "<strong>women married by age 15: </strong>4.8% (2019)<br><br><strong>women married by age 18: </strong>29.4% (2019)<br><br><strong>men married by age 18: </strong>5.9% (2019 est.)",
+          "subfields": [
+            {
+              "name": "women married by age 15",
+              "content": "4.8% (2019)",
+              "title": "women married by age 15",
+              "value": "4.8",
+              "estimated": false,
+              "info_date": "2019",
+              "suffix": "%"
+            },
+            {
+              "name": "women married by age 18",
+              "content": "29.4% (2019)",
+              "title": "women married by age 18",
+              "value": "29.4",
+              "estimated": false,
+              "info_date": "2019",
+              "suffix": "%"
+            },
+            {
+              "name": "men married by age 18",
+              "content": "5.9% (2019 est.)",
+              "title": "men married by age 18",
+              "value": "5.9",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Education expenditures",
@@ -2931,15 +2966,15 @@
           "name": "Airports",
           "field_id": 379,
           "comparative": true,
-          "content": "<strong>total: </strong>133 (2017)",
+          "content": "<strong>total: </strong>133 (2021)",
           "subfields": [
             {
               "name": "total",
-              "content": "133 (2017)",
+              "content": "133 (2021)",
               "title": "total",
               "value": "133",
-              "estimated": null,
-              "info_date": "2017"
+              "estimated": false,
+              "info_date": "2021"
             }
           ]
         },
@@ -2947,7 +2982,7 @@
           "name": "Airports - with paved runways",
           "field_id": 380,
           "comparative": false,
-          "content": "<strong>total: </strong>64<br><br><strong>over 3,047 m: </strong>7<br><br><strong>2,438 to 3,047 m: </strong>10<br><br><strong>1,524 to 2,437 m: </strong>16<br><br><strong>914 to 1,523 m: </strong>4<br><br><strong>under 914 m: </strong>27 (2017)",
+          "content": "<strong>total: </strong>64<br><br><strong>over 3,047 m: </strong>7<br><br><strong>2,438 to 3,047 m: </strong>10<br><br><strong>1,524 to 2,437 m: </strong>16<br><br><strong>914 to 1,523 m: </strong>4<br><br><strong>under 914 m: </strong>27 (2021)",
           "subfields": [
             {
               "name": "total",
@@ -2981,11 +3016,11 @@
             },
             {
               "name": "under 914 m",
-              "content": "27 (2017)",
+              "content": "27 (2021)",
               "title": "under 914 m",
               "value": "27",
               "estimated": false,
-              "info_date": "2017"
+              "info_date": "2021"
             }
           ]
         },
@@ -2993,7 +3028,7 @@
           "name": "Airports - with unpaved runways",
           "field_id": 381,
           "comparative": false,
-          "content": "<strong>total: </strong>69<br><br><strong>914 to 1,523 m: </strong>11<br><br><strong>under 914 m: </strong>58 (2013)",
+          "content": "<strong>total: </strong>69<br><br><strong>914 to 1,523 m: </strong>11<br><br><strong>under 914 m: </strong>58 (2021)",
           "subfields": [
             {
               "name": "total",
@@ -3009,11 +3044,11 @@
             },
             {
               "name": "under 914 m",
-              "content": "58 (2013)",
+              "content": "58 (2021)",
               "title": "under 914 m",
               "value": "58",
               "estimated": false,
-              "info_date": "2013"
+              "info_date": "2021"
             }
           ]
         },
@@ -3160,7 +3195,7 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "4.2% of GDP (2020 est.)<br><br>3.7% of GDP (2019 est.)<br><br>2.9% of GDP (2018 est.)<br><br>2.9% of GDP (2017 est.)<br><br>3.1% of GDP (2016 est.)",
+          "content": "4.2% of GDP (2020 est.)<br><br>3.2% of GDP (approximately $5.9 billion) (2019 est.)<br><br>2.9% of GDP (approximately $5.6 billion) (2018 est.)<br><br>2.9% of GDP (approximately $5.5 billion) (2017 est.)<br><br>3.1% of GDP (approximately $5.5 billion) (2016 est.)",
           "subfields": [
             {
               "name": "Military Expenditures 2020",
@@ -3171,31 +3206,35 @@
             },
             {
               "name": "Military Expenditures 2019",
-              "content": "3.7% of GDP (2019 est.)",
-              "value": "3.7",
+              "content": "3.2% of GDP (approximately $5.9 billion) (2019 est.)",
+              "value": "3.2",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $5.9 billion)"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "2.9% of GDP (2018 est.)",
+              "content": "2.9% of GDP (approximately $5.6 billion) (2018 est.)",
               "value": "2.9",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $5.6 billion)"
             },
             {
               "name": "Military Expenditures 2017",
-              "content": "2.9% of GDP (2017 est.)",
+              "content": "2.9% of GDP (approximately $5.5 billion) (2017 est.)",
               "value": "2.9",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $5.5 billion)"
             },
             {
               "name": "Military Expenditures 2016",
-              "content": "3.1% of GDP (2016 est.)",
+              "content": "3.1% of GDP (approximately $5.5 billion) (2016 est.)",
               "value": "3.1",
               "estimated": true,
-              "suffix": "% of GDP"
+              "suffix": "% of GDP",
+              "subfield_note": "(approximately $5.5 billion)"
             }
           ]
         },
