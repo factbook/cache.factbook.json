@@ -1,9 +1,9 @@
 {
   "name": "Turkey (Turkiye)",
   "code": "TU",
-  "published": "2022-07-13 12:31:08 -0400",
+  "published": "2022-07-20 12:29:41 -0400",
   "region": "Middle East",
-  "updated": "2022-07-13 10:17:55 -0400",
+  "updated": "2022-07-20 11:36:20 -0400",
   "media": [
     {
       "type": "flag",
@@ -1629,9 +1629,9 @@
           "name": "Education expenditures",
           "field_id": 369,
           "comparative": true,
-          "content": "4.3% of GDP (2018)",
+          "content": "4.3% of GDP (2018 est.)",
           "value": "4.3",
-          "estimated": false,
+          "estimated": true,
           "info_date": "2018",
           "suffix": "% of GDP"
         },
@@ -2304,8 +2304,8 @@
           "name": "Political parties and leaders",
           "field_id": 315,
           "comparative": false,
-          "content": "Democracy and Progress Party [Ali BABACAN]<br />Democrat Party or DP [Gultekin UYSAL]<br />Democratic Regions Party or DBP [Saliha AYDENIZ, Keskin BAYINDIR]<br />Felicity Party (Saadet Party) or SP [Temel KARAMOLLAOGLU]<br />Free Cause Party or HUDAPAR [Zekeriya YAPICIOGLU]<br />Future Party [Ahmet DAVUTOGLU]<br />IYI Party [Meral AKSENER]<br />Grand Unity Party or BBP [Mustafa DESTICI]<br />Justice and Development Party or AKP [Recep Tayyip ERDOGAN]<br />Nation Alliance (CHP, IYI, SP, DP) (electoral alliance)<br />Nationalist Movement Party or MHP [Devlet BAHCELI]<br />People's Alliance (AKP, MHP, BBP) (electoral alliance)<br />Patriotic Party or VP [Dogu PERINCEK]<br />Peoples' Democratic Party or HDP [Pervin BULDAN, Mithat SANCAR]<br />Republican People's Party or CHP [Kemal KILICDAROGLU]<br><br><strong>note:&nbsp;</strong> as of September 2021, 116 political parties were legally registered",
-          "value": "Democracy and Progress Party [Ali BABACAN]<br />Democrat Party or DP [Gultekin UYSAL]<br />Democratic Regions Party or DBP [Saliha AYDENIZ, Keskin BAYINDIR]<br />Felicity Party (Saadet Party) or SP [Temel KARAMOLLAOGLU]<br />Free Cause Party or HUDAPAR [Zekeriya YAPICIOGLU]<br />Future Party [Ahmet DAVUTOGLU]<br />IYI Party [Meral AKSENER]<br />Grand Unity Party or BBP [Mustafa DESTICI]<br />Justice and Development Party or AKP [Recep Tayyip ERDOGAN]<br />Nation Alliance (CHP, IYI, SP, DP) (electoral alliance)<br />Nationalist Movement Party or MHP [Devlet BAHCELI]<br />People's Alliance (AKP, MHP, BBP) (electoral alliance)<br />Patriotic Party or VP [Dogu PERINCEK]<br />Peoples' Democratic Party or HDP [Pervin BULDAN, Mithat SANCAR]<br />Republican People's Party or CHP [Kemal KILICDAROGLU]",
+          "content": "Democracy and Progress Party [Ali BABACAN]<br />Democrat Party or DP [Gultekin UYSAL]<br />Democratic Regions Party or DBP [Saliha AYDENIZ, Keskin BAYINDIR]<br />Felicity Party (Saadet Party) or SP [Temel KARAMOLLAOGLU]<br />Free Cause Party or HUDAPAR [Zekeriya YAPICIOGLU]<br />Future Party [Ahmet DAVUTOGLU]<br />IYI Party [Meral AKSENER]<br />Grand Unity Party or BBP [Mustafa DESTICI]<br />Justice and Development Party or AKP [Recep Tayyip ERDOGAN]<br />Nation Alliance (electoral alliance includes CHP, IYI, SP, DP)<br />Nationalist Movement Party or MHP [Devlet BAHCELI]<br />Patriotic Party or VP [Dogu PERINCEK]<br />People's Alliance (electoral alliance AKP, MHP, BBP)<br />Peoples' Democratic Party or HDP [Pervin BULDAN, Mithat SANCAR]<br />Republican People's Party or CHP [Kemal KILICDAROGLU]<br><br><strong>note:&nbsp;</strong> as of September 2021, 116 political parties were legally registered",
+          "value": "Democracy and Progress Party [Ali BABACAN]<br />Democrat Party or DP [Gultekin UYSAL]<br />Democratic Regions Party or DBP [Saliha AYDENIZ, Keskin BAYINDIR]<br />Felicity Party (Saadet Party) or SP [Temel KARAMOLLAOGLU]<br />Free Cause Party or HUDAPAR [Zekeriya YAPICIOGLU]<br />Future Party [Ahmet DAVUTOGLU]<br />IYI Party [Meral AKSENER]<br />Grand Unity Party or BBP [Mustafa DESTICI]<br />Justice and Development Party or AKP [Recep Tayyip ERDOGAN]<br />Nation Alliance (electoral alliance includes CHP, IYI, SP, DP)<br />Nationalist Movement Party or MHP [Devlet BAHCELI]<br />Patriotic Party or VP [Dogu PERINCEK]<br />People's Alliance (electoral alliance AKP, MHP, BBP)<br />Peoples' Democratic Party or HDP [Pervin BULDAN, Mithat SANCAR]<br />Republican People's Party or CHP [Kemal KILICDAROGLU]",
           "field_note": "<strong>note:&nbsp;</strong> as of September 2021, 116 political parties were legally registered"
         },
         {
@@ -3220,134 +3220,243 @@
           ]
         },
         {
-          "name": "Electricity - production",
-          "field_id": 252,
-          "comparative": true,
-          "content": "261.9 billion kWh (2016 est.)",
-          "value": "261900000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity",
+          "field_id": 435,
+          "comparative": false,
+          "content": "<strong>Installed generating capacity: </strong>96.846 million kW (2020 est.)<br><br><strong>Consumption: </strong>263.952 billion kWh (2020 est.)<br><br><strong>Exports: </strong>2.484 billion kWh (2020 est.)<br><br><strong>Imports: </strong>1.888 billion kWh (2020 est.)<br><br><strong>Transmission/distribution losses: </strong>29.275 billion kWh (2020 est.)",
+          "subfields": [
+            {
+              "name": "Installed generating capacity",
+              "content": "96.846 million kW (2020 est.)",
+              "title": "Installed generating capacity",
+              "value": "96846000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kW"
+            },
+            {
+              "name": "Consumption",
+              "content": "263.952 billion kWh (2020 est.)",
+              "title": "Consumption",
+              "value": "263952000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Exports",
+              "content": "2.484 billion kWh (2020 est.)",
+              "title": "Exports",
+              "value": "2484000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Imports",
+              "content": "1.888 billion kWh (2020 est.)",
+              "title": "Imports",
+              "value": "1888000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Transmission/distribution losses",
+              "content": "29.275 billion kWh (2020 est.)",
+              "title": "Transmission/distribution losses",
+              "value": "29275000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            }
+          ]
         },
         {
-          "name": "Electricity - consumption",
-          "field_id": 253,
-          "comparative": true,
-          "content": "231.1 billion kWh (2016 est.)",
-          "value": "231100000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity generation sources",
+          "field_id": 436,
+          "comparative": false,
+          "content": "<strong>Fossil fuels: </strong>56.2% of total installed capacity (2020 est.)<br><br><strong>Nuclear: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Solar: </strong>3.8% of total installed capacity (2020 est.)<br><br><strong>Wind: </strong>8.4% of total installed capacity (2020 est.)<br><br><strong>Hydroelectricity: </strong>26.3% of total installed capacity (2020 est.)<br><br><strong>Tide and wave: </strong>0.4% of total installed capacity (2020 est.)<br><br><strong>Geothermal: </strong>3.4% of total installed capacity (2020 est.)<br><br><strong>Biomass and waste: </strong>1.5% of total installed capacity (2020 est.)",
+          "subfields": [
+            {
+              "name": "Fossil fuels",
+              "content": "56.2% of total installed capacity (2020 est.)",
+              "title": "Fossil fuels",
+              "value": "56.2",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Nuclear",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Nuclear",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Solar",
+              "content": "3.8% of total installed capacity (2020 est.)",
+              "title": "Solar",
+              "value": "3.8",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Wind",
+              "content": "8.4% of total installed capacity (2020 est.)",
+              "title": "Wind",
+              "value": "8.4",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Hydroelectricity",
+              "content": "26.3% of total installed capacity (2020 est.)",
+              "title": "Hydroelectricity",
+              "value": "26.3",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Tide and wave",
+              "content": "0.4% of total installed capacity (2020 est.)",
+              "title": "Tide and wave",
+              "value": "0.4",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Geothermal",
+              "content": "3.4% of total installed capacity (2020 est.)",
+              "title": "Geothermal",
+              "value": "3.4",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Biomass and waste",
+              "content": "1.5% of total installed capacity (2020 est.)",
+              "title": "Biomass and waste",
+              "value": "1.5",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            }
+          ]
         },
         {
-          "name": "Electricity - exports",
-          "field_id": 254,
-          "comparative": true,
-          "content": "1.442 billion kWh (2016 est.)",
-          "value": "1442000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Coal",
+          "field_id": 437,
+          "comparative": false,
+          "content": "<strong>Production: </strong>78.871 million metric tons (2020 est.)<br><br><strong>Consumption: </strong>108.271 million metric tons (2020 est.)<br><br><strong>Exports: </strong>54,000 metric tons (2020 est.)<br><br><strong>Imports: </strong>40.919 million metric tons (2020 est.)<br><br><strong>Proven reserves: </strong>11.525 billion metric tons (2019 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "78.871 million metric tons (2020 est.)",
+              "title": "Production",
+              "value": "78871000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Consumption",
+              "content": "108.271 million metric tons (2020 est.)",
+              "title": "Consumption",
+              "value": "108271000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Exports",
+              "content": "54,000 metric tons (2020 est.)",
+              "title": "Exports",
+              "value": "54000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Imports",
+              "content": "40.919 million metric tons (2020 est.)",
+              "title": "Imports",
+              "value": "40919000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "11.525 billion metric tons (2019 est.)",
+              "title": "Proven reserves",
+              "value": "11525000000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tons"
+            }
+          ]
         },
         {
-          "name": "Electricity - imports",
-          "field_id": 255,
-          "comparative": true,
-          "content": "6.33 billion kWh (2016 est.)",
-          "value": "6330000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
-        },
-        {
-          "name": "Electricity - installed generating capacity",
-          "field_id": 256,
-          "comparative": true,
-          "content": "78.5 million kW (2016 est.)",
-          "value": "78500000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kW"
-        },
-        {
-          "name": "Electricity - from fossil fuels",
-          "field_id": 257,
-          "comparative": true,
-          "content": "53% of total installed capacity (2016 est.)",
-          "value": "53",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from nuclear fuels",
-          "field_id": 258,
-          "comparative": true,
-          "content": "0% of total installed capacity (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from hydroelectric plants",
-          "field_id": 259,
-          "comparative": true,
-          "content": "33% of total installed capacity (2017 est.)",
-          "value": "33",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from other renewable sources",
-          "field_id": 260,
-          "comparative": true,
-          "content": "14% of total installed capacity (2017 est.)",
-          "value": "14",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Crude oil - production",
-          "field_id": 261,
-          "comparative": true,
-          "content": "55,000 bbl/day (2018 est.)",
-          "value": "55000",
-          "estimated": true,
-          "info_date": "2018",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - exports",
-          "field_id": 262,
-          "comparative": true,
-          "content": "0 bbl/day (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - imports",
-          "field_id": 263,
-          "comparative": true,
-          "content": "521,500 bbl/day (2017 est.)",
-          "value": "521500",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - proved reserves",
-          "field_id": 264,
-          "comparative": true,
-          "content": "341.6 million bbl (1 January 2018 est.)",
-          "value": "341600000",
-          "estimated": true,
-          "info_date": "1 January 2018",
-          "suffix": "bbl"
+          "name": "Petroleum",
+          "field_id": 438,
+          "comparative": false,
+          "content": "<strong>Total petroleum production: </strong>70,300 bbl/day (2021 est.)<br><br><strong>Refined petroleum consumption: </strong>987,300 bbl/day (2019 est.)<br><br><strong>Crude oil and lease condensate exports: </strong>0 barrels/day (2018 est.)<br><br><strong>Crude oil and lease condensate imports: </strong>423,500 barrels/day (2018 est.)<br><br><strong>Crude oil estimated reserves: </strong>366 million barrels (2021 est.)",
+          "subfields": [
+            {
+              "name": "Total petroleum production",
+              "content": "70,300 bbl/day (2021 est.)",
+              "title": "Total petroleum production",
+              "value": "70300",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Refined petroleum consumption",
+              "content": "987,300 bbl/day (2019 est.)",
+              "title": "Refined petroleum consumption",
+              "value": "987300",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Crude oil and lease condensate exports",
+              "content": "0 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil and lease condensate imports",
+              "content": "423,500 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate imports",
+              "value": "423500",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil estimated reserves",
+              "content": "366 million barrels (2021 est.)",
+              "title": "Crude oil estimated reserves",
+              "value": "366000000",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "barrels"
+            }
+          ]
         },
         {
           "name": "Refined petroleum products - production",
@@ -3355,16 +3464,6 @@
           "comparative": true,
           "content": "657,900 bbl/day (2017 est.)",
           "value": "657900",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - consumption",
-          "field_id": 266,
-          "comparative": true,
-          "content": "989,900 bbl/day (2017 est.)",
-          "value": "989900",
           "estimated": true,
           "info_date": "2017",
           "suffix": "bbl/day"
@@ -3390,54 +3489,115 @@
           "suffix": "bbl/day"
         },
         {
-          "name": "Natural gas - production",
-          "field_id": 269,
-          "comparative": true,
-          "content": "368.1 million cu m (2017 est.)",
-          "value": "368100000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "name": "Natural gas",
+          "field_id": 440,
+          "comparative": false,
+          "content": "<strong>Production: </strong>469.464 million cubic meters (2019 est.)<br><br><strong>Consumption: </strong>44,605,473,000 cubic meters (2019 est.)<br><br><strong>Exports: </strong>759.372 million cubic meters (2019 est.)<br><br><strong>Imports: </strong>45,091,248,000 cubic meters (2019 est.)<br><br><strong>Proven reserves: </strong>3.794 billion cubic meters (2021 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "469.464 million cubic meters (2019 est.)",
+              "title": "Production",
+              "value": "469464000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Consumption",
+              "content": "44,605,473,000 cubic meters (2019 est.)",
+              "title": "Consumption",
+              "value": "44605473000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Exports",
+              "content": "759.372 million cubic meters (2019 est.)",
+              "title": "Exports",
+              "value": "759372000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Imports",
+              "content": "45,091,248,000 cubic meters (2019 est.)",
+              "title": "Imports",
+              "value": "45091248000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "3.794 billion cubic meters (2021 est.)",
+              "title": "Proven reserves",
+              "value": "3794000000",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            }
+          ]
         },
         {
-          "name": "Natural gas - consumption",
-          "field_id": 270,
+          "name": "Carbon dioxide emissions",
+          "field_id": 274,
           "comparative": true,
-          "content": "53.6 billion cu m (2017 est.)",
-          "value": "53600000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "content": "391.792 million metric tonnes of CO2 (2019 est.)<br><br><strong>From coal and metallurgical coke: </strong>172.298 million metric tonnes of CO2 (2019 est.)<br><br><strong>From petroleum and other liquids: </strong>133.587 million metric tonnes of CO2 (2019 est.)<br><br><strong>From consumed natural gas: </strong>85.907 million metric tonnes of CO2 (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total emissions",
+              "content": "391.792 million metric tonnes of CO2 (2019 est.)",
+              "value": "391792000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From coal and metallurgical coke",
+              "content": "172.298 million metric tonnes of CO2 (2019 est.)",
+              "title": "From coal and metallurgical coke",
+              "value": "172298000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From petroleum and other liquids",
+              "content": "133.587 million metric tonnes of CO2 (2019 est.)",
+              "title": "From petroleum and other liquids",
+              "value": "133587000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From consumed natural gas",
+              "content": "85.907 million metric tonnes of CO2 (2019 est.)",
+              "title": "From consumed natural gas",
+              "value": "85907000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            }
+          ]
         },
         {
-          "name": "Natural gas - exports",
-          "field_id": 271,
+          "name": "Energy consumption per capita",
+          "field_id": 441,
           "comparative": true,
-          "content": "622.9 million cu m (2017 est.)",
-          "value": "622900000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - imports",
-          "field_id": 272,
-          "comparative": true,
-          "content": "55.13 billion cu m (2017 est.)",
-          "value": "55130000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - proved reserves",
-          "field_id": 273,
-          "comparative": true,
-          "content": "5.097 billion cu m (1 January 2018 est.)",
-          "value": "5097000000",
-          "estimated": true,
-          "info_date": "1 January 2018",
-          "suffix": "cu m"
+          "content": "79.126 million Btu/person (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total energy consumption per capita 2019",
+              "content": "79.126 million Btu/person (2019 est.)",
+              "value": "79126000",
+              "estimated": true,
+              "suffix": "Btu/person"
+            }
+          ]
         }
       ]
     },
@@ -3756,13 +3916,13 @@
           "name": "Railways",
           "field_id": 384,
           "comparative": true,
-          "content": "<strong>total: </strong>12,710 km (2018)<br><br><strong>standard gauge: </strong>11,497 km (2018) 1.435-m gauge (1.435 km high speed train)",
+          "content": "<strong>total: </strong>11,497 km (2018)<br><br><strong>standard gauge: </strong>11,497 km (2018) 1.435-m gauge (1.435 km high speed train)",
           "subfields": [
             {
               "name": "total",
-              "content": "12,710 km (2018)",
+              "content": "11,497 km (2018)",
               "title": "total",
-              "value": "12710",
+              "value": "11497",
               "estimated": false,
               "info_date": "2018",
               "suffix": "km"
@@ -3963,10 +4123,10 @@
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "est. 150 (Azerbaijan; monitoring cease-fire, clearing mines); 250 Bosnia-Herzegovina (EUFOR); est. 30,000 Cyprus; 300 Kosovo (NATO/KFOR); 100 Lebanon (UNIFIL); est. 500 Libya; est. 3,000 Qatar; approximately 200 Somalia (training mission); est. 5,000-10,000 Syria (2022)<br><br>note(s) - between 2016 and 2020, Turkey conducted four major military campaigns in northern Syria; Turkey also has deployed troops into northern Iraq on numerous occasions to combat the Kurdistan Worker's Party (PKK), including large operations involving thousands of troops in 2007, 2011, and 2018, and smaller-scale incursions in 2021 and 2022; in 2020, Turkey deployed hundreds of Turkish troops and as many as 5,000 Syrian fighters to Libya to support the Libyan Government of National Accord<br /><br />in October of 2021, Turkey&rsquo;s parliament extended the military&rsquo;s mandate to launch cross-border operations in Iraq and Syria by two more years",
-          "value": "est. 150 (Azerbaijan; monitoring cease-fire, clearing mines); 250 Bosnia-Herzegovina (EUFOR); est. 30,000 Cyprus; 300 Kosovo (NATO/KFOR); 100 Lebanon (UNIFIL); est. 500 Libya; est. 3,000 Qatar; approximately 200 Somalia (training mission); est. 5,000-10,000 Syria",
+          "content": "approximately 150 (Azerbaijan; monitoring cease-fire, clearing mines); 250 Bosnia-Herzegovina (EUFOR); approximately 30,000 Cyprus; 300 Kosovo (NATO/KFOR); 100 Lebanon (UNIFIL); estimated 500 Libya; approximately 3,000 Qatar; approximately 200 Somalia (training mission); estimated 5,000-10,000 Syria (2022)<br><br><strong>note 1:</strong> between 2016 and 2020, Turkey conducted four major military campaigns in northern Syria; Turkey also has deployed troops into northern Iraq on numerous occasions to combat the Kurdistan Worker's Party (PKK), including large operations involving thousands of troops in 2007, 2011, and 2018, and smaller-scale incursions in 2021 and 2022; in October of 2021, Turkey&rsquo;s parliament extended the military&rsquo;s mandate to launch cross-border operations in Iraq and Syria by two more years<br /><br /><strong>note 2:</strong> in 2020, Turkey deployed hundreds of Turkish troops and as many as 5,000 Syrian fighters to Libya to support the Libyan Government of National Accord<br />",
+          "value": "approximately 150 (Azerbaijan; monitoring cease-fire, clearing mines); 250 Bosnia-Herzegovina (EUFOR); approximately 30,000 Cyprus; 300 Kosovo (NATO/KFOR); 100 Lebanon (UNIFIL); estimated 500 Libya; approximately 3,000 Qatar; approximately 200 Somalia (training mission); estimated 5,000-10,000 Syria",
           "info_date": "2022",
-          "field_note": "note(s) - between 2016 and 2020, Turkey conducted four major military campaigns in northern Syria; Turkey also has deployed troops into northern Iraq on numerous occasions to combat the Kurdistan Worker's Party (PKK), including large operations involving thousands of troops in 2007, 2011, and 2018, and smaller-scale incursions in 2021 and 2022; in 2020, Turkey deployed hundreds of Turkish troops and as many as 5,000 Syrian fighters to Libya to support the Libyan Government of National Accord<br /><br />in October of 2021, Turkey&rsquo;s parliament extended the military&rsquo;s mandate to launch cross-border operations in Iraq and Syria by two more years"
+          "field_note": "<strong>note 1:</strong> between 2016 and 2020, Turkey conducted four major military campaigns in northern Syria; Turkey also has deployed troops into northern Iraq on numerous occasions to combat the Kurdistan Worker's Party (PKK), including large operations involving thousands of troops in 2007, 2011, and 2018, and smaller-scale incursions in 2021 and 2022; in October of 2021, Turkey&rsquo;s parliament extended the military&rsquo;s mandate to launch cross-border operations in Iraq and Syria by two more years<br /><br /><strong>note 2:</strong> in 2020, Turkey deployed hundreds of Turkish troops and as many as 5,000 Syrian fighters to Libya to support the Libyan Government of National Accord<br />"
         },
         {
           "name": "Military - note",
@@ -4007,12 +4167,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>3,648,983 (Syria) (2022); 145,000 (Ukraine) (as of 19 May 2022)<br><br><strong>IDPs: </strong>1.099 million (displaced from 1984-2005 because of fighting between the Kurdish PKK and Turkish military; most IDPs are Kurds from eastern and southeastern provinces; no information available on persons displaced by development projects) (2021)<br><br><strong>stateless persons: </strong>117 (2018)",
+          "content": "<strong>refugees (country of origin): </strong>3,650,601 (Syria) (2022); 145,000 (Ukraine) (as of 19 May 2022)<br><br><strong>IDPs: </strong>1.099 million (displaced from 1984-2005 because of fighting between the Kurdish PKK and Turkish military; most IDPs are Kurds from eastern and southeastern provinces; no information available on persons displaced by development projects) (2021)<br><br><strong>stateless persons: </strong>117 (2018)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "3,648,983 (Syria) (2022); 145,000 (Ukraine) (as of 19 May 2022)",
-              "value": "3,648,983 (Syria) (2022); 145,000 (Ukraine) (as of 19 May 2022)",
+              "content": "3,650,601 (Syria) (2022); 145,000 (Ukraine) (as of 19 May 2022)",
+              "value": "3,650,601 (Syria) (2022); 145,000 (Ukraine) (as of 19 May 2022)",
               "title": "refugees (country of origin)"
             },
             {

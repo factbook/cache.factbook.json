@@ -1,9 +1,9 @@
 {
   "name": "Greece",
   "code": "GR",
-  "published": "2022-07-13 12:14:57 -0400",
+  "published": "2022-07-20 12:13:56 -0400",
   "region": "Europe",
-  "updated": "2022-07-13 10:17:55 -0400",
+  "updated": "2022-07-19 10:51:45 -0400",
   "media": [
     {
       "type": "flag",
@@ -769,8 +769,8 @@
           "name": "Background",
           "field_id": 325,
           "comparative": false,
-          "content": "Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union (EMU) in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities.&nbsp;Beginning in&nbsp;2010, Greece entered three bailout agreements - with the European Commission, the European Central Bank (ECB), the IMF, and&nbsp;the third in 2015 with&nbsp;the European Stability Mechanism (ESM) - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018.",
-          "value": "Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union (EMU) in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities.&nbsp;Beginning in&nbsp;2010, Greece entered three bailout agreements - with the European Commission, the European Central Bank (ECB), the IMF, and&nbsp;the third in 2015 with&nbsp;the European Stability Mechanism (ESM) - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018."
+          "content": "Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities. Beginning in 2010, Greece entered three bailout agreements - the first two with the European Commission, the European Central Bank, and the IMF; and the third in 2015 with the European Stability Mechanism - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018.",
+          "value": "Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities. Beginning in 2010, Greece entered three bailout agreements - the first two with the European Commission, the European Central Bank, and the IMF; and the third in 2015 with the European Stability Mechanism - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018."
         }
       ]
     },
@@ -1705,9 +1705,9 @@
           "name": "Education expenditures",
           "field_id": 369,
           "comparative": true,
-          "content": "3.6% of GDP (2018)",
+          "content": "3.6% of GDP (2018 est.)",
           "value": "3.6",
-          "estimated": false,
+          "estimated": true,
           "info_date": "2018",
           "suffix": "% of GDP"
         },
@@ -3289,134 +3289,243 @@
           ]
         },
         {
-          "name": "Electricity - production",
-          "field_id": 252,
-          "comparative": true,
-          "content": "52.05 billion kWh (2016 est.)",
-          "value": "52050000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity",
+          "field_id": 435,
+          "comparative": false,
+          "content": "<strong>Installed generating capacity: </strong>21.545 million kW (2020 est.)<br><br><strong>Consumption: </strong>46.18 billion kWh (2020 est.)<br><br><strong>Exports: </strong>967 million kWh (2020 est.)<br><br><strong>Imports: </strong>9.831 billion kWh (2020 est.)<br><br><strong>Transmission/distribution losses: </strong>3.256 billion kWh (2020 est.)",
+          "subfields": [
+            {
+              "name": "Installed generating capacity",
+              "content": "21.545 million kW (2020 est.)",
+              "title": "Installed generating capacity",
+              "value": "21545000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kW"
+            },
+            {
+              "name": "Consumption",
+              "content": "46.18 billion kWh (2020 est.)",
+              "title": "Consumption",
+              "value": "46180000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Exports",
+              "content": "967 million kWh (2020 est.)",
+              "title": "Exports",
+              "value": "967000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Imports",
+              "content": "9.831 billion kWh (2020 est.)",
+              "title": "Imports",
+              "value": "9831000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Transmission/distribution losses",
+              "content": "3.256 billion kWh (2020 est.)",
+              "title": "Transmission/distribution losses",
+              "value": "3256000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            }
+          ]
         },
         {
-          "name": "Electricity - consumption",
-          "field_id": 253,
-          "comparative": true,
-          "content": "56.89 billion kWh (2016 est.)",
-          "value": "56890000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity generation sources",
+          "field_id": 436,
+          "comparative": false,
+          "content": "<strong>Fossil fuels: </strong>56.5% of total installed capacity (2020 est.)<br><br><strong>Nuclear: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Solar: </strong>10.7% of total installed capacity (2020 est.)<br><br><strong>Wind: </strong>23% of total installed capacity (2020 est.)<br><br><strong>Hydroelectricity: </strong>8.5% of total installed capacity (2020 est.)<br><br><strong>Tide and wave: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Geothermal: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Biomass and waste: </strong>1.4% of total installed capacity (2020 est.)",
+          "subfields": [
+            {
+              "name": "Fossil fuels",
+              "content": "56.5% of total installed capacity (2020 est.)",
+              "title": "Fossil fuels",
+              "value": "56.5",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Nuclear",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Nuclear",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Solar",
+              "content": "10.7% of total installed capacity (2020 est.)",
+              "title": "Solar",
+              "value": "10.7",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Wind",
+              "content": "23% of total installed capacity (2020 est.)",
+              "title": "Wind",
+              "value": "23",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Hydroelectricity",
+              "content": "8.5% of total installed capacity (2020 est.)",
+              "title": "Hydroelectricity",
+              "value": "8.5",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Tide and wave",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Tide and wave",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Geothermal",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Geothermal",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Biomass and waste",
+              "content": "1.4% of total installed capacity (2020 est.)",
+              "title": "Biomass and waste",
+              "value": "1.4",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            }
+          ]
         },
         {
-          "name": "Electricity - exports",
-          "field_id": 254,
-          "comparative": true,
-          "content": "1.037 billion kWh (2016 est.)",
-          "value": "1037000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Coal",
+          "field_id": 437,
+          "comparative": false,
+          "content": "<strong>Production: </strong>13.851 million metric tons (2020 est.)<br><br><strong>Consumption: </strong>13.828 million metric tons (2020 est.)<br><br><strong>Exports: </strong>7,000 metric tons (2020 est.)<br><br><strong>Imports: </strong>305,000 metric tons (2020 est.)<br><br><strong>Proven reserves: </strong>2.876 billion metric tons (2019 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "13.851 million metric tons (2020 est.)",
+              "title": "Production",
+              "value": "13851000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Consumption",
+              "content": "13.828 million metric tons (2020 est.)",
+              "title": "Consumption",
+              "value": "13828000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Exports",
+              "content": "7,000 metric tons (2020 est.)",
+              "title": "Exports",
+              "value": "7000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Imports",
+              "content": "305,000 metric tons (2020 est.)",
+              "title": "Imports",
+              "value": "305000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "2.876 billion metric tons (2019 est.)",
+              "title": "Proven reserves",
+              "value": "2876000000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tons"
+            }
+          ]
         },
         {
-          "name": "Electricity - imports",
-          "field_id": 255,
-          "comparative": true,
-          "content": "9.833 billion kWh (2016 est.)",
-          "value": "9833000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
-        },
-        {
-          "name": "Electricity - installed generating capacity",
-          "field_id": 256,
-          "comparative": true,
-          "content": "19.17 million kW (2016 est.)",
-          "value": "19170000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kW"
-        },
-        {
-          "name": "Electricity - from fossil fuels",
-          "field_id": 257,
-          "comparative": true,
-          "content": "57% of total installed capacity (2016 est.)",
-          "value": "57",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from nuclear fuels",
-          "field_id": 258,
-          "comparative": true,
-          "content": "0% of total installed capacity (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from hydroelectric plants",
-          "field_id": 259,
-          "comparative": true,
-          "content": "14% of total installed capacity (2017 est.)",
-          "value": "14",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from other renewable sources",
-          "field_id": 260,
-          "comparative": true,
-          "content": "29% of total installed capacity (2017 est.)",
-          "value": "29",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Crude oil - production",
-          "field_id": 261,
-          "comparative": true,
-          "content": "4,100 bbl/day (2018 est.)",
-          "value": "4100",
-          "estimated": true,
-          "info_date": "2018",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - exports",
-          "field_id": 262,
-          "comparative": true,
-          "content": "3,229 bbl/day (2017 est.)",
-          "value": "3229",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - imports",
-          "field_id": 263,
-          "comparative": true,
-          "content": "484,300 bbl/day (2017 est.)",
-          "value": "484300",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - proved reserves",
-          "field_id": 264,
-          "comparative": true,
-          "content": "10 million bbl (1 January 2018 est.)",
-          "value": "10000000",
-          "estimated": true,
-          "info_date": "1 January 2018",
-          "suffix": "bbl"
+          "name": "Petroleum",
+          "field_id": 438,
+          "comparative": false,
+          "content": "<strong>Total petroleum production: </strong>4,800 bbl/day (2021 est.)<br><br><strong>Refined petroleum consumption: </strong>309,600 bbl/day (2019 est.)<br><br><strong>Crude oil and lease condensate exports: </strong>4,100 barrels/day (2018 est.)<br><br><strong>Crude oil and lease condensate imports: </strong>491,300 barrels/day (2018 est.)<br><br><strong>Crude oil estimated reserves: </strong>10 million barrels (2021 est.)",
+          "subfields": [
+            {
+              "name": "Total petroleum production",
+              "content": "4,800 bbl/day (2021 est.)",
+              "title": "Total petroleum production",
+              "value": "4800",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Refined petroleum consumption",
+              "content": "309,600 bbl/day (2019 est.)",
+              "title": "Refined petroleum consumption",
+              "value": "309600",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Crude oil and lease condensate exports",
+              "content": "4,100 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate exports",
+              "value": "4100",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil and lease condensate imports",
+              "content": "491,300 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate imports",
+              "value": "491300",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil estimated reserves",
+              "content": "10 million barrels (2021 est.)",
+              "title": "Crude oil estimated reserves",
+              "value": "10000000",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "barrels"
+            }
+          ]
         },
         {
           "name": "Refined petroleum products - production",
@@ -3424,16 +3533,6 @@
           "comparative": true,
           "content": "655,400 bbl/day (2017 est.)",
           "value": "655400",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - consumption",
-          "field_id": 266,
-          "comparative": true,
-          "content": "304,100 bbl/day (2017 est.)",
-          "value": "304100",
           "estimated": true,
           "info_date": "2017",
           "suffix": "bbl/day"
@@ -3459,54 +3558,115 @@
           "suffix": "bbl/day"
         },
         {
-          "name": "Natural gas - production",
-          "field_id": 269,
-          "comparative": true,
-          "content": "8 million cu m (2017 est.)",
-          "value": "8000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "name": "Natural gas",
+          "field_id": 440,
+          "comparative": false,
+          "content": "<strong>Production: </strong>5.748 million cubic meters (2019 est.)<br><br><strong>Consumption: </strong>5,831,987,000 cubic meters (2020 est.)<br><br><strong>Exports: </strong>33.244 million cubic meters (2020 est.)<br><br><strong>Imports: </strong>5,219,409,000 cubic meters (2019 est.)<br><br><strong>Proven reserves: </strong>991 million cubic meters (2021 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "5.748 million cubic meters (2019 est.)",
+              "title": "Production",
+              "value": "5748000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Consumption",
+              "content": "5,831,987,000 cubic meters (2020 est.)",
+              "title": "Consumption",
+              "value": "5831987000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Exports",
+              "content": "33.244 million cubic meters (2020 est.)",
+              "title": "Exports",
+              "value": "33244000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Imports",
+              "content": "5,219,409,000 cubic meters (2019 est.)",
+              "title": "Imports",
+              "value": "5219409000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "991 million cubic meters (2021 est.)",
+              "title": "Proven reserves",
+              "value": "991000000",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            }
+          ]
         },
         {
-          "name": "Natural gas - consumption",
-          "field_id": 270,
+          "name": "Carbon dioxide emissions",
+          "field_id": 274,
           "comparative": true,
-          "content": "4.927 billion cu m (2017 est.)",
-          "value": "4927000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "content": "70.163 million metric tonnes of CO2 (2019 est.)<br><br><strong>From coal and metallurgical coke: </strong>13.404 million metric tonnes of CO2 (2019 est.)<br><br><strong>From petroleum and other liquids: </strong>46.401 million metric tonnes of CO2 (2019 est.)<br><br><strong>From consumed natural gas: </strong>10.358 million metric tonnes of CO2 (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total emissions",
+              "content": "70.163 million metric tonnes of CO2 (2019 est.)",
+              "value": "70163000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From coal and metallurgical coke",
+              "content": "13.404 million metric tonnes of CO2 (2019 est.)",
+              "title": "From coal and metallurgical coke",
+              "value": "13404000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From petroleum and other liquids",
+              "content": "46.401 million metric tonnes of CO2 (2019 est.)",
+              "title": "From petroleum and other liquids",
+              "value": "46401000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From consumed natural gas",
+              "content": "10.358 million metric tonnes of CO2 (2019 est.)",
+              "title": "From consumed natural gas",
+              "value": "10358000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            }
+          ]
         },
         {
-          "name": "Natural gas - exports",
-          "field_id": 271,
+          "name": "Energy consumption per capita",
+          "field_id": 441,
           "comparative": true,
-          "content": "0 cu m (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - imports",
-          "field_id": 272,
-          "comparative": true,
-          "content": "4.984 billion cu m (2017 est.)",
-          "value": "4984000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - proved reserves",
-          "field_id": 273,
-          "comparative": true,
-          "content": "991.1 million cu m (1 January 2018 est.)",
-          "value": "991100000",
-          "estimated": true,
-          "info_date": "1 January 2018",
-          "suffix": "cu m"
+          "content": "108.022 million Btu/person (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total energy consumption per capita 2019",
+              "content": "108.022 million Btu/person (2019 est.)",
+              "value": "108022000",
+              "estimated": true,
+              "suffix": "Btu/person"
+            }
+          ]
         }
       ]
     },
@@ -3818,7 +3978,7 @@
           "name": "Railways",
           "field_id": 384,
           "comparative": true,
-          "content": "<strong>total: </strong>2,548 km (2014)<br><br><strong>standard gauge: </strong>1,565 km (2014) 1.435-m gauge (764 km electrified)<br><br><strong>narrow gauge: </strong>961 km (2014) 1.000-m gauge<br><br>22 0.750-m gauge",
+          "content": "<strong>total: </strong>2,548 km (2014)<br><br><strong>standard gauge: </strong>1,565 km (2014) 1.435-m gauge (764 km electrified)<br><br><strong>narrow gauge: </strong>961 km (2014) 1.000-m gauge<br><br>220.750 km-mm gauge",
           "subfields": [
             {
               "name": "total",
@@ -3850,7 +4010,7 @@
               "subfield_note": "1.000-m gauge"
             }
           ],
-          "field_note": "22 0.750-m gauge"
+          "field_note": "220.750 km-mm gauge"
         },
         {
           "name": "Roadways",
@@ -4067,12 +4227,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>38,496 (Syria), 25,188 (Afghanistan), 12,657 (Iraq), 5,002 (West Bank and Gaza) (mid-year 2021); 15,565 (Ukraine) (as of 14 June 2022)<br><br><strong>stateless persons: </strong>5,552 (mid-year 2021)<br><br><strong>note:</strong> 1,219,209 estimated refugee and migrant arrivals (January 2015-July 2022); as of the end of February 2022, Greece hosted an estimated 161,419 refugees and asylum seekers",
+          "content": "<strong>refugees (country of origin): </strong>38,496 (Syria), 25,188 (Afghanistan), 12,657 (Iraq), 5,002 (West Bank and Gaza) (mid-year 2021); 16,804 (Ukraine) (as of 12 July 2022)<br><br><strong>stateless persons: </strong>5,552 (mid-year 2021)<br><br><strong>note:</strong> 1,219,316 estimated refugee and migrant arrivals (January 2015-July 2022); as of the end of February 2022, Greece hosted an estimated 161,419 refugees and asylum seekers",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "38,496 (Syria), 25,188 (Afghanistan), 12,657 (Iraq), 5,002 (West Bank and Gaza) (mid-year 2021); 15,565 (Ukraine) (as of 14 June 2022)",
-              "value": "38,496 (Syria), 25,188 (Afghanistan), 12,657 (Iraq), 5,002 (West Bank and Gaza) (mid-year 2021); 15,565 (Ukraine) (as of 14 June 2022)",
+              "content": "38,496 (Syria), 25,188 (Afghanistan), 12,657 (Iraq), 5,002 (West Bank and Gaza) (mid-year 2021); 16,804 (Ukraine) (as of 12 July 2022)",
+              "value": "38,496 (Syria), 25,188 (Afghanistan), 12,657 (Iraq), 5,002 (West Bank and Gaza) (mid-year 2021); 16,804 (Ukraine) (as of 12 July 2022)",
               "title": "refugees (country of origin)"
             },
             {
@@ -4082,7 +4242,7 @@
               "title": "stateless persons"
             }
           ],
-          "field_note": "<strong>note:</strong> 1,219,209 estimated refugee and migrant arrivals (January 2015-July 2022); as of the end of February 2022, Greece hosted an estimated 161,419 refugees and asylum seekers"
+          "field_note": "<strong>note:</strong> 1,219,316 estimated refugee and migrant arrivals (January 2015-July 2022); as of the end of February 2022, Greece hosted an estimated 161,419 refugees and asylum seekers"
         },
         {
           "name": "Illicit drugs",

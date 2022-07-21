@@ -1,9 +1,9 @@
 {
   "name": "Switzerland",
   "code": "SZ",
-  "published": "2022-07-13 12:29:49 -0400",
+  "published": "2022-07-20 12:28:26 -0400",
   "region": "Europe",
-  "updated": "2022-07-13 12:21:34 -0400",
+  "updated": "2022-07-15 10:49:36 -0400",
   "media": [
     {
       "type": "flag",
@@ -1168,11 +1168,40 @@
           "name": "Education expenditures",
           "field_id": 369,
           "comparative": true,
-          "content": "4.9% of GDP (2018)",
+          "content": "4.9% of GDP (2018 est.)",
           "value": "4.9",
-          "estimated": false,
+          "estimated": true,
           "info_date": "2018",
           "suffix": "% of GDP"
+        },
+        {
+          "name": "Literacy",
+          "field_id": 370,
+          "comparative": false,
+          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
+          "subfields": [
+            {
+              "name": "total population",
+              "content": "NA",
+              "title": "total population",
+              "suffix": "%",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "male",
+              "content": "NA",
+              "title": "male",
+              "suffix": "%",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "female",
+              "content": "NA",
+              "title": "female",
+              "suffix": "%",
+              "subfield_note": "NA"
+            }
+          ]
         },
         {
           "name": "School life expectancy (primary to tertiary education)",
@@ -2741,134 +2770,243 @@
           ]
         },
         {
-          "name": "Electricity - production",
-          "field_id": 252,
-          "comparative": true,
-          "content": "59.01 billion kWh (2016 est.)",
-          "value": "59010000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity",
+          "field_id": 435,
+          "comparative": false,
+          "content": "<strong>Installed generating capacity: </strong>22.921 million kW (2020 est.)<br><br><strong>Consumption: </strong>56,406,647,000 kWh (2020 est.)<br><br><strong>Exports: </strong>32.549 billion kWh (2020 est.)<br><br><strong>Imports: </strong>26.988 billion kWh (2020 est.)<br><br><strong>Transmission/distribution losses: </strong>4.19 billion kWh (2020 est.)",
+          "subfields": [
+            {
+              "name": "Installed generating capacity",
+              "content": "22.921 million kW (2020 est.)",
+              "title": "Installed generating capacity",
+              "value": "22921000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kW"
+            },
+            {
+              "name": "Consumption",
+              "content": "56,406,647,000 kWh (2020 est.)",
+              "title": "Consumption",
+              "value": "56406647000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Exports",
+              "content": "32.549 billion kWh (2020 est.)",
+              "title": "Exports",
+              "value": "32549000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Imports",
+              "content": "26.988 billion kWh (2020 est.)",
+              "title": "Imports",
+              "value": "26988000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Transmission/distribution losses",
+              "content": "4.19 billion kWh (2020 est.)",
+              "title": "Transmission/distribution losses",
+              "value": "4190000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            }
+          ]
         },
         {
-          "name": "Electricity - consumption",
-          "field_id": 253,
-          "comparative": true,
-          "content": "58.46 billion kWh (2016 est.)",
-          "value": "58460000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity generation sources",
+          "field_id": 436,
+          "comparative": false,
+          "content": "<strong>Fossil fuels: </strong>0.8% of total installed capacity (2020 est.)<br><br><strong>Nuclear: </strong>34.2% of total installed capacity (2020 est.)<br><br><strong>Solar: </strong>3.8% of total installed capacity (2020 est.)<br><br><strong>Wind: </strong>0.2% of total installed capacity (2020 est.)<br><br><strong>Hydroelectricity: </strong>56.3% of total installed capacity (2020 est.)<br><br><strong>Tide and wave: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Geothermal: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Biomass and waste: </strong>4.7% of total installed capacity (2020 est.)",
+          "subfields": [
+            {
+              "name": "Fossil fuels",
+              "content": "0.8% of total installed capacity (2020 est.)",
+              "title": "Fossil fuels",
+              "value": "0.8",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Nuclear",
+              "content": "34.2% of total installed capacity (2020 est.)",
+              "title": "Nuclear",
+              "value": "34.2",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Solar",
+              "content": "3.8% of total installed capacity (2020 est.)",
+              "title": "Solar",
+              "value": "3.8",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Wind",
+              "content": "0.2% of total installed capacity (2020 est.)",
+              "title": "Wind",
+              "value": "0.2",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Hydroelectricity",
+              "content": "56.3% of total installed capacity (2020 est.)",
+              "title": "Hydroelectricity",
+              "value": "56.3",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Tide and wave",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Tide and wave",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Geothermal",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Geothermal",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Biomass and waste",
+              "content": "4.7% of total installed capacity (2020 est.)",
+              "title": "Biomass and waste",
+              "value": "4.7",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            }
+          ]
         },
         {
-          "name": "Electricity - exports",
-          "field_id": 254,
-          "comparative": true,
-          "content": "30.17 billion kWh (2016 est.)",
-          "value": "30170000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Coal",
+          "field_id": 437,
+          "comparative": false,
+          "content": "<strong>Production: </strong>0 metric tons (2020 est.)<br><br><strong>Consumption: </strong>150,000 metric tons (2020 est.)<br><br><strong>Exports: </strong>0 metric tons (2020 est.)<br><br><strong>Imports: </strong>139,000 metric tons (2020 est.)<br><br><strong>Proven reserves: </strong>0 metric tons (2019 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "0 metric tons (2020 est.)",
+              "title": "Production",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Consumption",
+              "content": "150,000 metric tons (2020 est.)",
+              "title": "Consumption",
+              "value": "150000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Exports",
+              "content": "0 metric tons (2020 est.)",
+              "title": "Exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Imports",
+              "content": "139,000 metric tons (2020 est.)",
+              "title": "Imports",
+              "value": "139000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "0 metric tons (2019 est.)",
+              "title": "Proven reserves",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tons"
+            }
+          ]
         },
         {
-          "name": "Electricity - imports",
-          "field_id": 255,
-          "comparative": true,
-          "content": "34.1 billion kWh (2016 est.)",
-          "value": "34100000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
-        },
-        {
-          "name": "Electricity - installed generating capacity",
-          "field_id": 256,
-          "comparative": true,
-          "content": "20.84 million kW (2016 est.)",
-          "value": "20840000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kW"
-        },
-        {
-          "name": "Electricity - from fossil fuels",
-          "field_id": 257,
-          "comparative": true,
-          "content": "3% of total installed capacity (2016 est.)",
-          "value": "3",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from nuclear fuels",
-          "field_id": 258,
-          "comparative": true,
-          "content": "18% of total installed capacity (2017 est.)",
-          "value": "18",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from hydroelectric plants",
-          "field_id": 259,
-          "comparative": true,
-          "content": "67% of total installed capacity (2017 est.)",
-          "value": "67",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from other renewable sources",
-          "field_id": 260,
-          "comparative": true,
-          "content": "13% of total installed capacity (2017 est.)",
-          "value": "13",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Crude oil - production",
-          "field_id": 261,
-          "comparative": true,
-          "content": "0 bbl/day (2018 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2018",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - exports",
-          "field_id": 262,
-          "comparative": true,
-          "content": "0 bbl/day (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - imports",
-          "field_id": 263,
-          "comparative": true,
-          "content": "57,400 bbl/day (2017 est.)",
-          "value": "57400",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - proved reserves",
-          "field_id": 264,
-          "comparative": true,
-          "content": "0 bbl (1 January 2018 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "1 January 2018",
-          "suffix": "bbl"
+          "name": "Petroleum",
+          "field_id": 438,
+          "comparative": false,
+          "content": "<strong>Total petroleum production: </strong>300 bbl/day (2021 est.)<br><br><strong>Refined petroleum consumption: </strong>220,000 bbl/day (2019 est.)<br><br><strong>Crude oil and lease condensate exports: </strong>0 barrels/day (2018 est.)<br><br><strong>Crude oil and lease condensate imports: </strong>60,900 barrels/day (2018 est.)<br><br><strong>Crude oil estimated reserves: </strong>0 barrels (2021 est.)",
+          "subfields": [
+            {
+              "name": "Total petroleum production",
+              "content": "300 bbl/day (2021 est.)",
+              "title": "Total petroleum production",
+              "value": "300",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Refined petroleum consumption",
+              "content": "220,000 bbl/day (2019 est.)",
+              "title": "Refined petroleum consumption",
+              "value": "220000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Crude oil and lease condensate exports",
+              "content": "0 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil and lease condensate imports",
+              "content": "60,900 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate imports",
+              "value": "60900",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil estimated reserves",
+              "content": "0 barrels (2021 est.)",
+              "title": "Crude oil estimated reserves",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "barrels"
+            }
+          ]
         },
         {
           "name": "Refined petroleum products - production",
@@ -2876,16 +3014,6 @@
           "comparative": true,
           "content": "61,550 bbl/day (2017 est.)",
           "value": "61550",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - consumption",
-          "field_id": 266,
-          "comparative": true,
-          "content": "223,900 bbl/day (2017 est.)",
-          "value": "223900",
           "estimated": true,
           "info_date": "2017",
           "suffix": "bbl/day"
@@ -2911,54 +3039,115 @@
           "suffix": "bbl/day"
         },
         {
-          "name": "Natural gas - production",
-          "field_id": 269,
-          "comparative": true,
-          "content": "0 cu m (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "name": "Natural gas",
+          "field_id": 440,
+          "comparative": false,
+          "content": "<strong>Production: </strong>0 cubic meters (2021 est.)<br><br><strong>Consumption: </strong>3,616,169,000 cubic meters (2019 est.)<br><br><strong>Exports: </strong>0 cubic meters (2021 est.)<br><br><strong>Imports: </strong>3,577,884,000 cubic meters (2019 est.)<br><br><strong>Proven reserves: </strong>0 cubic meters (2021 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "0 cubic meters (2021 est.)",
+              "title": "Production",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Consumption",
+              "content": "3,616,169,000 cubic meters (2019 est.)",
+              "title": "Consumption",
+              "value": "3616169000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Exports",
+              "content": "0 cubic meters (2021 est.)",
+              "title": "Exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Imports",
+              "content": "3,577,884,000 cubic meters (2019 est.)",
+              "title": "Imports",
+              "value": "3577884000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "0 cubic meters (2021 est.)",
+              "title": "Proven reserves",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            }
+          ]
         },
         {
-          "name": "Natural gas - consumption",
-          "field_id": 270,
+          "name": "Carbon dioxide emissions",
+          "field_id": 274,
           "comparative": true,
-          "content": "3.709 billion cu m (2017 est.)",
-          "value": "3709000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "content": "38.739 million metric tonnes of CO2 (2019 est.)<br><br><strong>From coal and metallurgical coke: </strong>319,000 metric tonnes of CO2 (2019 est.)<br><br><strong>From petroleum and other liquids: </strong>31.494 million metric tonnes of CO2 (2019 est.)<br><br><strong>From consumed natural gas: </strong>6.926 million metric tonnes of CO2 (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total emissions",
+              "content": "38.739 million metric tonnes of CO2 (2019 est.)",
+              "value": "38739000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From coal and metallurgical coke",
+              "content": "319,000 metric tonnes of CO2 (2019 est.)",
+              "title": "From coal and metallurgical coke",
+              "value": "319000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From petroleum and other liquids",
+              "content": "31.494 million metric tonnes of CO2 (2019 est.)",
+              "title": "From petroleum and other liquids",
+              "value": "31494000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From consumed natural gas",
+              "content": "6.926 million metric tonnes of CO2 (2019 est.)",
+              "title": "From consumed natural gas",
+              "value": "6926000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            }
+          ]
         },
         {
-          "name": "Natural gas - exports",
-          "field_id": 271,
+          "name": "Energy consumption per capita",
+          "field_id": 441,
           "comparative": true,
-          "content": "0 cu m (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - imports",
-          "field_id": 272,
-          "comparative": true,
-          "content": "3.681 billion cu m (2017 est.)",
-          "value": "3681000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - proved reserves",
-          "field_id": 273,
-          "comparative": true,
-          "content": "(1 January 2011 est.) NA cu m",
-          "estimated": true,
-          "info_date": "1 January 2011",
-          "suffix": "cu m",
-          "subfield_note": "NA cu m"
+          "content": "137.918 million Btu/person (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total energy consumption per capita 2019",
+              "content": "137.918 million Btu/person (2019 est.)",
+              "value": "137918000",
+              "estimated": true,
+              "suffix": "Btu/person"
+            }
+          ]
         }
       ]
     },
@@ -3264,13 +3453,13 @@
           "name": "Railways",
           "field_id": 384,
           "comparative": true,
-          "content": "<strong>total: </strong>5,690 km (2015) (includes 19 km in neighboring countries)<br><br><strong>standard gauge: </strong>3,836 km (2015) 1.435-m gauge (3,634 km electrified)<br><br><strong>narrow gauge: </strong>1,630 km (2015) 1.200-m gauge (2 km electrified) (includes 19 km in neighboring countries)<br><br>1188 km 1.000-m gauge (1,167.3 km electrified)<br />36 km 0.800-m gauge (36.4 km electrified)",
+          "content": "<strong>total: </strong>5,466 km (2015) (includes 19 km in neighboring countries)<br><br><strong>standard gauge: </strong>3,836 km (2015) 1.435-m gauge (3,634 km electrified)<br><br><strong>narrow gauge: </strong>1,630 km (2015) 1.200-m gauge (2 km electrified) (includes 19 km in neighboring countries)<br><br>1188 km 1.000-mm gauge (1,167.3 km electrified)<br />36 km 0.800-mm gauge (36.4 km electrified)",
           "subfields": [
             {
               "name": "total",
-              "content": "5,690 km (2015) (includes 19 km in neighboring countries)",
+              "content": "5,466 km (2015) (includes 19 km in neighboring countries)",
               "title": "total",
-              "value": "5690",
+              "value": "5466",
               "estimated": false,
               "info_date": "2015",
               "suffix": "km",
@@ -3297,7 +3486,7 @@
               "subfield_note": "1.200-m gauge (2 km electrified) (includes 19 km in neighboring countries)"
             }
           ],
-          "field_note": "1188 km 1.000-m gauge (1,167.3 km electrified)<br />36 km 0.800-m gauge (36.4 km electrified)"
+          "field_note": "1188 km 1.000-mm gauge (1,167.3 km electrified)<br />36 km 0.800-mm gauge (36.4 km electrified)"
         },
         {
           "name": "Roadways",
@@ -3503,12 +3692,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>38,219 (Eritrea), 20,043 (Syria), 14,649 (Afghanistan), 6,069 (Sri Lanka), 6,197 (Turkey) (mid-year 2021); 56,722 (Ukraine) (as of 5 July 2022)<br><br><strong>stateless persons: </strong>684 (mid-year 2021)",
+          "content": "<strong>refugees (country of origin): </strong>38,219 (Eritrea), 20,043 (Syria), 14,649 (Afghanistan), 6,069 (Sri Lanka), 6,197 (Turkey) (mid-year 2021); 57,380 (Ukraine) (as of 12 July 2022)<br><br><strong>stateless persons: </strong>684 (mid-year 2021)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "38,219 (Eritrea), 20,043 (Syria), 14,649 (Afghanistan), 6,069 (Sri Lanka), 6,197 (Turkey) (mid-year 2021); 56,722 (Ukraine) (as of 5 July 2022)",
-              "value": "38,219 (Eritrea), 20,043 (Syria), 14,649 (Afghanistan), 6,069 (Sri Lanka), 6,197 (Turkey) (mid-year 2021); 56,722 (Ukraine) (as of 5 July 2022)",
+              "content": "38,219 (Eritrea), 20,043 (Syria), 14,649 (Afghanistan), 6,069 (Sri Lanka), 6,197 (Turkey) (mid-year 2021); 57,380 (Ukraine) (as of 12 July 2022)",
+              "value": "38,219 (Eritrea), 20,043 (Syria), 14,649 (Afghanistan), 6,069 (Sri Lanka), 6,197 (Turkey) (mid-year 2021); 57,380 (Ukraine) (as of 12 July 2022)",
               "title": "refugees (country of origin)"
             },
             {

@@ -1,9 +1,9 @@
 {
   "name": "Somalia",
   "code": "SO",
-  "published": "2022-07-13 12:28:46 -0400",
+  "published": "2022-07-20 12:27:27 -0400",
   "region": "Africa",
-  "updated": "2022-07-13 10:17:55 -0400",
+  "updated": "2022-07-19 11:28:24 -0400",
   "media": [
     {
       "type": "flag",
@@ -1013,6 +1013,35 @@
           "estimated": false,
           "suffix": "% of GDP",
           "subfield_note": "NA"
+        },
+        {
+          "name": "Literacy",
+          "field_id": 370,
+          "comparative": false,
+          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
+          "subfields": [
+            {
+              "name": "total population",
+              "content": "NA",
+              "title": "total population",
+              "suffix": "%",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "male",
+              "content": "NA",
+              "title": "male",
+              "suffix": "%",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "female",
+              "content": "NA",
+              "title": "female",
+              "suffix": "%",
+              "subfield_note": "NA"
+            }
+          ]
         }
       ]
     },
@@ -1491,7 +1520,7 @@
           "name": "Executive branch",
           "field_id": 312,
           "comparative": false,
-          "content": "<strong>chief of state: </strong>President HASSAN SHEIKH Mohamud (since 23 May 2022)<br><br><strong>head of government: </strong>Prime Minister Mohamed Hussein ROBLE (since 27 September 2020); note - President HASSAN SHEIKH Mohamud nominated Hamza Abdi BARRE on 15 June 2022 to replace ROBLE as Prime Minister but the nomination awaits Somali Federal Parliament approval<br><br><strong>cabinet: </strong>Cabinet appointed by the prime minister, approved by the House of the People<br><br><strong>elections/appointments: </strong>president indirectly elected by the President HASSAN SHEIKH Mohamud by two-thirds majority vote in 2 rounds if needed for a single 4-year term; election last held on 15 May 2022; prime minister appointed by the president, approved by the House of the People; note - elections were originally scheduled for 10 October 2021 but did not take place; on 13 April 2022, the election of the House of the People representatives was completed and the presidential election date was set for 15 May<br><br><strong>election results: </strong><br /><em>2022:</em> an indirect election by Somalia's Federal Parliament was held on 15 May 2022 resulting in the defeat of former president Mohamed ABDULLAHI Mohamed \"Farmaajo\"; HASSAN SHEIKH Mohamud elected president in third round - Federal Parliament third round vote - HASSAN SHEIKH Mohamud (PDP) 214, Mohamed ABDULLAHI Mohamed \"Farmaajo\" (TPP) 110<br /><br /><em>2017:</em> Mohamed ABDULLAHI Mohamed \"Farmaajo\" elected president in second round; Federal Parliament second round vote - Mohamed ABDULLAHI Mohamed \"Farmaajo\" (TPP) 184, HASSAN SHEIKH Mohamud (PDP) 97, Sheikh SHARIF Sheikh Ahmed (ARS) 46",
+          "content": "<strong>chief of state: </strong>President HASSAN SHEIKH Mohamud (since 23 May 2022)<br><br><strong>head of government: </strong>Prime Minister Hamza Abdi BARRE (since 25 June 2022)<br><br><strong>cabinet: </strong>Cabinet appointed by the prime minister, approved by the House of the People<br><br><strong>elections/appointments: </strong>president indirectly elected by the President HASSAN SHEIKH Mohamud by two-thirds majority vote in 2 rounds if needed for a single 4-year term; election last held on 15 May 2022; prime minister appointed by the president, approved by the House of the People; note - elections were originally scheduled for 10 October 2021 but did not take place; on 13 April 2022, the election of the House of the People representatives was completed and the presidential election date was set for 15 May<br><br><strong>election results: </strong><br /><em>2022:</em> an indirect election by Somalia's Federal Parliament was held on 15 May 2022 resulting in the defeat of former president Mohamed ABDULLAHI Mohamed \"Farmaajo\"; HASSAN SHEIKH Mohamud elected president in third round - Federal Parliament third round vote - HASSAN SHEIKH Mohamud (PDP) 214, Mohamed ABDULLAHI Mohamed \"Farmaajo\" (TPP) 110<br /><br /><em>2017:</em> Mohamed ABDULLAHI Mohamed \"Farmaajo\" elected president in second round; Federal Parliament second round vote - Mohamed ABDULLAHI Mohamed \"Farmaajo\" (TPP) 184, HASSAN SHEIKH Mohamud (PDP) 97, Sheikh SHARIF Sheikh Ahmed (ARS) 46",
           "subfields": [
             {
               "name": "chief of state",
@@ -1501,8 +1530,8 @@
             },
             {
               "name": "head of government",
-              "content": "Prime Minister Mohamed Hussein ROBLE (since 27 September 2020); note - President HASSAN SHEIKH Mohamud nominated Hamza Abdi BARRE on 15 June 2022 to replace ROBLE as Prime Minister but the nomination awaits Somali Federal Parliament approval",
-              "value": "Prime Minister Mohamed Hussein ROBLE (since 27 September 2020); note - President HASSAN SHEIKH Mohamud nominated Hamza Abdi BARRE on 15 June 2022 to replace ROBLE as Prime Minister but the nomination awaits Somali Federal Parliament approval",
+              "content": "Prime Minister Hamza Abdi BARRE (since 25 June 2022)",
+              "value": "Prime Minister Hamza Abdi BARRE (since 25 June 2022)",
               "title": "head of government"
             },
             {
@@ -2296,134 +2325,243 @@
           ]
         },
         {
-          "name": "Electricity - production",
-          "field_id": 252,
-          "comparative": true,
-          "content": "339 million kWh (2016 est.)",
-          "value": "339000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity",
+          "field_id": 435,
+          "comparative": false,
+          "content": "<strong>Installed generating capacity: </strong>91,000 kW (2020 est.)<br><br><strong>Consumption: </strong>311.2 million kWh (2019 est.)<br><br><strong>Exports: </strong>0 kWh (2019 est.)<br><br><strong>Imports: </strong>0 kWh (2019 est.)<br><br><strong>Transmission/distribution losses: </strong>35 million kWh (2019 est.)",
+          "subfields": [
+            {
+              "name": "Installed generating capacity",
+              "content": "91,000 kW (2020 est.)",
+              "title": "Installed generating capacity",
+              "value": "91000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kW"
+            },
+            {
+              "name": "Consumption",
+              "content": "311.2 million kWh (2019 est.)",
+              "title": "Consumption",
+              "value": "311200000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Exports",
+              "content": "0 kWh (2019 est.)",
+              "title": "Exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Imports",
+              "content": "0 kWh (2019 est.)",
+              "title": "Imports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Transmission/distribution losses",
+              "content": "35 million kWh (2019 est.)",
+              "title": "Transmission/distribution losses",
+              "value": "35000000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "kWh"
+            }
+          ]
         },
         {
-          "name": "Electricity - consumption",
-          "field_id": 253,
-          "comparative": true,
-          "content": "315.3 million kWh (2016 est.)",
-          "value": "315300000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity generation sources",
+          "field_id": 436,
+          "comparative": false,
+          "content": "<strong>Fossil fuels: </strong>95.3% of total installed capacity (2020 est.)<br><br><strong>Nuclear: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Solar: </strong>3% of total installed capacity (2020 est.)<br><br><strong>Wind: </strong>1.7% of total installed capacity (2020 est.)<br><br><strong>Hydroelectricity: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Tide and wave: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Geothermal: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Biomass and waste: </strong>0% of total installed capacity (2020 est.)",
+          "subfields": [
+            {
+              "name": "Fossil fuels",
+              "content": "95.3% of total installed capacity (2020 est.)",
+              "title": "Fossil fuels",
+              "value": "95.3",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Nuclear",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Nuclear",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Solar",
+              "content": "3% of total installed capacity (2020 est.)",
+              "title": "Solar",
+              "value": "3",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Wind",
+              "content": "1.7% of total installed capacity (2020 est.)",
+              "title": "Wind",
+              "value": "1.7",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Hydroelectricity",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Hydroelectricity",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Tide and wave",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Tide and wave",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Geothermal",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Geothermal",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Biomass and waste",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Biomass and waste",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            }
+          ]
         },
         {
-          "name": "Electricity - exports",
-          "field_id": 254,
-          "comparative": true,
-          "content": "0 kWh (2016 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Coal",
+          "field_id": 437,
+          "comparative": false,
+          "content": "<strong>Production: </strong>0 metric tons (2020 est.)<br><br><strong>Consumption: </strong>0 metric tons (2020 est.)<br><br><strong>Exports: </strong>0 metric tons (2020 est.)<br><br><strong>Imports: </strong>0 metric tons (2020 est.)<br><br><strong>Proven reserves: </strong>0 metric tons (2019 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "0 metric tons (2020 est.)",
+              "title": "Production",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Consumption",
+              "content": "0 metric tons (2020 est.)",
+              "title": "Consumption",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Exports",
+              "content": "0 metric tons (2020 est.)",
+              "title": "Exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Imports",
+              "content": "0 metric tons (2020 est.)",
+              "title": "Imports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "0 metric tons (2019 est.)",
+              "title": "Proven reserves",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tons"
+            }
+          ]
         },
         {
-          "name": "Electricity - imports",
-          "field_id": 255,
-          "comparative": true,
-          "content": "0 kWh (2016 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
-        },
-        {
-          "name": "Electricity - installed generating capacity",
-          "field_id": 256,
-          "comparative": true,
-          "content": "85,000 kW (2016 est.)",
-          "value": "85000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kW"
-        },
-        {
-          "name": "Electricity - from fossil fuels",
-          "field_id": 257,
-          "comparative": true,
-          "content": "93% of total installed capacity (2016 est.)",
-          "value": "93",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from nuclear fuels",
-          "field_id": 258,
-          "comparative": true,
-          "content": "0% of total installed capacity (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from hydroelectric plants",
-          "field_id": 259,
-          "comparative": true,
-          "content": "0% of total installed capacity (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from other renewable sources",
-          "field_id": 260,
-          "comparative": true,
-          "content": "7% of total installed capacity (2017 est.)",
-          "value": "7",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Crude oil - production",
-          "field_id": 261,
-          "comparative": true,
-          "content": "0 bbl/day (2018 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2018",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - exports",
-          "field_id": 262,
-          "comparative": true,
-          "content": "0 bbl/day (2015 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - imports",
-          "field_id": 263,
-          "comparative": true,
-          "content": "0 bbl/day (2015 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - proved reserves",
-          "field_id": 264,
-          "comparative": true,
-          "content": "0 bbl (1 January 2018 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "1 January 2018",
-          "suffix": "bbl"
+          "name": "Petroleum",
+          "field_id": 438,
+          "comparative": false,
+          "content": "<strong>Total petroleum production: </strong>0 bbl/day (2021 est.)<br><br><strong>Refined petroleum consumption: </strong>5,900 bbl/day (2019 est.)<br><br><strong>Crude oil and lease condensate exports: </strong>0 barrels/day (2018 est.)<br><br><strong>Crude oil and lease condensate imports: </strong>0 barrels/day (2018 est.)<br><br><strong>Crude oil estimated reserves: </strong>0 barrels (2021 est.)",
+          "subfields": [
+            {
+              "name": "Total petroleum production",
+              "content": "0 bbl/day (2021 est.)",
+              "title": "Total petroleum production",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Refined petroleum consumption",
+              "content": "5,900 bbl/day (2019 est.)",
+              "title": "Refined petroleum consumption",
+              "value": "5900",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Crude oil and lease condensate exports",
+              "content": "0 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil and lease condensate imports",
+              "content": "0 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate imports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil estimated reserves",
+              "content": "0 barrels (2021 est.)",
+              "title": "Crude oil estimated reserves",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "barrels"
+            }
+          ]
         },
         {
           "name": "Refined petroleum products - production",
@@ -2433,16 +2571,6 @@
           "value": "0",
           "estimated": true,
           "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - consumption",
-          "field_id": 266,
-          "comparative": true,
-          "content": "5,600 bbl/day (2016 est.)",
-          "value": "5600",
-          "estimated": true,
-          "info_date": "2016",
           "suffix": "bbl/day"
         },
         {
@@ -2466,54 +2594,115 @@
           "suffix": "bbl/day"
         },
         {
-          "name": "Natural gas - production",
-          "field_id": 269,
-          "comparative": true,
-          "content": "0 cu m (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "name": "Natural gas",
+          "field_id": 440,
+          "comparative": false,
+          "content": "<strong>Production: </strong>0 cubic meters (2021 est.)<br><br><strong>Consumption: </strong>0 cubic meters (2021 est.)<br><br><strong>Exports: </strong>0 cubic meters (2021 est.)<br><br><strong>Imports: </strong>0 cubic meters (2021 est.)<br><br><strong>Proven reserves: </strong>5.663 billion cubic meters (2021 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "0 cubic meters (2021 est.)",
+              "title": "Production",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Consumption",
+              "content": "0 cubic meters (2021 est.)",
+              "title": "Consumption",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Exports",
+              "content": "0 cubic meters (2021 est.)",
+              "title": "Exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Imports",
+              "content": "0 cubic meters (2021 est.)",
+              "title": "Imports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "5.663 billion cubic meters (2021 est.)",
+              "title": "Proven reserves",
+              "value": "5663000000",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            }
+          ]
         },
         {
-          "name": "Natural gas - consumption",
-          "field_id": 270,
+          "name": "Carbon dioxide emissions",
+          "field_id": 274,
           "comparative": true,
-          "content": "0 cu m (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "content": "882,000 metric tonnes of CO2 (2019 est.)<br><br><strong>From coal and metallurgical coke: </strong>0 metric tonnes of CO2 (2019 est.)<br><br><strong>From petroleum and other liquids: </strong>882,000 metric tonnes of CO2 (2019 est.)<br><br><strong>From consumed natural gas: </strong>0 metric tonnes of CO2 (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total emissions",
+              "content": "882,000 metric tonnes of CO2 (2019 est.)",
+              "value": "882000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From coal and metallurgical coke",
+              "content": "0 metric tonnes of CO2 (2019 est.)",
+              "title": "From coal and metallurgical coke",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From petroleum and other liquids",
+              "content": "882,000 metric tonnes of CO2 (2019 est.)",
+              "title": "From petroleum and other liquids",
+              "value": "882000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From consumed natural gas",
+              "content": "0 metric tonnes of CO2 (2019 est.)",
+              "title": "From consumed natural gas",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            }
+          ]
         },
         {
-          "name": "Natural gas - exports",
-          "field_id": 271,
+          "name": "Energy consumption per capita",
+          "field_id": 441,
           "comparative": true,
-          "content": "0 cu m (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - imports",
-          "field_id": 272,
-          "comparative": true,
-          "content": "0 cu m (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - proved reserves",
-          "field_id": 273,
-          "comparative": true,
-          "content": "5.663 billion cu m (1 January 2018 est.)",
-          "value": "5663000000",
-          "estimated": true,
-          "info_date": "1 January 2018",
-          "suffix": "cu m"
+          "content": "802,000 Btu/person (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total energy consumption per capita 2019",
+              "content": "802,000 Btu/person (2019 est.)",
+              "value": "802000",
+              "estimated": true,
+              "suffix": "Btu/person"
+            }
+          ]
         }
       ]
     },
@@ -2643,7 +2832,7 @@
           "name": "Broadband - fixed subscriptions",
           "field_id": 206,
           "comparative": true,
-          "content": "<strong>total: </strong>119,000 (2020 est.)<br><br><strong>subscriptions per 100 inhabitants: </strong>0.75 (2020 est.) less than 1",
+          "content": "<strong>total: </strong>119,000 (2020 est.)<br><br><strong>subscriptions per 100 inhabitants: </strong>1 (2020 est.)",
           "subfields": [
             {
               "name": "total",
@@ -2655,12 +2844,11 @@
             },
             {
               "name": "subscriptions per 100 inhabitants",
-              "content": "0.75 (2020 est.) less than 1",
+              "content": "1 (2020 est.)",
               "title": "subscriptions per 100 inhabitants",
-              "value": "0.75",
+              "value": "1",
               "estimated": true,
-              "info_date": "2020",
-              "subfield_note": "less than 1"
+              "info_date": "2020"
             }
           ]
         }
@@ -2941,8 +3129,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "<p>as of 2022, large parts of the country remained outside government control and under the control of the insurgent Islamist group al-Shabaab; al-Shabaab contested government control in some other areas (see <a href=\"https://www.cia.gov/the-world-factbook/references/terrorist-organizations/\">Appendix T</a>)<br /><br />as of 2022, a significant portion of the SNA was comprised of militia forces that lacked the discipline, structure, weapons, and overall capabilities for effective military operations; of the SNA&rsquo;s approximately 13 brigades, the most effective were assessed to be the US-trained Danab (\"Lightning\") Advanced Infantry Brigade and those of the Turkish-trained Gorgor (\"Eagle\") Special Division; in 2020-2021, the Danab Brigade conducted most of the SNA&rsquo;s offensive operations in Somalia and nearly all counterterrorism operations against the al-Shabaab terrorist group; as of 2021, it numbered about 1,000 troops with an eventual projected strength of 3,000, while the Gorgor Division was estimated to have 4,500-5,000 trained troops</p> the African Union Mission in Somalia (AMISOM) operated in the country with the approval of the UN from 2007-2022; its peacekeeping mission included assisting Somali forces in providing security for a stable political process, enabling the gradual handing over of security responsibilities from AMISOM to the Somali security forces, and reducing the threat posed by Al-Shabaab and other armed opposition groups; in May 2022, AMISOM was reconfigured and replaced with the AU Transition Mission in Somalia (ATMIS); the ATMIS mission is to support the Somalia Federal Government (FGS) in implementing the security objectives of the FGS's security transition plan, a comprehensive strategy developed by the FGS and its international partners to gradually transfer security responsibilities from ATMIS to Somali security forces; ATMIS is projected to gradually reduce staffing from its 2022 level of about 20,000 personnel (civilians, military, and police) to zero by the end of 2024&nbsp;<br /><br />UN Assistance Mission in Somalia (UNSOM; established 2013) is mandated by the Security Council to work with the FGS to support national reconciliation, provide advice on peace-building and state-building, monitor the human rights situation, and help coordinate the efforts of the international community<br /><br />the UN Support Office in Somalia (UNSOS; established 2015) is responsible for providing logistical field support to AMISOM, UNSOM, the Somali National Army, and the Somali Police Force on joint operations with AMISOM<br /><br />the European Union Training Mission in Somalia (EUTM-S) has operated in the country since 2010; the EUTM provides advice and training to the Somali military; the US and Turkey maintain separate unilateral military training missions in Somalia; the UAE also maintains a military presence in Somalia (Somaliland)",
-          "value": "<p>as of 2022, large parts of the country remained outside government control and under the control of the insurgent Islamist group al-Shabaab; al-Shabaab contested government control in some other areas (see <a href=\"https://www.cia.gov/the-world-factbook/references/terrorist-organizations/\">Appendix T</a>)<br /><br />as of 2022, a significant portion of the SNA was comprised of militia forces that lacked the discipline, structure, weapons, and overall capabilities for effective military operations; of the SNA&rsquo;s approximately 13 brigades, the most effective were assessed to be the US-trained Danab (\"Lightning\") Advanced Infantry Brigade and those of the Turkish-trained Gorgor (\"Eagle\") Special Division; in 2020-2021, the Danab Brigade conducted most of the SNA&rsquo;s offensive operations in Somalia and nearly all counterterrorism operations against the al-Shabaab terrorist group; as of 2021, it numbered about 1,000 troops with an eventual projected strength of 3,000, while the Gorgor Division was estimated to have 4,500-5,000 trained troops</p> the African Union Mission in Somalia (AMISOM) operated in the country with the approval of the UN from 2007-2022; its peacekeeping mission included assisting Somali forces in providing security for a stable political process, enabling the gradual handing over of security responsibilities from AMISOM to the Somali security forces, and reducing the threat posed by Al-Shabaab and other armed opposition groups; in May 2022, AMISOM was reconfigured and replaced with the AU Transition Mission in Somalia (ATMIS); the ATMIS mission is to support the Somalia Federal Government (FGS) in implementing the security objectives of the FGS's security transition plan, a comprehensive strategy developed by the FGS and its international partners to gradually transfer security responsibilities from ATMIS to Somali security forces; ATMIS is projected to gradually reduce staffing from its 2022 level of about 20,000 personnel (civilians, military, and police) to zero by the end of 2024&nbsp;<br /><br />UN Assistance Mission in Somalia (UNSOM; established 2013) is mandated by the Security Council to work with the FGS to support national reconciliation, provide advice on peace-building and state-building, monitor the human rights situation, and help coordinate the efforts of the international community<br /><br />the UN Support Office in Somalia (UNSOS; established 2015) is responsible for providing logistical field support to AMISOM, UNSOM, the Somali National Army, and the Somali Police Force on joint operations with AMISOM<br /><br />the European Union Training Mission in Somalia (EUTM-S) has operated in the country since 2010; the EUTM provides advice and training to the Somali military; the US and Turkey maintain separate unilateral military training missions in Somalia; the UAE also maintains a military presence in Somalia (Somaliland)"
+          "content": "<p>as of 2022, large parts of the country remained outside government control and under the control of the insurgent Islamist group al-Shabaab; al-Shabaab contested government control in some other areas (see <a href=\"https://www.cia.gov/the-world-factbook/references/terrorist-organizations/\">Appendix T</a>)<br /><br />as of 2022, a significant portion of the SNA was comprised of militia forces that lacked the discipline, structure, weapons, and overall capabilities for effective military operations; of the SNA&rsquo;s approximately 13 brigades, the most effective were assessed to be the US-trained Danab (\"Lightning\") Advanced Infantry Brigade and those of the Turkish-trained Gorgor (\"Eagle\") Special Division; in 2020-2021, the Danab Brigade conducted most of the SNA&rsquo;s offensive operations in Somalia and nearly all counterterrorism operations against the al-Shabaab terrorist group; as of 2022, it numbered about 1,500 troops with an eventual projected strength of 3,000, while the Gorgor Division was estimated to have 4,500-5,000 trained troops</p> the African Union Mission in Somalia (AMISOM) operated in the country with the approval of the UN from 2007-2022; its peacekeeping mission included assisting Somali forces in providing security for a stable political process, enabling the gradual handing over of security responsibilities from AMISOM to the Somali security forces, and reducing the threat posed by Al-Shabaab and other armed opposition groups; in May 2022, AMISOM was reconfigured and replaced with the AU Transition Mission in Somalia (ATMIS); the ATMIS mission is to support the Somalia Federal Government (FGS) in implementing the security objectives of the FGS's security transition plan, a comprehensive strategy developed by the FGS and its international partners to gradually transfer security responsibilities from ATMIS to Somali security forces; ATMIS is projected to gradually reduce staffing from its 2022 level of about 20,000 personnel (civilians, military, and police) to zero by the end of 2024&nbsp;<br /><br />UN Assistance Mission in Somalia (UNSOM; established 2013) is mandated by the Security Council to work with the FGS to support national reconciliation, provide advice on peace-building and state-building, monitor the human rights situation, and help coordinate the efforts of the international community<br /><br />the UN Support Office in Somalia (UNSOS; established 2015) is responsible for providing logistical field support to AMISOM, UNSOM, the Somali National Army, and the Somali Police Force on joint operations with AMISOM<br /><br />the European Union Training Mission in Somalia (EUTM-S) has operated in the country since 2010; the EUTM provides advice and training to the Somali military; the US and Turkey maintain separate unilateral military training missions in Somalia; the UAE also maintains a military presence in Somalia (Somaliland)",
+          "value": "<p>as of 2022, large parts of the country remained outside government control and under the control of the insurgent Islamist group al-Shabaab; al-Shabaab contested government control in some other areas (see <a href=\"https://www.cia.gov/the-world-factbook/references/terrorist-organizations/\">Appendix T</a>)<br /><br />as of 2022, a significant portion of the SNA was comprised of militia forces that lacked the discipline, structure, weapons, and overall capabilities for effective military operations; of the SNA&rsquo;s approximately 13 brigades, the most effective were assessed to be the US-trained Danab (\"Lightning\") Advanced Infantry Brigade and those of the Turkish-trained Gorgor (\"Eagle\") Special Division; in 2020-2021, the Danab Brigade conducted most of the SNA&rsquo;s offensive operations in Somalia and nearly all counterterrorism operations against the al-Shabaab terrorist group; as of 2022, it numbered about 1,500 troops with an eventual projected strength of 3,000, while the Gorgor Division was estimated to have 4,500-5,000 trained troops</p> the African Union Mission in Somalia (AMISOM) operated in the country with the approval of the UN from 2007-2022; its peacekeeping mission included assisting Somali forces in providing security for a stable political process, enabling the gradual handing over of security responsibilities from AMISOM to the Somali security forces, and reducing the threat posed by Al-Shabaab and other armed opposition groups; in May 2022, AMISOM was reconfigured and replaced with the AU Transition Mission in Somalia (ATMIS); the ATMIS mission is to support the Somalia Federal Government (FGS) in implementing the security objectives of the FGS's security transition plan, a comprehensive strategy developed by the FGS and its international partners to gradually transfer security responsibilities from ATMIS to Somali security forces; ATMIS is projected to gradually reduce staffing from its 2022 level of about 20,000 personnel (civilians, military, and police) to zero by the end of 2024&nbsp;<br /><br />UN Assistance Mission in Somalia (UNSOM; established 2013) is mandated by the Security Council to work with the FGS to support national reconciliation, provide advice on peace-building and state-building, monitor the human rights situation, and help coordinate the efforts of the international community<br /><br />the UN Support Office in Somalia (UNSOS; established 2015) is responsible for providing logistical field support to AMISOM, UNSOM, the Somali National Army, and the Somali Police Force on joint operations with AMISOM<br /><br />the European Union Training Mission in Somalia (EUTM-S) has operated in the country since 2010; the EUTM provides advice and training to the Somali military; the US and Turkey maintain separate unilateral military training missions in Somalia; the UAE also maintains a military presence in Somalia (Somaliland)"
         },
         {
           "name": "Maritime threats",
@@ -2982,12 +3170,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>6,979 (Yemen) (mid-year 2021)<br><br><strong>IDPs: </strong>2.968 million (civil war since 1988, clan-based competition for resources; 2011 famine; insecurity because of fighting between al-Shabaab and the Transitional Federal Government's allied forces) (2022)",
+          "content": "<strong>refugees (country of origin): </strong>9,208 (Yemen) (2022)<br><br><strong>IDPs: </strong>2.968 million (civil war since 1988, clan-based competition for resources; 2011 famine; insecurity because of fighting between al-Shabaab and the Transitional Federal Government's allied forces) (2022)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "6,979 (Yemen) (mid-year 2021)",
-              "value": "6,979 (Yemen) (mid-year 2021)",
+              "content": "9,208 (Yemen) (2022)",
+              "value": "9,208 (Yemen) (2022)",
               "title": "refugees (country of origin)"
             },
             {

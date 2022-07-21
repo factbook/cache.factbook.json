@@ -1,9 +1,9 @@
 {
   "name": "Isle of Man",
   "code": "IM",
-  "published": "2022-07-13 12:16:54 -0400",
+  "published": "2022-07-20 12:15:44 -0400",
   "region": "Europe",
-  "updated": "2022-06-24 17:39:37 -0400",
+  "updated": "2022-07-18 11:44:15 -0400",
   "media": [
     {
       "type": "flag",
@@ -765,6 +765,15 @@
           "subfield_note": "NA"
         },
         {
+          "name": "Physicians density",
+          "field_id": 359,
+          "comparative": false,
+          "content": "NA",
+          "estimated": false,
+          "suffix": "physicians/1,000 population",
+          "subfield_note": "NA"
+        },
+        {
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
@@ -852,6 +861,35 @@
           "estimated": false,
           "suffix": "% of GDP",
           "subfield_note": "NA"
+        },
+        {
+          "name": "Literacy",
+          "field_id": 370,
+          "comparative": false,
+          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
+          "subfields": [
+            {
+              "name": "total population",
+              "content": "NA",
+              "title": "total population",
+              "suffix": "%",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "male",
+              "content": "NA",
+              "title": "male",
+              "suffix": "%",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "female",
+              "content": "NA",
+              "title": "female",
+              "suffix": "%",
+              "subfield_note": "NA"
+            }
+          ]
         },
         {
           "name": "Unemployment, youth ages 15-24",
@@ -2011,14 +2049,14 @@
           "name": "Railways",
           "field_id": 384,
           "comparative": true,
-          "content": "<strong>total: </strong>63 km (2008)<br><br><strong>narrow gauge: </strong>6 km (2008) 1.076-m gauge (6 km electrified)<br><br>57 0.914-m gauge (29 km electrified) <strong>note:</strong> primarily summer tourist attractions",
+          "content": "<strong>total: </strong>63 km (2008)<br><br><strong>narrow gauge: </strong>6 km (2008) 1.076-m gauge (6 km electrified)<br><br>57 0.914-mm gauge (29 km electrified) <strong>note:</strong> primarily summer tourist attractions",
           "subfields": [
             {
               "name": "total",
               "content": "63 km (2008)",
               "title": "total",
               "value": "63",
-              "estimated": null,
+              "estimated": false,
               "info_date": "2008",
               "suffix": "km"
             },
@@ -2027,27 +2065,34 @@
               "content": "6 km (2008) 1.076-m gauge (6 km electrified)",
               "title": "narrow gauge",
               "value": "6",
-              "estimated": null,
+              "estimated": false,
               "info_date": "2008",
               "suffix": "km",
               "subfield_note": "1.076-m gauge (6 km electrified)"
             }
           ],
-          "field_note": "57 0.914-m gauge (29 km electrified) <strong>note:</strong> primarily summer tourist attractions"
+          "field_note": "57 0.914-mm gauge (29 km electrified) <strong>note:</strong> primarily summer tourist attractions"
         },
         {
           "name": "Roadways",
           "field_id": 385,
           "comparative": true,
-          "content": "<strong>total: </strong>500 km (2008)",
+          "content": "<strong>total: </strong>1,107 km (2022)<br><br><strong>paved: </strong>1,107 km",
           "subfields": [
             {
               "name": "total",
-              "content": "500 km (2008)",
+              "content": "1,107 km (2022)",
               "title": "total",
-              "value": "500",
-              "estimated": null,
-              "info_date": "2008",
+              "value": "1107",
+              "estimated": false,
+              "info_date": "2022",
+              "suffix": "km"
+            },
+            {
+              "name": "paved",
+              "content": "1,107 km",
+              "title": "paved",
+              "value": "1107",
               "suffix": "km"
             }
           ]

@@ -1,9 +1,9 @@
 {
   "name": "Chile",
   "code": "CI",
-  "published": "2022-07-13 12:08:08 -0400",
+  "published": "2022-07-20 12:07:38 -0400",
   "region": "South America",
-  "updated": "2022-07-13 08:40:04 -0400",
+  "updated": "2022-07-19 14:49:47 -0400",
   "media": [
     {
       "type": "flag",
@@ -189,8 +189,8 @@
           "name": "Background",
           "field_id": 325,
           "comparative": false,
-          "content": "Indigenous groups inhabited central and southern Chile for several thousands of years, living in mixed pastoralist and settled communities, ending with the Inka ruling the north of the country for nearly a century prior to the arrival of the Spanish in the 16th century. The Captaincy General of Chile was founded by the Spanish in 1541, lasting until Chile declared its independence in 1810. The subsequent struggle became tied to other South American independence conflicts, with a decisive victory over the Spanish not being achieved until 1818. In the War of the Pacific (1879-83), Chile defeated Peru and Bolivia to win its current northernmost regions. By the 1880s, the Chilean central government cemented its control over the central and southern regions inhabited by Mapuche Indigenous peoples. Between 1891 and 1973, a series of elected governments succeeded each other until the three-year-old Marxist government of Salvador ALLENDE was overthrown in 1973 by a military coup led by General Augusto PINOCHET, who ruled until a democratically-elected president was inaugurated in 1990. Economic reforms, maintained consistently since the 1980s, contributed to steady growth, reduced poverty rates by over half, and helped secure the country's commitment to democratic and representative government. Chile has increasingly assumed regional and international leadership roles befitting its status as a stable, democratic nation.",
-          "value": "Indigenous groups inhabited central and southern Chile for several thousands of years, living in mixed pastoralist and settled communities, ending with the Inka ruling the north of the country for nearly a century prior to the arrival of the Spanish in the 16th century. The Captaincy General of Chile was founded by the Spanish in 1541, lasting until Chile declared its independence in 1810. The subsequent struggle became tied to other South American independence conflicts, with a decisive victory over the Spanish not being achieved until 1818. In the War of the Pacific (1879-83), Chile defeated Peru and Bolivia to win its current northernmost regions. By the 1880s, the Chilean central government cemented its control over the central and southern regions inhabited by Mapuche Indigenous peoples. Between 1891 and 1973, a series of elected governments succeeded each other until the three-year-old Marxist government of Salvador ALLENDE was overthrown in 1973 by a military coup led by General Augusto PINOCHET, who ruled until a democratically-elected president was inaugurated in 1990. Economic reforms, maintained consistently since the 1980s, contributed to steady growth, reduced poverty rates by over half, and helped secure the country's commitment to democratic and representative government. Chile has increasingly assumed regional and international leadership roles befitting its status as a stable, democratic nation."
+          "content": "Indigenous groups inhabited central and southern Chile for several thousands of years, living in mixed pastoralist and settled communities, ending with the Inca ruling the north of the country for nearly a century prior to the arrival of the Spanish in the 16th century. The Captaincy General of Chile was founded by the Spanish in 1541, lasting until Chile declared its independence in 1810. The subsequent struggle became tied to other South American independence conflicts, with a decisive victory over the Spanish not being achieved until 1818. In the War of the Pacific (1879-83), Chile defeated Peru and Bolivia to win its current northernmost regions. By the 1880s, the Chilean central government cemented its control over the central and southern regions inhabited by Mapuche Indigenous peoples. Between 1891 and 1973, a series of elected governments succeeded each other until the three-year-old Marxist government of Salvador ALLENDE was overthrown in 1973 by a military coup led by General Augusto PINOCHET, who ruled until a democratically elected president was inaugurated in 1990. Economic reforms, maintained consistently since the 1980s, contributed to steady growth, reduced poverty rates by over half, and helped secure the country's commitment to democratic and representative government. Chile has increasingly assumed regional and international leadership roles befitting its status as a stable, democratic nation.",
+          "value": "Indigenous groups inhabited central and southern Chile for several thousands of years, living in mixed pastoralist and settled communities, ending with the Inca ruling the north of the country for nearly a century prior to the arrival of the Spanish in the 16th century. The Captaincy General of Chile was founded by the Spanish in 1541, lasting until Chile declared its independence in 1810. The subsequent struggle became tied to other South American independence conflicts, with a decisive victory over the Spanish not being achieved until 1818. In the War of the Pacific (1879-83), Chile defeated Peru and Bolivia to win its current northernmost regions. By the 1880s, the Chilean central government cemented its control over the central and southern regions inhabited by Mapuche Indigenous peoples. Between 1891 and 1973, a series of elected governments succeeded each other until the three-year-old Marxist government of Salvador ALLENDE was overthrown in 1973 by a military coup led by General Augusto PINOCHET, who ruled until a democratically elected president was inaugurated in 1990. Economic reforms, maintained consistently since the 1980s, contributed to steady growth, reduced poverty rates by over half, and helped secure the country's commitment to democratic and representative government. Chile has increasingly assumed regional and international leadership roles befitting its status as a stable, democratic nation."
         }
       ]
     },
@@ -1084,10 +1084,10 @@
           "name": "HIV/AIDS - deaths",
           "field_id": 365,
           "comparative": true,
-          "content": "(2018) <1000",
+          "content": "(2018) <1,000",
           "estimated": false,
           "info_date": "2018",
-          "subfield_note": "<1000"
+          "subfield_note": "<1,000"
         },
         {
           "name": "Obesity - adult prevalence rate",
@@ -1148,9 +1148,9 @@
           "name": "Education expenditures",
           "field_id": 369,
           "comparative": true,
-          "content": "5.4% of GDP (2018)",
+          "content": "5.4% of GDP (2018 est.)",
           "value": "5.4",
-          "estimated": false,
+          "estimated": true,
           "info_date": "2018",
           "suffix": "% of GDP"
         },
@@ -2735,134 +2735,243 @@
           ]
         },
         {
-          "name": "Electricity - production",
-          "field_id": 252,
-          "comparative": true,
-          "content": "76.09 billion kWh (2016 est.)",
-          "value": "76090000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity",
+          "field_id": 435,
+          "comparative": false,
+          "content": "<strong>Installed generating capacity: </strong>29.808 million kW (2020 est.)<br><br><strong>Consumption: </strong>75.302 billion kWh (2020 est.)<br><br><strong>Exports: </strong>0 kWh (2020 est.)<br><br><strong>Imports: </strong>0 kWh (2020 est.)<br><br><strong>Transmission/distribution losses: </strong>4.62 billion kWh (2020 est.)",
+          "subfields": [
+            {
+              "name": "Installed generating capacity",
+              "content": "29.808 million kW (2020 est.)",
+              "title": "Installed generating capacity",
+              "value": "29808000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kW"
+            },
+            {
+              "name": "Consumption",
+              "content": "75.302 billion kWh (2020 est.)",
+              "title": "Consumption",
+              "value": "75302000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Exports",
+              "content": "0 kWh (2020 est.)",
+              "title": "Exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Imports",
+              "content": "0 kWh (2020 est.)",
+              "title": "Imports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            },
+            {
+              "name": "Transmission/distribution losses",
+              "content": "4.62 billion kWh (2020 est.)",
+              "title": "Transmission/distribution losses",
+              "value": "4620000000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "kWh"
+            }
+          ]
         },
         {
-          "name": "Electricity - consumption",
-          "field_id": 253,
-          "comparative": true,
-          "content": "73.22 billion kWh (2016 est.)",
-          "value": "73220000000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Electricity generation sources",
+          "field_id": 436,
+          "comparative": false,
+          "content": "<strong>Fossil fuels: </strong>51.9% of total installed capacity (2020 est.)<br><br><strong>Nuclear: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Solar: </strong>9.5% of total installed capacity (2020 est.)<br><br><strong>Wind: </strong>6.9% of total installed capacity (2020 est.)<br><br><strong>Hydroelectricity: </strong>26% of total installed capacity (2020 est.)<br><br><strong>Tide and wave: </strong>0% of total installed capacity (2020 est.)<br><br><strong>Geothermal: </strong>0.3% of total installed capacity (2020 est.)<br><br><strong>Biomass and waste: </strong>5.4% of total installed capacity (2020 est.)",
+          "subfields": [
+            {
+              "name": "Fossil fuels",
+              "content": "51.9% of total installed capacity (2020 est.)",
+              "title": "Fossil fuels",
+              "value": "51.9",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Nuclear",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Nuclear",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Solar",
+              "content": "9.5% of total installed capacity (2020 est.)",
+              "title": "Solar",
+              "value": "9.5",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Wind",
+              "content": "6.9% of total installed capacity (2020 est.)",
+              "title": "Wind",
+              "value": "6.9",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Hydroelectricity",
+              "content": "26% of total installed capacity (2020 est.)",
+              "title": "Hydroelectricity",
+              "value": "26",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Tide and wave",
+              "content": "0% of total installed capacity (2020 est.)",
+              "title": "Tide and wave",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Geothermal",
+              "content": "0.3% of total installed capacity (2020 est.)",
+              "title": "Geothermal",
+              "value": "0.3",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            },
+            {
+              "name": "Biomass and waste",
+              "content": "5.4% of total installed capacity (2020 est.)",
+              "title": "Biomass and waste",
+              "value": "5.4",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "% of total installed capacity"
+            }
+          ]
         },
         {
-          "name": "Electricity - exports",
-          "field_id": 254,
-          "comparative": true,
-          "content": "0 kWh (2016 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
+          "name": "Coal",
+          "field_id": 437,
+          "comparative": false,
+          "content": "<strong>Production: </strong>542,000 metric tons (2020 est.)<br><br><strong>Consumption: </strong>10.573 million metric tons (2020 est.)<br><br><strong>Exports: </strong>134,000 metric tons (2020 est.)<br><br><strong>Imports: </strong>10.607 million metric tons (2020 est.)<br><br><strong>Proven reserves: </strong>1.181 billion metric tons (2019 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "542,000 metric tons (2020 est.)",
+              "title": "Production",
+              "value": "542000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Consumption",
+              "content": "10.573 million metric tons (2020 est.)",
+              "title": "Consumption",
+              "value": "10573000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Exports",
+              "content": "134,000 metric tons (2020 est.)",
+              "title": "Exports",
+              "value": "134000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Imports",
+              "content": "10.607 million metric tons (2020 est.)",
+              "title": "Imports",
+              "value": "10607000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "metric tons"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "1.181 billion metric tons (2019 est.)",
+              "title": "Proven reserves",
+              "value": "1181000000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tons"
+            }
+          ]
         },
         {
-          "name": "Electricity - imports",
-          "field_id": 255,
-          "comparative": true,
-          "content": "0 kWh (2016 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kWh"
-        },
-        {
-          "name": "Electricity - installed generating capacity",
-          "field_id": 256,
-          "comparative": true,
-          "content": "24.53 million kW (2016 est.)",
-          "value": "24530000",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "kW"
-        },
-        {
-          "name": "Electricity - from fossil fuels",
-          "field_id": 257,
-          "comparative": true,
-          "content": "59% of total installed capacity (2016 est.)",
-          "value": "59",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from nuclear fuels",
-          "field_id": 258,
-          "comparative": true,
-          "content": "0% of total installed capacity (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from hydroelectric plants",
-          "field_id": 259,
-          "comparative": true,
-          "content": "26% of total installed capacity (2017 est.)",
-          "value": "26",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Electricity - from other renewable sources",
-          "field_id": 260,
-          "comparative": true,
-          "content": "15% of total installed capacity (2017 est.)",
-          "value": "15",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of total installed capacity"
-        },
-        {
-          "name": "Crude oil - production",
-          "field_id": 261,
-          "comparative": true,
-          "content": "3,000 bbl/day (2018 est.)",
-          "value": "3000",
-          "estimated": true,
-          "info_date": "2018",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - exports",
-          "field_id": 262,
-          "comparative": true,
-          "content": "0 bbl/day (2017 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - imports",
-          "field_id": 263,
-          "comparative": true,
-          "content": "169,600 bbl/day (2017 est.)",
-          "value": "169600",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Crude oil - proved reserves",
-          "field_id": 264,
-          "comparative": true,
-          "content": "150 million bbl (1 January 2018 est.)",
-          "value": "150000000",
-          "estimated": true,
-          "info_date": "1 January 2018",
-          "suffix": "bbl"
+          "name": "Petroleum",
+          "field_id": 438,
+          "comparative": false,
+          "content": "<strong>Total petroleum production: </strong>11,900 bbl/day (2021 est.)<br><br><strong>Refined petroleum consumption: </strong>361,700 bbl/day (2019 est.)<br><br><strong>Crude oil and lease condensate exports: </strong>0 barrels/day (2018 est.)<br><br><strong>Crude oil and lease condensate imports: </strong>172,700 barrels/day (2018 est.)<br><br><strong>Crude oil estimated reserves: </strong>150 million barrels (2021 est.)",
+          "subfields": [
+            {
+              "name": "Total petroleum production",
+              "content": "11,900 bbl/day (2021 est.)",
+              "title": "Total petroleum production",
+              "value": "11900",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Refined petroleum consumption",
+              "content": "361,700 bbl/day (2019 est.)",
+              "title": "Refined petroleum consumption",
+              "value": "361700",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "bbl/day"
+            },
+            {
+              "name": "Crude oil and lease condensate exports",
+              "content": "0 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil and lease condensate imports",
+              "content": "172,700 barrels/day (2018 est.)",
+              "title": "Crude oil and lease condensate imports",
+              "value": "172700",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "barrels/day"
+            },
+            {
+              "name": "Crude oil estimated reserves",
+              "content": "150 million barrels (2021 est.)",
+              "title": "Crude oil estimated reserves",
+              "value": "150000000",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "barrels"
+            }
+          ]
         },
         {
           "name": "Refined petroleum products - production",
@@ -2870,16 +2979,6 @@
           "comparative": true,
           "content": "216,200 bbl/day (2017 est.)",
           "value": "216200",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - consumption",
-          "field_id": 266,
-          "comparative": true,
-          "content": "354,500 bbl/day (2017 est.)",
-          "value": "354500",
           "estimated": true,
           "info_date": "2017",
           "suffix": "bbl/day"
@@ -2905,54 +3004,115 @@
           "suffix": "bbl/day"
         },
         {
-          "name": "Natural gas - production",
-          "field_id": 269,
-          "comparative": true,
-          "content": "1.218 billion cu m (2017 est.)",
-          "value": "1218000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "name": "Natural gas",
+          "field_id": 440,
+          "comparative": false,
+          "content": "<strong>Production: </strong>1,109,962,000 cubic meters (2020 est.)<br><br><strong>Consumption: </strong>6,558,312,000 cubic meters (2020 est.)<br><br><strong>Exports: </strong>0 cubic meters (2021 est.)<br><br><strong>Imports: </strong>4,602,471,000 cubic meters (2020 est.)<br><br><strong>Proven reserves: </strong>97.976 billion cubic meters (2021 est.)",
+          "subfields": [
+            {
+              "name": "Production",
+              "content": "1,109,962,000 cubic meters (2020 est.)",
+              "title": "Production",
+              "value": "1109962000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Consumption",
+              "content": "6,558,312,000 cubic meters (2020 est.)",
+              "title": "Consumption",
+              "value": "6558312000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Exports",
+              "content": "0 cubic meters (2021 est.)",
+              "title": "Exports",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Imports",
+              "content": "4,602,471,000 cubic meters (2020 est.)",
+              "title": "Imports",
+              "value": "4602471000",
+              "estimated": true,
+              "info_date": "2020",
+              "suffix": "cubic meters"
+            },
+            {
+              "name": "Proven reserves",
+              "content": "97.976 billion cubic meters (2021 est.)",
+              "title": "Proven reserves",
+              "value": "97976000000",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "cubic meters"
+            }
+          ]
         },
         {
-          "name": "Natural gas - consumption",
-          "field_id": 270,
+          "name": "Carbon dioxide emissions",
+          "field_id": 274,
           "comparative": true,
-          "content": "5.125 billion cu m (2017 est.)",
-          "value": "5125000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
+          "content": "88.333 million metric tonnes of CO2 (2019 est.)<br><br><strong>From coal and metallurgical coke: </strong>24.217 million metric tonnes of CO2 (2019 est.)<br><br><strong>From petroleum and other liquids: </strong>51.228 million metric tonnes of CO2 (2019 est.)<br><br><strong>From consumed natural gas: </strong>12.888 million metric tonnes of CO2 (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total emissions",
+              "content": "88.333 million metric tonnes of CO2 (2019 est.)",
+              "value": "88333000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From coal and metallurgical coke",
+              "content": "24.217 million metric tonnes of CO2 (2019 est.)",
+              "title": "From coal and metallurgical coke",
+              "value": "24217000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From petroleum and other liquids",
+              "content": "51.228 million metric tonnes of CO2 (2019 est.)",
+              "title": "From petroleum and other liquids",
+              "value": "51228000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "From consumed natural gas",
+              "content": "12.888 million metric tonnes of CO2 (2019 est.)",
+              "title": "From consumed natural gas",
+              "value": "12888000",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "metric tonnes of CO2"
+            }
+          ]
         },
         {
-          "name": "Natural gas - exports",
-          "field_id": 271,
+          "name": "Energy consumption per capita",
+          "field_id": 441,
           "comparative": true,
-          "content": "277.5 million cu m (2017 est.)",
-          "value": "277500000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - imports",
-          "field_id": 272,
-          "comparative": true,
-          "content": "4.446 billion cu m (2017 est.)",
-          "value": "4446000000",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "cu m"
-        },
-        {
-          "name": "Natural gas - proved reserves",
-          "field_id": 273,
-          "comparative": true,
-          "content": "97.97 billion cu m (1 January 2018 est.)",
-          "value": "97970000000",
-          "estimated": true,
-          "info_date": "1 January 2018",
-          "suffix": "cu m"
+          "content": "81.953 million Btu/person (2019 est.)",
+          "subfields": [
+            {
+              "name": "Total energy consumption per capita 2019",
+              "content": "81.953 million Btu/person (2019 est.)",
+              "value": "81953000",
+              "estimated": true,
+              "suffix": "Btu/person"
+            }
+          ]
         }
       ]
     },
@@ -3276,14 +3436,14 @@
           "name": "Railways",
           "field_id": 384,
           "comparative": true,
-          "content": "<strong>total: </strong>7,282 km (2014)<br><br><strong>narrow gauge: </strong>3,853.5 km (2014) 1.000-m gauge<br><br><strong>broad gauge: </strong>3,428 km (2014) 1.676-m gauge (1,691 km electrified)",
+          "content": "<strong>total: </strong>7,281.5 km (2014)<br><br><strong>narrow gauge: </strong>3,853.5 km (2014) 1.000-m gauge<br><br><strong>broad gauge: </strong>3,428 km (2014) 1.676-m gauge (1,691 km electrified)",
           "subfields": [
             {
               "name": "total",
-              "content": "7,282 km (2014)",
+              "content": "7,281.5 km (2014)",
               "title": "total",
-              "value": "7282",
-              "estimated": null,
+              "value": "7281.5",
+              "estimated": false,
               "info_date": "2014",
               "suffix": "km"
             },
@@ -3292,7 +3452,7 @@
               "content": "3,853.5 km (2014) 1.000-m gauge",
               "title": "narrow gauge",
               "value": "3853.5",
-              "estimated": null,
+              "estimated": false,
               "info_date": "2014",
               "suffix": "km",
               "subfield_note": "1.000-m gauge"
@@ -3302,7 +3462,7 @@
               "content": "3,428 km (2014) 1.676-m gauge (1,691 km electrified)",
               "title": "broad gauge",
               "value": "3428",
-              "estimated": null,
+              "estimated": false,
               "info_date": "2014",
               "suffix": "km",
               "subfield_note": "1.676-m gauge (1,691 km electrified)"
