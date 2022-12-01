@@ -1,9 +1,9 @@
 {
   "name": "Rwanda",
   "code": "RW",
-  "published": "2022-11-16 12:27:39 -0500",
+  "published": "2022-11-30 12:30:58 -0500",
   "region": "Africa",
-  "updated": "2022-11-15 15:47:43 -0500",
+  "updated": "2022-11-21 13:17:05 -0500",
   "media": [
     {
       "type": "flag",
@@ -18,6 +18,10 @@
     {
       "type": "locator-map",
       "src": "/attachments/locator-maps/RW-locator-map.jpg"
+    },
+    {
+      "type": "qr-code",
+      "src": "/attachments/qr-codes/RW-qr-code.png"
     },
     {
       "type": "photo",
@@ -411,11 +415,10 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "13,173,730 (2022 est.)<br><br><strong>note:</strong> estimates for this country explicitly taken into account the impact of the HIV/AIDS epidemic",
+          "content": "13,173,730 (2022 est.)",
           "value": "13173730",
           "estimated": true,
-          "info_date": "2022",
-          "field_note": "<strong>note:</strong> estimates for this country explicitly taken into account the impact of the HIV/AIDS epidemic"
+          "info_date": "2022"
         },
         {
           "name": "Nationality",
@@ -985,24 +988,6 @@
           "estimated": true,
           "info_date": "2020",
           "suffix": "%"
-        },
-        {
-          "name": "HIV/AIDS - people living with HIV/AIDS",
-          "field_id": 364,
-          "comparative": true,
-          "content": "220,000 (2020 est.)",
-          "value": "220000",
-          "estimated": true,
-          "info_date": "2020"
-        },
-        {
-          "name": "HIV/AIDS - deaths",
-          "field_id": 365,
-          "comparative": true,
-          "content": "2,500 (2020 est.)",
-          "value": "2500",
-          "estimated": true,
-          "info_date": "2020"
         },
         {
           "name": "Major infectious diseases",
@@ -2133,7 +2118,7 @@
           "name": "Credit ratings",
           "field_id": 237,
           "comparative": false,
-          "content": "<strong>Fitch rating: </strong>B+ (2014)<br><br><strong>Moody's rating: </strong>B2 (2016)<br><br><strong>Standard & Poors rating: </strong>B+ (2019)",
+          "content": "<strong>Fitch rating: </strong>B+ (2014)<br><br><strong>Moody's rating: </strong>B2 (2016)<br><br><strong>Standard & Poors rating: </strong>B+ (2019)<br><br><strong>note: </strong>The year refers to the year in which the current credit rating was first obtained.",
           "subfields": [
             {
               "name": "Fitch rating",
@@ -2156,7 +2141,8 @@
               "title": "Standard & Poors rating",
               "info_date": "2019"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -3538,12 +3524,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>76,465 (Democratic Republic of the Congo) 48,369 (Burundi) (2022)<br><br><strong>stateless persons: </strong>9,500 (mid-year 2021)",
+          "content": "<strong>refugees (country of origin): </strong>76,465 (Democratic Republic of the Congo), 48,369 (Burundi) (2022)<br><br><strong>stateless persons: </strong>9,500 (mid-year 2021)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "76,465 (Democratic Republic of the Congo) 48,369 (Burundi) (2022)",
-              "value": "76,465 (Democratic Republic of the Congo) 48,369 (Burundi) (2022)",
+              "content": "76,465 (Democratic Republic of the Congo), 48,369 (Burundi) (2022)",
+              "value": "76,465 (Democratic Republic of the Congo), 48,369 (Burundi) (2022)",
               "title": "refugees (country of origin)"
             },
             {

@@ -1,9 +1,9 @@
 {
   "name": "Ecuador",
   "code": "EC",
-  "published": "2022-11-16 12:10:19 -0500",
+  "published": "2022-11-30 12:12:51 -0500",
   "region": "South America",
-  "updated": "2022-11-14 16:31:22 -0500",
+  "updated": "2022-11-29 15:58:02 -0500",
   "media": [
     {
       "type": "flag",
@@ -18,6 +18,10 @@
     {
       "type": "locator-map",
       "src": "/attachments/locator-maps/EC-locator-map.jpg"
+    },
+    {
+      "type": "qr-code",
+      "src": "/attachments/qr-codes/EC-qr-code.png"
     },
     {
       "type": "photo",
@@ -1369,11 +1373,12 @@
           "name": "Contraceptive prevalence rate",
           "field_id": 357,
           "comparative": false,
-          "content": "80.1% (2007/12)",
-          "value": "80.1",
+          "content": "77.9% (2018/19)<br><br><strong>note:</strong> percent of women aged 15-50",
+          "value": "77.9",
           "estimated": false,
-          "info_date": "2007/12",
-          "suffix": "%"
+          "info_date": "2018/19",
+          "suffix": "%",
+          "field_note": "<strong>note:</strong> percent of women aged 15-50"
         },
         {
           "name": "Drinking water source",
@@ -1510,24 +1515,6 @@
           "estimated": true,
           "info_date": "2020",
           "suffix": "%"
-        },
-        {
-          "name": "HIV/AIDS - people living with HIV/AIDS",
-          "field_id": 364,
-          "comparative": true,
-          "content": "45,000 (2020 est.)",
-          "value": "45000",
-          "estimated": true,
-          "info_date": "2020"
-        },
-        {
-          "name": "HIV/AIDS - deaths",
-          "field_id": 365,
-          "comparative": true,
-          "content": "(2020 est.) <500",
-          "estimated": true,
-          "info_date": "2020",
-          "subfield_note": "<500"
         },
         {
           "name": "Major infectious diseases",
@@ -2695,7 +2682,7 @@
           "name": "Credit ratings",
           "field_id": 237,
           "comparative": false,
-          "content": "<strong>Fitch rating: </strong>B- (2020)<br><br><strong>Moody's rating: </strong>Caa3 (2020)<br><br><strong>Standard & Poors rating: </strong>B- (2020)",
+          "content": "<strong>Fitch rating: </strong>B- (2020)<br><br><strong>Moody's rating: </strong>Caa3 (2020)<br><br><strong>Standard & Poors rating: </strong>B- (2020)<br><br><strong>note: </strong>The year refers to the year in which the current credit rating was first obtained.",
           "subfields": [
             {
               "name": "Fitch rating",
@@ -2718,7 +2705,8 @@
               "title": "Standard & Poors rating",
               "info_date": "2020"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
         },
         {
           "name": "GDP - composition, by sector of origin",

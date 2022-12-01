@@ -1,9 +1,9 @@
 {
   "name": "Australia",
   "code": "AS",
-  "published": "2022-11-16 12:03:29 -0500",
+  "published": "2022-11-30 12:05:33 -0500",
   "region": "Australia and Oceania",
-  "updated": "2022-11-14 16:18:30 -0500",
+  "updated": "2022-11-16 17:01:52 -0500",
   "media": [
     {
       "type": "flag",
@@ -18,6 +18,10 @@
     {
       "type": "locator-map",
       "src": "/attachments/locator-maps/AS-locator-map.jpg"
+    },
+    {
+      "type": "qr-code",
+      "src": "/attachments/qr-codes/AS-qr-code.png"
     },
     {
       "type": "photo",
@@ -1848,26 +1852,6 @@
           "suffix": "%"
         },
         {
-          "name": "HIV/AIDS - people living with HIV/AIDS",
-          "field_id": 364,
-          "comparative": true,
-          "content": "30,000 (2020 est.)<br><br><strong>note:&nbsp;</strong>estimate does not include children",
-          "value": "30000",
-          "estimated": true,
-          "info_date": "2020",
-          "field_note": "<strong>note:&nbsp;</strong>estimate does not include children"
-        },
-        {
-          "name": "HIV/AIDS - deaths",
-          "field_id": 365,
-          "comparative": true,
-          "content": "(2020 est.) <100<br><br><strong>note:&nbsp;</strong>estimate does not include children",
-          "estimated": true,
-          "info_date": "2020",
-          "subfield_note": "<100",
-          "field_note": "<strong>note:&nbsp;</strong>estimate does not include children"
-        },
-        {
           "name": "Obesity - adult prevalence rate",
           "field_id": 367,
           "comparative": true,
@@ -2986,7 +2970,7 @@
           "name": "Credit ratings",
           "field_id": 237,
           "comparative": false,
-          "content": "<strong>Fitch rating: </strong>AAA (2011)<br><br><strong>Moody's rating: </strong>Aaa (2002)<br><br><strong>Standard & Poors rating: </strong>AAA (2003)",
+          "content": "<strong>Fitch rating: </strong>AAA (2011)<br><br><strong>Moody's rating: </strong>Aaa (2002)<br><br><strong>Standard & Poors rating: </strong>AAA (2003)<br><br><strong>note: </strong>The year refers to the year in which the current credit rating was first obtained.",
           "subfields": [
             {
               "name": "Fitch rating",
@@ -3009,7 +2993,8 @@
               "title": "Standard & Poors rating",
               "info_date": "2003"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -3368,33 +3353,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$299.04 billion (2020 est.) note: data are in current year dollars<br><br>$342.43 billion (2019 est.) note: data are in current year dollars<br><br>$327.32 billion (2018 est.) note: data are in current year dollars",
+          "content": "$299.04 billion (2020 est.)<br><br>$342.43 billion (2019 est.)<br><br>$327.32 billion (2018 est.)<br><br><strong>note:</strong> Data are in current year dollars and do not include illicit exports or re-exports.",
           "subfields": [
             {
               "name": "Exports 2020",
-              "content": "$299.04 billion (2020 est.) note: data are in current year dollars",
+              "content": "$299.04 billion (2020 est.)",
               "value": "299040000000",
               "estimated": true,
-              "prefix": "$",
-              "subfield_note": "note: data are in current year dollars"
+              "prefix": "$"
             },
             {
               "name": "Exports 2019",
-              "content": "$342.43 billion (2019 est.) note: data are in current year dollars",
+              "content": "$342.43 billion (2019 est.)",
               "value": "342430000000",
               "estimated": true,
-              "prefix": "$",
-              "subfield_note": "note: data are in current year dollars"
+              "prefix": "$"
             },
             {
               "name": "Exports 2018",
-              "content": "$327.32 billion (2018 est.) note: data are in current year dollars",
+              "content": "$327.32 billion (2018 est.)",
               "value": "327320000000",
               "estimated": true,
-              "prefix": "$",
-              "subfield_note": "note: data are in current year dollars"
+              "prefix": "$"
             }
-          ]
+          ],
+          "field_note": "<strong>note:</strong> Data are in current year dollars and do not include illicit exports or re-exports."
         },
         {
           "name": "Exports - partners",

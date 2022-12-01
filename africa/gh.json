@@ -1,9 +1,9 @@
 {
   "name": "Ghana",
   "code": "GH",
-  "published": "2022-11-16 12:14:09 -0500",
+  "published": "2022-11-30 12:16:47 -0500",
   "region": "Africa",
-  "updated": "2022-11-14 16:34:32 -0500",
+  "updated": "2022-11-29 16:15:10 -0500",
   "media": [
     {
       "type": "flag",
@@ -18,6 +18,10 @@
     {
       "type": "locator-map",
       "src": "/attachments/locator-maps/GH-locator-map.jpg"
+    },
+    {
+      "type": "qr-code",
+      "src": "/attachments/qr-codes/GH-qr-code.png"
     },
     {
       "type": "photo",
@@ -328,11 +332,10 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "33,107,275 (2022 est.)<br><br><strong>note:</strong> estimates for this country explicitly taken into account the impact of the HIV/AIDS epidemic",
+          "content": "33,107,275 (2022 est.)",
           "value": "33107275",
           "estimated": true,
-          "info_date": "2022",
-          "field_note": "<strong>note:</strong> estimates for this country explicitly taken into account the impact of the HIV/AIDS epidemic"
+          "info_date": "2022"
         },
         {
           "name": "Nationality",
@@ -893,24 +896,6 @@
           "estimated": true,
           "info_date": "2020",
           "suffix": "%"
-        },
-        {
-          "name": "HIV/AIDS - people living with HIV/AIDS",
-          "field_id": 364,
-          "comparative": true,
-          "content": "350,000 (2020 est.)",
-          "value": "350000",
-          "estimated": true,
-          "info_date": "2020"
-        },
-        {
-          "name": "HIV/AIDS - deaths",
-          "field_id": 365,
-          "comparative": true,
-          "content": "13,000 (2020 est.)",
-          "value": "13000",
-          "estimated": true,
-          "info_date": "2020"
         },
         {
           "name": "Major infectious diseases",
@@ -2094,7 +2079,7 @@
           "name": "Credit ratings",
           "field_id": 237,
           "comparative": false,
-          "content": "<strong>Fitch rating: </strong>B (2013)<br><br><strong>Moody's rating: </strong>B3 (2015)<br><br><strong>Standard & Poors rating: </strong>B- (2020)",
+          "content": "<strong>Fitch rating: </strong>B (2013)<br><br><strong>Moody's rating: </strong>B3 (2015)<br><br><strong>Standard & Poors rating: </strong>B- (2020)<br><br><strong>note: </strong>The year refers to the year in which the current credit rating was first obtained.",
           "subfields": [
             {
               "name": "Fitch rating",
@@ -2117,7 +2102,8 @@
               "title": "Standard & Poors rating",
               "info_date": "2020"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
         },
         {
           "name": "GDP - composition, by sector of origin",

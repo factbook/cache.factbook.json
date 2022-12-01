@@ -1,9 +1,9 @@
 {
   "name": "Iceland",
   "code": "IC",
-  "published": "2022-11-16 12:16:36 -0500",
+  "published": "2022-11-30 12:19:20 -0500",
   "region": "Europe",
-  "updated": "2022-11-14 16:37:19 -0500",
+  "updated": "2022-11-16 16:18:30 -0500",
   "media": [
     {
       "type": "flag",
@@ -18,6 +18,10 @@
     {
       "type": "locator-map",
       "src": "/attachments/locator-maps/IC-locator-map.jpg"
+    },
+    {
+      "type": "qr-code",
+      "src": "/attachments/qr-codes/IC-qr-code.png"
     },
     {
       "type": "photo",
@@ -1328,26 +1332,6 @@
           "suffix": "%"
         },
         {
-          "name": "HIV/AIDS - people living with HIV/AIDS",
-          "field_id": 364,
-          "comparative": true,
-          "content": "(2020) <500<br><br><strong>note:&nbsp;</strong>estimate does not include children",
-          "estimated": false,
-          "info_date": "2020",
-          "subfield_note": "<500",
-          "field_note": "<strong>note:&nbsp;</strong>estimate does not include children"
-        },
-        {
-          "name": "HIV/AIDS - deaths",
-          "field_id": 365,
-          "comparative": true,
-          "content": "(2020) <100<br><br><strong>note:&nbsp;</strong>estimate does not include children",
-          "estimated": false,
-          "info_date": "2020",
-          "subfield_note": "<100",
-          "field_note": "<strong>note:&nbsp;</strong>estimate does not include children"
-        },
-        {
           "name": "Obesity - adult prevalence rate",
           "field_id": 367,
           "comparative": true,
@@ -2414,7 +2398,7 @@
           "name": "Credit ratings",
           "field_id": 237,
           "comparative": false,
-          "content": "<strong>Fitch rating: </strong>A (2017)<br><br><strong>Moody's rating: </strong>A2 (2019)<br><br><strong>Standard & Poors rating: </strong>A (2017)",
+          "content": "<strong>Fitch rating: </strong>A (2017)<br><br><strong>Moody's rating: </strong>A2 (2019)<br><br><strong>Standard & Poors rating: </strong>A (2017)<br><br><strong>note: </strong>The year refers to the year in which the current credit rating was first obtained.",
           "subfields": [
             {
               "name": "Fitch rating",
@@ -2437,7 +2421,8 @@
               "title": "Standard & Poors rating",
               "info_date": "2017"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
         },
         {
           "name": "GDP - composition, by sector of origin",

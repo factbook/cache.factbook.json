@@ -1,9 +1,9 @@
 {
   "name": "Azerbaijan",
   "code": "AJ",
-  "published": "2022-11-16 12:02:25 -0500",
+  "published": "2022-11-30 12:04:27 -0500",
   "region": "Middle East",
-  "updated": "2022-11-15 12:31:52 -0500",
+  "updated": "2022-11-29 15:57:25 -0500",
   "media": [
     {
       "type": "flag",
@@ -18,6 +18,10 @@
     {
       "type": "locator-map",
       "src": "/attachments/locator-maps/AJ-locator-map.jpg"
+    },
+    {
+      "type": "qr-code",
+      "src": "/attachments/qr-codes/AJ-qr-code.png"
     },
     {
       "type": "photo",
@@ -808,11 +812,10 @@
           "name": "Contraceptive prevalence rate",
           "field_id": 357,
           "comparative": false,
-          "content": "54.9% (2011)",
-          "value": "54.9",
+          "content": "NA",
           "estimated": false,
-          "info_date": "2011",
-          "suffix": "%"
+          "suffix": "%",
+          "subfield_note": "NA"
         },
         {
           "name": "Drinking water source",
@@ -953,24 +956,6 @@
           "estimated": true,
           "info_date": "2020",
           "suffix": "%"
-        },
-        {
-          "name": "HIV/AIDS - people living with HIV/AIDS",
-          "field_id": 364,
-          "comparative": true,
-          "content": "9,900 (2020 est.)",
-          "value": "9900",
-          "estimated": true,
-          "info_date": "2020"
-        },
-        {
-          "name": "HIV/AIDS - deaths",
-          "field_id": 365,
-          "comparative": true,
-          "content": "(2020 est.) <200",
-          "estimated": true,
-          "info_date": "2020",
-          "subfield_note": "<200"
         },
         {
           "name": "Obesity - adult prevalence rate",
@@ -2059,7 +2044,7 @@
           "name": "Credit ratings",
           "field_id": 237,
           "comparative": false,
-          "content": "<strong>Fitch rating: </strong>BB+ (2016)<br><br><strong>Moody's rating: </strong>Ba2 (2017)<br><br><strong>Standard & Poors rating: </strong>BB+ (2016)",
+          "content": "<strong>Fitch rating: </strong>BB+ (2016)<br><br><strong>Moody's rating: </strong>Ba2 (2017)<br><br><strong>Standard & Poors rating: </strong>BB+ (2016)<br><br><strong>note: </strong>The year refers to the year in which the current credit rating was first obtained.",
           "subfields": [
             {
               "name": "Fitch rating",
@@ -2082,7 +2067,8 @@
               "title": "Standard & Poors rating",
               "info_date": "2016"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -2451,33 +2437,31 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$15.21 billion (2020 est.) note: data are in current year dollars<br><br>$23.63 billion (2019 est.) note: data are in current year dollars<br><br>$25.48 billion (2018 est.) note: data are in current year dollars",
+          "content": "$15.21 billion (2020 est.)<br><br>$23.63 billion (2019 est.)<br><br>$25.48 billion (2018 est.)<br><br><strong>note:</strong> Data are in current year dollars and do not include illicit exports or re-exports.",
           "subfields": [
             {
               "name": "Exports 2020",
-              "content": "$15.21 billion (2020 est.) note: data are in current year dollars",
+              "content": "$15.21 billion (2020 est.)",
               "value": "15210000000",
               "estimated": true,
-              "prefix": "$",
-              "subfield_note": "note: data are in current year dollars"
+              "prefix": "$"
             },
             {
               "name": "Exports 2019",
-              "content": "$23.63 billion (2019 est.) note: data are in current year dollars",
+              "content": "$23.63 billion (2019 est.)",
               "value": "23630000000",
               "estimated": true,
-              "prefix": "$",
-              "subfield_note": "note: data are in current year dollars"
+              "prefix": "$"
             },
             {
               "name": "Exports 2018",
-              "content": "$25.48 billion (2018 est.) note: data are in current year dollars",
+              "content": "$25.48 billion (2018 est.)",
               "value": "25480000000",
               "estimated": true,
-              "prefix": "$",
-              "subfield_note": "note: data are in current year dollars"
+              "prefix": "$"
             }
-          ]
+          ],
+          "field_note": "<strong>note:</strong> Data are in current year dollars and do not include illicit exports or re-exports."
         },
         {
           "name": "Exports - partners",
@@ -3515,9 +3499,9 @@
           "name": "Terrorist group(s)",
           "field_id": 413,
           "comparative": false,
-          "content": "Islamic State of Iraq and ash-Sham (ISIS); Islamic Revolutionary Guard Corps (IRGC)/Qods Force<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../../../../../../references/terrorist-organizations\">Appendix-T</a>",
+          "content": "Islamic State of Iraq and ash-Sham (ISIS); Islamic Revolutionary Guard Corps (IRGC)/Qods Force<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix-T</a>",
           "value": "Islamic State of Iraq and ash-Sham (ISIS); Islamic Revolutionary Guard Corps (IRGC)/Qods Force",
-          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"../../../../../../references/terrorist-organizations\">Appendix-T</a>"
+          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix-T</a>"
         }
       ]
     },
@@ -3549,26 +3533,6 @@
               "content": "3,585 (mid-year 2021)",
               "value": "3,585 (mid-year 2021)",
               "title": "stateless persons"
-            }
-          ]
-        },
-        {
-          "name": "Trafficking in persons",
-          "field_id": 328,
-          "comparative": false,
-          "content": "<strong>current situation: </strong>human traffickers exploit domestic and foreign victims in Azerbaijan and exploit Azerbaijanis abroad; Azerbaijani men and boys experience forced labor domestically and in Qatar, Russia, and the UAE; Azerbaijani women and children are subjected to sex trafficking domestically and in Iran, Malaysia, Pakistan, Qatar, Russia, Turkey, and the UAE; Azerbaijan is a destination country for sex and forced labor trafficking victims from China, Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan; some children are exploited domestically for forced begging and forced labor as roadside vendors and at tea houses and wedding venues<br><br><strong>tier rating: </strong>Tier 2 Watch List &mdash; Azerbaijan does not fully meet the minimum standards for the elimination of trafficking but is making significant efforts to do so; more traffickers were convicted and judges received guidance to issue stricter sentences; the government significantly increased funding for victim protection by establishing grants for civil society; however, authorities identified fewer victims than in the previous year, did not regularly screen vulnerable populations, and continued to lack proactive identification methods, resulting in victims being penalized for unlawful acts traffickers compelled them to commit (2020)",
-          "subfields": [
-            {
-              "name": "current situation",
-              "content": "human traffickers exploit domestic and foreign victims in Azerbaijan and exploit Azerbaijanis abroad; Azerbaijani men and boys experience forced labor domestically and in Qatar, Russia, and the UAE; Azerbaijani women and children are subjected to sex trafficking domestically and in Iran, Malaysia, Pakistan, Qatar, Russia, Turkey, and the UAE; Azerbaijan is a destination country for sex and forced labor trafficking victims from China, Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan; some children are exploited domestically for forced begging and forced labor as roadside vendors and at tea houses and wedding venues",
-              "value": "human traffickers exploit domestic and foreign victims in Azerbaijan and exploit Azerbaijanis abroad; Azerbaijani men and boys experience forced labor domestically and in Qatar, Russia, and the UAE; Azerbaijani women and children are subjected to sex trafficking domestically and in Iran, Malaysia, Pakistan, Qatar, Russia, Turkey, and the UAE; Azerbaijan is a destination country for sex and forced labor trafficking victims from China, Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan; some children are exploited domestically for forced begging and forced labor as roadside vendors and at tea houses and wedding venues",
-              "title": "current situation"
-            },
-            {
-              "name": "tier rating",
-              "content": "Tier 2 Watch List &mdash; Azerbaijan does not fully meet the minimum standards for the elimination of trafficking but is making significant efforts to do so; more traffickers were convicted and judges received guidance to issue stricter sentences; the government significantly increased funding for victim protection by establishing grants for civil society; however, authorities identified fewer victims than in the previous year, did not regularly screen vulnerable populations, and continued to lack proactive identification methods, resulting in victims being penalized for unlawful acts traffickers compelled them to commit (2020)",
-              "value": "Tier 2 Watch List &mdash; Azerbaijan does not fully meet the minimum standards for the elimination of trafficking but is making significant efforts to do so; more traffickers were convicted and judges received guidance to issue stricter sentences; the government significantly increased funding for victim protection by establishing grants for civil society; however, authorities identified fewer victims than in the previous year, did not regularly screen vulnerable populations, and continued to lack proactive identification methods, resulting in victims being penalized for unlawful acts traffickers compelled them to commit (2020)",
-              "title": "tier rating"
             }
           ]
         },

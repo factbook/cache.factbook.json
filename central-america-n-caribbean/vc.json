@@ -1,9 +1,9 @@
 {
   "name": "Saint Vincent and the Grenadines",
   "code": "VC",
-  "published": "2022-11-16 12:35:57 -0500",
+  "published": "2022-11-30 12:39:15 -0500",
   "region": "Central America and the Caribbean",
-  "updated": "2022-11-14 16:55:24 -0500",
+  "updated": "2022-11-16 16:38:51 -0500",
   "media": [
     {
       "type": "flag",
@@ -18,6 +18,10 @@
     {
       "type": "locator-map",
       "src": "/attachments/locator-maps/VC-locator-map.jpg"
+    },
+    {
+      "type": "qr-code",
+      "src": "/attachments/qr-codes/VC-qr-code.png"
     },
     {
       "type": "photo",
@@ -876,24 +880,6 @@
           "estimated": true,
           "info_date": "2018",
           "suffix": "%"
-        },
-        {
-          "name": "HIV/AIDS - people living with HIV/AIDS",
-          "field_id": 364,
-          "comparative": true,
-          "content": "1,200 (2018)",
-          "value": "1200",
-          "estimated": false,
-          "info_date": "2018"
-        },
-        {
-          "name": "HIV/AIDS - deaths",
-          "field_id": 365,
-          "comparative": true,
-          "content": "(2018) <100",
-          "estimated": false,
-          "info_date": "2018",
-          "subfield_note": "<100"
         },
         {
           "name": "Obesity - adult prevalence rate",
@@ -1794,7 +1780,7 @@
           "name": "Credit ratings",
           "field_id": 237,
           "comparative": false,
-          "content": "<strong>Moody's rating: </strong>B3 (2014)",
+          "content": "<strong>Moody's rating: </strong>B3 (2014)<br><br><strong>note: </strong>The year refers to the year in which the current credit rating was first obtained.",
           "subfields": [
             {
               "name": "Moody's rating",
@@ -1803,7 +1789,8 @@
               "title": "Moody's rating",
               "info_date": "2014"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
         },
         {
           "name": "GDP - composition, by sector of origin",

@@ -1,9 +1,9 @@
 {
   "name": "Andorra",
   "code": "AN",
-  "published": "2022-11-16 12:02:43 -0500",
+  "published": "2022-11-30 12:04:45 -0500",
   "region": "Europe",
-  "updated": "2022-11-14 16:17:13 -0500",
+  "updated": "2022-11-16 16:59:37 -0500",
   "media": [
     {
       "type": "flag",
@@ -18,6 +18,10 @@
     {
       "type": "locator-map",
       "src": "/attachments/locator-maps/AN-locator-map.jpg"
+    },
+    {
+      "type": "qr-code",
+      "src": "/attachments/qr-codes/AN-qr-code.png"
     },
     {
       "type": "photo",
@@ -856,22 +860,6 @@
           "content": "NA",
           "estimated": false,
           "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "HIV/AIDS - people living with HIV/AIDS",
-          "field_id": 364,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "subfield_note": "NA"
-        },
-        {
-          "name": "HIV/AIDS - deaths",
-          "field_id": 365,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
           "subfield_note": "NA"
         },
         {
@@ -1772,7 +1760,7 @@
           "name": "Credit ratings",
           "field_id": 237,
           "comparative": false,
-          "content": "<strong>Fitch rating: </strong>BBB+ (2018)<br><br><strong>Standard & Poors rating: </strong>BBB (2017)",
+          "content": "<strong>Fitch rating: </strong>BBB+ (2018)<br><br><strong>Standard & Poors rating: </strong>BBB (2017)<br><br><strong>note: </strong>The year refers to the year in which the current credit rating was first obtained.",
           "subfields": [
             {
               "name": "Fitch rating",
@@ -1788,7 +1776,8 @@
               "title": "Standard & Poors rating",
               "info_date": "2017"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -2008,7 +1997,7 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$78.71 million (2015 est.)<br><br>$79.57 million (2014 est.)",
+          "content": "$78.71 million (2015 est.)<br><br>$79.57 million (2014 est.)<br><br><strong>note:</strong> Data are in current year dollars and do not include illicit exports or re-exports.",
           "subfields": [
             {
               "name": "Exports 2015",
@@ -2024,7 +2013,8 @@
               "estimated": true,
               "prefix": "$"
             }
-          ]
+          ],
+          "field_note": "<strong>note:</strong> Data are in current year dollars and do not include illicit exports or re-exports."
         },
         {
           "name": "Exports - partners",

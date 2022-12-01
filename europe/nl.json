@@ -1,9 +1,9 @@
 {
   "name": "Netherlands",
   "code": "NL",
-  "published": "2022-11-16 12:23:53 -0500",
+  "published": "2022-11-30 12:27:00 -0500",
   "region": "Europe",
-  "updated": "2022-11-15 15:06:25 -0500",
+  "updated": "2022-11-29 17:53:40 -0500",
   "media": [
     {
       "type": "flag",
@@ -18,6 +18,10 @@
     {
       "type": "locator-map",
       "src": "/attachments/locator-maps/NL-locator-map.jpg"
+    },
+    {
+      "type": "qr-code",
+      "src": "/attachments/qr-codes/NL-qr-code.png"
     },
     {
       "type": "photo",
@@ -1107,26 +1111,6 @@
           "estimated": true,
           "info_date": "2020",
           "suffix": "%"
-        },
-        {
-          "name": "HIV/AIDS - people living with HIV/AIDS",
-          "field_id": 364,
-          "comparative": true,
-          "content": "24,000 (2020 est.)<br><br><strong>note:&nbsp;</strong>estimate does not include children",
-          "value": "24000",
-          "estimated": true,
-          "info_date": "2020",
-          "field_note": "<strong>note:&nbsp;</strong>estimate does not include children"
-        },
-        {
-          "name": "HIV/AIDS - deaths",
-          "field_id": 365,
-          "comparative": true,
-          "content": "(2020 est.) <100<br><br><strong>note:&nbsp;</strong>estimate does not include children",
-          "estimated": true,
-          "info_date": "2020",
-          "subfield_note": "<100",
-          "field_note": "<strong>note:&nbsp;</strong>estimate does not include children"
         },
         {
           "name": "Obesity - adult prevalence rate",
@@ -2224,7 +2208,7 @@
           "name": "Credit ratings",
           "field_id": 237,
           "comparative": false,
-          "content": "<strong>Fitch rating: </strong>AAA (1994)<br><br><strong>Moody's rating: </strong>Aaa (1986)<br><br><strong>Standard & Poors rating: </strong>AAA (2015)",
+          "content": "<strong>Fitch rating: </strong>AAA (1994)<br><br><strong>Moody's rating: </strong>Aaa (1986)<br><br><strong>Standard & Poors rating: </strong>AAA (2015)<br><br><strong>note: </strong>The year refers to the year in which the current credit rating was first obtained.",
           "subfields": [
             {
               "name": "Fitch rating",
@@ -2247,7 +2231,8 @@
               "title": "Standard & Poors rating",
               "info_date": "2015"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
         },
         {
           "name": "GDP - composition, by sector of origin",
