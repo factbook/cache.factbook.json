@@ -1,9 +1,9 @@
 {
   "name": "Togo",
   "code": "TO",
-  "published": "2023-01-18 12:31:16 -0500",
+  "published": "2023-01-25 12:36:10 -0500",
   "region": "Africa",
-  "updated": "2023-01-10 19:03:53 -0500",
+  "updated": "2023-01-18 17:20:01 -0500",
   "media": [
     {
       "type": "flag",
@@ -2378,23 +2378,25 @@
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
-          "content": "<strong>revenues: </strong>1.023 billion (2017 est.)<br><br><strong>expenditures: </strong>1.203 billion (2017 est.)",
+          "content": "<strong>revenues: </strong>$1.023 billion (2017 est.)<br><br><strong>expenditures: </strong>$1.203 billion (2017 est.)",
           "subfields": [
             {
               "name": "revenues",
-              "content": "1.023 billion (2017 est.)",
+              "content": "$1.023 billion (2017 est.)",
               "title": "revenues",
               "value": "1023000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             },
             {
               "name": "expenditures",
-              "content": "1.203 billion (2017 est.)",
+              "content": "$1.203 billion (2017 est.)",
               "title": "expenditures",
               "value": "1203000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             }
           ]
         },
@@ -3458,13 +3460,20 @@
           "name": "Ports and terminals",
           "field_id": 388,
           "comparative": false,
-          "content": "<strong>major seaport(s): </strong>Kpeme, Lome",
+          "content": "<strong>major seaport(s): </strong>Kpeme, Lome<br><br><strong>container port(s) (TEUs): </strong>Lome (1,962,304) (2021)",
           "subfields": [
             {
               "name": "major seaport(s)",
               "content": "Kpeme, Lome",
               "value": "Kpeme, Lome",
               "title": "major seaport(s)"
+            },
+            {
+              "name": "container port(s) (TEUs)",
+              "content": "Lome (1,962,304) (2021)",
+              "value": "Lome (1,962,304)",
+              "title": "container port(s) (TEUs)",
+              "info_date": "2021"
             }
           ]
         }

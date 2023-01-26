@@ -1,9 +1,9 @@
 {
   "name": "India",
   "code": "IN",
-  "published": "2023-01-18 12:16:56 -0500",
+  "published": "2023-01-25 12:21:18 -0500",
   "region": "South Asia",
-  "updated": "2023-01-10 19:03:46 -0500",
+  "updated": "2023-01-24 08:21:34 -0500",
   "media": [
     {
       "type": "flag",
@@ -2782,23 +2782,25 @@
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
-          "content": "<strong>revenues: </strong>238.2 billion (2017 est.)<br><br><strong>expenditures: </strong>329 billion (2017 est.)",
+          "content": "<strong>revenues: </strong>$238.2 billion (2017 est.)<br><br><strong>expenditures: </strong>$329 billion (2017 est.)",
           "subfields": [
             {
               "name": "revenues",
-              "content": "238.2 billion (2017 est.)",
+              "content": "$238.2 billion (2017 est.)",
               "title": "revenues",
               "value": "238200000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             },
             {
               "name": "expenditures",
-              "content": "329 billion (2017 est.)",
+              "content": "$329 billion (2017 est.)",
               "title": "expenditures",
               "value": "329000000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             }
           ]
         },
@@ -3916,7 +3918,7 @@
           "name": "Ports and terminals",
           "field_id": 388,
           "comparative": false,
-          "content": "<strong>major seaport(s): </strong>Chennai, Jawaharal Nehru Port, Kandla, Kolkata (Calcutta), Mumbai (Bombay), Sikka, Vishakhapatnam<br><br><strong>container port(s) (TEUs): </strong>Jawaharal Nehru Port (5,100,891), Mundra (4,732,699) (2019)<br><br><strong>LNG terminal(s) (import): </strong>Dabhol, Dahej, Hazira, Kochi",
+          "content": "<strong>major seaport(s): </strong>Chennai, Jawaharal Nehru Port, Kandla, Kolkata (Calcutta), Mumbai (Bombay), Sikka, Vishakhapatnam<br><br><strong>container port(s) (TEUs): </strong>Jawaharal Nehru Port (5,630,000), Mundra (6,660,000) (2021)<br><br><strong>LNG terminal(s) (import): </strong>Dabhol, Dahej, Hazira, Kochi",
           "subfields": [
             {
               "name": "major seaport(s)",
@@ -3926,10 +3928,10 @@
             },
             {
               "name": "container port(s) (TEUs)",
-              "content": "Jawaharal Nehru Port (5,100,891), Mundra (4,732,699) (2019)",
-              "value": "Jawaharal Nehru Port (5,100,891), Mundra (4,732,699)",
+              "content": "Jawaharal Nehru Port (5,630,000), Mundra (6,660,000) (2021)",
+              "value": "Jawaharal Nehru Port (5,630,000), Mundra (6,660,000)",
               "title": "container port(s) (TEUs)",
-              "info_date": "2019"
+              "info_date": "2021"
             },
             {
               "name": "LNG terminal(s) (import)",
@@ -3958,8 +3960,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "2.2% of GDP (2021 est.)<br><br>2.6% of GDP (2020 est.)<br><br>2.4% of GDP (2019) (approximately $93.9 billion)<br><br>2.4% of GDP (2018) (approximately $88.2 billion)<br><br>2.4% of GDP (2017) (approximately $83.8 billion)",
+          "content": "2.1% of GDP (2022 est.)<br><br>2.2% of GDP (2021 est.)<br><br>2.6% of GDP (2020 est.)<br><br>2.4% of GDP (2019 est.)<br><br>2.4% of GDP (2018 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2022",
+              "content": "2.1% of GDP (2022 est.)",
+              "value": "2.1",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2021",
               "content": "2.2% of GDP (2021 est.)",
@@ -3976,27 +3985,17 @@
             },
             {
               "name": "Military Expenditures 2019",
-              "content": "2.4% of GDP (2019) (approximately $93.9 billion)",
+              "content": "2.4% of GDP (2019 est.)",
               "value": "2.4",
-              "estimated": false,
-              "suffix": "% of GDP",
-              "subfield_note": "(approximately $93.9 billion)"
+              "estimated": true,
+              "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "2.4% of GDP (2018) (approximately $88.2 billion)",
+              "content": "2.4% of GDP (2018 est.)",
               "value": "2.4",
-              "estimated": false,
-              "suffix": "% of GDP",
-              "subfield_note": "(approximately $88.2 billion)"
-            },
-            {
-              "name": "Military Expenditures 2017",
-              "content": "2.4% of GDP (2017) (approximately $83.8 billion)",
-              "value": "2.4",
-              "estimated": false,
-              "suffix": "% of GDP",
-              "subfield_note": "(approximately $83.8 billion)"
+              "estimated": true,
+              "suffix": "% of GDP"
             }
           ]
         },
@@ -4020,10 +4019,10 @@
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "ages vary by service, but generally 16.5-27 years of age for voluntary military service for men and women; no conscription (2022)<br><br><strong>note 1:</strong> in 2022, the Indian Government announced that it would begin recruiting 46,000 men aged 17.5-21 annually to serve on 4-year contracts under a process called the Agnipath scheme; at the end of their tenure, 25% would be retained for longer terms of service, while the remainder would be forced to leave the military, although some of those leaving would be eligible to serve in the Coast Guard, the Merchant Navy, civilian positions in the Ministry of Defense, and in the paramilitary forces of the Ministry of Home Affairs, such as the Central Armed Police Forces and Assam Rifles<br /><br /><strong>note 2: </strong>as of 2022, women made up about .59% of the Army, 1.1% of the Air Force, and 6% of the Navy<br /><br /><strong>note 3: </strong>the Indian military accepts citizens of Nepal and Bhutan; descendants of refugees from Tibet who arrived before 1962 and have resided permanently in India; peoples of Indian origin from nations such as Burma, the Democratic Republic of the Congo, Ethiopia, Kenya, Malawi, Pakistan, Sri Lanka, Tanzania, Uganda, and Vietnam with the intention of permanently settling in India; eligible candidates from &ldquo;friendly foreign nations&rdquo; may apply to the Armed Forces Medical Services&nbsp;<br /><br /><strong>note 4:</strong> the British began to recruit Nepalese citizens (Gurkhas) into the East India Company Army during the Anglo-Nepalese War (1814-1816), and the Gurkhas subsequently were brought into the British Indian Army; following the partition of India in 1947, an agreement between Nepal, India, and Great Britain allowed for the transfer of the 10 regiments from the British Indian Army to the separate British and Indian armies; six regiments of Gurkhas (aka Gorkhas in India) regiments went to the new Indian Army; a seventh regiment was later added&nbsp;",
+          "content": "ages vary by service, but generally 16.5-27 years of age for voluntary military service for men and women; no conscription (2022)<br><br><strong>note 1:</strong> in 2022, the Indian Government announced that it would begin recruiting 46,000 men aged 17.5-21 annually to serve on 4-year contracts under a process called the Agnipath scheme; at the end of their tenure, 25% would be retained for longer terms of service, while the remainder would be forced to leave the military, although some of those leaving would be eligible to serve in the Coast Guard, the Merchant Navy, civilian positions in the Ministry of Defense, and in the paramilitary forces of the Ministry of Home Affairs, such as the Central Armed Police Forces and Assam Rifles<br /><br /><strong>note 2: </strong>as of 2022, women made up about .59% of the Army, 1.1% of the Air Force, and 6% of the Navy; women in the Army were not allowed to serve in combat arms; the Air Force has allowed women to serve as fighter pilots since 2016; in 2022, the Navy announced it would allow women to serve in every branch of the service, including submarines and aviation<br /><br /><strong>note 3: </strong>the Indian military accepts citizens of Nepal and Bhutan; descendants of refugees from Tibet who arrived before 1962 and have resided permanently in India; peoples of Indian origin from nations such as Burma, the Democratic Republic of the Congo, Ethiopia, Kenya, Malawi, Pakistan, Sri Lanka, Tanzania, Uganda, and Vietnam with the intention of permanently settling in India; eligible candidates from &ldquo;friendly foreign nations&rdquo; may apply to the Armed Forces Medical Services&nbsp;<br /><br /><strong>note 4:</strong> the British began to recruit Nepalese citizens (Gurkhas) into the East India Company Army during the Anglo-Nepalese War (1814-1816), and the Gurkhas subsequently were brought into the British Indian Army; following the partition of India in 1947, an agreement between Nepal, India, and Great Britain allowed for the transfer of the 10 regiments from the British Indian Army to the separate British and Indian armies; six regiments of Gurkhas (aka Gorkhas in India) regiments went to the new Indian Army; a seventh regiment was later added",
           "value": "ages vary by service, but generally 16.5-27 years of age for voluntary military service for men and women; no conscription",
           "info_date": "2022",
-          "field_note": "<strong>note 1:</strong> in 2022, the Indian Government announced that it would begin recruiting 46,000 men aged 17.5-21 annually to serve on 4-year contracts under a process called the Agnipath scheme; at the end of their tenure, 25% would be retained for longer terms of service, while the remainder would be forced to leave the military, although some of those leaving would be eligible to serve in the Coast Guard, the Merchant Navy, civilian positions in the Ministry of Defense, and in the paramilitary forces of the Ministry of Home Affairs, such as the Central Armed Police Forces and Assam Rifles<br /><br /><strong>note 2: </strong>as of 2022, women made up about .59% of the Army, 1.1% of the Air Force, and 6% of the Navy<br /><br /><strong>note 3: </strong>the Indian military accepts citizens of Nepal and Bhutan; descendants of refugees from Tibet who arrived before 1962 and have resided permanently in India; peoples of Indian origin from nations such as Burma, the Democratic Republic of the Congo, Ethiopia, Kenya, Malawi, Pakistan, Sri Lanka, Tanzania, Uganda, and Vietnam with the intention of permanently settling in India; eligible candidates from &ldquo;friendly foreign nations&rdquo; may apply to the Armed Forces Medical Services&nbsp;<br /><br /><strong>note 4:</strong> the British began to recruit Nepalese citizens (Gurkhas) into the East India Company Army during the Anglo-Nepalese War (1814-1816), and the Gurkhas subsequently were brought into the British Indian Army; following the partition of India in 1947, an agreement between Nepal, India, and Great Britain allowed for the transfer of the 10 regiments from the British Indian Army to the separate British and Indian armies; six regiments of Gurkhas (aka Gorkhas in India) regiments went to the new Indian Army; a seventh regiment was later added&nbsp;"
+          "field_note": "<strong>note 1:</strong> in 2022, the Indian Government announced that it would begin recruiting 46,000 men aged 17.5-21 annually to serve on 4-year contracts under a process called the Agnipath scheme; at the end of their tenure, 25% would be retained for longer terms of service, while the remainder would be forced to leave the military, although some of those leaving would be eligible to serve in the Coast Guard, the Merchant Navy, civilian positions in the Ministry of Defense, and in the paramilitary forces of the Ministry of Home Affairs, such as the Central Armed Police Forces and Assam Rifles<br /><br /><strong>note 2: </strong>as of 2022, women made up about .59% of the Army, 1.1% of the Air Force, and 6% of the Navy; women in the Army were not allowed to serve in combat arms; the Air Force has allowed women to serve as fighter pilots since 2016; in 2022, the Navy announced it would allow women to serve in every branch of the service, including submarines and aviation<br /><br /><strong>note 3: </strong>the Indian military accepts citizens of Nepal and Bhutan; descendants of refugees from Tibet who arrived before 1962 and have resided permanently in India; peoples of Indian origin from nations such as Burma, the Democratic Republic of the Congo, Ethiopia, Kenya, Malawi, Pakistan, Sri Lanka, Tanzania, Uganda, and Vietnam with the intention of permanently settling in India; eligible candidates from &ldquo;friendly foreign nations&rdquo; may apply to the Armed Forces Medical Services&nbsp;<br /><br /><strong>note 4:</strong> the British began to recruit Nepalese citizens (Gurkhas) into the East India Company Army during the Anglo-Nepalese War (1814-1816), and the Gurkhas subsequently were brought into the British Indian Army; following the partition of India in 1947, an agreement between Nepal, India, and Great Britain allowed for the transfer of the 10 regiments from the British Indian Army to the separate British and Indian armies; six regiments of Gurkhas (aka Gorkhas in India) regiments went to the new Indian Army; a seventh regiment was later added"
         },
         {
           "name": "Military deployments",

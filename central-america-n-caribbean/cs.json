@@ -1,9 +1,9 @@
 {
   "name": "Costa Rica",
   "code": "CS",
-  "published": "2023-01-18 12:08:37 -0500",
+  "published": "2023-01-25 12:12:57 -0500",
   "region": "Central America and the Caribbean",
-  "updated": "2023-01-10 19:03:43 -0500",
+  "updated": "2023-01-20 16:45:45 -0500",
   "media": [
     {
       "type": "flag",
@@ -2448,23 +2448,25 @@
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
-          "content": "<strong>revenues: </strong>8.357 billion (2017 est.)<br><br><strong>expenditures: </strong>11.92 billion (2017 est.)",
+          "content": "<strong>revenues: </strong>$8.357 billion (2017 est.)<br><br><strong>expenditures: </strong>$11.92 billion (2017 est.)",
           "subfields": [
             {
               "name": "revenues",
-              "content": "8.357 billion (2017 est.)",
+              "content": "$8.357 billion (2017 est.)",
               "title": "revenues",
               "value": "8357000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             },
             {
               "name": "expenditures",
-              "content": "11.92 billion (2017 est.)",
+              "content": "$11.92 billion (2017 est.)",
               "title": "expenditures",
               "value": "11920000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             }
           ]
         },
@@ -3509,13 +3511,19 @@
           "name": "Ports and terminals",
           "field_id": 388,
           "comparative": false,
-          "content": "<strong>major seaport(s): </strong>Atlantic Ocean (Caribbean) - Puerto Limon<br><br>Pacific Ocean - Caldera",
+          "content": "<strong>major seaport(s): </strong>Atlantic Ocean (Caribbean) - Puerto Limon<br><br><strong>container port(s) (TEUs): </strong>Puerto Limon (1,319,372)<br><br>Pacific Ocean - Caldera",
           "subfields": [
             {
               "name": "major seaport(s)",
               "content": "Atlantic Ocean (Caribbean) - Puerto Limon",
               "value": "Atlantic Ocean (Caribbean) - Puerto Limon",
               "title": "major seaport(s)"
+            },
+            {
+              "name": "container port(s) (TEUs)",
+              "content": "Puerto Limon (1,319,372)",
+              "value": "Puerto Limon (1,319,372)",
+              "title": "container port(s) (TEUs)"
             }
           ],
           "field_note": "Pacific Ocean - Caldera"

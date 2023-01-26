@@ -1,9 +1,9 @@
 {
   "name": "British Virgin Islands",
   "code": "VI",
-  "published": "2023-01-18 12:36:34 -0500",
+  "published": "2023-01-25 12:41:29 -0500",
   "region": "Central America and the Caribbean",
-  "updated": "2023-01-10 07:28:25 -0500",
+  "updated": "2023-01-20 17:45:40 -0500",
   "media": [
     {
       "type": "flag",
@@ -1683,23 +1683,25 @@
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
-          "content": "<strong>revenues: </strong>400 million (2017 est.)<br><br><strong>expenditures: </strong>400 million (2017 est.)",
+          "content": "<strong>revenues: </strong>$400 million (2017 est.)<br><br><strong>expenditures: </strong>$400 million (2017 est.)",
           "subfields": [
             {
               "name": "revenues",
-              "content": "400 million (2017 est.)",
+              "content": "$400 million (2017 est.)",
               "title": "revenues",
               "value": "400000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             },
             {
               "name": "expenditures",
-              "content": "400 million (2017 est.)",
+              "content": "$400 million (2017 est.)",
               "title": "expenditures",
               "value": "400000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             }
           ]
         },
@@ -2530,13 +2532,19 @@
           "name": "Ports and terminals",
           "field_id": 388,
           "comparative": false,
-          "content": "<strong>major seaport(s): </strong>Road Harbor",
+          "content": "<strong>major seaport(s): </strong>Road Harbor<br><br><strong>cruise port(s): </strong>Tortola",
           "subfields": [
             {
               "name": "major seaport(s)",
               "content": "Road Harbor",
               "value": "Road Harbor",
               "title": "major seaport(s)"
+            },
+            {
+              "name": "cruise port(s)",
+              "content": "Tortola",
+              "value": "Tortola",
+              "title": "cruise port(s)"
             }
           ]
         }

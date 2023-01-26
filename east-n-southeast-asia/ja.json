@@ -1,9 +1,9 @@
 {
   "name": "Japan",
   "code": "JA",
-  "published": "2023-01-18 12:18:27 -0500",
+  "published": "2023-01-25 12:22:55 -0500",
   "region": "East and Southeast Asia",
-  "updated": "2023-01-14 11:35:23 -0500",
+  "updated": "2023-01-24 08:41:25 -0500",
   "media": [
     {
       "type": "flag",
@@ -2888,23 +2888,25 @@
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
-          "content": "<strong>revenues: </strong>1.714 trillion (2017 est.)<br><br><strong>expenditures: </strong>1.885 trillion (2017 est.)",
+          "content": "<strong>revenues: </strong>$1.714 trillion (2017 est.)<br><br><strong>expenditures: </strong>$1.885 trillion (2017 est.)",
           "subfields": [
             {
               "name": "revenues",
-              "content": "1.714 trillion (2017 est.)",
+              "content": "$1.714 trillion (2017 est.)",
               "title": "revenues",
               "value": "1714000000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             },
             {
               "name": "expenditures",
-              "content": "1.885 trillion (2017 est.)",
+              "content": "$1.885 trillion (2017 est.)",
               "title": "expenditures",
               "value": "1885000000000",
               "estimated": true,
-              "info_date": "2017"
+              "info_date": "2017",
+              "prefix": "$"
             }
           ]
         },
@@ -4013,7 +4015,7 @@
           "name": "Ports and terminals",
           "field_id": 388,
           "comparative": false,
-          "content": "<strong>major seaport(s): </strong>Chiba, Kawasaki, Kobe, Mizushima, Moji, Nagoya, Osaka, Tokyo, Tomakomai, Yokohama<br><br><strong>container port(s) (TEUs): </strong>Kobe (2,871,642), Nagoya (2,844,004), Osaka (2,456,028), Tokyo (4,510,000), Yokohama (2,990,000) (2019)<br><br><strong>LNG terminal(s) (import): </strong>Chita, Fukwoke, Futtsu, Hachinone, Hakodate, Hatsukaichi, Higashi Ohgishima, Higashi Niigata, Himeiji, Joetsu, Kagoshima, Kawagoe, Kita Kyushu, Mizushima, Nagasaki, Naoetsu, Negishi, Ohgishima, Oita, Sakai, Sakaide, Senboku, Shimizu, Shin Minato, Sodegaura, Tobata, Yanai, Yokkaichi<br><br>Okinawa - Nakagusuku",
+          "content": "<strong>major seaport(s): </strong>Chiba, Kawasaki, Kobe, Mizushima, Moji, Nagoya, Osaka, Tokyo, Tomakomai, Yokohama<br><br><strong>container port(s) (TEUs): </strong>Kobe (2,823,774), Nagoya (2,725,597), Osaka (2,425,638), Tokyo (4,325,956), Yokohama (2,861,197) (2021)<br><br><strong>LNG terminal(s) (import): </strong>Chita, Fukwoke, Futtsu, Hachinone, Hakodate, Hatsukaichi, Higashi Ohgishima, Higashi Niigata, Himeiji, Joetsu, Kagoshima, Kawagoe, Kita Kyushu, Mizushima, Nagasaki, Naoetsu, Negishi, Ohgishima, Oita, Sakai, Sakaide, Senboku, Shimizu, Shin Minato, Sodegaura, Tobata, Yanai, Yokkaichi<br><br>Okinawa - Nakagusuku",
           "subfields": [
             {
               "name": "major seaport(s)",
@@ -4023,10 +4025,10 @@
             },
             {
               "name": "container port(s) (TEUs)",
-              "content": "Kobe (2,871,642), Nagoya (2,844,004), Osaka (2,456,028), Tokyo (4,510,000), Yokohama (2,990,000) (2019)",
-              "value": "Kobe (2,871,642), Nagoya (2,844,004), Osaka (2,456,028), Tokyo (4,510,000), Yokohama (2,990,000)",
+              "content": "Kobe (2,823,774), Nagoya (2,725,597), Osaka (2,425,638), Tokyo (4,325,956), Yokohama (2,861,197) (2021)",
+              "value": "Kobe (2,823,774), Nagoya (2,725,597), Osaka (2,425,638), Tokyo (4,325,956), Yokohama (2,861,197)",
               "title": "container port(s) (TEUs)",
-              "info_date": "2019"
+              "info_date": "2021"
             },
             {
               "name": "LNG terminal(s) (import)",
@@ -4062,13 +4064,13 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "1% of GDP (2022 est.)<br><br>1% of GDP (2021)<br><br>1% of GDP (2020)<br><br>0.9% of GDP (2019) (approximately $53.4 billion)<br><br>0.9% of GDP (2018) (approximately $53.5 billion)<br><br><strong>note:</strong> the Japanese Government in 2022 pledged to \"substantially\" increase defense spending in the next few years to counter what Tokyo sees as a growing security threat posed by China",
+          "content": "1% of GDP (2022)<br><br>1% of GDP (2021)<br><br>1% of GDP (2020)<br><br>0.9% of GDP (2019)<br><br>0.9% of GDP (2018)<br><br><strong>note:</strong> the Japanese Government in 2022 pledged to increase defense expenditures to 2% of GDP in line with NATO standards; if the planned increase occurs, Japan would have one of the world's largest defense budgets",
           "subfields": [
             {
               "name": "Military Expenditures 2022",
-              "content": "1% of GDP (2022 est.)",
+              "content": "1% of GDP (2022)",
               "value": "1",
-              "estimated": true,
+              "estimated": false,
               "suffix": "% of GDP"
             },
             {
@@ -4087,22 +4089,20 @@
             },
             {
               "name": "Military Expenditures 2019",
-              "content": "0.9% of GDP (2019) (approximately $53.4 billion)",
+              "content": "0.9% of GDP (2019)",
               "value": "0.9",
               "estimated": false,
-              "suffix": "% of GDP",
-              "subfield_note": "(approximately $53.4 billion)"
+              "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "0.9% of GDP (2018) (approximately $53.5 billion)",
+              "content": "0.9% of GDP (2018)",
               "value": "0.9",
               "estimated": false,
-              "suffix": "% of GDP",
-              "subfield_note": "(approximately $53.5 billion)"
+              "suffix": "% of GDP"
             }
           ],
-          "field_note": "<strong>note:</strong> the Japanese Government in 2022 pledged to \"substantially\" increase defense spending in the next few years to counter what Tokyo sees as a growing security threat posed by China"
+          "field_note": "<strong>note:</strong> the Japanese Government in 2022 pledged to increase defense expenditures to 2% of GDP in line with NATO standards; if the planned increase occurs, Japan would have one of the world's largest defense budgets"
         },
         {
           "name": "Military and security service personnel strengths",
@@ -4141,9 +4141,9 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "Japan was disarmed after its defeat in World War II; shortly after the Korean War began in 1950, US occupation forces in Japan created a 75,000-member lightly armed force called the National Police Reserve; the current Self Defense Force was founded in 1954 <br /><br />in addition to having one of the region&rsquo;s largest and best equipped militaries, Japan&rsquo;s alliance with the US (signed in 1951) is one of the cornerstones of the country&rsquo;s security, as well as a large part of the US security role in Asia; as of 2022, approximately 55,000 US troops and other military assets, including aircraft and naval ships, were stationed in Japan and had exclusive use of more than 80 bases and facilities; in exchange for their use, the US guarantees Japan&rsquo;s security; the Japanese Government provides about $2 billion per year to offset the cost of stationing US forces in Japan; in addition, it pays compensation to localities hosting US troops, rent for bases, and costs for new facilities to support the US presence <br /><br />Japan has Major Non-NATO Ally (MNNA) status with the US; MNNA is a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; while MNNA status provides military and economic privileges, it does not entail any security commitments (2022)",
-          "value": "Japan was disarmed after its defeat in World War II; shortly after the Korean War began in 1950, US occupation forces in Japan created a 75,000-member lightly armed force called the National Police Reserve; the current Self Defense Force was founded in 1954 <br /><br />in addition to having one of the region&rsquo;s largest and best equipped militaries, Japan&rsquo;s alliance with the US (signed in 1951) is one of the cornerstones of the country&rsquo;s security, as well as a large part of the US security role in Asia; as of 2022, approximately 55,000 US troops and other military assets, including aircraft and naval ships, were stationed in Japan and had exclusive use of more than 80 bases and facilities; in exchange for their use, the US guarantees Japan&rsquo;s security; the Japanese Government provides about $2 billion per year to offset the cost of stationing US forces in Japan; in addition, it pays compensation to localities hosting US troops, rent for bases, and costs for new facilities to support the US presence <br /><br />Japan has Major Non-NATO Ally (MNNA) status with the US; MNNA is a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; while MNNA status provides military and economic privileges, it does not entail any security commitments",
-          "info_date": "2022"
+          "content": "Japan was disarmed after its defeat in World War II; shortly after the Korean War began in 1950, US occupation forces in Japan created a 75,000-member lightly armed force called the National Police Reserve; the current Self Defense Force was founded in 1954 <br /><br />in addition to having one of the region&rsquo;s largest and best equipped militaries, Japan&rsquo;s alliance with the US (signed in 1951) is one of the cornerstones of the country&rsquo;s security, as well as a large part of the US security role in Asia; as of 2023, approximately 55,000 US troops and other military assets, including aircraft and naval ships, were stationed in Japan and had exclusive use of more than 80 bases and facilities; in exchange for their use, the US guarantees Japan&rsquo;s security; the Japanese Government provides about $2 billion per year to offset the cost of stationing US forces in Japan; in addition, it pays compensation to localities hosting US troops, rent for bases, and costs for new facilities to support the US presence <br /><br />Japan has Major Non-NATO Ally (MNNA) status with the US; MNNA is a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; while MNNA status provides military and economic privileges, it does not entail any security commitments (2023)",
+          "value": "Japan was disarmed after its defeat in World War II; shortly after the Korean War began in 1950, US occupation forces in Japan created a 75,000-member lightly armed force called the National Police Reserve; the current Self Defense Force was founded in 1954 <br /><br />in addition to having one of the region&rsquo;s largest and best equipped militaries, Japan&rsquo;s alliance with the US (signed in 1951) is one of the cornerstones of the country&rsquo;s security, as well as a large part of the US security role in Asia; as of 2023, approximately 55,000 US troops and other military assets, including aircraft and naval ships, were stationed in Japan and had exclusive use of more than 80 bases and facilities; in exchange for their use, the US guarantees Japan&rsquo;s security; the Japanese Government provides about $2 billion per year to offset the cost of stationing US forces in Japan; in addition, it pays compensation to localities hosting US troops, rent for bases, and costs for new facilities to support the US presence <br /><br />Japan has Major Non-NATO Ally (MNNA) status with the US; MNNA is a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; while MNNA status provides military and economic privileges, it does not entail any security commitments",
+          "info_date": "2023"
         }
       ]
     },
