@@ -1,9 +1,9 @@
 {
   "name": "Colombia",
   "code": "CO",
-  "published": "2023-04-26 12:10:44 -0400",
+  "published": "2023-05-03 12:10:15 -0400",
   "region": "South America",
-  "updated": "2023-04-25 20:37:02 -0400",
+  "updated": "2023-05-02 13:20:58 -0400",
   "media": [
     {
       "type": "flag",
@@ -3364,7 +3364,7 @@
           "name": "Airports - with paved runways",
           "field_id": 380,
           "comparative": false,
-          "content": "<strong>total: </strong>121<br><br><strong>over 3,047 m: </strong>2<br><br><strong>2,438 to 3,047 m: </strong>9<br><br><strong>1,524 to 2,437 m: </strong>39<br><br><strong>914 to 1,523 m: </strong>53<br><br><strong>under 914 m: </strong>18 (2021)",
+          "content": "<strong>total: </strong>121<br><br><strong>over 3,047 m: </strong>2<br><br><strong>2,438 to 3,047 m: </strong>9<br><br><strong>1,524 to 2,437 m: </strong>39<br><br><strong>914 to 1,523 m: </strong>53<br><br><strong>under 914 m: </strong>18 (2021)<br><br><strong>note:</strong> paved runways have a concrete or asphalt surface but not all have facilities for refueling, maintenance, or air traffic control; the length of a runway required for aircraft to safely operate depends on a number of factors including the type of aircraft, the takeoff weight (including passengers, cargo, and fuel), engine types, flap settings, landing speed, elevation of the airport, and average maximum daily air temperature; paved runways can reach a length of 5,000 m (16,000 ft.), but the &ldquo;typical&rdquo; length of a commercial airline runway is between 2,500-4,000 m (8,000-13,000 ft.)",
           "subfields": [
             {
               "name": "total",
@@ -3404,7 +3404,8 @@
               "estimated": false,
               "info_date": "2021"
             }
-          ]
+          ],
+          "field_note": "<strong>note:</strong> paved runways have a concrete or asphalt surface but not all have facilities for refueling, maintenance, or air traffic control; the length of a runway required for aircraft to safely operate depends on a number of factors including the type of aircraft, the takeoff weight (including passengers, cargo, and fuel), engine types, flap settings, landing speed, elevation of the airport, and average maximum daily air temperature; paved runways can reach a length of 5,000 m (16,000 ft.), but the &ldquo;typical&rdquo; length of a commercial airline runway is between 2,500-4,000 m (8,000-13,000 ft.)"
         },
         {
           "name": "Airports - with unpaved runways",
@@ -3599,16 +3600,23 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Military Forces of Colombia (Fuerzas Militares de Colombia<em lang=\"es\">)</em>: National Army (Ejercito Nacional), Republic of Colombia Navy (Armada Republica de Colombia, ARC; includes Coast Guard), Colombian Air Force (Fuerza Aerea de Colombia, FAC); Colombian National Police (PNC; civilian force that is under the jurisdiction of the Ministry of Defense) (2022)",
+          "content": "Military Forces of Colombia (Fuerzas Militares de Colombia<em lang=\"es\">)</em>: National Army (Ejercito Nacional), Republic of Colombia Navy (Armada Republica de Colombia, ARC; includes Coast Guard), Colombian Air Force (Fuerza Aerea de Colombia, FAC); Colombian National Police (PNC; civilian force that is under the jurisdiction of the Ministry of Defense) (2023)",
           "value": "Military Forces of Colombia (Fuerzas Militares de Colombia<em lang=\"es\">)</em>: National Army (Ejercito Nacional), Republic of Colombia Navy (Armada Republica de Colombia, ARC; includes Coast Guard), Colombian Air Force (Fuerza Aerea de Colombia, FAC); Colombian National Police (PNC; civilian force that is under the jurisdiction of the Ministry of Defense)",
-          "info_date": "2022"
+          "info_date": "2023"
         },
         {
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": true,
-          "content": "3% of GDP (2021 est.)<br><br>3% of GDP (2020 est.)<br><br>3.1% of GDP (2019)<br><br>3.1% of GDP (2018)<br><br>3.2% of GDP (2017)",
+          "content": "3% of GDP (2022 est.)<br><br>3% of GDP (2021 est.)<br><br>3% of GDP (2020 est.)<br><br>3.1% of GDP (2019 est.)<br><br>3.1% of GDP (2018 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2022",
+              "content": "3% of GDP (2022 est.)",
+              "value": "3",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2021",
               "content": "3% of GDP (2021 est.)",
@@ -3625,23 +3633,16 @@
             },
             {
               "name": "Military Expenditures 2019",
-              "content": "3.1% of GDP (2019)",
+              "content": "3.1% of GDP (2019 est.)",
               "value": "3.1",
-              "estimated": false,
+              "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2018",
-              "content": "3.1% of GDP (2018)",
+              "content": "3.1% of GDP (2018 est.)",
               "value": "3.1",
-              "estimated": false,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2017",
-              "content": "3.2% of GDP (2017)",
-              "value": "3.2",
-              "estimated": false,
+              "estimated": true,
               "suffix": "% of GDP"
             }
           ]
@@ -3650,8 +3651,8 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "approximately 260,000 total active troops (200,000 Army; 45,000 Navy, including about 20,000 marines; 14,000 Air Force); approximately 170,000 National Police (2022)",
-          "value": "approximately 260,000 total active troops (200,000 Army; 45,000 Navy, including about 20,000 marines; 14,000 Air Force); approximately 170,000 National Police",
+          "content": "approximately 260,000 total active troops (200,000 Army; 45,000 Navy, including about 20,000 marines; 14,000 Air Force); approximately 180,000 National Police (2022)",
+          "value": "approximately 260,000 total active troops (200,000 Army; 45,000 Navy, including about 20,000 marines; 14,000 Air Force); approximately 180,000 National Police",
           "info_date": "2022"
         },
         {
@@ -3675,16 +3676,17 @@
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "275 Egypt (MFO) (2022)",
+          "content": "275 Egypt (MFO) (2023)",
           "value": "275 Egypt (MFO)",
-          "info_date": "2022"
+          "info_date": "2023"
         },
         {
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "as of 2022, the Colombian Armed Forces were primarily focused on internal security, particularly counter-narcotics, counter-terrorism, and counterinsurgency operations against drug traffickers, militants from several factions of the Revolutionary Armed Forces of Colombia (FARC) and National Liberation Army (ELN) terrorist/guerrilla organizations, and other illegal armed groups; the Colombian Government signed a peace agreement with the FARC in 2016, but some former members (known as dissidents) have returned to fighting (note - these dissident groups include the designated terrorist groups Revolutionary Armed Forces of Colombia - People's Army or FARC-EP and Segunda Marquetalia; see Appendix T); the Colombian military resumed operations against FARC dissidents and their successor paramilitary groups in late 2019; in 2017, the Colombian Government initiated formal peace talks with the ELN, but in January 2019, the government suspended the peace talks shortly after the ELN exploded a car bomb at the National Police Academy in Bogot&aacute; and resumed counter-terrorism/counterinsurgency operations against the group; operations against the FARC dissident groups and the ELN continued into 2022, although the Colombian Government resumed talks with ELN in November 2022; the military was also focused on the security challenges posed by its neighbor, Venezuela, where instability has attracted narcotics traffickers and both the ELN and FARC dissidents, including FARC-EP and Segunda Marquetalia, operate openly",
-          "value": "as of 2022, the Colombian Armed Forces were primarily focused on internal security, particularly counter-narcotics, counter-terrorism, and counterinsurgency operations against drug traffickers, militants from several factions of the Revolutionary Armed Forces of Colombia (FARC) and National Liberation Army (ELN) terrorist/guerrilla organizations, and other illegal armed groups; the Colombian Government signed a peace agreement with the FARC in 2016, but some former members (known as dissidents) have returned to fighting (note - these dissident groups include the designated terrorist groups Revolutionary Armed Forces of Colombia - People's Army or FARC-EP and Segunda Marquetalia; see Appendix T); the Colombian military resumed operations against FARC dissidents and their successor paramilitary groups in late 2019; in 2017, the Colombian Government initiated formal peace talks with the ELN, but in January 2019, the government suspended the peace talks shortly after the ELN exploded a car bomb at the National Police Academy in Bogot&aacute; and resumed counter-terrorism/counterinsurgency operations against the group; operations against the FARC dissident groups and the ELN continued into 2022, although the Colombian Government resumed talks with ELN in November 2022; the military was also focused on the security challenges posed by its neighbor, Venezuela, where instability has attracted narcotics traffickers and both the ELN and FARC dissidents, including FARC-EP and Segunda Marquetalia, operate openly"
+          "content": "the Colombian Armed Forces are primarily focused on internal security, particularly counter-narcotics, counter-terrorism, and counterinsurgency operations against drug traffickers, militants from several factions of the Revolutionary Armed Forces of Colombia (FARC) and National Liberation Army (ELN) terrorist/guerrilla organizations, and other illegal armed groups; the Colombian Government signed a peace agreement with the FARC in 2016, but some former members (known as dissidents) have returned to fighting (note - these dissident groups include the designated terrorist groups Revolutionary Armed Forces of Colombia - People's Army or FARC-EP and Segunda Marquetalia; see Appendix T); the Colombian military resumed operations against FARC dissidents and their successor paramilitary groups in late 2019; in 2017, the Colombian Government initiated formal peace talks with the ELN, but in January 2019, the government suspended the peace talks shortly after the ELN exploded a car bomb at the National Police Academy in Bogot&aacute; and resumed counter-terrorism/counterinsurgency operations against the group; operations against the FARC dissident groups and the ELN continued into 2023, although the Colombian Government resumed talks with ELN in November 2022; the military is also focused on the security challenges posed by its neighbor, Venezuela, where instability has attracted narcotics traffickers and both the ELN and FARC dissidents, including FARC-EP and Segunda Marquetalia, operate openly<br /><br />Colombia has Major Non-NATO Ally (MNNA) status with the US, a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation (2023)",
+          "value": "the Colombian Armed Forces are primarily focused on internal security, particularly counter-narcotics, counter-terrorism, and counterinsurgency operations against drug traffickers, militants from several factions of the Revolutionary Armed Forces of Colombia (FARC) and National Liberation Army (ELN) terrorist/guerrilla organizations, and other illegal armed groups; the Colombian Government signed a peace agreement with the FARC in 2016, but some former members (known as dissidents) have returned to fighting (note - these dissident groups include the designated terrorist groups Revolutionary Armed Forces of Colombia - People's Army or FARC-EP and Segunda Marquetalia; see Appendix T); the Colombian military resumed operations against FARC dissidents and their successor paramilitary groups in late 2019; in 2017, the Colombian Government initiated formal peace talks with the ELN, but in January 2019, the government suspended the peace talks shortly after the ELN exploded a car bomb at the National Police Academy in Bogot&aacute; and resumed counter-terrorism/counterinsurgency operations against the group; operations against the FARC dissident groups and the ELN continued into 2023, although the Colombian Government resumed talks with ELN in November 2022; the military is also focused on the security challenges posed by its neighbor, Venezuela, where instability has attracted narcotics traffickers and both the ELN and FARC dissidents, including FARC-EP and Segunda Marquetalia, operate openly<br /><br />Colombia has Major Non-NATO Ally (MNNA) status with the US, a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation",
+          "info_date": "2023"
         },
         {
           "name": "Maritime threats",
@@ -3724,7 +3726,7 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>1,842,390 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or received alternative legal stay) (2022)<br><br><strong>IDPs: </strong>8,258,460 (conflict between government and illegal armed groups and drug traffickers since 1985) (2022)<br><br><strong>stateless persons: </strong>11 (2022)",
+          "content": "<strong>refugees (country of origin): </strong>1,842,390 (Venezuela) (economic and political crisis; includes Venezuelans who have claimed asylum, are recognized as refugees, or received alternative legal stay) (2022)<br><br><strong>IDPs: </strong>6,834,492 (conflict between government and illegal armed groups and drug traffickers since 1985) (2022)<br><br><strong>stateless persons: </strong>11 (2022)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
@@ -3734,8 +3736,8 @@
             },
             {
               "name": "IDPs",
-              "content": "8,258,460 (conflict between government and illegal armed groups and drug traffickers since 1985) (2022)",
-              "value": "8,258,460 (conflict between government and illegal armed groups and drug traffickers since 1985) (2022)",
+              "content": "6,834,492 (conflict between government and illegal armed groups and drug traffickers since 1985) (2022)",
+              "value": "6,834,492 (conflict between government and illegal armed groups and drug traffickers since 1985) (2022)",
               "title": "IDPs"
             },
             {
