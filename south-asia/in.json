@@ -1,9 +1,9 @@
 {
   "name": "India",
   "code": "IN",
-  "published": "2023-07-12 00:07:08 -0400",
+  "published": "2023-07-19 00:03:36 -0400",
   "region": "South Asia",
-  "updated": "2023-07-11 15:13:05 -0400",
+  "updated": "2023-07-18 13:22:44 -0400",
   "media": [
     {
       "type": "flag",
@@ -2977,33 +2977,41 @@
           "name": "Electricity access",
           "field_id": 251,
           "comparative": false,
-          "content": "<strong>electrification - total population: </strong>99% (2019)<br><br><strong>electrification - urban areas: </strong>99% (2019)<br><br><strong>electrification - rural areas: </strong>99% (2019)",
+          "content": "<strong>population without electricity: </strong>(2020) 3 million<br><br><strong>electrification - total population: </strong>99.5% (2021)<br><br><strong>electrification - urban areas: </strong>100% (2021)<br><br><strong>electrification - rural areas: </strong>99.3% (2021)",
           "subfields": [
             {
-              "name": "electrification - total population",
-              "content": "99% (2019)",
-              "title": "electrification - total population",
-              "value": "99",
+              "name": "population without electricity",
+              "content": "(2020) 3 million",
+              "title": "population without electricity",
               "estimated": false,
-              "info_date": "2019",
+              "info_date": "2020",
+              "subfield_note": "3 million"
+            },
+            {
+              "name": "electrification - total population",
+              "content": "99.5% (2021)",
+              "title": "electrification - total population",
+              "value": "99.5",
+              "estimated": false,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "electrification - urban areas",
-              "content": "99% (2019)",
+              "content": "100% (2021)",
               "title": "electrification - urban areas",
-              "value": "99",
+              "value": "100",
               "estimated": false,
-              "info_date": "2019",
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "electrification - rural areas",
-              "content": "99% (2019)",
+              "content": "99.3% (2021)",
               "title": "electrification - rural areas",
-              "value": "99",
+              "value": "99.3",
               "estimated": false,
-              "info_date": "2019",
+              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -3655,9 +3663,38 @@
           "name": "Airports - with paved runways",
           "field_id": 380,
           "comparative": false,
-          "content": "253<br><br><strong>note:</strong> paved runways have a concrete or asphalt surface but not all have facilities for refueling, maintenance, or air traffic control; the length of a runway required for aircraft to safely operate depends on a number of factors including the type of aircraft, the takeoff weight (including passengers, cargo, and fuel), engine types, flap settings, landing speed, elevation of the airport, and average maximum daily air temperature; paved runways can reach a length of 5,000 m (16,000 ft.), but the &ldquo;typical&rdquo; length of a commercial airline runway is between 2,500-4,000 m (8,000-13,000 ft.)",
-          "value": "253",
-          "estimated": false,
+          "content": "253<br><br><strong>civil airports: </strong>31<br><br><strong>military airports: </strong>46<br><br><strong>joint use (civil-military) airports: </strong>11<br><br><strong>other airports: </strong>165<br><br><strong>note:</strong> paved runways have a concrete or asphalt surface but not all have facilities for refueling, maintenance, or air traffic control; the length of a runway required for aircraft to safely operate depends on a number of factors including the type of aircraft, the takeoff weight (including passengers, cargo, and fuel), engine types, flap settings, landing speed, elevation of the airport, and average maximum daily air temperature; paved runways can reach a length of 5,000 m (16,000 ft.), but the &ldquo;typical&rdquo; length of a commercial airline runway is between 2,500-4,000 m (8,000-13,000 ft.)",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "253",
+              "value": "253"
+            },
+            {
+              "name": "civil airports",
+              "content": "31",
+              "title": "civil airports",
+              "value": "31"
+            },
+            {
+              "name": "military airports",
+              "content": "46",
+              "title": "military airports",
+              "value": "46"
+            },
+            {
+              "name": "joint use (civil-military) airports",
+              "content": "11",
+              "title": "joint use (civil-military) airports",
+              "value": "11"
+            },
+            {
+              "name": "other airports",
+              "content": "165",
+              "title": "other airports",
+              "value": "165"
+            }
+          ],
           "field_note": "<strong>note:</strong> paved runways have a concrete or asphalt surface but not all have facilities for refueling, maintenance, or air traffic control; the length of a runway required for aircraft to safely operate depends on a number of factors including the type of aircraft, the takeoff weight (including passengers, cargo, and fuel), engine types, flap settings, landing speed, elevation of the airport, and average maximum daily air temperature; paved runways can reach a length of 5,000 m (16,000 ft.), but the &ldquo;typical&rdquo; length of a commercial airline runway is between 2,500-4,000 m (8,000-13,000 ft.)"
         },
         {
