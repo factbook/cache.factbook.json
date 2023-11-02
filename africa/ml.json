@@ -1,9 +1,9 @@
 {
   "name": "Mali",
   "code": "ML",
-  "published": "2023-09-27 00:03:04 -0400",
+  "published": "2023-11-02 00:09:16 -0400",
   "region": "Africa",
-  "updated": "2023-09-26 13:29:52 -0400",
+  "updated": "2023-11-01 16:06:49 -0400",
   "media": [
     {
       "type": "flag",
@@ -489,13 +489,15 @@
           "name": "Median age",
           "field_id": 343,
           "comparative": true,
-          "content": "<strong>total: </strong>16 years<br><br><strong>male: </strong>15.3 years<br><br><strong>female: </strong>16.7 years (2020 est.)",
+          "content": "<strong>total: </strong>16 years (2020)<br><br><strong>male: </strong>15.3 years<br><br><strong>female: </strong>16.7 years",
           "subfields": [
             {
               "name": "total",
-              "content": "16 years",
+              "content": "16 years (2020)",
               "title": "total",
               "value": "16",
+              "estimated": false,
+              "info_date": "2020",
               "suffix": "years"
             },
             {
@@ -507,11 +509,9 @@
             },
             {
               "name": "female",
-              "content": "16.7 years (2020 est.)",
+              "content": "16.7 years",
               "title": "female",
               "value": "16.7",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "years"
             }
           ]
@@ -674,13 +674,15 @@
           "name": "Infant mortality rate",
           "field_id": 354,
           "comparative": true,
-          "content": "<strong>total: </strong>58.99 deaths/1,000 live births<br><br><strong>male: </strong>64.31 deaths/1,000 live births<br><br><strong>female: </strong>53.5 deaths/1,000 live births (2023 est.)",
+          "content": "<strong>total: </strong>58.99 deaths/1,000 live births (2023 est.)<br><br><strong>male: </strong>64.31 deaths/1,000 live births<br><br><strong>female: </strong>53.5 deaths/1,000 live births",
           "subfields": [
             {
               "name": "total",
-              "content": "58.99 deaths/1,000 live births",
+              "content": "58.99 deaths/1,000 live births (2023 est.)",
               "title": "total",
               "value": "58.99",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             },
             {
@@ -692,11 +694,9 @@
             },
             {
               "name": "female",
-              "content": "53.5 deaths/1,000 live births (2023 est.)",
+              "content": "53.5 deaths/1,000 live births",
               "title": "female",
               "value": "53.5",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             }
           ]
@@ -705,13 +705,15 @@
           "name": "Life expectancy at birth",
           "field_id": 355,
           "comparative": true,
-          "content": "<strong>total population: </strong>62.81 years<br><br><strong>male: </strong>60.56 years<br><br><strong>female: </strong>65.13 years (2023 est.)",
+          "content": "<strong>total population: </strong>62.81 years (2023 est.)<br><br><strong>male: </strong>60.56 years<br><br><strong>female: </strong>65.13 years",
           "subfields": [
             {
               "name": "total population",
-              "content": "62.81 years",
+              "content": "62.81 years (2023 est.)",
               "title": "total population",
               "value": "62.81",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "years"
             },
             {
@@ -723,11 +725,9 @@
             },
             {
               "name": "female",
-              "content": "65.13 years (2023 est.)",
+              "content": "65.13 years",
               "title": "female",
               "value": "65.13",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "years"
             }
           ]
@@ -1040,10 +1040,10 @@
           "name": "Children under the age of 5 years underweight",
           "field_id": 368,
           "comparative": true,
-          "content": "18.1% (2019)",
-          "value": "18.1",
+          "content": "18.5% (2022)",
+          "value": "18.5",
           "estimated": false,
-          "info_date": "2019",
+          "info_date": "2022",
           "suffix": "%"
         },
         {
@@ -1169,13 +1169,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>17.3%<br><br><strong>male: </strong>15.4%<br><br><strong>female: </strong>19.8% (2021 est.)",
+          "content": "<strong>total: </strong>17.3% (2021 est.)<br><br><strong>male: </strong>15.4%<br><br><strong>female: </strong>19.8%",
           "subfields": [
             {
               "name": "total",
-              "content": "17.3%",
+              "content": "17.3% (2021 est.)",
               "title": "total",
               "value": "17.3",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
@@ -1187,11 +1189,9 @@
             },
             {
               "name": "female",
-              "content": "19.8% (2021 est.)",
+              "content": "19.8%",
               "title": "female",
               "value": "19.8",
-              "estimated": true,
-              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -2258,13 +2258,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>17.3%<br><br><strong>male: </strong>15.4%<br><br><strong>female: </strong>19.8% (2021 est.)",
+          "content": "<strong>total: </strong>17.3% (2021 est.)<br><br><strong>male: </strong>15.4%<br><br><strong>female: </strong>19.8%",
           "subfields": [
             {
               "name": "total",
-              "content": "17.3%",
+              "content": "17.3% (2021 est.)",
               "title": "total",
               "value": "17.3",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
@@ -2276,11 +2278,9 @@
             },
             {
               "name": "female",
-              "content": "19.8% (2021 est.)",
+              "content": "19.8%",
               "title": "female",
               "value": "19.8",
-              "estimated": true,
-              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -3452,12 +3452,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>28,820 (Burkina Faso) (refugees and asylum seekers), 19,712 (Niger) (refugees and asylum seekers), 14,955 (Mauritania) (refugees and asylum seekers) (2023)<br><br><strong>IDPs: </strong>375,539 (Tuareg rebellion since 2012) (2023)",
+          "content": "<strong>refugees (country of origin): </strong>29,138 (Burkina Faso) (refugees and asylum seekers), 20,617 (Niger) (refugees and asylum seekers), 14,956 (Mauritania) (refugees and asylum seekers) (2023)<br><br><strong>IDPs: </strong>375,539 (Tuareg rebellion since 2012) (2023)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "28,820 (Burkina Faso) (refugees and asylum seekers), 19,712 (Niger) (refugees and asylum seekers), 14,955 (Mauritania) (refugees and asylum seekers) (2023)",
-              "value": "28,820 (Burkina Faso) (refugees and asylum seekers), 19,712 (Niger) (refugees and asylum seekers), 14,955 (Mauritania) (refugees and asylum seekers) (2023)",
+              "content": "29,138 (Burkina Faso) (refugees and asylum seekers), 20,617 (Niger) (refugees and asylum seekers), 14,956 (Mauritania) (refugees and asylum seekers) (2023)",
+              "value": "29,138 (Burkina Faso) (refugees and asylum seekers), 20,617 (Niger) (refugees and asylum seekers), 14,956 (Mauritania) (refugees and asylum seekers) (2023)",
               "title": "refugees (country of origin)"
             },
             {

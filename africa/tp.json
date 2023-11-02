@@ -1,9 +1,9 @@
 {
   "name": "Sao Tome and Principe",
   "code": "TP",
-  "published": "2023-09-26 00:14:57 -0400",
+  "published": "2023-11-02 00:14:05 -0400",
   "region": "Africa",
-  "updated": "2023-09-25 08:23:26 -0400",
+  "updated": "2023-11-01 16:06:45 -0400",
   "media": [
     {
       "type": "flag",
@@ -430,13 +430,15 @@
           "name": "Median age",
           "field_id": 343,
           "comparative": true,
-          "content": "<strong>total: </strong>19.3 years<br><br><strong>male: </strong>18.9 years<br><br><strong>female: </strong>19.7 years (2020 est.)",
+          "content": "<strong>total: </strong>19.3 years (2020)<br><br><strong>male: </strong>18.9 years<br><br><strong>female: </strong>19.7 years",
           "subfields": [
             {
               "name": "total",
-              "content": "19.3 years",
+              "content": "19.3 years (2020)",
               "title": "total",
               "value": "19.3",
+              "estimated": false,
+              "info_date": "2020",
               "suffix": "years"
             },
             {
@@ -448,11 +450,9 @@
             },
             {
               "name": "female",
-              "content": "19.7 years (2020 est.)",
+              "content": "19.7 years",
               "title": "female",
               "value": "19.7",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "years"
             }
           ]
@@ -615,13 +615,15 @@
           "name": "Infant mortality rate",
           "field_id": 354,
           "comparative": true,
-          "content": "<strong>total: </strong>43.48 deaths/1,000 live births<br><br><strong>male: </strong>46.93 deaths/1,000 live births<br><br><strong>female: </strong>39.92 deaths/1,000 live births (2023 est.)",
+          "content": "<strong>total: </strong>43.48 deaths/1,000 live births (2023 est.)<br><br><strong>male: </strong>46.93 deaths/1,000 live births<br><br><strong>female: </strong>39.92 deaths/1,000 live births",
           "subfields": [
             {
               "name": "total",
-              "content": "43.48 deaths/1,000 live births",
+              "content": "43.48 deaths/1,000 live births (2023 est.)",
               "title": "total",
               "value": "43.48",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             },
             {
@@ -633,11 +635,9 @@
             },
             {
               "name": "female",
-              "content": "39.92 deaths/1,000 live births (2023 est.)",
+              "content": "39.92 deaths/1,000 live births",
               "title": "female",
               "value": "39.92",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             }
           ]
@@ -646,13 +646,15 @@
           "name": "Life expectancy at birth",
           "field_id": 355,
           "comparative": true,
-          "content": "<strong>total population: </strong>67.39 years<br><br><strong>male: </strong>65.74 years<br><br><strong>female: </strong>69.08 years (2023 est.)",
+          "content": "<strong>total population: </strong>67.39 years (2023 est.)<br><br><strong>male: </strong>65.74 years<br><br><strong>female: </strong>69.08 years",
           "subfields": [
             {
               "name": "total population",
-              "content": "67.39 years",
+              "content": "67.39 years (2023 est.)",
               "title": "total population",
               "value": "67.39",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "years"
             },
             {
@@ -664,11 +666,9 @@
             },
             {
               "name": "female",
-              "content": "69.08 years (2023 est.)",
+              "content": "69.08 years",
               "title": "female",
               "value": "69.08",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "years"
             }
           ]
@@ -1092,13 +1092,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>22.9%<br><br><strong>male: </strong>18% NA<br><br><strong>female: </strong>34.3% (2021 est.) NA",
+          "content": "<strong>total: </strong>22.9% (2021 est.)<br><br><strong>male: </strong>18% NA<br><br><strong>female: </strong>34.3% NA",
           "subfields": [
             {
               "name": "total",
-              "content": "22.9%",
+              "content": "22.9% (2021 est.)",
               "title": "total",
               "value": "22.9",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
@@ -1111,11 +1113,9 @@
             },
             {
               "name": "female",
-              "content": "34.3% (2021 est.) NA",
+              "content": "34.3% NA",
               "title": "female",
               "value": "34.3",
-              "estimated": true,
-              "info_date": "2021",
               "suffix": "%",
               "subfield_note": "NA"
             }
@@ -2089,13 +2089,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>22.9%<br><br><strong>male: </strong>18% NA<br><br><strong>female: </strong>34.3% (2021 est.) NA",
+          "content": "<strong>total: </strong>22.9% (2021 est.)<br><br><strong>male: </strong>18% NA<br><br><strong>female: </strong>34.3% NA",
           "subfields": [
             {
               "name": "total",
-              "content": "22.9%",
+              "content": "22.9% (2021 est.)",
               "title": "total",
               "value": "22.9",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
@@ -2108,11 +2110,9 @@
             },
             {
               "name": "female",
-              "content": "34.3% (2021 est.) NA",
+              "content": "34.3% NA",
               "title": "female",
               "value": "34.3",
-              "estimated": true,
-              "info_date": "2021",
               "suffix": "%",
               "subfield_note": "NA"
             }
@@ -3125,20 +3125,21 @@
           "name": "Merchant marine",
           "field_id": 387,
           "comparative": true,
-          "content": "<strong>total: </strong>25<br><br><strong>by type: </strong>general cargo 15, oil tanker 2, other 8 (2022)",
+          "content": "<strong>total: </strong>25 (2022)<br><br><strong>by type: </strong>general cargo 15, oil tanker 2, other 8",
           "subfields": [
             {
               "name": "total",
-              "content": "25",
+              "content": "25 (2022)",
               "title": "total",
-              "value": "25"
+              "value": "25",
+              "estimated": false,
+              "info_date": "2022"
             },
             {
               "name": "by type",
-              "content": "general cargo 15, oil tanker 2, other 8 (2022)",
+              "content": "general cargo 15, oil tanker 2, other 8",
               "value": "general cargo 15, oil tanker 2, other 8",
-              "title": "by type",
-              "info_date": "2022"
+              "title": "by type"
             }
           ]
         },

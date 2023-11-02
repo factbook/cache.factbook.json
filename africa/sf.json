@@ -1,9 +1,9 @@
 {
   "name": "South Africa",
   "code": "SF",
-  "published": "2023-10-19 00:00:29 -0400",
+  "published": "2023-11-02 00:12:34 -0400",
   "region": "Africa",
-  "updated": "2023-10-18 15:27:36 -0400",
+  "updated": "2023-11-01 16:06:43 -0400",
   "media": [
     {
       "type": "flag",
@@ -660,9 +660,9 @@
           "name": "Religions",
           "field_id": 401,
           "comparative": false,
-          "content": "Christian 86%,&nbsp; traditional African religions 5.4%, Muslim 1.9%, other 1.5%, nothing in particular 5.2% (2015 est.)",
-          "value": "Christian 86%,&nbsp; traditional African religions 5.4%, Muslim 1.9%, other 1.5%, nothing in particular 5.2%",
-          "info_date": "2015 est."
+          "content": "Christian 85.3%, African traditional 7.8%, Muslim 1.6%, Hindu 1.1%, other 1.3%, none 2.9% (2022 est.)",
+          "value": "Christian 85.3%, African traditional 7.8%, Muslim 1.6%, Hindu 1.1%, other 1.3%, none 2.9%",
+          "info_date": "2022 est."
         },
         {
           "name": "Demographic profile",
@@ -752,13 +752,15 @@
           "name": "Median age",
           "field_id": 343,
           "comparative": true,
-          "content": "<strong>total: </strong>28 years<br><br><strong>male: </strong>27.9 years<br><br><strong>female: </strong>28.1 years (2020 est.)",
+          "content": "<strong>total: </strong>28 years (2020)<br><br><strong>male: </strong>27.9 years<br><br><strong>female: </strong>28.1 years",
           "subfields": [
             {
               "name": "total",
-              "content": "28 years",
+              "content": "28 years (2020)",
               "title": "total",
               "value": "28",
+              "estimated": false,
+              "info_date": "2020",
               "suffix": "years"
             },
             {
@@ -770,11 +772,9 @@
             },
             {
               "name": "female",
-              "content": "28.1 years (2020 est.)",
+              "content": "28.1 years",
               "title": "female",
               "value": "28.1",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "years"
             }
           ]
@@ -926,13 +926,15 @@
           "name": "Infant mortality rate",
           "field_id": 354,
           "comparative": true,
-          "content": "<strong>total: </strong>24.99 deaths/1,000 live births<br><br><strong>male: </strong>27.9 deaths/1,000 live births<br><br><strong>female: </strong>22.03 deaths/1,000 live births (2023 est.)",
+          "content": "<strong>total: </strong>24.99 deaths/1,000 live births (2023 est.)<br><br><strong>male: </strong>27.9 deaths/1,000 live births<br><br><strong>female: </strong>22.03 deaths/1,000 live births",
           "subfields": [
             {
               "name": "total",
-              "content": "24.99 deaths/1,000 live births",
+              "content": "24.99 deaths/1,000 live births (2023 est.)",
               "title": "total",
               "value": "24.99",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             },
             {
@@ -944,11 +946,9 @@
             },
             {
               "name": "female",
-              "content": "22.03 deaths/1,000 live births (2023 est.)",
+              "content": "22.03 deaths/1,000 live births",
               "title": "female",
               "value": "22.03",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             }
           ]
@@ -957,13 +957,15 @@
           "name": "Life expectancy at birth",
           "field_id": 355,
           "comparative": true,
-          "content": "<strong>total population: </strong>65.6 years<br><br><strong>male: </strong>64.26 years<br><br><strong>female: </strong>66.96 years (2023 est.)",
+          "content": "<strong>total population: </strong>65.6 years (2023 est.)<br><br><strong>male: </strong>64.26 years<br><br><strong>female: </strong>66.96 years",
           "subfields": [
             {
               "name": "total population",
-              "content": "65.6 years",
+              "content": "65.6 years (2023 est.)",
               "title": "total population",
               "value": "65.6",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "years"
             },
             {
@@ -975,11 +977,9 @@
             },
             {
               "name": "female",
-              "content": "66.96 years (2023 est.)",
+              "content": "66.96 years",
               "title": "female",
               "value": "66.96",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "years"
             }
           ]
@@ -1387,13 +1387,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>64.2%<br><br><strong>male: </strong>59.8%<br><br><strong>female: </strong>69.3% (2021 est.)",
+          "content": "<strong>total: </strong>64.2% (2021 est.)<br><br><strong>male: </strong>59.8%<br><br><strong>female: </strong>69.3%",
           "subfields": [
             {
               "name": "total",
-              "content": "64.2%",
+              "content": "64.2% (2021 est.)",
               "title": "total",
               "value": "64.2",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
@@ -1405,11 +1407,9 @@
             },
             {
               "name": "female",
-              "content": "69.3% (2021 est.)",
+              "content": "69.3%",
               "title": "female",
               "value": "69.3",
-              "estimated": true,
-              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -2492,13 +2492,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>64.2%<br><br><strong>male: </strong>59.8%<br><br><strong>female: </strong>69.3% (2021 est.)",
+          "content": "<strong>total: </strong>64.2% (2021 est.)<br><br><strong>male: </strong>59.8%<br><br><strong>female: </strong>69.3%",
           "subfields": [
             {
               "name": "total",
-              "content": "64.2%",
+              "content": "64.2% (2021 est.)",
               "title": "total",
               "value": "64.2",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
@@ -2510,11 +2512,9 @@
             },
             {
               "name": "female",
-              "content": "69.3% (2021 est.)",
+              "content": "69.3%",
               "title": "female",
               "value": "69.3",
-              "estimated": true,
-              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -3719,20 +3719,21 @@
           "name": "Merchant marine",
           "field_id": 387,
           "comparative": true,
-          "content": "<strong>total: </strong>107<br><br><strong>by type: </strong>bulk carrier 3, general cargo 1, oil tanker 7, other 96 (2022)",
+          "content": "<strong>total: </strong>107 (2022)<br><br><strong>by type: </strong>bulk carrier 3, general cargo 1, oil tanker 7, other 96",
           "subfields": [
             {
               "name": "total",
-              "content": "107",
+              "content": "107 (2022)",
               "title": "total",
-              "value": "107"
+              "value": "107",
+              "estimated": false,
+              "info_date": "2022"
             },
             {
               "name": "by type",
-              "content": "bulk carrier 3, general cargo 1, oil tanker 7, other 96 (2022)",
+              "content": "bulk carrier 3, general cargo 1, oil tanker 7, other 96",
               "value": "bulk carrier 3, general cargo 1, oil tanker 7, other 96",
-              "title": "by type",
-              "info_date": "2022"
+              "title": "by type"
             }
           ]
         },
@@ -3938,12 +3939,12 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>22,388 (Somalia), 15,240 (Ethiopia) (mid-year 2022); 42,167 (Democratic Republic of the Congo) (refugees and asylum seekers) (2023)<br><br><strong>IDPs: </strong>5,000 (2020)",
+          "content": "<strong>refugees (country of origin): </strong>22,388 (Somalia), 15,240 (Ethiopia) (mid-year 2022); 42,080 (Democratic Republic of the Congo) (refugees and asylum seekers) (2023)<br><br><strong>IDPs: </strong>5,000 (2020)",
           "subfields": [
             {
               "name": "refugees (country of origin)",
-              "content": "22,388 (Somalia), 15,240 (Ethiopia) (mid-year 2022); 42,167 (Democratic Republic of the Congo) (refugees and asylum seekers) (2023)",
-              "value": "22,388 (Somalia), 15,240 (Ethiopia) (mid-year 2022); 42,167 (Democratic Republic of the Congo) (refugees and asylum seekers) (2023)",
+              "content": "22,388 (Somalia), 15,240 (Ethiopia) (mid-year 2022); 42,080 (Democratic Republic of the Congo) (refugees and asylum seekers) (2023)",
+              "value": "22,388 (Somalia), 15,240 (Ethiopia) (mid-year 2022); 42,080 (Democratic Republic of the Congo) (refugees and asylum seekers) (2023)",
               "title": "refugees (country of origin)"
             },
             {

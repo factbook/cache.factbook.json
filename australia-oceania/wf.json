@@ -1,9 +1,9 @@
 {
   "name": "Wallis and Futuna",
   "code": "WF",
-  "published": "2023-10-11 00:04:14 -0400",
+  "published": "2023-11-02 00:15:42 -0400",
   "region": "Australia and Oceania",
-  "updated": "2023-10-10 16:28:45 -0400",
+  "updated": "2023-11-01 16:06:47 -0400",
   "media": [
     {
       "type": "flag",
@@ -423,13 +423,15 @@
           "name": "Median age",
           "field_id": 343,
           "comparative": true,
-          "content": "<strong>total: </strong>34 years<br><br><strong>male: </strong>33.1 years<br><br><strong>female: </strong>35.1 years (2020 est.)",
+          "content": "<strong>total: </strong>34 years (2020)<br><br><strong>male: </strong>33.1 years<br><br><strong>female: </strong>35.1 years",
           "subfields": [
             {
               "name": "total",
-              "content": "34 years",
+              "content": "34 years (2020)",
               "title": "total",
               "value": "34",
+              "estimated": false,
+              "info_date": "2020",
               "suffix": "years"
             },
             {
@@ -441,11 +443,9 @@
             },
             {
               "name": "female",
-              "content": "35.1 years (2020 est.)",
+              "content": "35.1 years",
               "title": "female",
               "value": "35.1",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "years"
             }
           ]
@@ -581,13 +581,15 @@
           "name": "Infant mortality rate",
           "field_id": 354,
           "comparative": true,
-          "content": "<strong>total: </strong>3.94 deaths/1,000 live births<br><br><strong>male: </strong>3.88 deaths/1,000 live births<br><br><strong>female: </strong>4 deaths/1,000 live births (2023 est.)",
+          "content": "<strong>total: </strong>3.94 deaths/1,000 live births (2023 est.)<br><br><strong>male: </strong>3.88 deaths/1,000 live births<br><br><strong>female: </strong>4 deaths/1,000 live births",
           "subfields": [
             {
               "name": "total",
-              "content": "3.94 deaths/1,000 live births",
+              "content": "3.94 deaths/1,000 live births (2023 est.)",
               "title": "total",
               "value": "3.94",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             },
             {
@@ -599,11 +601,9 @@
             },
             {
               "name": "female",
-              "content": "4 deaths/1,000 live births (2023 est.)",
+              "content": "4 deaths/1,000 live births",
               "title": "female",
               "value": "4",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             }
           ]
@@ -612,13 +612,15 @@
           "name": "Life expectancy at birth",
           "field_id": 355,
           "comparative": true,
-          "content": "<strong>total population: </strong>80.89 years<br><br><strong>male: </strong>77.92 years<br><br><strong>female: </strong>84.01 years (2023 est.)",
+          "content": "<strong>total population: </strong>80.89 years (2023 est.)<br><br><strong>male: </strong>77.92 years<br><br><strong>female: </strong>84.01 years",
           "subfields": [
             {
               "name": "total population",
-              "content": "80.89 years",
+              "content": "80.89 years (2023 est.)",
               "title": "total population",
               "value": "80.89",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "years"
             },
             {
@@ -630,11 +632,9 @@
             },
             {
               "name": "female",
-              "content": "84.01 years (2023 est.)",
+              "content": "84.01 years",
               "title": "female",
               "value": "84.01",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "years"
             }
           ]
@@ -1824,20 +1824,21 @@
           "name": "Merchant marine",
           "field_id": 387,
           "comparative": true,
-          "content": "<strong>total: </strong>1<br><br><strong>by type: </strong>other 1 (2021)",
+          "content": "<strong>total: </strong>1 (2021)<br><br><strong>by type: </strong>other 1",
           "subfields": [
             {
               "name": "total",
-              "content": "1",
+              "content": "1 (2021)",
               "title": "total",
-              "value": "1"
+              "value": "1",
+              "estimated": false,
+              "info_date": "2021"
             },
             {
               "name": "by type",
-              "content": "other 1 (2021)",
+              "content": "other 1",
               "value": "other 1",
-              "title": "by type",
-              "info_date": "2021"
+              "title": "by type"
             }
           ]
         },

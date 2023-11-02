@@ -1,9 +1,9 @@
 {
   "name": "British Virgin Islands",
   "code": "VI",
-  "published": "2023-10-25 00:02:04 -0400",
+  "published": "2023-11-02 00:15:21 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2023-10-24 09:08:14 -0400",
+  "updated": "2023-11-01 16:06:46 -0400",
   "media": [
     {
       "type": "flag",
@@ -445,13 +445,15 @@
           "name": "Median age",
           "field_id": 343,
           "comparative": true,
-          "content": "<strong>total: </strong>37.2 years<br><br><strong>male: </strong>37 years<br><br><strong>female: </strong>37.5 years (2020 est.)",
+          "content": "<strong>total: </strong>37.2 years (2020)<br><br><strong>male: </strong>37 years<br><br><strong>female: </strong>37.5 years",
           "subfields": [
             {
               "name": "total",
-              "content": "37.2 years",
+              "content": "37.2 years (2020)",
               "title": "total",
               "value": "37.2",
+              "estimated": false,
+              "info_date": "2020",
               "suffix": "years"
             },
             {
@@ -463,11 +465,9 @@
             },
             {
               "name": "female",
-              "content": "37.5 years (2020 est.)",
+              "content": "37.5 years",
               "title": "female",
               "value": "37.5",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "years"
             }
           ]
@@ -609,13 +609,15 @@
           "name": "Infant mortality rate",
           "field_id": 354,
           "comparative": true,
-          "content": "<strong>total: </strong>13.77 deaths/1,000 live births<br><br><strong>male: </strong>16.41 deaths/1,000 live births<br><br><strong>female: </strong>10.99 deaths/1,000 live births (2023 est.)",
+          "content": "<strong>total: </strong>13.77 deaths/1,000 live births (2023 est.)<br><br><strong>male: </strong>16.41 deaths/1,000 live births<br><br><strong>female: </strong>10.99 deaths/1,000 live births",
           "subfields": [
             {
               "name": "total",
-              "content": "13.77 deaths/1,000 live births",
+              "content": "13.77 deaths/1,000 live births (2023 est.)",
               "title": "total",
               "value": "13.77",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             },
             {
@@ -627,11 +629,9 @@
             },
             {
               "name": "female",
-              "content": "10.99 deaths/1,000 live births (2023 est.)",
+              "content": "10.99 deaths/1,000 live births",
               "title": "female",
               "value": "10.99",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             }
           ]
@@ -640,13 +640,15 @@
           "name": "Life expectancy at birth",
           "field_id": 355,
           "comparative": true,
-          "content": "<strong>total population: </strong>79.9 years<br><br><strong>male: </strong>78.4 years<br><br><strong>female: </strong>81.47 years (2023 est.)",
+          "content": "<strong>total population: </strong>79.9 years (2023 est.)<br><br><strong>male: </strong>78.4 years<br><br><strong>female: </strong>81.47 years",
           "subfields": [
             {
               "name": "total population",
-              "content": "79.9 years",
+              "content": "79.9 years (2023 est.)",
               "title": "total population",
               "value": "79.9",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "years"
             },
             {
@@ -658,11 +660,9 @@
             },
             {
               "name": "female",
-              "content": "81.47 years (2023 est.)",
+              "content": "81.47 years",
               "title": "female",
               "value": "81.47",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "years"
             }
           ]
@@ -2433,20 +2433,21 @@
           "name": "Merchant marine",
           "field_id": 387,
           "comparative": true,
-          "content": "<strong>total: </strong>30<br><br><strong>by type: </strong>general cargo 3, other 27 (2022)",
+          "content": "<strong>total: </strong>30 (2022)<br><br><strong>by type: </strong>general cargo 3, other 27",
           "subfields": [
             {
               "name": "total",
-              "content": "30",
+              "content": "30 (2022)",
               "title": "total",
-              "value": "30"
+              "value": "30",
+              "estimated": false,
+              "info_date": "2022"
             },
             {
               "name": "by type",
-              "content": "general cargo 3, other 27 (2022)",
+              "content": "general cargo 3, other 27",
               "value": "general cargo 3, other 27",
-              "title": "by type",
-              "info_date": "2022"
+              "title": "by type"
             }
           ]
         },

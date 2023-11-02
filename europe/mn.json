@@ -1,9 +1,9 @@
 {
   "name": "Monaco",
   "code": "MN",
-  "published": "2023-09-26 00:09:59 -0400",
+  "published": "2023-11-02 00:09:20 -0400",
   "region": "Europe",
-  "updated": "2023-09-25 08:23:23 -0400",
+  "updated": "2023-11-01 16:06:49 -0400",
   "media": [
     {
       "type": "flag",
@@ -474,13 +474,15 @@
           "name": "Median age",
           "field_id": 343,
           "comparative": true,
-          "content": "<strong>total: </strong>55.4 years<br><br><strong>male: </strong>53.7 years<br><br><strong>female: </strong>57 years (2020 est.)",
+          "content": "<strong>total: </strong>55.4 years (2020)<br><br><strong>male: </strong>53.7 years<br><br><strong>female: </strong>57 years",
           "subfields": [
             {
               "name": "total",
-              "content": "55.4 years",
+              "content": "55.4 years (2020)",
               "title": "total",
               "value": "55.4",
+              "estimated": false,
+              "info_date": "2020",
               "suffix": "years"
             },
             {
@@ -492,11 +494,9 @@
             },
             {
               "name": "female",
-              "content": "57 years (2020 est.)",
+              "content": "57 years",
               "title": "female",
               "value": "57",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "years"
             }
           ]
@@ -638,13 +638,15 @@
           "name": "Infant mortality rate",
           "field_id": 354,
           "comparative": true,
-          "content": "<strong>total: </strong>1.75 deaths/1,000 live births<br><br><strong>male: </strong>2.05 deaths/1,000 live births<br><br><strong>female: </strong>1.44 deaths/1,000 live births (2023 est.)",
+          "content": "<strong>total: </strong>1.75 deaths/1,000 live births (2023 est.)<br><br><strong>male: </strong>2.05 deaths/1,000 live births<br><br><strong>female: </strong>1.44 deaths/1,000 live births",
           "subfields": [
             {
               "name": "total",
-              "content": "1.75 deaths/1,000 live births",
+              "content": "1.75 deaths/1,000 live births (2023 est.)",
               "title": "total",
               "value": "1.75",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             },
             {
@@ -656,11 +658,9 @@
             },
             {
               "name": "female",
-              "content": "1.44 deaths/1,000 live births (2023 est.)",
+              "content": "1.44 deaths/1,000 live births",
               "title": "female",
               "value": "1.44",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "deaths/1,000 live births"
             }
           ]
@@ -669,13 +669,15 @@
           "name": "Life expectancy at birth",
           "field_id": 355,
           "comparative": true,
-          "content": "<strong>total population: </strong>89.64 years<br><br><strong>male: </strong>85.84 years<br><br><strong>female: </strong>93.59 years (2023 est.)",
+          "content": "<strong>total population: </strong>89.64 years (2023 est.)<br><br><strong>male: </strong>85.84 years<br><br><strong>female: </strong>93.59 years",
           "subfields": [
             {
               "name": "total population",
-              "content": "89.64 years",
+              "content": "89.64 years (2023 est.)",
               "title": "total population",
               "value": "89.64",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "years"
             },
             {
@@ -687,11 +689,9 @@
             },
             {
               "name": "female",
-              "content": "93.59 years (2023 est.)",
+              "content": "93.59 years",
               "title": "female",
               "value": "93.59",
-              "estimated": true,
-              "info_date": "2023",
               "suffix": "years"
             }
           ]
@@ -906,13 +906,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>26.6%<br><br><strong>male: </strong>25.7%<br><br><strong>female: </strong>27.9% (2016 est.)",
+          "content": "<strong>total: </strong>26.6% (2016 est.)<br><br><strong>male: </strong>25.7%<br><br><strong>female: </strong>27.9%",
           "subfields": [
             {
               "name": "total",
-              "content": "26.6%",
+              "content": "26.6% (2016 est.)",
               "title": "total",
               "value": "26.6",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             },
             {
@@ -924,11 +926,9 @@
             },
             {
               "name": "female",
-              "content": "27.9% (2016 est.)",
+              "content": "27.9%",
               "title": "female",
               "value": "27.9",
-              "estimated": true,
-              "info_date": "2016",
               "suffix": "%"
             }
           ]
@@ -1800,13 +1800,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>26.6%<br><br><strong>male: </strong>25.7%<br><br><strong>female: </strong>27.9% (2016 est.)",
+          "content": "<strong>total: </strong>26.6% (2016 est.)<br><br><strong>male: </strong>25.7%<br><br><strong>female: </strong>27.9%",
           "subfields": [
             {
               "name": "total",
-              "content": "26.6%",
+              "content": "26.6% (2016 est.)",
               "title": "total",
               "value": "26.6",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             },
             {
@@ -1818,11 +1820,9 @@
             },
             {
               "name": "female",
-              "content": "27.9% (2016 est.)",
+              "content": "27.9%",
               "title": "female",
               "value": "27.9",
-              "estimated": true,
-              "info_date": "2016",
               "suffix": "%"
             }
           ]
