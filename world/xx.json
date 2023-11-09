@@ -1,9 +1,9 @@
 {
   "name": "World",
   "code": "XX",
-  "published": "2023-11-01 00:04:27 -0400",
+  "published": "2023-11-08 00:01:48 -0500",
   "region": "",
-  "updated": "2023-10-31 13:13:22 -0400",
+  "updated": "2023-11-07 11:43:36 -0500",
   "media": [
     {
       "type": "map",
@@ -276,7 +276,7 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>510.072 million sq km<br><br><strong>land: </strong>148.94 million sq km<br><br><strong>water: </strong>361.9 million sq km<br><br><strong>note:</strong> 70.9% of the world's surface is water, 29.1% is land",
+          "content": "<strong>total: </strong>510.072 million sq km<br><br><strong>land: </strong>148.94 million sq km<br><br><strong>water: </strong>361,899,999 sq km<br><br><strong>note:</strong> 70.9% of the world's surface is water, 29.1% is land",
           "subfields": [
             {
               "name": "total",
@@ -294,9 +294,9 @@
             },
             {
               "name": "water",
-              "content": "361.9 million sq km",
+              "content": "361,899,999 sq km",
               "title": "water",
-              "value": "361900000",
+              "value": "361899999",
               "suffix": "sq km"
             }
           ],
@@ -661,13 +661,15 @@
           "name": "Median age",
           "field_id": 343,
           "comparative": true,
-          "content": "<strong>total: </strong>31 years<br><br><strong>male: </strong>30.3 years<br><br><strong>female: </strong>31.8 years (2020 est.)",
+          "content": "<strong>total: </strong>31 years (2020)<br><br><strong>male: </strong>30.3 years<br><br><strong>female: </strong>31.8 years",
           "subfields": [
             {
               "name": "total",
-              "content": "31 years",
+              "content": "31 years (2020)",
               "title": "total",
               "value": "31",
+              "estimated": false,
+              "info_date": "2020",
               "suffix": "years"
             },
             {
@@ -679,11 +681,9 @@
             },
             {
               "name": "female",
-              "content": "31.8 years (2020 est.)",
+              "content": "31.8 years",
               "title": "female",
               "value": "31.8",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "years"
             }
           ]
@@ -821,13 +821,15 @@
           "name": "Infant mortality rate",
           "field_id": 354,
           "comparative": true,
-          "content": "<strong>total: </strong>30.8 deaths/1,000 live births<br><br><strong>male: </strong>32.8 deaths/1,000 live births<br><br><strong>female: </strong>28.6 deaths/1,000 live births (2020 est.)",
+          "content": "<strong>total: </strong>30.8 deaths/1,000 live births (2020 est.)<br><br><strong>male: </strong>32.8 deaths/1,000 live births<br><br><strong>female: </strong>28.6 deaths/1,000 live births",
           "subfields": [
             {
               "name": "total",
-              "content": "30.8 deaths/1,000 live births",
+              "content": "30.8 deaths/1,000 live births (2020 est.)",
               "title": "total",
               "value": "30.8",
+              "estimated": true,
+              "info_date": "2020",
               "suffix": "deaths/1,000 live births"
             },
             {
@@ -839,11 +841,9 @@
             },
             {
               "name": "female",
-              "content": "28.6 deaths/1,000 live births (2020 est.)",
+              "content": "28.6 deaths/1,000 live births",
               "title": "female",
               "value": "28.6",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "deaths/1,000 live births"
             }
           ]
@@ -852,13 +852,15 @@
           "name": "Life expectancy at birth",
           "field_id": 355,
           "comparative": true,
-          "content": "<strong>total population: </strong>70.5 years<br><br><strong>male: </strong>68.4 years<br><br><strong>female: </strong>72.6 years (2020 est.)",
+          "content": "<strong>total population: </strong>70.5 years (2020)<br><br><strong>male: </strong>68.4 years<br><br><strong>female: </strong>72.6 years",
           "subfields": [
             {
               "name": "total population",
-              "content": "70.5 years",
+              "content": "70.5 years (2020)",
               "title": "total population",
               "value": "70.5",
+              "estimated": false,
+              "info_date": "2020",
               "suffix": "years"
             },
             {
@@ -870,11 +872,9 @@
             },
             {
               "name": "female",
-              "content": "72.6 years (2020 est.)",
+              "content": "72.6 years",
               "title": "female",
               "value": "72.6",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "years"
             }
           ]
@@ -1185,13 +1185,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>17.9%<br><br><strong>male: </strong>17.3%<br><br><strong>female: </strong>19.7% (2021 est.)",
+          "content": "<strong>total: </strong>17.9% (2021 est.)<br><br><strong>male: </strong>17.3%<br><br><strong>female: </strong>19.7%",
           "subfields": [
             {
               "name": "total",
-              "content": "17.9%",
+              "content": "17.9% (2021 est.)",
               "title": "total",
               "value": "17.9",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
@@ -1203,11 +1205,9 @@
             },
             {
               "name": "female",
-              "content": "19.7% (2021 est.)",
+              "content": "19.7%",
               "title": "female",
               "value": "19.7",
-              "estimated": true,
-              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -1887,13 +1887,15 @@
           "name": "Youth unemployment rate (ages 15-24)",
           "field_id": 373,
           "comparative": true,
-          "content": "<strong>total: </strong>17.9%<br><br><strong>male: </strong>17.3%<br><br><strong>female: </strong>19.7% (2021 est.)",
+          "content": "<strong>total: </strong>17.9% (2021 est.)<br><br><strong>male: </strong>17.3%<br><br><strong>female: </strong>19.7%",
           "subfields": [
             {
               "name": "total",
-              "content": "17.9%",
+              "content": "17.9% (2021 est.)",
               "title": "total",
               "value": "17.9",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
@@ -1905,11 +1907,9 @@
             },
             {
               "name": "female",
-              "content": "19.7% (2021 est.)",
+              "content": "19.7%",
               "title": "female",
               "value": "19.7",
-              "estimated": true,
-              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -2559,20 +2559,21 @@
           "name": "Merchant marine",
           "field_id": 387,
           "comparative": true,
-          "content": "<strong>total: </strong>101,158<br><br><strong>by type: </strong>bulk carrier 12,707, container ship 5,583, general cargo 19,647, oil tanker 11,396, other 51,825 (2022)",
+          "content": "<strong>total: </strong>101,158 (2022)<br><br><strong>by type: </strong>bulk carrier 12,707, container ship 5,583, general cargo 19,647, oil tanker 11,396, other 51,825",
           "subfields": [
             {
               "name": "total",
-              "content": "101,158",
+              "content": "101,158 (2022)",
               "title": "total",
-              "value": "101158"
+              "value": "101158",
+              "estimated": false,
+              "info_date": "2022"
             },
             {
               "name": "by type",
-              "content": "bulk carrier 12,707, container ship 5,583, general cargo 19,647, oil tanker 11,396, other 51,825 (2022)",
+              "content": "bulk carrier 12,707, container ship 5,583, general cargo 19,647, oil tanker 11,396, other 51,825",
               "value": "bulk carrier 12,707, container ship 5,583, general cargo 19,647, oil tanker 11,396, other 51,825",
-              "title": "by type",
-              "info_date": "2022"
+              "title": "by type"
             }
           ]
         },
@@ -2676,8 +2677,8 @@
           "name": "Maritime threats",
           "field_id": 334,
           "comparative": false,
-          "content": "the International Maritime Bureau&rsquo;s Piracy Reporting Centre (PRC) received 115 reported incidents of piracy and armed robbery against ships in 2022 compared with 132 reports in 2021; the 2022 figures are broken down as 107 vessels boarded, five attempted attacks, two vessels hijacked, and one fired upon; though the downward trend in reported incidents is welcomed, the risk to crew remains with 41 crew taken hostage, six assaulted and threatened, and two kidnapped; the continued and much-needed reduction is attributed to an overall decrease of piratical activity within the Gulf of Guinea region &ndash; down from 35 incidents in 2021 to 19 in 2022; in 2022, incidents in these waters were reported at up to 260 nm from the coast; though crew kidnappings decreased from 57 in 2021 to two in 2022, during the duration of the hijackings 29 crew were kept hostage<br /><br />the EU naval mission, Operation ATALANTA, continues its operations in the Gulf of Aden and Indian Ocean through 2024; naval units from Japan, India, and China also operate in conjunction with EU forces; China has established a logistical base in Djibouti to support its deployed naval units in the Horn of Africa<br /><br />the Horn of Africa saw no reported piracy attacks in 2022; although the opportunity for incidents has reduced, the Somali pirates continue to possess the capability and capacity to carry out incidents; the decrease in successful pirate attacks off the Horn of Africa since the peak in 2007 was due, in part, to anti-piracy operations by international naval forces, the hardening of vessels, and the increased use of armed security teams aboard merchant ships; despite these preventative measures, the assessed risk remains high<br /><br />incidents in the Singapore Straits continue to increase year on year with 38 in 2022 compared to 35 in 2021; vessels were successfully boarded in all 38 incidents in 2022; while the majority of vessels boarded reported incidents as predominately low-level opportunistic thefts, four crew were taken hostage and a further two threatened during these incidents; the majority of incidents were reported during the hours of darkness and while vessels were underway; there were 10 attacks in Indonesian waters in 2022 compared to nine in 2021, primarily to ships anchored or berthed<br /><br />South American ports in Brazil, Guyana, Peru, and Venezuela as well as those in Mexico and Haiti continue to be affected by the crime of armed robbery; this region experienced a decrease in 2022 with 24 incidents reported compared to 36 in 2021; the reduction is partially attributed to the decrease in reported incidents in Callao, Peru which saw a 33% drop compared to 2021; the majority of boardings were on anchored vessels and at night; during these incidents, seven crew were taken hostage and six assaulted and threatened, making this region risky for crewmen; the majority (64%) of global attacks against shipping occurred in the offshore waters of five countries - Bangladesh, Ghana, Indonesia, Singapore Straits, and Peru (2021)",
-          "value": "the International Maritime Bureau&rsquo;s Piracy Reporting Centre (PRC) received 115 reported incidents of piracy and armed robbery against ships in 2022 compared with 132 reports in 2021; the 2022 figures are broken down as 107 vessels boarded, five attempted attacks, two vessels hijacked, and one fired upon; though the downward trend in reported incidents is welcomed, the risk to crew remains with 41 crew taken hostage, six assaulted and threatened, and two kidnapped; the continued and much-needed reduction is attributed to an overall decrease of piratical activity within the Gulf of Guinea region &ndash; down from 35 incidents in 2021 to 19 in 2022; in 2022, incidents in these waters were reported at up to 260 nm from the coast; though crew kidnappings decreased from 57 in 2021 to two in 2022, during the duration of the hijackings 29 crew were kept hostage<br /><br />the EU naval mission, Operation ATALANTA, continues its operations in the Gulf of Aden and Indian Ocean through 2024; naval units from Japan, India, and China also operate in conjunction with EU forces; China has established a logistical base in Djibouti to support its deployed naval units in the Horn of Africa<br /><br />the Horn of Africa saw no reported piracy attacks in 2022; although the opportunity for incidents has reduced, the Somali pirates continue to possess the capability and capacity to carry out incidents; the decrease in successful pirate attacks off the Horn of Africa since the peak in 2007 was due, in part, to anti-piracy operations by international naval forces, the hardening of vessels, and the increased use of armed security teams aboard merchant ships; despite these preventative measures, the assessed risk remains high<br /><br />incidents in the Singapore Straits continue to increase year on year with 38 in 2022 compared to 35 in 2021; vessels were successfully boarded in all 38 incidents in 2022; while the majority of vessels boarded reported incidents as predominately low-level opportunistic thefts, four crew were taken hostage and a further two threatened during these incidents; the majority of incidents were reported during the hours of darkness and while vessels were underway; there were 10 attacks in Indonesian waters in 2022 compared to nine in 2021, primarily to ships anchored or berthed<br /><br />South American ports in Brazil, Guyana, Peru, and Venezuela as well as those in Mexico and Haiti continue to be affected by the crime of armed robbery; this region experienced a decrease in 2022 with 24 incidents reported compared to 36 in 2021; the reduction is partially attributed to the decrease in reported incidents in Callao, Peru which saw a 33% drop compared to 2021; the majority of boardings were on anchored vessels and at night; during these incidents, seven crew were taken hostage and six assaulted and threatened, making this region risky for crewmen; the majority (64%) of global attacks against shipping occurred in the offshore waters of five countries - Bangladesh, Ghana, Indonesia, Singapore Straits, and Peru",
+          "content": "the International Maritime Bureau&rsquo;s Piracy Reporting Centre (PRC) received 115 reported incidents of piracy and armed robbery against ships in 2022 compared with 132 reports in 2021; the 2022 figures are broken down as 107 vessels boarded, five attempted attacks, two vessels hijacked, and one fired upon; though the downward trend in reported incidents is welcomed, the risk to crew remains with 41 crew taken hostage, six assaulted and threatened, and two kidnapped; the continued and much-needed reduction is attributed to an overall decrease of piratical activity within the Gulf of Guinea region &ndash; down from 35 incidents in 2021 to 19 in 2022; in 2022, incidents in these waters were reported at up to 260 nm from the coast; though crew kidnappings decreased from 57 in 2021 to two in 2022, during the duration of the hijackings 29 crew were kept hostage<br /><br />the Horn of Africa saw no reported piracy attacks in 2022; although the opportunity for incidents has reduced, the Somali pirates continue to possess the capability and capacity to carry out incidents; the decrease in successful pirate attacks off the Horn of Africa since the peak in 2007 was due, in part, to anti-piracy operations by international naval forces, the hardening of vessels, and the increased use of armed security teams aboard merchant ships; despite these preventative measures, the assessed risk remains high<br /><br />incidents in the Singapore Straits continue to increase year on year with 38 in 2022 compared to 35 in 2021; vessels were successfully boarded in all 38 incidents in 2022; while the majority of vessels boarded reported incidents as predominately low-level opportunistic thefts, four crew were taken hostage and a further two threatened during these incidents; the majority of incidents were reported during the hours of darkness and while vessels were underway; there were 10 attacks in Indonesian waters in 2022 compared to nine in 2021, primarily to ships anchored or berthed<br /><br />South American ports in Brazil, Guyana, Peru, and Venezuela as well as those in Mexico and Haiti continue to be affected by the crime of armed robbery; this region experienced a decrease in 2022 with 24 incidents reported compared to 36 in 2021; the reduction is partially attributed to the decrease in reported incidents in Callao, Peru which saw a 33% drop compared to 2021; the majority of boardings were on anchored vessels and at night; during these incidents, seven crew were taken hostage and six assaulted and threatened, making this region risky for crewmen; the majority (64%) of global attacks against shipping occurred in the offshore waters of five countries - Bangladesh, Ghana, Indonesia, Singapore Straits, and Peru (2021)",
+          "value": "the International Maritime Bureau&rsquo;s Piracy Reporting Centre (PRC) received 115 reported incidents of piracy and armed robbery against ships in 2022 compared with 132 reports in 2021; the 2022 figures are broken down as 107 vessels boarded, five attempted attacks, two vessels hijacked, and one fired upon; though the downward trend in reported incidents is welcomed, the risk to crew remains with 41 crew taken hostage, six assaulted and threatened, and two kidnapped; the continued and much-needed reduction is attributed to an overall decrease of piratical activity within the Gulf of Guinea region &ndash; down from 35 incidents in 2021 to 19 in 2022; in 2022, incidents in these waters were reported at up to 260 nm from the coast; though crew kidnappings decreased from 57 in 2021 to two in 2022, during the duration of the hijackings 29 crew were kept hostage<br /><br />the Horn of Africa saw no reported piracy attacks in 2022; although the opportunity for incidents has reduced, the Somali pirates continue to possess the capability and capacity to carry out incidents; the decrease in successful pirate attacks off the Horn of Africa since the peak in 2007 was due, in part, to anti-piracy operations by international naval forces, the hardening of vessels, and the increased use of armed security teams aboard merchant ships; despite these preventative measures, the assessed risk remains high<br /><br />incidents in the Singapore Straits continue to increase year on year with 38 in 2022 compared to 35 in 2021; vessels were successfully boarded in all 38 incidents in 2022; while the majority of vessels boarded reported incidents as predominately low-level opportunistic thefts, four crew were taken hostage and a further two threatened during these incidents; the majority of incidents were reported during the hours of darkness and while vessels were underway; there were 10 attacks in Indonesian waters in 2022 compared to nine in 2021, primarily to ships anchored or berthed<br /><br />South American ports in Brazil, Guyana, Peru, and Venezuela as well as those in Mexico and Haiti continue to be affected by the crime of armed robbery; this region experienced a decrease in 2022 with 24 incidents reported compared to 36 in 2021; the reduction is partially attributed to the decrease in reported incidents in Callao, Peru which saw a 33% drop compared to 2021; the majority of boardings were on anchored vessels and at night; during these incidents, seven crew were taken hostage and six assaulted and threatened, making this region risky for crewmen; the majority (64%) of global attacks against shipping occurred in the offshore waters of five countries - Bangladesh, Ghana, Indonesia, Singapore Straits, and Peru",
           "info_date": "2021"
         }
       ]
