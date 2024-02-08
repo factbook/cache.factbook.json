@@ -1,9 +1,9 @@
 {
   "name": "Tunisia",
   "code": "TS",
-  "published": "2024-01-26 00:14:42 -0500",
+  "published": "2024-02-06 00:02:46 -0500",
   "region": "Africa",
-  "updated": "2024-01-25 14:24:54 -0500",
+  "updated": "2024-02-05 10:44:18 -0500",
   "media": [
     {
       "type": "flag",
@@ -3250,15 +3250,29 @@
           "name": "Roadways",
           "field_id": 385,
           "comparative": true,
-          "content": "<strong>paved: </strong>20,000 km (2015)",
+          "content": "<strong>total: </strong>32,332 km<br><br><strong>paved: </strong>12,264 km<br><br><strong>unpaved: </strong>20,068 km (2020)",
           "subfields": [
             {
+              "name": "total",
+              "content": "32,332 km",
+              "title": "total",
+              "value": "32332",
+              "suffix": "km"
+            },
+            {
               "name": "paved",
-              "content": "20,000 km (2015)",
+              "content": "12,264 km",
               "title": "paved",
-              "value": "20000",
+              "value": "12264",
+              "suffix": "km"
+            },
+            {
+              "name": "unpaved",
+              "content": "20,068 km (2020)",
+              "title": "unpaved",
+              "value": "20068",
               "estimated": false,
-              "info_date": "2015",
+              "info_date": "2020",
               "suffix": "km"
             }
           ]
