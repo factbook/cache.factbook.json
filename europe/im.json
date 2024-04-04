@@ -1,9 +1,9 @@
 {
   "name": "Isle of Man",
   "code": "IM",
-  "published": "2024-02-28 00:04:09 -0500",
+  "published": "2024-04-04 00:05:58 -0400",
   "region": "Europe",
-  "updated": "2024-02-27 09:30:42 -0500",
+  "updated": "2024-04-03 15:56:21 -0400",
   "media": [
     {
       "type": "flag",
@@ -1325,7 +1325,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$6.792 billion (2015 est.)<br><br>$7.428 billion (2014 est.)<br><br>$6.298 billion (2013 est.)<br><br><strong>note:</strong> data are in 2014 US dollars",
+          "content": "$6.792 billion (2015 est.)<br><br>$7.428 billion (2014 est.)<br><br>$6.298 billion (2013 est.)<br><br><strong>note:</strong> data are in 2014 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2015",
@@ -1349,14 +1349,21 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<strong>note:</strong> data are in 2014 US dollars"
+          "field_note": "<strong>note:</strong> data are in 2014 dollars"
         },
         {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "0.25% (2019 est.)<br><br>2.21% (2018 est.)<br><br>4.69% (2017 est.)",
+          "content": "-8.84% (2020 est.)<br><br>0.25% (2019 est.)<br><br>2.21% (2018 est.)<br><br>note: annual GDP % growth based on constant local currency",
           "subfields": [
+            {
+              "name": "Real GDP growth rate 2020",
+              "content": "-8.84% (2020 est.)",
+              "value": "-8.84",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Real GDP growth rate 2019",
               "content": "0.25% (2019 est.)",
@@ -1370,15 +1377,9 @@
               "value": "2.21",
               "estimated": true,
               "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2017",
-              "content": "4.69% (2017 est.)",
-              "value": "4.69",
-              "estimated": true,
-              "suffix": "%"
             }
-          ]
+          ],
+          "field_note": "note: annual GDP % growth based on constant local currency"
         },
         {
           "name": "Real GDP per capita",
@@ -1413,11 +1414,12 @@
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$6.792 billion (2015 est.)",
-          "value": "6792000000",
+          "content": "$6.684 billion (2020 est.)<br><br>note: data in current dollars at official exchange rate",
+          "value": "6684000000",
           "estimated": true,
-          "info_date": "2015",
-          "prefix": "$"
+          "info_date": "2020",
+          "prefix": "$",
+          "field_note": "note: data in current dollars at official exchange rate"
         },
         {
           "name": "Inflation rate (consumer prices)",
@@ -1516,20 +1518,12 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "-5.1% (2019 est.)",
-          "value": "-5.1",
+          "content": "6.66% (2020 est.)<br><br>note: annual % change in industrial value added based on constant local currency",
+          "value": "6.66",
           "estimated": true,
-          "info_date": "2019",
-          "suffix": "%"
-        },
-        {
-          "name": "Labor force",
-          "field_id": 218,
-          "comparative": true,
-          "content": "41,790 (2006)",
-          "value": "41790",
-          "estimated": false,
-          "info_date": "2006"
+          "info_date": "2020",
+          "suffix": "%",
+          "field_note": "note: annual % change in industrial value added based on constant local currency"
         },
         {
           "name": "Unemployment rate",
@@ -1651,26 +1645,11 @@
           "suffix": "% (of GDP)"
         },
         {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": true,
-          "content": "14.2% (of GDP) (FY05/06 est.)",
-          "value": "14.2",
-          "estimated": true,
-          "info_date": "FY05/06",
-          "suffix": "% (of GDP)"
-        },
-        {
           "name": "Fiscal year",
           "field_id": 228,
           "comparative": false,
           "content": "1 April - 31 March",
           "value": "1 April - 31 March"
-        },
-        {
-          "name": "Exports",
-          "field_id": 239,
-          "content": "<p>NA</p>"
         },
         {
           "name": "Exports - partners",
@@ -1687,11 +1666,6 @@
           "content": "crude petroleum, artwork, vegetables, fruits, whiskies (2022)",
           "value": "crude petroleum, artwork, vegetables, fruits, whiskies",
           "info_date": "2022"
-        },
-        {
-          "name": "Imports",
-          "field_id": 242,
-          "content": "<p>NA</p>"
         },
         {
           "name": "Imports - partners",
@@ -1718,12 +1692,18 @@
           "name": "Exchange rates",
           "field_id": 249,
           "comparative": false,
-          "content": "Manx pounds (IMP) per US dollar -<br><br>0.727 (2021 est.)<br><br>0.78 (2020 est.)<br><br>0.783 (2019 est.)<br><br>0.75 (2018 est.)<br><br>0.777 (2017 est.)",
+          "content": "Manx pounds (IMP) per US dollar -<br><br>0.811 (2022 est.)<br><br>0.727 (2021 est.)<br><br>0.78 (2020 est.)<br><br>0.783 (2019 est.)<br><br>0.75 (2018 est.)",
           "subfields": [
             {
               "name": "Currency",
               "content": "Manx pounds (IMP) per US dollar -",
               "value": "Manx pounds (IMP) per US dollar -"
+            },
+            {
+              "name": "Exchange rates 2022",
+              "content": "0.811 (2022 est.)",
+              "value": "0.811",
+              "estimated": true
             },
             {
               "name": "Exchange rates 2021",
@@ -1747,12 +1727,6 @@
               "name": "Exchange rates 2018",
               "content": "0.75 (2018 est.)",
               "value": "0.75",
-              "estimated": true
-            },
-            {
-              "name": "Exchange rates 2017",
-              "content": "0.777 (2017 est.)",
-              "value": "0.777",
               "estimated": true
             }
           ]

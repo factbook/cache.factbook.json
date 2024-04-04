@@ -1,9 +1,9 @@
 {
   "name": "Guam",
   "code": "GQ",
-  "published": "2024-03-14 00:02:59 -0400",
+  "published": "2024-04-04 00:05:09 -0400",
   "region": "Australia and Oceania",
-  "updated": "2024-03-13 09:10:42 -0400",
+  "updated": "2024-04-03 17:05:38 -0400",
   "media": [
     {
       "type": "flag",
@@ -1582,7 +1582,7 @@
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "1.06% (2021 est.)<br><br>-11.39% (2020 est.)<br><br>2.6% (2019 est.)",
+          "content": "1.06% (2021 est.)<br><br>-11.39% (2020 est.)<br><br>2.6% (2019 est.)<br><br>note: annual GDP % growth based on constant local currency",
           "subfields": [
             {
               "name": "Real GDP growth rate 2021",
@@ -1605,7 +1605,8 @@
               "estimated": true,
               "suffix": "%"
             }
-          ]
+          ],
+          "field_note": "note: annual GDP % growth based on constant local currency"
         },
         {
           "name": "Real GDP per capita",
@@ -1640,11 +1641,12 @@
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$5.793 billion (2016 est.)",
-          "value": "5793000000",
+          "content": "$6.123 billion (2021 est.)<br><br>note: data in current dollars at official exchange rate",
+          "value": "6123000000",
           "estimated": true,
-          "info_date": "2016",
-          "prefix": "$"
+          "info_date": "2021",
+          "prefix": "$",
+          "field_note": "note: data in current dollars at official exchange rate"
         },
         {
           "name": "Inflation rate (consumer prices)",
@@ -1780,48 +1782,52 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "NA",
+          "content": "4.3% (2014 est.)<br><br>note: annual % change in industrial value added based on constant local currency",
+          "value": "4.3",
+          "estimated": true,
+          "info_date": "2014",
           "suffix": "%",
-          "subfield_note": "NA"
+          "field_note": "note: annual % change in industrial value added based on constant local currency"
         },
         {
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "76,200 (2021 est.)<br><br><strong>note:</strong> includes only the civilian labor force",
-          "value": "76200",
+          "content": "80,000 (2022 est.)<br><br>note: number of people ages 15 or older who are employed or seeking work",
+          "value": "80000",
           "estimated": true,
-          "info_date": "2021",
-          "field_note": "<strong>note:</strong> includes only the civilian labor force"
+          "info_date": "2022",
+          "field_note": "note: number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": true,
-          "content": "6.98% (2021 est.)<br><br>6.8% (2020 est.)<br><br>5.51% (2019 est.)",
+          "content": "5.57% (2022 est.)<br><br>6% (2021 est.)<br><br>6.25% (2020 est.)<br><br>note: % of labor force seeking employment",
           "subfields": [
             {
+              "name": "Unemployment rate 2022",
+              "content": "5.57% (2022 est.)",
+              "value": "5.57",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
               "name": "Unemployment rate 2021",
-              "content": "6.98% (2021 est.)",
-              "value": "6.98",
+              "content": "6% (2021 est.)",
+              "value": "6",
               "estimated": true,
               "suffix": "%"
             },
             {
               "name": "Unemployment rate 2020",
-              "content": "6.8% (2020 est.)",
-              "value": "6.8",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Unemployment rate 2019",
-              "content": "5.51% (2019 est.)",
-              "value": "5.51",
+              "content": "6.25% (2020 est.)",
+              "value": "6.25",
               "estimated": true,
               "suffix": "%"
             }
-          ]
+          ],
+          "field_note": "note: % of labor force seeking employment"
         },
         {
           "name": "Youth unemployment rate (ages 15-24)",

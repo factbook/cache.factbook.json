@@ -1,9 +1,9 @@
 {
   "name": "Greenland",
   "code": "GL",
-  "published": "2024-03-27 00:04:15 -0400",
+  "published": "2024-04-02 00:05:05 -0400",
   "region": "North America",
-  "updated": "2024-03-26 13:46:29 -0400",
+  "updated": "2024-04-01 17:48:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -1631,7 +1631,7 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": true,
-          "content": "$2.413 billion (2015 est.)<br><br>$2.24 billion (2014 est.)<br><br>$2.203 billion (2013 est.)<br><br><strong>note:</strong> data are in 2015 US dollars",
+          "content": "$2.413 billion (2015 est.)<br><br>$2.24 billion (2014 est.)<br><br>$2.203 billion (2013 est.)<br><br><strong>note:</strong> data are in 2015 dollars",
           "subfields": [
             {
               "name": "Real GDP (purchasing power parity) 2015",
@@ -1655,36 +1655,37 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<strong>note:</strong> data are in 2015 US dollars"
+          "field_note": "<strong>note:</strong> data are in 2015 dollars"
         },
         {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "0.36% (2020 est.)<br><br>2.27% (2019 est.)<br><br>0.62% (2018 est.)",
+          "content": "1.29% (2021 est.)<br><br>0.19% (2020 est.)<br><br>2.83% (2019 est.)<br><br>note: annual GDP % growth based on constant local currency",
           "subfields": [
             {
+              "name": "Real GDP growth rate 2021",
+              "content": "1.29% (2021 est.)",
+              "value": "1.29",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
               "name": "Real GDP growth rate 2020",
-              "content": "0.36% (2020 est.)",
-              "value": "0.36",
+              "content": "0.19% (2020 est.)",
+              "value": "0.19",
               "estimated": true,
               "suffix": "%"
             },
             {
               "name": "Real GDP growth rate 2019",
-              "content": "2.27% (2019 est.)",
-              "value": "2.27",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2018",
-              "content": "0.62% (2018 est.)",
-              "value": "0.62",
+              "content": "2.83% (2019 est.)",
+              "value": "2.83",
               "estimated": true,
               "suffix": "%"
             }
-          ]
+          ],
+          "field_note": "note: annual GDP % growth based on constant local currency"
         },
         {
           "name": "Real GDP per capita",
@@ -1719,11 +1720,12 @@
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$2.221 billion (2015 est.)",
-          "value": "2221000000",
+          "content": "$3.236 billion (2021 est.)<br><br>note: data in current dollars at official exchange rate",
+          "value": "3236000000",
           "estimated": true,
-          "info_date": "2015",
-          "prefix": "$"
+          "info_date": "2021",
+          "prefix": "$",
+          "field_note": "note: data in current dollars at official exchange rate"
         },
         {
           "name": "Inflation rate (consumer prices)",
@@ -1862,12 +1864,13 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "8.56% (2019 est.) NA",
-          "value": "8.56",
+          "content": "-10.63% (2021 est.) NA<br><br>note: annual % change in industrial value added based on constant local currency",
+          "value": "-10.63",
           "estimated": true,
-          "info_date": "2019",
+          "info_date": "2021",
           "suffix": "%",
-          "subfield_note": "NA"
+          "subfield_note": "NA",
+          "field_note": "note: annual % change in industrial value added based on constant local currency"
         },
         {
           "name": "Labor force",
