@@ -1,9 +1,9 @@
 {
   "name": "Christmas Island",
   "code": "KT",
-  "published": "2024-04-24 00:07:30 -0400",
+  "published": "2024-05-02 00:07:40 -0400",
   "region": "Australia and Oceania",
-  "updated": "2024-04-23 12:06:04 -0400",
+  "updated": "2024-05-01 16:03:20 -0400",
   "media": [
     {
       "type": "flag",
@@ -257,10 +257,29 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "2,205 (2016 est.)",
-          "value": "2205",
-          "estimated": true,
-          "info_date": "2016"
+          "content": "<strong>total: </strong>1,692<br><br><strong>male: </strong>1,007<br><br><strong>female: </strong>685 (2021 est.)",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "1,692",
+              "title": "total",
+              "value": "1692"
+            },
+            {
+              "name": "male",
+              "content": "1,007",
+              "title": "male",
+              "value": "1007"
+            },
+            {
+              "name": "female",
+              "content": "685 (2021 est.)",
+              "title": "female",
+              "value": "685",
+              "estimated": true,
+              "info_date": "2021"
+            }
+          ]
         },
         {
           "name": "Nationality",
@@ -312,63 +331,47 @@
           "name": "Age structure",
           "field_id": 341,
           "comparative": false,
-          "content": "<strong>0-14 years: </strong>12.79% (male 147/female 135)<br><br><strong>15-64 years: </strong>12.2% (male 202/female 67)<br><br><strong>65 years and over: </strong>5.44% (male 84/female 36) (2017 est.)",
+          "content": "<strong>0-14 years: </strong>16.6%<br><br><strong>15-64 years: </strong>70.4%<br><br><strong>65 years and over: </strong>13% (2021)",
           "subfields": [
             {
               "name": "0-14 years",
-              "content": "12.79% (male 147/female 135)",
+              "content": "16.6%",
               "title": "0-14 years",
-              "value": "12.79",
-              "suffix": "%",
-              "subfield_note": "(male 147/female 135)"
+              "value": "16.6",
+              "suffix": "%"
             },
             {
               "name": "15-64 years",
-              "content": "12.2% (male 202/female 67)",
+              "content": "70.4%",
               "title": "15-64 years",
-              "value": "12.2",
-              "suffix": "%",
-              "subfield_note": "(male 202/female 67)"
+              "value": "70.4",
+              "suffix": "%"
             },
             {
               "name": "65 years and over",
-              "content": "5.44% (male 84/female 36) (2017 est.)",
+              "content": "13% (2021)",
               "title": "65 years and over",
-              "value": "5.44",
-              "suffix": "%",
-              "subfield_note": "(male 84/female 36) (2017 est.)"
+              "value": "13",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "%"
             }
           ]
         },
         {
-          "name": "Dependency ratios",
-          "field_id": 342,
-          "comparative": false,
-          "content": "<strong>total dependency ratio: </strong>NA<br><br><strong>youth dependency ratio: </strong>NA<br><br><strong>elderly dependency ratio: </strong>NA<br><br><strong>potential support ratio: </strong>NA",
+          "name": "Median age",
+          "field_id": 343,
+          "comparative": true,
+          "content": "<strong>total: </strong>38 years (2021 est.)",
           "subfields": [
             {
-              "name": "total dependency ratio",
-              "content": "NA",
-              "title": "total dependency ratio",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "youth dependency ratio",
-              "content": "NA",
-              "title": "youth dependency ratio",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "elderly dependency ratio",
-              "content": "NA",
-              "title": "elderly dependency ratio",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "potential support ratio",
-              "content": "NA",
-              "title": "potential support ratio",
-              "subfield_note": "NA"
+              "name": "total",
+              "content": "38 years (2021 est.)",
+              "title": "total",
+              "value": "38",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "years"
             }
           ]
         },
@@ -383,182 +386,11 @@
           "suffix": "%"
         },
         {
-          "name": "Birth rate",
-          "field_id": 345,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "births/1,000 population",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Death rate",
-          "field_id": 346,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "deaths/1,000 population",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
           "content": "majority of the population lives on the northern tip of the island",
           "value": "majority of the population lives on the northern tip of the island"
-        },
-        {
-          "name": "Sex ratio",
-          "field_id": 351,
-          "content": "NA"
-        },
-        {
-          "name": "Infant mortality rate",
-          "field_id": 354,
-          "comparative": true,
-          "content": "<strong>total: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total",
-              "content": "NA",
-              "title": "total",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Life expectancy at birth",
-          "field_id": 355,
-          "comparative": true,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total population",
-              "content": "NA",
-              "title": "total population",
-              "suffix": "years",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "years",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "years",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Total fertility rate",
-          "field_id": 356,
-          "comparative": true,
-          "content": "NA",
-          "suffix": "children born/woman",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Contraceptive prevalence rate",
-          "field_id": 357,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Drinking water source",
-          "field_id": 361,
-          "comparative": false,
-          "content": "<strong>improved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA<br><br><strong>unimproved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA",
-          "subfields": [
-            {
-              "name": "improved: urban",
-              "content": "urban: NA",
-              "title": "improved",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "improved: rural",
-              "content": "rural: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "improved: total",
-              "content": "total: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: urban",
-              "content": "urban: NA",
-              "title": "unimproved",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: rural",
-              "content": "rural: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: total",
-              "content": "total: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Current health expenditure",
-          "field_id": 409,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Children under the age of 5 years underweight",
-          "field_id": 368,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Education expenditures",
-          "field_id": 369,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
         }
       ]
     },

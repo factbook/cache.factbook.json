@@ -1,9 +1,9 @@
 {
   "name": "Tokelau",
   "code": "TL",
-  "published": "2024-04-24 00:13:13 -0400",
+  "published": "2024-05-02 00:13:32 -0400",
   "region": "Australia and Oceania",
-  "updated": "2024-04-23 12:06:06 -0400",
+  "updated": "2024-05-01 15:55:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -305,10 +305,17 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "1,647 (2019 est.)",
-          "value": "1647",
-          "estimated": true,
-          "info_date": "2019"
+          "content": "<strong>total: </strong>1,647 (2019 est.)",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "1,647 (2019 est.)",
+              "title": "total",
+              "value": "1647",
+              "estimated": true,
+              "info_date": "2019"
+            }
+          ]
         },
         {
           "name": "Nationality",
@@ -356,35 +363,6 @@
           "info_date": "2016 est."
         },
         {
-          "name": "Age structure",
-          "field_id": 341,
-          "comparative": false,
-          "content": "<strong>0-14 years: </strong>NA<br><br><strong>15-64 years: </strong>NA<br><br><strong>65 years and over: </strong>NA",
-          "subfields": [
-            {
-              "name": "0-14 years",
-              "content": "NA",
-              "title": "0-14 years",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "15-64 years",
-              "content": "NA",
-              "title": "15-64 years",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "65 years and over",
-              "content": "NA",
-              "title": "65 years and over",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
           "name": "Dependency ratios",
           "field_id": 342,
           "comparative": false,
@@ -427,15 +405,6 @@
           "estimated": true,
           "info_date": "2019",
           "suffix": "%"
-        },
-        {
-          "name": "Birth rate",
-          "field_id": 345,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "births/1,000 population",
-          "subfield_note": "NA"
         },
         {
           "name": "Net migration rate",
@@ -488,88 +457,6 @@
           ]
         },
         {
-          "name": "Sex ratio",
-          "field_id": 351,
-          "content": "NA"
-        },
-        {
-          "name": "Infant mortality rate",
-          "field_id": 354,
-          "comparative": true,
-          "content": "<strong>total: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total",
-              "content": "NA",
-              "title": "total",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Life expectancy at birth",
-          "field_id": 355,
-          "comparative": true,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total population",
-              "content": "NA",
-              "title": "total population",
-              "suffix": "years",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "years",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "years",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Total fertility rate",
-          "field_id": 356,
-          "comparative": true,
-          "content": "(2021 est.) NA",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "children born/woman",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Contraceptive prevalence rate",
-          "field_id": 357,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
@@ -618,80 +505,19 @@
           ]
         },
         {
-          "name": "Current health expenditure",
-          "field_id": 409,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Physicians density",
-          "field_id": 359,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "physicians/1,000 population",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
-          "content": "<strong>improved: </strong>urban: NA<br><br>rural: 100% of population<br><br>total: 100% of population<br><br><strong>unimproved: </strong>urban: NA<br><br>rural: 0% of population<br><br>total: 0% of population (2020 est.)",
+          "content": "<strong>improved: </strong>rural: 100% of population",
           "subfields": [
-            {
-              "name": "improved: urban",
-              "content": "urban: NA",
-              "title": "improved",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
             {
               "name": "improved: rural",
               "content": "rural: 100% of population",
+              "title": "improved",
               "value": "100",
-              "suffix": "% of population"
-            },
-            {
-              "name": "improved: total",
-              "content": "total: 100% of population",
-              "value": "100",
-              "suffix": "% of population"
-            },
-            {
-              "name": "unimproved: urban",
-              "content": "urban: NA",
-              "title": "unimproved",
-              "value": "100",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: rural",
-              "content": "rural: 0% of population",
-              "value": "0",
-              "suffix": "% of population"
-            },
-            {
-              "name": "unimproved: total",
-              "content": "total: 0% of population (2020 est.)",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
               "suffix": "% of population"
             }
           ]
-        },
-        {
-          "name": "Children under the age of 5 years underweight",
-          "field_id": 368,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
         },
         {
           "name": "Currently married women (ages 15-49)",
@@ -731,44 +557,6 @@
               "estimated": true,
               "info_date": "2019",
               "suffix": "%"
-            }
-          ]
-        },
-        {
-          "name": "Education expenditures",
-          "field_id": 369,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Literacy",
-          "field_id": 370,
-          "comparative": false,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total population",
-              "content": "NA",
-              "title": "total population",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "%",
-              "subfield_note": "NA"
             }
           ]
         }

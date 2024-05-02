@@ -1,9 +1,9 @@
 {
   "name": "Falkland Islands (Islas Malvinas)",
   "code": "FK",
-  "published": "2024-04-24 00:04:40 -0400",
+  "published": "2024-05-02 00:04:46 -0400",
   "region": "South America",
-  "updated": "2024-04-23 12:06:03 -0400",
+  "updated": "2024-05-01 14:10:35 -0400",
   "media": [
     {
       "type": "flag",
@@ -323,10 +323,17 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "3,662 (2021 est.)<br><br><strong>note:</strong> data include all persons usually resident in the islands at the time of the 2021 census",
-          "value": "3662",
-          "estimated": true,
-          "info_date": "2021",
+          "content": "<strong>total: </strong>3,662 (2021 est.)<br><br><strong>note:</strong> data include all persons usually resident in the islands at the time of the 2021 census",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "3,662 (2021 est.)",
+              "title": "total",
+              "value": "3662",
+              "estimated": true,
+              "info_date": "2021"
+            }
+          ],
           "field_note": "<strong>note:</strong> data include all persons usually resident in the islands at the time of the 2021 census"
         },
         {
@@ -373,35 +380,6 @@
           "content": "Christian 57.1%, other 1.6%, none 35.4%, unspecified 6% (2016 est.)",
           "value": "Christian 57.1%, other 1.6%, none 35.4%, unspecified 6%",
           "info_date": "2016 est."
-        },
-        {
-          "name": "Age structure",
-          "field_id": 341,
-          "comparative": false,
-          "content": "<strong>0-14 years: </strong>NA<br><br><strong>15-64 years: </strong>NA<br><br><strong>65 years and over: </strong>NA",
-          "subfields": [
-            {
-              "name": "0-14 years",
-              "content": "NA",
-              "title": "0-14 years",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "15-64 years",
-              "content": "NA",
-              "title": "15-64 years",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "65 years and over",
-              "content": "NA",
-              "title": "65 years and over",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
         },
         {
           "name": "Dependency ratios",
@@ -468,14 +446,6 @@
           "suffix": "deaths/1,000 population"
         },
         {
-          "name": "Net migration rate",
-          "field_id": 347,
-          "comparative": true,
-          "content": "NA",
-          "suffix": "migrant(s)/1,000 population",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Population distribution",
           "field_id": 348,
           "comparative": false,
@@ -527,7 +497,7 @@
           "name": "Sex ratio",
           "field_id": 351,
           "comparative": false,
-          "content": "<strong>total population: </strong>1.12 male(s)/female (2016 est.)<br><br><strong>note:</strong> sex ratio is somewhat skewed by the high proportion of males at the Royal Air Force station, Mount Pleasant Airport (MPA); excluding MPA, the sex ratio of the total population would be 1.04",
+          "content": "<strong>total population: </strong>1.12 male(s)/female (2016 est.)",
           "subfields": [
             {
               "name": "total population",
@@ -537,36 +507,6 @@
               "estimated": true,
               "info_date": "2016",
               "suffix": "male(s)/female"
-            }
-          ],
-          "field_note": "<strong>note:</strong> sex ratio is somewhat skewed by the high proportion of males at the Royal Air Force station, Mount Pleasant Airport (MPA); excluding MPA, the sex ratio of the total population would be 1.04"
-        },
-        {
-          "name": "Infant mortality rate",
-          "field_id": 354,
-          "comparative": true,
-          "content": "<strong>total: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total",
-              "content": "NA",
-              "title": "total",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
             }
           ]
         },
@@ -600,23 +540,6 @@
               "subfield_note": "79.6"
             }
           ]
-        },
-        {
-          "name": "Total fertility rate",
-          "field_id": 356,
-          "comparative": true,
-          "content": "NA",
-          "suffix": "children born/woman",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Contraceptive prevalence rate",
-          "field_id": 357,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
         },
         {
           "name": "Drinking water source",
@@ -667,24 +590,6 @@
           ]
         },
         {
-          "name": "Current health expenditure",
-          "field_id": 409,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Physicians density",
-          "field_id": 359,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "physicians/1,000 population",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
@@ -733,15 +638,6 @@
           ]
         },
         {
-          "name": "Children under the age of 5 years underweight",
-          "field_id": 368,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Currently married women (ages 15-49)",
           "field_id": 447,
           "comparative": false,
@@ -750,44 +646,6 @@
           "estimated": true,
           "info_date": "2023",
           "suffix": "%"
-        },
-        {
-          "name": "Education expenditures",
-          "field_id": 369,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Literacy",
-          "field_id": 370,
-          "comparative": false,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total population",
-              "content": "NA",
-              "title": "total population",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
         }
       ]
     },

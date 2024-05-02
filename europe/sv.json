@@ -1,9 +1,9 @@
 {
   "name": "Svalbard",
   "code": "SV",
-  "published": "2024-04-24 00:12:38 -0400",
+  "published": "2024-05-02 00:12:57 -0400",
   "region": "Europe",
-  "updated": "2024-04-23 12:06:06 -0400",
+  "updated": "2024-05-01 15:50:35 -0400",
   "media": [
     {
       "type": "flag",
@@ -277,10 +277,17 @@
           "name": "Population",
           "field_id": 335,
           "comparative": true,
-          "content": "2,926 (January 2021 est.)",
-          "value": "2926",
-          "estimated": true,
-          "info_date": "January 2021"
+          "content": "<strong>total: </strong>2,926 (2021 est.)",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "2,926 (2021 est.)",
+              "title": "total",
+              "value": "2926",
+              "estimated": true,
+              "info_date": "2021"
+            }
+          ]
         },
         {
           "name": "Ethnic groups",
@@ -320,67 +327,6 @@
           ]
         },
         {
-          "name": "Age structure",
-          "field_id": 341,
-          "comparative": false,
-          "content": "<strong>0-14 years: </strong>NA<br><br><strong>15-64 years: </strong>NA<br><br><strong>65 years and over: </strong>NA",
-          "subfields": [
-            {
-              "name": "0-14 years",
-              "content": "NA",
-              "title": "0-14 years",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "15-64 years",
-              "content": "NA",
-              "title": "15-64 years",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "65 years and over",
-              "content": "NA",
-              "title": "65 years and over",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Dependency ratios",
-          "field_id": 342,
-          "comparative": false,
-          "content": "<strong>total dependency ratio: </strong>NA<br><br><strong>youth dependency ratio: </strong>NA<br><br><strong>elderly dependency ratio: </strong>NA<br><br><strong>potential support ratio: </strong>NA",
-          "subfields": [
-            {
-              "name": "total dependency ratio",
-              "content": "NA",
-              "title": "total dependency ratio",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "youth dependency ratio",
-              "content": "NA",
-              "title": "youth dependency ratio",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "elderly dependency ratio",
-              "content": "NA",
-              "title": "elderly dependency ratio",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "potential support ratio",
-              "content": "NA",
-              "title": "potential support ratio",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
           "name": "Population growth rate",
           "field_id": 344,
           "comparative": true,
@@ -389,24 +335,6 @@
           "estimated": true,
           "info_date": "2019",
           "suffix": "%"
-        },
-        {
-          "name": "Birth rate",
-          "field_id": 345,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "births/1,000 population",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Death rate",
-          "field_id": 346,
-          "comparative": true,
-          "content": "NA",
-          "estimated": true,
-          "suffix": "deaths/1,000 population",
-          "subfield_note": "NA"
         },
         {
           "name": "Net migration rate",
@@ -424,244 +352,6 @@
           "comparative": false,
           "content": "the small population is primarily concentrated on the island of Spitsbergen in a handful of settlements on the south side of the Isfjorden, with Longyearbyen being the largest",
           "value": "the small population is primarily concentrated on the island of Spitsbergen in a handful of settlements on the south side of the Isfjorden, with Longyearbyen being the largest"
-        },
-        {
-          "name": "Sex ratio",
-          "field_id": 351,
-          "content": "NA"
-        },
-        {
-          "name": "Infant mortality rate",
-          "field_id": 354,
-          "comparative": true,
-          "content": "<strong>total: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total",
-              "content": "NA",
-              "title": "total",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "deaths/1,000 live births",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Life expectancy at birth",
-          "field_id": 355,
-          "comparative": true,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total population",
-              "content": "NA",
-              "title": "total population",
-              "suffix": "years",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "years",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "years",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Total fertility rate",
-          "field_id": 356,
-          "comparative": true,
-          "content": "NA",
-          "estimated": true,
-          "suffix": "children born/woman",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Contraceptive prevalence rate",
-          "field_id": 357,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Drinking water source",
-          "field_id": 361,
-          "comparative": false,
-          "content": "<strong>improved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA<br><br><strong>unimproved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA",
-          "subfields": [
-            {
-              "name": "improved: urban",
-              "content": "urban: NA",
-              "title": "improved",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "improved: rural",
-              "content": "rural: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "improved: total",
-              "content": "total: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: urban",
-              "content": "urban: NA",
-              "title": "unimproved",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: rural",
-              "content": "rural: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: total",
-              "content": "total: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Current health expenditure",
-          "field_id": 409,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Physicians density",
-          "field_id": 359,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "physicians/1,000 population",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Sanitation facility access",
-          "field_id": 398,
-          "comparative": false,
-          "content": "<strong>improved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA<br><br><strong>unimproved: </strong>urban: NA<br><br>rural: NA<br><br>total: NA",
-          "subfields": [
-            {
-              "name": "improved: urban",
-              "content": "urban: NA",
-              "title": "improved",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "improved: rural",
-              "content": "rural: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "improved: total",
-              "content": "total: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: urban",
-              "content": "urban: NA",
-              "title": "unimproved",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: rural",
-              "content": "rural: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: total",
-              "content": "total: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
-          "name": "Children under the age of 5 years underweight",
-          "field_id": 368,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Education expenditures",
-          "field_id": 369,
-          "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Literacy",
-          "field_id": 370,
-          "comparative": false,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total population",
-              "content": "NA",
-              "title": "total population",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
         }
       ]
     },
@@ -882,8 +572,8 @@
           "name": "Political parties and leaders",
           "field_id": 315,
           "comparative": false,
-          "content": "Conservative [Celine ANDERSSEN]<br />Green [Pal BERG]<br />Labor [Arild OLSEN]<br />Liberal [Terje AUVENIK]<br />Progress [Jorn DYBDAHL]<br />Social Liberals []",
-          "value": "Conservative [Celine ANDERSSEN]<br />Green [Pal BERG]<br />Labor [Arild OLSEN]<br />Liberal [Terje AUVENIK]<br />Progress [Jorn DYBDAHL]<br />Social Liberals []"
+          "content": "Conservative [Celine ANDERSSEN]<br />Green [Pal BERG]<br />Labor [Arild OLSEN]<br />Liberal [Terje AUVENIK]<br />Progress [Jorn DYBDAHL]<br />Social Liberals",
+          "value": "Conservative [Celine ANDERSSEN]<br />Green [Pal BERG]<br />Labor [Arild OLSEN]<br />Liberal [Terje AUVENIK]<br />Progress [Jorn DYBDAHL]<br />Social Liberals"
         },
         {
           "name": "International organization participation",
