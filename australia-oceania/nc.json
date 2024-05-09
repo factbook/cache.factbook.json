@@ -1,9 +1,9 @@
 {
   "name": "New Caledonia",
   "code": "NC",
-  "published": "2024-05-02 00:09:47 -0400",
+  "published": "2024-05-08 00:10:01 -0400",
   "region": "Australia and Oceania",
-  "updated": "2024-05-01 13:19:33 -0400",
+  "updated": "2024-05-07 12:56:39 -0400",
   "media": [
     {
       "type": "flag",
@@ -1440,7 +1440,7 @@
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "3.5% (2022 est.)<br><br>-2.1% (2021 est.)<br><br>-2.4% (2020 est.)<br><br>note: annual GDP % growth based on constant local currency",
+          "content": "3.5% (2022 est.)<br><br>-2.1% (2021 est.)<br><br>-2.4% (2020 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
             {
               "name": "Real GDP growth rate 2022",
@@ -1464,7 +1464,7 @@
               "suffix": "%"
             }
           ],
-          "field_note": "note: annual GDP % growth based on constant local currency"
+          "field_note": "<b>note:</b> annual GDP % growth based on constant local currency"
         },
         {
           "name": "Real GDP per capita",
@@ -1499,18 +1499,18 @@
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$9.623 billion (2022 est.)<br><br>note: data in current dollars at official exchange rate",
+          "content": "$9.623 billion (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
           "value": "9623000000",
           "estimated": true,
           "info_date": "2022",
           "prefix": "$",
-          "field_note": "note: data in current dollars at official exchange rate"
+          "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
         {
           "name": "Inflation rate (consumer prices)",
           "field_id": 229,
           "comparative": true,
-          "content": "1.4% (2017 est.)<br><br>0.58% (2016 est.)<br><br>0.57% (2015 est.)<br><br>note: annual % change based on consumer prices",
+          "content": "1.4% (2017 est.)<br><br>0.58% (2016 est.)<br><br>0.57% (2015 est.)<br><br><b>note:</b> annual % change based on consumer prices",
           "subfields": [
             {
               "name": "Inflation rate (consumer prices) 2017",
@@ -1534,7 +1534,7 @@
               "suffix": "%"
             }
           ],
-          "field_note": "note: annual % change based on consumer prices"
+          "field_note": "<b>note:</b> annual % change based on consumer prices"
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -1637,8 +1637,10 @@
           "name": "Agricultural products",
           "field_id": 215,
           "comparative": false,
-          "content": "coconuts, vegetables, maize, fruit, beef, pork, potatoes, bananas, eggs, yams",
-          "value": "coconuts, vegetables, maize, fruit, beef, pork, potatoes, bananas, eggs, yams"
+          "content": "coconuts, vegetables, fruits, maize, beef, pork, eggs, yams, bananas, mangoes/guavas (2022)<br><br><b>note:</b> top ten agricultural products based on tonnage",
+          "value": "coconuts, vegetables, fruits, maize, beef, pork, eggs, yams, bananas, mangoes/guavas",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top ten agricultural products based on tonnage"
         },
         {
           "name": "Industries",
@@ -1651,28 +1653,28 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "4.3% (2014 est.)<br><br>note: annual % change in industrial value added based on constant local currency",
+          "content": "4.3% (2014 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
           "value": "4.3",
           "estimated": true,
           "info_date": "2014",
           "suffix": "%",
-          "field_note": "note: annual % change in industrial value added based on constant local currency"
+          "field_note": "<b>note:</b> annual % change in industrial value added based on constant local currency"
         },
         {
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "119,000 (2022 est.)<br><br>note: number of people ages 15 or older who are employed or seeking work",
+          "content": "119,000 (2022 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
           "value": "119000",
           "estimated": true,
           "info_date": "2022",
-          "field_note": "note: number of people ages 15 or older who are employed or seeking work"
+          "field_note": "<b>note:</b> number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": true,
-          "content": "11.03% (2022 est.)<br><br>12.55% (2021 est.)<br><br>13.56% (2020 est.)<br><br>note: % of labor force seeking employment",
+          "content": "11.03% (2022 est.)<br><br>12.55% (2021 est.)<br><br>13.56% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
               "name": "Unemployment rate 2022",
@@ -1696,7 +1698,7 @@
               "suffix": "%"
             }
           ],
-          "field_note": "note: % of labor force seeking employment"
+          "field_note": "<b>note:</b> % of labor force seeking employment"
         },
         {
           "name": "Youth unemployment rate (ages 15-24)",
@@ -1740,32 +1742,10 @@
           "suffix": "%"
         },
         {
-          "name": "Household income or consumption by percentage share",
-          "field_id": 222,
-          "comparative": false,
-          "content": "<strong>lowest 10%: </strong>NA<br><br><strong>highest 10%: </strong>NA",
-          "subfields": [
-            {
-              "name": "lowest 10%",
-              "content": "NA",
-              "title": "lowest 10%",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "highest 10%",
-              "content": "NA",
-              "title": "highest 10%",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "6.45% of GDP (2022 est.)<br><br>6.17% of GDP (2021 est.)<br><br>6.57% of GDP (2020 est.)<br><br>note: personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "6.45% of GDP (2022 est.)<br><br>6.17% of GDP (2021 est.)<br><br>6.57% of GDP (2020 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
             {
               "name": "Remittances 2022",
@@ -1789,7 +1769,7 @@
               "suffix": "% of GDP"
             }
           ],
-          "field_note": "note: personal transfers and compensation between resident and non-resident individuals/households/entities"
+          "field_note": "<b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities"
         },
         {
           "name": "Budget",
@@ -1870,7 +1850,7 @@
           "name": "Current account balance",
           "field_id": 238,
           "comparative": true,
-          "content": "-$654.237 million (2016 est.)<br><br>-$1.119 billion (2015 est.)<br><br>-$1.3 billion (2014 est.)<br><br>note: balance of payments - net trade and primary/secondary income in current dollars",
+          "content": "-$654.237 million (2016 est.)<br><br>-$1.119 billion (2015 est.)<br><br>-$1.3 billion (2014 est.)<br><br><b>note:</b> balance of payments - net trade and primary/secondary income in current dollars",
           "subfields": [
             {
               "name": "Current account balance 2016",
@@ -1894,13 +1874,13 @@
               "prefix": "$"
             }
           ],
-          "field_note": "note: balance of payments - net trade and primary/secondary income in current dollars"
+          "field_note": "<b>note:</b> balance of payments - net trade and primary/secondary income in current dollars"
         },
         {
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$1.92 billion (2021 est.)<br><br>$1.8 billion (2020 est.)<br><br>$1.79 billion (2019 est.)",
+          "content": "$1.92 billion (2021 est.)<br><br>$1.8 billion (2020 est.)<br><br>$1.79 billion (2019 est.)<br><br><b>note:</b> balance of payments - exports of goods and services in current dollars",
           "subfields": [
             {
               "name": "Exports 2021",
@@ -1923,29 +1903,32 @@
               "estimated": true,
               "prefix": "$"
             }
-          ]
+          ],
+          "field_note": "<b>note:</b> balance of payments - exports of goods and services in current dollars"
         },
         {
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "China 55%, South Korea 16%, Japan 11%, Taiwan 4%, Spain 3% (2021)",
-          "value": "China 55%, South Korea 16%, Japan 11%, Taiwan 4%, Spain 3%",
-          "info_date": "2021"
+          "content": "China 62%, South Korea 14%, Japan 12%, Taiwan 2%, Spain 2% (2022)<br><br><b>note:</b> top five export partners based on percentage share of exports",
+          "value": "China 62%, South Korea 14%, Japan 12%, Taiwan 2%, Spain 2%",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five export partners based on percentage share of exports"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "iron alloys, nickel, essential oils, recreational boats, shrimp (2021)",
-          "value": "iron alloys, nickel, essential oils, recreational boats, shrimp",
-          "info_date": "2021"
+          "content": "iron alloys, nickel ore, nickel, aircraft, essential oils (2022)<br><br><b>note:</b> top five export commodities based on value in dollars",
+          "value": "iron alloys, nickel ore, nickel, aircraft, essential oils",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five export commodities based on value in dollars"
         },
         {
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$2.26 billion (2021 est.)<br><br>$2.1 billion (2020 est.)<br><br>$2.48 billion (2019 est.)",
+          "content": "$2.26 billion (2021 est.)<br><br>$2.1 billion (2020 est.)<br><br>$2.48 billion (2019 est.)<br><br><b>note:</b> balance of payments - imports of goods and services in current dollars",
           "subfields": [
             {
               "name": "Imports 2021",
@@ -1968,23 +1951,26 @@
               "estimated": true,
               "prefix": "$"
             }
-          ]
+          ],
+          "field_note": "<b>note:</b> balance of payments - imports of goods and services in current dollars"
         },
         {
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "France 39%, Australia 14%, Singapore 11%, New Zealand 7%, China 7% (2021)",
-          "value": "France 39%, Australia 14%, Singapore 11%, New Zealand 7%, China 7%",
-          "info_date": "2021"
+          "content": "France 30%, Australia 22%, Singapore 13%, China 6%, Malaysia 6% (2022)<br><br><b>note:</b> top five import partners based on percentage share of imports",
+          "value": "France 30%, Australia 22%, Singapore 13%, China 6%, Malaysia 6%",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five import partners based on percentage share of imports"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "refined petroleum, coal, cars, packaged medicines, delivery trucks (2021)",
-          "value": "refined petroleum, coal, cars, packaged medicines, delivery trucks",
-          "info_date": "2021"
+          "content": "refined petroleum, coal, cars, packaged medicine, trucks (2022)<br><br><b>note:</b> top five import commodities based on value in dollars",
+          "value": "refined petroleum, coal, cars, packaged medicine, trucks",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five import commodities based on value in dollars"
         },
         {
           "name": "Debt - external",

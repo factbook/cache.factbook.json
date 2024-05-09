@@ -1,9 +1,9 @@
 {
   "name": "Anguilla",
   "code": "AV",
-  "published": "2024-05-02 00:00:59 -0400",
+  "published": "2024-05-08 00:01:00 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2024-05-01 06:03:50 -0400",
+  "updated": "2024-05-07 12:50:41 -0400",
   "media": [
     {
       "type": "flag",
@@ -1488,28 +1488,6 @@
           "suffix": "%"
         },
         {
-          "name": "Household income or consumption by percentage share",
-          "field_id": 222,
-          "comparative": false,
-          "content": "<strong>lowest 10%: </strong>NA<br><br><strong>highest 10%: </strong>NA",
-          "subfields": [
-            {
-              "name": "lowest 10%",
-              "content": "NA",
-              "title": "lowest 10%",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "highest 10%",
-              "content": "NA",
-              "title": "highest 10%",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
@@ -1630,12 +1608,22 @@
           "field_note": "<strong>note:</strong> Data are in current year dollars and do not include illicit exports or re-exports."
         },
         {
+          "name": "Exports - partners",
+          "field_id": 241,
+          "comparative": false,
+          "content": "Chile 74%, Hungary 7%, Kyrgyzstan 3%, US 2%, Netherlands 2% (2022)<br><br><b>note:</b> top five export partners based on percentage share of exports",
+          "value": "Chile 74%, Hungary 7%, Kyrgyzstan 3%, US 2%, Netherlands 2%",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five export partners based on percentage share of exports"
+        },
+        {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "packaged medicines, vaccines and cultures, used clothing, orthopedic appliances, blank audio media (2021)",
-          "value": "packaged medicines, vaccines and cultures, used clothing, orthopedic appliances, blank audio media",
-          "info_date": "2021"
+          "content": "packaged medicine, garments, vehicle parts/accessories, trucks, blank audio media (2022)<br><br><b>note:</b> top five export commodities based on value in dollars",
+          "value": "packaged medicine, garments, vehicle parts/accessories, trucks, blank audio media",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five export commodities based on value in dollars"
         },
         {
           "name": "Imports",
@@ -1660,11 +1648,22 @@
           ]
         },
         {
+          "name": "Imports - partners",
+          "field_id": 403,
+          "comparative": false,
+          "content": "Chile 48%, US 27%, Botswana 18%, Canada 1%, Japan 1% (2022)<br><br><b>note:</b> top five import partners based on percentage share of imports",
+          "value": "Chile 48%, US 27%, Botswana 18%, Canada 1%, Japan 1%",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five import partners based on percentage share of imports"
+        },
+        {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "fuels, foodstuffs, manufactures, chemicals, trucks, textiles",
-          "value": "fuels, foodstuffs, manufactures, chemicals, trucks, textiles"
+          "content": "poultry, copper ore, refined petroleum, natural gas, fish (2022)<br><br><b>note:</b> top five import commodities based on value in dollars",
+          "value": "poultry, copper ore, refined petroleum, natural gas, fish",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five import commodities based on value in dollars"
         },
         {
           "name": "Reserves of foreign exchange and gold",

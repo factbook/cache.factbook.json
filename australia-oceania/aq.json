@@ -1,9 +1,9 @@
 {
   "name": "American Samoa",
   "code": "AQ",
-  "published": "2024-05-02 00:00:41 -0400",
+  "published": "2024-05-08 00:00:42 -0400",
   "region": "Australia and Oceania",
-  "updated": "2024-05-01 13:24:35 -0400",
+  "updated": "2024-05-07 14:48:51 -0400",
   "media": [
     {
       "type": "flag",
@@ -2004,7 +2004,7 @@
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "1.74% (2022 est.)<br><br>-0.78% (2021 est.)<br><br>4.41% (2020 est.)<br><br>note: annual GDP % growth based on constant local currency",
+          "content": "1.74% (2022 est.)<br><br>-0.78% (2021 est.)<br><br>4.41% (2020 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
             {
               "name": "Real GDP growth rate 2022",
@@ -2028,7 +2028,7 @@
               "suffix": "%"
             }
           ],
-          "field_note": "note: annual GDP % growth based on constant local currency"
+          "field_note": "<b>note:</b> annual GDP % growth based on constant local currency"
         },
         {
           "name": "Real GDP per capita",
@@ -2063,12 +2063,12 @@
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$871 million (2022 est.)<br><br>note: data in current dollars at official exchange rate",
+          "content": "$871 million (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
           "value": "871000000",
           "estimated": true,
           "info_date": "2022",
           "prefix": "$",
-          "field_note": "note: data in current dollars at official exchange rate"
+          "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
         {
           "name": "Inflation rate (consumer prices)",
@@ -2213,36 +2213,6 @@
           "info_date": "2015"
         },
         {
-          "name": "Population below poverty line",
-          "field_id": 221,
-          "comparative": false,
-          "content": "NA",
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Household income or consumption by percentage share",
-          "field_id": 222,
-          "comparative": false,
-          "content": "<strong>lowest 10%: </strong>NA<br><br><strong>highest 10%: </strong>NA",
-          "subfields": [
-            {
-              "name": "lowest 10%",
-              "content": "NA",
-              "title": "lowest 10%",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "highest 10%",
-              "content": "NA",
-              "title": "highest 10%",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
@@ -2314,77 +2284,97 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$428 million (2016 est.)<br><br>$427 million (2015 est.)<br><br><strong>note:</strong> Data are in current year dollars and do not include illicit exports or re-exports.",
+          "content": "$409 million (2022 est.)<br><br>$332 million (2021 est.)<br><br>$427 million (2020 est.)<br><br><strong>note: </strong>GDP expenditure basis - exports of goods and services in current dollars",
           "subfields": [
             {
-              "name": "Exports 2016",
-              "content": "$428 million (2016 est.)",
-              "value": "428000000",
+              "name": "Exports 2022",
+              "content": "$409 million (2022 est.)",
+              "value": "409000000",
               "estimated": true,
               "prefix": "$"
             },
             {
-              "name": "Exports 2015",
-              "content": "$427 million (2015 est.)",
+              "name": "Exports 2021",
+              "content": "$332 million (2021 est.)",
+              "value": "332000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Exports 2020",
+              "content": "$427 million (2020 est.)",
               "value": "427000000",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<strong>note:</strong> Data are in current year dollars and do not include illicit exports or re-exports."
+          "field_note": "<strong>note: </strong>GDP expenditure basis - exports of goods and services in current dollars"
         },
         {
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "Australia 25%, Ghana 19%, Indonesia 15.6%, Burma 10.4%, Portugal 5.1% (2017)",
-          "value": "Australia 25%, Ghana 19%, Indonesia 15.6%, Burma 10.4%, Portugal 5.1%",
-          "info_date": "2017"
+          "content": "Australia 33%, South Korea 16%, Taiwan 8%, Kuwait 8%, Senegal 5% (2022)<br><br><b>note:</b> top five export partners based on percentage share of exports",
+          "value": "Australia 33%, South Korea 16%, Taiwan 8%, Kuwait 8%, Senegal 5%",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five export partners based on percentage share of exports"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "refined petroleum, animal meal, vaccines and cultures, ethylene polymers, vulcanized rubber (2021)",
-          "value": "refined petroleum, animal meal, vaccines and cultures, ethylene polymers, vulcanized rubber",
-          "info_date": "2021"
+          "content": "animal meal, packaged medicine, machinery, refined petroleum, insulated wire (2022)<br><br><b>note:</b> top five export commodities based on value in dollars",
+          "value": "animal meal, packaged medicine, machinery, refined petroleum, insulated wire",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five export commodities based on value in dollars"
         },
         {
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$615 million (2016 est.)<br><br>$657 million (2015 est.)",
+          "content": "$677 million (2022 est.)<br><br>$694 million (2021 est.)<br><br>$686 million (2020 est.)<br><br><strong>note: </strong>GDP expenditure basis - exports of goods and services in current dollars",
           "subfields": [
             {
-              "name": "Imports 2016",
-              "content": "$615 million (2016 est.)",
-              "value": "615000000",
+              "name": "Imports 2022",
+              "content": "$677 million (2022 est.)",
+              "value": "677000000",
               "estimated": true,
               "prefix": "$"
             },
             {
-              "name": "Imports 2015",
-              "content": "$657 million (2015 est.)",
-              "value": "657000000",
+              "name": "Imports 2021",
+              "content": "$694 million (2021 est.)",
+              "value": "694000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Imports 2020",
+              "content": "$686 million (2020 est.)",
+              "value": "686000000",
               "estimated": true,
               "prefix": "$"
             }
-          ]
+          ],
+          "field_note": "<strong>note: </strong>GDP expenditure basis - exports of goods and services in current dollars"
         },
         {
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "Fiji 10.7%, Singapore 10.4%, NZ 10.4%, South Korea 9.3%, Samoa 8.2%, Kenya 6.4%, Australia 5.2% (2017)",
-          "value": "Fiji 10.7%, Singapore 10.4%, NZ 10.4%, South Korea 9.3%, Samoa 8.2%, Kenya 6.4%, Australia 5.2%",
-          "info_date": "2017"
+          "content": "Malaysia 27%, Singapore 24%, Fiji 12%, South Korea 9%, Taiwan 9% (2022)<br><br><b>note:</b> top five import partners based on percentage share of imports",
+          "value": "Malaysia 27%, Singapore 24%, Fiji 12%, South Korea 9%, Taiwan 9%",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five import partners based on percentage share of imports"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "raw materials for canneries, food, petroleum products, machinery and parts",
-          "value": "raw materials for canneries, food, petroleum products, machinery and parts"
+          "content": "refined petroleum, fish, cars, paper containers, wood (2022)<br><br><b>note:</b> top five import commodities based on value in dollars",
+          "value": "refined petroleum, fish, cars, paper containers, wood",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five import commodities based on value in dollars"
         },
         {
           "name": "Debt - external",

@@ -1,9 +1,9 @@
 {
   "name": "Eritrea",
   "code": "ER",
-  "published": "2024-05-02 00:04:22 -0400",
+  "published": "2024-05-08 00:04:27 -0400",
   "region": "Africa",
-  "updated": "2024-05-01 06:03:52 -0400",
+  "updated": "2024-05-07 12:52:55 -0400",
   "media": [
     {
       "type": "flag",
@@ -2020,8 +2020,10 @@
           "name": "Agricultural products",
           "field_id": 215,
           "comparative": false,
-          "content": "sorghum, milk, vegetables, barley, cereals, pulses nes, roots/tubers nes, wheat, millet, beef",
-          "value": "sorghum, milk, vegetables, barley, cereals, pulses nes, roots/tubers nes, wheat, millet, beef"
+          "content": "sorghum, milk, barley, vegetables, root vegetables, cereals, pulses, millet, wheat, beef (2022)<br><br><b>note:</b> top ten agricultural products based on tonnage",
+          "value": "sorghum, milk, barley, vegetables, root vegetables, cereals, pulses, millet, wheat, beef",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top ten agricultural products based on tonnage"
         },
         {
           "name": "Industries",
@@ -2034,28 +2036,28 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "4.3% (2014 est.)<br><br>note: annual % change in industrial value added based on constant local currency",
+          "content": "4.3% (2014 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
           "value": "4.3",
           "estimated": true,
           "info_date": "2014",
           "suffix": "%",
-          "field_note": "note: annual % change in industrial value added based on constant local currency"
+          "field_note": "<b>note:</b> annual % change in industrial value added based on constant local currency"
         },
         {
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "1.749 million (2022 est.)<br><br>note: number of people ages 15 or older who are employed or seeking work",
+          "content": "1.749 million (2022 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
           "value": "1749000",
           "estimated": true,
           "info_date": "2022",
-          "field_note": "note: number of people ages 15 or older who are employed or seeking work"
+          "field_note": "<b>note:</b> number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": true,
-          "content": "5.97% (2022 est.)<br><br>6.51% (2021 est.)<br><br>6.45% (2020 est.)<br><br>note: % of labor force seeking employment",
+          "content": "5.97% (2022 est.)<br><br>6.51% (2021 est.)<br><br>6.45% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
               "name": "Unemployment rate 2022",
@@ -2079,7 +2081,7 @@
               "suffix": "%"
             }
           ],
-          "field_note": "note: % of labor force seeking employment"
+          "field_note": "<b>note:</b> % of labor force seeking employment"
         },
         {
           "name": "Youth unemployment rate (ages 15-24)",
@@ -2121,28 +2123,6 @@
           "estimated": true,
           "info_date": "2004",
           "suffix": "%"
-        },
-        {
-          "name": "Household income or consumption by percentage share",
-          "field_id": 222,
-          "comparative": false,
-          "content": "<strong>lowest 10%: </strong>NA<br><br><strong>highest 10%: </strong>NA",
-          "subfields": [
-            {
-              "name": "lowest 10%",
-              "content": "NA",
-              "title": "lowest 10%",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "highest 10%",
-              "content": "NA",
-              "title": "highest 10%",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
         },
         {
           "name": "Budget",
@@ -2267,17 +2247,19 @@
           "name": "Exports - partners",
           "field_id": 241,
           "comparative": false,
-          "content": "China 62%, South Korea 28.3% (2017)",
-          "value": "China 62%, South Korea 28.3%",
-          "info_date": "2017"
+          "content": "China 52%, UAE 33%, South Korea 9%, Japan 2%, Madagascar 2% (2022)<br><br><b>note:</b> top five export partners based on percentage share of exports",
+          "value": "China 52%, UAE 33%, South Korea 9%, Japan 2%, Madagascar 2%",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five export partners based on percentage share of exports"
         },
         {
           "name": "Exports - commodities",
           "field_id": 240,
           "comparative": false,
-          "content": "zinc, copper, gold, clothing, stone grinders (2021)",
-          "value": "zinc, copper, gold, clothing, stone grinders",
-          "info_date": "2021"
+          "content": "zinc ore, gold, copper ore, wheat, garments (2022)<br><br><b>note:</b> top five export commodities based on value in dollars",
+          "value": "zinc ore, gold, copper ore, wheat, garments",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five export commodities based on value in dollars"
         },
         {
           "name": "Imports",
@@ -2305,22 +2287,25 @@
           "name": "Imports - partners",
           "field_id": 403,
           "comparative": false,
-          "content": "UAE 14.5%, China 13.2%, Saudi Arabia 13.2%, Italy 12.9%, Turkey 5.6%, South Africa 4.6% (2017)",
-          "value": "UAE 14.5%, China 13.2%, Saudi Arabia 13.2%, Italy 12.9%, Turkey 5.6%, South Africa 4.6%",
-          "info_date": "2017"
+          "content": "China 34%, UAE 26%, Turkey 12%, US 7%, India 4% (2022)<br><br><b>note:</b> top five import partners based on percentage share of imports",
+          "value": "China 34%, UAE 26%, Turkey 12%, US 7%, India 4%",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five import partners based on percentage share of imports"
         },
         {
           "name": "Imports - commodities",
           "field_id": 243,
           "comparative": false,
-          "content": "machinery, petroleum products, food, manufactured goods",
-          "value": "machinery, petroleum products, food, manufactured goods"
+          "content": "ships, sorghum, wheat, construction vehicles, other foods (2022)<br><br><b>note:</b> top five import commodities based on value in dollars",
+          "value": "ships, sorghum, wheat, construction vehicles, other foods",
+          "info_date": "2022",
+          "field_note": "<b>note:</b> top five import commodities based on value in dollars"
         },
         {
           "name": "Reserves of foreign exchange and gold",
           "field_id": 245,
           "comparative": true,
-          "content": "$191.694 million (2019 est.)<br><br>$163.034 million (2018 est.)<br><br>$143.412 million (2017 est.)<br><br>note: holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars",
+          "content": "$191.694 million (2019 est.)<br><br>$163.034 million (2018 est.)<br><br>$143.412 million (2017 est.)<br><br><b>note:</b> holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars",
           "subfields": [
             {
               "name": "Reserves of foreign exchange and gold 2019",
@@ -2344,7 +2329,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "note: holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars"
+          "field_note": "<b>note:</b> holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars"
         },
         {
           "name": "Debt - external",
