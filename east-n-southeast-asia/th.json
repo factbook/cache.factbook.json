@@ -1,9 +1,9 @@
 {
   "name": "Thailand",
   "code": "TH",
-  "published": "2024-07-04 00:12:42 -0400",
+  "published": "2024-07-11 05:53:58 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2024-07-03 09:12:14 -0400",
+  "updated": "2024-07-10 13:02:28 -0400",
   "media": [
     {
       "type": "flag",
@@ -1473,7 +1473,7 @@
         {
           "name": "Total fertility rate",
           "field_id": 356,
-          "comparative": true,
+          "comparative": false,
           "content": "1.54 children born/woman (2024 est.)",
           "value": "1.54",
           "estimated": true,
@@ -1708,7 +1708,7 @@
         {
           "name": "Tobacco use",
           "field_id": 434,
-          "comparative": true,
+          "comparative": false,
           "content": "<strong>total: </strong>22.1% (2020 est.)<br><br><strong>male: </strong>41.3% (2020 est.)<br><br><strong>female: </strong>2.9% (2020 est.)",
           "subfields": [
             {
@@ -2933,7 +2933,7 @@
         {
           "name": "Unemployment rate",
           "field_id": 220,
-          "comparative": true,
+          "comparative": false,
           "content": "0.94% (2022 est.)<br><br>1.21% (2021 est.)<br><br>1.1% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
@@ -3167,7 +3167,7 @@
         {
           "name": "Taxes and other revenues",
           "field_id": 225,
-          "comparative": true,
+          "comparative": false,
           "content": "14.32% (of GDP) (2021 est.)<br><br><b>note:</b> central government tax revenue as a % of GDP",
           "value": "14.32",
           "estimated": true,
@@ -3406,15 +3406,29 @@
           "name": "Electricity access",
           "field_id": 251,
           "comparative": false,
-          "content": "<strong>electrification - total population: </strong>100% (2021)",
+          "content": "<strong>electrification - total population: </strong>99.9% (2022 est.)<br><br><strong>electrification - urban areas: </strong>100%<br><br><strong>electrification - rural areas: </strong>100%",
           "subfields": [
             {
               "name": "electrification - total population",
-              "content": "100% (2021)",
+              "content": "99.9% (2022 est.)",
               "title": "electrification - total population",
+              "value": "99.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "%"
+            },
+            {
+              "name": "electrification - urban areas",
+              "content": "100%",
+              "title": "electrification - urban areas",
               "value": "100",
-              "estimated": false,
-              "info_date": "2021",
+              "suffix": "%"
+            },
+            {
+              "name": "electrification - rural areas",
+              "content": "100%",
+              "title": "electrification - rural areas",
+              "value": "100",
               "suffix": "%"
             }
           ]
@@ -3423,51 +3437,51 @@
           "name": "Electricity",
           "field_id": 435,
           "comparative": false,
-          "content": "<strong>installed generating capacity: </strong>53.13 million kW (2020 est.)<br><br><strong>consumption: </strong>190,569,262,000 kWh (2019 est.)<br><br><strong>exports: </strong>2,617,583,000 kWh (2020 est.)<br><br><strong>imports: </strong>29,550,571,000 kWh (2020 est.)<br><br><strong>transmission/distribution losses: </strong>13.286 billion kWh (2019 est.)",
+          "content": "<strong>installed generating capacity: </strong>57.216 million kW (2022 est.)<br><br><strong>consumption: </strong>199.672 billion kWh (2022 est.)<br><br><strong>exports: </strong>2.02 billion kWh (2022 est.)<br><br><strong>imports: </strong>34.223 billion kWh (2022 est.)<br><br><strong>transmission/distribution losses: </strong>14.464 billion kWh (2022 est.)",
           "subfields": [
             {
               "name": "installed generating capacity",
-              "content": "53.13 million kW (2020 est.)",
+              "content": "57.216 million kW (2022 est.)",
               "title": "installed generating capacity",
-              "value": "53130000",
+              "value": "57216000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kW"
             },
             {
               "name": "consumption",
-              "content": "190,569,262,000 kWh (2019 est.)",
+              "content": "199.672 billion kWh (2022 est.)",
               "title": "consumption",
-              "value": "190569262000",
+              "value": "199672000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "exports",
-              "content": "2,617,583,000 kWh (2020 est.)",
+              "content": "2.02 billion kWh (2022 est.)",
               "title": "exports",
-              "value": "2617583000",
+              "value": "2020000000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "imports",
-              "content": "29,550,571,000 kWh (2020 est.)",
+              "content": "34.223 billion kWh (2022 est.)",
               "title": "imports",
-              "value": "29550571000",
+              "value": "34223000000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "transmission/distribution losses",
-              "content": "13.286 billion kWh (2019 est.)",
+              "content": "14.464 billion kWh (2022 est.)",
               "title": "transmission/distribution losses",
-              "value": "13286000000",
+              "value": "14464000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "kWh"
             }
           ]
@@ -3476,78 +3490,51 @@
           "name": "Electricity generation sources",
           "field_id": 436,
           "comparative": false,
-          "content": "<strong>fossil fuels: </strong>83.3% of total installed capacity (2020 est.)<br><br><strong>nuclear: </strong>0% of total installed capacity (2020 est.)<br><br><strong>solar: </strong>2.8% of total installed capacity (2020 est.)<br><br><strong>wind: </strong>1.7% of total installed capacity (2020 est.)<br><br><strong>hydroelectricity: </strong>2.6% of total installed capacity (2020 est.)<br><br><strong>tide and wave: </strong>0% of total installed capacity (2020 est.)<br><br><strong>geothermal: </strong>0% of total installed capacity (2020 est.)<br><br><strong>biomass and waste: </strong>9.6% of total installed capacity (2020 est.)",
+          "content": "<strong>fossil fuels: </strong>82.1% of total installed capacity (2022 est.)<br><br><strong>solar: </strong>2.8% of total installed capacity (2022 est.)<br><br><strong>wind: </strong>1.7% of total installed capacity (2022 est.)<br><br><strong>hydroelectricity: </strong>3.7% of total installed capacity (2022 est.)<br><br><strong>biomass and waste: </strong>9.7% of total installed capacity (2022 est.)",
           "subfields": [
             {
               "name": "fossil fuels",
-              "content": "83.3% of total installed capacity (2020 est.)",
+              "content": "82.1% of total installed capacity (2022 est.)",
               "title": "fossil fuels",
-              "value": "83.3",
+              "value": "82.1",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "nuclear",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "nuclear",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "solar",
-              "content": "2.8% of total installed capacity (2020 est.)",
+              "content": "2.8% of total installed capacity (2022 est.)",
               "title": "solar",
               "value": "2.8",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "wind",
-              "content": "1.7% of total installed capacity (2020 est.)",
+              "content": "1.7% of total installed capacity (2022 est.)",
               "title": "wind",
               "value": "1.7",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "hydroelectricity",
-              "content": "2.6% of total installed capacity (2020 est.)",
+              "content": "3.7% of total installed capacity (2022 est.)",
               "title": "hydroelectricity",
-              "value": "2.6",
+              "value": "3.7",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "tide and wave",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "tide and wave",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "geothermal",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "geothermal",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "biomass and waste",
-              "content": "9.6% of total installed capacity (2020 est.)",
+              "content": "9.7% of total installed capacity (2022 est.)",
               "title": "biomass and waste",
-              "value": "9.6",
+              "value": "9.7",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             }
           ]
@@ -3556,51 +3543,51 @@
           "name": "Coal",
           "field_id": 437,
           "comparative": false,
-          "content": "<strong>production: </strong>13.251 million metric tons (2020 est.)<br><br><strong>consumption: </strong>35.761 million metric tons (2020 est.)<br><br><strong>exports: </strong>63,000 metric tons (2020 est.)<br><br><strong>imports: </strong>23.899 million metric tons (2020 est.)<br><br><strong>proven reserves: </strong>1.063 billion metric tons (2019 est.)",
+          "content": "<strong>production: </strong>13.642 million metric tons (2022 est.)<br><br><strong>consumption: </strong>36.03 million metric tons (2022 est.)<br><br><strong>exports: </strong>96,000 metric tons (2022 est.)<br><br><strong>imports: </strong>22.485 million metric tons (2022 est.)<br><br><strong>proven reserves: </strong>1.063 billion metric tons (2022 est.)",
           "subfields": [
             {
               "name": "production",
-              "content": "13.251 million metric tons (2020 est.)",
+              "content": "13.642 million metric tons (2022 est.)",
               "title": "production",
-              "value": "13251000",
+              "value": "13642000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "consumption",
-              "content": "35.761 million metric tons (2020 est.)",
+              "content": "36.03 million metric tons (2022 est.)",
               "title": "consumption",
-              "value": "35761000",
+              "value": "36030000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "exports",
-              "content": "63,000 metric tons (2020 est.)",
+              "content": "96,000 metric tons (2022 est.)",
               "title": "exports",
-              "value": "63000",
+              "value": "96000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "imports",
-              "content": "23.899 million metric tons (2020 est.)",
+              "content": "22.485 million metric tons (2022 est.)",
               "title": "imports",
-              "value": "23899000",
+              "value": "22485000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "proven reserves",
-              "content": "1.063 billion metric tons (2019 est.)",
+              "content": "1.063 billion metric tons (2022 est.)",
               "title": "proven reserves",
               "value": "1063000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tons"
             }
           ]
@@ -3609,49 +3596,31 @@
           "name": "Petroleum",
           "field_id": 438,
           "comparative": false,
-          "content": "<strong>total petroleum production: </strong>438,200 bbl/day (2021 est.)<br><br><strong>refined petroleum consumption: </strong>1,284,800 bbl/day (2019 est.)<br><br><strong>crude oil and lease condensate exports: </strong>28,600 bbl/day (2018 est.)<br><br><strong>crude oil and lease condensate imports: </strong>979,800 bbl/day (2018 est.)<br><br><strong>crude oil estimated reserves: </strong>252.8 million barrels (2021 est.)",
+          "content": "<strong>total petroleum production: </strong>386,000 bbl/day (2023 est.)<br><br><strong>refined petroleum consumption: </strong>1.248 million bbl/day (2022 est.)<br><br><strong>crude oil estimated reserves: </strong>252.75 million barrels (2021 est.)",
           "subfields": [
             {
               "name": "total petroleum production",
-              "content": "438,200 bbl/day (2021 est.)",
+              "content": "386,000 bbl/day (2023 est.)",
               "title": "total petroleum production",
-              "value": "438200",
+              "value": "386000",
               "estimated": true,
-              "info_date": "2021",
+              "info_date": "2023",
               "suffix": "bbl/day"
             },
             {
               "name": "refined petroleum consumption",
-              "content": "1,284,800 bbl/day (2019 est.)",
+              "content": "1.248 million bbl/day (2022 est.)",
               "title": "refined petroleum consumption",
-              "value": "1284800",
+              "value": "1248000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate exports",
-              "content": "28,600 bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate exports",
-              "value": "28600",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate imports",
-              "content": "979,800 bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate imports",
-              "value": "979800",
-              "estimated": true,
-              "info_date": "2018",
+              "info_date": "2022",
               "suffix": "bbl/day"
             },
             {
               "name": "crude oil estimated reserves",
-              "content": "252.8 million barrels (2021 est.)",
+              "content": "252.75 million barrels (2021 est.)",
               "title": "crude oil estimated reserves",
-              "value": "252800000",
+              "value": "252750000",
               "estimated": true,
               "info_date": "2021",
               "suffix": "barrels"
@@ -3659,75 +3628,36 @@
           ]
         },
         {
-          "name": "Refined petroleum products - production",
-          "field_id": 265,
-          "comparative": true,
-          "content": "1.328 million bbl/day (2015 est.)",
-          "value": "1328000",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - exports",
-          "field_id": 267,
-          "comparative": true,
-          "content": "278,300 bbl/day (2015 est.)",
-          "value": "278300",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - imports",
-          "field_id": 268,
-          "comparative": true,
-          "content": "134,200 bbl/day (2015 est.)",
-          "value": "134200",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
           "name": "Natural gas",
           "field_id": 440,
           "comparative": false,
-          "content": "<strong>production: </strong>38,420,517,000 cubic meters (2019 est.)<br><br><strong>consumption: </strong>54,802,466,000 cubic meters (2019 est.)<br><br><strong>exports: </strong>0 cubic meters (2021 est.)<br><br><strong>imports: </strong>14,944,842,000 cubic meters (2019 est.)<br><br><strong>proven reserves: </strong>138.243 billion cubic meters (2021 est.)",
+          "content": "<strong>production: </strong>30.797 billion cubic meters (2022 est.)<br><br><strong>consumption: </strong>48.898 billion cubic meters (2022 est.)<br><br><strong>imports: </strong>17.112 billion cubic meters (2022 est.)<br><br><strong>proven reserves: </strong>138.243 billion cubic meters (2021 est.)",
           "subfields": [
             {
               "name": "production",
-              "content": "38,420,517,000 cubic meters (2019 est.)",
+              "content": "30.797 billion cubic meters (2022 est.)",
               "title": "production",
-              "value": "38420517000",
+              "value": "30797000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "consumption",
-              "content": "54,802,466,000 cubic meters (2019 est.)",
+              "content": "48.898 billion cubic meters (2022 est.)",
               "title": "consumption",
-              "value": "54802466000",
+              "value": "48898000000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "exports",
-              "content": "0 cubic meters (2021 est.)",
-              "title": "exports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "imports",
-              "content": "14,944,842,000 cubic meters (2019 est.)",
+              "content": "17.112 billion cubic meters (2022 est.)",
               "title": "imports",
-              "value": "14944842000",
+              "value": "17112000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
@@ -3745,41 +3675,41 @@
           "name": "Carbon dioxide emissions",
           "field_id": 274,
           "comparative": false,
-          "content": "305.273 million metric tonnes of CO2 (2019 est.)<br><br><strong>from coal and metallurgical coke: </strong>58.78 million metric tonnes of CO2 (2019 est.)<br><br><strong>from petroleum and other liquids: </strong>146.172 million metric tonnes of CO2 (2019 est.)<br><br><strong>from consumed natural gas: </strong>100.321 million metric tonnes of CO2 (2019 est.)",
+          "content": "307.934 million metric tonnes of CO2 (2022 est.)<br><br><strong>from coal and metallurgical coke: </strong>61.666 million metric tonnes of CO2 (2022 est.)<br><br><strong>from petroleum and other liquids: </strong>156.756 million metric tonnes of CO2 (2022 est.)<br><br><strong>from consumed natural gas: </strong>89.511 million metric tonnes of CO2 (2022 est.)",
           "subfields": [
             {
               "name": "total emissions",
-              "content": "305.273 million metric tonnes of CO2 (2019 est.)",
-              "value": "305273000",
+              "content": "307.934 million metric tonnes of CO2 (2022 est.)",
+              "value": "307934000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from coal and metallurgical coke",
-              "content": "58.78 million metric tonnes of CO2 (2019 est.)",
+              "content": "61.666 million metric tonnes of CO2 (2022 est.)",
               "title": "from coal and metallurgical coke",
-              "value": "58780000",
+              "value": "61666000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from petroleum and other liquids",
-              "content": "146.172 million metric tonnes of CO2 (2019 est.)",
+              "content": "156.756 million metric tonnes of CO2 (2022 est.)",
               "title": "from petroleum and other liquids",
-              "value": "146172000",
+              "value": "156756000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from consumed natural gas",
-              "content": "100.321 million metric tonnes of CO2 (2019 est.)",
+              "content": "89.511 million metric tonnes of CO2 (2022 est.)",
               "title": "from consumed natural gas",
-              "value": "100321000",
+              "value": "89511000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             }
           ]
@@ -3788,12 +3718,12 @@
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
-          "content": "76.714 million Btu/person (2019 est.)",
+          "content": "69.958 million Btu/person (2022 est.)",
           "subfields": [
             {
-              "name": "Total energy consumption per capita 2019",
-              "content": "76.714 million Btu/person (2019 est.)",
-              "value": "76714000",
+              "name": "Total energy consumption per capita 2022",
+              "content": "69.958 million Btu/person (2022 est.)",
+              "value": "69958000",
               "estimated": true,
               "suffix": "Btu/person"
             }
@@ -4259,9 +4189,9 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the RTARF&rsquo;s missions include defending the country&rsquo;s territory and sovereignty, protecting the monarchy, ensuring internal security, and responding to natural disasters; it also plays a large role in domestic politics and has attempted as many as 20 coups since the fall of absolute monarchy in 1932, the most recent being in 2014; the Army, formed in 1874, is the dominant service and has 15 combat divisions spread across four military regions; ten of the divisions are infantry, while the others are armored/mechanized cavalry, special forces, and artillery; established in 1906, the Navy&rsquo;s principal warships include a light aircraft/helicopter carrier, a landing platform dock (LPD) amphibious assault ship, and nearly 20 frigates, corvettes, and offshore patrol vessels; it also has a marine infantry division; the Air Force, established in 1913, is one of the oldest in Southeast Asia and has around 100 combat aircraft<br /><br />since 2004, the military has fought against separatist insurgents in the southern provinces of Pattani, Yala, and Narathiwat, as well as parts of Songkhla; the insurgency is rooted in ethnic Malay nationalist resistance to Thai rule that followed the extension of Siamese sovereignty over the Patani Sultanate in the 18th century; the insurgency consists of several armed groups, the largest of which is the Barisan Revolusi Nasional-Koordinasi (BRN-C): since 2020, Thai officials have been negotiating with BRN, and has parallel talks with an umbrella organization, MARA Pattani, that claims to represent the insurgency groups; since 2004, violence associated with the insurgency has claimed more than 7,300 lives (as of 2023); the Thai Government has had as many as 100,000 military and paramilitary forces deployed in the south to combat the insurgency<br /><br />Thailand has Major Non-NATO Ally (MNNA) status with the US, a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; the Thai and US militaries host the annual \"Cobra Gold\" multinational military exercises in Thailand; the exercise is one of the largest multinational exercises in the Pacific region (2023)",
-          "value": "the RTARF&rsquo;s missions include defending the country&rsquo;s territory and sovereignty, protecting the monarchy, ensuring internal security, and responding to natural disasters; it also plays a large role in domestic politics and has attempted as many as 20 coups since the fall of absolute monarchy in 1932, the most recent being in 2014; the Army, formed in 1874, is the dominant service and has 15 combat divisions spread across four military regions; ten of the divisions are infantry, while the others are armored/mechanized cavalry, special forces, and artillery; established in 1906, the Navy&rsquo;s principal warships include a light aircraft/helicopter carrier, a landing platform dock (LPD) amphibious assault ship, and nearly 20 frigates, corvettes, and offshore patrol vessels; it also has a marine infantry division; the Air Force, established in 1913, is one of the oldest in Southeast Asia and has around 100 combat aircraft<br /><br />since 2004, the military has fought against separatist insurgents in the southern provinces of Pattani, Yala, and Narathiwat, as well as parts of Songkhla; the insurgency is rooted in ethnic Malay nationalist resistance to Thai rule that followed the extension of Siamese sovereignty over the Patani Sultanate in the 18th century; the insurgency consists of several armed groups, the largest of which is the Barisan Revolusi Nasional-Koordinasi (BRN-C): since 2020, Thai officials have been negotiating with BRN, and has parallel talks with an umbrella organization, MARA Pattani, that claims to represent the insurgency groups; since 2004, violence associated with the insurgency has claimed more than 7,300 lives (as of 2023); the Thai Government has had as many as 100,000 military and paramilitary forces deployed in the south to combat the insurgency<br /><br />Thailand has Major Non-NATO Ally (MNNA) status with the US, a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; the Thai and US militaries host the annual \"Cobra Gold\" multinational military exercises in Thailand; the exercise is one of the largest multinational exercises in the Pacific region",
-          "info_date": "2023"
+          "content": "the RTARF&rsquo;s missions include defending the country&rsquo;s territory and sovereignty, protecting the monarchy, ensuring internal security, and responding to natural disasters; it also plays a large role in domestic politics and has attempted as many as 20 coups since the fall of absolute monarchy in 1932, the most recent being in 2014<br /><br />since 2004, the military has fought against separatist insurgents in the southern provinces of Pattani, Yala, and Narathiwat, as well as parts of Songkhla; the insurgency is rooted in ethnic Malay nationalist resistance to Thai rule that followed the extension of Siamese sovereignty over the Patani Sultanate in the 18th century; the insurgency consists of several armed groups, the largest of which is the Barisan Revolusi Nasional-Koordinasi (BRN-C): since 2020, Thai officials have been negotiating with BRN, and has parallel talks with an umbrella organization, MARA Pattani, that claims to represent the insurgency groups; since 2004, violence associated with the insurgency has claimed more than 7,000 lives; the Thai Government has had as many as 100,000 military and paramilitary forces deployed in the south to combat the insurgency<br /><br />Thailand has Major Non-NATO Ally (MNNA) status with the US, a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; the Thai and US militaries host the annual \"Cobra Gold\" multinational military exercises in Thailand; the exercise is one of the largest multinational exercises in the Pacific region (2024)",
+          "value": "the RTARF&rsquo;s missions include defending the country&rsquo;s territory and sovereignty, protecting the monarchy, ensuring internal security, and responding to natural disasters; it also plays a large role in domestic politics and has attempted as many as 20 coups since the fall of absolute monarchy in 1932, the most recent being in 2014<br /><br />since 2004, the military has fought against separatist insurgents in the southern provinces of Pattani, Yala, and Narathiwat, as well as parts of Songkhla; the insurgency is rooted in ethnic Malay nationalist resistance to Thai rule that followed the extension of Siamese sovereignty over the Patani Sultanate in the 18th century; the insurgency consists of several armed groups, the largest of which is the Barisan Revolusi Nasional-Koordinasi (BRN-C): since 2020, Thai officials have been negotiating with BRN, and has parallel talks with an umbrella organization, MARA Pattani, that claims to represent the insurgency groups; since 2004, violence associated with the insurgency has claimed more than 7,000 lives; the Thai Government has had as many as 100,000 military and paramilitary forces deployed in the south to combat the insurgency<br /><br />Thailand has Major Non-NATO Ally (MNNA) status with the US, a designation under US law that provides foreign partners with certain benefits in the areas of defense trade and security cooperation; the Thai and US militaries host the annual \"Cobra Gold\" multinational military exercises in Thailand; the exercise is one of the largest multinational exercises in the Pacific region",
+          "info_date": "2024"
         }
       ]
     },

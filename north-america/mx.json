@@ -1,9 +1,9 @@
 {
   "name": "Mexico",
   "code": "MX",
-  "published": "2024-07-04 00:09:06 -0400",
+  "published": "2024-07-11 05:50:19 -0400",
   "region": "North America",
-  "updated": "2024-07-03 09:12:13 -0400",
+  "updated": "2024-07-08 16:24:27 -0400",
   "media": [
     {
       "type": "flag",
@@ -906,7 +906,7 @@
         {
           "name": "Total fertility rate",
           "field_id": 356,
-          "comparative": true,
+          "comparative": false,
           "content": "1.79 children born/woman (2024 est.)",
           "value": "1.79",
           "estimated": true,
@@ -1151,7 +1151,7 @@
         {
           "name": "Tobacco use",
           "field_id": 434,
-          "comparative": true,
+          "comparative": false,
           "content": "<strong>total: </strong>13.1% (2020 est.)<br><br><strong>male: </strong>19.9% (2020 est.)<br><br><strong>female: </strong>6.2% (2020 est.)",
           "subfields": [
             {
@@ -2408,7 +2408,7 @@
         {
           "name": "Unemployment rate",
           "field_id": 220,
-          "comparative": true,
+          "comparative": false,
           "content": "3.26% (2022 est.)<br><br>4.09% (2021 est.)<br><br>4.44% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
@@ -2642,7 +2642,7 @@
         {
           "name": "Taxes and other revenues",
           "field_id": 225,
-          "comparative": true,
+          "comparative": false,
           "content": "13.45% (of GDP) (2021 est.)<br><br><b>note:</b> central government tax revenue as a % of GDP",
           "value": "13.45",
           "estimated": true,
@@ -2881,15 +2881,29 @@
           "name": "Electricity access",
           "field_id": 251,
           "comparative": false,
-          "content": "<strong>electrification - total population: </strong>100% (2021)",
+          "content": "<strong>electrification - total population: </strong>100% (2022 est.)<br><br><strong>electrification - urban areas: </strong>99.8%<br><br><strong>electrification - rural areas: </strong>100%",
           "subfields": [
             {
               "name": "electrification - total population",
-              "content": "100% (2021)",
+              "content": "100% (2022 est.)",
               "title": "electrification - total population",
               "value": "100",
-              "estimated": false,
-              "info_date": "2021",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "%"
+            },
+            {
+              "name": "electrification - urban areas",
+              "content": "99.8%",
+              "title": "electrification - urban areas",
+              "value": "99.8",
+              "suffix": "%"
+            },
+            {
+              "name": "electrification - rural areas",
+              "content": "100%",
+              "title": "electrification - rural areas",
+              "value": "100",
               "suffix": "%"
             }
           ]
@@ -2898,51 +2912,51 @@
           "name": "Electricity",
           "field_id": 435,
           "comparative": false,
-          "content": "<strong>installed generating capacity: </strong>93.43 million kW (2020 est.)<br><br><strong>consumption: </strong>267.34 billion kWh (2020 est.)<br><br><strong>exports: </strong>5.954 billion kWh (2020 est.)<br><br><strong>imports: </strong>9.965 billion kWh (2020 est.)<br><br><strong>transmission/distribution losses: </strong>42.121 billion kWh (2020 est.)",
+          "content": "<strong>installed generating capacity: </strong>104.318 million kW (2022 est.)<br><br><strong>consumption: </strong>296.969 billion kWh (2022 est.)<br><br><strong>exports: </strong>1.447 billion kWh (2022 est.)<br><br><strong>imports: </strong>4.551 billion kWh (2022 est.)<br><br><strong>transmission/distribution losses: </strong>39.275 billion kWh (2022 est.)",
           "subfields": [
             {
               "name": "installed generating capacity",
-              "content": "93.43 million kW (2020 est.)",
+              "content": "104.318 million kW (2022 est.)",
               "title": "installed generating capacity",
-              "value": "93430000",
+              "value": "104318000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kW"
             },
             {
               "name": "consumption",
-              "content": "267.34 billion kWh (2020 est.)",
+              "content": "296.969 billion kWh (2022 est.)",
               "title": "consumption",
-              "value": "267340000000",
+              "value": "296969000000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "exports",
-              "content": "5.954 billion kWh (2020 est.)",
+              "content": "1.447 billion kWh (2022 est.)",
               "title": "exports",
-              "value": "5954000000",
+              "value": "1447000000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "imports",
-              "content": "9.965 billion kWh (2020 est.)",
+              "content": "4.551 billion kWh (2022 est.)",
               "title": "imports",
-              "value": "9965000000",
+              "value": "4551000000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "transmission/distribution losses",
-              "content": "42.121 billion kWh (2020 est.)",
+              "content": "39.275 billion kWh (2022 est.)",
               "title": "transmission/distribution losses",
-              "value": "42121000000",
+              "value": "39275000000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kWh"
             }
           ]
@@ -2951,78 +2965,69 @@
           "name": "Electricity generation sources",
           "field_id": 436,
           "comparative": false,
-          "content": "<strong>fossil fuels: </strong>75.7% of total installed capacity (2020 est.)<br><br><strong>nuclear: </strong>3.6% of total installed capacity (2020 est.)<br><br><strong>solar: </strong>4.4% of total installed capacity (2020 est.)<br><br><strong>wind: </strong>6.5% of total installed capacity (2020 est.)<br><br><strong>hydroelectricity: </strong>7.6% of total installed capacity (2020 est.)<br><br><strong>tide and wave: </strong>0% of total installed capacity (2020 est.)<br><br><strong>geothermal: </strong>1.5% of total installed capacity (2020 est.)<br><br><strong>biomass and waste: </strong>0.8% of total installed capacity (2020 est.)",
+          "content": "<strong>fossil fuels: </strong>75% of total installed capacity (2022 est.)<br><br><strong>nuclear: </strong>3.2% of total installed capacity (2022 est.)<br><br><strong>solar: </strong>3.5% of total installed capacity (2022 est.)<br><br><strong>wind: </strong>6.1% of total installed capacity (2022 est.)<br><br><strong>hydroelectricity: </strong>10.2% of total installed capacity (2022 est.)<br><br><strong>geothermal: </strong>1.5% of total installed capacity (2022 est.)<br><br><strong>biomass and waste: </strong>0.6% of total installed capacity (2022 est.)",
           "subfields": [
             {
               "name": "fossil fuels",
-              "content": "75.7% of total installed capacity (2020 est.)",
+              "content": "75% of total installed capacity (2022 est.)",
               "title": "fossil fuels",
-              "value": "75.7",
+              "value": "75",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "nuclear",
-              "content": "3.6% of total installed capacity (2020 est.)",
+              "content": "3.2% of total installed capacity (2022 est.)",
               "title": "nuclear",
-              "value": "3.6",
+              "value": "3.2",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "solar",
-              "content": "4.4% of total installed capacity (2020 est.)",
+              "content": "3.5% of total installed capacity (2022 est.)",
               "title": "solar",
-              "value": "4.4",
+              "value": "3.5",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "wind",
-              "content": "6.5% of total installed capacity (2020 est.)",
+              "content": "6.1% of total installed capacity (2022 est.)",
               "title": "wind",
-              "value": "6.5",
+              "value": "6.1",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "hydroelectricity",
-              "content": "7.6% of total installed capacity (2020 est.)",
+              "content": "10.2% of total installed capacity (2022 est.)",
               "title": "hydroelectricity",
-              "value": "7.6",
+              "value": "10.2",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "tide and wave",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "tide and wave",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "geothermal",
-              "content": "1.5% of total installed capacity (2020 est.)",
+              "content": "1.5% of total installed capacity (2022 est.)",
               "title": "geothermal",
               "value": "1.5",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "biomass and waste",
-              "content": "0.8% of total installed capacity (2020 est.)",
+              "content": "0.6% of total installed capacity (2022 est.)",
               "title": "biomass and waste",
-              "value": "0.8",
+              "value": "0.6",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             }
           ]
@@ -3031,7 +3036,7 @@
           "name": "Nuclear energy",
           "field_id": 452,
           "comparative": false,
-          "content": "<strong>Number of operational nuclear reactors: </strong>2 (2023)<br><br><strong>Number of nuclear reactors under construction: </strong>0<br><br><strong>Net capacity of operational nuclear reactors: </strong>1.55GW (2023)<br><br><strong>Percent of total electricity production: </strong>5.3% (2021)<br><br><strong>Percent of total energy produced: </strong>1.9% (2021)<br><br><strong>Number of nuclear reactors permanently shut down: </strong>0",
+          "content": "<strong>Number of operational nuclear reactors: </strong>2 (2023)<br><br><strong>Net capacity of operational nuclear reactors: </strong>1.55GW (2023 est.)<br><br><strong>Percent of total electricity production: </strong>4.9% (2023 est.)",
           "subfields": [
             {
               "name": "Number of operational nuclear reactors",
@@ -3042,43 +3047,22 @@
               "info_date": "2023"
             },
             {
-              "name": "Number of nuclear reactors under construction",
-              "content": "0",
-              "title": "Number of nuclear reactors under construction",
-              "value": "0"
-            },
-            {
               "name": "Net capacity of operational nuclear reactors",
-              "content": "1.55GW (2023)",
+              "content": "1.55GW (2023 est.)",
               "title": "Net capacity of operational nuclear reactors",
               "value": "1.55",
-              "estimated": false,
+              "estimated": true,
               "info_date": "2023",
               "suffix": "GW"
             },
             {
               "name": "Percent of total electricity production",
-              "content": "5.3% (2021)",
+              "content": "4.9% (2023 est.)",
               "title": "Percent of total electricity production",
-              "value": "5.3",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "4.9",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
-            },
-            {
-              "name": "Percent of total energy produced",
-              "content": "1.9% (2021)",
-              "title": "Percent of total energy produced",
-              "value": "1.9",
-              "estimated": false,
-              "info_date": "2021",
-              "suffix": "%"
-            },
-            {
-              "name": "Number of nuclear reactors permanently shut down",
-              "content": "0",
-              "title": "Number of nuclear reactors permanently shut down",
-              "value": "0"
             }
           ]
         },
@@ -3086,51 +3070,51 @@
           "name": "Coal",
           "field_id": 437,
           "comparative": false,
-          "content": "<strong>production: </strong>9.886 million metric tons (2020 est.)<br><br><strong>consumption: </strong>10.241 million metric tons (2020 est.)<br><br><strong>exports: </strong>3,000 metric tons (2020 est.)<br><br><strong>imports: </strong>5.182 million metric tons (2020 est.)<br><br><strong>proven reserves: </strong>1.211 billion metric tons (2019 est.)",
+          "content": "<strong>production: </strong>7.453 million metric tons (2022 est.)<br><br><strong>consumption: </strong>18.423 million metric tons (2022 est.)<br><br><strong>exports: </strong>2,000 metric tons (2022 est.)<br><br><strong>imports: </strong>9.917 million metric tons (2022 est.)<br><br><strong>proven reserves: </strong>1.211 billion metric tons (2022 est.)",
           "subfields": [
             {
               "name": "production",
-              "content": "9.886 million metric tons (2020 est.)",
+              "content": "7.453 million metric tons (2022 est.)",
               "title": "production",
-              "value": "9886000",
+              "value": "7453000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "consumption",
-              "content": "10.241 million metric tons (2020 est.)",
+              "content": "18.423 million metric tons (2022 est.)",
               "title": "consumption",
-              "value": "10241000",
+              "value": "18423000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "exports",
-              "content": "3,000 metric tons (2020 est.)",
+              "content": "2,000 metric tons (2022 est.)",
               "title": "exports",
-              "value": "3000",
+              "value": "2000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "imports",
-              "content": "5.182 million metric tons (2020 est.)",
+              "content": "9.917 million metric tons (2022 est.)",
               "title": "imports",
-              "value": "5182000",
+              "value": "9917000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "proven reserves",
-              "content": "1.211 billion metric tons (2019 est.)",
+              "content": "1.211 billion metric tons (2022 est.)",
               "title": "proven reserves",
               "value": "1211000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tons"
             }
           ]
@@ -3139,49 +3123,31 @@
           "name": "Petroleum",
           "field_id": 438,
           "comparative": false,
-          "content": "<strong>total petroleum production: </strong>1,905,500 bbl/day (2021 est.)<br><br><strong>refined petroleum consumption: </strong>1,928,800 bbl/day (2019 est.)<br><br><strong>crude oil and lease condensate exports: </strong>1,283,300 bbl/day (2018 est.)<br><br><strong>crude oil and lease condensate imports: </strong>3,900 bbl/day (2018 est.)<br><br><strong>crude oil estimated reserves: </strong>5,786,100,000 barrels (2021 est.)",
+          "content": "<strong>total petroleum production: </strong>2.101 million bbl/day (2023 est.)<br><br><strong>refined petroleum consumption: </strong>1.737 million bbl/day (2023 est.)<br><br><strong>crude oil estimated reserves: </strong>5.786 billion barrels (2021 est.)",
           "subfields": [
             {
               "name": "total petroleum production",
-              "content": "1,905,500 bbl/day (2021 est.)",
+              "content": "2.101 million bbl/day (2023 est.)",
               "title": "total petroleum production",
-              "value": "1905500",
+              "value": "2101000",
               "estimated": true,
-              "info_date": "2021",
+              "info_date": "2023",
               "suffix": "bbl/day"
             },
             {
               "name": "refined petroleum consumption",
-              "content": "1,928,800 bbl/day (2019 est.)",
+              "content": "1.737 million bbl/day (2023 est.)",
               "title": "refined petroleum consumption",
-              "value": "1928800",
+              "value": "1737000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate exports",
-              "content": "1,283,300 bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate exports",
-              "value": "1283300",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate imports",
-              "content": "3,900 bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate imports",
-              "value": "3900",
-              "estimated": true,
-              "info_date": "2018",
+              "info_date": "2023",
               "suffix": "bbl/day"
             },
             {
               "name": "crude oil estimated reserves",
-              "content": "5,786,100,000 barrels (2021 est.)",
+              "content": "5.786 billion barrels (2021 est.)",
               "title": "crude oil estimated reserves",
-              "value": "5786100000",
+              "value": "5786000000",
               "estimated": true,
               "info_date": "2021",
               "suffix": "barrels"
@@ -3189,82 +3155,52 @@
           ]
         },
         {
-          "name": "Refined petroleum products - production",
-          "field_id": 265,
-          "comparative": true,
-          "content": "844,600 bbl/day (2017 est.)",
-          "value": "844600",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - exports",
-          "field_id": 267,
-          "comparative": true,
-          "content": "155,800 bbl/day (2017 est.)",
-          "value": "155800",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - imports",
-          "field_id": 268,
-          "comparative": true,
-          "content": "867,500 bbl/day (2017 est.)",
-          "value": "867500",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "bbl/day"
-        },
-        {
           "name": "Natural gas",
           "field_id": 440,
           "comparative": false,
-          "content": "<strong>production: </strong>27,037,730,000 cubic meters (2019 est.)<br><br><strong>consumption: </strong>86,101,223,000 cubic meters (2019 est.)<br><br><strong>exports: </strong>53.037 million cubic meters (2019 est.)<br><br><strong>imports: </strong>59,119,362,000 cubic meters (2019 est.)<br><br><strong>proven reserves: </strong>180.321 billion cubic meters (2021 est.)",
+          "content": "<strong>production: </strong>31.422 billion cubic meters (2022 est.)<br><br><strong>consumption: </strong>90.566 billion cubic meters (2022 est.)<br><br><strong>exports: </strong>30.129 million cubic meters (2022 est.)<br><br><strong>imports: </strong>59.436 billion cubic meters (2022 est.)<br><br><strong>proven reserves: </strong>180.322 billion cubic meters (2021 est.)",
           "subfields": [
             {
               "name": "production",
-              "content": "27,037,730,000 cubic meters (2019 est.)",
+              "content": "31.422 billion cubic meters (2022 est.)",
               "title": "production",
-              "value": "27037730000",
+              "value": "31422000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "consumption",
-              "content": "86,101,223,000 cubic meters (2019 est.)",
+              "content": "90.566 billion cubic meters (2022 est.)",
               "title": "consumption",
-              "value": "86101223000",
+              "value": "90566000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "exports",
-              "content": "53.037 million cubic meters (2019 est.)",
+              "content": "30.129 million cubic meters (2022 est.)",
               "title": "exports",
-              "value": "53037000",
+              "value": "30129000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "imports",
-              "content": "59,119,362,000 cubic meters (2019 est.)",
+              "content": "59.436 billion cubic meters (2022 est.)",
               "title": "imports",
-              "value": "59119362000",
+              "value": "59436000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "proven reserves",
-              "content": "180.321 billion cubic meters (2021 est.)",
+              "content": "180.322 billion cubic meters (2021 est.)",
               "title": "proven reserves",
-              "value": "180321000000",
+              "value": "180322000000",
               "estimated": true,
               "info_date": "2021",
               "suffix": "cubic meters"
@@ -3275,41 +3211,41 @@
           "name": "Carbon dioxide emissions",
           "field_id": 274,
           "comparative": false,
-          "content": "463.739 million metric tonnes of CO2 (2019 est.)<br><br><strong>from coal and metallurgical coke: </strong>43.24 million metric tonnes of CO2 (2019 est.)<br><br><strong>from petroleum and other liquids: </strong>260.311 million metric tonnes of CO2 (2019 est.)<br><br><strong>from consumed natural gas: </strong>160.188 million metric tonnes of CO2 (2019 est.)",
+          "content": "453.6 million metric tonnes of CO2 (2022 est.)<br><br><strong>from coal and metallurgical coke: </strong>38.781 million metric tonnes of CO2 (2022 est.)<br><br><strong>from petroleum and other liquids: </strong>246.324 million metric tonnes of CO2 (2022 est.)<br><br><strong>from consumed natural gas: </strong>168.494 million metric tonnes of CO2 (2022 est.)",
           "subfields": [
             {
               "name": "total emissions",
-              "content": "463.739 million metric tonnes of CO2 (2019 est.)",
-              "value": "463739000",
+              "content": "453.6 million metric tonnes of CO2 (2022 est.)",
+              "value": "453600000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from coal and metallurgical coke",
-              "content": "43.24 million metric tonnes of CO2 (2019 est.)",
+              "content": "38.781 million metric tonnes of CO2 (2022 est.)",
               "title": "from coal and metallurgical coke",
-              "value": "43240000",
+              "value": "38781000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from petroleum and other liquids",
-              "content": "260.311 million metric tonnes of CO2 (2019 est.)",
+              "content": "246.324 million metric tonnes of CO2 (2022 est.)",
               "title": "from petroleum and other liquids",
-              "value": "260311000",
+              "value": "246324000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from consumed natural gas",
-              "content": "160.188 million metric tonnes of CO2 (2019 est.)",
+              "content": "168.494 million metric tonnes of CO2 (2022 est.)",
               "title": "from consumed natural gas",
-              "value": "160188000",
+              "value": "168494000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             }
           ]
@@ -3318,12 +3254,12 @@
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
-          "content": "61.597 million Btu/person (2019 est.)",
+          "content": "59.319 million Btu/person (2022 est.)",
           "subfields": [
             {
-              "name": "Total energy consumption per capita 2019",
-              "content": "61.597 million Btu/person (2019 est.)",
-              "value": "61597000",
+              "name": "Total energy consumption per capita 2022",
+              "content": "59.319 million Btu/person (2022 est.)",
+              "value": "59319000",
               "estimated": true,
               "suffix": "Btu/person"
             }
@@ -3790,8 +3726,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the Mexican military is responsible for defending the independence, integrity, and sovereignty of Mexico, as well as providing for internal security, disaster response, humanitarian assistance, and socio-economic development; in recent years, internal security duties have been a key focus, particularly in countering narcotics trafficking and organized crime groups, as well as border control and immigration enforcement; the constitution was amended in 2019 to grant the president the authority to use the armed forces to protect internal and national security, and courts have upheld the legality of the armed forces&rsquo; role in law enforcement activities in support of civilian authorities through 2028; the military also provides security for strategic facilities, such as oil production infrastructure, and administers most of the country's land and sea ports and customs services, plus the approximately 2,700 branches of a state-owned development bank; in addition, President LOPEZ OBRADOR has placed the military in charge of a growing number of infrastructure projects, such as building and operating a new airport for Mexico City and sections of a train line in the country&rsquo;s southeast<br /><br />the Mexican Army is a lightly armed force comprised largely of infantry supplemented by mechanized or motorized forces; it is primarily focused on internal security operations vice conventional warfare, and its posture and composition reflects an internal focus over external threats; much of the force is deployed throughout the country in 12 military regional commands and 48 subordinate military zones, giving the Army a country-wide presence and the ability to respond quickly to a crisis; force strengths in each zone vary according to the security situation, from a single infantry battalion to over 10 infantry battalions and small motorized cavalry regiments, plus other units on rotation; the Army&rsquo;s principal mobile combat forces are approximately 10 light or mechanized/motorized infantry brigades, three special forces brigades, and a paratrooper brigade, which are separate from the units under the military zones; the National Guard has up to 12 military police brigades<br /><br />the Air Force&rsquo;s inventory reflects its chief roles of supporting the Army, conducting counter-narcotics operations, and providing assistance during natural disasters; its fixed-wing combat aircraft include a handful of US-made fighters acquired in the 1980s and some light attack planes<br /><br />the Mexican Navy is largely a coastal patrol force but has a growing blue water capability; it has a range of missions including maritime law enforcement, security of maritime facilities, resources, and the environment, humanitarian assistance, and search and rescue; it has fleet commands for both the Pacific and Caribbean Sea/Gulf of Mexico, plus naval aviation, and naval infantry forces; the Navy&rsquo;s warships include five frigates and more than 100 patrol vessels of varying sizes and capabilities; the Naval Infantry Corps (Cuerpo de Infanter&iacute;a de Marina) has both external and internal security responsibilities, including providing port security, protecting the coastal fringe, and patrolling major waterways; it also has had a significant role in combating narcotics trafficking and organized crime; the Corps has more than 30 combat battalions, which include amphibious, commando, infantry, paratrooper, security, and special operations forces (2023)",
-          "value": "the Mexican military is responsible for defending the independence, integrity, and sovereignty of Mexico, as well as providing for internal security, disaster response, humanitarian assistance, and socio-economic development; in recent years, internal security duties have been a key focus, particularly in countering narcotics trafficking and organized crime groups, as well as border control and immigration enforcement; the constitution was amended in 2019 to grant the president the authority to use the armed forces to protect internal and national security, and courts have upheld the legality of the armed forces&rsquo; role in law enforcement activities in support of civilian authorities through 2028; the military also provides security for strategic facilities, such as oil production infrastructure, and administers most of the country's land and sea ports and customs services, plus the approximately 2,700 branches of a state-owned development bank; in addition, President LOPEZ OBRADOR has placed the military in charge of a growing number of infrastructure projects, such as building and operating a new airport for Mexico City and sections of a train line in the country&rsquo;s southeast<br /><br />the Mexican Army is a lightly armed force comprised largely of infantry supplemented by mechanized or motorized forces; it is primarily focused on internal security operations vice conventional warfare, and its posture and composition reflects an internal focus over external threats; much of the force is deployed throughout the country in 12 military regional commands and 48 subordinate military zones, giving the Army a country-wide presence and the ability to respond quickly to a crisis; force strengths in each zone vary according to the security situation, from a single infantry battalion to over 10 infantry battalions and small motorized cavalry regiments, plus other units on rotation; the Army&rsquo;s principal mobile combat forces are approximately 10 light or mechanized/motorized infantry brigades, three special forces brigades, and a paratrooper brigade, which are separate from the units under the military zones; the National Guard has up to 12 military police brigades<br /><br />the Air Force&rsquo;s inventory reflects its chief roles of supporting the Army, conducting counter-narcotics operations, and providing assistance during natural disasters; its fixed-wing combat aircraft include a handful of US-made fighters acquired in the 1980s and some light attack planes<br /><br />the Mexican Navy is largely a coastal patrol force but has a growing blue water capability; it has a range of missions including maritime law enforcement, security of maritime facilities, resources, and the environment, humanitarian assistance, and search and rescue; it has fleet commands for both the Pacific and Caribbean Sea/Gulf of Mexico, plus naval aviation, and naval infantry forces; the Navy&rsquo;s warships include five frigates and more than 100 patrol vessels of varying sizes and capabilities; the Naval Infantry Corps (Cuerpo de Infanter&iacute;a de Marina) has both external and internal security responsibilities, including providing port security, protecting the coastal fringe, and patrolling major waterways; it also has had a significant role in combating narcotics trafficking and organized crime; the Corps has more than 30 combat battalions, which include amphibious, commando, infantry, paratrooper, security, and special operations forces",
+          "content": "the Mexican military is responsible for defending the independence, integrity, and sovereignty of Mexico, as well as providing for internal security, disaster response, humanitarian assistance, and socio-economic development; in recent years, internal security duties have been a key focus, particularly in countering narcotics trafficking and organized crime groups, as well as border control and immigration enforcement; the constitution was amended in 2019 to grant the president the authority to use the armed forces to protect internal and national security, and courts have upheld the legality of the armed forces&rsquo; role in law enforcement activities in support of civilian authorities through 2028; the military also provides security for strategic facilities, such as oil production infrastructure, and administers most of the country's land and sea ports and customs services, plus the approximately 2,700 branches of a state-owned development bank; in addition, President LOPEZ OBRADOR has placed the military in charge of a growing number of infrastructure projects, such as building and operating a new airport for Mexico City and sections of a train line in the country&rsquo;s southeast (2023)",
+          "value": "the Mexican military is responsible for defending the independence, integrity, and sovereignty of Mexico, as well as providing for internal security, disaster response, humanitarian assistance, and socio-economic development; in recent years, internal security duties have been a key focus, particularly in countering narcotics trafficking and organized crime groups, as well as border control and immigration enforcement; the constitution was amended in 2019 to grant the president the authority to use the armed forces to protect internal and national security, and courts have upheld the legality of the armed forces&rsquo; role in law enforcement activities in support of civilian authorities through 2028; the military also provides security for strategic facilities, such as oil production infrastructure, and administers most of the country's land and sea ports and customs services, plus the approximately 2,700 branches of a state-owned development bank; in addition, President LOPEZ OBRADOR has placed the military in charge of a growing number of infrastructure projects, such as building and operating a new airport for Mexico City and sections of a train line in the country&rsquo;s southeast",
           "info_date": "2023"
         }
       ]

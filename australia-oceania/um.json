@@ -1,9 +1,9 @@
 {
   "name": "United States Pacific Island Wildlife Refuges",
   "code": "UM",
-  "published": "2024-06-01 00:00:13 -0400",
+  "published": "2024-07-11 05:55:01 -0400",
   "region": "Australia and Oceania",
-  "updated": "2024-05-31 14:42:38 -0400",
+  "updated": "2024-07-08 16:18:48 -0400",
   "media": [
     {
       "type": "flag",
@@ -1146,7 +1146,7 @@
         {
           "name": "Population",
           "field_id": 335,
-          "comparative": true,
+          "comparative": false,
           "content": "<strong>total: </strong>no indigenous inhabitants<br><br><strong>note:</strong> public entry is only by special-use permit from US Fish and Wildlife Service and generally restricted to scientists and educators; visited annually by US Fish and Wildlife Service <br><br><strong>Jarvis Island:</strong> Millersville settlement on western side of island occasionally used as a weather station from 1935 until World War II, when it was abandoned; reoccupied in 1957 during the International Geophysical Year by scientists who left in 1958; currently unoccupied <br><br><strong>Johnston Atoll:</strong> in previous years, an average of 1,100 US military and civilian contractor personnel were present; as of May 2005, all US Government personnel had left the island <br><br><strong>Midway Islands:</strong> approximately 40 people make up the staff of US Fish and Wildlife Service and their services contractor living at the atoll <br><br><strong>Palmyra Atoll:</strong> 4 to 20 Nature Conservancy, US Fish and Wildlife staff, and researchers",
           "subfields": [
             {
@@ -1267,7 +1267,65 @@
       "id": "energy",
       "title": "Energy",
       "fields": [
-
+        {
+          "name": "Coal",
+          "field_id": 437,
+          "comparative": false,
+          "content": "<strong>imports: </strong>108,000 metric tons (2022 est.)",
+          "subfields": [
+            {
+              "name": "imports",
+              "content": "108,000 metric tons (2022 est.)",
+              "title": "imports",
+              "value": "108000",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "metric tons"
+            }
+          ]
+        },
+        {
+          "name": "Petroleum",
+          "field_id": 438,
+          "comparative": false,
+          "content": "<strong>refined petroleum consumption: </strong>2,000 bbl/day (2022 est.)",
+          "subfields": [
+            {
+              "name": "refined petroleum consumption",
+              "content": "2,000 bbl/day (2022 est.)",
+              "title": "refined petroleum consumption",
+              "value": "2000",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "bbl/day"
+            }
+          ]
+        },
+        {
+          "name": "Carbon dioxide emissions",
+          "field_id": 274,
+          "comparative": false,
+          "content": "297,000 metric tonnes of CO2 (2022 est.)<br><br><strong>from petroleum and other liquids: </strong>297,000 metric tonnes of CO2 (2022 est.)",
+          "subfields": [
+            {
+              "name": "total emissions",
+              "content": "297,000 metric tonnes of CO2 (2022 est.)",
+              "value": "297000",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "from petroleum and other liquids",
+              "content": "297,000 metric tonnes of CO2 (2022 est.)",
+              "title": "from petroleum and other liquids",
+              "value": "297000",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "metric tonnes of CO2"
+            }
+          ]
+        }
       ]
     },
     {

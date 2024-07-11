@@ -1,9 +1,9 @@
 {
   "name": "Russia",
   "code": "RS",
-  "published": "2024-07-04 00:11:17 -0400",
+  "published": "2024-07-11 05:52:33 -0400",
   "region": "Central Asia",
-  "updated": "2024-07-03 09:12:14 -0400",
+  "updated": "2024-07-08 16:24:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -1066,7 +1066,7 @@
         {
           "name": "Total fertility rate",
           "field_id": 356,
-          "comparative": true,
+          "comparative": false,
           "content": "1.52 children born/woman (2024 est.)",
           "value": "1.52",
           "estimated": true,
@@ -1312,7 +1312,7 @@
         {
           "name": "Tobacco use",
           "field_id": 434,
-          "comparative": true,
+          "comparative": false,
           "content": "<strong>total: </strong>26.8% (2020 est.)<br><br><strong>male: </strong>40.8% (2020 est.)<br><br><strong>female: </strong>12.8% (2020 est.)",
           "subfields": [
             {
@@ -2569,7 +2569,7 @@
         {
           "name": "Unemployment rate",
           "field_id": 220,
-          "comparative": true,
+          "comparative": false,
           "content": "3.87% (2022 est.)<br><br>4.72% (2021 est.)<br><br>5.59% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
@@ -2803,7 +2803,7 @@
         {
           "name": "Taxes and other revenues",
           "field_id": 225,
-          "comparative": true,
+          "comparative": false,
           "content": "11.65% (of GDP) (2021 est.)<br><br><b>note:</b> central government tax revenue as a % of GDP",
           "value": "11.65",
           "estimated": true,
@@ -3042,15 +3042,29 @@
           "name": "Electricity access",
           "field_id": 251,
           "comparative": false,
-          "content": "<strong>electrification - total population: </strong>100% (2021)",
+          "content": "<strong>electrification - total population: </strong>100% (2022 est.)<br><br><strong>electrification - urban areas: </strong>99.1%<br><br><strong>electrification - rural areas: </strong>100%",
           "subfields": [
             {
               "name": "electrification - total population",
-              "content": "100% (2021)",
+              "content": "100% (2022 est.)",
               "title": "electrification - total population",
               "value": "100",
-              "estimated": false,
-              "info_date": "2021",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "%"
+            },
+            {
+              "name": "electrification - urban areas",
+              "content": "99.1%",
+              "title": "electrification - urban areas",
+              "value": "99.1",
+              "suffix": "%"
+            },
+            {
+              "name": "electrification - rural areas",
+              "content": "100%",
+              "title": "electrification - rural areas",
+              "value": "100",
               "suffix": "%"
             }
           ]
@@ -3059,51 +3073,51 @@
           "name": "Electricity",
           "field_id": 435,
           "comparative": false,
-          "content": "<strong>installed generating capacity: </strong>276.463 million kW (2020 est.)<br><br><strong>consumption: </strong>942.895 billion kWh (2019 est.)<br><br><strong>exports: </strong>12.116 billion kWh (2020 est.)<br><br><strong>imports: </strong>1.377 billion kWh (2020 est.)<br><br><strong>transmission/distribution losses: </strong>99.077 billion kWh (2019 est.)",
+          "content": "<strong>installed generating capacity: </strong>301.123 million kW (2022 est.)<br><br><strong>consumption: </strong>1.026 trillion kWh (2022 est.)<br><br><strong>exports: </strong>18.582 billion kWh (2022 est.)<br><br><strong>imports: </strong>1.532 billion kWh (2022 est.)<br><br><strong>transmission/distribution losses: </strong>95.804 billion kWh (2022 est.)",
           "subfields": [
             {
               "name": "installed generating capacity",
-              "content": "276.463 million kW (2020 est.)",
+              "content": "301.123 million kW (2022 est.)",
               "title": "installed generating capacity",
-              "value": "276463000",
+              "value": "301123000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kW"
             },
             {
               "name": "consumption",
-              "content": "942.895 billion kWh (2019 est.)",
+              "content": "1.026 trillion kWh (2022 est.)",
               "title": "consumption",
-              "value": "942895000000",
+              "value": "1026000000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "exports",
-              "content": "12.116 billion kWh (2020 est.)",
+              "content": "18.582 billion kWh (2022 est.)",
               "title": "exports",
-              "value": "12116000000",
+              "value": "18582000000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "imports",
-              "content": "1.377 billion kWh (2020 est.)",
+              "content": "1.532 billion kWh (2022 est.)",
               "title": "imports",
-              "value": "1377000000",
+              "value": "1532000000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "transmission/distribution losses",
-              "content": "99.077 billion kWh (2019 est.)",
+              "content": "95.804 billion kWh (2022 est.)",
               "title": "transmission/distribution losses",
-              "value": "99077000000",
+              "value": "95804000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "kWh"
             }
           ]
@@ -3112,78 +3126,60 @@
           "name": "Electricity generation sources",
           "field_id": 436,
           "comparative": false,
-          "content": "<strong>fossil fuels: </strong>59.4% of total installed capacity (2020 est.)<br><br><strong>nuclear: </strong>21% of total installed capacity (2020 est.)<br><br><strong>solar: </strong>0.2% of total installed capacity (2020 est.)<br><br><strong>wind: </strong>0% of total installed capacity (2020 est.)<br><br><strong>hydroelectricity: </strong>19.1% of total installed capacity (2020 est.)<br><br><strong>tide and wave: </strong>0% of total installed capacity (2020 est.)<br><br><strong>geothermal: </strong>0% of total installed capacity (2020 est.)<br><br><strong>biomass and waste: </strong>0.3% of total installed capacity (2020 est.)",
+          "content": "<strong>fossil fuels: </strong>60.3% of total installed capacity (2022 est.)<br><br><strong>nuclear: </strong>19.6% of total installed capacity (2022 est.)<br><br><strong>solar: </strong>0.2% of total installed capacity (2022 est.)<br><br><strong>wind: </strong>0.3% of total installed capacity (2022 est.)<br><br><strong>hydroelectricity: </strong>19.2% of total installed capacity (2022 est.)<br><br><strong>biomass and waste: </strong>0.3% of total installed capacity (2022 est.)",
           "subfields": [
             {
               "name": "fossil fuels",
-              "content": "59.4% of total installed capacity (2020 est.)",
+              "content": "60.3% of total installed capacity (2022 est.)",
               "title": "fossil fuels",
-              "value": "59.4",
+              "value": "60.3",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "nuclear",
-              "content": "21% of total installed capacity (2020 est.)",
+              "content": "19.6% of total installed capacity (2022 est.)",
               "title": "nuclear",
-              "value": "21",
+              "value": "19.6",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "solar",
-              "content": "0.2% of total installed capacity (2020 est.)",
+              "content": "0.2% of total installed capacity (2022 est.)",
               "title": "solar",
               "value": "0.2",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "wind",
-              "content": "0% of total installed capacity (2020 est.)",
+              "content": "0.3% of total installed capacity (2022 est.)",
               "title": "wind",
-              "value": "0",
+              "value": "0.3",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "hydroelectricity",
-              "content": "19.1% of total installed capacity (2020 est.)",
+              "content": "19.2% of total installed capacity (2022 est.)",
               "title": "hydroelectricity",
-              "value": "19.1",
+              "value": "19.2",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "tide and wave",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "tide and wave",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "geothermal",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "geothermal",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "biomass and waste",
-              "content": "0.3% of total installed capacity (2020 est.)",
+              "content": "0.3% of total installed capacity (2022 est.)",
               "title": "biomass and waste",
               "value": "0.3",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             }
           ]
@@ -3192,54 +3188,49 @@
           "name": "Nuclear energy",
           "field_id": 452,
           "comparative": false,
-          "content": "<strong>Number of operational nuclear reactors: </strong>37 (2023)<br><br><strong>Number of nuclear reactors under construction: </strong>3<br><br><strong>Net capacity of operational nuclear reactors: </strong>27.73GW (2021)<br><br><strong>Percent of total electricity production: </strong>20.7% (2021)<br><br><strong>Percent of total energy produced: </strong>3.6% (2021)<br><br><strong>Number of nuclear reactors permanently shut down: </strong>4",
+          "content": "<strong>Number of operational nuclear reactors: </strong>36 (2023)<br><br><strong>Number of nuclear reactors under construction: </strong>4 (2023)<br><br><strong>Net capacity of operational nuclear reactors: </strong>26.8GW (2023 est.)<br><br><strong>Percent of total electricity production: </strong>18.4% (2023 est.)<br><br><strong>Number of nuclear reactors permanently shut down: </strong>11 (2023)",
           "subfields": [
             {
               "name": "Number of operational nuclear reactors",
-              "content": "37 (2023)",
+              "content": "36 (2023)",
               "title": "Number of operational nuclear reactors",
-              "value": "37",
+              "value": "36",
               "estimated": false,
               "info_date": "2023"
             },
             {
               "name": "Number of nuclear reactors under construction",
-              "content": "3",
+              "content": "4 (2023)",
               "title": "Number of nuclear reactors under construction",
-              "value": "3"
+              "value": "4",
+              "estimated": false,
+              "info_date": "2023"
             },
             {
               "name": "Net capacity of operational nuclear reactors",
-              "content": "27.73GW (2021)",
+              "content": "26.8GW (2023 est.)",
               "title": "Net capacity of operational nuclear reactors",
-              "value": "27.73",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "26.8",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "GW"
             },
             {
               "name": "Percent of total electricity production",
-              "content": "20.7% (2021)",
+              "content": "18.4% (2023 est.)",
               "title": "Percent of total electricity production",
-              "value": "20.7",
-              "estimated": false,
-              "info_date": "2021",
-              "suffix": "%"
-            },
-            {
-              "name": "Percent of total energy produced",
-              "content": "3.6% (2021)",
-              "title": "Percent of total energy produced",
-              "value": "3.6",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "18.4",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "Number of nuclear reactors permanently shut down",
-              "content": "4",
+              "content": "11 (2023)",
               "title": "Number of nuclear reactors permanently shut down",
-              "value": "4"
+              "value": "11",
+              "estimated": false,
+              "info_date": "2023"
             }
           ]
         },
@@ -3247,51 +3238,51 @@
           "name": "Coal",
           "field_id": 437,
           "comparative": false,
-          "content": "<strong>production: </strong>447.332 million metric tons (2020 est.)<br><br><strong>consumption: </strong>266.038 million metric tons (2020 est.)<br><br><strong>exports: </strong>224.324 million metric tons (2020 est.)<br><br><strong>imports: </strong>24.027 million metric tons (2020 est.)<br><br><strong>proven reserves: </strong>162.166 billion metric tons (2019 est.)",
+          "content": "<strong>production: </strong>508.19 million metric tons (2022 est.)<br><br><strong>consumption: </strong>310.958 million metric tons (2022 est.)<br><br><strong>exports: </strong>220.306 million metric tons (2022 est.)<br><br><strong>imports: </strong>23.074 million metric tons (2022 est.)<br><br><strong>proven reserves: </strong>162.166 billion metric tons (2022 est.)",
           "subfields": [
             {
               "name": "production",
-              "content": "447.332 million metric tons (2020 est.)",
+              "content": "508.19 million metric tons (2022 est.)",
               "title": "production",
-              "value": "447332000",
+              "value": "508190000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "consumption",
-              "content": "266.038 million metric tons (2020 est.)",
+              "content": "310.958 million metric tons (2022 est.)",
               "title": "consumption",
-              "value": "266038000",
+              "value": "310958000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "exports",
-              "content": "224.324 million metric tons (2020 est.)",
+              "content": "220.306 million metric tons (2022 est.)",
               "title": "exports",
-              "value": "224324000",
+              "value": "220306000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "imports",
-              "content": "24.027 million metric tons (2020 est.)",
+              "content": "23.074 million metric tons (2022 est.)",
               "title": "imports",
-              "value": "24027000",
+              "value": "23074000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "proven reserves",
-              "content": "162.166 billion metric tons (2019 est.)",
+              "content": "162.166 billion metric tons (2022 est.)",
               "title": "proven reserves",
               "value": "162166000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tons"
             }
           ]
@@ -3300,42 +3291,24 @@
           "name": "Petroleum",
           "field_id": 438,
           "comparative": false,
-          "content": "<strong>total petroleum production: </strong>10,749,500 bbl/day (2021 est.)<br><br><strong>refined petroleum consumption: </strong>3.699 million bbl/day (2019 est.)<br><br><strong>crude oil and lease condensate exports: </strong>5.196 million bbl/day (2018 est.)<br><br><strong>crude oil and lease condensate imports: </strong>14,200 bbl/day (2018 est.)<br><br><strong>crude oil estimated reserves: </strong>80 billion barrels (2021 est.)",
+          "content": "<strong>total petroleum production: </strong>10.727 million bbl/day (2023 est.)<br><br><strong>refined petroleum consumption: </strong>3.684 million bbl/day (2022 est.)<br><br><strong>crude oil estimated reserves: </strong>80 billion barrels (2021 est.)",
           "subfields": [
             {
               "name": "total petroleum production",
-              "content": "10,749,500 bbl/day (2021 est.)",
+              "content": "10.727 million bbl/day (2023 est.)",
               "title": "total petroleum production",
-              "value": "10749500",
+              "value": "10727000",
               "estimated": true,
-              "info_date": "2021",
+              "info_date": "2023",
               "suffix": "bbl/day"
             },
             {
               "name": "refined petroleum consumption",
-              "content": "3.699 million bbl/day (2019 est.)",
+              "content": "3.684 million bbl/day (2022 est.)",
               "title": "refined petroleum consumption",
-              "value": "3699000",
+              "value": "3684000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate exports",
-              "content": "5.196 million bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate exports",
-              "value": "5196000",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate imports",
-              "content": "14,200 bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate imports",
-              "value": "14200",
-              "estimated": true,
-              "info_date": "2018",
+              "info_date": "2022",
               "suffix": "bbl/day"
             },
             {
@@ -3350,75 +3323,45 @@
           ]
         },
         {
-          "name": "Refined petroleum products - production",
-          "field_id": 265,
-          "comparative": true,
-          "content": "6.076 million bbl/day (2015 est.)",
-          "value": "6076000",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - exports",
-          "field_id": 267,
-          "comparative": true,
-          "content": "2.671 million bbl/day (2015 est.)",
-          "value": "2671000",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - imports",
-          "field_id": 268,
-          "comparative": true,
-          "content": "41,920 bbl/day (2015 est.)",
-          "value": "41920",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
           "name": "Natural gas",
           "field_id": 440,
           "comparative": false,
-          "content": "<strong>production: </strong>701.544 billion cubic meters (2021 est.)<br><br><strong>consumption: </strong>460.612 billion cubic meters (2020 est.)<br><br><strong>exports: </strong>250.855 billion cubic meters (2021 est.)<br><br><strong>imports: </strong>16.112 billion cubic meters (2019 est.)<br><br><strong>proven reserves: </strong>47.805 trillion cubic meters (2021 est.)",
+          "content": "<strong>production: </strong>617.83 billion cubic meters (2022 est.)<br><br><strong>consumption: </strong>472.239 billion cubic meters (2022 est.)<br><br><strong>exports: </strong>176.056 billion cubic meters (2022 est.)<br><br><strong>imports: </strong>8.129 billion cubic meters (2022 est.)<br><br><strong>proven reserves: </strong>47.805 trillion cubic meters (2021 est.)",
           "subfields": [
             {
               "name": "production",
-              "content": "701.544 billion cubic meters (2021 est.)",
+              "content": "617.83 billion cubic meters (2022 est.)",
               "title": "production",
-              "value": "701544000000",
+              "value": "617830000000",
               "estimated": true,
-              "info_date": "2021",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "consumption",
-              "content": "460.612 billion cubic meters (2020 est.)",
+              "content": "472.239 billion cubic meters (2022 est.)",
               "title": "consumption",
-              "value": "460612000000",
+              "value": "472239000000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "exports",
-              "content": "250.855 billion cubic meters (2021 est.)",
+              "content": "176.056 billion cubic meters (2022 est.)",
               "title": "exports",
-              "value": "250855000000",
+              "value": "176056000000",
               "estimated": true,
-              "info_date": "2021",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "imports",
-              "content": "16.112 billion cubic meters (2019 est.)",
+              "content": "8.129 billion cubic meters (2022 est.)",
               "title": "imports",
-              "value": "16112000000",
+              "value": "8129000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
@@ -3436,41 +3379,41 @@
           "name": "Carbon dioxide emissions",
           "field_id": 274,
           "comparative": false,
-          "content": "1,848,070,000 metric tonnes of CO2 (2019 est.)<br><br><strong>from coal and metallurgical coke: </strong>456.033 million metric tonnes of CO2 (2019 est.)<br><br><strong>from petroleum and other liquids: </strong>470.289 million metric tonnes of CO2 (2019 est.)<br><br><strong>from consumed natural gas: </strong>921.748 million metric tonnes of CO2 (2019 est.)",
+          "content": "1.84 billion metric tonnes of CO2 (2022 est.)<br><br><strong>from coal and metallurgical coke: </strong>517.718 million metric tonnes of CO2 (2022 est.)<br><br><strong>from petroleum and other liquids: </strong>414.253 million metric tonnes of CO2 (2022 est.)<br><br><strong>from consumed natural gas: </strong>907.83 million metric tonnes of CO2 (2022 est.)",
           "subfields": [
             {
               "name": "total emissions",
-              "content": "1,848,070,000 metric tonnes of CO2 (2019 est.)",
-              "value": "1848070000",
+              "content": "1.84 billion metric tonnes of CO2 (2022 est.)",
+              "value": "1840000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from coal and metallurgical coke",
-              "content": "456.033 million metric tonnes of CO2 (2019 est.)",
+              "content": "517.718 million metric tonnes of CO2 (2022 est.)",
               "title": "from coal and metallurgical coke",
-              "value": "456033000",
+              "value": "517718000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from petroleum and other liquids",
-              "content": "470.289 million metric tonnes of CO2 (2019 est.)",
+              "content": "414.253 million metric tonnes of CO2 (2022 est.)",
               "title": "from petroleum and other liquids",
-              "value": "470289000",
+              "value": "414253000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from consumed natural gas",
-              "content": "921.748 million metric tonnes of CO2 (2019 est.)",
+              "content": "907.83 million metric tonnes of CO2 (2022 est.)",
               "title": "from consumed natural gas",
-              "value": "921748000",
+              "value": "907830000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             }
           ]
@@ -3479,12 +3422,12 @@
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
-          "content": "227.898 million Btu/person (2019 est.)",
+          "content": "225.235 million Btu/person (2022 est.)",
           "subfields": [
             {
-              "name": "Total energy consumption per capita 2019",
-              "content": "227.898 million Btu/person (2019 est.)",
-              "value": "227898000",
+              "name": "Total energy consumption per capita 2022",
+              "content": "225.235 million Btu/person (2022 est.)",
+              "value": "225235000",
               "estimated": true,
               "suffix": "Btu/person"
             }
@@ -3548,21 +3491,21 @@
           "name": "Telecommunication systems",
           "field_id": 198,
           "comparative": false,
-          "content": "<strong>general assessment: </strong>the telecom market is the largest in Europe, supported by a population approaching 147 million; the overall market is dominated by the western regions, particularly Moscow and St Petersburg which are the main cities and economic centers; all sectors of the market have been liberalized, with competition most prevalent in the two largest regional markets; the fiber broadband sector has shown considerable growth, supported by the government&rsquo;s program to extend the reach of broadband to outlying regions; the development of 5G services has been stymied by the lack of spectrum; although MNOs have licenses to use 700MHz spectrum for 5G, this spectrum has yet to be released by broadcasters; spectrum in the 3.4GHz range commonly used for 5G in Europe has been restricted for use in Russia by the military and intelligence agencies; despite these limitations, the four principal MNOs each have an equal share in a joint venture aimed at developing a strategy to deploy 5G using shared network and spectrum assets (2022)<br><br><strong>domestic: </strong>16 per 100 for fixed-line and mobile-cellular is 170 per 100 persons (2021)<br><br><strong>international: </strong>country code - 7; landing points for the Far East Submarine Cable System, HSCS, Sakhalin-Kuril Island Cable, RSCN, BCS North-Phase 2, Kerch Strait Cable and the Georgia-Russian submarine cable system connecting Russia, Japan, Finland, Georgia and Ukraine; satellite earth stations provide access to Intelsat, Intersputnik, Eutelsat, Inmarsat, and Orbita systems (2019)",
+          "content": "<strong>general assessment: </strong><p>the telecom market is the largest in Europe, supported by a population of about 143 million; the overall market is dominated by the western regions, particularly Moscow and St Petersburg which are the main cities and economic centers; many other regions in the east and north of the country were settled during the Soviet period; the telecommunication companies continue to deploy and modernize fixed-line network infrastructure to offer improved broadband services as well as a range of IP-delivered content; the number of Digital Subscriber Line (DSL) connections continues to decrease as subscribers are migrated to fiber; the development of 5G services has been hindered by the lack of frequencies; the 3.4GHz range commonly used for 5G in Europe has been restricted for use in Russia by the military and intelligence agencies; the Mobile Network Operators (MNOs) have an equal share in a joint venture, New Digital Solutions, aimed at developing a strategy to deploy 5G using a shared network</p> (2024)<br><br><strong>domestic: </strong>16 per 100 for fixed-line and mobile-cellular is 169 per 100 persons (2022)<br><br><strong>international: </strong>country code - 7; landing points for the Far East Submarine Cable System, HSCS, Sakhalin-Kuril Island Cable, RSCN, BCS North-Phase 2, Kerch Strait Cable and the Georgia-Russian submarine cable system connecting Russia, Japan, Finland, Georgia and Ukraine; satellite earth stations provide access to Intelsat, Intersputnik, Eutelsat, Inmarsat, and Orbita systems (2019)",
           "subfields": [
             {
               "name": "general assessment",
-              "content": "the telecom market is the largest in Europe, supported by a population approaching 147 million; the overall market is dominated by the western regions, particularly Moscow and St Petersburg which are the main cities and economic centers; all sectors of the market have been liberalized, with competition most prevalent in the two largest regional markets; the fiber broadband sector has shown considerable growth, supported by the government&rsquo;s program to extend the reach of broadband to outlying regions; the development of 5G services has been stymied by the lack of spectrum; although MNOs have licenses to use 700MHz spectrum for 5G, this spectrum has yet to be released by broadcasters; spectrum in the 3.4GHz range commonly used for 5G in Europe has been restricted for use in Russia by the military and intelligence agencies; despite these limitations, the four principal MNOs each have an equal share in a joint venture aimed at developing a strategy to deploy 5G using shared network and spectrum assets (2022)",
-              "value": "the telecom market is the largest in Europe, supported by a population approaching 147 million; the overall market is dominated by the western regions, particularly Moscow and St Petersburg which are the main cities and economic centers; all sectors of the market have been liberalized, with competition most prevalent in the two largest regional markets; the fiber broadband sector has shown considerable growth, supported by the government&rsquo;s program to extend the reach of broadband to outlying regions; the development of 5G services has been stymied by the lack of spectrum; although MNOs have licenses to use 700MHz spectrum for 5G, this spectrum has yet to be released by broadcasters; spectrum in the 3.4GHz range commonly used for 5G in Europe has been restricted for use in Russia by the military and intelligence agencies; despite these limitations, the four principal MNOs each have an equal share in a joint venture aimed at developing a strategy to deploy 5G using shared network and spectrum assets",
+              "content": "<p>the telecom market is the largest in Europe, supported by a population of about 143 million; the overall market is dominated by the western regions, particularly Moscow and St Petersburg which are the main cities and economic centers; many other regions in the east and north of the country were settled during the Soviet period; the telecommunication companies continue to deploy and modernize fixed-line network infrastructure to offer improved broadband services as well as a range of IP-delivered content; the number of Digital Subscriber Line (DSL) connections continues to decrease as subscribers are migrated to fiber; the development of 5G services has been hindered by the lack of frequencies; the 3.4GHz range commonly used for 5G in Europe has been restricted for use in Russia by the military and intelligence agencies; the Mobile Network Operators (MNOs) have an equal share in a joint venture, New Digital Solutions, aimed at developing a strategy to deploy 5G using a shared network</p> (2024)",
+              "value": "<p>the telecom market is the largest in Europe, supported by a population of about 143 million; the overall market is dominated by the western regions, particularly Moscow and St Petersburg which are the main cities and economic centers; many other regions in the east and north of the country were settled during the Soviet period; the telecommunication companies continue to deploy and modernize fixed-line network infrastructure to offer improved broadband services as well as a range of IP-delivered content; the number of Digital Subscriber Line (DSL) connections continues to decrease as subscribers are migrated to fiber; the development of 5G services has been hindered by the lack of frequencies; the 3.4GHz range commonly used for 5G in Europe has been restricted for use in Russia by the military and intelligence agencies; the Mobile Network Operators (MNOs) have an equal share in a joint venture, New Digital Solutions, aimed at developing a strategy to deploy 5G using a shared network</p>",
               "title": "general assessment",
-              "info_date": "2022"
+              "info_date": "2024"
             },
             {
               "name": "domestic",
-              "content": "16 per 100 for fixed-line and mobile-cellular is 170 per 100 persons (2021)",
-              "value": "16 per 100 for fixed-line and mobile-cellular is 170 per 100 persons",
+              "content": "16 per 100 for fixed-line and mobile-cellular is 169 per 100 persons (2022)",
+              "value": "16 per 100 for fixed-line and mobile-cellular is 169 per 100 persons",
               "title": "domestic",
-              "info_date": "2021"
+              "info_date": "2022"
             },
             {
               "name": "international",
@@ -3974,8 +3917,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the Russian military is a mixed force of conscripts and professionals (contract servicemen) that is capable of conducting the full range of air, land, maritime, and strategic missile operations; it is also active in the areas of cyber warfare, electronic warfare, and space; in addition to protecting Russia&rsquo;s sovereignty and territorial integrity, the military supports Moscow&rsquo;s national security objectives, which include maintaining and projecting influence and power outside Russia, particularly in the former Soviet republics, and deterring perceived external threats from the US and NATO; in recent years, the Russian military has conducted combat operations in both Syria and Ukraine; in February 2022, Russia launched an unprovoked full-scale invasion of Ukraine, and the military, particularly the ground forces, continues to be heavily engaged there in what is the largest war in Europe since World War II ended in 1945; Russia has occupied Ukraine&rsquo;s province of Crimea and backed separatist forces in the Donbas region of Ukraine since 2014 with arms, equipment, and training, as well as special operations forces and troops, although Moscow denied their presence prior to 2022; Russia intervened in the Syrian civil war at the request of the ASAD government in September 2015 in what was Moscow&rsquo;s first overseas expeditionary operation since the Soviet era; Russian assistance has included air support, arms and equipment, intelligence, military advisors, private military contractors, special operations forces, and training; it seized the Georgian regions of Abkhazia and South Ossetia in 2008; separately, Russia has provided military personnel and private military contractors to conduct missions in Africa, including in the Central African Republic, Libya, Mali, and Sudan&nbsp;<br /><br />Russian forces are organized into military districts and operational/joint strategic commands; prior to the 2022 invasion of Ukraine, the Ground Troops were configured into at least 11 combined arms armies, one tank army, and four army corps, each comprised of a mixture of tank or &ldquo;motorized rifle&rdquo; (mechanized or motorized infantry) division and brigade structures supplemented by artillery, tactical missile, and air defense forces; the most capable ground forces are the special forces (Spetsial&rsquo;noye naznacheniye or Spetsnaz) brigades and Airborne and Air Assault Troops (VDV), which are considered strategic-level assets; as of 2022, the Spetsnaz forces had eight brigades, while the VDV had four airborne and air assault divisions, plus some independent air assault and Spetsnaz brigades<br /><br />the Navy conducts operations globally and has four fleets (Baltic, Black Sea, Pacific, and Northern), as well as a flotilla in the Caspian Sea; the principal surface warships are an aircraft carrier (under repair until at least 2024), four battlecruisers or cruisers, and over 20 destroyers and frigates; the backbone of the Navy is its submarine force, which has approximately 50-60 nuclear ballistic missile, nuclear cruise missile, nuclear attack-type, and conventional attack submarines; the ballistic missile submarines are an essential arm of Russia&rsquo;s nuclear triad; the Navy has an aviation force with fighters, multipurpose fighters, and surface attack aircraft, as well as anti-submarine warfare and attack helicopters; it also has coastal defense forces and a ground force of several naval infantry brigades, which have been used as ground troops in Ukraine<br /><br />the Aerospace Forces include as sub-branches the Air Force, the Air and Missile Defense Forces, and Space Forces; the Air and Air/Missile Defense elements are typically organized into armies, commands, bases, brigades, and regiments; the Air Forces are some of the largest in the world, and prior to the 2022 invasion of Ukraine included nearly 1,500 fighters, multirole fighters, and bombers, as well as nearly 1,500 combat helicopters<br /><br />the Strategic Rocket Forces have both road-mobile and silo-based intercontinental ballistic missiles (ICBMs) and are organized into three armies with 12 subordinate divisions, each further broken down into regiments<br /><br />the paramilitary Russian National Guard is organized into regions or districts with subordinate divisions and brigades, which include a mix of security, special purpose, protective, and motorized units, as well as some artillery and aviation forces (2023)",
-          "value": "the Russian military is a mixed force of conscripts and professionals (contract servicemen) that is capable of conducting the full range of air, land, maritime, and strategic missile operations; it is also active in the areas of cyber warfare, electronic warfare, and space; in addition to protecting Russia&rsquo;s sovereignty and territorial integrity, the military supports Moscow&rsquo;s national security objectives, which include maintaining and projecting influence and power outside Russia, particularly in the former Soviet republics, and deterring perceived external threats from the US and NATO; in recent years, the Russian military has conducted combat operations in both Syria and Ukraine; in February 2022, Russia launched an unprovoked full-scale invasion of Ukraine, and the military, particularly the ground forces, continues to be heavily engaged there in what is the largest war in Europe since World War II ended in 1945; Russia has occupied Ukraine&rsquo;s province of Crimea and backed separatist forces in the Donbas region of Ukraine since 2014 with arms, equipment, and training, as well as special operations forces and troops, although Moscow denied their presence prior to 2022; Russia intervened in the Syrian civil war at the request of the ASAD government in September 2015 in what was Moscow&rsquo;s first overseas expeditionary operation since the Soviet era; Russian assistance has included air support, arms and equipment, intelligence, military advisors, private military contractors, special operations forces, and training; it seized the Georgian regions of Abkhazia and South Ossetia in 2008; separately, Russia has provided military personnel and private military contractors to conduct missions in Africa, including in the Central African Republic, Libya, Mali, and Sudan&nbsp;<br /><br />Russian forces are organized into military districts and operational/joint strategic commands; prior to the 2022 invasion of Ukraine, the Ground Troops were configured into at least 11 combined arms armies, one tank army, and four army corps, each comprised of a mixture of tank or &ldquo;motorized rifle&rdquo; (mechanized or motorized infantry) division and brigade structures supplemented by artillery, tactical missile, and air defense forces; the most capable ground forces are the special forces (Spetsial&rsquo;noye naznacheniye or Spetsnaz) brigades and Airborne and Air Assault Troops (VDV), which are considered strategic-level assets; as of 2022, the Spetsnaz forces had eight brigades, while the VDV had four airborne and air assault divisions, plus some independent air assault and Spetsnaz brigades<br /><br />the Navy conducts operations globally and has four fleets (Baltic, Black Sea, Pacific, and Northern), as well as a flotilla in the Caspian Sea; the principal surface warships are an aircraft carrier (under repair until at least 2024), four battlecruisers or cruisers, and over 20 destroyers and frigates; the backbone of the Navy is its submarine force, which has approximately 50-60 nuclear ballistic missile, nuclear cruise missile, nuclear attack-type, and conventional attack submarines; the ballistic missile submarines are an essential arm of Russia&rsquo;s nuclear triad; the Navy has an aviation force with fighters, multipurpose fighters, and surface attack aircraft, as well as anti-submarine warfare and attack helicopters; it also has coastal defense forces and a ground force of several naval infantry brigades, which have been used as ground troops in Ukraine<br /><br />the Aerospace Forces include as sub-branches the Air Force, the Air and Missile Defense Forces, and Space Forces; the Air and Air/Missile Defense elements are typically organized into armies, commands, bases, brigades, and regiments; the Air Forces are some of the largest in the world, and prior to the 2022 invasion of Ukraine included nearly 1,500 fighters, multirole fighters, and bombers, as well as nearly 1,500 combat helicopters<br /><br />the Strategic Rocket Forces have both road-mobile and silo-based intercontinental ballistic missiles (ICBMs) and are organized into three armies with 12 subordinate divisions, each further broken down into regiments<br /><br />the paramilitary Russian National Guard is organized into regions or districts with subordinate divisions and brigades, which include a mix of security, special purpose, protective, and motorized units, as well as some artillery and aviation forces",
+          "content": "the Russian military is a mixed force of conscripts and professionals (contract servicemen) that is capable of conducting the full range of air, land, maritime, and strategic missile operations; it is also active in the areas of cyber warfare, electronic warfare, and space; in addition to protecting Russia&rsquo;s sovereignty and territorial integrity, the military supports Moscow&rsquo;s national security objectives, which include maintaining and projecting influence and power outside Russia, particularly in the former Soviet republics, and deterring perceived external threats from the US and NATO<br /><br />in recent years, the Russian military has conducted combat operations in both Ukraine and Syria; in February 2022, Russia launched an unprovoked full-scale invasion of Ukraine, and the military continues to be heavily engaged there in what is the largest war in Europe since World War II ended in 1945; Russia has occupied Ukraine&rsquo;s province of Crimea and backed separatist forces in the Donbas region of Ukraine since 2014 with arms, equipment, and training, as well as special operations forces and troops, although Moscow denied their presence prior to 2022; Russia intervened in the Syrian civil war at the request of the ASAD government in September 2015 in what was Moscow&rsquo;s first overseas expeditionary operation since the Soviet era; Russian assistance has included air support, arms and equipment, intelligence, military advisors, private military contractors, special operations forces, and training<br /><br />prior to its military operations in Syria and Ukraine, Russia seized the Georgian regions of Abkhazia and South Ossetia by force in 2008 (2023)",
+          "value": "the Russian military is a mixed force of conscripts and professionals (contract servicemen) that is capable of conducting the full range of air, land, maritime, and strategic missile operations; it is also active in the areas of cyber warfare, electronic warfare, and space; in addition to protecting Russia&rsquo;s sovereignty and territorial integrity, the military supports Moscow&rsquo;s national security objectives, which include maintaining and projecting influence and power outside Russia, particularly in the former Soviet republics, and deterring perceived external threats from the US and NATO<br /><br />in recent years, the Russian military has conducted combat operations in both Ukraine and Syria; in February 2022, Russia launched an unprovoked full-scale invasion of Ukraine, and the military continues to be heavily engaged there in what is the largest war in Europe since World War II ended in 1945; Russia has occupied Ukraine&rsquo;s province of Crimea and backed separatist forces in the Donbas region of Ukraine since 2014 with arms, equipment, and training, as well as special operations forces and troops, although Moscow denied their presence prior to 2022; Russia intervened in the Syrian civil war at the request of the ASAD government in September 2015 in what was Moscow&rsquo;s first overseas expeditionary operation since the Soviet era; Russian assistance has included air support, arms and equipment, intelligence, military advisors, private military contractors, special operations forces, and training<br /><br />prior to its military operations in Syria and Ukraine, Russia seized the Georgian regions of Abkhazia and South Ossetia by force in 2008",
           "info_date": "2023"
         }
       ]

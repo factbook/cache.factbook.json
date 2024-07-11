@@ -1,9 +1,9 @@
 {
   "name": "Jersey",
   "code": "JE",
-  "published": "2024-07-04 00:06:41 -0400",
+  "published": "2024-07-11 05:47:56 -0400",
   "region": "Europe",
-  "updated": "2024-07-03 09:12:15 -0400",
+  "updated": "2024-07-08 16:44:08 -0400",
   "media": [
     {
       "type": "flag",
@@ -676,7 +676,7 @@
         {
           "name": "Total fertility rate",
           "field_id": 356,
-          "comparative": true,
+          "comparative": false,
           "content": "1.66 children born/woman (2024 est.)",
           "value": "1.66",
           "estimated": true,
@@ -1481,7 +1481,7 @@
         {
           "name": "Unemployment rate",
           "field_id": 220,
-          "comparative": true,
+          "comparative": false,
           "content": "6.03% (2022 est.)<br><br>6.73% (2021 est.)<br><br>6.72% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment; entry includes Jersey and Guernsey",
           "subfields": [
             {
@@ -1679,18 +1679,19 @@
           "name": "Electricity access",
           "field_id": 251,
           "comparative": false,
-          "content": "<strong>electrification - total population: </strong>100% (2021)",
+          "content": "<strong>electrification - total population: </strong>100% (2022 est.)<br><br><strong>note:</strong> includes Guernsey and Jersey",
           "subfields": [
             {
               "name": "electrification - total population",
-              "content": "100% (2021)",
+              "content": "100% (2022 est.)",
               "title": "electrification - total population",
               "value": "100",
-              "estimated": false,
-              "info_date": "2021",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             }
-          ]
+          ],
+          "field_note": "<strong>note:</strong> includes Guernsey and Jersey"
         },
         {
           "name": "Carbon dioxide emissions",

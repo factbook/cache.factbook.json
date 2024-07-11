@@ -1,9 +1,9 @@
 {
   "name": "Somalia",
   "code": "SO",
-  "published": "2024-07-04 00:12:06 -0400",
+  "published": "2024-07-11 05:53:21 -0400",
   "region": "Africa",
-  "updated": "2024-07-03 09:12:14 -0400",
+  "updated": "2024-07-10 11:09:06 -0400",
   "media": [
     {
       "type": "flag",
@@ -738,7 +738,7 @@
         {
           "name": "Total fertility rate",
           "field_id": 356,
-          "comparative": true,
+          "comparative": false,
           "content": "5.12 children born/woman (2024 est.)",
           "value": "5.12",
           "estimated": true,
@@ -2006,7 +2006,7 @@
         {
           "name": "Unemployment rate",
           "field_id": 220,
-          "comparative": true,
+          "comparative": false,
           "content": "19.29% (2022 est.)<br><br>19.94% (2021 est.)<br><br>19.59% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
@@ -2180,7 +2180,7 @@
         {
           "name": "Taxes and other revenues",
           "field_id": 225,
-          "comparative": true,
+          "comparative": false,
           "content": "0% (of GDP) (2020 est.)<br><br><b>note:</b> central government tax revenue as a % of GDP",
           "value": "0",
           "estimated": true,
@@ -2373,41 +2373,29 @@
           "name": "Electricity access",
           "field_id": 251,
           "comparative": false,
-          "content": "<strong>population without electricity: </strong>10 million (2020)<br><br><strong>electrification - total population: </strong>49.3% (2021)<br><br><strong>electrification - urban areas: </strong>70.6% (2021)<br><br><strong>electrification - rural areas: </strong>30.6% (2021)",
+          "content": "<strong>electrification - total population: </strong>48.9% (2022 est.)<br><br><strong>electrification - urban areas: </strong>76.7%<br><br><strong>electrification - rural areas: </strong>30.6%",
           "subfields": [
             {
-              "name": "population without electricity",
-              "content": "10 million (2020)",
-              "title": "population without electricity",
-              "value": "10000000",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
               "name": "electrification - total population",
-              "content": "49.3% (2021)",
+              "content": "48.9% (2022 est.)",
               "title": "electrification - total population",
-              "value": "49.3",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "48.9",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "electrification - urban areas",
-              "content": "70.6% (2021)",
+              "content": "76.7%",
               "title": "electrification - urban areas",
-              "value": "70.6",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "76.7",
               "suffix": "%"
             },
             {
               "name": "electrification - rural areas",
-              "content": "30.6% (2021)",
+              "content": "30.6%",
               "title": "electrification - rural areas",
               "value": "30.6",
-              "estimated": false,
-              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -2416,51 +2404,33 @@
           "name": "Electricity",
           "field_id": 435,
           "comparative": false,
-          "content": "<strong>installed generating capacity: </strong>91,000 kW (2020 est.)<br><br><strong>consumption: </strong>311.2 million kWh (2019 est.)<br><br><strong>exports: </strong>0 kWh (2019 est.)<br><br><strong>imports: </strong>0 kWh (2019 est.)<br><br><strong>transmission/distribution losses: </strong>35 million kWh (2019 est.)",
+          "content": "<strong>installed generating capacity: </strong>131,000 kW (2022 est.)<br><br><strong>consumption: </strong>362.985 million kWh (2022 est.)<br><br><strong>transmission/distribution losses: </strong>15.408 million kWh (2022 est.)",
           "subfields": [
             {
               "name": "installed generating capacity",
-              "content": "91,000 kW (2020 est.)",
+              "content": "131,000 kW (2022 est.)",
               "title": "installed generating capacity",
-              "value": "91000",
+              "value": "131000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kW"
             },
             {
               "name": "consumption",
-              "content": "311.2 million kWh (2019 est.)",
+              "content": "362.985 million kWh (2022 est.)",
               "title": "consumption",
-              "value": "311200000",
+              "value": "362985000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "kWh"
-            },
-            {
-              "name": "exports",
-              "content": "0 kWh (2019 est.)",
-              "title": "exports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2019",
-              "suffix": "kWh"
-            },
-            {
-              "name": "imports",
-              "content": "0 kWh (2019 est.)",
-              "title": "imports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "transmission/distribution losses",
-              "content": "35 million kWh (2019 est.)",
+              "content": "15.408 million kWh (2022 est.)",
               "title": "transmission/distribution losses",
-              "value": "35000000",
+              "value": "15408000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "kWh"
             }
           ]
@@ -2469,78 +2439,33 @@
           "name": "Electricity generation sources",
           "field_id": 436,
           "comparative": false,
-          "content": "<strong>fossil fuels: </strong>95.3% of total installed capacity (2020 est.)<br><br><strong>nuclear: </strong>0% of total installed capacity (2020 est.)<br><br><strong>solar: </strong>3% of total installed capacity (2020 est.)<br><br><strong>wind: </strong>1.7% of total installed capacity (2020 est.)<br><br><strong>hydroelectricity: </strong>0% of total installed capacity (2020 est.)<br><br><strong>tide and wave: </strong>0% of total installed capacity (2020 est.)<br><br><strong>geothermal: </strong>0% of total installed capacity (2020 est.)<br><br><strong>biomass and waste: </strong>0% of total installed capacity (2020 est.)",
+          "content": "<strong>fossil fuels: </strong>90.4% of total installed capacity (2022 est.)<br><br><strong>solar: </strong>8% of total installed capacity (2022 est.)<br><br><strong>wind: </strong>1.6% of total installed capacity (2022 est.)",
           "subfields": [
             {
               "name": "fossil fuels",
-              "content": "95.3% of total installed capacity (2020 est.)",
+              "content": "90.4% of total installed capacity (2022 est.)",
               "title": "fossil fuels",
-              "value": "95.3",
+              "value": "90.4",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "nuclear",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "nuclear",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "solar",
-              "content": "3% of total installed capacity (2020 est.)",
+              "content": "8% of total installed capacity (2022 est.)",
               "title": "solar",
-              "value": "3",
+              "value": "8",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "wind",
-              "content": "1.7% of total installed capacity (2020 est.)",
+              "content": "1.6% of total installed capacity (2022 est.)",
               "title": "wind",
-              "value": "1.7",
+              "value": "1.6",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "hydroelectricity",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "hydroelectricity",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "tide and wave",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "tide and wave",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "geothermal",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "geothermal",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "biomass and waste",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "biomass and waste",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             }
           ]
@@ -2549,52 +2474,16 @@
           "name": "Coal",
           "field_id": 437,
           "comparative": false,
-          "content": "<strong>production: </strong>0 metric tons (2020 est.)<br><br><strong>consumption: </strong>0 metric tons (2020 est.)<br><br><strong>exports: </strong>0 metric tons (2020 est.)<br><br><strong>imports: </strong>0 metric tons (2020 est.)<br><br><strong>proven reserves: </strong>0 metric tons (2019 est.)",
+          "content": "<strong>imports: </strong>(2022 est.) less than 1 metric ton",
           "subfields": [
             {
-              "name": "production",
-              "content": "0 metric tons (2020 est.)",
-              "title": "production",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "metric tons"
-            },
-            {
-              "name": "consumption",
-              "content": "0 metric tons (2020 est.)",
-              "title": "consumption",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "metric tons"
-            },
-            {
-              "name": "exports",
-              "content": "0 metric tons (2020 est.)",
-              "title": "exports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "metric tons"
-            },
-            {
               "name": "imports",
-              "content": "0 metric tons (2020 est.)",
+              "content": "(2022 est.) less than 1 metric ton",
               "title": "imports",
-              "value": "0",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "metric tons"
-            },
-            {
-              "name": "proven reserves",
-              "content": "0 metric tons (2019 est.)",
-              "title": "proven reserves",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2019",
-              "suffix": "metric tons"
+              "info_date": "2022",
+              "suffix": "metric tons",
+              "subfield_note": "less than 1 metric ton"
             }
           ]
         },
@@ -2602,127 +2491,25 @@
           "name": "Petroleum",
           "field_id": 438,
           "comparative": false,
-          "content": "<strong>total petroleum production: </strong>0 bbl/day (2021 est.)<br><br><strong>refined petroleum consumption: </strong>5,900 bbl/day (2019 est.)<br><br><strong>crude oil and lease condensate exports: </strong>0 bbl/day (2018 est.)<br><br><strong>crude oil and lease condensate imports: </strong>0 bbl/day (2018 est.)<br><br><strong>crude oil estimated reserves: </strong>0 barrels (2021 est.)",
+          "content": "<strong>refined petroleum consumption: </strong>6,000 bbl/day (2022 est.)",
           "subfields": [
             {
-              "name": "total petroleum production",
-              "content": "0 bbl/day (2021 est.)",
-              "title": "total petroleum production",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
-              "suffix": "bbl/day"
-            },
-            {
               "name": "refined petroleum consumption",
-              "content": "5,900 bbl/day (2019 est.)",
+              "content": "6,000 bbl/day (2022 est.)",
               "title": "refined petroleum consumption",
-              "value": "5900",
+              "value": "6000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate exports",
-              "content": "0 bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate exports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate imports",
-              "content": "0 bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate imports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil estimated reserves",
-              "content": "0 barrels (2021 est.)",
-              "title": "crude oil estimated reserves",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
-              "suffix": "barrels"
             }
           ]
-        },
-        {
-          "name": "Refined petroleum products - production",
-          "field_id": 265,
-          "comparative": true,
-          "content": "0 bbl/day (2015 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - exports",
-          "field_id": 267,
-          "comparative": true,
-          "content": "0 bbl/day (2015 est.)",
-          "value": "0",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - imports",
-          "field_id": 268,
-          "comparative": true,
-          "content": "5,590 bbl/day (2015 est.)",
-          "value": "5590",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
         },
         {
           "name": "Natural gas",
           "field_id": 440,
           "comparative": false,
-          "content": "<strong>production: </strong>0 cubic meters (2021 est.)<br><br><strong>consumption: </strong>0 cubic meters (2021 est.)<br><br><strong>exports: </strong>0 cubic meters (2021 est.)<br><br><strong>imports: </strong>0 cubic meters (2021 est.)<br><br><strong>proven reserves: </strong>5.663 billion cubic meters (2021 est.)",
+          "content": "<strong>proven reserves: </strong>5.663 billion cubic meters (2021 est.)",
           "subfields": [
-            {
-              "name": "production",
-              "content": "0 cubic meters (2021 est.)",
-              "title": "production",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "consumption",
-              "content": "0 cubic meters (2021 est.)",
-              "title": "consumption",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "exports",
-              "content": "0 cubic meters (2021 est.)",
-              "title": "exports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "imports",
-              "content": "0 cubic meters (2021 est.)",
-              "title": "imports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
-              "suffix": "cubic meters"
-            },
             {
               "name": "proven reserves",
               "content": "5.663 billion cubic meters (2021 est.)",
@@ -2738,41 +2525,23 @@
           "name": "Carbon dioxide emissions",
           "field_id": 274,
           "comparative": false,
-          "content": "882,000 metric tonnes of CO2 (2019 est.)<br><br><strong>from coal and metallurgical coke: </strong>0 metric tonnes of CO2 (2019 est.)<br><br><strong>from petroleum and other liquids: </strong>882,000 metric tonnes of CO2 (2019 est.)<br><br><strong>from consumed natural gas: </strong>0 metric tonnes of CO2 (2019 est.)",
+          "content": "815,000 metric tonnes of CO2 (2022 est.)<br><br><strong>from petroleum and other liquids: </strong>815,000 metric tonnes of CO2 (2022 est.)",
           "subfields": [
             {
               "name": "total emissions",
-              "content": "882,000 metric tonnes of CO2 (2019 est.)",
-              "value": "882000",
+              "content": "815,000 metric tonnes of CO2 (2022 est.)",
+              "value": "815000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "metric tonnes of CO2"
-            },
-            {
-              "name": "from coal and metallurgical coke",
-              "content": "0 metric tonnes of CO2 (2019 est.)",
-              "title": "from coal and metallurgical coke",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from petroleum and other liquids",
-              "content": "882,000 metric tonnes of CO2 (2019 est.)",
+              "content": "815,000 metric tonnes of CO2 (2022 est.)",
               "title": "from petroleum and other liquids",
-              "value": "882000",
+              "value": "815000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "metric tonnes of CO2"
-            },
-            {
-              "name": "from consumed natural gas",
-              "content": "0 metric tonnes of CO2 (2019 est.)",
-              "title": "from consumed natural gas",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             }
           ]
@@ -2781,12 +2550,12 @@
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
-          "content": "802,000 Btu/person (2019 est.)",
+          "content": "661,000 Btu/person (2022 est.)",
           "subfields": [
             {
-              "name": "Total energy consumption per capita 2019",
-              "content": "802,000 Btu/person (2019 est.)",
-              "value": "802000",
+              "name": "Total energy consumption per capita 2022",
+              "content": "661,000 Btu/person (2022 est.)",
+              "value": "661000",
               "estimated": true,
               "suffix": "Btu/person"
             }
@@ -3170,8 +2939,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the Somali National Army (SNA) and supporting security and militia forces are actively conducting operations against the al-Shabaab terrorist group; al-Shabaab controls large parts of southern and central Somalia (see Appendix T)<br /><br />the SNA is a lightly armed force of approximately 13 brigades; its most effective units are assessed to be the US-trained Danab (\"Lightning\") Advanced Infantry Brigade and those of the Turkish-trained Gorgor (\"Eagle\") Special Division; as of 2023, the Danab Brigade numbered about 2,000 troops with an eventual projected strength of 3,000, while the Gorgor Division was estimated to have up to 5,000 trained troops; SNA soldiers have also received training from Egypt, Eritrea, Ethiopia, the European Union, Uganda, and the UK<br /><br />the African Union Mission in Somalia (AMISOM) operated in the country with the approval of the UN from 2007-2022; its peacekeeping mission included assisting Somali forces in providing security for a stable political process, enabling the gradual handing over of security responsibilities from AMISOM to the Somali security forces, and reducing the threat posed by al-Shabaab and other armed opposition groups; in April 2022, AMISOM was reconfigured and replaced with the AU Transition Mission in Somalia (ATMIS); the ATMIS mission is to support the Somalia Federal Government (FGS) in implementing the security objectives of the FGS's security transition plan, a comprehensive strategy developed by the FGS and its international partners in 2018 and updated in 2021 to gradually transfer security responsibilities from ATMIS to Somali security forces; originally about 20,000-strong (civilians, military, and police), ATMIS began reducing its staffing levels in mid-2023; its planned departure from Somalia is the end of 2024 <br /><br />UN Assistance Mission in Somalia (UNSOM; established 2013) is mandated by the Security Council to work with the FGS to support national reconciliation, provide advice on peace-building and state-building, monitor the human rights situation, and help coordinate the efforts of the international community; the UN Support Office in Somalia (UNSOS; established 2015) is responsible for providing logistical field support to ATMIS, UNSOM, and the Somali security forces on joint operations with ATMIS (2024)",
-          "value": "the Somali National Army (SNA) and supporting security and militia forces are actively conducting operations against the al-Shabaab terrorist group; al-Shabaab controls large parts of southern and central Somalia (see Appendix T)<br /><br />the SNA is a lightly armed force of approximately 13 brigades; its most effective units are assessed to be the US-trained Danab (\"Lightning\") Advanced Infantry Brigade and those of the Turkish-trained Gorgor (\"Eagle\") Special Division; as of 2023, the Danab Brigade numbered about 2,000 troops with an eventual projected strength of 3,000, while the Gorgor Division was estimated to have up to 5,000 trained troops; SNA soldiers have also received training from Egypt, Eritrea, Ethiopia, the European Union, Uganda, and the UK<br /><br />the African Union Mission in Somalia (AMISOM) operated in the country with the approval of the UN from 2007-2022; its peacekeeping mission included assisting Somali forces in providing security for a stable political process, enabling the gradual handing over of security responsibilities from AMISOM to the Somali security forces, and reducing the threat posed by al-Shabaab and other armed opposition groups; in April 2022, AMISOM was reconfigured and replaced with the AU Transition Mission in Somalia (ATMIS); the ATMIS mission is to support the Somalia Federal Government (FGS) in implementing the security objectives of the FGS's security transition plan, a comprehensive strategy developed by the FGS and its international partners in 2018 and updated in 2021 to gradually transfer security responsibilities from ATMIS to Somali security forces; originally about 20,000-strong (civilians, military, and police), ATMIS began reducing its staffing levels in mid-2023; its planned departure from Somalia is the end of 2024 <br /><br />UN Assistance Mission in Somalia (UNSOM; established 2013) is mandated by the Security Council to work with the FGS to support national reconciliation, provide advice on peace-building and state-building, monitor the human rights situation, and help coordinate the efforts of the international community; the UN Support Office in Somalia (UNSOS; established 2015) is responsible for providing logistical field support to ATMIS, UNSOM, and the Somali security forces on joint operations with ATMIS",
+          "content": "the Somali National Army (SNA) and supporting security and militia forces are actively conducting operations against the al-Shabaab terrorist group; al-Shabaab controls large parts of southern and central Somalia (see Appendix T)<br /><br />the SNA is a lightly armed force of more than a dozen brigades; its most effective units are assessed to be the US-trained Danab (\"Lightning\") Advanced Infantry Brigade and those of the Turkish-trained Gorgor (\"Eagle\") Special Division; as of 2023, the Danab Brigade numbered about 2,000 troops with an eventual projected strength of 3,000, while the Gorgor Division was estimated to have up to 5,000 trained troops; SNA soldiers have also received training from Egypt, Eritrea, Ethiopia, the EU, Uganda, and the UK<br /><br />the African Union Mission in Somalia (AMISOM) operated in the country with the approval of the UN from 2007-2022; its peacekeeping mission included assisting Somali forces in providing security for a stable political process, enabling the gradual handing over of security responsibilities from AMISOM to the Somali security forces, and reducing the threat posed by al-Shabaab and other armed opposition groups; in April 2022, AMISOM was reconfigured and replaced with the AU Transition Mission in Somalia (ATMIS); the ATMIS mission is to support the Somalia Federal Government (FGS) in implementing the security objectives of the FGS's security transition plan, a comprehensive strategy developed by the FGS and its international partners in 2018 and updated in 2021 to gradually transfer security responsibilities from ATMIS to Somali security forces; originally about 20,000-strong (civilians, military, and police), ATMIS began reducing its staffing levels in mid-2023; its planned departure from Somalia is the end of 2024 <br /><br />UN Assistance Mission in Somalia (UNSOM; established 2013) is mandated by the Security Council to work with the FGS to support national reconciliation, provide advice on peace-building and state-building, monitor the human rights situation, and help coordinate the efforts of the international community; the UN Support Office in Somalia (UNSOS; established 2015) is responsible for providing logistical field support to ATMIS, UNSOM, and the Somali security forces on joint operations with ATMIS (2024)",
+          "value": "the Somali National Army (SNA) and supporting security and militia forces are actively conducting operations against the al-Shabaab terrorist group; al-Shabaab controls large parts of southern and central Somalia (see Appendix T)<br /><br />the SNA is a lightly armed force of more than a dozen brigades; its most effective units are assessed to be the US-trained Danab (\"Lightning\") Advanced Infantry Brigade and those of the Turkish-trained Gorgor (\"Eagle\") Special Division; as of 2023, the Danab Brigade numbered about 2,000 troops with an eventual projected strength of 3,000, while the Gorgor Division was estimated to have up to 5,000 trained troops; SNA soldiers have also received training from Egypt, Eritrea, Ethiopia, the EU, Uganda, and the UK<br /><br />the African Union Mission in Somalia (AMISOM) operated in the country with the approval of the UN from 2007-2022; its peacekeeping mission included assisting Somali forces in providing security for a stable political process, enabling the gradual handing over of security responsibilities from AMISOM to the Somali security forces, and reducing the threat posed by al-Shabaab and other armed opposition groups; in April 2022, AMISOM was reconfigured and replaced with the AU Transition Mission in Somalia (ATMIS); the ATMIS mission is to support the Somalia Federal Government (FGS) in implementing the security objectives of the FGS's security transition plan, a comprehensive strategy developed by the FGS and its international partners in 2018 and updated in 2021 to gradually transfer security responsibilities from ATMIS to Somali security forces; originally about 20,000-strong (civilians, military, and police), ATMIS began reducing its staffing levels in mid-2023; its planned departure from Somalia is the end of 2024 <br /><br />UN Assistance Mission in Somalia (UNSOM; established 2013) is mandated by the Security Council to work with the FGS to support national reconciliation, provide advice on peace-building and state-building, monitor the human rights situation, and help coordinate the efforts of the international community; the UN Support Office in Somalia (UNSOS; established 2015) is responsible for providing logistical field support to ATMIS, UNSOM, and the Somali security forces on joint operations with ATMIS",
           "info_date": "2024"
         }
       ]

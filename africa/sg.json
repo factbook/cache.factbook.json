@@ -1,9 +1,9 @@
 {
   "name": "Senegal",
   "code": "SG",
-  "published": "2024-07-04 00:11:44 -0400",
+  "published": "2024-07-11 05:52:59 -0400",
   "region": "Africa",
-  "updated": "2024-07-03 09:12:14 -0400",
+  "updated": "2024-07-10 10:38:14 -0400",
   "media": [
     {
       "type": "flag",
@@ -801,7 +801,7 @@
         {
           "name": "Total fertility rate",
           "field_id": 356,
-          "comparative": true,
+          "comparative": false,
           "content": "4.06 children born/woman (2024 est.)",
           "value": "4.06",
           "estimated": true,
@@ -1055,7 +1055,7 @@
         {
           "name": "Tobacco use",
           "field_id": 434,
-          "comparative": true,
+          "comparative": false,
           "content": "<strong>total: </strong>6.9% (2020 est.)<br><br><strong>male: </strong>13.1% (2020 est.)<br><br><strong>female: </strong>0.7% (2020 est.)",
           "subfields": [
             {
@@ -2233,7 +2233,7 @@
         {
           "name": "Unemployment rate",
           "field_id": 220,
-          "comparative": true,
+          "comparative": false,
           "content": "3.01% (2022 est.)<br><br>3.32% (2021 est.)<br><br>3.34% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
@@ -2432,7 +2432,7 @@
         {
           "name": "Taxes and other revenues",
           "field_id": 225,
-          "comparative": true,
+          "comparative": false,
           "content": "18.66% (of GDP) (2022 est.)<br><br><b>note:</b> central government tax revenue as a % of GDP",
           "value": "18.66",
           "estimated": true,
@@ -2663,41 +2663,29 @@
           "name": "Electricity access",
           "field_id": 251,
           "comparative": false,
-          "content": "<strong>population without electricity: </strong>5 million (2020)<br><br><strong>electrification - total population: </strong>67.9% (2021)<br><br><strong>electrification - urban areas: </strong>93.9% (2021)<br><br><strong>electrification - rural areas: </strong>43.4% (2021)",
+          "content": "<strong>electrification - total population: </strong>67.9% (2022 est.)<br><br><strong>electrification - urban areas: </strong>96.6%<br><br><strong>electrification - rural areas: </strong>43.4%",
           "subfields": [
             {
-              "name": "population without electricity",
-              "content": "5 million (2020)",
-              "title": "population without electricity",
-              "value": "5000000",
-              "estimated": false,
-              "info_date": "2020"
-            },
-            {
               "name": "electrification - total population",
-              "content": "67.9% (2021)",
+              "content": "67.9% (2022 est.)",
               "title": "electrification - total population",
               "value": "67.9",
-              "estimated": false,
-              "info_date": "2021",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "electrification - urban areas",
-              "content": "93.9% (2021)",
+              "content": "96.6%",
               "title": "electrification - urban areas",
-              "value": "93.9",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "96.6",
               "suffix": "%"
             },
             {
               "name": "electrification - rural areas",
-              "content": "43.4% (2021)",
+              "content": "43.4%",
               "title": "electrification - rural areas",
               "value": "43.4",
-              "estimated": false,
-              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -2706,51 +2694,42 @@
           "name": "Electricity",
           "field_id": 435,
           "comparative": false,
-          "content": "<strong>installed generating capacity: </strong>1.312 million kW (2020 est.)<br><br><strong>consumption: </strong>4,735,980,000 kWh (2019 est.)<br><br><strong>exports: </strong>0 kWh (2019 est.)<br><br><strong>imports: </strong>324 million kWh (2019 est.)<br><br><strong>transmission/distribution losses: </strong>764 million kWh (2019 est.)",
+          "content": "<strong>installed generating capacity: </strong>1.668 million kW (2022 est.)<br><br><strong>consumption: </strong>7.025 billion kWh (2022 est.)<br><br><strong>imports: </strong>326.425 million kWh (2022 est.)<br><br><strong>transmission/distribution losses: </strong>1.057 billion kWh (2022 est.)",
           "subfields": [
             {
               "name": "installed generating capacity",
-              "content": "1.312 million kW (2020 est.)",
+              "content": "1.668 million kW (2022 est.)",
               "title": "installed generating capacity",
-              "value": "1312000",
+              "value": "1668000",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "kW"
             },
             {
               "name": "consumption",
-              "content": "4,735,980,000 kWh (2019 est.)",
+              "content": "7.025 billion kWh (2022 est.)",
               "title": "consumption",
-              "value": "4735980000",
+              "value": "7025000000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "kWh"
-            },
-            {
-              "name": "exports",
-              "content": "0 kWh (2019 est.)",
-              "title": "exports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "imports",
-              "content": "324 million kWh (2019 est.)",
+              "content": "326.425 million kWh (2022 est.)",
               "title": "imports",
-              "value": "324000000",
+              "value": "326425000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "kWh"
             },
             {
               "name": "transmission/distribution losses",
-              "content": "764 million kWh (2019 est.)",
+              "content": "1.057 billion kWh (2022 est.)",
               "title": "transmission/distribution losses",
-              "value": "764000000",
+              "value": "1057000000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "kWh"
             }
           ]
@@ -2759,78 +2738,51 @@
           "name": "Electricity generation sources",
           "field_id": 436,
           "comparative": false,
-          "content": "<strong>fossil fuels: </strong>84.8% of total installed capacity (2020 est.)<br><br><strong>nuclear: </strong>0% of total installed capacity (2020 est.)<br><br><strong>solar: </strong>6% of total installed capacity (2020 est.)<br><br><strong>wind: </strong>0.5% of total installed capacity (2020 est.)<br><br><strong>hydroelectricity: </strong>6.3% of total installed capacity (2020 est.)<br><br><strong>tide and wave: </strong>0% of total installed capacity (2020 est.)<br><br><strong>geothermal: </strong>0% of total installed capacity (2020 est.)<br><br><strong>biomass and waste: </strong>2.4% of total installed capacity (2020 est.)",
+          "content": "<strong>fossil fuels: </strong>74.3% of total installed capacity (2022 est.)<br><br><strong>solar: </strong>10.9% of total installed capacity (2022 est.)<br><br><strong>wind: </strong>9.5% of total installed capacity (2022 est.)<br><br><strong>hydroelectricity: </strong>4% of total installed capacity (2022 est.)<br><br><strong>biomass and waste: </strong>1.4% of total installed capacity (2022 est.)",
           "subfields": [
             {
               "name": "fossil fuels",
-              "content": "84.8% of total installed capacity (2020 est.)",
+              "content": "74.3% of total installed capacity (2022 est.)",
               "title": "fossil fuels",
-              "value": "84.8",
+              "value": "74.3",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "nuclear",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "nuclear",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "solar",
-              "content": "6% of total installed capacity (2020 est.)",
+              "content": "10.9% of total installed capacity (2022 est.)",
               "title": "solar",
-              "value": "6",
+              "value": "10.9",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "wind",
-              "content": "0.5% of total installed capacity (2020 est.)",
+              "content": "9.5% of total installed capacity (2022 est.)",
               "title": "wind",
-              "value": "0.5",
+              "value": "9.5",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "hydroelectricity",
-              "content": "6.3% of total installed capacity (2020 est.)",
+              "content": "4% of total installed capacity (2022 est.)",
               "title": "hydroelectricity",
-              "value": "6.3",
+              "value": "4",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "tide and wave",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "tide and wave",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "% of total installed capacity"
-            },
-            {
-              "name": "geothermal",
-              "content": "0% of total installed capacity (2020 est.)",
-              "title": "geothermal",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "biomass and waste",
-              "content": "2.4% of total installed capacity (2020 est.)",
+              "content": "1.4% of total installed capacity (2022 est.)",
               "title": "biomass and waste",
-              "value": "2.4",
+              "value": "1.4",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of total installed capacity"
             }
           ]
@@ -2839,51 +2791,24 @@
           "name": "Coal",
           "field_id": 437,
           "comparative": false,
-          "content": "<strong>production: </strong>0 metric tons (2020 est.)<br><br><strong>consumption: </strong>894,000 metric tons (2020 est.)<br><br><strong>exports: </strong>0 metric tons (2020 est.)<br><br><strong>imports: </strong>894,000 metric tons (2020 est.)<br><br><strong>proven reserves: </strong>0 metric tons (2019 est.)",
+          "content": "<strong>consumption: </strong>502,000 metric tons (2022 est.)<br><br><strong>imports: </strong>502,000 metric tons (2022 est.)",
           "subfields": [
             {
-              "name": "production",
-              "content": "0 metric tons (2020 est.)",
-              "title": "production",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "metric tons"
-            },
-            {
               "name": "consumption",
-              "content": "894,000 metric tons (2020 est.)",
+              "content": "502,000 metric tons (2022 est.)",
               "title": "consumption",
-              "value": "894000",
+              "value": "502000",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "metric tons"
-            },
-            {
-              "name": "exports",
-              "content": "0 metric tons (2020 est.)",
-              "title": "exports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "metric tons"
             },
             {
               "name": "imports",
-              "content": "894,000 metric tons (2020 est.)",
+              "content": "502,000 metric tons (2022 est.)",
               "title": "imports",
-              "value": "894000",
+              "value": "502000",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "metric tons"
-            },
-            {
-              "name": "proven reserves",
-              "content": "0 metric tons (2019 est.)",
-              "title": "proven reserves",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tons"
             }
           ]
@@ -2892,134 +2817,50 @@
           "name": "Petroleum",
           "field_id": 438,
           "comparative": false,
-          "content": "<strong>total petroleum production: </strong>0 bbl/day (2021 est.)<br><br><strong>refined petroleum consumption: </strong>57,500 bbl/day (2019 est.)<br><br><strong>crude oil and lease condensate exports: </strong>0 bbl/day (2018 est.)<br><br><strong>crude oil and lease condensate imports: </strong>20,500 bbl/day (2018 est.)<br><br><strong>crude oil estimated reserves: </strong>0 barrels (2021 est.)",
+          "content": "<strong>total petroleum production: </strong>9,000 bbl/day (2023 est.)<br><br><strong>refined petroleum consumption: </strong>55,000 bbl/day (2022 est.)",
           "subfields": [
             {
               "name": "total petroleum production",
-              "content": "0 bbl/day (2021 est.)",
+              "content": "9,000 bbl/day (2023 est.)",
               "title": "total petroleum production",
-              "value": "0",
+              "value": "9000",
               "estimated": true,
-              "info_date": "2021",
+              "info_date": "2023",
               "suffix": "bbl/day"
             },
             {
               "name": "refined petroleum consumption",
-              "content": "57,500 bbl/day (2019 est.)",
+              "content": "55,000 bbl/day (2022 est.)",
               "title": "refined petroleum consumption",
-              "value": "57500",
+              "value": "55000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate exports",
-              "content": "0 bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate exports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil and lease condensate imports",
-              "content": "20,500 bbl/day (2018 est.)",
-              "title": "crude oil and lease condensate imports",
-              "value": "20500",
-              "estimated": true,
-              "info_date": "2018",
-              "suffix": "bbl/day"
-            },
-            {
-              "name": "crude oil estimated reserves",
-              "content": "0 barrels (2021 est.)",
-              "title": "crude oil estimated reserves",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
-              "suffix": "barrels"
             }
           ]
-        },
-        {
-          "name": "Refined petroleum products - production",
-          "field_id": 265,
-          "comparative": true,
-          "content": "17,590 bbl/day (2015 est.)",
-          "value": "17590",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - exports",
-          "field_id": 267,
-          "comparative": true,
-          "content": "4,063 bbl/day (2015 est.)",
-          "value": "4063",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
-        },
-        {
-          "name": "Refined petroleum products - imports",
-          "field_id": 268,
-          "comparative": true,
-          "content": "32,050 bbl/day (2015 est.)",
-          "value": "32050",
-          "estimated": true,
-          "info_date": "2015",
-          "suffix": "bbl/day"
         },
         {
           "name": "Natural gas",
           "field_id": 440,
           "comparative": false,
-          "content": "<strong>production: </strong>60.003 million cubic meters (2019 est.)<br><br><strong>consumption: </strong>60.003 million cubic meters (2019 est.)<br><br><strong>exports: </strong>0 cubic meters (2021 est.)<br><br><strong>imports: </strong>0 cubic meters (2021 est.)<br><br><strong>proven reserves: </strong>0 cubic meters (2021 est.)",
+          "content": "<strong>production: </strong>54.646 million cubic meters (2022 est.)<br><br><strong>consumption: </strong>54.498 million cubic meters (2022 est.)",
           "subfields": [
             {
               "name": "production",
-              "content": "60.003 million cubic meters (2019 est.)",
+              "content": "54.646 million cubic meters (2022 est.)",
               "title": "production",
-              "value": "60003000",
+              "value": "54646000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "consumption",
-              "content": "60.003 million cubic meters (2019 est.)",
+              "content": "54.498 million cubic meters (2022 est.)",
               "title": "consumption",
-              "value": "60003000",
+              "value": "54498000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "exports",
-              "content": "0 cubic meters (2021 est.)",
-              "title": "exports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "imports",
-              "content": "0 cubic meters (2021 est.)",
-              "title": "imports",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
-              "suffix": "cubic meters"
-            },
-            {
-              "name": "proven reserves",
-              "content": "0 cubic meters (2021 est.)",
-              "title": "proven reserves",
-              "value": "0",
-              "estimated": true,
-              "info_date": "2021",
+              "info_date": "2022",
               "suffix": "cubic meters"
             }
           ]
@@ -3028,41 +2869,41 @@
           "name": "Carbon dioxide emissions",
           "field_id": 274,
           "comparative": false,
-          "content": "10.696 million metric tonnes of CO2 (2019 est.)<br><br><strong>from coal and metallurgical coke: </strong>1.955 million metric tonnes of CO2 (2019 est.)<br><br><strong>from petroleum and other liquids: </strong>8.64 million metric tonnes of CO2 (2019 est.)<br><br><strong>from consumed natural gas: </strong>101,000 metric tonnes of CO2 (2019 est.)",
+          "content": "9.152 million metric tonnes of CO2 (2022 est.)<br><br><strong>from coal and metallurgical coke: </strong>1.134 million metric tonnes of CO2 (2022 est.)<br><br><strong>from petroleum and other liquids: </strong>7.926 million metric tonnes of CO2 (2022 est.)<br><br><strong>from consumed natural gas: </strong>92,000 metric tonnes of CO2 (2022 est.)",
           "subfields": [
             {
               "name": "total emissions",
-              "content": "10.696 million metric tonnes of CO2 (2019 est.)",
-              "value": "10696000",
+              "content": "9.152 million metric tonnes of CO2 (2022 est.)",
+              "value": "9152000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from coal and metallurgical coke",
-              "content": "1.955 million metric tonnes of CO2 (2019 est.)",
+              "content": "1.134 million metric tonnes of CO2 (2022 est.)",
               "title": "from coal and metallurgical coke",
-              "value": "1955000",
+              "value": "1134000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from petroleum and other liquids",
-              "content": "8.64 million metric tonnes of CO2 (2019 est.)",
+              "content": "7.926 million metric tonnes of CO2 (2022 est.)",
               "title": "from petroleum and other liquids",
-              "value": "8640000",
+              "value": "7926000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from consumed natural gas",
-              "content": "101,000 metric tonnes of CO2 (2019 est.)",
+              "content": "92,000 metric tonnes of CO2 (2022 est.)",
               "title": "from consumed natural gas",
-              "value": "101000",
+              "value": "92000",
               "estimated": true,
-              "info_date": "2019",
+              "info_date": "2022",
               "suffix": "metric tonnes of CO2"
             }
           ]
@@ -3071,12 +2912,12 @@
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
-          "content": "9.221 million Btu/person (2019 est.)",
+          "content": "7.836 million Btu/person (2022 est.)",
           "subfields": [
             {
-              "name": "Total energy consumption per capita 2019",
-              "content": "9.221 million Btu/person (2019 est.)",
-              "value": "9221000",
+              "name": "Total energy consumption per capita 2022",
+              "content": "7.836 million Btu/person (2022 est.)",
+              "value": "7836000",
               "estimated": true,
               "suffix": "Btu/person"
             }
@@ -3536,8 +3377,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "despite limited resources, the FAS is considered to be a well-equipped, experienced, and effective military; it has a history of non-interference in the country&rsquo;s political process and positive relations with civil authorities; the FAS is experienced in foreign deployments and has received assistance from the French military, which maintains a presence in Senegal, as well as Germany, Spain, the UK, and the US; the FAS&rsquo;s primary focuses are border, internal, and maritime security; it is watching the prevalence of multiple active terrorist groups across the region and political instability in neighboring Mali and Guinea and has recently established new military and gendarmerie camps along its eastern border with Mali; the FAS also works with the civilian government in areas such as preventive healthcare, infrastructure development, environmental protection, and disaster response<br /><br />the Army is spread amongst seven military zones and organized into a mix of light infantry battalions and light armored reconnaissance squadrons, as well as airborne, special operations, and artillery battalions; the Gendarmerie includes mobile units, as well as the Presidential Guard (aka &ldquo;The Red Guard&rdquo;); the Navy is small and its principal warships are coastal patrol craft; in recent years the Navy has acquired some modern naval platforms from France, Israel, and Spain, including several offshore patrol vessels, to improve its ability to monitor Senegal&rsquo;s coastline and economic exclusion zone, conduct fisheries inspections, counter drug trafficking, and combat piracy; the Air Force is configured for supporting the ground forces and has a small number of light attack aircraft and helicopter gunships, as well as transport and reconnaissance aircraft<br /><br />Senegalese security forces have been engaged in a low-level counterinsurgency campaign in the southern Casamance region against various factions of the separatist Movement of Democratic Forces of the Casamance (MDFC) since 1982; the conflict is one of longest running low-level insurgencies in the World, having claimed more than 5,000 lives while leaving another 60,000 displaced; in May 2023, a faction of the MFDC agreed to a peace deal (2023)",
-          "value": "despite limited resources, the FAS is considered to be a well-equipped, experienced, and effective military; it has a history of non-interference in the country&rsquo;s political process and positive relations with civil authorities; the FAS is experienced in foreign deployments and has received assistance from the French military, which maintains a presence in Senegal, as well as Germany, Spain, the UK, and the US; the FAS&rsquo;s primary focuses are border, internal, and maritime security; it is watching the prevalence of multiple active terrorist groups across the region and political instability in neighboring Mali and Guinea and has recently established new military and gendarmerie camps along its eastern border with Mali; the FAS also works with the civilian government in areas such as preventive healthcare, infrastructure development, environmental protection, and disaster response<br /><br />the Army is spread amongst seven military zones and organized into a mix of light infantry battalions and light armored reconnaissance squadrons, as well as airborne, special operations, and artillery battalions; the Gendarmerie includes mobile units, as well as the Presidential Guard (aka &ldquo;The Red Guard&rdquo;); the Navy is small and its principal warships are coastal patrol craft; in recent years the Navy has acquired some modern naval platforms from France, Israel, and Spain, including several offshore patrol vessels, to improve its ability to monitor Senegal&rsquo;s coastline and economic exclusion zone, conduct fisheries inspections, counter drug trafficking, and combat piracy; the Air Force is configured for supporting the ground forces and has a small number of light attack aircraft and helicopter gunships, as well as transport and reconnaissance aircraft<br /><br />Senegalese security forces have been engaged in a low-level counterinsurgency campaign in the southern Casamance region against various factions of the separatist Movement of Democratic Forces of the Casamance (MDFC) since 1982; the conflict is one of longest running low-level insurgencies in the World, having claimed more than 5,000 lives while leaving another 60,000 displaced; in May 2023, a faction of the MFDC agreed to a peace deal",
+          "content": "despite limited resources, the FAS is considered to be a well-equipped, experienced, and effective military; it has a history of non-interference in the country&rsquo;s political process and positive relations with civil authorities; the FAS is experienced in foreign deployments and has received assistance from the French military, which maintains a presence in Senegal, as well as Germany, Spain, the UK, and the US; the FAS&rsquo;s primary focuses are border, internal, and maritime security; it is watching the prevalence of multiple active terrorist groups across the region and political instability in neighboring Mali and Guinea and has recently established new military and gendarmerie camps along its eastern border with Mali; the FAS also works with the civilian government in areas such as preventive healthcare, infrastructure development, environmental protection, and disaster response<br /><br />Senegalese security forces have been engaged in a low-level counterinsurgency campaign in the southern Casamance region against various factions of the separatist Movement of Democratic Forces of the Casamance (MDFC) since 1982; the conflict is one of longest running low-level insurgencies in the World, having claimed more than 5,000 lives while leaving another 60,000 displaced; in May 2023, a faction of the MFDC agreed to a peace deal (2023)",
+          "value": "despite limited resources, the FAS is considered to be a well-equipped, experienced, and effective military; it has a history of non-interference in the country&rsquo;s political process and positive relations with civil authorities; the FAS is experienced in foreign deployments and has received assistance from the French military, which maintains a presence in Senegal, as well as Germany, Spain, the UK, and the US; the FAS&rsquo;s primary focuses are border, internal, and maritime security; it is watching the prevalence of multiple active terrorist groups across the region and political instability in neighboring Mali and Guinea and has recently established new military and gendarmerie camps along its eastern border with Mali; the FAS also works with the civilian government in areas such as preventive healthcare, infrastructure development, environmental protection, and disaster response<br /><br />Senegalese security forces have been engaged in a low-level counterinsurgency campaign in the southern Casamance region against various factions of the separatist Movement of Democratic Forces of the Casamance (MDFC) since 1982; the conflict is one of longest running low-level insurgencies in the World, having claimed more than 5,000 lives while leaving another 60,000 displaced; in May 2023, a faction of the MFDC agreed to a peace deal",
           "info_date": "2023"
         }
       ]
