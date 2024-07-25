@@ -1,9 +1,9 @@
 {
   "name": "South Sudan",
   "code": "OD",
-  "published": "2024-07-11 05:51:21 -0400",
+  "published": "2024-07-25 00:09:55 -0400",
   "region": "Africa",
-  "updated": "2024-07-10 11:27:08 -0400",
+  "updated": "2024-07-24 11:14:40 -0400",
   "media": [
     {
       "type": "flag",
@@ -83,12 +83,12 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>644,329 sq km<br><br><strong>land: </strong>NA<br><br><strong>water: </strong>NA",
+          "content": "<strong>total : </strong>644,329 sq km<br><br><strong>land: </strong>NA<br><br><strong>water: </strong>NA",
           "subfields": [
             {
-              "name": "total",
+              "name": "total ",
               "content": "644,329 sq km",
-              "title": "total",
+              "title": "total ",
               "value": "644329",
               "suffix": "sq km"
             },
@@ -285,8 +285,8 @@
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
-          "content": "landlocked; The Sudd is a vast swamp in the north central region of South Sudan, formed by the White Nile, its size is variable but can reach some 15% of the country's total area during the rainy season; it is one of the world's largest wetlands",
-          "value": "landlocked; The Sudd is a vast swamp in the north central region of South Sudan, formed by the White Nile, its size is variable but can reach some 15% of the country's total area during the rainy season; it is one of the world's largest wetlands"
+          "content": "landlocked; The Sudd is a vast swamp in the north central region of South Sudan, formed by the White Nile; its size is variable but can reach some 15% of the country's total area during the rainy season; it is one of the world's largest wetlands",
+          "value": "landlocked; The Sudd is a vast swamp in the north central region of South Sudan, formed by the White Nile; its size is variable but can reach some 15% of the country's total area during the rainy season; it is one of the world's largest wetlands"
         }
       ]
     },
@@ -1705,8 +1705,15 @@
           "name": "Inflation rate (consumer prices)",
           "field_id": 229,
           "comparative": false,
-          "content": "-6.69% (2022 est.)<br><br>10.52% (2021 est.)<br><br>29.68% (2020 est.)<br><br><b>note:</b> annual % change based on consumer prices",
+          "content": "2.38% (2023 est.)<br><br>-6.69% (2022 est.)<br><br>10.52% (2021 est.)<br><br><b>note:</b> annual % change based on consumer prices",
           "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2023",
+              "content": "2.38% (2023 est.)",
+              "value": "2.38",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Inflation rate (consumer prices) 2022",
               "content": "-6.69% (2022 est.)",
@@ -1718,13 +1725,6 @@
               "name": "Inflation rate (consumer prices) 2021",
               "content": "10.52% (2021 est.)",
               "value": "10.52",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2020",
-              "content": "29.68% (2020 est.)",
-              "value": "29.68",
               "estimated": true,
               "suffix": "%"
             }
@@ -1808,36 +1808,36 @@
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "4.319 million (2022 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
-          "value": "4319000",
+          "content": "4.471 million (2023 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
+          "value": "4471000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "field_note": "<b>note:</b> number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": false,
-          "content": "12.44% (2022 est.)<br><br>14.3% (2021 est.)<br><br>14.41% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
+          "content": "12.27% (2023 est.)<br><br>12.4% (2022 est.)<br><br>13.87% (2021 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
+              "name": "Unemployment rate 2023",
+              "content": "12.27% (2023 est.)",
+              "value": "12.27",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
               "name": "Unemployment rate 2022",
-              "content": "12.44% (2022 est.)",
-              "value": "12.44",
+              "content": "12.4% (2022 est.)",
+              "value": "12.4",
               "estimated": true,
               "suffix": "%"
             },
             {
               "name": "Unemployment rate 2021",
-              "content": "14.3% (2021 est.)",
-              "value": "14.3",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Unemployment rate 2020",
-              "content": "14.41% (2020 est.)",
-              "value": "14.41",
+              "content": "13.87% (2021 est.)",
+              "value": "13.87",
               "estimated": true,
               "suffix": "%"
             }
@@ -1900,6 +1900,32 @@
             }
           ],
           "field_note": "<b>note:</b> index (0-100) of income distribution; higher values represent greater inequality"
+        },
+        {
+          "name": "Household income or consumption by percentage share",
+          "field_id": 222,
+          "comparative": false,
+          "content": "<strong>lowest 10%: </strong>1.7% (2016 est.)<br><br><strong>highest 10%: </strong>33.1% (2016 est.)",
+          "subfields": [
+            {
+              "name": "lowest 10%",
+              "content": "1.7% (2016 est.)",
+              "title": "lowest 10%",
+              "value": "1.7",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "%"
+            },
+            {
+              "name": "highest 10%",
+              "content": "33.1% (2016 est.)",
+              "title": "highest 10%",
+              "value": "33.1",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Remittances",

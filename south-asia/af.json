@@ -1,9 +1,9 @@
 {
   "name": "Afghanistan",
   "code": "AF",
-  "published": "2024-07-13 00:00:00 -0400",
+  "published": "2024-07-25 00:00:13 -0400",
   "region": "South Asia",
-  "updated": "2024-07-12 13:43:57 -0400",
+  "updated": "2024-07-24 11:14:34 -0400",
   "media": [
     {
       "type": "flag",
@@ -115,12 +115,12 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>652,230 sq km<br><br><strong>land: </strong>652,230 sq km<br><br><strong>water: </strong>0 sq km",
+          "content": "<strong>total : </strong>652,230 sq km<br><br><strong>land: </strong>652,230 sq km<br><br><strong>water: </strong>0 sq km",
           "subfields": [
             {
-              "name": "total",
+              "name": "total ",
               "content": "652,230 sq km",
-              "title": "total",
+              "title": "total ",
               "value": "652230",
               "suffix": "sq km"
             },
@@ -1846,38 +1846,45 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$60.802 billion (2021 est.)<br><br>$76.711 billion (2020 est.)<br><br>$78.558 billion (2019 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$80.416 billion (2022 est.)<br><br>$85.768 billion (2021 est.)<br><br>$108.209 billion (2020 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP (purchasing power parity) 2022",
+              "content": "$80.416 billion (2022 est.)",
+              "value": "80416000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP (purchasing power parity) 2021",
-              "content": "$60.802 billion (2021 est.)",
-              "value": "60802000000",
+              "content": "$85.768 billion (2021 est.)",
+              "value": "85768000000",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP (purchasing power parity) 2020",
-              "content": "$76.711 billion (2020 est.)",
-              "value": "76711000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2019",
-              "content": "$78.558 billion (2019 est.)",
-              "value": "78558000000",
+              "content": "$108.209 billion (2020 est.)",
+              "value": "108209000000",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "-20.74% (2021 est.)<br><br>-2.35% (2020 est.)<br><br>3.91% (2019 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
+          "content": "-6.24% (2022 est.)<br><br>-20.74% (2021 est.)<br><br>-2.35% (2020 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
+            {
+              "name": "Real GDP growth rate 2022",
+              "content": "-6.24% (2022 est.)",
+              "value": "-6.24",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Real GDP growth rate 2021",
               "content": "-20.74% (2021 est.)",
@@ -1891,13 +1898,6 @@
               "value": "-2.35",
               "estimated": true,
               "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2019",
-              "content": "3.91% (2019 est.)",
-              "value": "3.91",
-              "estimated": true,
-              "suffix": "%"
             }
           ],
           "field_note": "<b>note:</b> annual GDP % growth based on constant local currency"
@@ -1906,40 +1906,40 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$1,500 (2021 est.)<br><br>$2,000 (2020 est.)<br><br>$2,100 (2019 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$2,000 (2022 est.)<br><br>$2,100 (2021 est.)<br><br>$2,800 (2020 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2021",
-              "content": "$1,500 (2021 est.)",
-              "value": "1500",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2020",
-              "content": "$2,000 (2020 est.)",
+              "name": "Real GDP per capita 2022",
+              "content": "$2,000 (2022 est.)",
               "value": "2000",
               "estimated": true,
               "prefix": "$"
             },
             {
-              "name": "Real GDP per capita 2019",
-              "content": "$2,100 (2019 est.)",
+              "name": "Real GDP per capita 2021",
+              "content": "$2,100 (2021 est.)",
               "value": "2100",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP per capita 2020",
+              "content": "$2,800 (2020 est.)",
+              "value": "2800",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$14.266 billion (2021 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "14266000000",
+          "content": "$14.502 billion (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "14502000000",
           "estimated": true,
-          "info_date": "2021",
+          "info_date": "2022",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -2091,10 +2091,10 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "-12.81% (2021 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
-          "value": "-12.81",
+          "content": "-5.73% (2022 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
+          "value": "-5.73",
           "estimated": true,
-          "info_date": "2021",
+          "info_date": "2022",
           "suffix": "%",
           "field_note": "<b>note:</b> annual % change in industrial value added based on constant local currency"
         },
@@ -2102,18 +2102,25 @@
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "8.804 million (2022 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
-          "value": "8804000",
+          "content": "8.921 million (2023 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
+          "value": "8921000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "field_note": "<b>note:</b> number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": false,
-          "content": "14.1% (2022 est.)<br><br>12.08% (2021 est.)<br><br>11.71% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
+          "content": "14.39% (2023 est.)<br><br>14.1% (2022 est.)<br><br>11.93% (2021 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
+            {
+              "name": "Unemployment rate 2023",
+              "content": "14.39% (2023 est.)",
+              "value": "14.39",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Unemployment rate 2022",
               "content": "14.1% (2022 est.)",
@@ -2123,15 +2130,8 @@
             },
             {
               "name": "Unemployment rate 2021",
-              "content": "12.08% (2021 est.)",
-              "value": "12.08",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Unemployment rate 2020",
-              "content": "11.71% (2020 est.)",
-              "value": "11.71",
+              "content": "11.93% (2021 est.)",
+              "value": "11.93",
               "estimated": true,
               "suffix": "%"
             }
@@ -2222,12 +2222,19 @@
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "2.1% of GDP (2021 est.)<br><br>3.95% of GDP (2020 est.)<br><br>4.41% of GDP (2019 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "2.55% of GDP (2022 est.)<br><br>2.24% of GDP (2021 est.)<br><br>3.95% of GDP (2020 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
             {
+              "name": "Remittances 2022",
+              "content": "2.55% of GDP (2022 est.)",
+              "value": "2.55",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
               "name": "Remittances 2021",
-              "content": "2.1% of GDP (2021 est.)",
-              "value": "2.1",
+              "content": "2.24% of GDP (2021 est.)",
+              "value": "2.24",
               "estimated": true,
               "suffix": "% of GDP"
             },
@@ -2235,13 +2242,6 @@
               "name": "Remittances 2020",
               "content": "3.95% of GDP (2020 est.)",
               "value": "3.95",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Remittances 2019",
-              "content": "4.41% of GDP (2019 est.)",
-              "value": "4.41",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -3179,9 +3179,9 @@
           "name": "Terrorist group(s)",
           "field_id": 413,
           "comparative": false,
-          "content": "Haqqani Taliban Network; Harakat ul-Mujahidin; Harakat ul-Jihad-i-Islami; Islamic Jihad Union; Islamic Movement of Uzbekistan; Islamic State of Iraq and ash-Sham-Khorasan Province (ISIS-K); Islamic Revolutionary Guard Corps (IRGC)/Qods Force; Jaish-e-Mohammed; Jaysh al Adl (Jundallah); Lashkar i Jhangvi; Lashkar-e Tayyiba; al-Qa&rsquo;ida; al-Qa'ida in the Indian Subcontinent (AQIS); Tehrik-e-Taliban Pakistan (TTP)<br><br><strong><strong>note 1:&nbsp; </strong></strong>as of mid-2022, TTP was reportedly the largest component of foreign terrorist fighters in Afghanistan, with an estimated 3-4,000 armed fighters operating primarily along the Afghanistan-Pakistan border<strong><strong><br /></strong></strong><strong><br />note 2:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix T</a>",
+          "content": "Haqqani Taliban Network; Harakat ul-Mujahidin; Harakat ul-Jihad-i-Islami; Islamic Jihad Union; Islamic Movement of Uzbekistan; Islamic State of Iraq and ash-Sham-Khorasan Province (ISIS-K); Islamic Revolutionary Guard Corps (IRGC)/Qods Force; Jaish-e-Mohammed; Jaysh al Adl (Jundallah); Lashkar i Jhangvi; Lashkar-e Tayyiba; al-Qa&rsquo;ida; al-Qa'ida in the Indian Subcontinent (AQIS); Tehrik-e-Taliban Pakistan (TTP)<br><br><strong><strong>note 1:&nbsp; </strong></strong>as of mid-2022, TTP was reportedly the largest component of foreign terrorist fighters in Afghanistan, with an estimated 3-4,000 armed fighters operating primarily along the Afghanistan-Pakistan border<strong><strong><br /></strong></strong><strong><br />note 2:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in the <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Terrorism</a> reference guide",
           "value": "Haqqani Taliban Network; Harakat ul-Mujahidin; Harakat ul-Jihad-i-Islami; Islamic Jihad Union; Islamic Movement of Uzbekistan; Islamic State of Iraq and ash-Sham-Khorasan Province (ISIS-K); Islamic Revolutionary Guard Corps (IRGC)/Qods Force; Jaish-e-Mohammed; Jaysh al Adl (Jundallah); Lashkar i Jhangvi; Lashkar-e Tayyiba; al-Qa&rsquo;ida; al-Qa'ida in the Indian Subcontinent (AQIS); Tehrik-e-Taliban Pakistan (TTP)",
-          "field_note": "<strong><strong>note 1:&nbsp; </strong></strong>as of mid-2022, TTP was reportedly the largest component of foreign terrorist fighters in Afghanistan, with an estimated 3-4,000 armed fighters operating primarily along the Afghanistan-Pakistan border<strong><strong><br /></strong></strong><strong><br />note 2:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix T</a>"
+          "field_note": "<strong><strong>note 1:&nbsp; </strong></strong>as of mid-2022, TTP was reportedly the largest component of foreign terrorist fighters in Afghanistan, with an estimated 3-4,000 armed fighters operating primarily along the Afghanistan-Pakistan border<strong><strong><br /></strong></strong><strong><br />note 2:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in the <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Terrorism</a> reference guide"
         }
       ]
     },

@@ -1,9 +1,9 @@
 {
   "name": "Sint Maarten",
   "code": "NN",
-  "published": "2024-07-11 05:50:55 -0400",
+  "published": "2024-07-25 00:09:31 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2024-07-08 16:24:29 -0400",
+  "updated": "2024-07-24 11:14:43 -0400",
   "media": [
     {
       "type": "flag",
@@ -91,12 +91,12 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>34 sq km<br><br><strong>land: </strong>34 sq km<br><br><strong>water: </strong>0 sq km<br><br><strong>note:</strong> Dutch part of the island of Saint Martin",
+          "content": "<strong>total : </strong>34 sq km<br><br><strong>land: </strong>34 sq km<br><br><strong>water: </strong>0 sq km<br><br><strong>note:</strong> Dutch part of the island of Saint Martin",
           "subfields": [
             {
-              "name": "total",
+              "name": "total ",
               "content": "34 sq km",
-              "title": "total",
+              "title": "total ",
               "value": "34",
               "suffix": "sq km"
             },
@@ -233,8 +233,8 @@
           "name": "Geography - note",
           "field_id": 295,
           "comparative": false,
-          "content": "<p><strong>note 1:</strong> the northern border is shared with the French overseas collectivity of Saint Martin; together, these two entities make up the smallest landmass in the world shared by two self-governing states<br /><br /><strong>note 2:</strong> Simpson Bay Lagoon (aka as Simson Bay Lagoon or The Great Pond) is one of the largest inland lagoons in the West Indies; the border between the French and Dutch halves of the island of Saint Martin runs across the center of the lagoon, which is shared by both of the island's entities</p>",
-          "value": "<p><strong>note 1:</strong> the northern border is shared with the French overseas collectivity of Saint Martin; together, these two entities make up the smallest landmass in the world shared by two self-governing states<br /><br /><strong>note 2:</strong> Simpson Bay Lagoon (aka as Simson Bay Lagoon or The Great Pond) is one of the largest inland lagoons in the West Indies; the border between the French and Dutch halves of the island of Saint Martin runs across the center of the lagoon, which is shared by both of the island's entities</p>"
+          "content": "<p><strong>note 1:</strong> the northern border is shared with the French overseas collectivity of Saint Martin; together, these two entities make up the smallest landmass in the world shared by two self-governing states<br /><br /><strong>note 2:</strong> Simpson Bay Lagoon (aka Simson Bay Lagoon or The Great Pond) is one of the largest inland lagoons in the West Indies; the border between the French and Dutch halves of the island of Saint Martin runs across the center of the lagoon, which is shared by both entities</p>",
+          "value": "<p><strong>note 1:</strong> the northern border is shared with the French overseas collectivity of Saint Martin; together, these two entities make up the smallest landmass in the world shared by two self-governing states<br /><br /><strong>note 2:</strong> Simpson Bay Lagoon (aka Simson Bay Lagoon or The Great Pond) is one of the largest inland lagoons in the West Indies; the border between the French and Dutch halves of the island of Saint Martin runs across the center of the lagoon, which is shared by both entities</p>"
         }
       ]
     },
@@ -1178,38 +1178,45 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$1.797 billion (2022 est.)<br><br>$1.637 billion (2021 est.)<br><br>$1.565 billion (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$1.912 billion (2023 est.)<br><br>$1.849 billion (2022 est.)<br><br>$1.684 billion (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP (purchasing power parity) 2023",
+              "content": "$1.912 billion (2023 est.)",
+              "value": "1912000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP (purchasing power parity) 2022",
-              "content": "$1.797 billion (2022 est.)",
-              "value": "1797000000",
+              "content": "$1.849 billion (2022 est.)",
+              "value": "1849000000",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP (purchasing power parity) 2021",
-              "content": "$1.637 billion (2021 est.)",
-              "value": "1637000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2020",
-              "content": "$1.565 billion (2020 est.)",
-              "value": "1565000000",
+              "content": "$1.684 billion (2021 est.)",
+              "value": "1684000000",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "9.8% (2022 est.)<br><br>4.58% (2021 est.)<br><br>-13.32% (2020 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
+          "content": "3.4% (2023 est.)<br><br>9.8% (2022 est.)<br><br>4.58% (2021 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
+            {
+              "name": "Real GDP growth rate 2023",
+              "content": "3.4% (2023 est.)",
+              "value": "3.4",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Real GDP growth rate 2022",
               "content": "9.8% (2022 est.)",
@@ -1223,13 +1230,6 @@
               "value": "4.58",
               "estimated": true,
               "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2020",
-              "content": "-13.32% (2020 est.)",
-              "value": "-13.32",
-              "estimated": true,
-              "suffix": "%"
             }
           ],
           "field_note": "<b>note:</b> annual GDP % growth based on constant local currency"
@@ -1238,40 +1238,40 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$41,900 (2022 est.)<br><br>$38,400 (2021 est.)<br><br>$37,000 (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$46,400 (2023 est.)<br><br>$45,200 (2022 est.)<br><br>$41,400 (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP per capita 2023",
+              "content": "$46,400 (2023 est.)",
+              "value": "46400",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP per capita 2022",
-              "content": "$41,900 (2022 est.)",
-              "value": "41900",
+              "content": "$45,200 (2022 est.)",
+              "value": "45200",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP per capita 2021",
-              "content": "$38,400 (2021 est.)",
-              "value": "38400",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2020",
-              "content": "$37,000 (2020 est.)",
-              "value": "37000",
+              "content": "$41,400 (2021 est.)",
+              "value": "41400",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$1.537 billion (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "1537000000",
+          "content": "$1.623 billion (2023 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "1623000000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -1400,26 +1400,26 @@
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "3.2% of GDP (2022 est.)<br><br>3.42% of GDP (2021 est.)<br><br>3.13% of GDP (2020 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "2.9% of GDP (2023 est.)<br><br>3.15% of GDP (2022 est.)<br><br>3.44% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
             {
+              "name": "Remittances 2023",
+              "content": "2.9% of GDP (2023 est.)",
+              "value": "2.9",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
               "name": "Remittances 2022",
-              "content": "3.2% of GDP (2022 est.)",
-              "value": "3.2",
+              "content": "3.15% of GDP (2022 est.)",
+              "value": "3.15",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Remittances 2021",
-              "content": "3.42% of GDP (2021 est.)",
-              "value": "3.42",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Remittances 2020",
-              "content": "3.13% of GDP (2020 est.)",
-              "value": "3.13",
+              "content": "3.44% of GDP (2021 est.)",
+              "value": "3.44",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -1556,12 +1556,18 @@
           "name": "Exchange rates",
           "field_id": 249,
           "comparative": false,
-          "content": "Netherlands Antillean guilders (ANG) per US dollar -<br><br>1.79 (2022 est.)<br><br>1.79 (2021 est.)<br><br>1.79 (2020 est.)<br><br>1.79 (2019 est.)<br><br>1.79 (2018 est.)",
+          "content": "Netherlands Antillean guilders (ANG) per US dollar -<br><br>1.79 (2023 est.)<br><br>1.79 (2022 est.)<br><br>1.79 (2021 est.)<br><br>1.79 (2020 est.)<br><br>1.79 (2019 est.)",
           "subfields": [
             {
               "name": "Currency",
               "content": "Netherlands Antillean guilders (ANG) per US dollar -",
               "value": "Netherlands Antillean guilders (ANG) per US dollar -"
+            },
+            {
+              "name": "Exchange rates 2023",
+              "content": "1.79 (2023 est.)",
+              "value": "1.79",
+              "estimated": true
             },
             {
               "name": "Exchange rates 2022",
@@ -1584,12 +1590,6 @@
             {
               "name": "Exchange rates 2019",
               "content": "1.79 (2019 est.)",
-              "value": "1.79",
-              "estimated": true
-            },
-            {
-              "name": "Exchange rates 2018",
-              "content": "1.79 (2018 est.)",
               "value": "1.79",
               "estimated": true
             }

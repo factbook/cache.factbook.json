@@ -1,9 +1,9 @@
 {
   "name": "Ireland",
   "code": "EI",
-  "published": "2024-07-11 05:45:04 -0400",
+  "published": "2024-07-25 00:03:55 -0400",
   "region": "Europe",
-  "updated": "2024-07-08 16:24:26 -0400",
+  "updated": "2024-07-24 11:14:36 -0400",
   "media": [
     {
       "type": "flag",
@@ -331,12 +331,12 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>70,273 sq km<br><br><strong>land: </strong>68,883 sq km<br><br><strong>water: </strong>1,390 sq km",
+          "content": "<strong>total : </strong>70,273 sq km<br><br><strong>land: </strong>68,883 sq km<br><br><strong>water: </strong>1,390 sq km",
           "subfields": [
             {
-              "name": "total",
+              "name": "total ",
               "content": "70,273 sq km",
-              "title": "total",
+              "title": "total ",
               "value": "70273",
               "suffix": "sq km"
             },
@@ -2048,38 +2048,45 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$576.527 billion (2022 est.)<br><br>$526.831 billion (2021 est.)<br><br>$457.615 billion (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$608.463 billion (2023 est.)<br><br>$628.57 billion (2022 est.)<br><br>$574.387 billion (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP (purchasing power parity) 2023",
+              "content": "$608.463 billion (2023 est.)",
+              "value": "608463000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP (purchasing power parity) 2022",
-              "content": "$576.527 billion (2022 est.)",
-              "value": "576527000000",
+              "content": "$628.57 billion (2022 est.)",
+              "value": "628570000000",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP (purchasing power parity) 2021",
-              "content": "$526.831 billion (2021 est.)",
-              "value": "526831000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2020",
-              "content": "$457.615 billion (2020 est.)",
-              "value": "457615000000",
+              "content": "$574.387 billion (2021 est.)",
+              "value": "574387000000",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "9.43% (2022 est.)<br><br>15.13% (2021 est.)<br><br>6.62% (2020 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
+          "content": "-3.2% (2023 est.)<br><br>9.43% (2022 est.)<br><br>15.13% (2021 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
+            {
+              "name": "Real GDP growth rate 2023",
+              "content": "-3.2% (2023 est.)",
+              "value": "-3.2",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Real GDP growth rate 2022",
               "content": "9.43% (2022 est.)",
@@ -2093,13 +2100,6 @@
               "value": "15.13",
               "estimated": true,
               "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2020",
-              "content": "6.62% (2020 est.)",
-              "value": "6.62",
-              "estimated": true,
-              "suffix": "%"
             }
           ],
           "field_note": "<b>note:</b> annual GDP % growth based on constant local currency"
@@ -2108,40 +2108,40 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$112,400 (2022 est.)<br><br>$104,700 (2021 est.)<br><br>$91,800 (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$115,600 (2023 est.)<br><br>$122,600 (2022 est.)<br><br>$114,100 (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP per capita 2023",
+              "content": "$115,600 (2023 est.)",
+              "value": "115600",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP per capita 2022",
-              "content": "$112,400 (2022 est.)",
-              "value": "112400",
+              "content": "$122,600 (2022 est.)",
+              "value": "122600",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP per capita 2021",
-              "content": "$104,700 (2021 est.)",
-              "value": "104700",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2020",
-              "content": "$91,800 (2020 est.)",
-              "value": "91800",
+              "content": "$114,100 (2021 est.)",
+              "value": "114100",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$533.14 billion (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "533140000000",
+          "content": "$545.629 billion (2023 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "545629000000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -2149,26 +2149,26 @@
           "name": "Inflation rate (consumer prices)",
           "field_id": 229,
           "comparative": false,
-          "content": "7.81% (2022 est.)<br><br>2.36% (2021 est.)<br><br>-0.33% (2020 est.)<br><br><b>note:</b> annual % change based on consumer prices",
+          "content": "6.3% (2023 est.)<br><br>7.83% (2022 est.)<br><br>2.34% (2021 est.)<br><br><b>note:</b> annual % change based on consumer prices",
           "subfields": [
             {
+              "name": "Inflation rate (consumer prices) 2023",
+              "content": "6.3% (2023 est.)",
+              "value": "6.3",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
               "name": "Inflation rate (consumer prices) 2022",
-              "content": "7.81% (2022 est.)",
-              "value": "7.81",
+              "content": "7.83% (2022 est.)",
+              "value": "7.83",
               "estimated": true,
               "suffix": "%"
             },
             {
               "name": "Inflation rate (consumer prices) 2021",
-              "content": "2.36% (2021 est.)",
-              "value": "2.36",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2020",
-              "content": "-0.33% (2020 est.)",
-              "value": "-0.33",
+              "content": "2.34% (2021 est.)",
+              "value": "2.34",
               "estimated": true,
               "suffix": "%"
             }
@@ -2322,10 +2322,10 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "18.13% (2022 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
-          "value": "18.13",
+          "content": "-10.79% (2023 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
+          "value": "-10.79",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "suffix": "%",
           "field_note": "<b>note:</b> annual % change in industrial value added based on constant local currency"
         },
@@ -2333,18 +2333,25 @@
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "2.673 million (2022 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
-          "value": "2673000",
+          "content": "2.766 million (2023 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
+          "value": "2766000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "field_note": "<b>note:</b> number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": false,
-          "content": "4.48% (2022 est.)<br><br>6.19% (2021 est.)<br><br>5.62% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
+          "content": "4.34% (2023 est.)<br><br>4.48% (2022 est.)<br><br>6.19% (2021 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
+            {
+              "name": "Unemployment rate 2023",
+              "content": "4.34% (2023 est.)",
+              "value": "4.34",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Unemployment rate 2022",
               "content": "4.48% (2022 est.)",
@@ -2356,13 +2363,6 @@
               "name": "Unemployment rate 2021",
               "content": "6.19% (2021 est.)",
               "value": "6.19",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Unemployment rate 2020",
-              "content": "5.62% (2020 est.)",
-              "value": "5.62",
               "estimated": true,
               "suffix": "%"
             }
@@ -2415,12 +2415,12 @@
           "name": "Gini Index coefficient - distribution of family income",
           "field_id": 223,
           "comparative": false,
-          "content": "29.2 (2020 est.)<br><br><b>note:</b> index (0-100) of income distribution; higher values represent greater inequality",
+          "content": "30.1 (2021 est.)<br><br><b>note:</b> index (0-100) of income distribution; higher values represent greater inequality",
           "subfields": [
             {
-              "name": "Gini Index coefficient - distribution of family income 2020",
-              "content": "29.2 (2020 est.)",
-              "value": "29.2",
+              "name": "Gini Index coefficient - distribution of family income 2021",
+              "content": "30.1 (2021 est.)",
+              "value": "30.1",
               "estimated": true
             }
           ],
@@ -2456,22 +2456,24 @@
           "name": "Household income or consumption by percentage share",
           "field_id": 222,
           "comparative": false,
-          "content": "<strong>lowest 10%: </strong>3.7%<br><br><strong>highest 10%: </strong>23.8% (2020 est.)<br><br><b>note:</b> % share of income accruing to lowest and highest 10% of population",
+          "content": "<strong>lowest 10%: </strong>3.6% (2021 est.)<br><br><strong>highest 10%: </strong>24.8% (2021 est.)<br><br><b>note:</b> % share of income accruing to lowest and highest 10% of population",
           "subfields": [
             {
               "name": "lowest 10%",
-              "content": "3.7%",
+              "content": "3.6% (2021 est.)",
               "title": "lowest 10%",
-              "value": "3.7",
+              "value": "3.6",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "highest 10%",
-              "content": "23.8% (2020 est.)",
+              "content": "24.8% (2021 est.)",
               "title": "highest 10%",
-              "value": "23.8",
+              "value": "24.8",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2021",
               "suffix": "%"
             }
           ],
@@ -2481,8 +2483,15 @@
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "0.08% of GDP (2022 est.)<br><br>0.04% of GDP (2021 est.)<br><br>0.06% of GDP (2020 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "0.08% of GDP (2023 est.)<br><br>0.08% of GDP (2022 est.)<br><br>0.04% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
+            {
+              "name": "Remittances 2023",
+              "content": "0.08% of GDP (2023 est.)",
+              "value": "0.08",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Remittances 2022",
               "content": "0.08% of GDP (2022 est.)",
@@ -2494,13 +2503,6 @@
               "name": "Remittances 2021",
               "content": "0.04% of GDP (2021 est.)",
               "value": "0.04",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Remittances 2020",
-              "content": "0.06% of GDP (2020 est.)",
-              "value": "0.06",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -2547,26 +2549,26 @@
           "name": "Public debt",
           "field_id": 227,
           "comparative": true,
-          "content": "64.23% of GDP (2021 est.)<br><br>71.28% of GDP (2020 est.)<br><br>69.6% of GDP (2019 est.)<br><br><b>note:</b> central government debt as a % of GDP",
+          "content": "46.71% of GDP (2022 est.)<br><br>64.34% of GDP (2021 est.)<br><br>71.3% of GDP (2020 est.)<br><br><b>note:</b> central government debt as a % of GDP",
           "subfields": [
             {
+              "name": "Public debt 2022",
+              "content": "46.71% of GDP (2022 est.)",
+              "value": "46.71",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
               "name": "Public debt 2021",
-              "content": "64.23% of GDP (2021 est.)",
-              "value": "64.23",
+              "content": "64.34% of GDP (2021 est.)",
+              "value": "64.34",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Public debt 2020",
-              "content": "71.28% of GDP (2020 est.)",
-              "value": "71.28",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Public debt 2019",
-              "content": "69.6% of GDP (2019 est.)",
-              "value": "69.6",
+              "content": "71.3% of GDP (2020 est.)",
+              "value": "71.3",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -2577,10 +2579,10 @@
           "name": "Taxes and other revenues",
           "field_id": 225,
           "comparative": false,
-          "content": "17.16% (of GDP) (2021 est.)<br><br><b>note:</b> central government tax revenue as a % of GDP",
-          "value": "17.16",
+          "content": "17.27% (of GDP) (2022 est.)<br><br><b>note:</b> central government tax revenue as a % of GDP",
+          "value": "17.27",
           "estimated": true,
-          "info_date": "2021",
+          "info_date": "2022",
           "suffix": "% (of GDP)",
           "field_note": "<b>note:</b> central government tax revenue as a % of GDP"
         },
@@ -2588,8 +2590,15 @@
           "name": "Current account balance",
           "field_id": 238,
           "comparative": false,
-          "content": "$57.807 billion (2022 est.)<br><br>$70.909 billion (2021 est.)<br><br>-$26.44 billion (2020 est.)<br><br><b>note:</b> balance of payments - net trade and primary/secondary income in current dollars",
+          "content": "$53.997 billion (2023 est.)<br><br>$57.807 billion (2022 est.)<br><br>$70.909 billion (2021 est.)<br><br><b>note:</b> balance of payments - net trade and primary/secondary income in current dollars",
           "subfields": [
+            {
+              "name": "Current account balance 2023",
+              "content": "$53.997 billion (2023 est.)",
+              "value": "53997000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Current account balance 2022",
               "content": "$57.807 billion (2022 est.)",
@@ -2603,13 +2612,6 @@
               "value": "70909000000",
               "estimated": true,
               "prefix": "$"
-            },
-            {
-              "name": "Current account balance 2020",
-              "content": "-$26.44 billion (2020 est.)",
-              "value": "-26440000000",
-              "estimated": true,
-              "prefix": "$"
             }
           ],
           "field_note": "<b>note:</b> balance of payments - net trade and primary/secondary income in current dollars"
@@ -2618,8 +2620,15 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$729.135 billion (2022 est.)<br><br>$685.814 billion (2021 est.)<br><br>$571.051 billion (2020 est.)<br><br><b>note:</b> balance of payments - exports of goods and services in current dollars",
+          "content": "$731.814 billion (2023 est.)<br><br>$729.135 billion (2022 est.)<br><br>$685.814 billion (2021 est.)<br><br><b>note:</b> balance of payments - exports of goods and services in current dollars",
           "subfields": [
+            {
+              "name": "Exports 2023",
+              "content": "$731.814 billion (2023 est.)",
+              "value": "731814000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Exports 2022",
               "content": "$729.135 billion (2022 est.)",
@@ -2631,13 +2640,6 @@
               "name": "Exports 2021",
               "content": "$685.814 billion (2021 est.)",
               "value": "685814000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2020",
-              "content": "$571.051 billion (2020 est.)",
-              "value": "571051000000",
               "estimated": true,
               "prefix": "$"
             }
@@ -2666,8 +2668,15 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$516.084 billion (2022 est.)<br><br>$479.284 billion (2021 est.)<br><br>$488.823 billion (2020 est.)<br><br><b>note:</b> balance of payments - imports of goods and services in current dollars",
+          "content": "$548.827 billion (2023 est.)<br><br>$516.084 billion (2022 est.)<br><br>$479.284 billion (2021 est.)<br><br><b>note:</b> balance of payments - imports of goods and services in current dollars",
           "subfields": [
+            {
+              "name": "Imports 2023",
+              "content": "$548.827 billion (2023 est.)",
+              "value": "548827000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Imports 2022",
               "content": "$516.084 billion (2022 est.)",
@@ -2679,13 +2688,6 @@
               "name": "Imports 2021",
               "content": "$479.284 billion (2021 est.)",
               "value": "479284000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2020",
-              "content": "$488.823 billion (2020 est.)",
-              "value": "488823000000",
               "estimated": true,
               "prefix": "$"
             }
@@ -2714,8 +2716,15 @@
           "name": "Reserves of foreign exchange and gold",
           "field_id": 245,
           "comparative": true,
-          "content": "$13.039 billion (2022 est.)<br><br>$13.247 billion (2021 est.)<br><br>$7.463 billion (2020 est.)<br><br><b>note:</b> holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars",
+          "content": "$12.905 billion (2023 est.)<br><br>$13.039 billion (2022 est.)<br><br>$13.247 billion (2021 est.)<br><br><b>note:</b> holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars",
           "subfields": [
+            {
+              "name": "Reserves of foreign exchange and gold 2023",
+              "content": "$12.905 billion (2023 est.)",
+              "value": "12905000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Reserves of foreign exchange and gold 2022",
               "content": "$13.039 billion (2022 est.)",
@@ -2727,13 +2736,6 @@
               "name": "Reserves of foreign exchange and gold 2021",
               "content": "$13.247 billion (2021 est.)",
               "value": "13247000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Reserves of foreign exchange and gold 2020",
-              "content": "$7.463 billion (2020 est.)",
-              "value": "7463000000",
               "estimated": true,
               "prefix": "$"
             }
@@ -2766,12 +2768,18 @@
           "name": "Exchange rates",
           "field_id": 249,
           "comparative": false,
-          "content": "euros (EUR) per US dollar -<br><br>0.95 (2022 est.)<br><br>0.845 (2021 est.)<br><br>0.876 (2020 est.)<br><br>0.893 (2019 est.)<br><br>0.847 (2018 est.)",
+          "content": "euros (EUR) per US dollar -<br><br>0.925 (2023 est.)<br><br>0.95 (2022 est.)<br><br>0.845 (2021 est.)<br><br>0.876 (2020 est.)<br><br>0.893 (2019 est.)",
           "subfields": [
             {
               "name": "Currency",
               "content": "euros (EUR) per US dollar -",
               "value": "euros (EUR) per US dollar -"
+            },
+            {
+              "name": "Exchange rates 2023",
+              "content": "0.925 (2023 est.)",
+              "value": "0.925",
+              "estimated": true
             },
             {
               "name": "Exchange rates 2022",
@@ -2795,12 +2803,6 @@
               "name": "Exchange rates 2019",
               "content": "0.893 (2019 est.)",
               "value": "0.893",
-              "estimated": true
-            },
-            {
-              "name": "Exchange rates 2018",
-              "content": "0.847 (2018 est.)",
-              "value": "0.847",
               "estimated": true
             }
           ]
@@ -3560,9 +3562,9 @@
           "name": "Terrorist group(s)",
           "field_id": 413,
           "comparative": false,
-          "content": "Continuity Irish Republican Army; New Irish Republican Army; Islamic State of Iraq and ash-Sham (ISIS)<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix-T</a>",
+          "content": "Continuity Irish Republican Army; New Irish Republican Army; Islamic State of Iraq and ash-Sham (ISIS)<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in the <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Terrorism</a> reference guide",
           "value": "Continuity Irish Republican Army; New Irish Republican Army; Islamic State of Iraq and ash-Sham (ISIS)",
-          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix-T</a>"
+          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in the <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Terrorism</a> reference guide"
         }
       ]
     },

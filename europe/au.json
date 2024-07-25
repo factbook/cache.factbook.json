@@ -1,9 +1,9 @@
 {
   "name": "Austria",
   "code": "AU",
-  "published": "2024-07-11 05:41:55 -0400",
+  "published": "2024-07-25 00:00:52 -0400",
   "region": "Europe",
-  "updated": "2024-07-08 16:24:23 -0400",
+  "updated": "2024-07-24 11:14:34 -0400",
   "media": [
     {
       "type": "flag",
@@ -323,12 +323,12 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>83,871 sq km<br><br><strong>land: </strong>82,445 sq km<br><br><strong>water: </strong>1,426 sq km",
+          "content": "<strong>total : </strong>83,871 sq km<br><br><strong>land: </strong>82,445 sq km<br><br><strong>water: </strong>1,426 sq km",
           "subfields": [
             {
-              "name": "total",
+              "name": "total ",
               "content": "83,871 sq km",
-              "title": "total",
+              "title": "total ",
               "value": "83871",
               "suffix": "sq km"
             },
@@ -557,7 +557,7 @@
         {
           "name": "Geography - note",
           "field_id": 295,
-          "content": "note 1: landlocked; strategic location at the crossroads of central Europe with many easily traversable Alpine passes and valleys; major river is the Danube; population is concentrated on eastern lowlands because of steep slopes, poor soils, and low temperatures elsewhere<br /><br />note 2: the world's largest and longest ice cave system at 42 km (26 mi) is the Eisriesenwelt (Ice Giants World) inside the Hochkogel mountain near Werfen, about 40 km south of Salzburg; ice caves are bedrock caves that contain year-round ice formations; they differ from glacial caves, which are transient and are formed by melting ice and flowing water within and under glaciers"
+          "content": "<strong>note 1</strong>: landlocked; strategic location at the crossroads of central Europe with many easily traversable Alpine passes and valleys; major river is the Danube; population is concentrated on eastern lowlands because of steep slopes, poor soils, and low temperatures elsewhere<br /><br /><strong>note 2</strong>: the world's largest and longest ice cave system at 42 km (26 mi) is the Eisriesenwelt (Ice Giants World) inside the Hochkogel mountain near Werfen, about 40 km south of Salzburg; ice caves are bedrock caves that contain year-round ice formations; they differ from glacial caves, which are transient and are formed by melting ice and flowing water within and under glaciers"
         }
       ]
     },
@@ -2100,38 +2100,45 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$505.143 billion (2022 est.)<br><br>$481.977 billion (2021 est.)<br><br>$462.382 billion (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$590.354 billion (2023 est.)<br><br>$595.287 billion (2022 est.)<br><br>$567.987 billion (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP (purchasing power parity) 2023",
+              "content": "$590.354 billion (2023 est.)",
+              "value": "590354000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP (purchasing power parity) 2022",
-              "content": "$505.143 billion (2022 est.)",
-              "value": "505143000000",
+              "content": "$595.287 billion (2022 est.)",
+              "value": "595287000000",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP (purchasing power parity) 2021",
-              "content": "$481.977 billion (2021 est.)",
-              "value": "481977000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2020",
-              "content": "$462.382 billion (2020 est.)",
-              "value": "462382000000",
+              "content": "$567.987 billion (2021 est.)",
+              "value": "567987000000",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "4.81% (2022 est.)<br><br>4.24% (2021 est.)<br><br>-6.63% (2020 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
+          "content": "-0.83% (2023 est.)<br><br>4.81% (2022 est.)<br><br>4.24% (2021 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
+            {
+              "name": "Real GDP growth rate 2023",
+              "content": "-0.83% (2023 est.)",
+              "value": "-0.83",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Real GDP growth rate 2022",
               "content": "4.81% (2022 est.)",
@@ -2145,13 +2152,6 @@
               "value": "4.24",
               "estimated": true,
               "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2020",
-              "content": "-6.63% (2020 est.)",
-              "value": "-6.63",
-              "estimated": true,
-              "suffix": "%"
             }
           ],
           "field_note": "<b>note:</b> annual GDP % growth based on constant local currency"
@@ -2160,40 +2160,40 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$55,900 (2022 est.)<br><br>$53,800 (2021 est.)<br><br>$51,900 (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$64,600 (2023 est.)<br><br>$65,800 (2022 est.)<br><br>$63,400 (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP per capita 2023",
+              "content": "$64,600 (2023 est.)",
+              "value": "64600",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP per capita 2022",
-              "content": "$55,900 (2022 est.)",
-              "value": "55900",
+              "content": "$65,800 (2022 est.)",
+              "value": "65800",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP per capita 2021",
-              "content": "$53,800 (2021 est.)",
-              "value": "53800",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2020",
-              "content": "$51,900 (2020 est.)",
-              "value": "51900",
+              "content": "$63,400 (2021 est.)",
+              "value": "63400",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$470.942 billion (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "470942000000",
+          "content": "$516.034 billion (2023 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "516034000000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -2201,8 +2201,15 @@
           "name": "Inflation rate (consumer prices)",
           "field_id": 229,
           "comparative": false,
-          "content": "8.55% (2022 est.)<br><br>2.77% (2021 est.)<br><br>1.38% (2020 est.)<br><br><b>note:</b> annual % change based on consumer prices",
+          "content": "7.81% (2023 est.)<br><br>8.55% (2022 est.)<br><br>2.77% (2021 est.)<br><br><b>note:</b> annual % change based on consumer prices",
           "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2023",
+              "content": "7.81% (2023 est.)",
+              "value": "7.81",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Inflation rate (consumer prices) 2022",
               "content": "8.55% (2022 est.)",
@@ -2214,13 +2221,6 @@
               "name": "Inflation rate (consumer prices) 2021",
               "content": "2.77% (2021 est.)",
               "value": "2.77",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2020",
-              "content": "1.38% (2020 est.)",
-              "value": "1.38",
               "estimated": true,
               "suffix": "%"
             }
@@ -2374,10 +2374,10 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "3.03% (2022 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
-          "value": "3.03",
+          "content": "-1.99% (2023 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
+          "value": "-1.99",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "suffix": "%",
           "field_note": "<b>note:</b> annual % change in industrial value added based on constant local currency"
         },
@@ -2385,18 +2385,25 @@
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "4.762 million (2022 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
-          "value": "4762000",
+          "content": "4.825 million (2023 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
+          "value": "4825000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "field_note": "<b>note:</b> number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": false,
-          "content": "4.99% (2022 est.)<br><br>6.46% (2021 est.)<br><br>5.2% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
+          "content": "5.24% (2023 est.)<br><br>4.99% (2022 est.)<br><br>6.46% (2021 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
+            {
+              "name": "Unemployment rate 2023",
+              "content": "5.24% (2023 est.)",
+              "value": "5.24",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Unemployment rate 2022",
               "content": "4.99% (2022 est.)",
@@ -2408,13 +2415,6 @@
               "name": "Unemployment rate 2021",
               "content": "6.46% (2021 est.)",
               "value": "6.46",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Unemployment rate 2020",
-              "content": "5.2% (2020 est.)",
-              "value": "5.2",
               "estimated": true,
               "suffix": "%"
             }
@@ -2467,12 +2467,12 @@
           "name": "Gini Index coefficient - distribution of family income",
           "field_id": 223,
           "comparative": false,
-          "content": "29.8 (2020 est.)<br><br><b>note:</b> index (0-100) of income distribution; higher values represent greater inequality",
+          "content": "30.7 (2021 est.)<br><br><b>note:</b> index (0-100) of income distribution; higher values represent greater inequality",
           "subfields": [
             {
-              "name": "Gini Index coefficient - distribution of family income 2020",
-              "content": "29.8 (2020 est.)",
-              "value": "29.8",
+              "name": "Gini Index coefficient - distribution of family income 2021",
+              "content": "30.7 (2021 est.)",
+              "value": "30.7",
               "estimated": true
             }
           ],
@@ -2508,22 +2508,24 @@
           "name": "Household income or consumption by percentage share",
           "field_id": 222,
           "comparative": false,
-          "content": "<strong>lowest 10%: </strong>2.8%<br><br><strong>highest 10%: </strong>23.1% (2020 est.)<br><br><b>note:</b> % share of income accruing to lowest and highest 10% of population",
+          "content": "<strong>lowest 10%: </strong>2.8% (2021 est.)<br><br><strong>highest 10%: </strong>23.8% (2021 est.)<br><br><b>note:</b> % share of income accruing to lowest and highest 10% of population",
           "subfields": [
             {
               "name": "lowest 10%",
-              "content": "2.8%",
+              "content": "2.8% (2021 est.)",
               "title": "lowest 10%",
               "value": "2.8",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "highest 10%",
-              "content": "23.1% (2020 est.)",
+              "content": "23.8% (2021 est.)",
               "title": "highest 10%",
-              "value": "23.1",
+              "value": "23.8",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2021",
               "suffix": "%"
             }
           ],
@@ -2533,12 +2535,19 @@
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "0.62% of GDP (2022 est.)<br><br>0.67% of GDP (2021 est.)<br><br>0.7% of GDP (2020 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "0.64% of GDP (2023 est.)<br><br>0.64% of GDP (2022 est.)<br><br>0.67% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
             {
+              "name": "Remittances 2023",
+              "content": "0.64% of GDP (2023 est.)",
+              "value": "0.64",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
               "name": "Remittances 2022",
-              "content": "0.62% of GDP (2022 est.)",
-              "value": "0.62",
+              "content": "0.64% of GDP (2022 est.)",
+              "value": "0.64",
               "estimated": true,
               "suffix": "% of GDP"
             },
@@ -2546,13 +2555,6 @@
               "name": "Remittances 2021",
               "content": "0.67% of GDP (2021 est.)",
               "value": "0.67",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Remittances 2020",
-              "content": "0.7% of GDP (2020 est.)",
-              "value": "0.7",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -2599,12 +2601,19 @@
           "name": "Public debt",
           "field_id": 227,
           "comparative": true,
-          "content": "94.53% of GDP (2021 est.)<br><br>99.91% of GDP (2020 est.)<br><br>83.1% of GDP (2019 est.)<br><br><b>note:</b> central government debt as a % of GDP",
+          "content": "75.05% of GDP (2022 est.)<br><br>94.64% of GDP (2021 est.)<br><br>99.91% of GDP (2020 est.)<br><br><b>note:</b> central government debt as a % of GDP",
           "subfields": [
             {
+              "name": "Public debt 2022",
+              "content": "75.05% of GDP (2022 est.)",
+              "value": "75.05",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
               "name": "Public debt 2021",
-              "content": "94.53% of GDP (2021 est.)",
-              "value": "94.53",
+              "content": "94.64% of GDP (2021 est.)",
+              "value": "94.64",
               "estimated": true,
               "suffix": "% of GDP"
             },
@@ -2612,13 +2621,6 @@
               "name": "Public debt 2020",
               "content": "99.91% of GDP (2020 est.)",
               "value": "99.91",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Public debt 2019",
-              "content": "83.1% of GDP (2019 est.)",
-              "value": "83.1",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -2629,10 +2631,10 @@
           "name": "Taxes and other revenues",
           "field_id": 225,
           "comparative": false,
-          "content": "25.84% (of GDP) (2021 est.)<br><br><b>note:</b> central government tax revenue as a % of GDP",
-          "value": "25.84",
+          "content": "26.24% (of GDP) (2022 est.)<br><br><b>note:</b> central government tax revenue as a % of GDP",
+          "value": "26.24",
           "estimated": true,
-          "info_date": "2021",
+          "info_date": "2022",
           "suffix": "% (of GDP)",
           "field_note": "<b>note:</b> central government tax revenue as a % of GDP"
         },
@@ -2640,8 +2642,15 @@
           "name": "Current account balance",
           "field_id": 238,
           "comparative": false,
-          "content": "-$1.29 billion (2022 est.)<br><br>$7.77 billion (2021 est.)<br><br>$14.913 billion (2020 est.)<br><br><b>note:</b> balance of payments - net trade and primary/secondary income in current dollars",
+          "content": "$13.686 billion (2023 est.)<br><br>-$1.29 billion (2022 est.)<br><br>$7.77 billion (2021 est.)<br><br><b>note:</b> balance of payments - net trade and primary/secondary income in current dollars",
           "subfields": [
+            {
+              "name": "Current account balance 2023",
+              "content": "$13.686 billion (2023 est.)",
+              "value": "13686000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Current account balance 2022",
               "content": "-$1.29 billion (2022 est.)",
@@ -2655,13 +2664,6 @@
               "value": "7770000000",
               "estimated": true,
               "prefix": "$"
-            },
-            {
-              "name": "Current account balance 2020",
-              "content": "$14.913 billion (2020 est.)",
-              "value": "14913000000",
-              "estimated": true,
-              "prefix": "$"
             }
           ],
           "field_note": "<b>note:</b> balance of payments - net trade and primary/secondary income in current dollars"
@@ -2670,8 +2672,15 @@
           "name": "Exports",
           "field_id": 239,
           "comparative": true,
-          "content": "$292.012 billion (2022 est.)<br><br>$267.791 billion (2021 est.)<br><br>$224.242 billion (2020 est.)<br><br><b>note:</b> balance of payments - exports of goods and services in current dollars",
+          "content": "$306.466 billion (2023 est.)<br><br>$292.012 billion (2022 est.)<br><br>$267.791 billion (2021 est.)<br><br><b>note:</b> balance of payments - exports of goods and services in current dollars",
           "subfields": [
+            {
+              "name": "Exports 2023",
+              "content": "$306.466 billion (2023 est.)",
+              "value": "306466000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Exports 2022",
               "content": "$292.012 billion (2022 est.)",
@@ -2683,13 +2692,6 @@
               "name": "Exports 2021",
               "content": "$267.791 billion (2021 est.)",
               "value": "267791000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Exports 2020",
-              "content": "$224.242 billion (2020 est.)",
-              "value": "224242000000",
               "estimated": true,
               "prefix": "$"
             }
@@ -2718,8 +2720,15 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$290.277 billion (2022 est.)<br><br>$264.231 billion (2021 est.)<br><br>$209.817 billion (2020 est.)<br><br><b>note:</b> balance of payments - imports of goods and services in current dollars",
+          "content": "$288.146 billion (2023 est.)<br><br>$290.277 billion (2022 est.)<br><br>$264.231 billion (2021 est.)<br><br><b>note:</b> balance of payments - imports of goods and services in current dollars",
           "subfields": [
+            {
+              "name": "Imports 2023",
+              "content": "$288.146 billion (2023 est.)",
+              "value": "288146000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Imports 2022",
               "content": "$290.277 billion (2022 est.)",
@@ -2731,13 +2740,6 @@
               "name": "Imports 2021",
               "content": "$264.231 billion (2021 est.)",
               "value": "264231000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Imports 2020",
-              "content": "$209.817 billion (2020 est.)",
-              "value": "209817000000",
               "estimated": true,
               "prefix": "$"
             }
@@ -2766,8 +2768,15 @@
           "name": "Reserves of foreign exchange and gold",
           "field_id": 245,
           "comparative": true,
-          "content": "$33.078 billion (2022 est.)<br><br>$33.957 billion (2021 est.)<br><br>$30.44 billion (2020 est.)<br><br><b>note:</b> holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars",
+          "content": "$31.212 billion (2023 est.)<br><br>$33.078 billion (2022 est.)<br><br>$33.957 billion (2021 est.)<br><br><b>note:</b> holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars",
           "subfields": [
+            {
+              "name": "Reserves of foreign exchange and gold 2023",
+              "content": "$31.212 billion (2023 est.)",
+              "value": "31212000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Reserves of foreign exchange and gold 2022",
               "content": "$33.078 billion (2022 est.)",
@@ -2779,13 +2788,6 @@
               "name": "Reserves of foreign exchange and gold 2021",
               "content": "$33.957 billion (2021 est.)",
               "value": "33957000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Reserves of foreign exchange and gold 2020",
-              "content": "$30.44 billion (2020 est.)",
-              "value": "30440000000",
               "estimated": true,
               "prefix": "$"
             }
@@ -2818,12 +2820,18 @@
           "name": "Exchange rates",
           "field_id": 249,
           "comparative": false,
-          "content": "euros (EUR) per US dollar -<br><br>0.95 (2022 est.)<br><br>0.845 (2021 est.)<br><br>0.876 (2020 est.)<br><br>0.893 (2019 est.)<br><br>0.847 (2018 est.)",
+          "content": "euros (EUR) per US dollar -<br><br>0.925 (2023 est.)<br><br>0.95 (2022 est.)<br><br>0.845 (2021 est.)<br><br>0.876 (2020 est.)<br><br>0.893 (2019 est.)",
           "subfields": [
             {
               "name": "Currency",
               "content": "euros (EUR) per US dollar -",
               "value": "euros (EUR) per US dollar -"
+            },
+            {
+              "name": "Exchange rates 2023",
+              "content": "0.925 (2023 est.)",
+              "value": "0.925",
+              "estimated": true
             },
             {
               "name": "Exchange rates 2022",
@@ -2847,12 +2855,6 @@
               "name": "Exchange rates 2019",
               "content": "0.893 (2019 est.)",
               "value": "0.893",
-              "estimated": true
-            },
-            {
-              "name": "Exchange rates 2018",
-              "content": "0.847 (2018 est.)",
-              "value": "0.847",
               "estimated": true
             }
           ]
@@ -3581,10 +3583,10 @@
           "name": "Space program overview",
           "field_id": 457,
           "comparative": false,
-          "content": "has a national space program and is a member of the European Space Agency (ESA); develops, builds, operates, and tracks satellites, including remote sensing (RS) and research/scientific satellites; works closely with member states of ESA, the EU, and the commercial sector to develop a range of space capabilities and technologies, including applications for satellite payloads, space flight, and space research; has also cooperated with other foreign space agencies and industries, including those of China, India, Russia, and the US (2024)<br><br><strong>note:</strong> further details about the key activities, programs, and milestones of the country&rsquo;s space program, as well as government spending estimates on the space sector, appear in <a title=\"Appendix S\" href=\"/references/space-programs\">Appendix S</a>",
+          "content": "has a national space program and is a member of the European Space Agency (ESA); develops, builds, operates, and tracks satellites, including remote sensing (RS) and research/scientific satellites; works closely with member states of ESA, the EU, and the commercial sector to develop a range of space capabilities and technologies, including applications for satellite payloads, space flight, and space research; has also cooperated with other foreign space agencies and industries, including those of China, India, Russia, and the US (2024)<br><br><strong>note:</strong> further details about the key activities, programs, and milestones of the country&rsquo;s space program, as well as government spending estimates on the space sector, appear in the <a title=\"Appendix S\" href=\"/references/space-programs\">Space Programs</a> reference guide",
           "value": "has a national space program and is a member of the European Space Agency (ESA); develops, builds, operates, and tracks satellites, including remote sensing (RS) and research/scientific satellites; works closely with member states of ESA, the EU, and the commercial sector to develop a range of space capabilities and technologies, including applications for satellite payloads, space flight, and space research; has also cooperated with other foreign space agencies and industries, including those of China, India, Russia, and the US",
           "info_date": "2024",
-          "field_note": "<strong>note:</strong> further details about the key activities, programs, and milestones of the country&rsquo;s space program, as well as government spending estimates on the space sector, appear in <a title=\"Appendix S\" href=\"/references/space-programs\">Appendix S</a>"
+          "field_note": "<strong>note:</strong> further details about the key activities, programs, and milestones of the country&rsquo;s space program, as well as government spending estimates on the space sector, appear in the <a title=\"Appendix S\" href=\"/references/space-programs\">Space Programs</a> reference guide"
         }
       ]
     },
@@ -3596,9 +3598,9 @@
           "name": "Terrorist group(s)",
           "field_id": 413,
           "comparative": false,
-          "content": "Islamic State of Iraq and ash-Sham (ISIS)<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix-T</a>",
+          "content": "Islamic State of Iraq and ash-Sham (ISIS)<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in the <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Terrorism</a> reference guide",
           "value": "Islamic State of Iraq and ash-Sham (ISIS)",
-          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix-T</a>"
+          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in the <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Terrorism</a> reference guide"
         }
       ]
     },

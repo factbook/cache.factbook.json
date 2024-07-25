@@ -1,9 +1,9 @@
 {
   "name": "Cuba",
   "code": "CU",
-  "published": "2024-07-11 05:44:22 -0400",
+  "published": "2024-07-25 00:03:15 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2024-07-08 16:24:24 -0400",
+  "updated": "2024-07-24 11:14:36 -0400",
   "media": [
     {
       "type": "flag",
@@ -163,12 +163,12 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>110,860 sq km<br><br><strong>land: </strong>109,820 sq km<br><br><strong>water: </strong>1,040 sq km",
+          "content": "<strong>total : </strong>110,860 sq km<br><br><strong>land: </strong>109,820 sq km<br><br><strong>water: </strong>1,040 sq km",
           "subfields": [
             {
-              "name": "total",
+              "name": "total ",
               "content": "110,860 sq km",
-              "title": "total",
+              "title": "total ",
               "value": "110860",
               "suffix": "sq km"
             },
@@ -2038,10 +2038,10 @@
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$633.442 billion (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "633442000000",
+          "content": "$107.352 billion (2020 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "107352000000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2020",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -2211,18 +2211,25 @@
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "5.286 million (2022 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
-          "value": "5286000",
+          "content": "5.317 million (2023 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
+          "value": "5317000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "field_note": "<b>note:</b> number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": false,
-          "content": "1.25% (2022 est.)<br><br>1.39% (2021 est.)<br><br>1.4% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
+          "content": "1.16% (2023 est.)<br><br>1.25% (2022 est.)<br><br>1.37% (2021 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
+            {
+              "name": "Unemployment rate 2023",
+              "content": "1.16% (2023 est.)",
+              "value": "1.16",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Unemployment rate 2022",
               "content": "1.25% (2022 est.)",
@@ -2232,15 +2239,8 @@
             },
             {
               "name": "Unemployment rate 2021",
-              "content": "1.39% (2021 est.)",
-              "value": "1.39",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Unemployment rate 2020",
-              "content": "1.4% (2020 est.)",
-              "value": "1.4",
+              "content": "1.37% (2021 est.)",
+              "value": "1.37",
               "estimated": true,
               "suffix": "%"
             }
@@ -2420,7 +2420,7 @@
           "name": "Imports",
           "field_id": 242,
           "comparative": true,
-          "content": "$8.067 billion (2020 est.)<br><br>$10.971 billion (2019 est.)<br><br>$12.567 billion (2018 est.)<br><br><strong>note: </strong>GDP expenditure basis - exports of goods and services in current dollars",
+          "content": "$8.067 billion (2020 est.)<br><br>$10.971 billion (2019 est.)<br><br>$12.567 billion (2018 est.)<br><br><strong>note: </strong>GDP expenditure basis - imports of goods and services in current dollars",
           "subfields": [
             {
               "name": "Imports 2020",
@@ -2444,7 +2444,7 @@
               "prefix": "$"
             }
           ],
-          "field_note": "<strong>note: </strong>GDP expenditure basis - exports of goods and services in current dollars"
+          "field_note": "<strong>note: </strong>GDP expenditure basis - imports of goods and services in current dollars"
         },
         {
           "name": "Imports - partners",

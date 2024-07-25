@@ -1,9 +1,9 @@
 {
   "name": "Trinidad and Tobago",
   "code": "TD",
-  "published": "2024-07-11 05:53:55 -0400",
+  "published": "2024-07-25 00:12:20 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2024-07-10 13:11:23 -0400",
+  "updated": "2024-07-24 12:28:05 -0400",
   "media": [
     {
       "type": "flag",
@@ -99,12 +99,12 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>5,128 sq km<br><br><strong>land: </strong>5,128 sq km<br><br><strong>water: </strong>0 sq km",
+          "content": "<strong>total : </strong>5,128 sq km<br><br><strong>land: </strong>5,128 sq km<br><br><strong>water: </strong>0 sq km",
           "subfields": [
             {
-              "name": "total",
+              "name": "total ",
               "content": "5,128 sq km",
-              "title": "total",
+              "title": "total ",
               "value": "5128",
               "suffix": "sq km"
             },
@@ -1675,38 +1675,45 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$35.667 billion (2022 est.)<br><br>$35.146 billion (2021 est.)<br><br>$35.514 billion (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$43.681 billion (2023 est.)<br><br>$42.781 billion (2022 est.)<br><br>$42.157 billion (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP (purchasing power parity) 2023",
+              "content": "$43.681 billion (2023 est.)",
+              "value": "43681000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP (purchasing power parity) 2022",
-              "content": "$35.667 billion (2022 est.)",
-              "value": "35667000000",
+              "content": "$42.781 billion (2022 est.)",
+              "value": "42781000000",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP (purchasing power parity) 2021",
-              "content": "$35.146 billion (2021 est.)",
-              "value": "35146000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2020",
-              "content": "$35.514 billion (2020 est.)",
-              "value": "35514000000",
+              "content": "$42.157 billion (2021 est.)",
+              "value": "42157000000",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "1.48% (2022 est.)<br><br>-1.04% (2021 est.)<br><br>-9.08% (2020 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
+          "content": "2.1% (2023 est.)<br><br>1.48% (2022 est.)<br><br>-1.04% (2021 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
+            {
+              "name": "Real GDP growth rate 2023",
+              "content": "2.1% (2023 est.)",
+              "value": "2.1",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Real GDP growth rate 2022",
               "content": "1.48% (2022 est.)",
@@ -1720,13 +1727,6 @@
               "value": "-1.04",
               "estimated": true,
               "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2020",
-              "content": "-9.08% (2020 est.)",
-              "value": "-9.08",
-              "estimated": true,
-              "suffix": "%"
             }
           ],
           "field_note": "<b>note:</b> annual GDP % growth based on constant local currency"
@@ -1735,40 +1735,40 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$23,300 (2022 est.)<br><br>$23,000 (2021 est.)<br><br>$23,400 (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$28,500 (2023 est.)<br><br>$27,900 (2022 est.)<br><br>$27,600 (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP per capita 2023",
+              "content": "$28,500 (2023 est.)",
+              "value": "28500",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP per capita 2022",
-              "content": "$23,300 (2022 est.)",
-              "value": "23300",
+              "content": "$27,900 (2022 est.)",
+              "value": "27900",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP per capita 2021",
-              "content": "$23,000 (2021 est.)",
-              "value": "23000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2020",
-              "content": "$23,400 (2020 est.)",
-              "value": "23400",
+              "content": "$27,600 (2021 est.)",
+              "value": "27600",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$30.054 billion (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "30054000000",
+          "content": "$28.14 billion (2023 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "28140000000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -1776,8 +1776,15 @@
           "name": "Inflation rate (consumer prices)",
           "field_id": 229,
           "comparative": false,
-          "content": "5.83% (2022 est.)<br><br>2.06% (2021 est.)<br><br>0.6% (2020 est.)<br><br><b>note:</b> annual % change based on consumer prices",
+          "content": "4.63% (2023 est.)<br><br>5.83% (2022 est.)<br><br>2.06% (2021 est.)<br><br><b>note:</b> annual % change based on consumer prices",
           "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2023",
+              "content": "4.63% (2023 est.)",
+              "value": "4.63",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Inflation rate (consumer prices) 2022",
               "content": "5.83% (2022 est.)",
@@ -1789,13 +1796,6 @@
               "name": "Inflation rate (consumer prices) 2021",
               "content": "2.06% (2021 est.)",
               "value": "2.06",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2020",
-              "content": "0.6% (2020 est.)",
-              "value": "0.6",
               "estimated": true,
               "suffix": "%"
             }
@@ -1953,22 +1953,29 @@
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "675,000 (2022 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
-          "value": "675000",
+          "content": "681,000 (2023 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
+          "value": "681000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "field_note": "<b>note:</b> number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": false,
-          "content": "3.81% (2022 est.)<br><br>4.45% (2021 est.)<br><br>4.21% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
+          "content": "4.21% (2023 est.)<br><br>4.38% (2022 est.)<br><br>4.45% (2021 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
+              "name": "Unemployment rate 2023",
+              "content": "4.21% (2023 est.)",
+              "value": "4.21",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
               "name": "Unemployment rate 2022",
-              "content": "3.81% (2022 est.)",
-              "value": "3.81",
+              "content": "4.38% (2022 est.)",
+              "value": "4.38",
               "estimated": true,
               "suffix": "%"
             },
@@ -1976,13 +1983,6 @@
               "name": "Unemployment rate 2021",
               "content": "4.45% (2021 est.)",
               "value": "4.45",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Unemployment rate 2020",
-              "content": "4.21% (2020 est.)",
-              "value": "4.21",
               "estimated": true,
               "suffix": "%"
             }
@@ -2034,8 +2034,15 @@
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "0.68% of GDP (2022 est.)<br><br>0.96% of GDP (2021 est.)<br><br>0.93% of GDP (2020 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "0.63% of GDP (2023 est.)<br><br>0.68% of GDP (2022 est.)<br><br>0.96% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
+            {
+              "name": "Remittances 2023",
+              "content": "0.63% of GDP (2023 est.)",
+              "value": "0.63",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Remittances 2022",
               "content": "0.68% of GDP (2022 est.)",
@@ -2047,13 +2054,6 @@
               "name": "Remittances 2021",
               "content": "0.96% of GDP (2021 est.)",
               "value": "0.96",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Remittances 2020",
-              "content": "0.93% of GDP (2020 est.)",
-              "value": "0.93",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -2259,8 +2259,15 @@
           "name": "Reserves of foreign exchange and gold",
           "field_id": 245,
           "comparative": true,
-          "content": "$6.832 billion (2022 est.)<br><br>$6.88 billion (2021 est.)<br><br>$6.954 billion (2020 est.)<br><br><b>note:</b> holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars",
+          "content": "$6.256 billion (2023 est.)<br><br>$6.832 billion (2022 est.)<br><br>$6.88 billion (2021 est.)<br><br><b>note:</b> holdings of gold (year-end prices)/foreign exchange/special drawing rights in current dollars",
           "subfields": [
+            {
+              "name": "Reserves of foreign exchange and gold 2023",
+              "content": "$6.256 billion (2023 est.)",
+              "value": "6256000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Reserves of foreign exchange and gold 2022",
               "content": "$6.832 billion (2022 est.)",
@@ -2272,13 +2279,6 @@
               "name": "Reserves of foreign exchange and gold 2021",
               "content": "$6.88 billion (2021 est.)",
               "value": "6880000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Reserves of foreign exchange and gold 2020",
-              "content": "$6.954 billion (2020 est.)",
-              "value": "6954000000",
               "estimated": true,
               "prefix": "$"
             }
@@ -2311,12 +2311,18 @@
           "name": "Exchange rates",
           "field_id": 249,
           "comparative": false,
-          "content": "Trinidad and Tobago dollars (TTD) per US dollar -<br><br>6.754 (2022 est.)<br><br>6.759 (2021 est.)<br><br>6.751 (2020 est.)<br><br>6.754 (2019 est.)<br><br>6.771 (2018 est.)",
+          "content": "Trinidad and Tobago dollars (TTD) per US dollar -<br><br>6.75 (2023 est.)<br><br>6.754 (2022 est.)<br><br>6.759 (2021 est.)<br><br>6.751 (2020 est.)<br><br>6.754 (2019 est.)",
           "subfields": [
             {
               "name": "Currency",
               "content": "Trinidad and Tobago dollars (TTD) per US dollar -",
               "value": "Trinidad and Tobago dollars (TTD) per US dollar -"
+            },
+            {
+              "name": "Exchange rates 2023",
+              "content": "6.75 (2023 est.)",
+              "value": "6.75",
+              "estimated": true
             },
             {
               "name": "Exchange rates 2022",
@@ -2340,12 +2346,6 @@
               "name": "Exchange rates 2019",
               "content": "6.754 (2019 est.)",
               "value": "6.754",
-              "estimated": true
-            },
-            {
-              "name": "Exchange rates 2018",
-              "content": "6.771 (2018 est.)",
-              "value": "6.771",
               "estimated": true
             }
           ]
@@ -2882,8 +2882,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "1.1% of GDP (2022 est.)<br><br>1% of GDP (2021 est.)<br><br>1% of GDP (2020 est.)<br><br>1% of GDP (2019 est.)<br><br>1% of GDP (2018 est.)",
+          "content": "1% of GDP (2023 est.)<br><br>1.1% of GDP (2022 est.)<br><br>1% of GDP (2021 est.)<br><br>1% of GDP (2020 est.)<br><br>1% of GDP (2019 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2023",
+              "content": "1% of GDP (2023 est.)",
+              "value": "1",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2022",
               "content": "1.1% of GDP (2022 est.)",
@@ -2908,13 +2915,6 @@
             {
               "name": "Military Expenditures 2019",
               "content": "1% of GDP (2019 est.)",
-              "value": "1",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2018",
-              "content": "1% of GDP (2018 est.)",
               "value": "1",
               "estimated": true,
               "suffix": "% of GDP"

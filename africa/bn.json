@@ -1,9 +1,9 @@
 {
   "name": "Benin",
   "code": "BN",
-  "published": "2024-07-11 05:42:46 -0400",
+  "published": "2024-07-25 00:01:41 -0400",
   "region": "Africa",
-  "updated": "2024-07-08 16:24:23 -0400",
+  "updated": "2024-07-24 13:13:45 -0400",
   "media": [
     {
       "type": "flag",
@@ -83,12 +83,12 @@
           "name": "Area",
           "field_id": 279,
           "comparative": true,
-          "content": "<strong>total: </strong>112,622 sq km<br><br><strong>land: </strong>110,622 sq km<br><br><strong>water: </strong>2,000 sq km",
+          "content": "<strong>total : </strong>112,622 sq km<br><br><strong>land: </strong>110,622 sq km<br><br><strong>water: </strong>2,000 sq km",
           "subfields": [
             {
-              "name": "total",
+              "name": "total ",
               "content": "112,622 sq km",
-              "title": "total",
+              "title": "total ",
               "value": "112622",
               "suffix": "sq km"
             },
@@ -1869,38 +1869,45 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$45.869 billion (2022 est.)<br><br>$43.17 billion (2021 est.)<br><br>$40.287 billion (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$52.51 billion (2023 est.)<br><br>$49.374 billion (2022 est.)<br><br>$46.468 billion (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP (purchasing power parity) 2023",
+              "content": "$52.51 billion (2023 est.)",
+              "value": "52510000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP (purchasing power parity) 2022",
-              "content": "$45.869 billion (2022 est.)",
-              "value": "45869000000",
+              "content": "$49.374 billion (2022 est.)",
+              "value": "49374000000",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP (purchasing power parity) 2021",
-              "content": "$43.17 billion (2021 est.)",
-              "value": "43170000000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2020",
-              "content": "$40.287 billion (2020 est.)",
-              "value": "40287000000",
+              "content": "$46.468 billion (2021 est.)",
+              "value": "46468000000",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "6.25% (2022 est.)<br><br>7.16% (2021 est.)<br><br>3.85% (2020 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
+          "content": "6.35% (2023 est.)<br><br>6.25% (2022 est.)<br><br>7.16% (2021 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
+            {
+              "name": "Real GDP growth rate 2023",
+              "content": "6.35% (2023 est.)",
+              "value": "6.35",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Real GDP growth rate 2022",
               "content": "6.25% (2022 est.)",
@@ -1914,13 +1921,6 @@
               "value": "7.16",
               "estimated": true,
               "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2020",
-              "content": "3.85% (2020 est.)",
-              "value": "3.85",
-              "estimated": true,
-              "suffix": "%"
             }
           ],
           "field_note": "<b>note:</b> annual GDP % growth based on constant local currency"
@@ -1929,40 +1929,40 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$3,400 (2022 est.)<br><br>$3,300 (2021 est.)<br><br>$3,200 (2020 est.)<br><br><b>note:</b> data in 2017 dollars",
+          "content": "$3,800 (2023 est.)<br><br>$3,700 (2022 est.)<br><br>$3,600 (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP per capita 2023",
+              "content": "$3,800 (2023 est.)",
+              "value": "3800",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP per capita 2022",
-              "content": "$3,400 (2022 est.)",
-              "value": "3400",
+              "content": "$3,700 (2022 est.)",
+              "value": "3700",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP per capita 2021",
-              "content": "$3,300 (2021 est.)",
-              "value": "3300",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2020",
-              "content": "$3,200 (2020 est.)",
-              "value": "3200",
+              "content": "$3,600 (2021 est.)",
+              "value": "3600",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> data in 2017 dollars"
+          "field_note": "<b>note:</b> data in 2021 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$17.397 billion (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "17397000000",
+          "content": "$19.673 billion (2023 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "19673000000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -1970,8 +1970,15 @@
           "name": "Inflation rate (consumer prices)",
           "field_id": 229,
           "comparative": false,
-          "content": "1.35% (2022 est.)<br><br>1.73% (2021 est.)<br><br>3.02% (2020 est.)<br><br><b>note:</b> annual % change based on consumer prices",
+          "content": "2.73% (2023 est.)<br><br>1.35% (2022 est.)<br><br>1.73% (2021 est.)<br><br><b>note:</b> annual % change based on consumer prices",
           "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2023",
+              "content": "2.73% (2023 est.)",
+              "value": "2.73",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Inflation rate (consumer prices) 2022",
               "content": "1.35% (2022 est.)",
@@ -1983,13 +1990,6 @@
               "name": "Inflation rate (consumer prices) 2021",
               "content": "1.73% (2021 est.)",
               "value": "1.73",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2020",
-              "content": "3.02% (2020 est.)",
-              "value": "3.02",
               "estimated": true,
               "suffix": "%"
             }
@@ -2143,10 +2143,10 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "7.89% (2022 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
-          "value": "7.89",
+          "content": "7.29% (2023 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
+          "value": "7.29",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "suffix": "%",
           "field_note": "<b>note:</b> annual % change in industrial value added based on constant local currency"
         },
@@ -2154,36 +2154,36 @@
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
-          "content": "4.797 million (2022 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
-          "value": "4797000",
+          "content": "4.964 million (2023 est.)<br><br><b>note:</b> number of people ages 15 or older who are employed or seeking work",
+          "value": "4964000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "field_note": "<b>note:</b> number of people ages 15 or older who are employed or seeking work"
         },
         {
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": false,
-          "content": "1.48% (2022 est.)<br><br>1.78% (2021 est.)<br><br>1.62% (2020 est.)<br><br><b>note:</b> % of labor force seeking employment",
+          "content": "1.45% (2023 est.)<br><br>1.47% (2022 est.)<br><br>1.69% (2021 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
+              "name": "Unemployment rate 2023",
+              "content": "1.45% (2023 est.)",
+              "value": "1.45",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
               "name": "Unemployment rate 2022",
-              "content": "1.48% (2022 est.)",
-              "value": "1.48",
+              "content": "1.47% (2022 est.)",
+              "value": "1.47",
               "estimated": true,
               "suffix": "%"
             },
             {
               "name": "Unemployment rate 2021",
-              "content": "1.78% (2021 est.)",
-              "value": "1.78",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Unemployment rate 2020",
-              "content": "1.62% (2020 est.)",
-              "value": "1.62",
+              "content": "1.69% (2021 est.)",
+              "value": "1.69",
               "estimated": true,
               "suffix": "%"
             }
@@ -2225,10 +2225,10 @@
           "name": "Population below poverty line",
           "field_id": 221,
           "comparative": false,
-          "content": "38.5% (2018 est.)<br><br><b>note:</b> % of population with income below national poverty line",
+          "content": "38.5% (2019 est.)<br><br><b>note:</b> % of population with income below national poverty line",
           "value": "38.5",
           "estimated": true,
-          "info_date": "2018",
+          "info_date": "2019",
           "suffix": "%",
           "field_note": "<b>note:</b> % of population with income below national poverty line"
         },
@@ -2236,12 +2236,12 @@
           "name": "Gini Index coefficient - distribution of family income",
           "field_id": 223,
           "comparative": false,
-          "content": "37.9 (2018 est.)<br><br><b>note:</b> index (0-100) of income distribution; higher values represent greater inequality",
+          "content": "34.4 (2021 est.)<br><br><b>note:</b> index (0-100) of income distribution; higher values represent greater inequality",
           "subfields": [
             {
-              "name": "Gini Index coefficient - distribution of family income 2018",
-              "content": "37.9 (2018 est.)",
-              "value": "37.9",
+              "name": "Gini Index coefficient - distribution of family income 2021",
+              "content": "34.4 (2021 est.)",
+              "value": "34.4",
               "estimated": true
             }
           ],
@@ -2251,22 +2251,24 @@
           "name": "Household income or consumption by percentage share",
           "field_id": 222,
           "comparative": false,
-          "content": "<strong>lowest 10%: </strong>2.9%<br><br><strong>highest 10%: </strong>30% (2018 est.)<br><br><b>note:</b> % share of income accruing to lowest and highest 10% of population",
+          "content": "<strong>lowest 10%: </strong>3.1% (2021 est.)<br><br><strong>highest 10%: </strong>27.2% (2021 est.)<br><br><b>note:</b> % share of income accruing to lowest and highest 10% of population",
           "subfields": [
             {
               "name": "lowest 10%",
-              "content": "2.9%",
+              "content": "3.1% (2021 est.)",
               "title": "lowest 10%",
-              "value": "2.9",
+              "value": "3.1",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "highest 10%",
-              "content": "30% (2018 est.)",
+              "content": "27.2% (2021 est.)",
               "title": "highest 10%",
-              "value": "30",
+              "value": "27.2",
               "estimated": true,
-              "info_date": "2018",
+              "info_date": "2021",
               "suffix": "%"
             }
           ],
@@ -2276,12 +2278,19 @@
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "1.33% of GDP (2022 est.)<br><br>1.31% of GDP (2021 est.)<br><br>1.3% of GDP (2020 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "1.19% of GDP (2023 est.)<br><br>1.32% of GDP (2022 est.)<br><br>1.31% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
             {
+              "name": "Remittances 2023",
+              "content": "1.19% of GDP (2023 est.)",
+              "value": "1.19",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
               "name": "Remittances 2022",
-              "content": "1.33% of GDP (2022 est.)",
-              "value": "1.33",
+              "content": "1.32% of GDP (2022 est.)",
+              "value": "1.32",
               "estimated": true,
               "suffix": "% of GDP"
             },
@@ -2289,13 +2298,6 @@
               "name": "Remittances 2021",
               "content": "1.31% of GDP (2021 est.)",
               "value": "1.31",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Remittances 2020",
-              "content": "1.3% of GDP (2020 est.)",
-              "value": "1.3",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -2544,7 +2546,7 @@
           "name": "Exchange rates",
           "field_id": 249,
           "comparative": false,
-          "content": "Communaute Financiere Africaine francs (XOF) per US dollar -<br><br>623.937 (2022 est.)<br><br>554.608 (2021 est.)<br><br>574.295 (2020 est.)<br><br>585.951 (2019 est.)<br><br>555.446 (2018 est.)",
+          "content": "Communaute Financiere Africaine francs (XOF) per US dollar -<br><br>606.655 (2023 est.)<br><br>622.912 (2022 est.)<br><br>554.608 (2021 est.)<br><br>574.295 (2020 est.)<br><br>585.951 (2019 est.)",
           "subfields": [
             {
               "name": "Currency",
@@ -2552,9 +2554,15 @@
               "value": "Communaute Financiere Africaine francs (XOF) per US dollar -"
             },
             {
+              "name": "Exchange rates 2023",
+              "content": "606.655 (2023 est.)",
+              "value": "606.655",
+              "estimated": true
+            },
+            {
               "name": "Exchange rates 2022",
-              "content": "623.937 (2022 est.)",
-              "value": "623.937",
+              "content": "622.912 (2022 est.)",
+              "value": "622.912",
               "estimated": true
             },
             {
@@ -2573,12 +2581,6 @@
               "name": "Exchange rates 2019",
               "content": "585.951 (2019 est.)",
               "value": "585.951",
-              "estimated": true
-            },
-            {
-              "name": "Exchange rates 2018",
-              "content": "555.446 (2018 est.)",
-              "value": "555.446",
               "estimated": true
             }
           ]
@@ -3073,7 +3075,7 @@
               "content": "438 km (2014)",
               "title": "total",
               "value": "438",
-              "estimated": null,
+              "estimated": false,
               "info_date": "2014",
               "suffix": "km"
             },
@@ -3082,7 +3084,7 @@
               "content": "438 km (2014) 1.000-m gauge",
               "title": "narrow gauge",
               "value": "438",
-              "estimated": null,
+              "estimated": false,
               "info_date": "2014",
               "suffix": "km",
               "subfield_note": "1.000-m gauge"
@@ -3210,8 +3212,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "0.7% of GDP (2022 est.)<br><br>0.7% of GDP (2021 est.)<br><br>0.5% of GDP (2020 est.)<br><br>0.5% of GDP (2019 est.)<br><br>0.7% of GDP (2018 est.)",
+          "content": "0.5% of GDP (2023 est.)<br><br>0.7% of GDP (2022 est.)<br><br>0.7% of GDP (2021 est.)<br><br>0.5% of GDP (2020 est.)<br><br>0.5% of GDP (2019 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2023",
+              "content": "0.5% of GDP (2023 est.)",
+              "value": "0.5",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2022",
               "content": "0.7% of GDP (2022 est.)",
@@ -3237,13 +3246,6 @@
               "name": "Military Expenditures 2019",
               "content": "0.5% of GDP (2019 est.)",
               "value": "0.5",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2018",
-              "content": "0.7% of GDP (2018 est.)",
-              "value": "0.7",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -3277,8 +3279,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "in addition to its defense against external aggression duties, the Beninese Armed Forces (FAB) may be required to assist in maintaining public order and internal security under conditions defined by the country's president; it may also participate in economic development projects<br /><br />a key focus for the security forces of Benin is countering infiltrations into the country by terrorist groups tied to al-Qa'ida and the Islamic State of Iraq and ash-Sham (ISIS) operating just over the border from northern Benin in Burkina Faso and Niger; in 2022, the Benin Government said it was \"at war\" after suffering a series of attacks from these groups; later that same year, President TALON pledged to increase the size of the military, modernize military equipment, and establish forward operating bases; in addition, the FAB participates in the Multinational Joint Task Force (MNJTF) along with Cameroon, Chad, Niger, and Nigeria against Boko Haram and ISIS-West Africa in the general area of the Lake Chad Basin and along Nigeria's northeastern border <br /><br />the FAB has a close working relationship with the Belgian armed forces; the Belgians offer military advice, training, and second-hand equipment donations, and deploy to Benin for limited military exercises (2024)",
-          "value": "in addition to its defense against external aggression duties, the Beninese Armed Forces (FAB) may be required to assist in maintaining public order and internal security under conditions defined by the country's president; it may also participate in economic development projects<br /><br />a key focus for the security forces of Benin is countering infiltrations into the country by terrorist groups tied to al-Qa'ida and the Islamic State of Iraq and ash-Sham (ISIS) operating just over the border from northern Benin in Burkina Faso and Niger; in 2022, the Benin Government said it was \"at war\" after suffering a series of attacks from these groups; later that same year, President TALON pledged to increase the size of the military, modernize military equipment, and establish forward operating bases; in addition, the FAB participates in the Multinational Joint Task Force (MNJTF) along with Cameroon, Chad, Niger, and Nigeria against Boko Haram and ISIS-West Africa in the general area of the Lake Chad Basin and along Nigeria's northeastern border <br /><br />the FAB has a close working relationship with the Belgian armed forces; the Belgians offer military advice, training, and second-hand equipment donations, and deploy to Benin for limited military exercises",
+          "content": "in addition to its defense against external aggression duties, the Beninese Armed Forces (FAB) may be required to assist in maintaining public order and internal security under conditions defined by the country's president; it may also participate in economic development projects<br /><br />a key focus for the security forces of Benin is countering infiltrations into the country by terrorist groups tied to al-Qa'ida and the Islamic State of Iraq and ash-Sham (ISIS) operating just over the border from northern Benin in Burkina Faso and Niger; in 2022, the Benin Government said it was \"at war\" after suffering a series of attacks from these groups; later that same year, President TALON pledged to increase the size of the military, modernize military equipment, and establish forward operating bases; as of 2024, Benin had sent approximately 3,000 troops to the north of the country to better secure its border and had begun recruiting another 5,000 more new troops for the northern region; in addition, the FAB participates in the Multinational Joint Task Force (MNJTF) along with Cameroon, Chad, Niger, and Nigeria against Boko Haram and ISIS-West Africa in the general area of the Lake Chad Basin and along Nigeria's northeastern border <br /><br />the FAB has a close working relationship with the Belgian armed forces; the Belgians offer military advice, training, and second-hand equipment donations, and deploy to Benin for limited military exercises (2024)",
+          "value": "in addition to its defense against external aggression duties, the Beninese Armed Forces (FAB) may be required to assist in maintaining public order and internal security under conditions defined by the country's president; it may also participate in economic development projects<br /><br />a key focus for the security forces of Benin is countering infiltrations into the country by terrorist groups tied to al-Qa'ida and the Islamic State of Iraq and ash-Sham (ISIS) operating just over the border from northern Benin in Burkina Faso and Niger; in 2022, the Benin Government said it was \"at war\" after suffering a series of attacks from these groups; later that same year, President TALON pledged to increase the size of the military, modernize military equipment, and establish forward operating bases; as of 2024, Benin had sent approximately 3,000 troops to the north of the country to better secure its border and had begun recruiting another 5,000 more new troops for the northern region; in addition, the FAB participates in the Multinational Joint Task Force (MNJTF) along with Cameroon, Chad, Niger, and Nigeria against Boko Haram and ISIS-West Africa in the general area of the Lake Chad Basin and along Nigeria's northeastern border <br /><br />the FAB has a close working relationship with the Belgian armed forces; the Belgians offer military advice, training, and second-hand equipment donations, and deploy to Benin for limited military exercises",
           "info_date": "2024"
         }
       ]
@@ -3291,9 +3293,9 @@
           "name": "Terrorist group(s)",
           "field_id": 413,
           "comparative": false,
-          "content": "al-Qa&rsquo;ida (Jama&rsquo;at Nusrat al Islam wal Muslimeen); Islamic State in the Greater Sahara (ISIS-GS); Boko Haram<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix-T</a>",
+          "content": "al-Qa&rsquo;ida (Jama&rsquo;at Nusrat al Islam wal Muslimeen); Islamic State in the Greater Sahara (ISIS-GS); Boko Haram<br><br><strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in the <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Terrorism</a> reference guide",
           "value": "al-Qa&rsquo;ida (Jama&rsquo;at Nusrat al Islam wal Muslimeen); Islamic State in the Greater Sahara (ISIS-GS); Boko Haram",
-          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Appendix-T</a>"
+          "field_note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in the <a title=\"Appendix-T\" href=\"/references/terrorist-organizations\">Terrorism</a> reference guide"
         }
       ]
     },
