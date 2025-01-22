@@ -1,9 +1,9 @@
 {
   "name": "Anguilla",
   "code": "AV",
-  "published": "2024-11-15 00:00:12 -0500",
+  "published": "2025-01-16 00:01:02 -0500",
   "region": "Central America and the Caribbean",
-  "updated": "2024-11-14 11:47:59 -0500",
+  "updated": "2025-01-15 10:07:23 -0500",
   "media": [
     {
       "type": "flag",
@@ -1033,7 +1033,7 @@
           "name": "Capital",
           "field_id": 301,
           "comparative": false,
-          "content": "<strong>name: </strong>The Valley<br><br><strong>geographic coordinates: </strong>18 13 N, 63 03 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)<br><br><strong>etymology: </strong>name derives from the capital's location between several hills",
+          "content": "<strong>name: </strong>The Valley<br><br><strong>geographic coordinates: </strong>18 13 N, 63 03 W<br><br><strong>time difference: </strong>UTC-4 (1 hour ahead of Washington, DC, during Standard Time)<br><br><strong>etymology: </strong>name may derive from the capital's location among several hills",
           "subfields": [
             {
               "name": "name",
@@ -1055,8 +1055,8 @@
             },
             {
               "name": "etymology",
-              "content": "name derives from the capital's location between several hills",
-              "value": "name derives from the capital's location between several hills",
+              "content": "name may derive from the capital's location among several hills",
+              "value": "name may derive from the capital's location among several hills",
               "title": "etymology"
             }
           ]
@@ -1157,25 +1157,63 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>unicameral House of Assembly (11 seats; 7 members directly elected in single-seat constituencies by simple majority vote, 2 appointed by the governor, and 2 ex-officio members - the attorney general and deputy governor; members serve five-year terms)<br><br><strong>elections: </strong>last held on 29 June 2020 (next to be held in 2025)<br><br><strong>election results: </strong>percent of vote by party - NA; seats by party - APM 7, AUF 4; composition - men 8, women 3, percentage women 27.3%",
+          "content": "<strong>legislature name: </strong>House of Assembly<br><br><strong>legislative structure: </strong>unicameral<br><br><strong>number of seats: </strong>11 (7 directly elected, 2 appointed, 2 ex-officio members)<br><br><strong>electoral system: </strong>plurality/majority<br><br><strong>scope of elections: </strong>full renewal<br><br><strong>term in office: </strong>5 years<br><br><strong>most recent election date: </strong>6/29/2020<br><br><strong>parties elected and seats per party: </strong>APM (7); AUF (4)<br><br><strong>percentage of women in chamber: </strong>27.3%",
           "subfields": [
             {
-              "name": "description",
-              "content": "unicameral House of Assembly (11 seats; 7 members directly elected in single-seat constituencies by simple majority vote, 2 appointed by the governor, and 2 ex-officio members - the attorney general and deputy governor; members serve five-year terms)",
-              "value": "unicameral House of Assembly (11 seats; 7 members directly elected in single-seat constituencies by simple majority vote, 2 appointed by the governor, and 2 ex-officio members - the attorney general and deputy governor; members serve five-year terms)",
-              "title": "description"
+              "name": "legislature name",
+              "content": "House of Assembly",
+              "value": "House of Assembly",
+              "title": "legislature name"
             },
             {
-              "name": "elections",
-              "content": "last held on 29 June 2020 (next to be held in 2025)",
-              "value": "last held on 29 June 2020 (next to be held in 2025)",
-              "title": "elections"
+              "name": "legislative structure",
+              "content": "unicameral",
+              "value": "unicameral",
+              "title": "legislative structure"
             },
             {
-              "name": "election results",
-              "content": "percent of vote by party - NA; seats by party - APM 7, AUF 4; composition - men 8, women 3, percentage women 27.3%",
-              "value": "percent of vote by party - NA; seats by party - APM 7, AUF 4; composition - men 8, women 3, percentage women 27.3%",
-              "title": "election results"
+              "name": "number of seats",
+              "content": "11 (7 directly elected, 2 appointed, 2 ex-officio members)",
+              "value": "11 (7 directly elected, 2 appointed, 2 ex-officio members)",
+              "title": "number of seats"
+            },
+            {
+              "name": "electoral system",
+              "content": "plurality/majority",
+              "value": "plurality/majority",
+              "title": "electoral system"
+            },
+            {
+              "name": "scope of elections",
+              "content": "full renewal",
+              "value": "full renewal",
+              "title": "scope of elections"
+            },
+            {
+              "name": "term in office",
+              "content": "5 years",
+              "title": "term in office",
+              "value": "5",
+              "suffix": "years"
+            },
+            {
+              "name": "most recent election date",
+              "content": "6/29/2020",
+              "value": "6/29/2020",
+              "title": "most recent election date"
+            },
+            {
+              "name": "parties elected and seats per party",
+              "content": "APM (7); AUF (4)",
+              "value": "APM (7); AUF (4)",
+              "title": "parties elected and seats per party"
+            },
+            {
+              "name": "percentage of women in chamber",
+              "content": "27.3%",
+              "title": "percentage of women in chamber",
+              "value": "27.3",
+              "suffix": "%"
             }
           ]
         },
@@ -1750,8 +1788,9 @@
           "name": "Broadcast media",
           "field_id": 199,
           "comparative": false,
-          "content": "1 private TV station; multi-channel cable TV subscription services are available; about 10 radio stations, one of which is government-owned",
-          "value": "1 private TV station; multi-channel cable TV subscription services are available; about 10 radio stations, one of which is government-owned"
+          "content": "1 private TV station; multi-channel cable TV subscription services are available; about 10 radio stations, one of which is government-owned (2024)",
+          "value": "1 private TV station; multi-channel cable TV subscription services are available; about 10 radio stations, one of which is government-owned",
+          "info_date": "2024"
         },
         {
           "name": "Internet country code",

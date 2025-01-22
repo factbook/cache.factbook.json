@@ -1,9 +1,9 @@
 {
   "name": "Bermuda",
   "code": "BD",
-  "published": "2024-11-07 00:00:08 -0500",
+  "published": "2025-01-17 00:01:18 -0500",
   "region": "North America",
-  "updated": "2024-11-06 10:48:23 -0500",
+  "updated": "2025-01-16 13:07:02 -0500",
   "media": [
     {
       "type": "flag",
@@ -1351,25 +1351,129 @@
           "name": "Legislative branch",
           "field_id": 313,
           "comparative": false,
-          "content": "<strong>description: </strong>bicameral Parliament consists of:<br />Senate (11 seats; 3 members appointed by the governor, 5 by the premier, and 3 by the opposition party; members serve 5-year terms)&nbsp;<br />House of Assembly (36 seats; members directly elected in single-seat constituencies by simple majority vote to serve up to 5-year terms)<br><br><strong>elections: </strong>Senate - last appointments in 2022 (next appointments in 2027)<br />House of Assembly - last held on 1 October 2020 (next to be held by 2025)<br><br><strong>election results: </strong>Senate - composition- men 5, women 6, percentage women 63.6%<br /><br />House of Assembly - percent of vote by party - PLP 62.1%, OBA 32.3%, other 5.4%, independent 0.2%; seats by party - PLP 30, OBA 6; composition - men 28, women 7, percentage women 20%; total Parliament percentage women 28.3%",
+          "content": "<strong>legislature name: </strong>Parliament<br><br><strong>legislative structure: </strong>bicameral",
           "subfields": [
             {
-              "name": "description",
-              "content": "bicameral Parliament consists of:<br />Senate (11 seats; 3 members appointed by the governor, 5 by the premier, and 3 by the opposition party; members serve 5-year terms)&nbsp;<br />House of Assembly (36 seats; members directly elected in single-seat constituencies by simple majority vote to serve up to 5-year terms)",
-              "value": "bicameral Parliament consists of:<br />Senate (11 seats; 3 members appointed by the governor, 5 by the premier, and 3 by the opposition party; members serve 5-year terms)&nbsp;<br />House of Assembly (36 seats; members directly elected in single-seat constituencies by simple majority vote to serve up to 5-year terms)",
-              "title": "description"
+              "name": "legislature name",
+              "content": "Parliament",
+              "value": "Parliament",
+              "title": "legislature name"
             },
             {
-              "name": "elections",
-              "content": "Senate - last appointments in 2022 (next appointments in 2027)<br />House of Assembly - last held on 1 October 2020 (next to be held by 2025)",
-              "value": "Senate - last appointments in 2022 (next appointments in 2027)<br />House of Assembly - last held on 1 October 2020 (next to be held by 2025)",
-              "title": "elections"
+              "name": "legislative structure",
+              "content": "bicameral",
+              "value": "bicameral",
+              "title": "legislative structure"
+            }
+          ]
+        },
+        {
+          "name": "Legislative branch - lower chamber",
+          "field_id": 466,
+          "comparative": false,
+          "content": "<strong>chamber name: </strong>House of Assembly<br><br><strong>number of seats: </strong>36 (directly elected)<br><br><strong>electoral system: </strong>plurality/majority<br><br><strong>scope of elections: </strong>full renewal<br><br><strong>term in office: </strong>5 years<br><br><strong>most recent election date: </strong>10/1/2020<br><br><strong>parties elected and seats per party: </strong>PLP (30); OBA (6)<br><br><strong>percentage of women in chamber: </strong>20%<br><br><strong>expected date of next election: </strong>2025",
+          "subfields": [
+            {
+              "name": "chamber name",
+              "content": "House of Assembly",
+              "value": "House of Assembly",
+              "title": "chamber name"
             },
             {
-              "name": "election results",
-              "content": "Senate - composition- men 5, women 6, percentage women 63.6%<br /><br />House of Assembly - percent of vote by party - PLP 62.1%, OBA 32.3%, other 5.4%, independent 0.2%; seats by party - PLP 30, OBA 6; composition - men 28, women 7, percentage women 20%; total Parliament percentage women 28.3%",
-              "value": "Senate - composition- men 5, women 6, percentage women 63.6%<br /><br />House of Assembly - percent of vote by party - PLP 62.1%, OBA 32.3%, other 5.4%, independent 0.2%; seats by party - PLP 30, OBA 6; composition - men 28, women 7, percentage women 20%; total Parliament percentage women 28.3%",
-              "title": "election results"
+              "name": "number of seats",
+              "content": "36 (directly elected)",
+              "value": "36 (directly elected)",
+              "title": "number of seats"
+            },
+            {
+              "name": "electoral system",
+              "content": "plurality/majority",
+              "value": "plurality/majority",
+              "title": "electoral system"
+            },
+            {
+              "name": "scope of elections",
+              "content": "full renewal",
+              "value": "full renewal",
+              "title": "scope of elections"
+            },
+            {
+              "name": "term in office",
+              "content": "5 years",
+              "title": "term in office",
+              "value": "5",
+              "suffix": "years"
+            },
+            {
+              "name": "most recent election date",
+              "content": "10/1/2020",
+              "value": "10/1/2020",
+              "title": "most recent election date"
+            },
+            {
+              "name": "parties elected and seats per party",
+              "content": "PLP (30); OBA (6)",
+              "value": "PLP (30); OBA (6)",
+              "title": "parties elected and seats per party"
+            },
+            {
+              "name": "percentage of women in chamber",
+              "content": "20%",
+              "title": "percentage of women in chamber",
+              "value": "20",
+              "suffix": "%"
+            },
+            {
+              "name": "expected date of next election",
+              "content": "2025",
+              "value": "2025",
+              "title": "expected date of next election"
+            }
+          ]
+        },
+        {
+          "name": "Legislative branch - upper chamber",
+          "field_id": 467,
+          "comparative": false,
+          "content": "<strong>chamber name: </strong>Senate<br><br><strong>number of seats: </strong>11 (appointed)<br><br><strong>term in office: </strong>5 years<br><br><strong>most recent election date: </strong>2022<br><br><strong>percentage of women in chamber: </strong>63.6%<br><br><strong>expected date of next election: </strong>2027",
+          "subfields": [
+            {
+              "name": "chamber name",
+              "content": "Senate",
+              "value": "Senate",
+              "title": "chamber name"
+            },
+            {
+              "name": "number of seats",
+              "content": "11 (appointed)",
+              "value": "11 (appointed)",
+              "title": "number of seats"
+            },
+            {
+              "name": "term in office",
+              "content": "5 years",
+              "title": "term in office",
+              "value": "5",
+              "suffix": "years"
+            },
+            {
+              "name": "most recent election date",
+              "content": "2022",
+              "value": "2022",
+              "title": "most recent election date"
+            },
+            {
+              "name": "percentage of women in chamber",
+              "content": "63.6%",
+              "title": "percentage of women in chamber",
+              "value": "63.6",
+              "suffix": "%"
+            },
+            {
+              "name": "expected date of next election",
+              "content": "2027",
+              "value": "2027",
+              "title": "expected date of next election"
             }
           ]
         },
@@ -1422,12 +1526,12 @@
           "name": "Diplomatic representation from the US",
           "field_id": 319,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong>Acting Consul General James SALLAY (since 20 August 2022)<br><br><strong>embassy: </strong>US Consulate Bermuda, 16 Middle Road, Devonshire, DV 03, Bermuda<br><br><strong>mailing address: </strong>5300 Hamilton Place, Washington, DC 20520-5300<br><br><strong>telephone: </strong>(441) 295-1342<br><br><strong>FAX: </strong>(441) 295-1592<br><br><strong>email address and website: </strong><br />HamiltonConsulate@state.gov<br /><br /><a href=\"https://bm.usconsulate.gov/\" target=\"_blank\" rel=\"noopener\">https://bm.usconsulate.gov/</a><br><br><strong>consulate(s) general: </strong>16 Middle Road, Devonshire DV O3",
+          "content": "<strong>chief of mission: </strong>Acting Consul General Vanja VUKOTA (since December 2024)<br><br><strong>embassy: </strong>US Consulate Bermuda, 16 Middle Road, Devonshire, DV 03, Bermuda<br><br><strong>mailing address: </strong>5300 Hamilton Place, Washington, DC 20520-5300<br><br><strong>telephone: </strong>(441) 295-1342<br><br><strong>FAX: </strong>(441) 295-1592<br><br><strong>email address and website: </strong><br />HamiltonConsulate@state.gov<br /><br /><a href=\"https://bm.usconsulate.gov/\" target=\"_blank\" rel=\"noopener\">https://bm.usconsulate.gov/</a><br><br><strong>consulate(s) general: </strong>16 Middle Road, Devonshire DV O3",
           "subfields": [
             {
               "name": "chief of mission",
-              "content": "Acting Consul General James SALLAY (since 20 August 2022)",
-              "value": "Acting Consul General James SALLAY (since 20 August 2022)",
+              "content": "Acting Consul General Vanja VUKOTA (since December 2024)",
+              "value": "Acting Consul General Vanja VUKOTA (since December 2024)",
               "title": "chief of mission"
             },
             {
@@ -1550,8 +1654,15 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$6.349 billion (2022 est.)<br><br>$5.965 billion (2021 est.)<br><br>$5.659 billion (2020 est.)<br><br><b>note:</b> data in 2021 dollars",
+          "content": "$6.343 billion (2023 est.)<br><br>$6.349 billion (2022 est.)<br><br>$5.965 billion (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
+            {
+              "name": "Real GDP (purchasing power parity) 2023",
+              "content": "$6.343 billion (2023 est.)",
+              "value": "6343000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Real GDP (purchasing power parity) 2022",
               "content": "$6.349 billion (2022 est.)",
@@ -1565,13 +1676,6 @@
               "value": "5965000000",
               "estimated": true,
               "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2020",
-              "content": "$5.659 billion (2020 est.)",
-              "value": "5659000000",
-              "estimated": true,
-              "prefix": "$"
             }
           ],
           "field_note": "<b>note:</b> data in 2021 dollars"
@@ -1580,8 +1684,15 @@
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "6.43% (2022 est.)<br><br>5.42% (2021 est.)<br><br>-6.84% (2020 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
+          "content": "-0.09% (2023 est.)<br><br>6.43% (2022 est.)<br><br>5.42% (2021 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
+            {
+              "name": "Real GDP growth rate 2023",
+              "content": "-0.09% (2023 est.)",
+              "value": "-0.09",
+              "estimated": true,
+              "suffix": "%"
+            },
             {
               "name": "Real GDP growth rate 2022",
               "content": "6.43% (2022 est.)",
@@ -1595,13 +1706,6 @@
               "value": "5.42",
               "estimated": true,
               "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2020",
-              "content": "-6.84% (2020 est.)",
-              "value": "-6.84",
-              "estimated": true,
-              "suffix": "%"
             }
           ],
           "field_note": "<b>note:</b> annual GDP % growth based on constant local currency"
@@ -1610,26 +1714,26 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$99,800 (2022 est.)<br><br>$93,600 (2021 est.)<br><br>$88,600 (2020 est.)<br><br><b>note:</b> data in 2021 dollars",
+          "content": "$98,000 (2023 est.)<br><br>$98,100 (2022 est.)<br><br>$92,300 (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
             {
+              "name": "Real GDP per capita 2023",
+              "content": "$98,000 (2023 est.)",
+              "value": "98000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
               "name": "Real GDP per capita 2022",
-              "content": "$99,800 (2022 est.)",
-              "value": "99800",
+              "content": "$98,100 (2022 est.)",
+              "value": "98100",
               "estimated": true,
               "prefix": "$"
             },
             {
               "name": "Real GDP per capita 2021",
-              "content": "$93,600 (2021 est.)",
-              "value": "93600",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2020",
-              "content": "$88,600 (2020 est.)",
-              "value": "88600",
+              "content": "$92,300 (2021 est.)",
+              "value": "92300",
               "estimated": true,
               "prefix": "$"
             }
@@ -1640,10 +1744,10 @@
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$7.828 billion (2022 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "7828000000",
+          "content": "$8.142 billion (2023 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "8142000000",
           "estimated": true,
-          "info_date": "2022",
+          "info_date": "2023",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -1739,51 +1843,60 @@
           "name": "GDP - composition, by end use",
           "field_id": 213,
           "comparative": false,
-          "content": "<strong>household consumption: </strong>47.2% (2022 est.)<br><br><strong>government consumption: </strong>11.9% (2022 est.)<br><br><strong>investment in fixed capital: </strong>12.1% (2022 est.)<br><br><strong>exports of goods and services: </strong>50.5% (2022 est.)<br><br><strong>imports of goods and services: </strong>-25% (2022 est.)<br><br><strong>note:</strong> figures may not total 100% due to rounding or gaps in data collection",
+          "content": "<strong>household consumption: </strong>47.9% (2023 est.)<br><br><strong>government consumption: </strong>12% (2023 est.)<br><br><strong>investment in fixed capital: </strong>11.8% (2023 est.)<br><br><strong>investment in inventories: </strong>0% (2023 est.)<br><br><strong>exports of goods and services: </strong>52.9% (2023 est.)<br><br><strong>imports of goods and services: </strong>-24.6% (2023 est.)<br><br><strong>note:</strong> figures may not total 100% due to rounding or gaps in data collection",
           "subfields": [
             {
               "name": "household consumption",
-              "content": "47.2% (2022 est.)",
+              "content": "47.9% (2023 est.)",
               "title": "household consumption",
-              "value": "47.2",
+              "value": "47.9",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "government consumption",
-              "content": "11.9% (2022 est.)",
+              "content": "12% (2023 est.)",
               "title": "government consumption",
-              "value": "11.9",
+              "value": "12",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "investment in fixed capital",
-              "content": "12.1% (2022 est.)",
+              "content": "11.8% (2023 est.)",
               "title": "investment in fixed capital",
-              "value": "12.1",
+              "value": "11.8",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
+              "suffix": "%"
+            },
+            {
+              "name": "investment in inventories",
+              "content": "0% (2023 est.)",
+              "title": "investment in inventories",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "exports of goods and services",
-              "content": "50.5% (2022 est.)",
+              "content": "52.9% (2023 est.)",
               "title": "exports of goods and services",
-              "value": "50.5",
+              "value": "52.9",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "imports of goods and services",
-              "content": "-25% (2022 est.)",
+              "content": "-24.6% (2023 est.)",
               "title": "imports of goods and services",
-              "value": "-25",
+              "value": "-24.6",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "%"
             }
           ],
@@ -1880,12 +1993,19 @@
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "22.99% of GDP (2022 est.)<br><br>22.72% of GDP (2021 est.)<br><br>22.86% of GDP (2020 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "21.49% of GDP (2023 est.)<br><br>22.36% of GDP (2022 est.)<br><br>22.72% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
             {
+              "name": "Remittances 2023",
+              "content": "21.49% of GDP (2023 est.)",
+              "value": "21.49",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
               "name": "Remittances 2022",
-              "content": "22.99% of GDP (2022 est.)",
-              "value": "22.99",
+              "content": "22.36% of GDP (2022 est.)",
+              "value": "22.36",
               "estimated": true,
               "suffix": "% of GDP"
             },
@@ -1893,13 +2013,6 @@
               "name": "Remittances 2021",
               "content": "22.72% of GDP (2021 est.)",
               "value": "22.72",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Remittances 2020",
-              "content": "22.86% of GDP (2020 est.)",
-              "value": "22.86",
               "estimated": true,
               "suffix": "% of GDP"
             }
