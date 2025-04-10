@@ -1,9 +1,9 @@
 {
   "name": "Tokelau",
   "code": "TL",
-  "published": "2025-03-26 00:12:34 -0400",
+  "published": "2025-04-10 00:12:17 -0400",
   "region": "Australia and Oceania",
-  "updated": "2025-03-25 06:33:02 -0400",
+  "updated": "2025-04-09 11:48:34 -0400",
   "media": [
     {
       "type": "flag",
@@ -92,8 +92,8 @@
           "name": "Area - comparative",
           "field_id": 280,
           "comparative": false,
-          "content": "about 17 times the size of the National Mall in Washington, DC",
-          "value": "about 17 times the size of the National Mall in Washington, DC"
+          "content": "about 17 times the size of the National Mall in Washington, D.C.",
+          "value": "about 17 times the size of the National Mall in Washington, D.C."
         },
         {
           "name": "Land boundaries",
@@ -281,15 +281,27 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>1,647 (2019 est.)",
+          "content": "<strong>total: </strong>2,453 (2024 est.)<br><br><strong>male: </strong>1,201<br><br><strong>female: </strong>1,252",
           "subfields": [
             {
               "name": "total",
-              "content": "1,647 (2019 est.)",
+              "content": "2,453 (2024 est.)",
               "title": "total",
-              "value": "1647",
+              "value": "2453",
               "estimated": true,
-              "info_date": "2019"
+              "info_date": "2024"
+            },
+            {
+              "name": "male",
+              "content": "1,201",
+              "title": "male",
+              "value": "1201"
+            },
+            {
+              "name": "female",
+              "content": "1,252",
+              "title": "female",
+              "value": "1252"
             }
           ]
         },
@@ -410,16 +422,18 @@
               "content": "0% of total population (2023)",
               "title": "urban population",
               "value": "0",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -633,16 +647,18 @@
               "content": "0% of total population (2023)",
               "title": "urban population",
               "value": "0",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

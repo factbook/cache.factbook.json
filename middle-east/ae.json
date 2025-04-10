@@ -1,9 +1,9 @@
 {
   "name": "United Arab Emirates",
   "code": "AE",
-  "published": "2025-04-01 00:00:24 -0400",
+  "published": "2025-04-10 00:00:16 -0400",
   "region": "Middle East",
-  "updated": "2025-03-31 12:49:45 -0400",
+  "updated": "2025-04-09 14:23:38 -0400",
   "media": [
     {
       "type": "flag",
@@ -25,27 +25,19 @@
     },
     {
       "type": "photo",
-      "src": "/attachments/images/original/AE_Burj.jpg",
-      "category": "Places",
-      "alt": "The Burj-al-Arab Hotel in Dubai, UAE, is one of the world's tallest hotels. Its distinctive shape is meant to mimic an Arab dhow (sailing vessel).",
-      "caption": "The Burj-al-Arab Hotel in Dubai, UAE, is one of the world's tallest hotels. Its distinctive shape is meant to mimic an Arab dhow (sailing vessel).",
-      "position": 0
-    },
-    {
-      "type": "photo",
-      "src": "/attachments/images/original/AE_002_large.jpg",
-      "category": "Places",
-      "alt": "View along the causeway leading to the Burj-al-Arab Hotel in Dubai, UAE. At 321 m (1,053 ft) in height, it is one of the world's tallest hotels.",
-      "caption": "View along the causeway leading to the Burj-al-Arab Hotel in Dubai, UAE. At 321 m (1,053 ft) in height, it is one of the world's tallest hotels.",
-      "position": 1
-    },
-    {
-      "type": "photo",
       "src": "/attachments/images/original/AE_001.JPG",
       "category": "Capital",
       "alt": "Abu Dhabi is the capital of the United Arab Emirates. A planned city, Abu Dhabi has become a thriving metropolis.",
       "caption": "Abu Dhabi is the capital of the United Arab Emirates. A planned city, Abu Dhabi has become a thriving metropolis.",
-      "position": 2
+      "position": 0
+    },
+    {
+      "type": "photo",
+      "src": "/attachments/images/original/AE_Burj.jpg",
+      "category": "Places",
+      "alt": "The Burj-al-Arab Hotel in Dubai, UAE, is one of the world's tallest hotels. Its distinctive shape is meant to mimic an Arab dhow (sailing vessel).",
+      "caption": "The Burj-al-Arab Hotel in Dubai, UAE, is one of the world's tallest hotels. Its distinctive shape is meant to mimic an Arab dhow (sailing vessel).",
+      "position": 1
     },
     {
       "type": "photo",
@@ -53,7 +45,7 @@
       "category": "Capital",
       "alt": "The Emirates Palace is a luxury hotel in Abu Dhabi, UAE. Built between 2001 and 2005, the hotel displays a mix of Islamic architectural elements complemented by modern design and construction.",
       "caption": "The Emirates Palace is a luxury hotel in Abu Dhabi, UAE. Built between 2001 and 2005, the hotel displays a mix of Islamic architectural elements complemented by modern design and construction.",
-      "position": 3
+      "position": 2
     },
     {
       "type": "photo",
@@ -61,7 +53,7 @@
       "category": "Landscapes",
       "alt": "South and west of Abu Dhabi, UAE, sand dunes merge into the Rub' al Khali (Empty Quarter), a sand desert encompassing the southern third of the Arabian Peninsula (including southern Saudi Arabia, and areas of Oman, the United Arab Emirates, and Yemen). The desert covers about 650,000 sq km (250,000 sq mi).",
       "caption": "South and west of Abu Dhabi, UAE, sand dunes merge into the Rub' al Khali (Empty Quarter), a sand desert encompassing the southern third of the Arabian Peninsula (including southern Saudi Arabia, and areas of Oman, the United Arab Emirates, and Yemen). The desert covers about 650,000 sq km (250,000 sq mi).",
-      "position": 4
+      "position": 3
     },
     {
       "type": "photo",
@@ -69,7 +61,7 @@
       "category": "Places",
       "alt": "The Sheikh Zayed Grand Mosque is located in Abu Dhabi, the capital city of the United Arab Emirates. This largest mosque in the country was constructed between 1996 and 2007 and contains design elements borrowed from other Islamic countries, including Turkey, Morocco, Pakistan, and Egypt.",
       "caption": "The Sheikh Zayed Grand Mosque is located in Abu Dhabi, the capital city of the United Arab Emirates. This largest mosque in the country was constructed between 1996 and 2007 and contains design elements borrowed from other Islamic countries, including Turkey, Morocco, Pakistan, and Egypt. \r\nConstructed between 1996 and 2007, the Grand Mosque contains design elements borrowed from other Islamic countries, including Turkey, Morocco, Pakistan, and Egypt. Its main axis is rotated about 11° south of true west, aligning it in the direction of the Kaaba in Mecca, Saudi Arabia. Natural materials, such as marble, gold, semi-precious stones, crystals, and ceramics were used in construction due to their long-lasting qualities.",
-      "position": 5
+      "position": 4
     }
   ],
   "categories": [
@@ -369,13 +361,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>10,032,213<br><br><strong>male: </strong>6,824,131<br><br><strong>female: </strong>3,208,082 (2024 est.)",
+          "content": "<strong>total: </strong>10,032,213 (2024 est.)<br><br><strong>male: </strong>6,824,131<br><br><strong>female: </strong>3,208,082",
           "subfields": [
             {
               "name": "total",
-              "content": "10,032,213",
+              "content": "10,032,213 (2024 est.)",
               "title": "total",
-              "value": "10032213"
+              "value": "10032213",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -385,11 +379,9 @@
             },
             {
               "name": "female",
-              "content": "3,208,082 (2024 est.)",
+              "content": "3,208,082",
               "title": "female",
-              "value": "3208082",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "3208082"
             }
           ]
         },
@@ -625,16 +617,18 @@
               "content": "87.8% of total population (2023)",
               "title": "urban population",
               "value": "87.8",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.5% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.5",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1196,16 +1190,18 @@
               "content": "87.8% of total population (2023)",
               "title": "urban population",
               "value": "87.8",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.5% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.5",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

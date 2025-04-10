@@ -1,9 +1,9 @@
 {
   "name": "Cameroon",
   "code": "CM",
-  "published": "2025-04-03 00:00:40 -0400",
+  "published": "2025-04-10 00:02:59 -0400",
   "region": "Africa",
-  "updated": "2025-04-02 10:49:24 -0400",
+  "updated": "2025-04-09 11:40:02 -0400",
   "media": [
     {
       "type": "flag",
@@ -347,13 +347,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>30,966,105<br><br><strong>male: </strong>15,429,588<br><br><strong>female: </strong>15,536,517 (2024 est.)",
+          "content": "<strong>total: </strong>30,966,105 (2024 est.)<br><br><strong>male: </strong>15,429,588<br><br><strong>female: </strong>15,536,517",
           "subfields": [
             {
               "name": "total",
-              "content": "30,966,105",
+              "content": "30,966,105 (2024 est.)",
               "title": "total",
-              "value": "30966105"
+              "value": "30966105",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -363,11 +365,9 @@
             },
             {
               "name": "female",
-              "content": "15,536,517 (2024 est.)",
+              "content": "15,536,517",
               "title": "female",
-              "value": "15536517",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "15536517"
             }
           ]
         },
@@ -434,13 +434,6 @@
           "content": "Roman Catholic 33.1%, Muslim 30.6%, Protestant 27.1% other Christian 6.1%, animist 1.3%, other 0.7%, none 1.2% (2022 est.)",
           "value": "Roman Catholic 33.1%, Muslim 30.6%, Protestant 27.1% other Christian 6.1%, animist 1.3%, other 0.7%, none 1.2%",
           "info_date": "2022 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Cameroon has a large youth population, with more than 60% of the populace under the age of 25 as of 2020. Fertility is falling but remains at a high level, especially among poor, rural, and uneducated women, in part because of inadequate access to contraception. Life expectancy remains low at about 55 years due to the prevalence of HIV and AIDs and an elevated maternal mortality rate, which has remained high since 1990. Cameroon, particularly the northern region, is vulnerable to food insecurity largely because of government mismanagement, corruption, high production costs, inadequate infrastructure, and natural disasters. Despite economic growth in some regions, poverty is on the rise, and is most prevalent in rural areas, which are especially affected by a shortage of jobs, declining incomes, poor school and health care infrastructure, and a lack of clean water and sanitation. Underinvestment in social safety nets and ineffective public financial management also contribute to Cameroon&rsquo;s high rate of poverty.&nbsp; The activities of Boko Haram, other armed groups, and counterinsurgency operations have worsened food insecurity in the Far North region.&nbsp;&nbsp;</p> <p>International migration has been driven by unemployment (including fewer government jobs), poverty, the search for educational opportunities, and corruption. The US and Europe are preferred destinations, but, with tighter immigration restrictions in these countries, young Cameroonians are increasingly turning to neighboring states, such as Gabon and Nigeria, South Africa, other parts of Africa, and the Near and Far East. Cameroon&rsquo;s limited resources make it dependent on UN support to host more than 480,000 refugees and asylum seekers as of December 2022. These refugees and asylum seekers are primarily from the Central African Republic and Nigeria.&nbsp; Internal and external displacement have grown dramatically in recent years.&nbsp; Boko Haram's attacks and counterattacks by government forces in the Far North since 2014 have increased the number of internally displaced people.&nbsp; Armed conflict between separatists and Cameroon's military in the Northwest and Southwest since 2016 have displaced hundreds of thousands of the country's Anglophone minority.</p>",
-          "value": "<p>Cameroon has a large youth population, with more than 60% of the populace under the age of 25 as of 2020. Fertility is falling but remains at a high level, especially among poor, rural, and uneducated women, in part because of inadequate access to contraception. Life expectancy remains low at about 55 years due to the prevalence of HIV and AIDs and an elevated maternal mortality rate, which has remained high since 1990. Cameroon, particularly the northern region, is vulnerable to food insecurity largely because of government mismanagement, corruption, high production costs, inadequate infrastructure, and natural disasters. Despite economic growth in some regions, poverty is on the rise, and is most prevalent in rural areas, which are especially affected by a shortage of jobs, declining incomes, poor school and health care infrastructure, and a lack of clean water and sanitation. Underinvestment in social safety nets and ineffective public financial management also contribute to Cameroon&rsquo;s high rate of poverty.&nbsp; The activities of Boko Haram, other armed groups, and counterinsurgency operations have worsened food insecurity in the Far North region.&nbsp;&nbsp;</p> <p>International migration has been driven by unemployment (including fewer government jobs), poverty, the search for educational opportunities, and corruption. The US and Europe are preferred destinations, but, with tighter immigration restrictions in these countries, young Cameroonians are increasingly turning to neighboring states, such as Gabon and Nigeria, South Africa, other parts of Africa, and the Near and Far East. Cameroon&rsquo;s limited resources make it dependent on UN support to host more than 480,000 refugees and asylum seekers as of December 2022. These refugees and asylum seekers are primarily from the Central African Republic and Nigeria.&nbsp; Internal and external displacement have grown dramatically in recent years.&nbsp; Boko Haram's attacks and counterattacks by government forces in the Far North since 2014 have increased the number of internally displaced people.&nbsp; Armed conflict between separatists and Cameroon's military in the Northwest and Southwest since 2016 have displaced hundreds of thousands of the country's Anglophone minority.</p>"
         },
         {
           "name": "Age structure",
@@ -608,16 +601,18 @@
               "content": "59.3% of total population (2023)",
               "title": "urban population",
               "value": "59.3",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.43% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "3.43",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1253,16 +1248,18 @@
               "content": "59.3% of total population (2023)",
               "title": "urban population",
               "value": "59.3",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.43% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "3.43",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -3408,10 +3405,10 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Cameroon Armed Forces (Forces Armees Camerounaises, FAC): Army (L'Armee de Terre), Navy (Marine Nationale Republique, MNR, includes naval infantry or fusiliers marin), Air Force (Armee de l'Air du Cameroun, AAC), National Gendarmerie (Gendamerie Nationale, GN), National Firefighting Corps (Corps National de Sapeurs-Pompiers, CNSP), Presidential Guard (Garde Pr&eacute;sidentielle du Cameroun, GP)<br /><br />General Delegation for National Security (D&eacute;l&eacute;gation G&eacute;n&eacute;rale &agrave; la S&ucirc;ret&eacute; Nationale or DGSN): Cameroon Police (2024)<br><br><strong>note 1:</strong> the Police and the National Gendarmerie are responsible for internal security; the Gendarmerie conducts administrative, criminal, and military investigative functions; other missions include customs, air and maritime surveillance, and road traffic control; in times of conflict, it participates in internal defense<br /><br /><strong>note 2:</strong> the Army includes the Rapid Intervention Brigade (Brigade d&rsquo;Intervention Rapide or BIR), which maintains its own command and control structure and reports directly to the Chief of Defense staff and the Presidency; the BIR includes airborne/airmobile, amphibious, armored reconnaissance, artillery, and counterterrorism forces, as well as support elements, such as intelligence",
+          "content": "Cameroon Armed Forces (Forces Armees Camerounaises, FAC): Army (L'Armee de Terre), Navy (Marine Nationale Republique, MNR, includes naval infantry or fusiliers marin), Air Force (Armee de l'Air du Cameroun, AAC), National Gendarmerie (Gendamerie Nationale, GN), National Firefighting Corps (Corps National de Sapeurs-Pompiers, CNSP), Presidential Guard (Garde Pr&eacute;sidentielle du Cameroun, GP)<br /><br />General Delegation for National Security (D&eacute;l&eacute;gation G&eacute;n&eacute;rale &agrave; la S&ucirc;ret&eacute; Nationale or DGSN): Cameroon Police (2024)<br><br><strong>note 1:</strong> the Army includes the Rapid Intervention Brigade (Brigade d&rsquo;Intervention Rapide or BIR), which maintains its own command and control structure and reports directly to the Chief of Defense staff and the Presidency; the BIR includes airborne/airmobile, amphibious, armored reconnaissance, artillery, and counterterrorism forces, as well as support elements, such as intelligence&nbsp;<br /><br /><strong>note 2:</strong> the Cameroon Police and the National Gendarmerie are responsible for internal security; the Gendarmerie conducts administrative, criminal, and military investigative functions; other missions include customs, air and maritime surveillance, and road traffic control; in times of conflict, it participates in internal defense",
           "value": "Cameroon Armed Forces (Forces Armees Camerounaises, FAC): Army (L'Armee de Terre), Navy (Marine Nationale Republique, MNR, includes naval infantry or fusiliers marin), Air Force (Armee de l'Air du Cameroun, AAC), National Gendarmerie (Gendamerie Nationale, GN), National Firefighting Corps (Corps National de Sapeurs-Pompiers, CNSP), Presidential Guard (Garde Pr&eacute;sidentielle du Cameroun, GP)<br /><br />General Delegation for National Security (D&eacute;l&eacute;gation G&eacute;n&eacute;rale &agrave; la S&ucirc;ret&eacute; Nationale or DGSN): Cameroon Police",
           "info_date": "2024",
-          "field_note": "<strong>note 1:</strong> the Police and the National Gendarmerie are responsible for internal security; the Gendarmerie conducts administrative, criminal, and military investigative functions; other missions include customs, air and maritime surveillance, and road traffic control; in times of conflict, it participates in internal defense<br /><br /><strong>note 2:</strong> the Army includes the Rapid Intervention Brigade (Brigade d&rsquo;Intervention Rapide or BIR), which maintains its own command and control structure and reports directly to the Chief of Defense staff and the Presidency; the BIR includes airborne/airmobile, amphibious, armored reconnaissance, artillery, and counterterrorism forces, as well as support elements, such as intelligence"
+          "field_note": "<strong>note 1:</strong> the Army includes the Rapid Intervention Brigade (Brigade d&rsquo;Intervention Rapide or BIR), which maintains its own command and control structure and reports directly to the Chief of Defense staff and the Presidency; the BIR includes airborne/airmobile, amphibious, armored reconnaissance, artillery, and counterterrorism forces, as well as support elements, such as intelligence&nbsp;<br /><br /><strong>note 2:</strong> the Cameroon Police and the National Gendarmerie are responsible for internal security; the Gendarmerie conducts administrative, criminal, and military investigative functions; other missions include customs, air and maritime surveillance, and road traffic control; in times of conflict, it participates in internal defense"
         },
         {
           "name": "Military expenditures",

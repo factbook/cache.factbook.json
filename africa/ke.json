@@ -1,9 +1,9 @@
 {
   "name": "Kenya",
   "code": "KE",
-  "published": "2025-04-01 00:03:11 -0400",
+  "published": "2025-04-10 00:06:40 -0400",
   "region": "Africa",
-  "updated": "2025-03-31 10:30:55 -0400",
+  "updated": "2025-04-09 11:48:31 -0400",
   "media": [
     {
       "type": "flag",
@@ -632,13 +632,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>58,246,378<br><br><strong>male: </strong>29,091,800<br><br><strong>female: </strong>29,154,578 (2024 est.)",
+          "content": "<strong>total: </strong>58,246,378 (2024 est.)<br><br><strong>male: </strong>29,091,800<br><br><strong>female: </strong>29,154,578",
           "subfields": [
             {
               "name": "total",
-              "content": "58,246,378",
+              "content": "58,246,378 (2024 est.)",
               "title": "total",
-              "value": "58246378"
+              "value": "58246378",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -648,11 +650,9 @@
             },
             {
               "name": "female",
-              "content": "29,154,578 (2024 est.)",
+              "content": "29,154,578",
               "title": "female",
-              "value": "29154578",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "29154578"
             }
           ]
         },
@@ -719,13 +719,6 @@
           "content": "Christian 85.5% (Protestant 33.4%, Catholic 20.6%, Evangelical 20.4%, African Instituted Churches 7%, other Christian 4.1%), Muslim 10.9%, other 1.8%, none 1.6%,&nbsp;don't&nbsp;know/no answer&nbsp;0.2% (2019 est.)",
           "value": "Christian 85.5% (Protestant 33.4%, Catholic 20.6%, Evangelical 20.4%, African Instituted Churches 7%, other Christian 4.1%), Muslim 10.9%, other 1.8%, none 1.6%,&nbsp;don't&nbsp;know/no answer&nbsp;0.2%",
           "info_date": "2019 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Kenya has experienced dramatic population growth since the mid-20th century as a result of its high birth rate and its declining mortality rate. Almost 40% of Kenyans are under the age of 15 as of 2020 because of sustained high fertility, early marriage and childbearing, and an unmet need for family planning. Kenya&rsquo;s persistent rapid population growth strains the labor market, social services, arable land, and natural resources. Although Kenya in 1967 was the first Sub-Saharan country to launch a nationwide family planning program, progress in reducing the birth rate has largely stalled since the late 1990s, when the government decreased its support for family planning to focus on the HIV epidemic. Government commitment and international technical support spurred Kenyan contraceptive use, decreasing the fertility rate (children per woman) from about 8 in the late 1970s to less than 5 children twenty years later, but it has plateaued at about 3 children as of 2022.</p> <p>Kenya is a source of emigrants and a host country for refugees. In the 1960s and 1970s, Kenyans pursued higher education in the UK because of colonial ties, but as British immigration rules tightened, the US, the then Soviet Union, and Canada became attractive study destinations. Kenya&rsquo;s stagnant economy and political problems during the 1980s and 1990s led to an outpouring of Kenyan students and professionals seeking permanent opportunities in the West and southern Africa. Nevertheless, Kenya&rsquo;s relative stability since its independence in 1963 has attracted hundreds of thousands of refugees escaping violent conflicts in neighboring countries; Kenya was sheltering nearly 280,000 Somali refugees as of 2022.</p>",
-          "value": "<p>Kenya has experienced dramatic population growth since the mid-20th century as a result of its high birth rate and its declining mortality rate. Almost 40% of Kenyans are under the age of 15 as of 2020 because of sustained high fertility, early marriage and childbearing, and an unmet need for family planning. Kenya&rsquo;s persistent rapid population growth strains the labor market, social services, arable land, and natural resources. Although Kenya in 1967 was the first Sub-Saharan country to launch a nationwide family planning program, progress in reducing the birth rate has largely stalled since the late 1990s, when the government decreased its support for family planning to focus on the HIV epidemic. Government commitment and international technical support spurred Kenyan contraceptive use, decreasing the fertility rate (children per woman) from about 8 in the late 1970s to less than 5 children twenty years later, but it has plateaued at about 3 children as of 2022.</p> <p>Kenya is a source of emigrants and a host country for refugees. In the 1960s and 1970s, Kenyans pursued higher education in the UK because of colonial ties, but as British immigration rules tightened, the US, the then Soviet Union, and Canada became attractive study destinations. Kenya&rsquo;s stagnant economy and political problems during the 1980s and 1990s led to an outpouring of Kenyan students and professionals seeking permanent opportunities in the West and southern Africa. Nevertheless, Kenya&rsquo;s relative stability since its independence in 1963 has attracted hundreds of thousands of refugees escaping violent conflicts in neighboring countries; Kenya was sheltering nearly 280,000 Somali refugees as of 2022.</p>"
         },
         {
           "name": "Age structure",
@@ -893,16 +886,18 @@
               "content": "29.5% of total population (2023)",
               "title": "urban population",
               "value": "29.5",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "4.09% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "4.09",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1467,16 +1462,18 @@
               "content": "29.5% of total population (2023)",
               "title": "urban population",
               "value": "29.5",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "4.09% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "4.09",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1679,7 +1676,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>Republic of Kenya<br><br><strong>conventional short form: </strong>Kenya<br><br><strong>local long form: </strong>Republic of Kenya (English)/ Jamhuri ya Kenya (Swahili)<br><br><strong>local short form: </strong>Kenya<br><br><strong>former: </strong>British East Africa<br><br><strong>etymology: </strong>named for Mount Kenya; the meaning of the name is unclear but may derive from the Kikuyu, Embu, and Kamba words \"kirinyaga,\" \"kirenyaa,\" and \"kiinyaa\" - all of which mean \"God's resting place\"",
+          "content": "<strong>conventional long form: </strong>Republic of Kenya<br><br><strong>conventional short form: </strong>Kenya<br><br><strong>local long form: </strong>Republic of Kenya (English)/ Jamhuri ya Kenya (Swahili)<br><br><strong>local short form: </strong>Kenya<br><br><strong>former: </strong>British East Africa<br><br><strong>etymology: </strong>named for Mount Kenya; the mountain's name may derive from the Kikuyu word <em>kere nyaga</em>, or \"white mountain\"",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1713,8 +1710,8 @@
             },
             {
               "name": "etymology",
-              "content": "named for Mount Kenya; the meaning of the name is unclear but may derive from the Kikuyu, Embu, and Kamba words \"kirinyaga,\" \"kirenyaa,\" and \"kiinyaa\" - all of which mean \"God's resting place\"",
-              "value": "named for Mount Kenya; the meaning of the name is unclear but may derive from the Kikuyu, Embu, and Kamba words \"kirinyaga,\" \"kirenyaa,\" and \"kiinyaa\" - all of which mean \"God's resting place\"",
+              "content": "named for Mount Kenya; the mountain's name may derive from the Kikuyu word <em>kere nyaga</em>, or \"white mountain\"",
+              "value": "named for Mount Kenya; the mountain's name may derive from the Kikuyu word <em>kere nyaga</em>, or \"white mountain\"",
               "title": "etymology"
             }
           ]

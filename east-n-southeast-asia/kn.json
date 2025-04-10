@@ -1,9 +1,9 @@
 {
   "name": "Korea, North",
   "code": "KN",
-  "published": "2025-03-26 00:07:07 -0400",
+  "published": "2025-04-10 00:06:47 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-03-25 06:32:59 -0400",
+  "updated": "2025-04-09 11:48:32 -0400",
   "media": [
     {
       "type": "flag",
@@ -308,13 +308,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>26,298,666<br><br><strong>male: </strong>12,828,269<br><br><strong>female: </strong>13,470,397 (2024 est.)",
+          "content": "<strong>total: </strong>26,298,666 (2024 est.)<br><br><strong>male: </strong>12,828,269<br><br><strong>female: </strong>13,470,397",
           "subfields": [
             {
               "name": "total",
-              "content": "26,298,666",
+              "content": "26,298,666 (2024 est.)",
               "title": "total",
-              "value": "26298666"
+              "value": "26298666",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -324,11 +326,9 @@
             },
             {
               "name": "female",
-              "content": "13,470,397 (2024 est.)",
+              "content": "13,470,397",
               "title": "female",
-              "value": "13470397",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "13470397"
             }
           ]
         },
@@ -561,16 +561,18 @@
               "content": "63.2% of total population (2023)",
               "title": "urban population",
               "value": "63.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.85% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.85",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1161,16 +1163,18 @@
               "content": "63.2% of total population (2023)",
               "title": "urban population",
               "value": "63.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.85% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.85",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -2079,33 +2083,33 @@
           "name": "Electricity",
           "field_id": 435,
           "comparative": false,
-          "content": "<strong>installed generating capacity: </strong>8.277 million kW (2022 est.)<br><br><strong>consumption: </strong>18.24 billion kWh (2022 est.)<br><br><strong>transmission/distribution losses: </strong>4.033 billion kWh (2022 est.)",
+          "content": "<strong>installed generating capacity: </strong>8.357 million kW (2023 est.)<br><br><strong>consumption: </strong>22.448 billion kWh (2023 est.)<br><br><strong>transmission/distribution losses: </strong>4.101 billion kWh (2023 est.)",
           "subfields": [
             {
               "name": "installed generating capacity",
-              "content": "8.277 million kW (2022 est.)",
+              "content": "8.357 million kW (2023 est.)",
               "title": "installed generating capacity",
-              "value": "8277000",
+              "value": "8357000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "kW"
             },
             {
               "name": "consumption",
-              "content": "18.24 billion kWh (2022 est.)",
+              "content": "22.448 billion kWh (2023 est.)",
               "title": "consumption",
-              "value": "18240000000",
+              "value": "22448000000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "kWh"
             },
             {
               "name": "transmission/distribution losses",
-              "content": "4.033 billion kWh (2022 est.)",
+              "content": "4.101 billion kWh (2023 est.)",
               "title": "transmission/distribution losses",
-              "value": "4033000000",
+              "value": "4101000000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "kWh"
             }
           ]
@@ -2114,33 +2118,33 @@
           "name": "Electricity generation sources",
           "field_id": 436,
           "comparative": false,
-          "content": "<strong>fossil fuels: </strong>42.1% of total installed capacity (2022 est.)<br><br><strong>solar: </strong>0.3% of total installed capacity (2022 est.)<br><br><strong>hydroelectricity: </strong>57.6% of total installed capacity (2022 est.)",
+          "content": "<strong>fossil fuels: </strong>36.9% of total installed capacity (2023 est.)<br><br><strong>solar: </strong>0.6% of total installed capacity (2023 est.)<br><br><strong>hydroelectricity: </strong>62.5% of total installed capacity (2023 est.)",
           "subfields": [
             {
               "name": "fossil fuels",
-              "content": "42.1% of total installed capacity (2022 est.)",
+              "content": "36.9% of total installed capacity (2023 est.)",
               "title": "fossil fuels",
-              "value": "42.1",
+              "value": "36.9",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "solar",
-              "content": "0.3% of total installed capacity (2022 est.)",
+              "content": "0.6% of total installed capacity (2023 est.)",
               "title": "solar",
-              "value": "0.3",
+              "value": "0.6",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "hydroelectricity",
-              "content": "57.6% of total installed capacity (2022 est.)",
+              "content": "62.5% of total installed capacity (2023 est.)",
               "title": "hydroelectricity",
-              "value": "57.6",
+              "value": "62.5",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "% of total installed capacity"
             }
           ]
@@ -2149,33 +2153,33 @@
           "name": "Coal",
           "field_id": 437,
           "comparative": false,
-          "content": "<strong>production: </strong>21.747 million metric tons (2022 est.)<br><br><strong>consumption: </strong>21.747 million metric tons (2022 est.)<br><br><strong>proven reserves: </strong>10.6 billion metric tons (2022 est.)",
+          "content": "<strong>production: </strong>21.928 million metric tons (2023 est.)<br><br><strong>consumption: </strong>22.105 million metric tons (2023 est.)<br><br><strong>proven reserves: </strong>10.6 billion metric tons (2023 est.)",
           "subfields": [
             {
               "name": "production",
-              "content": "21.747 million metric tons (2022 est.)",
+              "content": "21.928 million metric tons (2023 est.)",
               "title": "production",
-              "value": "21747000",
+              "value": "21928000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "metric tons"
             },
             {
               "name": "consumption",
-              "content": "21.747 million metric tons (2022 est.)",
+              "content": "22.105 million metric tons (2023 est.)",
               "title": "consumption",
-              "value": "21747000",
+              "value": "22105000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "metric tons"
             },
             {
               "name": "proven reserves",
-              "content": "10.6 billion metric tons (2022 est.)",
+              "content": "10.6 billion metric tons (2023 est.)",
               "title": "proven reserves",
               "value": "10600000000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "metric tons"
             }
           ]
@@ -2184,15 +2188,15 @@
           "name": "Petroleum",
           "field_id": 438,
           "comparative": false,
-          "content": "<strong>refined petroleum consumption: </strong>17,000 bbl/day (2022 est.)",
+          "content": "<strong>refined petroleum consumption: </strong>18,000 bbl/day (2023 est.)",
           "subfields": [
             {
               "name": "refined petroleum consumption",
-              "content": "17,000 bbl/day (2022 est.)",
+              "content": "18,000 bbl/day (2023 est.)",
               "title": "refined petroleum consumption",
-              "value": "17000",
+              "value": "18000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "bbl/day"
             }
           ]
@@ -2201,32 +2205,32 @@
           "name": "Carbon dioxide emissions",
           "field_id": 274,
           "comparative": false,
-          "content": "61.605 million metric tonnes of CO2 (2022 est.)<br><br><strong>from coal and metallurgical coke: </strong>58.987 million metric tonnes of CO2 (2022 est.)<br><br><strong>from petroleum and other liquids: </strong>2.617 million metric tonnes of CO2 (2022 est.)",
+          "content": "55.744 million metric tonnes of CO2 (2023 est.)<br><br><strong>from coal and metallurgical coke: </strong>52.985 million metric tonnes of CO2 (2023 est.)<br><br><strong>from petroleum and other liquids: </strong>2.759 million metric tonnes of CO2 (2023 est.)",
           "subfields": [
             {
               "name": "total emissions",
-              "content": "61.605 million metric tonnes of CO2 (2022 est.)",
-              "value": "61605000",
+              "content": "55.744 million metric tonnes of CO2 (2023 est.)",
+              "value": "55744000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from coal and metallurgical coke",
-              "content": "58.987 million metric tonnes of CO2 (2022 est.)",
+              "content": "52.985 million metric tonnes of CO2 (2023 est.)",
               "title": "from coal and metallurgical coke",
-              "value": "58987000",
+              "value": "52985000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from petroleum and other liquids",
-              "content": "2.617 million metric tonnes of CO2 (2022 est.)",
+              "content": "2.759 million metric tonnes of CO2 (2023 est.)",
               "title": "from petroleum and other liquids",
-              "value": "2617000",
+              "value": "2759000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "metric tonnes of CO2"
             }
           ]
@@ -2235,12 +2239,12 @@
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
-          "content": "25.876 million Btu/person (2022 est.)",
+          "content": "23.83 million Btu/person (2023 est.)",
           "subfields": [
             {
-              "name": "Total energy consumption per capita 2022",
-              "content": "25.876 million Btu/person (2022 est.)",
-              "value": "25876000",
+              "name": "Total energy consumption per capita 2023",
+              "content": "23.83 million Btu/person (2023 est.)",
+              "value": "23830000",
               "estimated": true,
               "suffix": "Btu/person"
             }

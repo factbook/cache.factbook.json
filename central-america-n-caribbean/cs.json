@@ -1,9 +1,9 @@
 {
   "name": "Costa Rica",
   "code": "CS",
-  "published": "2025-03-29 00:03:03 -0400",
+  "published": "2025-04-10 00:03:12 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-03-28 16:27:47 -0400",
+  "updated": "2025-04-09 11:48:30 -0400",
   "media": [
     {
       "type": "flag",
@@ -355,13 +355,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>5,265,575<br><br><strong>male: </strong>2,635,481<br><br><strong>female: </strong>2,630,094 (2024 est.)",
+          "content": "<strong>total: </strong>5,265,575 (2024 est.)<br><br><strong>male: </strong>2,635,481<br><br><strong>female: </strong>2,630,094",
           "subfields": [
             {
               "name": "total",
-              "content": "5,265,575",
+              "content": "5,265,575 (2024 est.)",
               "title": "total",
-              "value": "5265575"
+              "value": "5265575",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -371,11 +373,9 @@
             },
             {
               "name": "female",
-              "content": "2,630,094 (2024 est.)",
+              "content": "2,630,094",
               "title": "female",
-              "value": "2630094",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "2630094"
             }
           ]
         },
@@ -442,13 +442,6 @@
           "content": "Roman Catholic 47.5%, Evangelical and Pentecostal 19.8%, Jehovah's Witness 1.4%, other Protestant 1.2%, other 3.1%, none 27% (2021 est.)",
           "value": "Roman Catholic 47.5%, Evangelical and Pentecostal 19.8%, Jehovah's Witness 1.4%, other Protestant 1.2%, other 3.1%, none 27%",
           "info_date": "2021 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Costa Rica's political stability, high standard of living, and well-developed social benefits system set it apart from its Central American neighbors. Through the government's sustained social spending - almost 20% of GDP annually - Costa Rica has made tremendous progress toward achieving its goal of providing universal access to education, healthcare, clean water, sanitation, and electricity. Since the 1970s, expansion of these services has led to a rapid decline in infant mortality, an increase in life expectancy at birth, and a sharp decrease in the birth rate. The average number of children born per women has fallen from about 7 in the 1960s to 3.5 in the early 1980s to below replacement level today. Costa Rica's poverty rate is lower than in most Latin American countries, but it has stalled at around 20% for almost two decades.</p><p>Costa Rica is a popular regional immigration destination because of its job opportunities and social programs. Almost 9% of the population is foreign-born, with Nicaraguans comprising nearly three-quarters of the foreign population. Many Nicaraguans who perform unskilled seasonal labor enter Costa Rica illegally or overstay their visas, which continues to be a source of tension. Less than 3% of Costa Rica's population lives abroad. The overwhelming majority of expatriates have settled in the United States after completing a university degree or in order to work in a highly skilled field.</p>",
-          "value": "<p>Costa Rica's political stability, high standard of living, and well-developed social benefits system set it apart from its Central American neighbors. Through the government's sustained social spending - almost 20% of GDP annually - Costa Rica has made tremendous progress toward achieving its goal of providing universal access to education, healthcare, clean water, sanitation, and electricity. Since the 1970s, expansion of these services has led to a rapid decline in infant mortality, an increase in life expectancy at birth, and a sharp decrease in the birth rate. The average number of children born per women has fallen from about 7 in the 1960s to 3.5 in the early 1980s to below replacement level today. Costa Rica's poverty rate is lower than in most Latin American countries, but it has stalled at around 20% for almost two decades.</p><p>Costa Rica is a popular regional immigration destination because of its job opportunities and social programs. Almost 9% of the population is foreign-born, with Nicaraguans comprising nearly three-quarters of the foreign population. Many Nicaraguans who perform unskilled seasonal labor enter Costa Rica illegally or overstay their visas, which continues to be a source of tension. Less than 3% of Costa Rica's population lives abroad. The overwhelming majority of expatriates have settled in the United States after completing a university degree or in order to work in a highly skilled field.</p>"
         },
         {
           "name": "Age structure",
@@ -616,16 +609,18 @@
               "content": "82.6% of total population (2023)",
               "title": "urban population",
               "value": "82.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.5% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.5",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1244,16 +1239,18 @@
               "content": "82.6% of total population (2023)",
               "title": "urban population",
               "value": "82.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.5% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.5",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -3229,9 +3226,9 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "no regular military forces; Ministry of Public Security: National Police (Fuerza P&uacute;blica), Air Surveillance Service (Servicio de Vigilancia A&eacute;rea), National Coast Guard Service (Servicio Nacional de Guardacostas), Drug Control Police (Polic&iacute;a Control de Drogas), Border Police (Policia de Fronteras), Professional Migration Police (Polic&iacute;a Profesional de Migraci&oacute;n); Ministry of Presidency: Directorate of Intelligence and Security (DIS), Special Intervention Unit (UEI) (2024)<br><br><strong>note:</strong> Costa Rica's armed forces were constitutionally abolished in 1949",
-          "value": "no regular military forces; Ministry of Public Security: National Police (Fuerza P&uacute;blica), Air Surveillance Service (Servicio de Vigilancia A&eacute;rea), National Coast Guard Service (Servicio Nacional de Guardacostas), Drug Control Police (Polic&iacute;a Control de Drogas), Border Police (Policia de Fronteras), Professional Migration Police (Polic&iacute;a Profesional de Migraci&oacute;n); Ministry of Presidency: Directorate of Intelligence and Security (DIS), Special Intervention Unit (UEI)",
-          "info_date": "2024",
+          "content": "no regular military forces; Ministry of Public Security (Ministerio de Seguridad P&uacute;blica de Costa Rica): National Police (Fuerza P&uacute;blica), Air Surveillance Service (Servicio de Vigilancia A&eacute;rea), National Coast Guard Service (Servicio Nacional de Guardacostas), Drug Control Police (Polic&iacute;a Control de Drogas), Border Police (Policia de Fronteras), Professional Migration Police (Polic&iacute;a Profesional de Migraci&oacute;n)<br /><br />Ministry of Presidency: Directorate of Intelligence and Security (DIS), Special Intervention Unit (UEI) (2025)<br><br><strong>note:</strong> Costa Rica's armed forces were constitutionally abolished in 1949",
+          "value": "no regular military forces; Ministry of Public Security (Ministerio de Seguridad P&uacute;blica de Costa Rica): National Police (Fuerza P&uacute;blica), Air Surveillance Service (Servicio de Vigilancia A&eacute;rea), National Coast Guard Service (Servicio Nacional de Guardacostas), Drug Control Police (Polic&iacute;a Control de Drogas), Border Police (Policia de Fronteras), Professional Migration Police (Polic&iacute;a Profesional de Migraci&oacute;n)<br /><br />Ministry of Presidency: Directorate of Intelligence and Security (DIS), Special Intervention Unit (UEI)",
+          "info_date": "2025",
           "field_note": "<strong>note:</strong> Costa Rica's armed forces were constitutionally abolished in 1949"
         },
         {
@@ -3289,8 +3286,8 @@
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the National Police are lightly armed although small special units are trained and equipped for tactical operations; the US has provided equipment and support to forces such the National Coast Guard, including secondhand US vessels and aircraft (2024)",
-          "value": "the National Police are lightly armed although small special units are trained and equipped for tactical operations; the US has provided equipment and support to forces such the National Coast Guard, including secondhand US vessels and aircraft",
+          "content": "the National Police are lightly armed although small special units are trained and equipped for tactical operations; the US has provided equipment and support to forces such the Coast Guard, including secondhand US vessels and aircraft (2024)",
+          "value": "the National Police are lightly armed although small special units are trained and equipped for tactical operations; the US has provided equipment and support to forces such the Coast Guard, including secondhand US vessels and aircraft",
           "info_date": "2024"
         },
         {

@@ -1,9 +1,9 @@
 {
   "name": "Russia",
   "code": "RS",
-  "published": "2025-04-02 00:00:51 -0400",
+  "published": "2025-04-10 00:10:57 -0400",
   "region": "Central Asia",
-  "updated": "2025-04-01 12:00:22 -0400",
+  "updated": "2025-04-09 11:48:33 -0400",
   "media": [
     {
       "type": "flag",
@@ -547,13 +547,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>140,820,810<br><br><strong>male: </strong>65,496,805<br><br><strong>female: </strong>75,324,005 (2024 est.)",
+          "content": "<strong>total: </strong>140,820,810 (2024 est.)<br><br><strong>male: </strong>65,496,805<br><br><strong>female: </strong>75,324,005",
           "subfields": [
             {
               "name": "total",
-              "content": "140,820,810",
+              "content": "140,820,810 (2024 est.)",
               "title": "total",
-              "value": "140820810"
+              "value": "140820810",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -563,11 +565,9 @@
             },
             {
               "name": "female",
-              "content": "75,324,005 (2024 est.)",
+              "content": "75,324,005",
               "title": "female",
-              "value": "75324005",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "75324005"
             }
           ]
         },
@@ -804,16 +804,18 @@
               "content": "75.3% of total population (2023)",
               "title": "urban population",
               "value": "75.3",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.11% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.11",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1442,16 +1444,18 @@
               "content": "75.3% of total population (2023)",
               "title": "urban population",
               "value": "75.3",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.11% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.11",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1979,7 +1983,7 @@
           "name": "Legislative branch - upper chamber",
           "field_id": 467,
           "comparative": false,
-          "content": "<strong>chamber name: </strong>Council of the Federation (Soviet Federatsii)<br><br><strong>number of seats: </strong>170 (all appointed)<br><br><strong>percentage of women in chamber: </strong>18.5%",
+          "content": "<strong>chamber name: </strong>Council of the Federation (Soviet Federatsii)<br><br><strong>number of seats: </strong>170 (all appointed)<br><br><strong>scope of elections: </strong>Full renewal<br><br><strong>most recent election date: </strong>12/27/2020<br><br><strong>parties elected and seats per party: </strong>Niger Party for Democracy and Socialism (PNDS Tarayya) (80); Nigerien Democratic Movement for an African Federation (Moden Fa . Lumana Africa ) (19); Patriotic Movement for the Republic (MPR-JAMHURIYA) (13); National Movement for the Development of Society (MNSD) - Nassara (13); Other (41)<br><br><strong>percentage of women in chamber: </strong>18.5%<br><br><strong>expected date of next election: </strong>December 2025",
           "subfields": [
             {
               "name": "chamber name",
@@ -1994,11 +1998,35 @@
               "title": "number of seats"
             },
             {
+              "name": "scope of elections",
+              "content": "Full renewal",
+              "value": "Full renewal",
+              "title": "scope of elections"
+            },
+            {
+              "name": "most recent election date",
+              "content": "12/27/2020",
+              "value": "12/27/2020",
+              "title": "most recent election date"
+            },
+            {
+              "name": "parties elected and seats per party",
+              "content": "Niger Party for Democracy and Socialism (PNDS Tarayya) (80); Nigerien Democratic Movement for an African Federation (Moden Fa . Lumana Africa ) (19); Patriotic Movement for the Republic (MPR-JAMHURIYA) (13); National Movement for the Development of Society (MNSD) - Nassara (13); Other (41)",
+              "value": "Niger Party for Democracy and Socialism (PNDS Tarayya) (80); Nigerien Democratic Movement for an African Federation (Moden Fa . Lumana Africa ) (19); Patriotic Movement for the Republic (MPR-JAMHURIYA) (13); National Movement for the Development of Society (MNSD) - Nassara (13); Other (41)",
+              "title": "parties elected and seats per party"
+            },
+            {
               "name": "percentage of women in chamber",
               "content": "18.5%",
               "title": "percentage of women in chamber",
               "value": "18.5",
               "suffix": "%"
+            },
+            {
+              "name": "expected date of next election",
+              "content": "December 2025",
+              "value": "December 2025",
+              "title": "expected date of next election"
             }
           ]
         },

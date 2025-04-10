@@ -1,9 +1,9 @@
 {
   "name": "United Kingdom",
   "code": "UK",
-  "published": "2025-04-03 00:02:06 -0400",
+  "published": "2025-04-10 00:12:58 -0400",
   "region": "Europe",
-  "updated": "2025-04-02 09:56:19 -0400",
+  "updated": "2025-04-09 11:48:35 -0400",
   "media": [
     {
       "type": "flag",
@@ -1275,13 +1275,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>68,459,055 United Kingdom<br><br><strong>male: </strong>34,005,445<br><br><strong>female: </strong>34,453,610 (2024 est.)",
+          "content": "<strong>total: </strong>68,459,055 (2024 est.) United Kingdom<br><br><strong>male: </strong>34,005,445<br><br><strong>female: </strong>34,453,610",
           "subfields": [
             {
               "name": "total",
-              "content": "68,459,055 United Kingdom",
+              "content": "68,459,055 (2024 est.) United Kingdom",
               "title": "total",
               "value": "68459055",
+              "estimated": true,
+              "info_date": "2024",
               "subfield_note": "United Kingdom"
             },
             {
@@ -1292,11 +1294,9 @@
             },
             {
               "name": "female",
-              "content": "34,453,610 (2024 est.)",
+              "content": "34,453,610",
               "title": "female",
-              "value": "34453610",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "34453610"
             }
           ]
         },
@@ -1510,16 +1510,18 @@
               "content": "84.6% of total population (2023)",
               "title": "urban population",
               "value": "84.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.8% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.8",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -2134,16 +2136,18 @@
               "content": "84.6% of total population (2023)",
               "title": "urban population",
               "value": "84.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.8% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.8",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -2623,7 +2627,7 @@
           "name": "Legislative branch - upper chamber",
           "field_id": 467,
           "comparative": false,
-          "content": "<strong>chamber name: </strong>House of Lords<br><br><strong>number of seats: </strong>800 (all appointed)<br><br><strong>percentage of women in chamber: </strong>30%<br><br><strong>note: </strong>the number of total seats in the House of Lords does not include ineligible members or members on leave of absence",
+          "content": "<strong>chamber name: </strong>House of Lords<br><br><strong>number of seats: </strong>800 (all appointed)<br><br><strong>scope of elections: </strong>Full renewal<br><br><strong>most recent election date: </strong>4/13/2015 to 4/16/2015<br><br><strong>parties elected and seats per party: </strong>National Congress Party (NCP) (323); Others (44); Democratic Unionist Party (25); Other (34)<br><br><strong>percentage of women in chamber: </strong>31%<br><br><strong>note: </strong>the number of total seats in the House of Lords does not include ineligible members or members on leave of absence",
           "subfields": [
             {
               "name": "chamber name",
@@ -2638,10 +2642,28 @@
               "title": "number of seats"
             },
             {
+              "name": "scope of elections",
+              "content": "Full renewal",
+              "value": "Full renewal",
+              "title": "scope of elections"
+            },
+            {
+              "name": "most recent election date",
+              "content": "4/13/2015 to 4/16/2015",
+              "value": "4/13/2015 to 4/16/2015",
+              "title": "most recent election date"
+            },
+            {
+              "name": "parties elected and seats per party",
+              "content": "National Congress Party (NCP) (323); Others (44); Democratic Unionist Party (25); Other (34)",
+              "value": "National Congress Party (NCP) (323); Others (44); Democratic Unionist Party (25); Other (34)",
+              "title": "parties elected and seats per party"
+            },
+            {
               "name": "percentage of women in chamber",
-              "content": "30%",
+              "content": "31%",
               "title": "percentage of women in chamber",
-              "value": "30",
+              "value": "31",
               "suffix": "%"
             }
           ],

@@ -1,9 +1,9 @@
 {
   "name": "Eritrea",
   "code": "ER",
-  "published": "2025-03-29 00:04:04 -0400",
+  "published": "2025-04-10 00:04:06 -0400",
   "region": "Africa",
-  "updated": "2025-03-28 15:42:01 -0400",
+  "updated": "2025-04-09 11:48:30 -0400",
   "media": [
     {
       "type": "flag",
@@ -349,13 +349,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>6,343,956<br><br><strong>male: </strong>3,122,433<br><br><strong>female: </strong>3,221,523 (2024 est.)",
+          "content": "<strong>total: </strong>6,343,956 (2024 est.)<br><br><strong>male: </strong>3,122,433<br><br><strong>female: </strong>3,221,523",
           "subfields": [
             {
               "name": "total",
-              "content": "6,343,956",
+              "content": "6,343,956 (2024 est.)",
               "title": "total",
-              "value": "6343956"
+              "value": "6343956",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -365,11 +367,9 @@
             },
             {
               "name": "female",
-              "content": "3,221,523 (2024 est.)",
+              "content": "3,221,523",
               "title": "female",
-              "value": "3221523",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "3221523"
             }
           ]
         },
@@ -415,13 +415,6 @@
           "comparative": false,
           "content": "Eritrean Orthodox, Roman Catholic, Evangelical Lutheran, Sunni Muslim",
           "value": "Eritrean Orthodox, Roman Catholic, Evangelical Lutheran, Sunni Muslim"
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Eritrea is a persistently poor country that has made progress in some socioeconomic categories but not in others. Education and human capital formation are national priorities for facilitating economic development and eradicating poverty. To this end, Eritrea has made great strides in improving adult literacy &ndash; doubling the literacy rate over the last 20 years &ndash; in large part because of its successful adult education programs. The overall literacy rate was estimated to be more than 75% in 2018; more work needs to be done to raise female literacy and school attendance among nomadic and rural communities. Subsistence farming fails to meet the needs of Eritrea&rsquo;s growing population because of repeated droughts, dwindling arable land, overgrazing, soil erosion, and a shortage of farmers due to conscription and displacement. The government&rsquo;s emphasis on spending on defense over agriculture and its lack of foreign exchange to import food also contribute to food insecurity.</p> <p>Eritrea has been a leading refugee source country since at least the 1960s, when its 30-year war for independence from Ethiopia began. Since gaining independence in 1993, Eritreans have continued migrating to Sudan, Ethiopia, Yemen, Egypt, or Israel because of a lack of basic human rights or political freedom, educational and job opportunities, or to seek asylum because of militarization. Eritrea&rsquo;s large diaspora has been a source of vital remittances, funding its war for independence and providing 30% of the country&rsquo;s GDP annually since it became independent.</p> <p>In the last few years, Eritreans have increasingly been trafficked and held hostage by Bedouins in the Sinai Desert, where they are victims of organ harvesting, rape, extortion, and torture. Some Eritrean trafficking victims are kidnapped after being smuggled to Sudan or Ethiopia, while others are kidnapped from within or around refugee camps or crossing Eritrea&rsquo;s borders. Eritreans composed approximately 90% of the conservatively estimated 25,000-30,000 victims of Sinai trafficking from 2009-2013, according to a 2013 consultancy firm report.</p>",
-          "value": "<p>Eritrea is a persistently poor country that has made progress in some socioeconomic categories but not in others. Education and human capital formation are national priorities for facilitating economic development and eradicating poverty. To this end, Eritrea has made great strides in improving adult literacy &ndash; doubling the literacy rate over the last 20 years &ndash; in large part because of its successful adult education programs. The overall literacy rate was estimated to be more than 75% in 2018; more work needs to be done to raise female literacy and school attendance among nomadic and rural communities. Subsistence farming fails to meet the needs of Eritrea&rsquo;s growing population because of repeated droughts, dwindling arable land, overgrazing, soil erosion, and a shortage of farmers due to conscription and displacement. The government&rsquo;s emphasis on spending on defense over agriculture and its lack of foreign exchange to import food also contribute to food insecurity.</p> <p>Eritrea has been a leading refugee source country since at least the 1960s, when its 30-year war for independence from Ethiopia began. Since gaining independence in 1993, Eritreans have continued migrating to Sudan, Ethiopia, Yemen, Egypt, or Israel because of a lack of basic human rights or political freedom, educational and job opportunities, or to seek asylum because of militarization. Eritrea&rsquo;s large diaspora has been a source of vital remittances, funding its war for independence and providing 30% of the country&rsquo;s GDP annually since it became independent.</p> <p>In the last few years, Eritreans have increasingly been trafficked and held hostage by Bedouins in the Sinai Desert, where they are victims of organ harvesting, rape, extortion, and torture. Some Eritrean trafficking victims are kidnapped after being smuggled to Sudan or Ethiopia, while others are kidnapped from within or around refugee camps or crossing Eritrea&rsquo;s borders. Eritreans composed approximately 90% of the conservatively estimated 25,000-30,000 victims of Sinai trafficking from 2009-2013, according to a 2013 consultancy firm report.</p>"
         },
         {
           "name": "Age structure",
@@ -589,16 +582,18 @@
               "content": "43.3% of total population (2023)",
               "title": "urban population",
               "value": "43.3",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.67% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "3.67",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1201,16 +1196,18 @@
               "content": "43.3% of total population (2023)",
               "title": "urban population",
               "value": "43.3",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.67% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "3.67",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1545,55 +1542,7 @@
         {
           "name": "Legislative branch",
           "field_id": 313,
-          "comparative": false,
-          "content": "<strong>legislature name: </strong>National Assembly (Hagerawi Baito)<br><br><strong>legislative structure: </strong>unicameral<br><br><strong>number of seats: </strong>150 (all indirectly elected)<br><br><strong>scope of elections: </strong>full renewal<br><br><strong>term in office: </strong>4 years<br><br><strong>most recent election date: </strong>2/1/1994<br><br><strong>percentage of women in chamber: </strong>22%<br><br><strong>note:</strong> in 1997, after the new constitution was adopted, the government formed a Transitional National Assembly to serve as the country's legislative body until countrywide elections to form a National Assembly could be held; the constitution stipulates that once past the transition stage, all National Assembly members will be elected by secret ballot of all eligible voters; National Assembly elections scheduled for December 2001 were postponed indefinitely due to the war with Ethiopia; as of 2024, no sitting legislative body exists",
-          "subfields": [
-            {
-              "name": "legislature name",
-              "content": "National Assembly (Hagerawi Baito)",
-              "value": "National Assembly (Hagerawi Baito)",
-              "title": "legislature name"
-            },
-            {
-              "name": "legislative structure",
-              "content": "unicameral",
-              "value": "unicameral",
-              "title": "legislative structure"
-            },
-            {
-              "name": "number of seats",
-              "content": "150 (all indirectly elected)",
-              "value": "150 (all indirectly elected)",
-              "title": "number of seats"
-            },
-            {
-              "name": "scope of elections",
-              "content": "full renewal",
-              "value": "full renewal",
-              "title": "scope of elections"
-            },
-            {
-              "name": "term in office",
-              "content": "4 years",
-              "title": "term in office",
-              "value": "4",
-              "suffix": "years"
-            },
-            {
-              "name": "most recent election date",
-              "content": "2/1/1994",
-              "value": "2/1/1994",
-              "title": "most recent election date"
-            },
-            {
-              "name": "percentage of women in chamber",
-              "content": "22%",
-              "title": "percentage of women in chamber",
-              "value": "22",
-              "suffix": "%"
-            }
-          ],
-          "field_note": "<strong>note:</strong> in 1997, after the new constitution was adopted, the government formed a Transitional National Assembly to serve as the country's legislative body until countrywide elections to form a National Assembly could be held; the constitution stipulates that once past the transition stage, all National Assembly members will be elected by secret ballot of all eligible voters; National Assembly elections scheduled for December 2001 were postponed indefinitely due to the war with Ethiopia; as of 2024, no sitting legislative body exists"
+          "content": "<strong>note:</strong> in 1997, after the new constitution was adopted, the government formed a Transitional National Assembly to serve as the country's legislative body until countrywide elections to form a National Assembly could be held; the constitution stipulates that once past the transition stage, all National Assembly members will be elected by secret ballot of all eligible voters; National Assembly elections scheduled for December 2001 were postponed indefinitely due to the war with Ethiopia; as of 2025, no sitting legislative body exists"
         },
         {
           "name": "Judicial branch",

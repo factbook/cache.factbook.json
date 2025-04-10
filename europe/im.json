@@ -1,9 +1,9 @@
 {
   "name": "Isle of Man",
   "code": "IM",
-  "published": "2025-03-26 00:06:16 -0400",
+  "published": "2025-04-10 00:06:00 -0400",
   "region": "Europe",
-  "updated": "2025-03-25 06:33:04 -0400",
+  "updated": "2025-04-09 11:48:31 -0400",
   "media": [
     {
       "type": "flag",
@@ -96,8 +96,8 @@
           "name": "Area - comparative",
           "field_id": 280,
           "comparative": false,
-          "content": "slightly more than three times the size of Washington, DC",
-          "value": "slightly more than three times the size of Washington, DC"
+          "content": "slightly more than three times the size of Washington, D.C.",
+          "value": "slightly more than three times the size of Washington, D.C."
         },
         {
           "name": "Land boundaries",
@@ -285,13 +285,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>92,269<br><br><strong>male: </strong>46,331<br><br><strong>female: </strong>45,938 (2024 est.)",
+          "content": "<strong>total: </strong>92,269 (2024 est.)<br><br><strong>male: </strong>46,331<br><br><strong>female: </strong>45,938",
           "subfields": [
             {
               "name": "total",
-              "content": "92,269",
+              "content": "92,269 (2024 est.)",
               "title": "total",
-              "value": "92269"
+              "value": "92269",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -301,11 +303,9 @@
             },
             {
               "name": "female",
-              "content": "45,938 (2024 est.)",
+              "content": "45,938",
               "title": "female",
-              "value": "45938",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "45938"
             }
           ]
         },
@@ -519,16 +519,18 @@
               "content": "53.5% of total population (2023)",
               "title": "urban population",
               "value": "53.5",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.97% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.97",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -913,16 +915,18 @@
               "content": "53.5% of total population (2023)",
               "title": "urban population",
               "value": "53.5",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.97% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.97",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -990,7 +994,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>none<br><br><strong>conventional short form: </strong>Isle of Man<br><br><strong>abbreviation: </strong>I.O.M.<br><br><strong>etymology: </strong>the name \"man\" may be derived from the Celtic word for \"mountain\"",
+          "content": "<strong>conventional long form: </strong>none<br><br><strong>conventional short form: </strong>Isle of Man<br><br><strong>local long form: </strong>Ellan Vannin<br><br><strong>abbreviation: </strong>I.O.M.<br><br><strong>etymology: </strong>the name \"man\" may be derived from the Gaelic word for \"mountain;\" the local name is from the words <em>ellan</em>, or \"island,\" and Vannin, a form of the name Mannan",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1005,6 +1009,12 @@
               "title": "conventional short form"
             },
             {
+              "name": "local long form",
+              "content": "Ellan Vannin",
+              "value": "Ellan Vannin",
+              "title": "local long form"
+            },
+            {
               "name": "abbreviation",
               "content": "I.O.M.",
               "value": "I.O.M.",
@@ -1012,8 +1022,8 @@
             },
             {
               "name": "etymology",
-              "content": "the name \"man\" may be derived from the Celtic word for \"mountain\"",
-              "value": "the name \"man\" may be derived from the Celtic word for \"mountain\"",
+              "content": "the name \"man\" may be derived from the Gaelic word for \"mountain;\" the local name is from the words <em>ellan</em>, or \"island,\" and Vannin, a form of the name Mannan",
+              "value": "the name \"man\" may be derived from the Gaelic word for \"mountain;\" the local name is from the words <em>ellan</em>, or \"island,\" and Vannin, a form of the name Mannan",
               "title": "etymology"
             }
           ]

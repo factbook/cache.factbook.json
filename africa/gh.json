@@ -1,9 +1,9 @@
 {
   "name": "Ghana",
   "code": "GH",
-  "published": "2025-03-29 00:04:54 -0400",
+  "published": "2025-04-10 00:04:52 -0400",
   "region": "Africa",
-  "updated": "2025-03-28 15:44:03 -0400",
+  "updated": "2025-04-09 11:48:30 -0400",
   "media": [
     {
       "type": "flag",
@@ -330,13 +330,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>34,589,092<br><br><strong>male: </strong>16,902,073<br><br><strong>female: </strong>17,687,019 (2024 est.)",
+          "content": "<strong>total: </strong>34,589,092 (2024 est.)<br><br><strong>male: </strong>16,902,073<br><br><strong>female: </strong>17,687,019",
           "subfields": [
             {
               "name": "total",
-              "content": "34,589,092",
+              "content": "34,589,092 (2024 est.)",
               "title": "total",
-              "value": "34589092"
+              "value": "34589092",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -346,11 +348,9 @@
             },
             {
               "name": "female",
-              "content": "17,687,019 (2024 est.)",
+              "content": "17,687,019",
               "title": "female",
-              "value": "17687019",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "17687019"
             }
           ]
         },
@@ -398,13 +398,6 @@
           "content": "Christian 71.3% (Pentecostal/Charismatic 31.6%, Protestant 17.4%, Catholic 10%, other 12.3%), Muslim 19.9%, traditionalist 3.2%, other 4.5%, none 1.1% (2021 est.)",
           "value": "Christian 71.3% (Pentecostal/Charismatic 31.6%, Protestant 17.4%, Catholic 10%, other 12.3%), Muslim 19.9%, traditionalist 3.2%, other 4.5%, none 1.1%",
           "info_date": "2021 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Ghana has a young age structure, with approximately 56% of the population under the age of 25 as of 2020. Its total fertility rate fell significantly during the 1980s and 1990s but has stalled at around four children per woman for the last few years. Fertility remains higher in the northern region than the Greater Accra region. On average, desired fertility has remained stable for several years; urban dwellers want fewer children than rural residents. Increased life expectancy, due to better health care, nutrition, and hygiene, and reduced fertility have increased Ghana&rsquo;s share of elderly persons; Ghana&rsquo;s proportion of persons aged 60+ is among the highest in Sub-Saharan Africa. Poverty has declined in Ghana, but it remains pervasive in the northern region, which is susceptible to droughts and floods and has less access to transportation infrastructure, markets, fertile farming land, and industrial centers. The northern region also has lower school enrollment, higher illiteracy, and fewer opportunities for women.</p> <p>Ghana was a country of immigration in the early years after its 1957 independence, attracting labor migrants largely from Nigeria and other neighboring countries to mine minerals and harvest cocoa &ndash; immigrants composed about 12% of Ghana&rsquo;s population in 1960. In the late 1960s, worsening economic and social conditions discouraged immigration, and hundreds of thousands of immigrants, mostly Nigerians, were expelled.</p> <p>During the 1970s, severe drought and an economic downturn transformed Ghana into a country of emigration; neighboring Cote d&rsquo;Ivoire was the initial destination. Later, hundreds of thousands of Ghanaians migrated to Nigeria to work in its booming oil industry, but most were deported in 1983 and 1985 as oil prices plummeted. Many Ghanaians then turned to more distant destinations, including other parts of Africa, Europe, and North America, but the majority continued to migrate within West Africa. Since the 1990s, increased emigration of skilled Ghanaians, especially to the US and the UK, drained the country of its health care and education professionals. Internally, poverty and other developmental disparities continue to drive Ghanaians from the north to the south, particularly to its urban centers.</p>",
-          "value": "<p>Ghana has a young age structure, with approximately 56% of the population under the age of 25 as of 2020. Its total fertility rate fell significantly during the 1980s and 1990s but has stalled at around four children per woman for the last few years. Fertility remains higher in the northern region than the Greater Accra region. On average, desired fertility has remained stable for several years; urban dwellers want fewer children than rural residents. Increased life expectancy, due to better health care, nutrition, and hygiene, and reduced fertility have increased Ghana&rsquo;s share of elderly persons; Ghana&rsquo;s proportion of persons aged 60+ is among the highest in Sub-Saharan Africa. Poverty has declined in Ghana, but it remains pervasive in the northern region, which is susceptible to droughts and floods and has less access to transportation infrastructure, markets, fertile farming land, and industrial centers. The northern region also has lower school enrollment, higher illiteracy, and fewer opportunities for women.</p> <p>Ghana was a country of immigration in the early years after its 1957 independence, attracting labor migrants largely from Nigeria and other neighboring countries to mine minerals and harvest cocoa &ndash; immigrants composed about 12% of Ghana&rsquo;s population in 1960. In the late 1960s, worsening economic and social conditions discouraged immigration, and hundreds of thousands of immigrants, mostly Nigerians, were expelled.</p> <p>During the 1970s, severe drought and an economic downturn transformed Ghana into a country of emigration; neighboring Cote d&rsquo;Ivoire was the initial destination. Later, hundreds of thousands of Ghanaians migrated to Nigeria to work in its booming oil industry, but most were deported in 1983 and 1985 as oil prices plummeted. Many Ghanaians then turned to more distant destinations, including other parts of Africa, Europe, and North America, but the majority continued to migrate within West Africa. Since the 1990s, increased emigration of skilled Ghanaians, especially to the US and the UK, drained the country of its health care and education professionals. Internally, poverty and other developmental disparities continue to drive Ghanaians from the north to the south, particularly to its urban centers.</p>"
         },
         {
           "name": "Age structure",
@@ -572,16 +565,18 @@
               "content": "59.2% of total population (2023)",
               "title": "urban population",
               "value": "59.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.06% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "3.06",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1218,16 +1213,18 @@
               "content": "59.2% of total population (2023)",
               "title": "urban population",
               "value": "59.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.06% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "3.06",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

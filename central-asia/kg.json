@@ -1,9 +1,9 @@
 {
   "name": "Kyrgyzstan",
   "code": "KG",
-  "published": "2025-03-29 00:06:43 -0400",
+  "published": "2025-04-10 00:06:44 -0400",
   "region": "Central Asia",
-  "updated": "2025-03-28 15:44:06 -0400",
+  "updated": "2025-04-09 11:48:31 -0400",
   "media": [
     {
       "type": "flag",
@@ -370,13 +370,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>6,172,101<br><br><strong>male: </strong>3,021,318<br><br><strong>female: </strong>3,150,783 (2024 est.)",
+          "content": "<strong>total: </strong>6,172,101 (2024 est.)<br><br><strong>male: </strong>3,021,318<br><br><strong>female: </strong>3,150,783",
           "subfields": [
             {
               "name": "total",
-              "content": "6,172,101",
+              "content": "6,172,101 (2024 est.)",
               "title": "total",
-              "value": "6172101"
+              "value": "6172101",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -386,11 +388,9 @@
             },
             {
               "name": "female",
-              "content": "3,150,783 (2024 est.)",
+              "content": "3,150,783",
               "title": "female",
-              "value": "3150783",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "3150783"
             }
           ]
         },
@@ -458,13 +458,6 @@
           "content": "Muslim 90% (majority Sunni), Christian 7% (Russian Orthodox 3%), other 3% (includes Jewish, Buddhist, Baha'i) (2017 est.)",
           "value": "Muslim 90% (majority Sunni), Christian 7% (Russian Orthodox 3%), other 3% (includes Jewish, Buddhist, Baha'i)",
           "info_date": "2017 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Kyrgyzstan is a sparsely populated country whose population is unevenly distributed.&nbsp; More than 50% of the population lives in or around the two cities of Bishkek and Osh and their surrounding districts, which together account for about 12% of the country&rsquo;s area.&nbsp; Kyrgyzstan&rsquo;s population continues to grow rapidly owing to its high fertility rate and the traditional preference for larger families, a low mortality rate, a growing share of women of reproductive age, and measures to support families with children. The country has a youthful age structure; over 45% of the population is under the age of 25 as of 2022.&nbsp; Nevertheless, Kyrgyzstan is transitioning from an agricultural society with high fertility and mortality rates to an industrial society with lower fertility and mortality rates.</p> <p>As part of the USSR, Kyrgyzstan&rsquo;s rapid population growth was not problematic because its needs were redistributed among the Soviet States.&nbsp; As an independent state, however, population growth became burdensome.&nbsp; International labor migration continues to serve as a safety valve that decreases pressure on the labor market and resources (healthcare, education, and pensions), while also reducing poverty through much-needed remittances.&nbsp; The main destinations for labor migrants are Russia and Kazakhstan, where wages are higher; almost a third of Kyrgyzstan&rsquo;s working-age population migrates to Russia alone.&nbsp; Outmigration was most pronounced in the 1990s, after the collapse of the USSR, when ethnic Russians, Ukrainians, and Germans left Kyrgyzstan, changing the proportion of ethnic Kyrgyz in the country from barely 50% in 1992 to almost three-quarters today.</p> <p>While Kyrgyzstan is a net emigration country, it does receive immigrants.&nbsp; The majority of immigrants are from the Commonwealth of Independent States &ndash; particularly Kazakhstan, Russia, and Uzbekistan &ndash; but more recent arrivals also include persons from China, Turkey, and Turkmenistan.&nbsp; Chinese immigrants work primarily in construction and gold mining, while Turkish immigrants mainly work in construction, trade, education, and services.&nbsp; Border areas between Kyrgyzstan, Tajikistan, and Uzbekistan experience irregular migration, but many of these migrants plan to move on to Europe.</p>",
-          "value": "<p>Kyrgyzstan is a sparsely populated country whose population is unevenly distributed.&nbsp; More than 50% of the population lives in or around the two cities of Bishkek and Osh and their surrounding districts, which together account for about 12% of the country&rsquo;s area.&nbsp; Kyrgyzstan&rsquo;s population continues to grow rapidly owing to its high fertility rate and the traditional preference for larger families, a low mortality rate, a growing share of women of reproductive age, and measures to support families with children. The country has a youthful age structure; over 45% of the population is under the age of 25 as of 2022.&nbsp; Nevertheless, Kyrgyzstan is transitioning from an agricultural society with high fertility and mortality rates to an industrial society with lower fertility and mortality rates.</p> <p>As part of the USSR, Kyrgyzstan&rsquo;s rapid population growth was not problematic because its needs were redistributed among the Soviet States.&nbsp; As an independent state, however, population growth became burdensome.&nbsp; International labor migration continues to serve as a safety valve that decreases pressure on the labor market and resources (healthcare, education, and pensions), while also reducing poverty through much-needed remittances.&nbsp; The main destinations for labor migrants are Russia and Kazakhstan, where wages are higher; almost a third of Kyrgyzstan&rsquo;s working-age population migrates to Russia alone.&nbsp; Outmigration was most pronounced in the 1990s, after the collapse of the USSR, when ethnic Russians, Ukrainians, and Germans left Kyrgyzstan, changing the proportion of ethnic Kyrgyz in the country from barely 50% in 1992 to almost three-quarters today.</p> <p>While Kyrgyzstan is a net emigration country, it does receive immigrants.&nbsp; The majority of immigrants are from the Commonwealth of Independent States &ndash; particularly Kazakhstan, Russia, and Uzbekistan &ndash; but more recent arrivals also include persons from China, Turkey, and Turkmenistan.&nbsp; Chinese immigrants work primarily in construction and gold mining, while Turkish immigrants mainly work in construction, trade, education, and services.&nbsp; Border areas between Kyrgyzstan, Tajikistan, and Uzbekistan experience irregular migration, but many of these migrants plan to move on to Europe.</p>"
         },
         {
           "name": "Age structure",
@@ -632,16 +625,18 @@
               "content": "37.8% of total population (2023)",
               "title": "urban population",
               "value": "37.8",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.05% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.05",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1270,16 +1265,18 @@
               "content": "37.8% of total population (2023)",
               "title": "urban population",
               "value": "37.8",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.05% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.05",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1443,7 +1440,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>Kyrgyz Republic<br><br><strong>conventional short form: </strong>Kyrgyzstan<br><br><strong>local long form: </strong>Kyrgyz Respublikasy<br><br><strong>local short form: </strong>Kyrgyzstan<br><br><strong>etymology: </strong>a combination of the Turkic words \"kyrg\" (forty) and \"-yz\" (tribes) with the Persian suffix \"-stan\" (country) creating the meaning \"Land of the Forty Tribes\"; the name refers to the 40 clans united by the mythic Kyrgyz hero, MANAS",
+          "content": "<strong>conventional long form: </strong>Kyrgyz Republic<br><br><strong>conventional short form: </strong>Kyrgyzstan<br><br><strong>local long form: </strong>Kyrgyz Respublikasy<br><br><strong>local short form: </strong>Kyrgyzstan<br><br><strong>etymology: </strong>named for the local Kyrgyz people, with \"-stan\" coming from the Persian word <em>ostan</em>, meaning \"country;\" the Kyrgyz name may derive from the Turkic root words <em>kir</em>, or \"steppe,\" and <em>gismek</em>, \"to wander;\" the name is traditionally said to come from a combination of the Turkic words <em>kyrg </em>(forty) and -<em>is </em>(hundred), based on a tale about two tribes and the number of their tents",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1471,8 +1468,8 @@
             },
             {
               "name": "etymology",
-              "content": "a combination of the Turkic words \"kyrg\" (forty) and \"-yz\" (tribes) with the Persian suffix \"-stan\" (country) creating the meaning \"Land of the Forty Tribes\"; the name refers to the 40 clans united by the mythic Kyrgyz hero, MANAS",
-              "value": "a combination of the Turkic words \"kyrg\" (forty) and \"-yz\" (tribes) with the Persian suffix \"-stan\" (country) creating the meaning \"Land of the Forty Tribes\"; the name refers to the 40 clans united by the mythic Kyrgyz hero, MANAS",
+              "content": "named for the local Kyrgyz people, with \"-stan\" coming from the Persian word <em>ostan</em>, meaning \"country;\" the Kyrgyz name may derive from the Turkic root words <em>kir</em>, or \"steppe,\" and <em>gismek</em>, \"to wander;\" the name is traditionally said to come from a combination of the Turkic words <em>kyrg </em>(forty) and -<em>is </em>(hundred), based on a tale about two tribes and the number of their tents",
+              "value": "named for the local Kyrgyz people, with \"-stan\" coming from the Persian word <em>ostan</em>, meaning \"country;\" the Kyrgyz name may derive from the Turkic root words <em>kir</em>, or \"steppe,\" and <em>gismek</em>, \"to wander;\" the name is traditionally said to come from a combination of the Turkic words <em>kyrg </em>(forty) and -<em>is </em>(hundred), based on a tale about two tribes and the number of their tents",
               "title": "etymology"
             }
           ]

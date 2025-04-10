@@ -1,9 +1,9 @@
 {
   "name": "Eswatini",
   "code": "WZ",
-  "published": "2025-03-29 00:13:26 -0400",
+  "published": "2025-04-10 00:13:53 -0400",
   "region": "Africa",
-  "updated": "2025-03-28 15:42:52 -0400",
+  "updated": "2025-04-09 11:48:35 -0400",
   "media": [
     {
       "type": "flag",
@@ -299,13 +299,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>1,138,089<br><br><strong>male: </strong>538,600<br><br><strong>female: </strong>599,489 (2024 est.)",
+          "content": "<strong>total: </strong>1,138,089 (2024 est.)<br><br><strong>male: </strong>538,600<br><br><strong>female: </strong>599,489",
           "subfields": [
             {
               "name": "total",
-              "content": "1,138,089",
+              "content": "1,138,089 (2024 est.)",
               "title": "total",
-              "value": "1138089"
+              "value": "1138089",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -315,11 +317,9 @@
             },
             {
               "name": "female",
-              "content": "599,489 (2024 est.)",
+              "content": "599,489",
               "title": "female",
-              "value": "599489",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "599489"
             }
           ]
         },
@@ -364,13 +364,6 @@
           "content": "Christian 90% (Zionist - a blend of Christianity and traditional African religions - 40%, Roman Catholic 20%, other Christian 30% - includes Anglican, Methodist, Church of Jesus Christ, Jehovah's Witness), Muslim 2%, other 8% (includes Baha'i, Buddhist, Hindu, indigenous, Jewish) (2015 est.)",
           "value": "Christian 90% (Zionist - a blend of Christianity and traditional African religions - 40%, Roman Catholic 20%, other Christian 30% - includes Anglican, Methodist, Church of Jesus Christ, Jehovah's Witness), Muslim 2%, other 8% (includes Baha'i, Buddhist, Hindu, indigenous, Jewish)",
           "info_date": "2015 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Eswatini, a small, predominantly rural, landlocked country surrounded by South Africa and Mozambique, suffers from severe poverty and the world&rsquo;s highest HIV/AIDS prevalence rate. A weak and deteriorating economy, high unemployment, rapid population growth, and an uneven distribution of resources all combine to worsen already persistent poverty and food insecurity, especially in rural areas. Erratic weather (frequent droughts and intermittent heavy rains and flooding), overuse of small plots, the overgrazing of cattle, and outdated agricultural practices reduce crop yields and further degrade the environment, exacerbating Eswatini's poverty and subsistence problems. Eswatini's extremely high HIV/AIDS prevalence rate &ndash; nearly 28% of adults have the disease &ndash; compounds these issues. Agricultural production has declined due to HIV/AIDS, as the illness causes households to lose manpower and to sell livestock and other assets to pay for medicine and funerals.</p> <p>Swazis, mainly men from the country&rsquo;s rural south, have been migrating to South Africa to work in coal, and later gold, mines since the late 19th century. Although the number of miners abroad has never been high in absolute terms because of Eswatini's small population, the outflow has had important social and economic repercussions. The peak of mining employment in South Africa occurred during the 1980s. Cross-border movement has accelerated since the 1990s, as increasing unemployment has pushed more Swazis to look for work in South Africa (creating a \"brain drain\" in the health and educational sectors); southern Swazi men have continued to pursue mining, although the industry has downsized. Women now make up an increasing share of migrants and dominate cross-border trading in handicrafts, using the proceeds to purchase goods back in Eswatini. Much of today&rsquo;s migration, however, is not work-related but focuses on visits to family and friends, tourism, and shopping.</p>",
-          "value": "<p>Eswatini, a small, predominantly rural, landlocked country surrounded by South Africa and Mozambique, suffers from severe poverty and the world&rsquo;s highest HIV/AIDS prevalence rate. A weak and deteriorating economy, high unemployment, rapid population growth, and an uneven distribution of resources all combine to worsen already persistent poverty and food insecurity, especially in rural areas. Erratic weather (frequent droughts and intermittent heavy rains and flooding), overuse of small plots, the overgrazing of cattle, and outdated agricultural practices reduce crop yields and further degrade the environment, exacerbating Eswatini's poverty and subsistence problems. Eswatini's extremely high HIV/AIDS prevalence rate &ndash; nearly 28% of adults have the disease &ndash; compounds these issues. Agricultural production has declined due to HIV/AIDS, as the illness causes households to lose manpower and to sell livestock and other assets to pay for medicine and funerals.</p> <p>Swazis, mainly men from the country&rsquo;s rural south, have been migrating to South Africa to work in coal, and later gold, mines since the late 19th century. Although the number of miners abroad has never been high in absolute terms because of Eswatini's small population, the outflow has had important social and economic repercussions. The peak of mining employment in South Africa occurred during the 1980s. Cross-border movement has accelerated since the 1990s, as increasing unemployment has pushed more Swazis to look for work in South Africa (creating a \"brain drain\" in the health and educational sectors); southern Swazi men have continued to pursue mining, although the industry has downsized. Women now make up an increasing share of migrants and dominate cross-border trading in handicrafts, using the proceeds to purchase goods back in Eswatini. Much of today&rsquo;s migration, however, is not work-related but focuses on visits to family and friends, tourism, and shopping.</p>"
         },
         {
           "name": "Age structure",
@@ -538,16 +531,18 @@
               "content": "24.8% of total population (2023)",
               "title": "urban population",
               "value": "24.8",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.42% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.42",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1142,16 +1137,18 @@
               "content": "24.8% of total population (2023)",
               "title": "urban population",
               "value": "24.8",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.42% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.42",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

@@ -1,9 +1,9 @@
 {
   "name": "Aruba",
   "code": "AA",
-  "published": "2025-04-01 00:00:14 -0400",
+  "published": "2025-04-10 00:00:07 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-03-31 15:50:02 -0400",
+  "updated": "2025-04-09 11:27:53 -0400",
   "media": [
     {
       "type": "flag",
@@ -128,8 +128,8 @@
           "name": "Area - comparative",
           "field_id": 280,
           "comparative": false,
-          "content": "slightly larger than Washington, DC",
-          "value": "slightly larger than Washington, DC"
+          "content": "slightly larger than Washington, D.C.",
+          "value": "slightly larger than Washington, D.C."
         },
         {
           "name": "Land boundaries",
@@ -315,13 +315,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>125,063<br><br><strong>male: </strong>59,101<br><br><strong>female: </strong>65,962 (2024 est.)",
+          "content": "<strong>total: </strong>125,063 (2024 est.)<br><br><strong>male: </strong>59,101<br><br><strong>female: </strong>65,962",
           "subfields": [
             {
               "name": "total",
-              "content": "125,063",
+              "content": "125,063 (2024 est.)",
               "title": "total",
-              "value": "125063"
+              "value": "125063",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -331,11 +333,9 @@
             },
             {
               "name": "female",
-              "content": "65,962 (2024 est.)",
+              "content": "65,962",
               "title": "female",
-              "value": "65962",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "65962"
             }
           ]
         },
@@ -550,16 +550,18 @@
               "content": "44.3% of total population (2023)",
               "title": "urban population",
               "value": "44.3",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.77% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.77",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -994,16 +996,18 @@
               "content": "44.3% of total population (2023)",
               "title": "urban population",
               "value": "44.3",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.77% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.77",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

@@ -1,9 +1,9 @@
 {
   "name": "Syria",
   "code": "SY",
-  "published": "2025-04-01 00:05:26 -0400",
+  "published": "2025-04-10 00:11:58 -0400",
   "region": "Middle East",
-  "updated": "2025-03-31 13:02:49 -0400",
+  "updated": "2025-04-09 11:48:34 -0400",
   "media": [
     {
       "type": "flag",
@@ -328,13 +328,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>23,865,423<br><br><strong>male: </strong>11,981,578<br><br><strong>female: </strong>11,883,845 (2024 est.)",
+          "content": "<strong>total: </strong>23,865,423 (2024 est.)<br><br><strong>male: </strong>11,981,578<br><br><strong>female: </strong>11,883,845",
           "subfields": [
             {
               "name": "total",
-              "content": "23,865,423",
+              "content": "23,865,423 (2024 est.)",
               "title": "total",
-              "value": "23865423"
+              "value": "23865423",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -344,11 +346,9 @@
             },
             {
               "name": "female",
-              "content": "11,883,845 (2024 est.)",
+              "content": "11,883,845",
               "title": "female",
-              "value": "11883845",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "11883845"
             }
           ]
         },
@@ -589,16 +589,18 @@
               "content": "57.4% of total population (2023)",
               "title": "urban population",
               "value": "57.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "5.38% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "5.38",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1145,16 +1147,18 @@
               "content": "57.4% of total population (2023)",
               "title": "urban population",
               "value": "57.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "5.38% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "5.38",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -2312,18 +2316,18 @@
           "name": "Reserves of foreign exchange and gold",
           "field_id": 245,
           "comparative": true,
-          "content": "$407.3 million (31 December 2017 est.)<br><br>$504.6 million (31 December 2016 est.)",
+          "content": "$407.3 million (2017 est.)<br><br>$504.6 million (2016 est.)",
           "subfields": [
             {
-              "name": "Reserves of foreign exchange and gold 31 December 2017",
-              "content": "$407.3 million (31 December 2017 est.)",
+              "name": "Reserves of foreign exchange and gold 2017",
+              "content": "$407.3 million (2017 est.)",
               "value": "407300000",
               "estimated": true,
               "prefix": "$"
             },
             {
-              "name": "Reserves of foreign exchange and gold 31 December 2016",
-              "content": "$504.6 million (31 December 2016 est.)",
+              "name": "Reserves of foreign exchange and gold 2016",
+              "content": "$504.6 million (2016 est.)",
               "value": "504600000",
               "estimated": true,
               "prefix": "$"
@@ -3048,8 +3052,8 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "as of early 2025, the interim authorities in Syria had established a ministry of defense and was seeking to unify the dozens of armed factions operating in Syria under a single, state-linked army and police force (2025)",
-          "value": "as of early 2025, the interim authorities in Syria had established a ministry of defense and was seeking to unify the dozens of armed factions operating in Syria under a single, state-linked army and police force",
+          "content": "as of early 2025, the interim government authorities in Syria had established a ministry of defense and were seeking to unify the dozens of armed factions operating in Syria under a single, state-linked army and police force (2025)",
+          "value": "as of early 2025, the interim government authorities in Syria had established a ministry of defense and were seeking to unify the dozens of armed factions operating in Syria under a single, state-linked army and police force",
           "info_date": "2025"
         },
         {

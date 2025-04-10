@@ -1,9 +1,9 @@
 {
   "name": "Mexico",
   "code": "MX",
-  "published": "2025-04-03 00:01:22 -0400",
+  "published": "2025-04-10 00:08:48 -0400",
   "region": "North America",
-  "updated": "2025-04-02 11:11:14 -0400",
+  "updated": "2025-04-09 11:53:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -442,13 +442,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>130,739,927<br><br><strong>male: </strong>63,899,138<br><br><strong>female: </strong>66,840,789 (2024 est.)",
+          "content": "<strong>total: </strong>130,739,927 (2024 est.)<br><br><strong>male: </strong>63,899,138<br><br><strong>female: </strong>66,840,789",
           "subfields": [
             {
               "name": "total",
-              "content": "130,739,927",
+              "content": "130,739,927 (2024 est.)",
               "title": "total",
-              "value": "130739927"
+              "value": "130739927",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -458,11 +460,9 @@
             },
             {
               "name": "female",
-              "content": "66,840,789 (2024 est.)",
+              "content": "66,840,789",
               "title": "female",
-              "value": "66840789",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "66840789"
             }
           ]
         },
@@ -698,16 +698,18 @@
               "content": "81.6% of total population (2023)",
               "title": "urban population",
               "value": "81.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.4% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.4",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1337,16 +1339,18 @@
               "content": "81.6% of total population (2023)",
               "title": "urban population",
               "value": "81.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.4% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.4",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1560,7 +1564,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>United Mexican States<br><br><strong>conventional short form: </strong>Mexico<br><br><strong>local long form: </strong>Estados Unidos Mexicanos<br><br><strong>local short form: </strong>Mexico<br><br><strong>former: </strong>Mexican Republic, Mexican Empire<br><br><strong>etymology: </strong>named after the capital city, whose name stems from the Mexica, the largest and most powerful branch of the Aztecs; the meaning of the name is uncertain",
+          "content": "<strong>conventional long form: </strong>United Mexican States<br><br><strong>conventional short form: </strong>Mexico<br><br><strong>local long form: </strong>Estados Unidos Mexicanos<br><br><strong>local short form: </strong>Mexico<br><br><strong>former: </strong>Mexican Republic, Mexican Empire<br><br><strong>etymology: </strong>name may derive from one of the Nahuatl (Aztec) names for the capital city, Metztlixihtlico, which probably meant \"the center of the moon;\" alternatively, it may come from Mexica, the original name of the Aztec people",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1594,8 +1598,8 @@
             },
             {
               "name": "etymology",
-              "content": "named after the capital city, whose name stems from the Mexica, the largest and most powerful branch of the Aztecs; the meaning of the name is uncertain",
-              "value": "named after the capital city, whose name stems from the Mexica, the largest and most powerful branch of the Aztecs; the meaning of the name is uncertain",
+              "content": "name may derive from one of the Nahuatl (Aztec) names for the capital city, Metztlixihtlico, which probably meant \"the center of the moon;\" alternatively, it may come from Mexica, the original name of the Aztec people",
+              "value": "name may derive from one of the Nahuatl (Aztec) names for the capital city, Metztlixihtlico, which probably meant \"the center of the moon;\" alternatively, it may come from Mexica, the original name of the Aztec people",
               "title": "etymology"
             }
           ]

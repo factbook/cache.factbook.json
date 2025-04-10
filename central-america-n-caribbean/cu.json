@@ -1,9 +1,9 @@
 {
   "name": "Cuba",
   "code": "CU",
-  "published": "2025-04-03 00:00:50 -0400",
+  "published": "2025-04-10 00:03:19 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-04-02 10:51:47 -0400",
+  "updated": "2025-04-09 11:48:30 -0400",
   "media": [
     {
       "type": "flag",
@@ -379,13 +379,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>10,966,038<br><br><strong>male: </strong>5,441,507<br><br><strong>female: </strong>5,524,531 (2024 est.)",
+          "content": "<strong>total: </strong>10,966,038 (2024 est.)<br><br><strong>male: </strong>5,441,507<br><br><strong>female: </strong>5,524,531",
           "subfields": [
             {
               "name": "total",
-              "content": "10,966,038",
+              "content": "10,966,038 (2024 est.)",
               "title": "total",
-              "value": "10966038"
+              "value": "10966038",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -395,11 +397,9 @@
             },
             {
               "name": "female",
-              "content": "5,524,531 (2024 est.)",
+              "content": "5,524,531",
               "title": "female",
-              "value": "5524531",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "5524531"
             }
           ]
         },
@@ -635,16 +635,18 @@
               "content": "77.5% of total population (2023)",
               "title": "urban population",
               "value": "77.5",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.19% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.19",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1276,16 +1278,18 @@
               "content": "77.5% of total population (2023)",
               "title": "urban population",
               "value": "77.5",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.19% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.19",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -2434,18 +2438,18 @@
           "name": "Reserves of foreign exchange and gold",
           "field_id": 245,
           "comparative": true,
-          "content": "$11.35 billion (31 December 2017 est.)<br><br>$12.3 billion (31 December 2016 est.)",
+          "content": "$11.35 billion (2017 est.)<br><br>$12.3 billion (2016 est.)",
           "subfields": [
             {
-              "name": "Reserves of foreign exchange and gold 31 December 2017",
-              "content": "$11.35 billion (31 December 2017 est.)",
+              "name": "Reserves of foreign exchange and gold 2017",
+              "content": "$11.35 billion (2017 est.)",
               "value": "11350000000",
               "estimated": true,
               "prefix": "$"
             },
             {
-              "name": "Reserves of foreign exchange and gold 31 December 2016",
-              "content": "$12.3 billion (31 December 2016 est.)",
+              "name": "Reserves of foreign exchange and gold 2016",
+              "content": "$12.3 billion (2016 est.)",
               "value": "12300000000",
               "estimated": true,
               "prefix": "$"
@@ -3162,9 +3166,9 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Revolutionary Armed Forces (Fuerzas Armadas Revolucionarias, FAR): Revolutionary Army (Ejercito Revolucionario, ER), Revolutionary Navy (Marina de Guerra Revolucionaria, MGR, includes Marine Corps), Revolutionary Air and Air Defense Forces (Defensas Anti-Aereas y Fuerza Aerea Revolucionaria, DAAFAR); Paramilitary forces: Youth Labor Army (Ejercito Juvenil del Trabajo, EJT), Territorial Militia Troops (Milicia de Tropas de Territoriales, MTT), Civil Defense Force<br /><br />Ministry of Interior: Border Guards, State Security, National Revolutionary Police (2023)",
-          "value": "Revolutionary Armed Forces (Fuerzas Armadas Revolucionarias, FAR): Revolutionary Army (Ejercito Revolucionario, ER), Revolutionary Navy (Marina de Guerra Revolucionaria, MGR, includes Marine Corps), Revolutionary Air and Air Defense Forces (Defensas Anti-Aereas y Fuerza Aerea Revolucionaria, DAAFAR); Paramilitary forces: Youth Labor Army (Ejercito Juvenil del Trabajo, EJT), Territorial Militia Troops (Milicia de Tropas de Territoriales, MTT), Civil Defense Force<br /><br />Ministry of Interior: Border Guards, State Security, National Revolutionary Police",
-          "info_date": "2023"
+          "content": "Revolutionary Armed Forces (Fuerzas Armadas Revolucionarias, FAR): Ground Troops (Tropas Terrestres), Revolutionary Navy (Marina de Guerra Revolucionaria, MGR), Revolutionary Air and Air Defense Forces (Defensas Anti-Aereas y Fuerza Aerea Revolucionaria, DAAFAR)<br /><br />Paramilitary forces under the FAR: Youth Labor Army (Ejercito Juvenil del Trabajo, EJT), Territorial Militia Troops (Milicia de Tropas de Territoriales, MTT), Defense and Production Brigades (Brigadas de Producci&oacute;n y Defensa, BPD), Civil Defense Organization (Defensa Civil de Cuba)&nbsp;<br /><br />Ministry of Interior: National Revolutionary Police (Polic&iacute;a Nacional Revolucionaria, PNR), Directorate of Border Guard Troops (Direcci&oacute;n de Tropas de Guardia Fronteriza, TGF), Department of State Security (Departamento de Seguridad del Estado, DSE) (2025)",
+          "value": "Revolutionary Armed Forces (Fuerzas Armadas Revolucionarias, FAR): Ground Troops (Tropas Terrestres), Revolutionary Navy (Marina de Guerra Revolucionaria, MGR), Revolutionary Air and Air Defense Forces (Defensas Anti-Aereas y Fuerza Aerea Revolucionaria, DAAFAR)<br /><br />Paramilitary forces under the FAR: Youth Labor Army (Ejercito Juvenil del Trabajo, EJT), Territorial Militia Troops (Milicia de Tropas de Territoriales, MTT), Defense and Production Brigades (Brigadas de Producci&oacute;n y Defensa, BPD), Civil Defense Organization (Defensa Civil de Cuba)&nbsp;<br /><br />Ministry of Interior: National Revolutionary Police (Polic&iacute;a Nacional Revolucionaria, PNR), Directorate of Border Guard Troops (Direcci&oacute;n de Tropas de Guardia Fronteriza, TGF), Department of State Security (Departamento de Seguridad del Estado, DSE)",
+          "info_date": "2025"
         },
         {
           "name": "Military expenditures",
@@ -3229,17 +3233,17 @@
           "name": "Military service age and obligation",
           "field_id": 333,
           "comparative": false,
-          "content": "17-28 years of age for compulsory (men) and voluntary (men and women) military service; conscripts serve for 24 months (2024)",
-          "value": "17-28 years of age for compulsory (men) and voluntary (men and women) military service; conscripts serve for 24 months",
-          "info_date": "2024"
+          "content": "17-28 years of age for compulsory (men) and voluntary (men and women) military service; conscripts serve for 18-24 months (2025)",
+          "value": "17-28 years of age for compulsory (men) and voluntary (men and women) military service; conscripts serve for 18-24 months",
+          "info_date": "2025"
         },
         {
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the Revolutionary Armed Forces (FAR) are a central pillar of the Cuban regime and viewed as the guardian of the Cuban revolution; the FAR has a large role in the country&rsquo;s politics and economy; many senior government posts are held by military officers, and a FAR-controlled umbrella enterprise known as the Armed Forces Business Group (Grupo de Administraci&oacute;n Empresarial or GAESA) has interests in banking and finance, construction, import/export, ports, real estate, retail, shipping, transportation, and tourism<br /><br />the FAR is largely focused on protecting territorial integrity and the state, and perceives the US as its primary threat; the fall of the Soviet Union in 1991 and the subsequent end of Soviet military aid had far-reaching consequences for the FAR, transforming it from one of the largest and most capable militaries in the region, as well as one that was heavily involved in foreign missions during the Cold War, particularly in Africa, into a much smaller, home-based and defensive force with limited capabilities and armed with Soviet-era weapons and equipment (2023)",
-          "value": "the Revolutionary Armed Forces (FAR) are a central pillar of the Cuban regime and viewed as the guardian of the Cuban revolution; the FAR has a large role in the country&rsquo;s politics and economy; many senior government posts are held by military officers, and a FAR-controlled umbrella enterprise known as the Armed Forces Business Group (Grupo de Administraci&oacute;n Empresarial or GAESA) has interests in banking and finance, construction, import/export, ports, real estate, retail, shipping, transportation, and tourism<br /><br />the FAR is largely focused on protecting territorial integrity and the state, and perceives the US as its primary threat; the fall of the Soviet Union in 1991 and the subsequent end of Soviet military aid had far-reaching consequences for the FAR, transforming it from one of the largest and most capable militaries in the region, as well as one that was heavily involved in foreign missions during the Cold War, particularly in Africa, into a much smaller, home-based and defensive force with limited capabilities and armed with Soviet-era weapons and equipment",
-          "info_date": "2023"
+          "content": "the Cuban military is largely focused on protecting territorial integrity and the state, and perceives the US as its primary threat; the military is a central pillar of the Cuban regime and viewed as the guardian of the Cuban revolution; it has a large role in the country&rsquo;s politics and economy; many senior government posts are held by military officers, and the FAR reportedly has interests in agriculture, banking and finance, construction, import/export, ports, industry, real estate, retail, shipping, transportation, and tourism (2024)",
+          "value": "the Cuban military is largely focused on protecting territorial integrity and the state, and perceives the US as its primary threat; the military is a central pillar of the Cuban regime and viewed as the guardian of the Cuban revolution; it has a large role in the country&rsquo;s politics and economy; many senior government posts are held by military officers, and the FAR reportedly has interests in agriculture, banking and finance, construction, import/export, ports, industry, real estate, retail, shipping, transportation, and tourism",
+          "info_date": "2024"
         }
       ]
     },

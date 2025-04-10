@@ -1,9 +1,9 @@
 {
   "name": "Brunei",
   "code": "BX",
-  "published": "2025-03-29 00:02:08 -0400",
+  "published": "2025-04-10 00:02:22 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-03-28 15:43:59 -0400",
+  "updated": "2025-04-09 12:15:33 -0400",
   "media": [
     {
       "type": "flag",
@@ -339,13 +339,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>491,900<br><br><strong>male: </strong>239,140<br><br><strong>female: </strong>252,760 (2024 est.)",
+          "content": "<strong>total: </strong>491,900 (2024 est.)<br><br><strong>male: </strong>239,140<br><br><strong>female: </strong>252,760",
           "subfields": [
             {
               "name": "total",
-              "content": "491,900",
+              "content": "491,900 (2024 est.)",
               "title": "total",
-              "value": "491900"
+              "value": "491900",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -355,11 +357,9 @@
             },
             {
               "name": "female",
-              "content": "252,760 (2024 est.)",
+              "content": "252,760",
               "title": "female",
-              "value": "252760",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "252760"
             }
           ]
         },
@@ -426,13 +426,6 @@
           "content": "Muslim (official) 82.1%, Christian 6.7%, Buddhist 6.3%, other 4.9% (2021 est.)",
           "value": "Muslim (official) 82.1%, Christian 6.7%, Buddhist 6.3%, other 4.9%",
           "info_date": "2021 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Brunei is a small, oil-rich sultanate of less than half a million people, making it the smallest country in Southeast Asia by population.&nbsp; Its total fertility rate &ndash; the average number of births per woman &ndash; has been steadily declining over the last few decades, from over 3.5 in the 1980s to below replacement level today at nearly 1.8.&nbsp; The trend is due to women&rsquo;s increased years of education and participation in the workforce, which have resulted in later marriages and fewer children.&nbsp; Yet, the population continues to grow because of the large number of women of reproductive age and a reliance on foreign labor &ndash; mainly from Malaysia, Thailand, the Philippines, Indonesia, and South Asian countries &ndash; to fill low-skilled jobs.</p> <p>Brunei is officially Muslim, and Malay is the official language.&nbsp; The country follows an official Malay national ideology, Malay Islamic Monarchy, which promotes Malay language and culture, Islamic values, and the monarchy.&nbsp; Only seven of Brunei&rsquo;s native groups are recognized in the constitution and are defined as &ldquo;Malay&rdquo; &ndash; Brunei Malays, Belait, Kedayan, Dusun, Bisayak, Lun Bawang, and Sama-Baiau.&nbsp; Together they make up about 66% percent of the population and are referred to as the Bumiputera.&nbsp; The Bumiputera are entitled to official privileges, including land ownership, access to certain types of employment (Royal Brunei Armed Forces and Brunei Shell Petroleum), easier access to higher education, and better job opportunities in the civil service.&nbsp;</p> <p>Brunei&rsquo;s Chinese population descends from migrants who arrived when Brunei was a British protectorate (1888 and 1984).&nbsp; They are prominent in the non-state commercial sector and account for approximately 10% of the population.&nbsp; Most Bruneian Chinese are permanent residents rather than citizens despite roots going back several generations.&nbsp; Many are stateless and are denied rights granted to citizens, such as land ownership, subsidized health care, and free secondary and university education.&nbsp; Because of the discriminatory policies, the number of Chinese in Brunei has shrunk considerably in the last 50 years.&nbsp; Native ethnic groups that are not included in the Bumiputera are not recognized in the constitution and are not officially identified as &ldquo;Malay&rdquo; or automatically granted citizenship.&nbsp; Foreign workers constitute some quarter of the labor force.</p>",
-          "value": "<p>Brunei is a small, oil-rich sultanate of less than half a million people, making it the smallest country in Southeast Asia by population.&nbsp; Its total fertility rate &ndash; the average number of births per woman &ndash; has been steadily declining over the last few decades, from over 3.5 in the 1980s to below replacement level today at nearly 1.8.&nbsp; The trend is due to women&rsquo;s increased years of education and participation in the workforce, which have resulted in later marriages and fewer children.&nbsp; Yet, the population continues to grow because of the large number of women of reproductive age and a reliance on foreign labor &ndash; mainly from Malaysia, Thailand, the Philippines, Indonesia, and South Asian countries &ndash; to fill low-skilled jobs.</p> <p>Brunei is officially Muslim, and Malay is the official language.&nbsp; The country follows an official Malay national ideology, Malay Islamic Monarchy, which promotes Malay language and culture, Islamic values, and the monarchy.&nbsp; Only seven of Brunei&rsquo;s native groups are recognized in the constitution and are defined as &ldquo;Malay&rdquo; &ndash; Brunei Malays, Belait, Kedayan, Dusun, Bisayak, Lun Bawang, and Sama-Baiau.&nbsp; Together they make up about 66% percent of the population and are referred to as the Bumiputera.&nbsp; The Bumiputera are entitled to official privileges, including land ownership, access to certain types of employment (Royal Brunei Armed Forces and Brunei Shell Petroleum), easier access to higher education, and better job opportunities in the civil service.&nbsp;</p> <p>Brunei&rsquo;s Chinese population descends from migrants who arrived when Brunei was a British protectorate (1888 and 1984).&nbsp; They are prominent in the non-state commercial sector and account for approximately 10% of the population.&nbsp; Most Bruneian Chinese are permanent residents rather than citizens despite roots going back several generations.&nbsp; Many are stateless and are denied rights granted to citizens, such as land ownership, subsidized health care, and free secondary and university education.&nbsp; Because of the discriminatory policies, the number of Chinese in Brunei has shrunk considerably in the last 50 years.&nbsp; Native ethnic groups that are not included in the Bumiputera are not recognized in the constitution and are not officially identified as &ldquo;Malay&rdquo; or automatically granted citizenship.&nbsp; Foreign workers constitute some quarter of the labor force.</p>"
         },
         {
           "name": "Age structure",
@@ -600,16 +593,18 @@
               "content": "79.1% of total population (2023)",
               "title": "urban population",
               "value": "79.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.44% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.44",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1202,16 +1197,18 @@
               "content": "79.1% of total population (2023)",
               "title": "urban population",
               "value": "79.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.44% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.44",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -2996,10 +2993,10 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Royal Brunei Armed Forces (RBAF) or Angkatan Bersenjata Diraja Brunei (ABDB): Royal Brunei Land Force (RBLF) or Tentera Darat Diraja Brunei (TDDB), Royal Brunei Navy (RBN) or Tentera Laut Diraja Brunei (TLDB),<br />Royal Brunei Air Force (RBAirF) or Tentera Udara Diraja Brunei (TUDB)<br /><br />Ministry of Home Affairs: Royal Brunei Police Force (RBPF) or Polis Diraja Brunei (PDB) (2024)<br><br><strong>note: </strong>the Gurkha Reserve Unit (GRU) under the Ministry of Defense is a special guard force for the Sultan, the royal family, and the country&rsquo;s oil installations; the RBAF has a Joint Force Headquarters (JFHQ) to oversee joint/combined operations of the service branches",
-          "value": "Royal Brunei Armed Forces (RBAF) or Angkatan Bersenjata Diraja Brunei (ABDB): Royal Brunei Land Force (RBLF) or Tentera Darat Diraja Brunei (TDDB), Royal Brunei Navy (RBN) or Tentera Laut Diraja Brunei (TLDB),<br />Royal Brunei Air Force (RBAirF) or Tentera Udara Diraja Brunei (TUDB)<br /><br />Ministry of Home Affairs: Royal Brunei Police Force (RBPF) or Polis Diraja Brunei (PDB)",
-          "info_date": "2024",
-          "field_note": "<strong>note: </strong>the Gurkha Reserve Unit (GRU) under the Ministry of Defense is a special guard force for the Sultan, the royal family, and the country&rsquo;s oil installations; the RBAF has a Joint Force Headquarters (JFHQ) to oversee joint/combined operations of the service branches"
+          "content": "Royal Brunei Armed Forces (RBAF) or Angkatan Bersenjata Diraja Brunei (ABDB): Royal Brunei Land Force (RBLF), Royal Brunei Navy (RBN), Royal Brunei Air Force (RBAirF) (2025)<br><br><strong>note 1: </strong>the Gurkha Security Unit under the Ministry of Defense is a special guard force for the Sultan, the royal family, and the country&rsquo;s oil installations<br /><br /><strong>note 2: </strong>the Royal Brunei Police Force (RBPF) is under the Prime Minister's Office",
+          "value": "Royal Brunei Armed Forces (RBAF) or Angkatan Bersenjata Diraja Brunei (ABDB): Royal Brunei Land Force (RBLF), Royal Brunei Navy (RBN), Royal Brunei Air Force (RBAirF)",
+          "info_date": "2025",
+          "field_note": "<strong>note 1: </strong>the Gurkha Security Unit under the Ministry of Defense is a special guard force for the Sultan, the royal family, and the country&rsquo;s oil installations<br /><br /><strong>note 2: </strong>the Royal Brunei Police Force (RBPF) is under the Prime Minister's Office"
         },
         {
           "name": "Military expenditures",

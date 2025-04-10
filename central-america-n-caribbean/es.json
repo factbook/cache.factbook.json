@@ -1,9 +1,9 @@
 {
   "name": "El Salvador",
   "code": "ES",
-  "published": "2025-03-29 00:04:08 -0400",
+  "published": "2025-04-10 00:04:09 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-03-28 15:44:11 -0400",
+  "updated": "2025-04-09 15:21:02 -0400",
   "media": [
     {
       "type": "flag",
@@ -346,13 +346,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>6,628,702<br><br><strong>male: </strong>3,172,244<br><br><strong>female: </strong>3,456,458 (2024 est.)",
+          "content": "<strong>total: </strong>6,628,702 (2024 est.)<br><br><strong>male: </strong>3,172,244<br><br><strong>female: </strong>3,456,458",
           "subfields": [
             {
               "name": "total",
-              "content": "6,628,702",
+              "content": "6,628,702 (2024 est.)",
               "title": "total",
-              "value": "6628702"
+              "value": "6628702",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -362,11 +364,9 @@
             },
             {
               "name": "female",
-              "content": "3,456,458 (2024 est.)",
+              "content": "3,456,458",
               "title": "female",
-              "value": "3456458",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "3456458"
             }
           ]
         },
@@ -433,13 +433,6 @@
           "content": "Roman Catholic 43.9%, Protestant 39.6% (Evangelical - unspecified 38.2%, Evangelical - Methodist 1.3%, Evangelical - Baptist 0.1%), none 16.3%, unspecified 0.2% (2023 est.)",
           "value": "Roman Catholic 43.9%, Protestant 39.6% (Evangelical - unspecified 38.2%, Evangelical - Methodist 1.3%, Evangelical - Baptist 0.1%), none 16.3%, unspecified 0.2%",
           "info_date": "2023 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>El Salvador is the smallest and most densely populated country in Central America. It is well into its demographic transition, experiencing slower population growth, a decline in its number of youths, and the gradual aging of its population. The increased use of family planning has substantially lowered El Salvador's fertility rate, from approximately 6 children per woman in the 1970s to replacement level today. A 2008 national family planning survey showed that female sterilization remained the most common contraception method in El Salvador - its sterilization rate is among the highest in Latin America and the Caribbean - but that the use of injectable contraceptives is growing. Fertility differences between rich and poor and urban and rural women are narrowing.</p><p>Salvadorans fled during the 1979 to 1992 civil war mainly to the United States but also to Canada and to neighboring Mexico, Guatemala, Honduras, Nicaragua, and Costa Rica. Emigration to the United States increased again in the 1990s and 2000s as a result of deteriorating economic conditions, natural disasters (Hurricane Mitch in 1998 and earthquakes in 2001), and family reunification. At least 20% of El Salvador's population lives abroad. The remittances they send home account for close to 20% of GDP, are the second largest source of external income after exports, and have helped reduce poverty.</p>",
-          "value": "<p>El Salvador is the smallest and most densely populated country in Central America. It is well into its demographic transition, experiencing slower population growth, a decline in its number of youths, and the gradual aging of its population. The increased use of family planning has substantially lowered El Salvador's fertility rate, from approximately 6 children per woman in the 1970s to replacement level today. A 2008 national family planning survey showed that female sterilization remained the most common contraception method in El Salvador - its sterilization rate is among the highest in Latin America and the Caribbean - but that the use of injectable contraceptives is growing. Fertility differences between rich and poor and urban and rural women are narrowing.</p><p>Salvadorans fled during the 1979 to 1992 civil war mainly to the United States but also to Canada and to neighboring Mexico, Guatemala, Honduras, Nicaragua, and Costa Rica. Emigration to the United States increased again in the 1990s and 2000s as a result of deteriorating economic conditions, natural disasters (Hurricane Mitch in 1998 and earthquakes in 2001), and family reunification. At least 20% of El Salvador's population lives abroad. The remittances they send home account for close to 20% of GDP, are the second largest source of external income after exports, and have helped reduce poverty.</p>"
         },
         {
           "name": "Age structure",
@@ -607,16 +600,18 @@
               "content": "75.4% of total population (2023)",
               "title": "urban population",
               "value": "75.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.33% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.33",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1246,16 +1241,18 @@
               "content": "75.4% of total population (2023)",
               "title": "urban population",
               "value": "75.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.33% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.33",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1715,7 +1712,7 @@
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong>Ambassador Carmen Milena MAYORGA VALERA (since 23 December 2020)<br><br><strong>chancery: </strong>1400 16th Street NW, Suite 100, Washington, DC 20036<br><br><strong>telephone: </strong>[1] (202) 595-7500<br><br><strong>FAX: </strong>[1] (202) 232-3763<br><br><strong>email address and website: </strong><br />infoEEUU@rree.gob.sv<br><br><strong>consulate(s) general: </strong>Aurora (CO), Boston, Charlotte (NC), Chicago, Dallas, Doral (FL), Duluth (GA), El Paso (TX), Elizabeth (NJ), Fresno (CA), Houston, Las Vegas (NV), Laredo (TX), Long Island (NY), Los Angeles, McAllen (TX), New York, Omaha (NE), San Bernardino (CA), San Francisco, Salt Lake City, Seattle, Silver Spring (MD), Springdale (AR), St. Paul (MN), Tucson (AZ), Woodbridge (VA)",
+          "content": "<strong>chief of mission: </strong>Ambassador Carmen Milena MAYORGA VALERA (since 23 December 2020)<br><br><strong>chancery: </strong>1400 16th Street NW, Suite 100, Washington, DC 20036<br><br><strong>telephone: </strong>[1] (202) 595-7500<br><br><strong>FAX: </strong>[1] (202) 232-3763<br><br><strong>email address and website: </strong><br />infoEEUU@rree.gob.sv<br /><br /><a href=\"https://rree.gob.sv/embajadas-consulados-y-misiones-permanentes-de-la-republica-de-el-salvador/\">https://rree.gob.sv/embajadas-consulados-y-misiones-permanentes-de-la-republica-de-el-salvador/</a><br><br><strong>consulate(s) general: </strong>Aurora (CO), Boston, Charlotte (NC), Chicago, Dallas, Doral (FL), Duluth (GA), El Paso (TX), Elizabeth (NJ), Fresno (CA), Houston, Las Vegas (NV), Laredo (TX), Long Island (NY), Los Angeles, McAllen (TX), New York, Omaha (NE), San Bernardino (CA), San Francisco, Salt Lake City, Seattle, Silver Spring (MD), Springdale (AR), St. Paul (MN), Tucson (AZ), Woodbridge (VA)",
           "subfields": [
             {
               "name": "chief of mission",
@@ -1743,8 +1740,8 @@
             },
             {
               "name": "email address and website",
-              "content": "<br />infoEEUU@rree.gob.sv",
-              "value": "<br />infoEEUU@rree.gob.sv",
+              "content": "<br />infoEEUU@rree.gob.sv<br /><br /><a href=\"https://rree.gob.sv/embajadas-consulados-y-misiones-permanentes-de-la-republica-de-el-salvador/\">https://rree.gob.sv/embajadas-consulados-y-misiones-permanentes-de-la-republica-de-el-salvador/</a>",
+              "value": "<br />infoEEUU@rree.gob.sv<br /><br /><a href=\"https://rree.gob.sv/embajadas-consulados-y-misiones-permanentes-de-la-republica-de-el-salvador/\">https://rree.gob.sv/embajadas-consulados-y-misiones-permanentes-de-la-republica-de-el-salvador/</a>",
               "title": "email address and website"
             },
             {
@@ -1874,8 +1871,8 @@
           "name": "Economic overview",
           "field_id": 207,
           "comparative": false,
-          "content": "growth-challenged Central American economy buttressed via remittances; dense labor force; fairly aggressive COVID-19 stimulus plan; new and lower banking reserve requirements; earthquake, tropical storm, and crime disruptions; widespread corruption",
-          "value": "growth-challenged Central American economy buttressed via remittances; dense labor force; fairly aggressive COVID-19 stimulus plan; new and lower banking reserve requirements; earthquake, tropical storm, and crime disruptions; widespread corruption"
+          "content": "upper-middle income, dollarized Central American economy; reliant on remittances from US; recent growth linked to infrastructure investment, consumption, and crime reduction; $1.3 billion IMF loan to address fiscal imbalances; Bitcoin adopted as legal tender; persistent poverty and large informal sector",
+          "value": "upper-middle income, dollarized Central American economy; reliant on remittances from US; recent growth linked to infrastructure investment, consumption, and crime reduction; $1.3 billion IMF loan to address fiscal imbalances; Bitcoin adopted as legal tender; persistent poverty and large informal sector"
         },
         {
           "name": "Real GDP (purchasing power parity)",
@@ -3207,10 +3204,9 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "the Armed Force of El Salvador (La Fuerza Armada de El Salvador, FAES): Army of El Salvador (Ejercito de El Salvador, ES), Navy of El Salvador (Fuerza Naval de El Salvador, FNES), Salvadoran Air Force (Fuerza Aerea Salvadorena, FAS) (2024)<br><br><strong>note:</strong> the National Civil Police (Policia Nacional Civil, PNC) are under the Ministry of Justice and Public Safety; in 2016, El Salvador created a combined Army commando and PNC unit to combat criminal gang violence",
-          "value": "the Armed Force of El Salvador (La Fuerza Armada de El Salvador, FAES): Army of El Salvador (Ejercito de El Salvador, ES), Navy of El Salvador (Fuerza Naval de El Salvador, FNES), Salvadoran Air Force (Fuerza Aerea Salvadorena, FAS)",
-          "info_date": "2024",
-          "field_note": "<strong>note:</strong> the National Civil Police (Policia Nacional Civil, PNC) are under the Ministry of Justice and Public Safety; in 2016, El Salvador created a combined Army commando and PNC unit to combat criminal gang violence"
+          "content": "The Armed Forces of El Salvador (La Fuerza Armada de El Salvador, FAES): Army of El Salvador (Ejercito de El Salvador, ES), Naval Force of El Salvador (Fuerza Naval de El Salvador, FNES), Salvadoran Air Force (Fuerza A&eacute;rea Salvadore&ntilde;a, FAS)<br /><br />Ministry of Justice and Public Safety: National Civil Police (Policia Nacional Civil, PNC) (2025)",
+          "value": "The Armed Forces of El Salvador (La Fuerza Armada de El Salvador, FAES): Army of El Salvador (Ejercito de El Salvador, ES), Naval Force of El Salvador (Fuerza Naval de El Salvador, FNES), Salvadoran Air Force (Fuerza A&eacute;rea Salvadore&ntilde;a, FAS)<br /><br />Ministry of Justice and Public Safety: National Civil Police (Policia Nacional Civil, PNC)",
+          "info_date": "2025"
         },
         {
           "name": "Military expenditures",

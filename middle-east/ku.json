@@ -1,9 +1,9 @@
 {
   "name": "Kuwait",
   "code": "KU",
-  "published": "2025-04-01 00:03:14 -0400",
+  "published": "2025-04-10 00:06:59 -0400",
   "region": "Middle East",
-  "updated": "2025-03-31 12:33:32 -0400",
+  "updated": "2025-04-09 11:48:32 -0400",
   "media": [
     {
       "type": "flag",
@@ -342,13 +342,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>3,138,355<br><br><strong>male: </strong>1,810,542<br><br><strong>female: </strong>1,327,813 (2024 est.)",
+          "content": "<strong>total: </strong>3,138,355 (2024 est.)<br><br><strong>male: </strong>1,810,542<br><br><strong>female: </strong>1,327,813",
           "subfields": [
             {
               "name": "total",
-              "content": "3,138,355",
+              "content": "3,138,355 (2024 est.)",
               "title": "total",
-              "value": "3138355"
+              "value": "3138355",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -358,11 +360,9 @@
             },
             {
               "name": "female",
-              "content": "1,327,813 (2024 est.)",
+              "content": "1,327,813",
               "title": "female",
-              "value": "1327813",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "1327813"
             }
           ]
         },
@@ -597,16 +597,18 @@
               "content": "100% of total population (2023)",
               "title": "urban population",
               "value": "100",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.35% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.35",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1204,16 +1206,18 @@
               "content": "100% of total population (2023)",
               "title": "urban population",
               "value": "100",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.35% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.35",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1363,7 +1367,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>State of Kuwait<br><br><strong>conventional short form: </strong>Kuwait<br><br><strong>local long form: </strong>Dawlat al Kuwayt<br><br><strong>local short form: </strong>Al Kuwayt<br><br><strong>etymology: </strong>the name derives from the capital city, which is from Arabic \"al-Kuwayt\" a diminutive of \"kut\" meaning \"fortress,\" possibly a reference to a small castle built on the current location of Kuwait City by the Beni Khaled tribe in the 17th century",
+          "content": "<strong>conventional long form: </strong>State of Kuwait<br><br><strong>conventional short form: </strong>Kuwait<br><br><strong>local long form: </strong>Dawlat al Kuwayt<br><br><strong>local short form: </strong>Al Kuwayt<br><br><strong>etymology: </strong>the name derives from the capital city, which comes from the Arabic <em>al-kuwayt</em>, itself a diminutive of the Hindustani term <em>kut</em>, meaning a fortress-like house",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1391,8 +1395,8 @@
             },
             {
               "name": "etymology",
-              "content": "the name derives from the capital city, which is from Arabic \"al-Kuwayt\" a diminutive of \"kut\" meaning \"fortress,\" possibly a reference to a small castle built on the current location of Kuwait City by the Beni Khaled tribe in the 17th century",
-              "value": "the name derives from the capital city, which is from Arabic \"al-Kuwayt\" a diminutive of \"kut\" meaning \"fortress,\" possibly a reference to a small castle built on the current location of Kuwait City by the Beni Khaled tribe in the 17th century",
+              "content": "the name derives from the capital city, which comes from the Arabic <em>al-kuwayt</em>, itself a diminutive of the Hindustani term <em>kut</em>, meaning a fortress-like house",
+              "value": "the name derives from the capital city, which comes from the Arabic <em>al-kuwayt</em>, itself a diminutive of the Hindustani term <em>kut</em>, meaning a fortress-like house",
               "title": "etymology"
             }
           ]

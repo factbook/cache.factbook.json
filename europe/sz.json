@@ -1,9 +1,9 @@
 {
   "name": "Switzerland",
   "code": "SZ",
-  "published": "2025-04-03 00:02:00 -0400",
+  "published": "2025-04-10 00:12:01 -0400",
   "region": "Europe",
-  "updated": "2025-04-02 11:20:29 -0400",
+  "updated": "2025-04-09 13:40:38 -0400",
   "media": [
     {
       "type": "flag",
@@ -70,6 +70,14 @@
       "alt": "The Swiss flag against a field of snow.",
       "caption": "The Swiss flag against a field of snow.",
       "position": 5
+    },
+    {
+      "type": "photo",
+      "src": "/attachments/images/original/Reichenbachfall.jpg",
+      "category": "Places",
+      "alt": "Switzerland’s Reichenbach Falls is one of the highest falls in the Alps. Reichenbach is located in Bern canton and consists of five cascades with an overall height of 200 m (650 ft).",
+      "caption": "Switzerland’s Reichenbach Falls is one of the highest falls in the Alps. Reichenbach is located in Bern canton and consists of five cascades with an overall height of 200 m (650 ft).",
+      "position": 6
     }
   ],
   "categories": [
@@ -209,12 +217,12 @@
           "name": "Elevation",
           "field_id": 407,
           "comparative": false,
-          "content": "<strong>highest point: </strong>Dufourspitze 4,634 m<br><br><strong>lowest point: </strong>Lake Maggiore 195 m<br><br><strong>mean elevation: </strong>1,350 m",
+          "content": "<strong>highest point: </strong>Dufourspitze on Monte Rosa 4,634 m<br><br><strong>lowest point: </strong>Lake Maggiore 195 m<br><br><strong>mean elevation: </strong>1,350 m",
           "subfields": [
             {
               "name": "highest point",
-              "content": "Dufourspitze 4,634 m",
-              "value": "Dufourspitze 4,634 m",
+              "content": "Dufourspitze on Monte Rosa 4,634 m",
+              "value": "Dufourspitze on Monte Rosa 4,634 m",
               "title": "highest point"
             },
             {
@@ -363,13 +371,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>8,860,574<br><br><strong>male: </strong>4,403,105<br><br><strong>female: </strong>4,457,469 (2024 est.)",
+          "content": "<strong>total: </strong>8,860,574 (2024 est.)<br><br><strong>male: </strong>4,403,105<br><br><strong>female: </strong>4,457,469",
           "subfields": [
             {
               "name": "total",
-              "content": "8,860,574",
+              "content": "8,860,574 (2024 est.)",
               "title": "total",
-              "value": "8860574"
+              "value": "8860574",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -379,11 +389,9 @@
             },
             {
               "name": "female",
-              "content": "4,457,469 (2024 est.)",
+              "content": "4,457,469",
               "title": "female",
-              "value": "4457469",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "4457469"
             }
           ]
         },
@@ -634,16 +642,18 @@
               "content": "74.2% of total population (2023)",
               "title": "urban population",
               "value": "74.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.79% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.79",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1239,16 +1249,18 @@
               "content": "74.2% of total population (2023)",
               "title": "urban population",
               "value": "74.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.79% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.79",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

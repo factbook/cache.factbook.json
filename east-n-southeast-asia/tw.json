@@ -1,9 +1,9 @@
 {
   "name": "Taiwan",
   "code": "TW",
-  "published": "2025-04-01 00:05:45 -0400",
+  "published": "2025-04-10 00:12:43 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-03-31 10:05:11 -0400",
+  "updated": "2025-04-09 11:48:34 -0400",
   "media": [
     {
       "type": "flag",
@@ -381,13 +381,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>23,595,274<br><br><strong>male: </strong>11,606,491<br><br><strong>female: </strong>11,988,783 (2024 est.)",
+          "content": "<strong>total: </strong>23,595,274 (2024 est.)<br><br><strong>male: </strong>11,606,491<br><br><strong>female: </strong>11,988,783",
           "subfields": [
             {
               "name": "total",
-              "content": "23,595,274",
+              "content": "23,595,274 (2024 est.)",
               "title": "total",
-              "value": "23595274"
+              "value": "23595274",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -397,11 +399,9 @@
             },
             {
               "name": "female",
-              "content": "11,988,783 (2024 est.)",
+              "content": "11,988,783",
               "title": "female",
-              "value": "11988783",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "11988783"
             }
           ]
         },
@@ -636,16 +636,18 @@
               "content": "80.1% of total population (2023)",
               "title": "urban population",
               "value": "80.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.65% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.65",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ]
         },
@@ -1037,16 +1039,18 @@
               "content": "80.1% of total population (2023)",
               "title": "urban population",
               "value": "80.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.65% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.65",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ]
         },
@@ -2048,18 +2052,18 @@
           "name": "Reserves of foreign exchange and gold",
           "field_id": 245,
           "comparative": true,
-          "content": "$456.7 billion (31 December 2017 est.)<br><br>$439 billion (31 December 2016 est.)",
+          "content": "$456.7 billion (2017 est.)<br><br>$439 billion (2016 est.)",
           "subfields": [
             {
-              "name": "Reserves of foreign exchange and gold 31 December 2017",
-              "content": "$456.7 billion (31 December 2017 est.)",
+              "name": "Reserves of foreign exchange and gold 2017",
+              "content": "$456.7 billion (2017 est.)",
               "value": "456700000000",
               "estimated": true,
               "prefix": "$"
             },
             {
-              "name": "Reserves of foreign exchange and gold 31 December 2016",
-              "content": "$439 billion (31 December 2016 est.)",
+              "name": "Reserves of foreign exchange and gold 2016",
+              "content": "$439 billion (2016 est.)",
               "value": "439000000000",
               "estimated": true,
               "prefix": "$"

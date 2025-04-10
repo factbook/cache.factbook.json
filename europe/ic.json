@@ -1,9 +1,9 @@
 {
   "name": "Iceland",
   "code": "IC",
-  "published": "2025-03-29 00:05:49 -0400",
+  "published": "2025-04-10 00:05:53 -0400",
   "region": "Europe",
-  "updated": "2025-03-28 16:20:50 -0400",
+  "updated": "2025-04-09 11:48:31 -0400",
   "media": [
     {
       "type": "flag",
@@ -420,13 +420,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>364,036<br><br><strong>male: </strong>182,268<br><br><strong>female: </strong>181,768 (2024 est.)",
+          "content": "<strong>total: </strong>364,036 (2024 est.)<br><br><strong>male: </strong>182,268<br><br><strong>female: </strong>181,768",
           "subfields": [
             {
               "name": "total",
-              "content": "364,036",
+              "content": "364,036 (2024 est.)",
               "title": "total",
-              "value": "364036"
+              "value": "364036",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -436,11 +438,9 @@
             },
             {
               "name": "female",
-              "content": "181,768 (2024 est.)",
+              "content": "181,768",
               "title": "female",
-              "value": "181768",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "181768"
             }
           ]
         },
@@ -487,13 +487,6 @@
           "content": "Evangelical Lutheran Church of Iceland (official) 58.6% Roman Catholic 3.8%, Independent Congregation of Reykjavik 2.6%, Independent Congregation of Hafnarfjordur 1.9%, pagan worship 1.5%, Icelandic Ethical Humanist Association 1.4%, other (includes Zuist and Pentecostal) or unspecified 18.7%, none 7.7% (2024 est.)",
           "value": "Evangelical Lutheran Church of Iceland (official) 58.6% Roman Catholic 3.8%, Independent Congregation of Reykjavik 2.6%, Independent Congregation of Hafnarfjordur 1.9%, pagan worship 1.5%, Icelandic Ethical Humanist Association 1.4%, other (includes Zuist and Pentecostal) or unspecified 18.7%, none 7.7%",
           "info_date": "2024 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Iceland is one of the most gender-equal countries in the world.&nbsp; Its welfare policies enable both men and women to balance work and family life.&nbsp; Iceland lagged its Nordic neighbors in introducing new childcare policies, and even when they did in the 1990s, parents still faced a childcare gap between the paid parental leave period and the start of pre-school. The female labor participation rate continued to grow from the 1960s to the 2000s, as women&rsquo;s educational attainment increased.&nbsp; Icelanders are marrying later, if they marry at all, and people are having children later.&nbsp; The interval between births has decreased. Non-marital cohabitation and childbearing outside of marriage are common. Approximately 2 out of 3 children are born out of wedlock, which is among the highest in Europe.&nbsp; Iceland&rsquo;s total fertility rate (TFR) has been fairly stable, hovering around replacement level (2.1 children per woman), for decades &ndash; a rate higher even than its Nordic neighbors.&nbsp;</p> <p>Iceland has fluctuated over time between being a country of net emigration and one of net immigration.&nbsp; Most Icelandic emigrants return to their native country after a few years.&nbsp; From 1960 to 1996, Iceland registered a net outflow, followed by a net inflow until the 2008 banking crisis. During and after the crisis, more Icelanders left the country than immigrated to it.&nbsp; Following the crisis, Iceland returned to being a country of net immigration.&nbsp; In 2017, the country&rsquo;s foreign-born population accounted for 11% of the population and 17% had an immigrant background.&nbsp; The countries of origin have become more diverse over time, with Polish immigrants composing the largest share in 2017. Foreigners acquiring Icelandic citizenship must have a basic comprehension of the Icelandic language.&nbsp; The requirement that new citizens modify or change their names to be more Icelandic was dropped in 1996.&nbsp; The most popular emigration destination was Sweden, followed by Denmark and Norway in 2021.</p>",
-          "value": "<p>Iceland is one of the most gender-equal countries in the world.&nbsp; Its welfare policies enable both men and women to balance work and family life.&nbsp; Iceland lagged its Nordic neighbors in introducing new childcare policies, and even when they did in the 1990s, parents still faced a childcare gap between the paid parental leave period and the start of pre-school. The female labor participation rate continued to grow from the 1960s to the 2000s, as women&rsquo;s educational attainment increased.&nbsp; Icelanders are marrying later, if they marry at all, and people are having children later.&nbsp; The interval between births has decreased. Non-marital cohabitation and childbearing outside of marriage are common. Approximately 2 out of 3 children are born out of wedlock, which is among the highest in Europe.&nbsp; Iceland&rsquo;s total fertility rate (TFR) has been fairly stable, hovering around replacement level (2.1 children per woman), for decades &ndash; a rate higher even than its Nordic neighbors.&nbsp;</p> <p>Iceland has fluctuated over time between being a country of net emigration and one of net immigration.&nbsp; Most Icelandic emigrants return to their native country after a few years.&nbsp; From 1960 to 1996, Iceland registered a net outflow, followed by a net inflow until the 2008 banking crisis. During and after the crisis, more Icelanders left the country than immigrated to it.&nbsp; Following the crisis, Iceland returned to being a country of net immigration.&nbsp; In 2017, the country&rsquo;s foreign-born population accounted for 11% of the population and 17% had an immigrant background.&nbsp; The countries of origin have become more diverse over time, with Polish immigrants composing the largest share in 2017. Foreigners acquiring Icelandic citizenship must have a basic comprehension of the Icelandic language.&nbsp; The requirement that new citizens modify or change their names to be more Icelandic was dropped in 1996.&nbsp; The most popular emigration destination was Sweden, followed by Denmark and Norway in 2021.</p>"
         },
         {
           "name": "Age structure",
@@ -661,16 +654,18 @@
               "content": "94% of total population (2023)",
               "title": "urban population",
               "value": "94",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.74% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.74",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1265,16 +1260,18 @@
               "content": "94% of total population (2023)",
               "title": "urban population",
               "value": "94",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.74% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.74",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1453,7 +1450,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>none<br><br><strong>conventional short form: </strong>Iceland<br><br><strong>local long form: </strong>none<br><br><strong>local short form: </strong>Island<br><br><strong>etymology: </strong>Floki VILGERDARSON, an early Norse explorer of the island (9th century), applied the name \"Land of Ice\" after spotting a fjord full of drift ice to the north and spending a bitter winter on the island; he eventually settled on the island, however, after he saw how it greened up in the summer and that it was, in fact, habitable",
+          "content": "<strong>conventional long form: </strong>none<br><br><strong>conventional short form: </strong>Iceland<br><br><strong>local long form: </strong>none<br><br><strong>local short form: </strong>Island<br><br><strong>etymology: </strong>Floki VILGERDARSON, an early Norse explorer of the island in the 10th century, applied the name \"Land of Ice,\" from the local words <em>&iacute;s </em>(ice) and <em>land </em>(land)",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1481,8 +1478,8 @@
             },
             {
               "name": "etymology",
-              "content": "Floki VILGERDARSON, an early Norse explorer of the island (9th century), applied the name \"Land of Ice\" after spotting a fjord full of drift ice to the north and spending a bitter winter on the island; he eventually settled on the island, however, after he saw how it greened up in the summer and that it was, in fact, habitable",
-              "value": "Floki VILGERDARSON, an early Norse explorer of the island (9th century), applied the name \"Land of Ice\" after spotting a fjord full of drift ice to the north and spending a bitter winter on the island; he eventually settled on the island, however, after he saw how it greened up in the summer and that it was, in fact, habitable",
+              "content": "Floki VILGERDARSON, an early Norse explorer of the island in the 10th century, applied the name \"Land of Ice,\" from the local words <em>&iacute;s </em>(ice) and <em>land </em>(land)",
+              "value": "Floki VILGERDARSON, an early Norse explorer of the island in the 10th century, applied the name \"Land of Ice,\" from the local words <em>&iacute;s </em>(ice) and <em>land </em>(land)",
               "title": "etymology"
             }
           ]

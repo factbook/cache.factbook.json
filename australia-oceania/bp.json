@@ -1,9 +1,9 @@
 {
   "name": "Solomon Islands",
   "code": "BP",
-  "published": "2025-03-29 00:01:53 -0400",
+  "published": "2025-04-10 00:02:03 -0400",
   "region": "Australia and Oceania",
-  "updated": "2025-03-28 15:42:50 -0400",
+  "updated": "2025-04-09 11:48:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -357,13 +357,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>726,799<br><br><strong>male: </strong>370,970<br><br><strong>female: </strong>355,829 (2024 est.)",
+          "content": "<strong>total: </strong>726,799 (2024 est.)<br><br><strong>male: </strong>370,970<br><br><strong>female: </strong>355,829",
           "subfields": [
             {
               "name": "total",
-              "content": "726,799",
+              "content": "726,799 (2024 est.)",
               "title": "total",
-              "value": "726799"
+              "value": "726799",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -373,11 +375,9 @@
             },
             {
               "name": "female",
-              "content": "355,829 (2024 est.)",
+              "content": "355,829",
               "title": "female",
-              "value": "355829",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "355829"
             }
           ]
         },
@@ -590,16 +590,18 @@
               "content": "26% of total population (2023)",
               "title": "urban population",
               "value": "26",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.57% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "3.57",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1166,16 +1168,18 @@
               "content": "26% of total population (2023)",
               "title": "urban population",
               "value": "26",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.57% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "3.57",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

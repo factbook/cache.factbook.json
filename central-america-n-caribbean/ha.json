@@ -1,9 +1,9 @@
 {
   "name": "Haiti",
   "code": "HA",
-  "published": "2025-04-03 00:01:08 -0400",
+  "published": "2025-04-10 00:05:36 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-04-02 11:09:16 -0400",
+  "updated": "2025-04-09 11:48:31 -0400",
   "media": [
     {
       "type": "flag",
@@ -329,13 +329,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>11,753,943<br><br><strong>male: </strong>5,792,443<br><br><strong>female: </strong>5,961,500 (2024 est.)",
+          "content": "<strong>total: </strong>11,753,943 (2024 est.)<br><br><strong>male: </strong>5,792,443<br><br><strong>female: </strong>5,961,500",
           "subfields": [
             {
               "name": "total",
-              "content": "11,753,943",
+              "content": "11,753,943 (2024 est.)",
               "title": "total",
-              "value": "11753943"
+              "value": "11753943",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -345,11 +347,9 @@
             },
             {
               "name": "female",
-              "content": "5,961,500 (2024 est.)",
+              "content": "5,961,500",
               "title": "female",
-              "value": "5961500",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "5961500"
             }
           ]
         },
@@ -583,16 +583,18 @@
               "content": "59.7% of total population (2023)",
               "title": "urban population",
               "value": "59.7",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.47% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.47",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1198,16 +1200,18 @@
               "content": "59.7% of total population (2023)",
               "title": "urban population",
               "value": "59.7",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.47% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.47",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1362,7 +1366,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>Republic of Haiti<br><br><strong>conventional short form: </strong>Haiti<br><br><strong>local long form: </strong>R&eacute;publique d'Ha&iuml;ti (French)/Repiblik d Ayiti (Haitian Creole)<br><br><strong>local short form: </strong>Ha&iuml;ti (French)/ Ayiti (Haitian Creole)<br><br><strong>etymology: </strong>the native Taino name means \"Land of High Mountains\" and was originally applied to the entire island of Hispaniola",
+          "content": "<strong>conventional long form: </strong>Republic of Haiti<br><br><strong>conventional short form: </strong>Haiti<br><br><strong>local long form: </strong>R&eacute;publique d'Ha&iuml;ti (French)/Repiblik d Ayiti (Haitian Creole)<br><br><strong>local short form: </strong>Ha&iuml;ti (French)/ Ayiti (Haitian Creole)<br><br><strong>etymology: </strong>derived from the Arawak name Ayti, meaning \"Land of Mountains,\" that was originally applied to the entire island of Hispaniola",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1390,8 +1394,8 @@
             },
             {
               "name": "etymology",
-              "content": "the native Taino name means \"Land of High Mountains\" and was originally applied to the entire island of Hispaniola",
-              "value": "the native Taino name means \"Land of High Mountains\" and was originally applied to the entire island of Hispaniola",
+              "content": "derived from the Arawak name Ayti, meaning \"Land of Mountains,\" that was originally applied to the entire island of Hispaniola",
+              "value": "derived from the Arawak name Ayti, meaning \"Land of Mountains,\" that was originally applied to the entire island of Hispaniola",
               "title": "etymology"
             }
           ]

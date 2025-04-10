@@ -1,9 +1,9 @@
 {
   "name": "Kazakhstan",
   "code": "KZ",
-  "published": "2025-04-01 00:03:21 -0400",
+  "published": "2025-04-10 00:07:05 -0400",
   "region": "Central Asia",
-  "updated": "2025-03-31 13:15:29 -0400",
+  "updated": "2025-04-09 11:48:32 -0400",
   "media": [
     {
       "type": "flag",
@@ -362,13 +362,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>20,260,006<br><br><strong>male: </strong>9,817,172<br><br><strong>female: </strong>10,442,834 (2024 est.)",
+          "content": "<strong>total: </strong>20,260,006 (2024 est.)<br><br><strong>male: </strong>9,817,172<br><br><strong>female: </strong>10,442,834",
           "subfields": [
             {
               "name": "total",
-              "content": "20,260,006",
+              "content": "20,260,006 (2024 est.)",
               "title": "total",
-              "value": "20260006"
+              "value": "20260006",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -378,11 +380,9 @@
             },
             {
               "name": "female",
-              "content": "10,442,834 (2024 est.)",
+              "content": "10,442,834",
               "title": "female",
-              "value": "10442834",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "10442834"
             }
           ]
         },
@@ -458,13 +458,6 @@
           "content": "Muslim 69.3%, Christian 17.2% (Orthodox 17%, other 0.2%), Buddhism 0.1%, other 0.1%, non-believers 2.3%, unspecified 11% (2021 est.)",
           "value": "Muslim 69.3%, Christian 17.2% (Orthodox 17%, other 0.2%), Buddhism 0.1%, other 0.1%, non-believers 2.3%, unspecified 11%",
           "info_date": "2021 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Nearly 40% of Kazakhstan&rsquo;s population is under the age of 25.&nbsp; Like many former Soviet states, Kazakhstan&rsquo;s total fertility rate (TFR) &ndash; the average number of births per woman &ndash; decreased after independence amidst economic problems and fell below replacement level, 2.1.&nbsp; However, in the late 2000s, as the economy improved and incomes rose, Kazakhstan experienced a small baby boom and TFR reached 2.5.&nbsp; TFR has since fallen and is now just over 2.1.&nbsp; Mortality rates are also decreasing and life expectancy is rising, signs that Kazakhstan&rsquo;s demographic transition is progressing.&nbsp;</p> <p>Kazakhstan has a diverse population consisting of Asian ethnic groups (predominantly Kazakhs, as well as Uzbeks, Uighurs, and Tatars) and ethnic Europeans (mainly Russians but also Ukrainians and Germans). &nbsp;Approximately two thirds of Kazakhstan&rsquo;s population today is Kazakh.&nbsp; During the mid-20<sup>th</sup> century, as Kazakhstan industrialized, waves of ethnic Russians and deportees from other parts of the Soviet Union arrived.&nbsp; Eventually, the ethnic Russian population outnumbered the Kazakhs. &nbsp;In the 1990s, following Kazakhstan&rsquo;s independence, Russian and other ethnic Europeans began emigrating, while some ethnic Kazakhs (referred to as Oralmans) returned to their homeland from neighboring countries, China, and Mongolia.&nbsp; As a result, the country&rsquo;s ethnic make-up changed, and a Kazakh majority was reestablished.</p> <p>In recent years, Kazakhstan has shifted from being mainly a migrant-sending country to a migrant-receiving country.&nbsp; Due to its oil-driven economic boom, Kazakhstan has become a more popular destination.&nbsp; The country needs highly skilled workers in the industrial, business, and education sectors and low-skilled labor in agriculture, markets, services, and construction.&nbsp; Kazakhstan is increasingly reliant on migrant workers, primarily from Kyrgyzstan, Tajikistan, and Uzbekistan, to fill its labor shortage.&nbsp; At the same time, highly skilled Kazakhs continue to emigrate, mostly to Russia, seeking higher salaries or further education.</p>",
-          "value": "<p>Nearly 40% of Kazakhstan&rsquo;s population is under the age of 25.&nbsp; Like many former Soviet states, Kazakhstan&rsquo;s total fertility rate (TFR) &ndash; the average number of births per woman &ndash; decreased after independence amidst economic problems and fell below replacement level, 2.1.&nbsp; However, in the late 2000s, as the economy improved and incomes rose, Kazakhstan experienced a small baby boom and TFR reached 2.5.&nbsp; TFR has since fallen and is now just over 2.1.&nbsp; Mortality rates are also decreasing and life expectancy is rising, signs that Kazakhstan&rsquo;s demographic transition is progressing.&nbsp;</p> <p>Kazakhstan has a diverse population consisting of Asian ethnic groups (predominantly Kazakhs, as well as Uzbeks, Uighurs, and Tatars) and ethnic Europeans (mainly Russians but also Ukrainians and Germans). &nbsp;Approximately two thirds of Kazakhstan&rsquo;s population today is Kazakh.&nbsp; During the mid-20<sup>th</sup> century, as Kazakhstan industrialized, waves of ethnic Russians and deportees from other parts of the Soviet Union arrived.&nbsp; Eventually, the ethnic Russian population outnumbered the Kazakhs. &nbsp;In the 1990s, following Kazakhstan&rsquo;s independence, Russian and other ethnic Europeans began emigrating, while some ethnic Kazakhs (referred to as Oralmans) returned to their homeland from neighboring countries, China, and Mongolia.&nbsp; As a result, the country&rsquo;s ethnic make-up changed, and a Kazakh majority was reestablished.</p> <p>In recent years, Kazakhstan has shifted from being mainly a migrant-sending country to a migrant-receiving country.&nbsp; Due to its oil-driven economic boom, Kazakhstan has become a more popular destination.&nbsp; The country needs highly skilled workers in the industrial, business, and education sectors and low-skilled labor in agriculture, markets, services, and construction.&nbsp; Kazakhstan is increasingly reliant on migrant workers, primarily from Kyrgyzstan, Tajikistan, and Uzbekistan, to fill its labor shortage.&nbsp; At the same time, highly skilled Kazakhs continue to emigrate, mostly to Russia, seeking higher salaries or further education.</p>"
         },
         {
           "name": "Age structure",
@@ -632,16 +625,18 @@
               "content": "58.2% of total population (2023)",
               "title": "urban population",
               "value": "58.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.19% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.19",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1247,16 +1242,18 @@
               "content": "58.2% of total population (2023)",
               "title": "urban population",
               "value": "58.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.19% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.19",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1444,7 +1441,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>Republic of Kazakhstan<br><br><strong>conventional short form: </strong>Kazakhstan<br><br><strong>local long form: </strong>Qazaqstan Respublikasy<br><br><strong>local short form: </strong>Qazaqstan<br><br><strong>former: </strong>Kazakh Soviet Socialist Republic<br><br><strong>etymology: </strong>the name \"Kazakh\" may derive from the Turkic word \"kaz\" meaning \"to wander,\" recalling the Kazakh's nomadic lifestyle; the Persian suffix \"-stan\" means \"place of\" or \"country,\" so the word Kazakhstan literally means \"Land of the Wanderers\"",
+          "content": "<strong>conventional long form: </strong>Republic of Kazakhstan<br><br><strong>conventional short form: </strong>Kazakhstan<br><br><strong>local long form: </strong>Qazaqstan Respublikasy<br><br><strong>local short form: </strong>Qazaqstan<br><br><strong>former: </strong>Kazakh Soviet Socialist Republic<br><br><strong>etymology: </strong>the name may derive from the Turkic word <em>kazak, </em>meaning \"nomad;\" the Persian suffix -<em>stan</em> means \"place of\" or \"country\"",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1478,8 +1475,8 @@
             },
             {
               "name": "etymology",
-              "content": "the name \"Kazakh\" may derive from the Turkic word \"kaz\" meaning \"to wander,\" recalling the Kazakh's nomadic lifestyle; the Persian suffix \"-stan\" means \"place of\" or \"country,\" so the word Kazakhstan literally means \"Land of the Wanderers\"",
-              "value": "the name \"Kazakh\" may derive from the Turkic word \"kaz\" meaning \"to wander,\" recalling the Kazakh's nomadic lifestyle; the Persian suffix \"-stan\" means \"place of\" or \"country,\" so the word Kazakhstan literally means \"Land of the Wanderers\"",
+              "content": "the name may derive from the Turkic word <em>kazak, </em>meaning \"nomad;\" the Persian suffix -<em>stan</em> means \"place of\" or \"country\"",
+              "value": "the name may derive from the Turkic word <em>kazak, </em>meaning \"nomad;\" the Persian suffix -<em>stan</em> means \"place of\" or \"country\"",
               "title": "etymology"
             }
           ]

@@ -1,9 +1,9 @@
 {
   "name": "Jersey",
   "code": "JE",
-  "published": "2025-04-02 00:00:40 -0400",
+  "published": "2025-04-10 00:06:31 -0400",
   "region": "Europe",
-  "updated": "2025-04-01 19:27:31 -0400",
+  "updated": "2025-04-09 11:48:31 -0400",
   "media": [
     {
       "type": "flag",
@@ -112,8 +112,8 @@
           "name": "Area - comparative",
           "field_id": 280,
           "comparative": false,
-          "content": "about two-thirds the size of Washington, DC",
-          "value": "about two-thirds the size of Washington, DC"
+          "content": "about two-thirds the size of Washington, D.C.",
+          "value": "about two-thirds the size of Washington, D.C."
         },
         {
           "name": "Land boundaries",
@@ -299,13 +299,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>103,387<br><br><strong>male: </strong>51,028<br><br><strong>female: </strong>52,359 (2024 est.)",
+          "content": "<strong>total: </strong>103,387 (2024 est.)<br><br><strong>male: </strong>51,028<br><br><strong>female: </strong>52,359",
           "subfields": [
             {
               "name": "total",
-              "content": "103,387",
+              "content": "103,387 (2024 est.)",
               "title": "total",
-              "value": "103387"
+              "value": "103387",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -315,11 +317,9 @@
             },
             {
               "name": "female",
-              "content": "52,359 (2024 est.)",
+              "content": "52,359",
               "title": "female",
-              "value": "52359",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "52359"
             }
           ]
         },
@@ -535,16 +535,18 @@
               "content": "31.2% of total population (2023)",
               "title": "urban population",
               "value": "31.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.68% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.68",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "field_note": "<strong>note:</strong> data include Guernsey and Jersey",
@@ -909,16 +911,18 @@
               "content": "31.2% of total population (2023)",
               "title": "urban population",
               "value": "31.2",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.68% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.68",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "field_note": "<strong>note:</strong> data include Guernsey and Jersey",
@@ -978,7 +982,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>Bailiwick of Jersey<br><br><strong>conventional short form: </strong>Jersey<br><br><strong>former: </strong>Norman Isles<br><br><strong>etymology: </strong>the name is of Old Norse origin, but the meaning of the root \"Jer(s)\" is uncertain; the \"-ey\" ending means \"island\"",
+          "content": "<strong>conventional long form: </strong>Bailiwick of Jersey<br><br><strong>conventional short form: </strong>Jersey<br><br><strong>former: </strong>Norman Isles<br><br><strong>etymology: </strong>the name is of Old Norse origin, with -<em>ey</em> meaning \"island;\" \"Jer(s)\" may derive from a person with the Scandinavian name Geirr, meaning \"spear\"",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1000,8 +1004,8 @@
             },
             {
               "name": "etymology",
-              "content": "the name is of Old Norse origin, but the meaning of the root \"Jer(s)\" is uncertain; the \"-ey\" ending means \"island\"",
-              "value": "the name is of Old Norse origin, but the meaning of the root \"Jer(s)\" is uncertain; the \"-ey\" ending means \"island\"",
+              "content": "the name is of Old Norse origin, with -<em>ey</em> meaning \"island;\" \"Jer(s)\" may derive from a person with the Scandinavian name Geirr, meaning \"spear\"",
+              "value": "the name is of Old Norse origin, with -<em>ey</em> meaning \"island;\" \"Jer(s)\" may derive from a person with the Scandinavian name Geirr, meaning \"spear\"",
               "title": "etymology"
             }
           ]

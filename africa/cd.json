@@ -1,9 +1,9 @@
 {
   "name": "Chad",
   "code": "CD",
-  "published": "2025-04-01 00:01:35 -0400",
+  "published": "2025-04-10 00:02:36 -0400",
   "region": "Africa",
-  "updated": "2025-03-31 10:24:05 -0400",
+  "updated": "2025-04-09 12:19:34 -0400",
   "media": [
     {
       "type": "flag",
@@ -321,13 +321,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>19,093,595<br><br><strong>male: </strong>9,464,699<br><br><strong>female: </strong>9,628,896 (2024 est.)",
+          "content": "<strong>total: </strong>19,093,595 (2024 est.)<br><br><strong>male: </strong>9,464,699<br><br><strong>female: </strong>9,628,896",
           "subfields": [
             {
               "name": "total",
-              "content": "19,093,595",
+              "content": "19,093,595 (2024 est.)",
               "title": "total",
-              "value": "19093595"
+              "value": "19093595",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -337,11 +339,9 @@
             },
             {
               "name": "female",
-              "content": "9,628,896 (2024 est.)",
+              "content": "9,628,896",
               "title": "female",
-              "value": "9628896",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "9628896"
             }
           ]
         },
@@ -415,13 +415,6 @@
           "content": "Muslim 52.1%, Protestant 23.9%, Roman Catholic 20%, animist 0.3%, other Christian 0.2%, none 2.8%, unspecified 0.7% (2014-15 est.)",
           "value": "Muslim 52.1%, Protestant 23.9%, Roman Catholic 20%, animist 0.3%, other Christian 0.2%, none 2.8%, unspecified 0.7%",
           "info_date": "2014-15 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Despite the start of oil production in 2003, around 40% of Chad&rsquo;s population lived below the poverty line as of 2018. The population will continue to grow rapidly because of the country&rsquo;s very high fertility rate and large youth cohort &ndash; more than 65% of the populace is under the age of 25 as of 2022 &ndash; although the mortality rate is high and life expectancy is low. Chad has the world&rsquo;s second highest maternal mortality rate as of 2017. Among the primary risk factors are poverty, anemia, rural habitation, high fertility, poor education, and a lack of access to family planning and obstetric care. Impoverished, uneducated adolescents living in rural areas are most affected. To improve women&rsquo;s reproductive health and reduce fertility, Chad will need to increase women&rsquo;s educational attainment, job participation, and knowledge of and access to family planning. Less than a quarter of women are literate, less than 10% use contraceptives, and more than 40% undergo genital cutting.</p> <p>As of December 2022, more than 403,000 refugees from Sudan and more than 120,000 from the Central African Republic strain Chad&rsquo;s limited resources and create tensions in host communities. Thousands of new refugees fled to Chad in 2013 to escape worsening violence in the Darfur region of Sudan. The large refugee populations are hesitant to return to their home countries because of continued instability. Chad was relatively stable in 2012 in comparison to other states in the region, but past fighting between government forces and opposition groups and inter-communal violence have left more than 380,000 of its citizens displaced in the eastern part of the country as of 2022.</p>",
-          "value": "<p>Despite the start of oil production in 2003, around 40% of Chad&rsquo;s population lived below the poverty line as of 2018. The population will continue to grow rapidly because of the country&rsquo;s very high fertility rate and large youth cohort &ndash; more than 65% of the populace is under the age of 25 as of 2022 &ndash; although the mortality rate is high and life expectancy is low. Chad has the world&rsquo;s second highest maternal mortality rate as of 2017. Among the primary risk factors are poverty, anemia, rural habitation, high fertility, poor education, and a lack of access to family planning and obstetric care. Impoverished, uneducated adolescents living in rural areas are most affected. To improve women&rsquo;s reproductive health and reduce fertility, Chad will need to increase women&rsquo;s educational attainment, job participation, and knowledge of and access to family planning. Less than a quarter of women are literate, less than 10% use contraceptives, and more than 40% undergo genital cutting.</p> <p>As of December 2022, more than 403,000 refugees from Sudan and more than 120,000 from the Central African Republic strain Chad&rsquo;s limited resources and create tensions in host communities. Thousands of new refugees fled to Chad in 2013 to escape worsening violence in the Darfur region of Sudan. The large refugee populations are hesitant to return to their home countries because of continued instability. Chad was relatively stable in 2012 in comparison to other states in the region, but past fighting between government forces and opposition groups and inter-communal violence have left more than 380,000 of its citizens displaced in the eastern part of the country as of 2022.</p>"
         },
         {
           "name": "Age structure",
@@ -589,16 +582,18 @@
               "content": "24.4% of total population (2023)",
               "title": "urban population",
               "value": "24.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "4.1% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "4.1",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1225,16 +1220,18 @@
               "content": "24.4% of total population (2023)",
               "title": "urban population",
               "value": "24.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "4.1% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "4.1",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1708,7 +1705,7 @@
           "name": "Legislative branch - upper chamber",
           "field_id": 467,
           "comparative": false,
-          "content": "<strong>chamber name: </strong>Senate (Senate)<br><br><strong>number of seats: </strong>69 (46 indirectly elected; 23 appointed)<br><br><strong>scope of elections: </strong>full renewal<br><br><strong>term in office: </strong>6 years<br><br><strong>most recent election date: </strong>2/25/2025<br><br><strong>expected date of next election: </strong>February 2031",
+          "content": "<strong>chamber name: </strong>Senate (Senate)<br><br><strong>number of seats: </strong>69 (46 indirectly elected; 23 appointed)<br><br><strong>scope of elections: </strong>full renewal<br><br><strong>term in office: </strong>6 years<br><br><strong>most recent election date: </strong>2/25/2025<br><br><strong>percentage of women in chamber: </strong>37.7%<br><br><strong>expected date of next election: </strong>February 2031",
           "subfields": [
             {
               "name": "chamber name",
@@ -1740,6 +1737,13 @@
               "content": "2/25/2025",
               "value": "2/25/2025",
               "title": "most recent election date"
+            },
+            {
+              "name": "percentage of women in chamber",
+              "content": "37.7%",
+              "title": "percentage of women in chamber",
+              "value": "37.7",
+              "suffix": "%"
             },
             {
               "name": "expected date of next election",
@@ -3062,10 +3066,10 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Chadian National Army (Armee Nationale du Tchad, ANT): Land Forces (l'Armee de Terre, AdT), Chadian Air Force (l'Armee de l'Air Tchadienne, AAT), General Direction of the Security Services of State Institutions (Direction Generale des Services de Securite des Institutions de l'Etat, GDSSIE); National Gendarmerie; Ministry of Public Security and Immigration: National Nomadic Guard of Chad (GNNT) (2023)<br><br><strong>note 1:</strong> the GDSSIE, formerly known as the Republican Guard, is the presidential guard force and is considered to be Chad's elite military unit; it is reportedly a division-sized force with infantry, armor, and special forces/anti-terrorism regiments (known as the Special Anti-Terrorist Group or SATG, aka Division of Special Anti-Terrorist Groups or DGSAT)<br /><br /><strong>note 2:</strong> the Chadian National Police are under the Ministry of Public Security and Immigration; border security duties are shared by the Army, Customs (Ministry of Public Security and Immigration), the Gendarmerie, and the GNNT",
-          "value": "Chadian National Army (Armee Nationale du Tchad, ANT): Land Forces (l'Armee de Terre, AdT), Chadian Air Force (l'Armee de l'Air Tchadienne, AAT), General Direction of the Security Services of State Institutions (Direction Generale des Services de Securite des Institutions de l'Etat, GDSSIE); National Gendarmerie; Ministry of Public Security and Immigration: National Nomadic Guard of Chad (GNNT)",
+          "content": "Chadian National Army (Armee Nationale du Tchad, ANT): Ground Forces (l'Armee de Terre, AdT), Chadian Air Force (l'Armee de l'Air Tchadienne, AAT), Chadian National Gendarmerie; General Direction of the Security Services of State Institutions (Direction Generale des Services de Securite des Institutions de l'Etat, GDSSIE)<br /><br />Ministry of Public Security and Immigration: National Nomadic Guard of Chad (GNNT) (2023)<br><br><strong>note 1:</strong> the GDSSIE is the presidential guard force and is considered to be Chad's elite military unit; it is reportedly a division-sized force with infantry, armor, and special forces/anti-terrorism regiments (known as the Special Anti-Terrorist Group or SATG, aka Division of Special Anti-Terrorist Groups or DGSAT); it reports directly to the president<br /><br /><strong>note 2:</strong> the Chadian National Police are under the Ministry of Public Security and Immigration; border security duties are shared by the ANT, Customs (Ministry of Public Security and Immigration), the National Gendarmerie, and the GNNT",
+          "value": "Chadian National Army (Armee Nationale du Tchad, ANT): Ground Forces (l'Armee de Terre, AdT), Chadian Air Force (l'Armee de l'Air Tchadienne, AAT), Chadian National Gendarmerie; General Direction of the Security Services of State Institutions (Direction Generale des Services de Securite des Institutions de l'Etat, GDSSIE)<br /><br />Ministry of Public Security and Immigration: National Nomadic Guard of Chad (GNNT)",
           "info_date": "2023",
-          "field_note": "<strong>note 1:</strong> the GDSSIE, formerly known as the Republican Guard, is the presidential guard force and is considered to be Chad's elite military unit; it is reportedly a division-sized force with infantry, armor, and special forces/anti-terrorism regiments (known as the Special Anti-Terrorist Group or SATG, aka Division of Special Anti-Terrorist Groups or DGSAT)<br /><br /><strong>note 2:</strong> the Chadian National Police are under the Ministry of Public Security and Immigration; border security duties are shared by the Army, Customs (Ministry of Public Security and Immigration), the Gendarmerie, and the GNNT"
+          "field_note": "<strong>note 1:</strong> the GDSSIE is the presidential guard force and is considered to be Chad's elite military unit; it is reportedly a division-sized force with infantry, armor, and special forces/anti-terrorism regiments (known as the Special Anti-Terrorist Group or SATG, aka Division of Special Anti-Terrorist Groups or DGSAT); it reports directly to the president<br /><br /><strong>note 2:</strong> the Chadian National Police are under the Ministry of Public Security and Immigration; border security duties are shared by the ANT, Customs (Ministry of Public Security and Immigration), the National Gendarmerie, and the GNNT"
         },
         {
           "name": "Military expenditures",

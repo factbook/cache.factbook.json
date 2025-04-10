@@ -1,9 +1,9 @@
 {
   "name": "Australia",
   "code": "AS",
-  "published": "2025-04-01 00:01:03 -0400",
+  "published": "2025-04-10 00:00:56 -0400",
   "region": "Australia and Oceania",
-  "updated": "2025-03-31 16:00:20 -0400",
+  "updated": "2025-04-09 11:28:17 -0400",
   "media": [
     {
       "type": "flag",
@@ -526,13 +526,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>26,768,598<br><br><strong>male: </strong>13,305,110<br><br><strong>female: </strong>13,463,488 (2024 est.)",
+          "content": "<strong>total: </strong>26,768,598 (2024 est.)<br><br><strong>male: </strong>13,305,110<br><br><strong>female: </strong>13,463,488",
           "subfields": [
             {
               "name": "total",
-              "content": "26,768,598",
+              "content": "26,768,598 (2024 est.)",
               "title": "total",
-              "value": "26768598"
+              "value": "26768598",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -542,11 +544,9 @@
             },
             {
               "name": "female",
-              "content": "13,463,488 (2024 est.)",
+              "content": "13,463,488",
               "title": "female",
-              "value": "13463488",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "13463488"
             }
           ]
         },
@@ -762,16 +762,18 @@
               "content": "86.6% of total population (2023)",
               "title": "urban population",
               "value": "86.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.27% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.27",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "field_note": "<strong>note:</strong> data include Christmas Island, Cocos Islands, and Norfolk Island",
@@ -1371,16 +1373,18 @@
               "content": "86.6% of total population (2023)",
               "title": "urban population",
               "value": "86.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.27% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.27",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "field_note": "<strong>note:</strong> data include Christmas Island, Cocos Islands, and Norfolk Island",

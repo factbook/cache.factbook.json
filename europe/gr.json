@@ -1,9 +1,9 @@
 {
   "name": "Greece",
   "code": "GR",
-  "published": "2025-04-01 00:02:36 -0400",
+  "published": "2025-04-10 00:05:16 -0400",
   "region": "Europe",
-  "updated": "2025-03-31 14:03:33 -0400",
+  "updated": "2025-04-09 11:48:31 -0400",
   "media": [
     {
       "type": "flag",
@@ -708,13 +708,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>10,461,091<br><br><strong>male: </strong>5,117,862<br><br><strong>female: </strong>5,343,229 (2024 est.)",
+          "content": "<strong>total: </strong>10,461,091 (2024 est.)<br><br><strong>male: </strong>5,117,862<br><br><strong>female: </strong>5,343,229",
           "subfields": [
             {
               "name": "total",
-              "content": "10,461,091",
+              "content": "10,461,091 (2024 est.)",
               "title": "total",
-              "value": "10461091"
+              "value": "10461091",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -724,11 +726,9 @@
             },
             {
               "name": "female",
-              "content": "5,343,229 (2024 est.)",
+              "content": "5,343,229",
               "title": "female",
-              "value": "5343229",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "5343229"
             }
           ]
         },
@@ -963,16 +963,18 @@
               "content": "80.7% of total population (2023)",
               "title": "urban population",
               "value": "80.7",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.11% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.11",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1575,16 +1577,18 @@
               "content": "80.7% of total population (2023)",
               "title": "urban population",
               "value": "80.7",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.11% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.11",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

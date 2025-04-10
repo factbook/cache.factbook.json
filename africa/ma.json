@@ -1,9 +1,9 @@
 {
   "name": "Madagascar",
   "code": "MA",
-  "published": "2025-03-29 00:07:48 -0400",
+  "published": "2025-04-10 00:07:46 -0400",
   "region": "Africa",
-  "updated": "2025-03-28 16:28:35 -0400",
+  "updated": "2025-04-09 11:48:32 -0400",
   "media": [
     {
       "type": "flag",
@@ -331,13 +331,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>29,452,714<br><br><strong>male: </strong>14,760,501<br><br><strong>female: </strong>14,692,213 (2024 est.)",
+          "content": "<strong>total: </strong>29,452,714 (2024 est.)<br><br><strong>male: </strong>14,760,501<br><br><strong>female: </strong>14,692,213",
           "subfields": [
             {
               "name": "total",
-              "content": "29,452,714",
+              "content": "29,452,714 (2024 est.)",
               "title": "total",
-              "value": "29452714"
+              "value": "29452714",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -347,11 +349,9 @@
             },
             {
               "name": "female",
-              "content": "14,692,213 (2024 est.)",
+              "content": "14,692,213",
               "title": "female",
-              "value": "14692213",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "14692213"
             }
           ]
         },
@@ -398,13 +398,6 @@
           "content": "Church of Jesus Christ in Madagascar/Malagasy Lutheran Church/Anglican Church 34%, Roman Catholic 32.3%, other Christian 8.1%, traditional/Animist 1.7%, Muslim 1.4%, other 0.6%, none 21.9% (2021 est.)",
           "value": "Church of Jesus Christ in Madagascar/Malagasy Lutheran Church/Anglican Church 34%, Roman Catholic 32.3%, other Christian 8.1%, traditional/Animist 1.7%, Muslim 1.4%, other 0.6%, none 21.9%",
           "info_date": "2021 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Madagascar&rsquo;s youthful population &ndash; nearly 60% are under the age of 25 as of 2020 &ndash; and moderately high total fertility rate of more than 3.6 children per woman ensures that the Malagasy population will continue its rapid growth trajectory for the foreseeable future. The population is predominantly rural and poor; chronic malnutrition is prevalent, and large families are the norm. Many young Malagasy girls are withdrawn from school, marry early (often pressured to do so by their parents), and soon begin having children. Early childbearing, coupled with Madagascar&rsquo;s widespread poverty and lack of access to skilled health care providers during delivery, increases the risk of death and serious health problems for young mothers and their babies.</p> <p>Child marriage perpetuates gender inequality and is prevalent among the poor, the uneducated, and rural households &ndash; as of 2018, 40% of Malagasy women aged 20 to 24 were married. Although the legal age for marriage is 18, parental consent is often given for earlier marriages or the law is flouted, especially in rural areas that make up approximately 60% of the country. Forms of arranged marriage whereby young girls are married to older men in exchange for oxen or money are traditional. If a union does not work out, a girl can be placed in another marriage, but the dowry paid to her family diminishes with each unsuccessful marriage.</p> <p>Madagascar&rsquo;s population consists of 18 main ethnic groups, all of whom speak the same Malagasy language. Most Malagasy are multi-ethnic, however, reflecting the island&rsquo;s diversity of settlers and historical contacts (see Background). Madagascar&rsquo;s legacy of hierarchical societies practicing domestic slavery (most notably the Merina Kingdom of the 16th to the 19th century) is evident today in persistent class tension, with some ethnic groups maintaining a caste system. Slave descendants are vulnerable to unequal access to education and jobs, despite Madagascar&rsquo;s constitutional guarantee of free compulsory primary education and its being party to several international conventions on human rights. Historical distinctions also remain between central highlanders and coastal people.</p>",
-          "value": "<p>Madagascar&rsquo;s youthful population &ndash; nearly 60% are under the age of 25 as of 2020 &ndash; and moderately high total fertility rate of more than 3.6 children per woman ensures that the Malagasy population will continue its rapid growth trajectory for the foreseeable future. The population is predominantly rural and poor; chronic malnutrition is prevalent, and large families are the norm. Many young Malagasy girls are withdrawn from school, marry early (often pressured to do so by their parents), and soon begin having children. Early childbearing, coupled with Madagascar&rsquo;s widespread poverty and lack of access to skilled health care providers during delivery, increases the risk of death and serious health problems for young mothers and their babies.</p> <p>Child marriage perpetuates gender inequality and is prevalent among the poor, the uneducated, and rural households &ndash; as of 2018, 40% of Malagasy women aged 20 to 24 were married. Although the legal age for marriage is 18, parental consent is often given for earlier marriages or the law is flouted, especially in rural areas that make up approximately 60% of the country. Forms of arranged marriage whereby young girls are married to older men in exchange for oxen or money are traditional. If a union does not work out, a girl can be placed in another marriage, but the dowry paid to her family diminishes with each unsuccessful marriage.</p> <p>Madagascar&rsquo;s population consists of 18 main ethnic groups, all of whom speak the same Malagasy language. Most Malagasy are multi-ethnic, however, reflecting the island&rsquo;s diversity of settlers and historical contacts (see Background). Madagascar&rsquo;s legacy of hierarchical societies practicing domestic slavery (most notably the Merina Kingdom of the 16th to the 19th century) is evident today in persistent class tension, with some ethnic groups maintaining a caste system. Slave descendants are vulnerable to unequal access to education and jobs, despite Madagascar&rsquo;s constitutional guarantee of free compulsory primary education and its being party to several international conventions on human rights. Historical distinctions also remain between central highlanders and coastal people.</p>"
         },
         {
           "name": "Age structure",
@@ -572,16 +565,18 @@
               "content": "40.6% of total population (2023)",
               "title": "urban population",
               "value": "40.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "4.26% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "4.26",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1217,16 +1212,18 @@
               "content": "40.6% of total population (2023)",
               "title": "urban population",
               "value": "40.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "4.26% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "4.26",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1381,7 +1378,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>Republic of Madagascar<br><br><strong>conventional short form: </strong>Madagascar<br><br><strong>local long form: </strong>R&eacute;publique de Madagascar/Repoblikan'i Madagasikara<br><br><strong>local short form: </strong>Madagascar/Madagasikara<br><br><strong>former: </strong>Malagasy Republic<br><br><strong>etymology: </strong>the name \"Madageiscar\" was first used by the 13th-century Venetian explorer Marco POLO, as a corrupted transliteration of Mogadishu, the Somali port with which POLO confused the island",
+          "content": "<strong>conventional long form: </strong>Republic of Madagascar<br><br><strong>conventional short form: </strong>Madagascar<br><br><strong>local long form: </strong>R&eacute;publique de Madagascar/Repoblikan'i Madagasikara<br><br><strong>local short form: </strong>Madagascar/Madagasikara<br><br><strong>former: </strong>Malagasy Republic<br><br><strong>etymology: </strong>a variant of the name was first used by 13th-century Venetian explorer Marco POLO when he confused the island with the Somali port of Mogadishu; the transliteration was later adopted as the official name",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1415,8 +1412,8 @@
             },
             {
               "name": "etymology",
-              "content": "the name \"Madageiscar\" was first used by the 13th-century Venetian explorer Marco POLO, as a corrupted transliteration of Mogadishu, the Somali port with which POLO confused the island",
-              "value": "the name \"Madageiscar\" was first used by the 13th-century Venetian explorer Marco POLO, as a corrupted transliteration of Mogadishu, the Somali port with which POLO confused the island",
+              "content": "a variant of the name was first used by 13th-century Venetian explorer Marco POLO when he confused the island with the Somali port of Mogadishu; the transliteration was later adopted as the official name",
+              "value": "a variant of the name was first used by 13th-century Venetian explorer Marco POLO when he confused the island with the Somali port of Mogadishu; the transliteration was later adopted as the official name",
               "title": "etymology"
             }
           ]

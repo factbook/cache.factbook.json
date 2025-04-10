@@ -1,9 +1,9 @@
 {
   "name": "Maldives",
   "code": "MV",
-  "published": "2025-03-26 00:08:55 -0400",
+  "published": "2025-04-10 00:08:44 -0400",
   "region": "South Asia",
-  "updated": "2025-03-25 06:33:00 -0400",
+  "updated": "2025-04-09 11:48:32 -0400",
   "media": [
     {
       "type": "flag",
@@ -128,8 +128,8 @@
           "name": "Area - comparative",
           "field_id": 280,
           "comparative": false,
-          "content": "about 1.7 times the size of Washington, DC",
-          "value": "about 1.7 times the size of Washington, DC",
+          "content": "about 1.7 times the size of Washington, D.C.",
+          "value": "about 1.7 times the size of Washington, D.C.",
           "media": [
             {
               "type": "image",
@@ -341,13 +341,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>388,858<br><br><strong>male: </strong>197,739<br><br><strong>female: </strong>191,119 (2024 est.)",
+          "content": "<strong>total: </strong>388,858 (2024 est.)<br><br><strong>male: </strong>197,739<br><br><strong>female: </strong>191,119",
           "subfields": [
             {
               "name": "total",
-              "content": "388,858",
+              "content": "388,858 (2024 est.)",
               "title": "total",
-              "value": "388858"
+              "value": "388858",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -357,11 +359,9 @@
             },
             {
               "name": "female",
-              "content": "191,119 (2024 est.)",
+              "content": "191,119",
               "title": "female",
-              "value": "191119",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "191119"
             }
           ]
         },
@@ -572,16 +572,18 @@
               "content": "42% of total population (2023)",
               "title": "urban population",
               "value": "42",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.34% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.34",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1210,16 +1212,18 @@
               "content": "42% of total population (2023)",
               "title": "urban population",
               "value": "42",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.34% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.34",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1359,7 +1363,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>Republic of Maldives<br><br><strong>conventional short form: </strong>Maldives<br><br><strong>local long form: </strong>Dhivehi Raajjeyge Jumhooriyyaa<br><br><strong>local short form: </strong>Dhivehi Raajje<br><br><strong>etymology: </strong>archipelago apparently named after the main island (and capital) of Male; the word \"Maldives\" means \"the islands (dives) of Male\"; alternatively, the name may derive from the Sanskrit word \"maladvipa\" meaning \"garland of islands\"; Dhivehi Raajje in Dhivehi means \"Kingdom of the Dhivehi people\"",
+          "content": "<strong>conventional long form: </strong>Republic of Maldives<br><br><strong>conventional short form: </strong>Maldives<br><br><strong>local long form: </strong>Dhivehi Raajjeyge Jumhooriyyaa<br><br><strong>local short form: </strong>Dhivehi Raajje<br><br><strong>etymology: </strong>the origin of the name is obscure but may derive from the Sanskrit word <em>maladvipa</em>, meaning \"garland of islands;\" the local name, Dhivehi Raajje, means \"land of the Dhivehi people\" in the local language",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1387,8 +1391,8 @@
             },
             {
               "name": "etymology",
-              "content": "archipelago apparently named after the main island (and capital) of Male; the word \"Maldives\" means \"the islands (dives) of Male\"; alternatively, the name may derive from the Sanskrit word \"maladvipa\" meaning \"garland of islands\"; Dhivehi Raajje in Dhivehi means \"Kingdom of the Dhivehi people\"",
-              "value": "archipelago apparently named after the main island (and capital) of Male; the word \"Maldives\" means \"the islands (dives) of Male\"; alternatively, the name may derive from the Sanskrit word \"maladvipa\" meaning \"garland of islands\"; Dhivehi Raajje in Dhivehi means \"Kingdom of the Dhivehi people\"",
+              "content": "the origin of the name is obscure but may derive from the Sanskrit word <em>maladvipa</em>, meaning \"garland of islands;\" the local name, Dhivehi Raajje, means \"land of the Dhivehi people\" in the local language",
+              "value": "the origin of the name is obscure but may derive from the Sanskrit word <em>maladvipa</em>, meaning \"garland of islands;\" the local name, Dhivehi Raajje, means \"land of the Dhivehi people\" in the local language",
               "title": "etymology"
             }
           ]
@@ -2532,33 +2536,33 @@
           "name": "Electricity",
           "field_id": 435,
           "comparative": false,
-          "content": "<strong>installed generating capacity: </strong>566,000 kW (2022 est.)<br><br><strong>consumption: </strong>821.397 million kWh (2022 est.)<br><br><strong>transmission/distribution losses: </strong>25.867 million kWh (2022 est.)",
+          "content": "<strong>installed generating capacity: </strong>432,000 kW (2023 est.)<br><br><strong>consumption: </strong>821.397 million kWh (2023 est.)<br><br><strong>transmission/distribution losses: </strong>25.867 million kWh (2023 est.)",
           "subfields": [
             {
               "name": "installed generating capacity",
-              "content": "566,000 kW (2022 est.)",
+              "content": "432,000 kW (2023 est.)",
               "title": "installed generating capacity",
-              "value": "566000",
+              "value": "432000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "kW"
             },
             {
               "name": "consumption",
-              "content": "821.397 million kWh (2022 est.)",
+              "content": "821.397 million kWh (2023 est.)",
               "title": "consumption",
               "value": "821397000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "kWh"
             },
             {
               "name": "transmission/distribution losses",
-              "content": "25.867 million kWh (2022 est.)",
+              "content": "25.867 million kWh (2023 est.)",
               "title": "transmission/distribution losses",
               "value": "25867000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "kWh"
             }
           ]
@@ -2567,33 +2571,33 @@
           "name": "Electricity generation sources",
           "field_id": 436,
           "comparative": false,
-          "content": "<strong>fossil fuels: </strong>93.2% of total installed capacity (2022 est.)<br><br><strong>solar: </strong>6.6% of total installed capacity (2022 est.)<br><br><strong>wind: </strong>0.2% of total installed capacity (2022 est.)",
+          "content": "<strong>fossil fuels: </strong>93.2% of total installed capacity (2023 est.)<br><br><strong>solar: </strong>6.6% of total installed capacity (2023 est.)<br><br><strong>wind: </strong>0.2% of total installed capacity (2023 est.)",
           "subfields": [
             {
               "name": "fossil fuels",
-              "content": "93.2% of total installed capacity (2022 est.)",
+              "content": "93.2% of total installed capacity (2023 est.)",
               "title": "fossil fuels",
               "value": "93.2",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "solar",
-              "content": "6.6% of total installed capacity (2022 est.)",
+              "content": "6.6% of total installed capacity (2023 est.)",
               "title": "solar",
               "value": "6.6",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "% of total installed capacity"
             },
             {
               "name": "wind",
-              "content": "0.2% of total installed capacity (2022 est.)",
+              "content": "0.2% of total installed capacity (2023 est.)",
               "title": "wind",
               "value": "0.2",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "% of total installed capacity"
             }
           ]
@@ -2602,15 +2606,15 @@
           "name": "Coal",
           "field_id": 437,
           "comparative": false,
-          "content": "<strong>imports: </strong>1 metric tons (2022 est.)",
+          "content": "<strong>imports: </strong>8 metric tons (2023 est.)",
           "subfields": [
             {
               "name": "imports",
-              "content": "1 metric tons (2022 est.)",
+              "content": "8 metric tons (2023 est.)",
               "title": "imports",
-              "value": "1",
+              "value": "8",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "metric tons"
             }
           ]
@@ -2619,15 +2623,15 @@
           "name": "Petroleum",
           "field_id": 438,
           "comparative": false,
-          "content": "<strong>refined petroleum consumption: </strong>14,000 bbl/day (2022 est.)",
+          "content": "<strong>refined petroleum consumption: </strong>13,000 bbl/day (2023 est.)",
           "subfields": [
             {
               "name": "refined petroleum consumption",
-              "content": "14,000 bbl/day (2022 est.)",
+              "content": "13,000 bbl/day (2023 est.)",
               "title": "refined petroleum consumption",
-              "value": "14000",
+              "value": "13000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "bbl/day"
             }
           ]
@@ -2636,23 +2640,23 @@
           "name": "Carbon dioxide emissions",
           "field_id": 274,
           "comparative": false,
-          "content": "2.247 million metric tonnes of CO2 (2022 est.)<br><br><strong>from petroleum and other liquids: </strong>2.247 million metric tonnes of CO2 (2022 est.)",
+          "content": "1.908 million metric tonnes of CO2 (2023 est.)<br><br><strong>from petroleum and other liquids: </strong>1.908 million metric tonnes of CO2 (2023 est.)",
           "subfields": [
             {
               "name": "total emissions",
-              "content": "2.247 million metric tonnes of CO2 (2022 est.)",
-              "value": "2247000",
+              "content": "1.908 million metric tonnes of CO2 (2023 est.)",
+              "value": "1908000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "metric tonnes of CO2"
             },
             {
               "name": "from petroleum and other liquids",
-              "content": "2.247 million metric tonnes of CO2 (2022 est.)",
+              "content": "1.908 million metric tonnes of CO2 (2023 est.)",
               "title": "from petroleum and other liquids",
-              "value": "2247000",
+              "value": "1908000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "suffix": "metric tonnes of CO2"
             }
           ]
@@ -2661,12 +2665,12 @@
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
-          "content": "56.264 million Btu/person (2022 est.)",
+          "content": "50.886 million Btu/person (2023 est.)",
           "subfields": [
             {
-              "name": "Total energy consumption per capita 2022",
-              "content": "56.264 million Btu/person (2022 est.)",
-              "value": "56264000",
+              "name": "Total energy consumption per capita 2023",
+              "content": "50.886 million Btu/person (2023 est.)",
+              "value": "50886000",
               "estimated": true,
               "suffix": "Btu/person"
             }

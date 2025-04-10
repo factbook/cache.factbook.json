@@ -1,9 +1,9 @@
 {
   "name": "Paraguay",
   "code": "PA",
-  "published": "2025-04-03 00:01:31 -0400",
+  "published": "2025-04-10 00:09:53 -0400",
   "region": "South America",
-  "updated": "2025-04-02 11:13:40 -0400",
+  "updated": "2025-04-09 11:48:33 -0400",
   "media": [
     {
       "type": "flag",
@@ -112,8 +112,8 @@
           "name": "Area - comparative",
           "field_id": 280,
           "comparative": false,
-          "content": "about three times the size of New York state; slightly smaller than California",
-          "value": "about three times the size of New York state; slightly smaller than California",
+          "content": "about three times the size of New York State; slightly smaller than California",
+          "value": "about three times the size of New York State; slightly smaller than California",
           "media": [
             {
               "type": "image",
@@ -320,13 +320,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>7,522,549<br><br><strong>male: </strong>3,769,376<br><br><strong>female: </strong>3,753,173 (2024 est.)",
+          "content": "<strong>total: </strong>7,522,549 (2024 est.)<br><br><strong>male: </strong>3,769,376<br><br><strong>female: </strong>3,753,173",
           "subfields": [
             {
               "name": "total",
-              "content": "7,522,549",
+              "content": "7,522,549 (2024 est.)",
               "title": "total",
-              "value": "7522549"
+              "value": "7522549",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -336,11 +338,9 @@
             },
             {
               "name": "female",
-              "content": "3,753,173 (2024 est.)",
+              "content": "3,753,173",
               "title": "female",
-              "value": "3753173",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "3753173"
             }
           ]
         },
@@ -408,13 +408,6 @@
           "content": "Roman Catholic 80.4%, Protestant 7% (Evangelical (non-specific) 6.7%, Evangelical Pentecostal &lt;0.1%, Adventist &lt;0.1%, Protestant (non-specific) &lt;0.1%), Believer (not belonging to the church) 5.7%, other 0.6%, agnostic &lt;0.1%, none 0.2%, unspecified 6.2% (2023 est.)",
           "value": "Roman Catholic 80.4%, Protestant 7% (Evangelical (non-specific) 6.7%, Evangelical Pentecostal &lt;0.1%, Adventist &lt;0.1%, Protestant (non-specific) &lt;0.1%), Believer (not belonging to the church) 5.7%, other 0.6%, agnostic &lt;0.1%, none 0.2%, unspecified 6.2%",
           "info_date": "2023 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Paraguay falls below the Latin American average in several socioeconomic categories, including immunization rates, potable water, sanitation, and secondary school enrollment, and has greater rates of income inequality and child and maternal mortality. Paraguay's poverty rate has declined in recent years but remains high, especially in rural areas, with more than a third of the population below the poverty line. However, the well-being of the poor in many regions has improved in terms of housing quality and access to clean water, telephone service, and electricity. The fertility rate continues to drop, declining sharply from an average 4.3 births per woman in the late 1990s to about 2 in 2013, as a result of the greater educational attainment of women, increased use of contraception, and a desire for smaller families among young women.</p><p>Paraguay is a country of emigration; it has not attracted large numbers of immigrants because of political instability, civil wars, years of dictatorship, and the greater appeal of neighboring countries. Paraguay first tried to encourage immigration in 1870 in order to rebound from the heavy death toll it suffered during the War of the Triple Alliance, but it received few European and Middle Eastern immigrants. In the 20th century, limited numbers of immigrants arrived from Lebanon, Japan, South Korea, and China, as well as Mennonites from Canada, Russia, and Mexico. Large flows of Brazilian immigrants have been arriving since the 1960s, mainly to work in agriculture. Paraguayans continue to emigrate to Argentina, Brazil, Uruguay, the United States, Italy, Spain, and France.</p>",
-          "value": "<p>Paraguay falls below the Latin American average in several socioeconomic categories, including immunization rates, potable water, sanitation, and secondary school enrollment, and has greater rates of income inequality and child and maternal mortality. Paraguay's poverty rate has declined in recent years but remains high, especially in rural areas, with more than a third of the population below the poverty line. However, the well-being of the poor in many regions has improved in terms of housing quality and access to clean water, telephone service, and electricity. The fertility rate continues to drop, declining sharply from an average 4.3 births per woman in the late 1990s to about 2 in 2013, as a result of the greater educational attainment of women, increased use of contraception, and a desire for smaller families among young women.</p><p>Paraguay is a country of emigration; it has not attracted large numbers of immigrants because of political instability, civil wars, years of dictatorship, and the greater appeal of neighboring countries. Paraguay first tried to encourage immigration in 1870 in order to rebound from the heavy death toll it suffered during the War of the Triple Alliance, but it received few European and Middle Eastern immigrants. In the 20th century, limited numbers of immigrants arrived from Lebanon, Japan, South Korea, and China, as well as Mennonites from Canada, Russia, and Mexico. Large flows of Brazilian immigrants have been arriving since the 1960s, mainly to work in agriculture. Paraguayans continue to emigrate to Argentina, Brazil, Uruguay, the United States, Italy, Spain, and France.</p>"
         },
         {
           "name": "Age structure",
@@ -582,16 +575,18 @@
               "content": "63.1% of total population (2023)",
               "title": "urban population",
               "value": "63.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.64% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.64",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1190,16 +1185,18 @@
               "content": "63.1% of total population (2023)",
               "title": "urban population",
               "value": "63.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.64% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.64",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

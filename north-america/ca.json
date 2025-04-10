@@ -1,9 +1,9 @@
 {
   "name": "Canada",
   "code": "CA",
-  "published": "2025-04-03 00:00:32 -0400",
+  "published": "2025-04-10 00:02:29 -0400",
   "region": "North America",
-  "updated": "2025-04-02 10:49:53 -0400",
+  "updated": "2025-04-09 11:48:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -462,13 +462,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>38,794,813<br><br><strong>male: </strong>19,234,729<br><br><strong>female: </strong>19,560,084 (2024 est.)",
+          "content": "<strong>total: </strong>38,794,813 (2024 est.)<br><br><strong>male: </strong>19,234,729<br><br><strong>female: </strong>19,560,084",
           "subfields": [
             {
               "name": "total",
-              "content": "38,794,813",
+              "content": "38,794,813 (2024 est.)",
               "title": "total",
-              "value": "38794813"
+              "value": "38794813",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -478,11 +480,9 @@
             },
             {
               "name": "female",
-              "content": "19,560,084 (2024 est.)",
+              "content": "19,560,084",
               "title": "female",
-              "value": "19560084",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "19560084"
             }
           ]
         },
@@ -718,16 +718,18 @@
               "content": "81.9% of total population (2023)",
               "title": "urban population",
               "value": "81.9",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.95% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.95",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1322,16 +1324,18 @@
               "content": "81.9% of total population (2023)",
               "title": "urban population",
               "value": "81.9",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.95% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.95",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1763,7 +1767,7 @@
           "name": "Legislative branch - lower chamber",
           "field_id": 466,
           "comparative": false,
-          "content": "<strong>chamber name: </strong>House of Commons<br><br><strong>number of seats: </strong>338 (all directly elected)<br><br><strong>electoral system: </strong>plurality/majority<br><br><strong>scope of elections: </strong>full renewal<br><br><strong>term in office: </strong>4 years<br><br><strong>most recent election date: </strong>9/20/2021<br><br><strong>parties elected and seats per party: </strong>Liberal Party (160); Conservative Party (119); Bloc Québécois (BQ) (32); NDP-New Democratic Party (NDP) (25); Other (2)<br><br><strong>percentage of women in chamber: </strong>30.9%<br><br><strong>expected date of next election: </strong>October 2025",
+          "content": "<strong>chamber name: </strong>House of Commons<br><br><strong>number of seats: </strong>338 (all directly elected)<br><br><strong>electoral system: </strong>plurality/majority<br><br><strong>scope of elections: </strong>full renewal<br><br><strong>term in office: </strong>4 years<br><br><strong>most recent election date: </strong>9/20/2021<br><br><strong>parties elected and seats per party: </strong>Liberal Party (160); Conservative Party (119); Bloc Québécois (BQ) (32); NDP-New Democratic Party (NDP) (25); Other (2)<br><br><strong>percentage of women in chamber: </strong>30.9%<br><br><strong>expected date of next election: </strong>April 2025",
           "subfields": [
             {
               "name": "chamber name",
@@ -1817,8 +1821,8 @@
             },
             {
               "name": "expected date of next election",
-              "content": "October 2025",
-              "value": "October 2025",
+              "content": "April 2025",
+              "value": "April 2025",
               "title": "expected date of next election"
             }
           ]
@@ -1827,7 +1831,7 @@
           "name": "Legislative branch - upper chamber",
           "field_id": 467,
           "comparative": false,
-          "content": "<strong>chamber name: </strong>Senate<br><br><strong>number of seats: </strong>105 (all appointed)<br><br><strong>percentage of women in chamber: </strong>53.5%",
+          "content": "<strong>chamber name: </strong>Senate<br><br><strong>number of seats: </strong>105 (all appointed)<br><br><strong>scope of elections: </strong>Full renewal<br><br><strong>most recent election date: </strong>11/8/2020<br><br><strong>parties elected and seats per party: </strong>National League for Democracy (NLD) (258); Union Solidarity and Development Party (USDP) (26); Other (31)<br><br><strong>percentage of women in chamber: </strong>54.3%",
           "subfields": [
             {
               "name": "chamber name",
@@ -1842,10 +1846,28 @@
               "title": "number of seats"
             },
             {
+              "name": "scope of elections",
+              "content": "Full renewal",
+              "value": "Full renewal",
+              "title": "scope of elections"
+            },
+            {
+              "name": "most recent election date",
+              "content": "11/8/2020",
+              "value": "11/8/2020",
+              "title": "most recent election date"
+            },
+            {
+              "name": "parties elected and seats per party",
+              "content": "National League for Democracy (NLD) (258); Union Solidarity and Development Party (USDP) (26); Other (31)",
+              "value": "National League for Democracy (NLD) (258); Union Solidarity and Development Party (USDP) (26); Other (31)",
+              "title": "parties elected and seats per party"
+            },
+            {
               "name": "percentage of women in chamber",
-              "content": "53.5%",
+              "content": "54.3%",
               "title": "percentage of women in chamber",
-              "value": "53.5",
+              "value": "54.3",
               "suffix": "%"
             }
           ]
@@ -3546,10 +3568,10 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Canadian Forces: Canadian Army, Royal Canadian Navy, Royal Canadian Air Force; Department of Fisheries and Oceans: Coast Guard (2024)<br><br><strong>note 1: </strong>the CAF is comprised of both a Regular Force and a Reserve Force; the Reserve Force is part of all three services (Army, Navy, and Air Force) and is considered an integral component of the CAF; reservists are primarily part-time service positions; they may volunteer for full-time employment or deployment on operations; they typically serve one or more evenings a week and/or during weekends at locations close to home; the Reserve Force is comprised of the Primary Reserve, Canadian Rangers, Cadet Organizations Administration and Training Service, and the Supplementary Reserve; the Canadian Rangers are part of the Army Reserve Force and provide a limited presence in Canada's northern, coastal, and isolated areas for sovereignty, public safety, and surveillance roles&nbsp;<br /><br /><strong>note 2: </strong>the Royal Canadian Mounted Police (RCMP or \"Mounties\") are under the Department of Public Safety; only Ontario, Quebec, and Newfoundland and Labrador have provincial police forces, but the Royal Newfoundland Constabulary contracts policing in regions of the province to the RCMP; the RCMP and municipal forces provide coverage for other provinces and territories; some Indigenous reserves provide Indigenous policing; provincial and municipal police report to their respective provincial authorities",
-          "value": "Canadian Forces: Canadian Army, Royal Canadian Navy, Royal Canadian Air Force; Department of Fisheries and Oceans: Coast Guard",
-          "info_date": "2024",
-          "field_note": "<strong>note 1: </strong>the CAF is comprised of both a Regular Force and a Reserve Force; the Reserve Force is part of all three services (Army, Navy, and Air Force) and is considered an integral component of the CAF; reservists are primarily part-time service positions; they may volunteer for full-time employment or deployment on operations; they typically serve one or more evenings a week and/or during weekends at locations close to home; the Reserve Force is comprised of the Primary Reserve, Canadian Rangers, Cadet Organizations Administration and Training Service, and the Supplementary Reserve; the Canadian Rangers are part of the Army Reserve Force and provide a limited presence in Canada's northern, coastal, and isolated areas for sovereignty, public safety, and surveillance roles&nbsp;<br /><br /><strong>note 2: </strong>the Royal Canadian Mounted Police (RCMP or \"Mounties\") are under the Department of Public Safety; only Ontario, Quebec, and Newfoundland and Labrador have provincial police forces, but the Royal Newfoundland Constabulary contracts policing in regions of the province to the RCMP; the RCMP and municipal forces provide coverage for other provinces and territories; some Indigenous reserves provide Indigenous policing; provincial and municipal police report to their respective provincial authorities"
+          "content": "Canadian Forces: Canadian Army, Royal Canadian Navy, Royal Canadian Air Force (2025)<br><br><strong>note 1: </strong>the CAF is comprised of both a Regular Force and a Reserve Force; the Reserve Force is comprised of the Primary Reserve, Canadian Rangers, Cadet Organizations Administration and Training Service, and the Supplementary Reserve; the Canadian Rangers are part of the Army Reserve Force and provide a limited presence in Canada's northern, coastal, and isolated areas for sovereignty, public safety, and surveillance roles&nbsp;<br /><br /><strong>note 2: </strong>the Royal Canadian Mounted Police (RCMP or \"Mounties\") is under the Department of Public Safety; the Coast Guard is under the Department of Fisheries and Oceans",
+          "value": "Canadian Forces: Canadian Army, Royal Canadian Navy, Royal Canadian Air Force",
+          "info_date": "2025",
+          "field_note": "<strong>note 1: </strong>the CAF is comprised of both a Regular Force and a Reserve Force; the Reserve Force is comprised of the Primary Reserve, Canadian Rangers, Cadet Organizations Administration and Training Service, and the Supplementary Reserve; the Canadian Rangers are part of the Army Reserve Force and provide a limited presence in Canada's northern, coastal, and isolated areas for sovereignty, public safety, and surveillance roles&nbsp;<br /><br /><strong>note 2: </strong>the Royal Canadian Mounted Police (RCMP or \"Mounties\") is under the Department of Public Safety; the Coast Guard is under the Department of Fisheries and Oceans"
         },
         {
           "name": "Military expenditures",
@@ -3598,10 +3620,9 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "approximately 70,000 active armed forces personnel (23,000 Army; 12,000 Navy; 12,000 Air Force; 23,000 other) (2024)<br><br><strong>note:</strong> the Army also has approximately 19,000 part-time volunteer soldiers in the Reserve Force, including about 5,500 Rangers",
-          "value": "approximately 70,000 active armed forces personnel (23,000 Army; 12,000 Navy; 12,000 Air Force; 23,000 other)",
-          "info_date": "2024",
-          "field_note": "<strong>note:</strong> the Army also has approximately 19,000 part-time volunteer soldiers in the Reserve Force, including about 5,500 Rangers"
+          "content": "the authorized target strength of the CAF Regular Force is 71,500 personnel (2025)",
+          "value": "the authorized target strength of the CAF Regular Force is 71,500 personnel",
+          "info_date": "2025"
         },
         {
           "name": "Military equipment inventories and acquisitions",

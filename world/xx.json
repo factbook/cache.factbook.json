@@ -1,9 +1,9 @@
 {
   "name": "World",
   "code": "XX",
-  "published": "2025-04-02 00:01:08 -0400",
+  "published": "2025-04-10 00:13:58 -0400",
   "region": "",
-  "updated": "2025-04-01 14:46:17 -0400",
+  "updated": "2025-04-09 11:48:35 -0400",
   "media": [
     {
       "type": "map",
@@ -18,32 +18,32 @@
       "type": "photo",
       "src": "/attachments/images/original/XX_012_large.jpg",
       "category": "Space",
-      "alt": "A global view of the Arctic on 21 September 2005. In support of International Polar Year, a matching pair of images (this one and the next) showing a global view of the Arctic and Antarctic were generated in poster-size resolution. Both images are of the same day, the date at which the sea ice was at its minimum extent in the north. Shown in this view is all of North America and the northern portion of South America. Image courtesy of NASA.",
-      "caption": "A global view of the Arctic on 21 September 2005. In support of International Polar Year, a matching pair of images (this one and the next) showing a global view of the Arctic and Antarctic were generated in poster-size resolution. Both images are of the same day, the date at which the sea ice was at its minimum extent in the north. Shown in this view is all of North America and the northern portion of South America. Image courtesy of NASA.",
+      "alt": "A global view of the Arctic on 21 September 2005. Shown in this view is all of North America and the northern portion of South America. Image courtesy of NASA.",
+      "caption": "A global view of the Arctic on 21 September 2005. Shown in this view is all of North America and the northern portion of South America. Image courtesy of NASA.",
       "position": 0
     },
     {
       "type": "photo",
       "src": "/attachments/images/original/XX_008_large.jpg",
       "category": "Space",
-      "alt": "A combination of datasets from different satellites makes possible this beautiful &apos;Blue Marble&apos; view of the Pacific Ocean. The string of islands across the top are the Aleutian chain of Alaska; the Hawaiian islands appear along the bottom. Image courtesy of NASA/Goddard Space Flight Center Scientific Visualization Studio.",
-      "caption": "A combination of datasets from different satellites makes possible this beautiful &apos;Blue Marble&apos; view of the Pacific Ocean. The string of islands across the top are the Aleutian chain of Alaska; the Hawaiian islands appear along the bottom. Image courtesy of NASA/Goddard Space Flight Center Scientific Visualization Studio.",
+      "alt": "A combination of datasets from different satellites makes possible this view of the Pacific Ocean. The string of islands across the top are the Aleutian chain in Alaska, and the Hawaiian islands appear along the bottom. Image courtesy of NASA/Goddard Space Flight Center Scientific Visualization Studio.",
+      "caption": "A combination of datasets from different satellites makes possible this view of the Pacific Ocean. The string of islands across the top are the Aleutian chain in Alaska, and the Hawaiian islands appear along the bottom. Image courtesy of NASA/Goddard Space Flight Center Scientific Visualization Studio.",
       "position": 1
     },
     {
       "type": "photo",
       "src": "/attachments/images/original/XX_003_large.jpg",
       "category": "Space",
-      "alt": "View of the Earth from space showing most of the Western Hemisphere including all of the North American continent and the northern portion of South America. Image courtesy of NASA.",
-      "caption": "View of the Earth from space showing most of the Western Hemisphere including all of the North American continent and the northern portion of South America. Image courtesy of NASA.",
+      "alt": "View of the Earth from space showing most of the Western Hemisphere, including all of the North American continent and the northern portion of South America. Image courtesy of NASA.",
+      "caption": "View of the Earth from space showing most of the Western Hemisphere, including all of the North American continent and the northern portion of South America. Image courtesy of NASA.",
       "position": 2
     },
     {
       "type": "photo",
       "src": "/attachments/images/original/XX_001_large.jpg",
       "category": "Space",
-      "alt": "View of the Earth from space showing part of the Eastern Hemisphere including all of Africa, the island of Madagascar, the Arabian peninsula, and a portion of Antarctica. Image courtesy of NASA.",
-      "caption": "View of the Earth from space showing part of the Eastern Hemisphere including all of Africa, the island of Madagascar, the Arabian peninsula, and a portion of Antarctica. Image courtesy of NASA.",
+      "alt": "View of the Earth from space showing part of the Eastern Hemisphere, including Africa, the island of Madagascar, the Arabian peninsula, and a portion of Antarctica. Image courtesy of NASA.",
+      "caption": "View of the Earth from space showing part of the Eastern Hemisphere, including Africa, the island of Madagascar, the Arabian peninsula, and a portion of Antarctica. Image courtesy of NASA.",
       "position": 3
     },
     {
@@ -458,13 +458,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>8,057,236,243<br><br><strong>male: </strong>4,046,854,454<br><br><strong>female: </strong>4,010,381,789 (2024 est.)",
+          "content": "<strong>total: </strong>8,057,236,243 (2024 est.)<br><br><strong>male: </strong>4,046,854,454<br><br><strong>female: </strong>4,010,381,789",
           "subfields": [
             {
               "name": "total",
-              "content": "8,057,236,243",
+              "content": "8,057,236,243 (2024 est.)",
               "title": "total",
-              "value": "8057236243"
+              "value": "8057236243",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -474,11 +476,9 @@
             },
             {
               "name": "female",
-              "content": "4,010,381,789 (2024 est.)",
+              "content": "4,010,381,789",
               "title": "female",
-              "value": "4010381789",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "4010381789"
             }
           ]
         },
@@ -663,8 +663,9 @@
               "content": "1.73% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.73",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ]
         },
@@ -1254,8 +1255,9 @@
               "content": "1.73% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.73",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ]
         },

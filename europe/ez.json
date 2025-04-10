@@ -1,9 +1,9 @@
 {
   "name": "Czechia",
   "code": "EZ",
-  "published": "2025-03-29 00:04:16 -0400",
+  "published": "2025-04-10 00:04:16 -0400",
   "region": "Europe",
-  "updated": "2025-03-28 15:44:01 -0400",
+  "updated": "2025-04-09 11:48:30 -0400",
   "media": [
     {
       "type": "flag",
@@ -427,13 +427,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>10,837,890<br><br><strong>male: </strong>5,335,737<br><br><strong>female: </strong>5,502,153 (2024 est.)",
+          "content": "<strong>total: </strong>10,837,890 (2024 est.)<br><br><strong>male: </strong>5,335,737<br><br><strong>female: </strong>5,502,153",
           "subfields": [
             {
               "name": "total",
-              "content": "10,837,890",
+              "content": "10,837,890 (2024 est.)",
               "title": "total",
-              "value": "10837890"
+              "value": "10837890",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -443,11 +445,9 @@
             },
             {
               "name": "female",
-              "content": "5,502,153 (2024 est.)",
+              "content": "5,502,153",
               "title": "female",
-              "value": "5502153",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "5502153"
             }
           ]
         },
@@ -684,16 +684,18 @@
               "content": "74.6% of total population (2023)",
               "title": "urban population",
               "value": "74.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.2% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.2",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1296,16 +1298,18 @@
               "content": "74.6% of total population (2023)",
               "title": "urban population",
               "value": "74.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.2% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.2",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -3418,9 +3422,10 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Czech Armed Forces: Land Forces, Air Forces, Cyber Forces, Special Forces (2024)",
-          "value": "Czech Armed Forces: Land Forces, Air Forces, Cyber Forces, Special Forces",
-          "info_date": "2024"
+          "content": "Czech Armed Forces: Land Forces, Air Force, Special Forces (2025)<br><br>also has Cyber Command, Territorial Command, Operations Command, plus commands for Land Forces and Air Forces",
+          "value": "Czech Armed Forces: Land Forces, Air Force, Special Forces",
+          "info_date": "2025",
+          "field_note": "also has Cyber Command, Territorial Command, Operations Command, plus commands for Land Forces and Air Forces"
         },
         {
           "name": "Military expenditures",
@@ -3503,9 +3508,9 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the Czech military is responsible for national and territorial defense, assisting civil authorities during natural disasters or other emergencies, boosting border security alongside the police, participating in international peacekeeping operations, and supporting its collective security commitments to the EU and NATO, both of which Czechia considers pillars of its national security strategy; Czechia is a member of the Organization for Security and Cooperation in Europe, contributes to UN peacekeeping operations, and actively participates in EU military and security missions under the EU Common Security and Defense Policy; the Czech military has been an active member of NATO since the country joined in 2009 and participates in a variety of NATO&rsquo;s collective defense missions, including contributing to the Enhanced Forward Presence in Eastern Europe, Baltic Air Policing operations, rapid response forces, and operations in Kosovo; it also exercises regularly with NATO partners and maintains close bilateral ties to a number of militaries particularly partner members of the Visegrad Group (Hungary, Poland, and Slovakia) and Germany<br /><br />the military has commands for its land, air, cyber/information operations, and territorial forces, as well as a joint operations command and a special forces directorate; the Territorial Command is responsible for the active reserves and regional military commands that align with each of Czechia&rsquo;s 13 regions and the capital, Prague (2024)",
-          "value": "the Czech military is responsible for national and territorial defense, assisting civil authorities during natural disasters or other emergencies, boosting border security alongside the police, participating in international peacekeeping operations, and supporting its collective security commitments to the EU and NATO, both of which Czechia considers pillars of its national security strategy; Czechia is a member of the Organization for Security and Cooperation in Europe, contributes to UN peacekeeping operations, and actively participates in EU military and security missions under the EU Common Security and Defense Policy; the Czech military has been an active member of NATO since the country joined in 2009 and participates in a variety of NATO&rsquo;s collective defense missions, including contributing to the Enhanced Forward Presence in Eastern Europe, Baltic Air Policing operations, rapid response forces, and operations in Kosovo; it also exercises regularly with NATO partners and maintains close bilateral ties to a number of militaries particularly partner members of the Visegrad Group (Hungary, Poland, and Slovakia) and Germany<br /><br />the military has commands for its land, air, cyber/information operations, and territorial forces, as well as a joint operations command and a special forces directorate; the Territorial Command is responsible for the active reserves and regional military commands that align with each of Czechia&rsquo;s 13 regions and the capital, Prague",
-          "info_date": "2024"
+          "content": "the Czech military is responsible for national and territorial defense, assisting civil authorities during natural disasters or other emergencies, boosting border security alongside the police, participating in international peacekeeping operations, and supporting its collective security commitments to the EU and NATO, both of which Czechia considers pillars of its national security strategy; Czechia is a member of the Organization for Security and Cooperation in Europe, contributes to UN peacekeeping operations, and actively participates in EU military and security missions under the EU Common Security and Defense Policy; the Czech military has been an active member of NATO since the country joined in 2009 and participates in a variety of NATO&rsquo;s collective defense missions, including contributing to the Enhanced Forward Presence in Eastern Europe, Baltic Air Policing operations, rapid response forces, and operations in Kosovo; it also exercises regularly with NATO partners and maintains close bilateral ties to a number of militaries particularly partner members of the Visegrad Group (Hungary, Poland, and Slovakia) and Germany<br /><br />the military has commands for its land, air, cyber/information operations, and territorial forces, as well as a joint operations command and a separate special forces directorate; the Territorial Command is responsible for the active reserves and regional military commands that align with each of Czechia&rsquo;s 13 regions and the capital, Prague (2025)",
+          "value": "the Czech military is responsible for national and territorial defense, assisting civil authorities during natural disasters or other emergencies, boosting border security alongside the police, participating in international peacekeeping operations, and supporting its collective security commitments to the EU and NATO, both of which Czechia considers pillars of its national security strategy; Czechia is a member of the Organization for Security and Cooperation in Europe, contributes to UN peacekeeping operations, and actively participates in EU military and security missions under the EU Common Security and Defense Policy; the Czech military has been an active member of NATO since the country joined in 2009 and participates in a variety of NATO&rsquo;s collective defense missions, including contributing to the Enhanced Forward Presence in Eastern Europe, Baltic Air Policing operations, rapid response forces, and operations in Kosovo; it also exercises regularly with NATO partners and maintains close bilateral ties to a number of militaries particularly partner members of the Visegrad Group (Hungary, Poland, and Slovakia) and Germany<br /><br />the military has commands for its land, air, cyber/information operations, and territorial forces, as well as a joint operations command and a separate special forces directorate; the Territorial Command is responsible for the active reserves and regional military commands that align with each of Czechia&rsquo;s 13 regions and the capital, Prague",
+          "info_date": "2025"
         }
       ]
     },

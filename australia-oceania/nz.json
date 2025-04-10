@@ -1,9 +1,9 @@
 {
   "name": "New Zealand",
   "code": "NZ",
-  "published": "2025-04-02 00:00:46 -0400",
+  "published": "2025-04-10 00:09:45 -0400",
   "region": "Australia and Oceania",
-  "updated": "2025-04-01 14:35:09 -0400",
+  "updated": "2025-04-09 13:16:37 -0400",
   "media": [
     {
       "type": "flag",
@@ -728,13 +728,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>5,161,211<br><br><strong>male: </strong>2,584,607<br><br><strong>female: </strong>2,576,604 (2024 est.)",
+          "content": "<strong>total: </strong>5,161,211 (2024 est.)<br><br><strong>male: </strong>2,584,607<br><br><strong>female: </strong>2,576,604",
           "subfields": [
             {
               "name": "total",
-              "content": "5,161,211",
+              "content": "5,161,211 (2024 est.)",
               "title": "total",
-              "value": "5161211"
+              "value": "5161211",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -744,11 +746,9 @@
             },
             {
               "name": "female",
-              "content": "2,576,604 (2024 est.)",
+              "content": "2,576,604",
               "title": "female",
-              "value": "2576604",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "2576604"
             }
           ]
         },
@@ -965,16 +965,18 @@
               "content": "87% of total population (2023)",
               "title": "urban population",
               "value": "87",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.92% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.92",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1570,16 +1572,18 @@
               "content": "87% of total population (2023)",
               "title": "urban population",
               "value": "87",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.92% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.92",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1733,7 +1737,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>none<br><br><strong>conventional short form: </strong>New Zealand<br><br><strong>abbreviation: </strong>NZ<br><br><strong>etymology: </strong>Dutch explorer Abel TASMAN was the first European to reach New Zealand in 1642; he named it Staten Landt, but Dutch cartographers renamed it Nova Zeelandia in 1645 after the Dutch province of Zeeland; British explorer Captain James COOK subsequently anglicized the name to New Zealand when he mapped the islands in 1769",
+          "content": "<strong>conventional long form: </strong>none<br><br><strong>conventional short form: </strong>New Zealand<br><br><strong>former: </strong>Nieuw Zeeland<br><br><strong>abbreviation: </strong>NZ<br><br><strong>etymology: </strong>the name is an anglicized form of the Dutch name Nieuw Zeeland, or \"New Sea Land,\" which was first used in 1643 in honor of the Dutch province of Zeeland",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1748,6 +1752,12 @@
               "title": "conventional short form"
             },
             {
+              "name": "former",
+              "content": "Nieuw Zeeland",
+              "value": "Nieuw Zeeland",
+              "title": "former"
+            },
+            {
               "name": "abbreviation",
               "content": "NZ",
               "value": "NZ",
@@ -1755,8 +1765,8 @@
             },
             {
               "name": "etymology",
-              "content": "Dutch explorer Abel TASMAN was the first European to reach New Zealand in 1642; he named it Staten Landt, but Dutch cartographers renamed it Nova Zeelandia in 1645 after the Dutch province of Zeeland; British explorer Captain James COOK subsequently anglicized the name to New Zealand when he mapped the islands in 1769",
-              "value": "Dutch explorer Abel TASMAN was the first European to reach New Zealand in 1642; he named it Staten Landt, but Dutch cartographers renamed it Nova Zeelandia in 1645 after the Dutch province of Zeeland; British explorer Captain James COOK subsequently anglicized the name to New Zealand when he mapped the islands in 1769",
+              "content": "the name is an anglicized form of the Dutch name Nieuw Zeeland, or \"New Sea Land,\" which was first used in 1643 in honor of the Dutch province of Zeeland",
+              "value": "the name is an anglicized form of the Dutch name Nieuw Zeeland, or \"New Sea Land,\" which was first used in 1643 in honor of the Dutch province of Zeeland",
               "title": "etymology"
             }
           ]

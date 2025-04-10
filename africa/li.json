@@ -1,9 +1,9 @@
 {
   "name": "Liberia",
   "code": "LI",
-  "published": "2025-03-29 00:07:27 -0400",
+  "published": "2025-04-10 00:07:23 -0400",
   "region": "Africa",
-  "updated": "2025-03-28 15:42:13 -0400",
+  "updated": "2025-04-09 11:49:07 -0400",
   "media": [
     {
       "type": "flag",
@@ -393,13 +393,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>5,437,249<br><br><strong>male: </strong>2,711,324<br><br><strong>female: </strong>2,725,925 (2024 est.)",
+          "content": "<strong>total: </strong>5,437,249 (2024 est.)<br><br><strong>male: </strong>2,711,324<br><br><strong>female: </strong>2,725,925",
           "subfields": [
             {
               "name": "total",
-              "content": "5,437,249",
+              "content": "5,437,249 (2024 est.)",
               "title": "total",
-              "value": "5437249"
+              "value": "5437249",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -409,11 +411,9 @@
             },
             {
               "name": "female",
-              "content": "2,725,925 (2024 est.)",
+              "content": "2,725,925",
               "title": "female",
-              "value": "2725925",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "2725925"
             }
           ]
         },
@@ -459,13 +459,6 @@
           "content": "Christian 84.9%, Muslim 12%, Traditional 0.5%, other 0.1%, none 2.6% (2022 est.)",
           "value": "Christian 84.9%, Muslim 12%, Traditional 0.5%, other 0.1%, none 2.6%",
           "info_date": "2022 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Liberia&rsquo;s high fertility rate of nearly 5 children per woman and large youth cohort &ndash; more than 60% of the population is under the age of 25 as of 2020 &ndash; will sustain a high dependency ratio for many years to come. Significant progress has been made in preventing child deaths, despite a lack of health care workers and infrastructure. Infant and child mortality have dropped nearly 70% since 1990; the annual reduction rate of about 5.4% is the highest in Africa.</p> <p>Nevertheless, Liberia&rsquo;s high maternal mortality rate remains among the world&rsquo;s worst; it reflects a high unmet need for family planning services, frequency of early childbearing, lack of quality obstetric care, high adolescent fertility, and a low proportion of births attended by a medical professional. Female mortality is also increased by the prevalence of female genital cutting (FGC), which is practiced by 10 of Liberia&rsquo;s 16 tribes and affects more than two-thirds of women and girls. FGC is an initiation ritual performed in rural bush schools, which teach traditional beliefs on marriage and motherhood and are an obstacle to formal classroom education for Liberian girls.</p> <p>Liberia has been both a source and a destination for refugees. During Liberia&rsquo;s 14-year civil war (1989-2003), more than 250,000 people became refugees and another half million were internally displaced. Between 2004 and the cessation of refugee status for Liberians in June 2012, the UNHCR helped more than 155,000 Liberians to voluntarily repatriate, while others returned home on their own. Some Liberian refugees spent more than two decades living in other West African countries. Between 2011 and 2022, more than 300,000 Ivoirian refugees in Liberia have been repatriated; as of year-end 2022, less than 2,300 Ivoirian refugees were still living in Liberia.</p>",
-          "value": "<p>Liberia&rsquo;s high fertility rate of nearly 5 children per woman and large youth cohort &ndash; more than 60% of the population is under the age of 25 as of 2020 &ndash; will sustain a high dependency ratio for many years to come. Significant progress has been made in preventing child deaths, despite a lack of health care workers and infrastructure. Infant and child mortality have dropped nearly 70% since 1990; the annual reduction rate of about 5.4% is the highest in Africa.</p> <p>Nevertheless, Liberia&rsquo;s high maternal mortality rate remains among the world&rsquo;s worst; it reflects a high unmet need for family planning services, frequency of early childbearing, lack of quality obstetric care, high adolescent fertility, and a low proportion of births attended by a medical professional. Female mortality is also increased by the prevalence of female genital cutting (FGC), which is practiced by 10 of Liberia&rsquo;s 16 tribes and affects more than two-thirds of women and girls. FGC is an initiation ritual performed in rural bush schools, which teach traditional beliefs on marriage and motherhood and are an obstacle to formal classroom education for Liberian girls.</p> <p>Liberia has been both a source and a destination for refugees. During Liberia&rsquo;s 14-year civil war (1989-2003), more than 250,000 people became refugees and another half million were internally displaced. Between 2004 and the cessation of refugee status for Liberians in June 2012, the UNHCR helped more than 155,000 Liberians to voluntarily repatriate, while others returned home on their own. Some Liberian refugees spent more than two decades living in other West African countries. Between 2011 and 2022, more than 300,000 Ivoirian refugees in Liberia have been repatriated; as of year-end 2022, less than 2,300 Ivoirian refugees were still living in Liberia.</p>"
         },
         {
           "name": "Age structure",
@@ -633,16 +626,18 @@
               "content": "53.6% of total population (2023)",
               "title": "urban population",
               "value": "53.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.41% annual rate of change (2015-20 est.)",
               "title": "rate of urbanization",
               "value": "3.41",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "estimated": true,
+              "info_date": "2015-20",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1240,16 +1235,18 @@
               "content": "53.6% of total population (2023)",
               "title": "urban population",
               "value": "53.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "3.41% annual rate of change (2015-20 est.)",
               "title": "rate of urbanization",
               "value": "3.41",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2015-20 est.)"
+              "estimated": true,
+              "info_date": "2015-20",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1404,7 +1401,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>Republic of Liberia<br><br><strong>conventional short form: </strong>Liberia<br><br><strong>etymology: </strong>name derives from the Latin word \"liber\" meaning \"free\"; so named because the nation was created as a homeland for liberated African-American slaves",
+          "content": "<strong>conventional long form: </strong>Republic of Liberia<br><br><strong>conventional short form: </strong>Liberia<br><br><strong>etymology: </strong>name derives from the Latin word <em>liber, </em>meaning \"free;\" so named because the nation was created as a homeland for liberated African-American slaves",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1420,8 +1417,8 @@
             },
             {
               "name": "etymology",
-              "content": "name derives from the Latin word \"liber\" meaning \"free\"; so named because the nation was created as a homeland for liberated African-American slaves",
-              "value": "name derives from the Latin word \"liber\" meaning \"free\"; so named because the nation was created as a homeland for liberated African-American slaves",
+              "content": "name derives from the Latin word <em>liber, </em>meaning \"free;\" so named because the nation was created as a homeland for liberated African-American slaves",
+              "value": "name derives from the Latin word <em>liber, </em>meaning \"free;\" so named because the nation was created as a homeland for liberated African-American slaves",
               "title": "etymology"
             }
           ]

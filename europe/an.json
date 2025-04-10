@@ -1,9 +1,9 @@
 {
   "name": "Andorra",
   "code": "AN",
-  "published": "2025-03-26 00:00:44 -0400",
+  "published": "2025-04-10 00:00:40 -0400",
   "region": "Europe",
-  "updated": "2025-03-25 06:32:57 -0400",
+  "updated": "2025-04-09 11:26:05 -0400",
   "media": [
     {
       "type": "flag",
@@ -96,8 +96,8 @@
           "name": "Area - comparative",
           "field_id": 280,
           "comparative": false,
-          "content": "2.5 times the size of Washington, DC",
-          "value": "2.5 times the size of Washington, DC",
+          "content": "2.5 times the size of Washington, D.C.",
+          "value": "2.5 times the size of Washington, D.C.",
           "media": [
             {
               "type": "image",
@@ -291,13 +291,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>85,370<br><br><strong>male: </strong>43,652<br><br><strong>female: </strong>41,718 (2024 est.)",
+          "content": "<strong>total: </strong>85,370 (2024 est.)<br><br><strong>male: </strong>43,652<br><br><strong>female: </strong>41,718",
           "subfields": [
             {
               "name": "total",
-              "content": "85,370",
+              "content": "85,370 (2024 est.)",
               "title": "total",
-              "value": "85370"
+              "value": "85370",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -307,11 +309,9 @@
             },
             {
               "name": "female",
-              "content": "41,718 (2024 est.)",
+              "content": "41,718",
               "title": "female",
-              "value": "41718",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "41718"
             }
           ]
         },
@@ -527,16 +527,18 @@
               "content": "87.8% of total population (2023)",
               "title": "urban population",
               "value": "87.8",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.11% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.11",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1087,16 +1089,18 @@
               "content": "87.8% of total population (2023)",
               "title": "urban population",
               "value": "87.8",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.11% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.11",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

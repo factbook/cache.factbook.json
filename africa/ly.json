@@ -1,9 +1,9 @@
 {
   "name": "Libya",
   "code": "LY",
-  "published": "2025-04-01 00:03:31 -0400",
+  "published": "2025-04-10 00:07:42 -0400",
   "region": "Africa",
-  "updated": "2025-03-31 12:39:04 -0400",
+  "updated": "2025-04-09 11:48:32 -0400",
   "media": [
     {
       "type": "flag",
@@ -406,13 +406,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>7,361,263<br><br><strong>male: </strong>3,747,364<br><br><strong>female: </strong>3,613,899 (2024 est.)<br><br><strong>note:</strong> immigrants make up just over 12% of the total population, according to UN data (2019)",
+          "content": "<strong>total: </strong>7,361,263 (2024 est.)<br><br><strong>male: </strong>3,747,364<br><br><strong>female: </strong>3,613,899<br><br><strong>note:</strong> immigrants make up just over 12% of the total population, according to UN data (2019)",
           "subfields": [
             {
               "name": "total",
-              "content": "7,361,263",
+              "content": "7,361,263 (2024 est.)",
               "title": "total",
-              "value": "7361263"
+              "value": "7361263",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -422,11 +424,9 @@
             },
             {
               "name": "female",
-              "content": "3,613,899 (2024 est.)",
+              "content": "3,613,899",
               "title": "female",
-              "value": "3613899",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "3613899"
             }
           ],
           "field_note": "<strong>note:</strong> immigrants make up just over 12% of the total population, according to UN data (2019)"
@@ -494,13 +494,6 @@
           "value": "Muslim (official; virtually all Sunni) 96.6%, Christian 2.7%, Buddhist &lt;1%, Hindu &lt;1%, Jewish &lt;1%, folk religion &lt;1%, other &lt;1%, unaffiliated &lt;1%",
           "info_date": "2020 est.",
           "field_note": "<strong>note:</strong> non-Sunni Muslims include native Ibadhi Muslims (&lt;1% of the population) and foreign Muslims"
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Despite continuing unrest, Libya remains a destination country for economic migrants. It is also a hub for transit migration to Europe because of its proximity to southern Europe and its lax border controls. Labor migrants have been drawn to Libya since the development of its oil sector in the 1960s. Until the latter part of the 1990s, most migrants to Libya were Arab (primarily Egyptians and Sudanese). However, international isolation stemming from Libya&rsquo;s involvement in international terrorism and a perceived lack of support from Arab countries led QADHAFI in 1998 to adopt a decade-long pan-African policy that enabled large numbers of Sub-Saharan migrants to enter Libya without visas to work in the construction and agricultural industries. Although Sub-Saharan Africans provided a cheap labor source, they were poorly treated and were subjected to periodic mass expulsions.</p> <p>By the mid-2000s, domestic animosity toward African migrants and a desire to reintegrate into the international community motivated QADHAFI to impose entry visas on Arab and African immigrants and to agree to joint maritime patrols and migrant repatriations with Italy, the main recipient of illegal migrants departing Libya. As his regime neared collapse in 2011, QADHAFI reversed his policy of cooperating with Italy to curb illegal migration and sent boats loaded with migrants and asylum seekers to strain European resources. Libya&rsquo;s 2011 revolution decreased immigration drastically and prompted nearly 800,000 migrants to flee to third countries, mainly Tunisia and Egypt, or to their countries of origin. The inflow of migrants declined in 2012 but returned to normal levels by 2013, despite continued hostility toward Sub-Saharan Africans and a less-inviting job market.</p> <p>While Libya is not an appealing destination for migrants, since 2014, transiting migrants &ndash; primarily from East and West Africa &ndash; continue to exploit its political instability and weak border controls and use it as a primary departure area to migrate across the central Mediterranean to Europe in growing numbers. In addition, approximately 135,000 people were displaced internally as of &nbsp;August 2022 by fighting between armed groups in eastern and western Libya and, to a lesser extent, by inter-tribal clashes in the country&rsquo;s south.</p>",
-          "value": "<p>Despite continuing unrest, Libya remains a destination country for economic migrants. It is also a hub for transit migration to Europe because of its proximity to southern Europe and its lax border controls. Labor migrants have been drawn to Libya since the development of its oil sector in the 1960s. Until the latter part of the 1990s, most migrants to Libya were Arab (primarily Egyptians and Sudanese). However, international isolation stemming from Libya&rsquo;s involvement in international terrorism and a perceived lack of support from Arab countries led QADHAFI in 1998 to adopt a decade-long pan-African policy that enabled large numbers of Sub-Saharan migrants to enter Libya without visas to work in the construction and agricultural industries. Although Sub-Saharan Africans provided a cheap labor source, they were poorly treated and were subjected to periodic mass expulsions.</p> <p>By the mid-2000s, domestic animosity toward African migrants and a desire to reintegrate into the international community motivated QADHAFI to impose entry visas on Arab and African immigrants and to agree to joint maritime patrols and migrant repatriations with Italy, the main recipient of illegal migrants departing Libya. As his regime neared collapse in 2011, QADHAFI reversed his policy of cooperating with Italy to curb illegal migration and sent boats loaded with migrants and asylum seekers to strain European resources. Libya&rsquo;s 2011 revolution decreased immigration drastically and prompted nearly 800,000 migrants to flee to third countries, mainly Tunisia and Egypt, or to their countries of origin. The inflow of migrants declined in 2012 but returned to normal levels by 2013, despite continued hostility toward Sub-Saharan Africans and a less-inviting job market.</p> <p>While Libya is not an appealing destination for migrants, since 2014, transiting migrants &ndash; primarily from East and West Africa &ndash; continue to exploit its political instability and weak border controls and use it as a primary departure area to migrate across the central Mediterranean to Europe in growing numbers. In addition, approximately 135,000 people were displaced internally as of &nbsp;August 2022 by fighting between armed groups in eastern and western Libya and, to a lesser extent, by inter-tribal clashes in the country&rsquo;s south.</p>"
         },
         {
           "name": "Age structure",
@@ -668,16 +661,18 @@
               "content": "81.6% of total population (2023)",
               "title": "urban population",
               "value": "81.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.45% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.45",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1199,16 +1194,18 @@
               "content": "81.6% of total population (2023)",
               "title": "urban population",
               "value": "81.6",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.45% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.45",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1373,7 +1370,7 @@
           "name": "Country name",
           "field_id": 296,
           "comparative": false,
-          "content": "<strong>conventional long form: </strong>State of Libya<br><br><strong>conventional short form: </strong>Libya<br><br><strong>local long form: </strong>Dawlat Libiya<br><br><strong>local short form: </strong>Libiya<br><br><strong>etymology: </strong>name derives from the Libu, an ancient Libyan tribe first mentioned in texts from the 13th century B.C.",
+          "content": "<strong>conventional long form: </strong>State of Libya<br><br><strong>conventional short form: </strong>Libya<br><br><strong>local long form: </strong>Dawlat Libiya<br><br><strong>local short form: </strong>Libiya<br><br><strong>etymology: </strong>the name probably derives from the Libu, a North African tribe first mentioned in texts from the 13th century B.C.; the ancient Greeks and Romans used the name for the entire North African coast west of Egypt",
           "subfields": [
             {
               "name": "conventional long form",
@@ -1401,8 +1398,8 @@
             },
             {
               "name": "etymology",
-              "content": "name derives from the Libu, an ancient Libyan tribe first mentioned in texts from the 13th century B.C.",
-              "value": "name derives from the Libu, an ancient Libyan tribe first mentioned in texts from the 13th century B.C.",
+              "content": "the name probably derives from the Libu, a North African tribe first mentioned in texts from the 13th century B.C.; the ancient Greeks and Romans used the name for the entire North African coast west of Egypt",
+              "value": "the name probably derives from the Libu, a North African tribe first mentioned in texts from the 13th century B.C.; the ancient Greeks and Romans used the name for the entire North African coast west of Egypt",
               "title": "etymology"
             }
           ]

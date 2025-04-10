@@ -1,9 +1,9 @@
 {
   "name": "Comoros",
   "code": "CN",
-  "published": "2025-03-29 00:02:53 -0400",
+  "published": "2025-04-10 00:03:03 -0400",
   "region": "Africa",
-  "updated": "2025-03-28 15:41:58 -0400",
+  "updated": "2025-04-09 11:48:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -104,8 +104,8 @@
           "name": "Area - comparative",
           "field_id": 280,
           "comparative": false,
-          "content": "slightly more than 12 times the size of Washington, DC",
-          "value": "slightly more than 12 times the size of Washington, DC",
+          "content": "slightly more than 12 times the size of Washington, D.C.",
+          "value": "slightly more than 12 times the size of Washington, D.C.",
           "media": [
             {
               "type": "image",
@@ -302,13 +302,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>900,141<br><br><strong>male: </strong>435,758<br><br><strong>female: </strong>464,383 (2024 est.)",
+          "content": "<strong>total: </strong>900,141 (2024 est.)<br><br><strong>male: </strong>435,758<br><br><strong>female: </strong>464,383",
           "subfields": [
             {
               "name": "total",
-              "content": "900,141",
+              "content": "900,141 (2024 est.)",
               "title": "total",
-              "value": "900141"
+              "value": "900141",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -318,11 +320,9 @@
             },
             {
               "name": "female",
-              "content": "464,383 (2024 est.)",
+              "content": "464,383",
               "title": "female",
-              "value": "464383",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "464383"
             }
           ]
         },
@@ -368,13 +368,6 @@
           "value": "Muslim 98.1% (overwhelmingly Sunni Muslim, small Shia Muslim and Ahmadiyya Muslim populations), ethnic religionist 1.1%, Christian 0.6%, other 0.3%",
           "info_date": "2020 est.",
           "field_note": "<strong>note:</strong> Sunni Islam is the state religion"
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Comoros’ population is a melange of Arabs, Persians, Indonesians, Africans, and Indians, and the much smaller number of Europeans that settled on the islands between the 8th and 19th centuries, when they served as a regional trade hub. The Arab and Persian influence is most evident in the islands’ overwhelmingly Muslim majority – about 98% of Comorans are Sunni Muslims. The country is densely populated, averaging nearly 350 people per square mile, although this varies widely among the islands, with Anjouan being the most densely populated.</p><p>Given the large share of land dedicated to agriculture and Comoros’ growing population, habitable land is becoming increasingly crowded. The combination of increasing population pressure on limited land and resources, widespread poverty, and poor job prospects motivates thousands of Comorans each year to attempt to illegally migrate using small fishing boats to the neighboring island of Mayotte, which is a French territory. The majority of legal Comoran migration to France came after Comoros’ independence from France in 1975, with the flow peaking in the mid-1980s.</p><p>At least 150,000 to 200,000 people of Comoran citizenship or descent live abroad, mainly in France, where they have gone seeking a better quality of life, job opportunities, higher education (Comoros has no universities), advanced health care, and to finance elaborate traditional wedding ceremonies (aada). Remittances from the diaspora are an economic mainstay, in 2013 representing approximately 25% of Comoros’ GDP and significantly more than the value of its exports of goods and services (only 15% of GDP). Grand Comore, Comoros’ most populous island, is both the primary source of emigrants and the main recipient of remittances. Most remittances are spent on private consumption, but this often goes toward luxury goods and the aada and does not contribute to economic development or poverty reduction. Although the majority of the diaspora is now French-born with more distant ties to Comoros, it is unclear whether they will sustain the current level of remittances.</p>",
-          "value": "<p>Comoros’ population is a melange of Arabs, Persians, Indonesians, Africans, and Indians, and the much smaller number of Europeans that settled on the islands between the 8th and 19th centuries, when they served as a regional trade hub. The Arab and Persian influence is most evident in the islands’ overwhelmingly Muslim majority – about 98% of Comorans are Sunni Muslims. The country is densely populated, averaging nearly 350 people per square mile, although this varies widely among the islands, with Anjouan being the most densely populated.</p><p>Given the large share of land dedicated to agriculture and Comoros’ growing population, habitable land is becoming increasingly crowded. The combination of increasing population pressure on limited land and resources, widespread poverty, and poor job prospects motivates thousands of Comorans each year to attempt to illegally migrate using small fishing boats to the neighboring island of Mayotte, which is a French territory. The majority of legal Comoran migration to France came after Comoros’ independence from France in 1975, with the flow peaking in the mid-1980s.</p><p>At least 150,000 to 200,000 people of Comoran citizenship or descent live abroad, mainly in France, where they have gone seeking a better quality of life, job opportunities, higher education (Comoros has no universities), advanced health care, and to finance elaborate traditional wedding ceremonies (aada). Remittances from the diaspora are an economic mainstay, in 2013 representing approximately 25% of Comoros’ GDP and significantly more than the value of its exports of goods and services (only 15% of GDP). Grand Comore, Comoros’ most populous island, is both the primary source of emigrants and the main recipient of remittances. Most remittances are spent on private consumption, but this often goes toward luxury goods and the aada and does not contribute to economic development or poverty reduction. Although the majority of the diaspora is now French-born with more distant ties to Comoros, it is unclear whether they will sustain the current level of remittances.</p>"
         },
         {
           "name": "Age structure",
@@ -542,16 +535,18 @@
               "content": "30.1% of total population (2023)",
               "title": "urban population",
               "value": "30.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.97% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.97",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1137,16 +1132,18 @@
               "content": "30.1% of total population (2023)",
               "title": "urban population",
               "value": "30.1",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.97% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.97",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

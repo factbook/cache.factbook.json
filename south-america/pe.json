@@ -1,9 +1,9 @@
 {
   "name": "Peru",
   "code": "PE",
-  "published": "2025-04-03 00:01:35 -0400",
+  "published": "2025-04-10 00:09:57 -0400",
   "region": "South America",
-  "updated": "2025-04-02 11:13:53 -0400",
+  "updated": "2025-04-09 11:48:33 -0400",
   "media": [
     {
       "type": "flag",
@@ -573,13 +573,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>32,600,249<br><br><strong>male: </strong>15,952,556<br><br><strong>female: </strong>16,647,693 (2024 est.)",
+          "content": "<strong>total: </strong>32,600,249 (2024 est.)<br><br><strong>male: </strong>15,952,556<br><br><strong>female: </strong>16,647,693",
           "subfields": [
             {
               "name": "total",
-              "content": "32,600,249",
+              "content": "32,600,249 (2024 est.)",
               "title": "total",
-              "value": "32600249"
+              "value": "32600249",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -589,11 +591,9 @@
             },
             {
               "name": "female",
-              "content": "16,647,693 (2024 est.)",
+              "content": "16,647,693",
               "title": "female",
-              "value": "16647693",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "16647693"
             }
           ]
         },
@@ -661,13 +661,6 @@
           "content": "Roman Catholic 66.4%, Protestant 22.4% (Evangelical 19.6%, other Protestant 1.3%), other 1.9%, agnostic/atheist none 6.8%, unspecified 1.2% (2023 est.)",
           "value": "Roman Catholic 66.4%, Protestant 22.4% (Evangelical 19.6%, other Protestant 1.3%), other 1.9%, agnostic/atheist none 6.8%, unspecified 1.2%",
           "info_date": "2023 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>A sharp fertility decline in urban areas has driven overall fertility reduction in Peru. The national birth rate is about 2.2 children per woman as of 2023 and averaged 2.5 in rural areas as of 2022. Contraceptive prevalence has increased largely due to a greater use of traditional rather than modern methods. Like most other Andean countries, Peru&rsquo;s opportunity to benefit from its large labor force will taper off as its dependency ratio&mdash;the ratio of dependents to working-age persons&mdash;bottoms out between 2025 and 2030.&nbsp;</p> <p>The poverty rate has climbed to 27.5% in 2022, much higher than the rate before the COVID-19 pandemic.&nbsp; In 2021, 51% of the population was living in moderate food insecurity; Peru is the most food insecure country in South America. School enrollment has improved, but achievement scores reflect ongoing problems with educational quality. Many poor children temporarily or permanently drop out of school to help support their families. As of 2018, 21.8% Peruvian children aged 5 to 14 were working, often putting in long hours at hazardous mining or construction sites.</p> <p>Peru was a country of immigration in the 19<sup>th</sup> and early 20<sup>th</sup> centuries but has become a country of emigration in the last few decades. Beginning in the 19<sup>th</sup> century, Peru brought in Asian contract laborers mainly to work on coastal plantations. Populations of Chinese and Japanese descent - among the largest in Latin America - are economically and culturally influential in Peru today. Peruvian emigration began rising in the 1980s due to an economic crisis and a violent internal conflict, but outflows have stabilized in the last few years as economic conditions have improved. Nonetheless, between 1990 and 2020 over 3 million Peruvians left the country &ndash; principally to the US, Spain, and Argentina &ndash; and did not return.</p>",
-          "value": "<p>A sharp fertility decline in urban areas has driven overall fertility reduction in Peru. The national birth rate is about 2.2 children per woman as of 2023 and averaged 2.5 in rural areas as of 2022. Contraceptive prevalence has increased largely due to a greater use of traditional rather than modern methods. Like most other Andean countries, Peru&rsquo;s opportunity to benefit from its large labor force will taper off as its dependency ratio&mdash;the ratio of dependents to working-age persons&mdash;bottoms out between 2025 and 2030.&nbsp;</p> <p>The poverty rate has climbed to 27.5% in 2022, much higher than the rate before the COVID-19 pandemic.&nbsp; In 2021, 51% of the population was living in moderate food insecurity; Peru is the most food insecure country in South America. School enrollment has improved, but achievement scores reflect ongoing problems with educational quality. Many poor children temporarily or permanently drop out of school to help support their families. As of 2018, 21.8% Peruvian children aged 5 to 14 were working, often putting in long hours at hazardous mining or construction sites.</p> <p>Peru was a country of immigration in the 19<sup>th</sup> and early 20<sup>th</sup> centuries but has become a country of emigration in the last few decades. Beginning in the 19<sup>th</sup> century, Peru brought in Asian contract laborers mainly to work on coastal plantations. Populations of Chinese and Japanese descent - among the largest in Latin America - are economically and culturally influential in Peru today. Peruvian emigration began rising in the 1980s due to an economic crisis and a violent internal conflict, but outflows have stabilized in the last few years as economic conditions have improved. Nonetheless, between 1990 and 2020 over 3 million Peruvians left the country &ndash; principally to the US, Spain, and Argentina &ndash; and did not return.</p>"
         },
         {
           "name": "Age structure",
@@ -835,16 +828,18 @@
               "content": "78.9% of total population (2023)",
               "title": "urban population",
               "value": "78.9",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.33% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.33",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1474,16 +1469,18 @@
               "content": "78.9% of total population (2023)",
               "title": "urban population",
               "value": "78.9",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "1.33% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "1.33",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

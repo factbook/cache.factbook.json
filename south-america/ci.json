@@ -1,9 +1,9 @@
 {
   "name": "Chile",
   "code": "CI",
-  "published": "2025-03-29 00:02:42 -0400",
+  "published": "2025-04-10 00:02:53 -0400",
   "region": "South America",
-  "updated": "2025-03-28 15:44:00 -0400",
+  "updated": "2025-04-09 11:48:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -534,13 +534,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>18,664,652<br><br><strong>male: </strong>9,169,736<br><br><strong>female: </strong>9,494,916 (2024 est.)",
+          "content": "<strong>total: </strong>18,664,652 (2024 est.)<br><br><strong>male: </strong>9,169,736<br><br><strong>female: </strong>9,494,916",
           "subfields": [
             {
               "name": "total",
-              "content": "18,664,652",
+              "content": "18,664,652 (2024 est.)",
               "title": "total",
-              "value": "18664652"
+              "value": "18664652",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -550,11 +552,9 @@
             },
             {
               "name": "female",
-              "content": "9,494,916 (2024 est.)",
+              "content": "9,494,916",
               "title": "female",
-              "value": "9494916",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "9494916"
             }
           ]
         },
@@ -623,13 +623,6 @@
           "content": "Roman Catholic 42%, Evangelical 14%, other 6%, none 37% (2021 est.)",
           "value": "Roman Catholic 42%, Evangelical 14%, other 6%, none 37%",
           "info_date": "2021 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Chile is in the advanced stages of demographic transition and is becoming an aging society&mdash;with fertility below replacement level, low mortality rates, and life expectancy on par with developed countries. The share of older, those 65 and early, people may exceed 65% by 2065. Nevertheless, with its dependency ratio nearing its low point, Chile could benefit from its favorable age structure. It will need to keep its large working-age population productively employed, while preparing to provide for the needs of its growing proportion of elderly people, especially as women&mdash;the traditional caregivers&mdash;increasingly enter the workforce. Over the last two decades, Chile has made great strides in reducing its poverty rate, but income inequality remains persistent in large part because a lack of a lack of access to quality education.</p> <p>Chile has been both a country of emigration and immigration. After becoming independent in 1810, Chile began seeking out immigrants from Europe to establish factories and to populate the southern part of the country.&nbsp; Following the two World Wars, fears of an influx of refugees prompted Chile to stop encouraging European immigration. However, Arab immigration increased between 1907 and 1940.&nbsp; During the Pinochet dictatorship that began in 1973, hundreds of thousands of Chileans emigrated, adding to the thousands who had left in the 1950s.&nbsp; At the same time, the repressiveness of the Pinochet regime discouraged the arrival of new immigrants.&nbsp; With the return of democracy and improving economic stability in 1990, some emigrants returned and new immigrants arrived from other South American countries experiencing deteriorating economic and political conditions. Immigration became more diverse starting in the 2010s, with the arrival of Haitians and Colombians of African descent.&nbsp; However, the largest group of recent immigrants are Venezuelans fleeing their country&rsquo;s socio-economic and political crisis.&nbsp; As of 2020, almost one-third of Chile&rsquo;s immigrant population are Venezuelan, while other top source countries continue to be Peru, Haiti, and Colombia.&nbsp; Nearly 1.5 million immigrants account for almost 9% of Chile&rsquo;s total population, as of 2020.</p>",
-          "value": "<p>Chile is in the advanced stages of demographic transition and is becoming an aging society&mdash;with fertility below replacement level, low mortality rates, and life expectancy on par with developed countries. The share of older, those 65 and early, people may exceed 65% by 2065. Nevertheless, with its dependency ratio nearing its low point, Chile could benefit from its favorable age structure. It will need to keep its large working-age population productively employed, while preparing to provide for the needs of its growing proportion of elderly people, especially as women&mdash;the traditional caregivers&mdash;increasingly enter the workforce. Over the last two decades, Chile has made great strides in reducing its poverty rate, but income inequality remains persistent in large part because a lack of a lack of access to quality education.</p> <p>Chile has been both a country of emigration and immigration. After becoming independent in 1810, Chile began seeking out immigrants from Europe to establish factories and to populate the southern part of the country.&nbsp; Following the two World Wars, fears of an influx of refugees prompted Chile to stop encouraging European immigration. However, Arab immigration increased between 1907 and 1940.&nbsp; During the Pinochet dictatorship that began in 1973, hundreds of thousands of Chileans emigrated, adding to the thousands who had left in the 1950s.&nbsp; At the same time, the repressiveness of the Pinochet regime discouraged the arrival of new immigrants.&nbsp; With the return of democracy and improving economic stability in 1990, some emigrants returned and new immigrants arrived from other South American countries experiencing deteriorating economic and political conditions. Immigration became more diverse starting in the 2010s, with the arrival of Haitians and Colombians of African descent.&nbsp; However, the largest group of recent immigrants are Venezuelans fleeing their country&rsquo;s socio-economic and political crisis.&nbsp; As of 2020, almost one-third of Chile&rsquo;s immigrant population are Venezuelan, while other top source countries continue to be Peru, Haiti, and Colombia.&nbsp; Nearly 1.5 million immigrants account for almost 9% of Chile&rsquo;s total population, as of 2020.</p>"
         },
         {
           "name": "Age structure",
@@ -797,16 +790,18 @@
               "content": "88% of total population (2023)",
               "title": "urban population",
               "value": "88",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.78% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.78",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1401,16 +1396,18 @@
               "content": "88% of total population (2023)",
               "title": "urban population",
               "value": "88",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.78% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.78",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -3573,10 +3570,10 @@
           "name": "Military and security forces",
           "field_id": 331,
           "comparative": false,
-          "content": "Armed Forces of Chile (<span class=\"ILfuVd\"><span class=\"e24Kjd\">Fuerzas Armadas de Chile</span></span>): Chilean Army (Ej&eacute;rcito de Chile), Chilean Navy (Armada de Chile, includes Marine Corps and Maritime Territory and Merchant Marine Directorate or Directemar), Chilean Air Force (Fuerza Aerea de Chile, FACh) (2024)<br><br><strong>note 1: </strong>the Directemar is the country's coast guard<br />&nbsp;<br /><strong>note 2:</strong> the National Police Force (Carabineros de Chile) are responsible to both the Ministry of Defense and the Ministry of the Interior and Public Security",
+          "content": "Armed Forces of Chile (<span class=\"ILfuVd\"><span class=\"e24Kjd\">Fuerzas Armadas de Chile</span></span>): Chilean Army (Ej&eacute;rcito de Chile), Chilean Navy (Armada de Chile, includes Marine Corps and Maritime Territory and Merchant Marine Directorate or Directemar), Chilean Air Force (Fuerza Aerea de Chile, FACh) (2025)<br><br><strong>note 1: </strong>the Directemar is the country's coast guard<br />&nbsp;<br /><strong>note 2:</strong> the National Police Force (Carabineros de Chile) is responsible to both the Ministry of Defense and the Ministry of the Interior and Public Security",
           "value": "Armed Forces of Chile (<span class=\"ILfuVd\"><span class=\"e24Kjd\">Fuerzas Armadas de Chile</span></span>): Chilean Army (Ej&eacute;rcito de Chile), Chilean Navy (Armada de Chile, includes Marine Corps and Maritime Territory and Merchant Marine Directorate or Directemar), Chilean Air Force (Fuerza Aerea de Chile, FACh)",
-          "info_date": "2024",
-          "field_note": "<strong>note 1: </strong>the Directemar is the country's coast guard<br />&nbsp;<br /><strong>note 2:</strong> the National Police Force (Carabineros de Chile) are responsible to both the Ministry of Defense and the Ministry of the Interior and Public Security"
+          "info_date": "2025",
+          "field_note": "<strong>note 1: </strong>the Directemar is the country's coast guard<br />&nbsp;<br /><strong>note 2:</strong> the National Police Force (Carabineros de Chile) is responsible to both the Ministry of Defense and the Ministry of the Interior and Public Security"
         },
         {
           "name": "Military expenditures",

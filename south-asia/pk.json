@@ -1,9 +1,9 @@
 {
   "name": "Pakistan",
   "code": "PK",
-  "published": "2025-04-01 00:04:31 -0400",
+  "published": "2025-04-10 00:10:01 -0400",
   "region": "South Asia",
-  "updated": "2025-03-31 13:25:58 -0400",
+  "updated": "2025-04-09 11:48:33 -0400",
   "media": [
     {
       "type": "flag",
@@ -400,13 +400,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>252,363,571<br><br><strong>male: </strong>128,387,797<br><br><strong>female: </strong>123,975,774 (2024 est.)<br><br><strong>note:</strong> results of Pakistan's 2017 national census estimate the country's total population to be 207,684,626",
+          "content": "<strong>total: </strong>252,363,571 (2024 est.)<br><br><strong>male: </strong>128,387,797<br><br><strong>female: </strong>123,975,774<br><br><strong>note:</strong> results of Pakistan's 2017 national census estimate the country's total population to be 207,684,626",
           "subfields": [
             {
               "name": "total",
-              "content": "252,363,571",
+              "content": "252,363,571 (2024 est.)",
               "title": "total",
-              "value": "252363571"
+              "value": "252363571",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -416,11 +418,9 @@
             },
             {
               "name": "female",
-              "content": "123,975,774 (2024 est.)",
+              "content": "123,975,774",
               "title": "female",
-              "value": "123975774",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "123975774"
             }
           ],
           "field_note": "<strong>note:</strong> results of Pakistan's 2017 national census estimate the country's total population to be 207,684,626"
@@ -655,16 +655,18 @@
               "content": "38% of total population (2023)",
               "title": "urban population",
               "value": "38",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.1% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.1",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1301,16 +1303,18 @@
               "content": "38% of total population (2023)",
               "title": "urban population",
               "value": "38",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "2.1% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "2.1",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [

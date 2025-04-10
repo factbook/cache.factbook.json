@@ -1,9 +1,9 @@
 {
   "name": "Suriname",
   "code": "NS",
-  "published": "2025-03-29 00:09:37 -0400",
+  "published": "2025-04-10 00:09:36 -0400",
   "region": "South America",
-  "updated": "2025-03-28 15:44:11 -0400",
+  "updated": "2025-04-09 11:48:33 -0400",
   "media": [
     {
       "type": "flag",
@@ -312,13 +312,15 @@
           "name": "Population",
           "field_id": 335,
           "comparative": false,
-          "content": "<strong>total: </strong>646,758<br><br><strong>male: </strong>320,352<br><br><strong>female: </strong>326,406 (2024 est.)",
+          "content": "<strong>total: </strong>646,758 (2024 est.)<br><br><strong>male: </strong>320,352<br><br><strong>female: </strong>326,406",
           "subfields": [
             {
               "name": "total",
-              "content": "646,758",
+              "content": "646,758 (2024 est.)",
               "title": "total",
-              "value": "646758"
+              "value": "646758",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "male",
@@ -328,11 +330,9 @@
             },
             {
               "name": "female",
-              "content": "326,406 (2024 est.)",
+              "content": "326,406",
               "title": "female",
-              "value": "326406",
-              "estimated": true,
-              "info_date": "2024"
+              "value": "326406"
             }
           ]
         },
@@ -399,13 +399,6 @@
           "content": "Protestant 23.6% (includes Evangelical 11.2%, Moravian 11.2%, Reformed 0.7%, Lutheran 0.5%), Hindu 22.3%, Roman Catholic 21.6%, Muslim 13.8%, other Christian 3.2%, Winti 1.8%, Jehovah's Witness 1.2%, other 1.7%, none 7.5%, unspecified 3.2% (2012 est.)",
           "value": "Protestant 23.6% (includes Evangelical 11.2%, Moravian 11.2%, Reformed 0.7%, Lutheran 0.5%), Hindu 22.3%, Roman Catholic 21.6%, Muslim 13.8%, other Christian 3.2%, Winti 1.8%, Jehovah's Witness 1.2%, other 1.7%, none 7.5%, unspecified 3.2%",
           "info_date": "2012 est."
-        },
-        {
-          "name": "Demographic profile",
-          "field_id": 340,
-          "comparative": false,
-          "content": "<p>Suriname is a pluralistic society consisting primarily of Creoles (persons of mixed African and European heritage), the descendants of escaped African slaves known as Maroons, and the descendants of Indian and Javanese (Indonesian) contract workers. The country overall is in full, post-industrial demographic transition, with a low fertility rate, a moderate mortality rate, and a rising life expectancy. However, the Maroon population of the rural interior lags behind because of lower educational attainment and contraceptive use, higher malnutrition, and significantly less access to electricity, potable water, sanitation, infrastructure, and health care.</p><p>Some 350,000 people of Surinamese descent live in the Netherlands, Suriname's former colonial ruler. In the 19th century, better-educated, largely Dutch-speaking Surinamese began emigrating to the Netherlands. World War II interrupted the outflow, but it resumed after the war when Dutch labor demands grew - emigrants included all segments of the Creole population. Suriname still is strongly influenced by the Netherlands because most Surinamese have relatives living there and it is the largest supplier of development aid. Other emigration destinations include French Guiana and the United States. Suriname's immigration rules are flexible, and the country is easy to enter illegally because rainforests obscure its borders. Since the mid-1980s, Brazilians have settled in Suriname's capital, Paramaribo, or eastern Suriname, where they mine gold. This immigration is likely to slowly re-orient Suriname toward its Latin American roots.</p>",
-          "value": "<p>Suriname is a pluralistic society consisting primarily of Creoles (persons of mixed African and European heritage), the descendants of escaped African slaves known as Maroons, and the descendants of Indian and Javanese (Indonesian) contract workers. The country overall is in full, post-industrial demographic transition, with a low fertility rate, a moderate mortality rate, and a rising life expectancy. However, the Maroon population of the rural interior lags behind because of lower educational attainment and contraceptive use, higher malnutrition, and significantly less access to electricity, potable water, sanitation, infrastructure, and health care.</p><p>Some 350,000 people of Surinamese descent live in the Netherlands, Suriname's former colonial ruler. In the 19th century, better-educated, largely Dutch-speaking Surinamese began emigrating to the Netherlands. World War II interrupted the outflow, but it resumed after the war when Dutch labor demands grew - emigrants included all segments of the Creole population. Suriname still is strongly influenced by the Netherlands because most Surinamese have relatives living there and it is the largest supplier of development aid. Other emigration destinations include French Guiana and the United States. Suriname's immigration rules are flexible, and the country is easy to enter illegally because rainforests obscure its borders. Since the mid-1980s, Brazilians have settled in Suriname's capital, Paramaribo, or eastern Suriname, where they mine gold. This immigration is likely to slowly re-orient Suriname toward its Latin American roots.</p>"
         },
         {
           "name": "Age structure",
@@ -573,16 +566,18 @@
               "content": "66.4% of total population (2023)",
               "title": "urban population",
               "value": "66.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.88% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.88",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
@@ -1142,16 +1137,18 @@
               "content": "66.4% of total population (2023)",
               "title": "urban population",
               "value": "66.4",
-              "suffix": "% of total population",
-              "subfield_note": "(2023)"
+              "estimated": false,
+              "info_date": "2023",
+              "suffix": "% of total population"
             },
             {
               "name": "rate of urbanization",
               "content": "0.88% annual rate of change (2020-25 est.)",
               "title": "rate of urbanization",
               "value": "0.88",
-              "suffix": "% annual rate of change",
-              "subfield_note": "(2020-25 est.)"
+              "estimated": true,
+              "info_date": "2020-25",
+              "suffix": "% annual rate of change"
             }
           ],
           "media": [
