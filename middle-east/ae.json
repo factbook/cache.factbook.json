@@ -1,14 +1,14 @@
 {
   "name": "United Arab Emirates",
   "code": "AE",
-  "published": "2025-05-24 00:00:11 -0400",
+  "published": "2025-06-05 00:00:16 -0400",
   "region": "Middle East",
-  "updated": "2025-05-23 08:46:04 -0400",
+  "updated": "2025-06-04 13:02:40 -0400",
   "media": [
     {
       "type": "flag",
       "src": "/attachments/flags/AE-flag.jpg",
-      "caption": "three equal horizontal bands of green (top), white, and black with a wider vertical red band on the hoist side; the flag incorporates all four Pan-Arab colors, which in this case represent fertility (green), neutrality (white), petroleum resources (black), and unity (red); red was the traditional color incorporated into all flags of the emirates before their unification"
+      "caption": "three equal horizontal bands of green (top), white, and black, with a wider vertical red band on the hoist side; the flag incorporates all four pan-Arab colors, which in this case represent fertility (green), neutrality (white), oil (black), and unity (red); red is a traditional color that was part of all the emirates' flags before their unification"
     },
     {
       "type": "map",
@@ -854,10 +854,10 @@
           "name": "Hospital bed density",
           "field_id": 360,
           "comparative": false,
-          "content": "1.4 beds/1,000 population (2017)",
-          "value": "1.4",
-          "estimated": false,
-          "info_date": "2017",
+          "content": "2 beds/1,000 population (2021 est.)",
+          "value": "2",
+          "estimated": true,
+          "info_date": "2021",
           "suffix": "beds/1,000 population"
         },
         {
@@ -972,13 +972,39 @@
           ]
         },
         {
-          "name": "Children under the age of 5 years underweight",
-          "field_id": 368,
+          "name": "Tobacco use",
+          "field_id": 434,
           "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
+          "content": "<strong>total: </strong>10.7% (2025 est.)<br><br><strong>male: </strong>13.9% (2025 est.)<br><br><strong>female: </strong>2.4% (2025 est.)",
+          "subfields": [
+            {
+              "name": "total",
+              "content": "10.7% (2025 est.)",
+              "title": "total",
+              "value": "10.7",
+              "estimated": true,
+              "info_date": "2025",
+              "suffix": "%"
+            },
+            {
+              "name": "male",
+              "content": "13.9% (2025 est.)",
+              "title": "male",
+              "value": "13.9",
+              "estimated": true,
+              "info_date": "2025",
+              "suffix": "%"
+            },
+            {
+              "name": "female",
+              "content": "2.4% (2025 est.)",
+              "title": "female",
+              "value": "2.4",
+              "estimated": true,
+              "info_date": "2025",
+              "suffix": "%"
+            }
+          ]
         },
         {
           "name": "Currently married women (ages 15-49)",
@@ -1739,8 +1765,8 @@
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
-          "content": "three equal horizontal bands of green (top), white, and black with a wider vertical red band on the hoist side; the flag incorporates all four Pan-Arab colors, which in this case represent fertility (green), neutrality (white), petroleum resources (black), and unity (red); red was the traditional color incorporated into all flags of the emirates before their unification",
-          "value": "three equal horizontal bands of green (top), white, and black with a wider vertical red band on the hoist side; the flag incorporates all four Pan-Arab colors, which in this case represent fertility (green), neutrality (white), petroleum resources (black), and unity (red); red was the traditional color incorporated into all flags of the emirates before their unification"
+          "content": "three equal horizontal bands of green (top), white, and black, with a wider vertical red band on the hoist side; the flag incorporates all four pan-Arab colors, which in this case represent fertility (green), neutrality (white), oil (black), and unity (red); red is a traditional color that was part of all the emirates' flags before their unification",
+          "value": "three equal horizontal bands of green (top), white, and black, with a wider vertical red band on the hoist side; the flag incorporates all four pan-Arab colors, which in this case represent fertility (green), neutrality (white), oil (black), and unity (red); red is a traditional color that was part of all the emirates' flags before their unification"
         },
         {
           "name": "National symbol(s)",
@@ -3048,12 +3074,19 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "4% of GDP (2023 est.)<br><br>4% of GDP (2022 est.)<br><br>5% of GDP (2021 est.)<br><br>5.6% of GDP (2020 est.)<br><br>5.4% of GDP (2019 est.)",
+          "content": "4% of GDP (2024 est.)<br><br>4.3% of GDP (2023 est.)<br><br>4% of GDP (2022 est.)<br><br>4.5% of GDP (2021 est.)<br><br>6.1% of GDP (2020 est.)",
           "subfields": [
             {
-              "name": "Military Expenditures 2023",
-              "content": "4% of GDP (2023 est.)",
+              "name": "Military Expenditures 2024",
+              "content": "4% of GDP (2024 est.)",
               "value": "4",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Military Expenditures 2023",
+              "content": "4.3% of GDP (2023 est.)",
+              "value": "4.3",
               "estimated": true,
               "suffix": "% of GDP"
             },
@@ -3066,22 +3099,15 @@
             },
             {
               "name": "Military Expenditures 2021",
-              "content": "5% of GDP (2021 est.)",
-              "value": "5",
+              "content": "4.5% of GDP (2021 est.)",
+              "value": "4.5",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2020",
-              "content": "5.6% of GDP (2020 est.)",
-              "value": "5.6",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "5.4% of GDP (2019 est.)",
-              "value": "5.4",
+              "content": "6.1% of GDP (2020 est.)",
+              "value": "6.1",
               "estimated": true,
               "suffix": "% of GDP"
             }

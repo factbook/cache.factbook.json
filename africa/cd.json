@@ -1,9 +1,9 @@
 {
   "name": "Chad",
   "code": "CD",
-  "published": "2025-05-28 00:03:01 -0400",
+  "published": "2025-06-05 00:03:22 -0400",
   "region": "Africa",
-  "updated": "2025-05-27 17:23:25 -0400",
+  "updated": "2025-06-04 14:58:32 -0400",
   "media": [
     {
       "type": "flag",
@@ -827,6 +827,16 @@
           "suffix": "physicians/1,000 population"
         },
         {
+          "name": "Hospital bed density",
+          "field_id": 360,
+          "comparative": false,
+          "content": "0.4 beds/1,000 population (2017 est.)",
+          "value": "0.4",
+          "estimated": true,
+          "info_date": "2017",
+          "suffix": "beds/1,000 population"
+        },
+        {
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
@@ -939,33 +949,33 @@
           "name": "Tobacco use",
           "field_id": 434,
           "comparative": false,
-          "content": "<strong>total: </strong>8.3% (2020 est.)<br><br><strong>male: </strong>13.8% (2020 est.)<br><br><strong>female: </strong>2.7% (2020 est.)",
+          "content": "<strong>total: </strong>6.5% (2025 est.)<br><br><strong>male: </strong>11.8% (2025 est.)<br><br><strong>female: </strong>1.3% (2025 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "8.3% (2020 est.)",
+              "content": "6.5% (2025 est.)",
               "title": "total",
-              "value": "8.3",
+              "value": "6.5",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2025",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "13.8% (2020 est.)",
+              "content": "11.8% (2025 est.)",
               "title": "male",
-              "value": "13.8",
+              "value": "11.8",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2025",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "2.7% (2020 est.)",
+              "content": "1.3% (2025 est.)",
               "title": "female",
-              "value": "2.7",
+              "value": "1.3",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2025",
               "suffix": "%"
             }
           ]
@@ -994,28 +1004,32 @@
           "name": "Child marriage",
           "field_id": 431,
           "comparative": false,
-          "content": "<strong>women married by age 15: </strong>24.2%<br><br><strong>women married by age 18: </strong>60.6%<br><br><strong>men married by age 18: </strong>8.1% (2019 est.)",
+          "content": "<strong>women married by age 15: </strong>24.2% (2019)<br><br><strong>women married by age 18: </strong>60.6% (2019)<br><br><strong>men married by age 18: </strong>8.1% (2019)",
           "subfields": [
             {
               "name": "women married by age 15",
-              "content": "24.2%",
+              "content": "24.2% (2019)",
               "title": "women married by age 15",
               "value": "24.2",
+              "estimated": false,
+              "info_date": "2019",
               "suffix": "%"
             },
             {
               "name": "women married by age 18",
-              "content": "60.6%",
+              "content": "60.6% (2019)",
               "title": "women married by age 18",
               "value": "60.6",
+              "estimated": false,
+              "info_date": "2019",
               "suffix": "%"
             },
             {
               "name": "men married by age 18",
-              "content": "8.1% (2019 est.)",
+              "content": "8.1% (2019)",
               "title": "men married by age 18",
               "value": "8.1",
-              "estimated": true,
+              "estimated": false,
               "info_date": "2019",
               "suffix": "%"
             }
@@ -2947,8 +2961,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "2.9% of GDP (2023 est.)<br><br>2.6% of GDP (2022 est.)<br><br>2.5% of GDP (2021 est.)<br><br>2.9% of GDP (2020 est.)<br><br>2% of GDP (2019 est.)",
+          "content": "3% of GDP (2024 est.)<br><br>2.9% of GDP (2023 est.)<br><br>2.6% of GDP (2022 est.)<br><br>2.5% of GDP (2021 est.)<br><br>2.9% of GDP (2020 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2024",
+              "content": "3% of GDP (2024 est.)",
+              "value": "3",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2023",
               "content": "2.9% of GDP (2023 est.)",
@@ -2974,13 +2995,6 @@
               "name": "Military Expenditures 2020",
               "content": "2.9% of GDP (2020 est.)",
               "value": "2.9",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "2% of GDP (2019 est.)",
-              "value": "2",
               "estimated": true,
               "suffix": "% of GDP"
             }
