@@ -1,9 +1,9 @@
 {
   "name": "Saint Vincent and the Grenadines",
   "code": "VC",
-  "published": "2025-06-05 00:17:22 -0400",
+  "published": "2025-06-11 00:18:23 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-10 10:55:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -755,14 +755,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "5.4% of GDP (2021)",
-          "value": "5.4",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "5.4% of GDP (2021)<br><br>8.6% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "5.4% of GDP (2021)",
+              "value": "5.4",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "8.6% of national budget (2022 est.)",
+              "value": "8.6",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -906,14 +920,28 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "5.7% of GDP (2018 est.)",
-          "value": "5.7",
-          "estimated": true,
-          "info_date": "2018",
-          "suffix": "% of GDP"
+          "content": "6.5% of GDP (2023 est.)<br><br>12.6% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "6.5% of GDP (2023 est.)",
+              "value": "6.5",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "12.6% national budget (2024 est.)",
+              "value": "12.6",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
@@ -1270,20 +1298,6 @@
           "value": "6 parishes; Charlotte, Grenadines, Saint Andrew, Saint David, Saint George, Saint Patrick"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "27 October 1979 (from the UK)",
-          "value": "27 October 1979 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 27 October (1979)",
-          "value": "Independence Day, 27 October (1979)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1492,13 +1506,6 @@
           "value": "New Democratic Party or NDP<br />SVG Green Party or SVGP<br />Unity Labor Party or ULP (formed in 1994 by the coalition of Saint Vincent Labor Party or SVLP and the Movement for National Unity or MNU)"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, ISO (subscriber), ITU, MIGA, NAM, OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WFTU (NGOs), WHO, WIPO, WTO",
-          "value": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, ISO (subscriber), ITU, MIGA, NAM, OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WFTU (NGOs), WHO, WIPO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1557,6 +1564,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, ISO (subscriber), ITU, MIGA, NAM, OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WFTU (NGOs), WHO, WIPO, WTO",
+          "value": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, ISO (subscriber), ITU, MIGA, NAM, OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WFTU (NGOs), WHO, WIPO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "27 October 1979 (from the UK)",
+          "value": "27 October 1979 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 27 October (1979)",
+          "value": "Independence Day, 27 October (1979)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1567,8 +1595,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Saint Vincent parrot; national colors: blue, gold, green",
-          "value": "Saint Vincent parrot; national colors: blue, gold, green"
+          "content": "Saint Vincent parrot",
+          "value": "Saint Vincent parrot"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, gold, green",
+          "value": "blue, gold, green"
         },
         {
           "name": "National anthem",

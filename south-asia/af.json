@@ -1,9 +1,9 @@
 {
   "name": "Afghanistan",
   "code": "AF",
-  "published": "2025-06-05 00:00:21 -0400",
+  "published": "2025-06-12 00:00:13 -0400",
   "region": "South Asia",
-  "updated": "2025-06-04 14:58:31 -0400",
+  "updated": "2025-06-11 14:10:30 -0400",
   "media": [
     {
       "type": "flag",
@@ -851,14 +851,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "21.8% of GDP (2021)",
-          "value": "21.8",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "21.8% of GDP (2021)<br><br>1.1% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "21.8% of GDP (2021)",
+              "value": "21.8",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "1.1% of national budget (2022 est.)",
+              "value": "1.1",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1080,48 +1094,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "2.9% of GDP (2020 est.)",
-          "value": "2.9",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "4.3% of GDP (2017 est.)<br><br>8.2% national budget (2017 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "4.3% of GDP (2017 est.)",
+              "value": "4.3",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "8.2% national budget (2017 est.)",
+              "value": "8.2",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>37.3%<br><br><strong>male: </strong>52.1%<br><br><strong>female: </strong>22.6% (2021)",
+          "content": "<strong>total population: </strong>37% (2021 est.)<br><br><strong>male: </strong>52% (2021 est.)<br><br><strong>female: </strong>26.6% (2022 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "37.3%",
+              "content": "37% (2021 est.)",
               "title": "total population",
-              "value": "37.3",
+              "value": "37",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "52.1%",
+              "content": "52% (2021 est.)",
               "title": "male",
-              "value": "52.1",
+              "value": "52",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "22.6% (2021)",
+              "content": "26.6% (2022 est.)",
               "title": "female",
-              "value": "22.6",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "26.6",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             }
           ]
@@ -1279,21 +1305,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to civil conflict, population displacement, and economic slowdown - </em>the latest analysis estimated the number of people in crisis or emergency food insecurity at 15.3 million people (35% of the population analyzed) between May and October 2023; although the levels of acute food insecurity have declined compared to the same season in 2022, largely due to seasonal improvements and the scale‑up of humanitarian assistance in 2022, the situation could deteriorate in areas where humanitarian assistance faces access constraints; the ban on women&rsquo;s participation in the humanitarian response poses a challenge to the delivery of quality humanitarian assistance leading to significant additional access constraints, particularly to the most vulnerable, women and children (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to civil conflict, population displacement, and economic slowdown - </em>the latest analysis estimated the number of people in crisis or emergency food insecurity at 15.3 million people (35% of the population analyzed) between May and October 2023; although the levels of acute food insecurity have declined compared to the same season in 2022, largely due to seasonal improvements and the scale‑up of humanitarian assistance in 2022, the situation could deteriorate in areas where humanitarian assistance faces access constraints; the ban on women&rsquo;s participation in the humanitarian response poses a challenge to the delivery of quality humanitarian assistance leading to significant additional access constraints, particularly to the most vulnerable, women and children (2023)",
-              "value": "<em>due to civil conflict, population displacement, and economic slowdown - </em>the latest analysis estimated the number of people in crisis or emergency food insecurity at 15.3 million people (35% of the population analyzed) between May and October 2023; although the levels of acute food insecurity have declined compared to the same season in 2022, largely due to seasonal improvements and the scale‑up of humanitarian assistance in 2022, the situation could deteriorate in areas where humanitarian assistance faces access constraints; the ban on women&rsquo;s participation in the humanitarian response poses a challenge to the delivery of quality humanitarian assistance leading to significant additional access constraints, particularly to the most vulnerable, women and children",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1515,20 +1526,6 @@
           "value": "34 provinces (welayat, singular - welayat); Badakhshan, Badghis, Baghlan, Balkh, Bamyan, Daykundi, Farah, Faryab, Ghazni, Ghor, Helmand, Herat, Jowzjan, Kabul, Kandahar, Kapisa, Khost, Kunar, Kunduz, Laghman, Logar, Nangarhar, Nimroz, Nuristan, Paktika, Paktiya, Panjshir, Parwan, Samangan, Sar-e Pul, Takhar, Uruzgan, Wardak, Zabul"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "19 August 1919 (from UK control over Afghan foreign affairs)",
-          "value": "19 August 1919 (from UK control over Afghan foreign affairs)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "previous: Independence Day, 19 August (1919); under the Taliban Government, 15 August (2022) is declared a national holiday, marking the anniversary of the victory of the Afghan jihad<br /><br />",
-          "value": "previous: Independence Day, 19 August (1919); under the Taliban Government, 15 August (2022) is declared a national holiday, marking the anniversary of the victory of the Afghan jihad<br /><br />"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1662,13 +1659,6 @@
           "value": "the Taliban Government enforces an authoritarian state and has banned other political parties; note - before 15 August 2021, the Ministry of Justice had licensed 72 political parties as of April 2019<br /><br />the Taliban have banned other political parties but have allowed some party leaders, including the head of Hezb-e-Islami, Gulbuddin Hekmatyar, to continue to live and work in Afghanistan; Hekmatyar likely continues to enjoy some political support from loyalists; leaders of other parties, including Jamiat-e-Islami&rsquo;s Salahuddin Rabbani and Jumbesh&rsquo;s Rashid Dostum, operate from abroad but likely also command some following within Afghanistan; note - before 15 August 2021, the Ministry of Justice had licensed 72 political parties as of April 2019"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "Afghanistan is a member of the following organizations but Taliban representatives do not participate: ADB, CICA, CP, ECO, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, OSCE (partner), SAARC, SACEP, SCO (dialogue member), UN, UNAMA, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "Afghanistan is a member of the following organizations but Taliban representatives do not participate: ADB, CICA, CP, ECO, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, OSCE (partner), SAARC, SACEP, SCO (dialogue member), UN, UNAMA, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "content": "none<strong><br /><br />Note</strong>:&nbsp; the Afghan Embassy closed in March 2022"
@@ -1688,6 +1678,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "Afghanistan is a member of the following organizations but Taliban representatives do not participate: ADB, CICA, CP, ECO, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, OSCE (partner), SAARC, SACEP, SCO (dialogue member), UN, UNAMA, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "Afghanistan is a member of the following organizations but Taliban representatives do not participate: ADB, CICA, CP, ECO, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, OSCE (partner), SAARC, SACEP, SCO (dialogue member), UN, UNAMA, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "19 August 1919 (from UK control over Afghan foreign affairs)",
+          "value": "19 August 1919 (from UK control over Afghan foreign affairs)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "previous: Independence Day, 19 August (1919); under the Taliban Government, 15 August (2022) is declared a national holiday, marking the anniversary of the victory of the Afghan jihad<br /><br />",
+          "value": "previous: Independence Day, 19 August (1919); under the Taliban Government, 15 August (2022) is declared a national holiday, marking the anniversary of the victory of the Afghan jihad<br /><br />"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1699,8 +1710,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "lion; national colors: red, green, black",
-          "value": "lion; national colors: red, green, black"
+          "content": "lion",
+          "value": "lion"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, green, black",
+          "value": "red, green, black"
         },
         {
           "name": "National anthem",
@@ -2907,8 +2925,8 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the Taliban&rsquo;s security priorities include border security, armed anti-Taliban resistance elements, and the Islamic State of Iraq and ash-Sham - Khorasan (ISIS-K) terrorist group (2025)",
-          "value": "the Taliban&rsquo;s security priorities include border security, armed anti-Taliban resistance elements, and the Islamic State of Iraq and ash-Sham - Khorasan (ISIS-K) terrorist group",
+          "content": "the Taliban&rsquo;s key security priorities are border and internal security; specific issues have included rising tensions with Pakistan along their shared border, armed anti-Taliban resistance elements, and the Islamic State of Iraq and ash-Sham - Khorasan (ISIS-K) terrorist group (2025)",
+          "value": "the Taliban&rsquo;s key security priorities are border and internal security; specific issues have included rising tensions with Pakistan along their shared border, armed anti-Taliban resistance elements, and the Islamic State of Iraq and ash-Sham - Khorasan (ISIS-K) terrorist group",
           "info_date": "2025"
         }
       ]

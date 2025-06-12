@@ -1,9 +1,9 @@
 {
   "name": "Israel",
   "code": "IS",
-  "published": "2025-06-05 00:08:09 -0400",
+  "published": "2025-06-11 00:08:44 -0400",
   "region": "Middle East",
-  "updated": "2025-06-04 14:58:34 -0400",
+  "updated": "2025-06-10 10:54:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -837,14 +837,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "7.9% of GDP (2021)",
-          "value": "7.9",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "7.9% of GDP (2021)<br><br>13% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "7.9% of GDP (2021)",
+              "value": "7.9",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "13% of national budget (2022 est.)",
+              "value": "13",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1021,27 +1035,35 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "7.1% of GDP (2020 est.)",
-          "value": "7.1",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "6.5% of GDP (2022 est.)<br><br>17.5% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "6.5% of GDP (2022 est.)",
+              "value": "6.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "17.5% national budget (2022 est.)",
+              "value": "17.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>97.8%<br><br><strong>male: </strong>98.7%<br><br><strong>female: </strong>96.8% (2011)",
+          "content": "<strong>total population: </strong>97.8%<br><br><strong>male: </strong>98.7%<br><br><strong>female: </strong>96.8% (2011)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "97.8%",
@@ -1456,20 +1478,6 @@
           "value": "6 districts (mehozot, singular - mehoz); Central, Haifa, Jerusalem, Northern, Southern, Tel Aviv"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "14 May 1948 (following League of Nations mandate under British administration)",
-          "value": "14 May 1948 (following League of Nations mandate under British administration)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 14 May (1948); note - Israel declared independence on 14 May 1948, but the Jewish calendar is lunar and the holiday may occur in April or May",
-          "value": "Independence Day, 14 May (1948); note - Israel declared independence on 14 May 1948, but the Jewish calendar is lunar and the holiday may occur in April or May"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1686,13 +1694,6 @@
           "value": "Balad<br />Blue and White<br />Hadash<br />Jewish Power (Otzma Yehudit)<br />Labor Party or HaAvoda<br />Likud<br />Meretz<br />National Unity (alliance includes Blue and White and New Hope)<br />New Hope<br />Noam<br />Religious Zionism (election alliance of Religious Zionist Party, Jewish Power (Otzma Yehudit), and Noam)<br />Religious Zionist Party<br />Shas<br />Ta'al<br />United Arab List<br />United Torah Judaism or UTJ (alliance includes Agudat Israel and Degel HaTorah)<br />Yesh Atid<br />Yisrael Beiteinu"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "BIS, BSEC (observer), CE (observer), CERN, CICA, EBRD, FAO, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, OAS (observer), OECD, OPCW (signatory), OSCE (partner), Pacific Alliance (observer), Paris Club, PCA, SELEC (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "BIS, BSEC (observer), CE (observer), CERN, CICA, EBRD, FAO, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, OAS (observer), OECD, OPCW (signatory), OSCE (partner), Pacific Alliance (observer), Paris Club, PCA, SELEC (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1788,6 +1789,27 @@
           "field_note": "<strong>note:</strong> on 14 May 2018, the US Embassy relocated to Jerusalem from Tel Aviv; on 4 March 2019, Consulate General Jerusalem merged into US Embassy Jerusalem to form a single diplomatic mission"
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "BIS, BSEC (observer), CE (observer), CERN, CICA, EBRD, FAO, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, OAS (observer), OECD, OPCW (signatory), OSCE (partner), Pacific Alliance (observer), Paris Club, PCA, SELEC (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "BIS, BSEC (observer), CE (observer), CERN, CICA, EBRD, FAO, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, OAS (observer), OECD, OPCW (signatory), OSCE (partner), Pacific Alliance (observer), Paris Club, PCA, SELEC (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "14 May 1948 (following League of Nations mandate under British administration)",
+          "value": "14 May 1948 (following League of Nations mandate under British administration)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 14 May (1948); note - Israel declared independence on 14 May 1948, but the Jewish calendar is lunar and the holiday may occur in April or May",
+          "value": "Independence Day, 14 May (1948); note - Israel declared independence on 14 May 1948, but the Jewish calendar is lunar and the holiday may occur in April or May"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1799,8 +1821,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Star of David (Magen David), menorah (seven-branched lampstand); national colors: blue, white",
-          "value": "Star of David (Magen David), menorah (seven-branched lampstand); national colors: blue, white"
+          "content": "Star of David (Magen David), menorah (seven-branched lampstand)",
+          "value": "Star of David (Magen David), menorah (seven-branched lampstand)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, white",
+          "value": "blue, white"
         },
         {
           "name": "National anthem",

@@ -1,9 +1,9 @@
 {
   "name": "Turkey (Turkiye)",
   "code": "TU",
-  "published": "2025-06-05 00:16:24 -0400",
+  "published": "2025-06-12 00:01:25 -0400",
   "region": "Middle East",
-  "updated": "2025-06-04 13:02:40 -0400",
+  "updated": "2025-06-11 11:58:51 -0400",
   "media": [
     {
       "type": "flag",
@@ -1054,14 +1054,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "4.6% of GDP (2021)",
-          "value": "4.6",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "4.6% of GDP (2021)<br><br>10% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "4.6% of GDP (2021)",
+              "value": "4.6",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "10% of national budget (2022 est.)",
+              "value": "10",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1274,48 +1288,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.4% of GDP (2020 est.)",
-          "value": "3.4",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "3.1% of GDP (2023 est.)<br><br>8.6% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.1% of GDP (2023 est.)",
+              "value": "3.1",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "8.6% national budget (2023 est.)",
+              "value": "8.6",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>96.7%<br><br><strong>male: </strong>99.1%<br><br><strong>female: </strong>94.4% (2019)",
+          "content": "<strong>total population: </strong>97% (2021 est.)<br><br><strong>male: </strong>99% (2021 est.)<br><br><strong>female: </strong>95% (2021 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "96.7%",
+              "content": "97% (2021 est.)",
               "title": "total population",
-              "value": "96.7",
+              "value": "97",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "99.1%",
+              "content": "99% (2021 est.)",
               "title": "male",
-              "value": "99.1",
+              "value": "99",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "94.4% (2019)",
+              "content": "95% (2021 est.)",
               "title": "female",
-              "value": "94.4",
-              "estimated": false,
-              "info_date": "2019",
+              "value": "95",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -1716,20 +1742,6 @@
           "value": "81 provinces (iller, singular - ili); Adana, Adiyaman, Afyonkarahisar, Agri, Aksaray, Amasya, Ankara, Antalya, Ardahan, Artvin, Aydin, Balikesir, Bartin, Batman, Bayburt, Bilecik, Bingol, Bitlis, Bolu, Burdur, Bursa, Canakkale, Cankiri, Corum, Denizli, Diyarbakir, Duzce, Edirne, Elazig, Erzincan, Erzurum, Eskisehir, Gaziantep, Giresun, Gumushane, Hakkari, Hatay, Igdir, Isparta, Istanbul, Izmir (Smyrna), Kahramanmaras, Karabuk, Karaman, Kars, Kastamonu, Kayseri, Kilis, Kirikkale, Kirklareli, Kirsehir, Kocaeli, Konya, Kutahya, Malatya, Manisa, Mardin, Mersin, Mugla, Mus, Nevsehir, Nigde, Ordu, Osmaniye, Rize, Sakarya, Samsun, Sanliurfa, Siirt, Sinop, Sirnak, Sivas, Tekirdag, Tokat, Trabzon (Trebizond), Tunceli, Usak, Van, Yalova, Yozgat, Zonguldak"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "29 October 1923 (republic proclaimed, succeeding the Ottoman Empire)",
-          "value": "29 October 1923 (republic proclaimed, succeeding the Ottoman Empire)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Republic Day, 29 October (1923)",
-          "value": "Republic Day, 29 October (1923)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1944,14 +1956,6 @@
           "value": "Democracy and Progress Party or DEVA<br />Democrat Party or DP<br />Democratic Regions Party or DBP<br />Felicity Party (Saadet Party) or SP<br />Free Cause Party or HUDA PAR<br />Future Party (Gelecek Partisi) or GP<br />Good Party or IYI<br />Grand Unity Party or BBP&nbsp;<br />Justice and Development Party or AKP&nbsp;<br />Labor and Freedom Alliance (electoral alliance includes YSGP, HDP, TIP)<br />Nationalist Movement Party or MHP&nbsp;<br />New Welfare Party or YRP&nbsp;<br />Party of Greens and the Left Future or YSGP&nbsp;<br />People's Alliance (electoral alliance includes AKP, BBP, MHP, YRP)<br />Peoples' Democratic Party or HDP<br />Republican People's Party or CHP&nbsp;<br />Workers' Party of Turkey or TIP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB (nonregional member), Australia Group, BIS, BSEC, CBSS (observer), CD, CE, CERN (observer), CICA, CPLP (associate observer), D-8, EAPC, EBRD, ECO, EU (candidate country), FAO, FATF, G-20, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NATO, NEA, NSG, OAS (observer), OECD, OIC, OPCW, OSCE, Pacific Alliance (observer), Paris Club (associate), PCA, PIF (partner), SCO (dialogue member), SELEC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNOOSA, UNRWA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC<br><br><strong>note</strong>: Turkey is an EU candidate country whose satisfactory completion of accession criteria is required before being granted full EU membership",
-          "value": "ADB (nonregional member), Australia Group, BIS, BSEC, CBSS (observer), CD, CE, CERN (observer), CICA, CPLP (associate observer), D-8, EAPC, EBRD, ECO, EU (candidate country), FAO, FATF, G-20, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NATO, NEA, NSG, OAS (observer), OECD, OIC, OPCW, OSCE, Pacific Alliance (observer), Paris Club (associate), PCA, PIF (partner), SCO (dialogue member), SELEC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNOOSA, UNRWA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
-          "field_note": "<strong>note</strong>: Turkey is an EU candidate country whose satisfactory completion of accession criteria is required before being granted full EU membership"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -2052,6 +2056,28 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB (nonregional member), Australia Group, BIS, BSEC, CBSS (observer), CD, CE, CERN (observer), CICA, CPLP (associate observer), D-8, EAPC, EBRD, ECO, EU (candidate country), FAO, FATF, G-20, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NATO, NEA, NSG, OAS (observer), OECD, OIC, OPCW, OSCE, Pacific Alliance (observer), Paris Club (associate), PCA, PIF (partner), SCO (dialogue member), SELEC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNOOSA, UNRWA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC<br><br><strong>note</strong>: Turkey is an EU candidate country whose satisfactory completion of accession criteria is required before being granted full EU membership",
+          "value": "ADB (nonregional member), Australia Group, BIS, BSEC, CBSS (observer), CD, CE, CERN (observer), CICA, CPLP (associate observer), D-8, EAPC, EBRD, ECO, EU (candidate country), FAO, FATF, G-20, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NATO, NEA, NSG, OAS (observer), OECD, OIC, OPCW, OSCE, Pacific Alliance (observer), Paris Club (associate), PCA, PIF (partner), SCO (dialogue member), SELEC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNOOSA, UNRWA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+          "field_note": "<strong>note</strong>: Turkey is an EU candidate country whose satisfactory completion of accession criteria is required before being granted full EU membership"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "29 October 1923 (republic proclaimed, succeeding the Ottoman Empire)",
+          "value": "29 October 1923 (republic proclaimed, succeeding the Ottoman Empire)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Republic Day, 29 October (1923)",
+          "value": "Republic Day, 29 October (1923)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -2062,8 +2088,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "vertical crescent moon with adjacent five-pointed star; national colors: red, white",
-          "value": "vertical crescent moon with adjacent five-pointed star; national colors: red, white"
+          "content": "vertical crescent moon with adjacent five-pointed star",
+          "value": "vertical crescent moon with adjacent five-pointed star"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white",
+          "value": "red, white"
         },
         {
           "name": "National anthem",
@@ -3551,8 +3584,8 @@
           "name": "Military deployments",
           "field_id": 412,
           "comparative": false,
-          "content": "estimated few hundred (Azerbaijan); 250 Bosnia-Herzegovina (EUFOR); approximately 30-35,000 Cyprus; 800 Kosovo (NATO/KFOR); 130 Lebanon (UNIFIL); estimated 500 Libya; up to 5,000 Qatar; approximately 800 Somalia (training mission) (2024)<br><br><strong>note:</strong> Turkey maintains military forces in both Iraq and Syria; size estimates vary as some forces are long-term deployments while others are deployed for specific operations",
-          "value": "estimated few hundred (Azerbaijan); 250 Bosnia-Herzegovina (EUFOR); approximately 30-35,000 Cyprus; 800 Kosovo (NATO/KFOR); 130 Lebanon (UNIFIL); estimated 500 Libya; up to 5,000 Qatar; approximately 800 Somalia (training mission)",
+          "content": "estimated 2-300 Azerbaijan; 250 Bosnia-Herzegovina (EUFOR); approximately 30-35,000 Cyprus; 800 Kosovo (NATO/KFOR); 130 Lebanon (UNIFIL); estimated 500 Libya; up to 5,000 Qatar; approximately 800 Somalia (2024)<br><br><strong>note:</strong> Turkey maintains military forces in both Iraq and Syria; size estimates vary as some forces are long-term deployments while others are deployed for specific operations",
+          "value": "estimated 2-300 Azerbaijan; 250 Bosnia-Herzegovina (EUFOR); approximately 30-35,000 Cyprus; 800 Kosovo (NATO/KFOR); 130 Lebanon (UNIFIL); estimated 500 Libya; up to 5,000 Qatar; approximately 800 Somalia",
           "info_date": "2024",
           "field_note": "<strong>note:</strong> Turkey maintains military forces in both Iraq and Syria; size estimates vary as some forces are long-term deployments while others are deployed for specific operations"
         },

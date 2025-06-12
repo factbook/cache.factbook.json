@@ -1,9 +1,9 @@
 {
   "name": "Tuvalu",
   "code": "TV",
-  "published": "2025-06-05 00:16:29 -0400",
+  "published": "2025-06-11 00:17:19 -0400",
   "region": "Australia and Oceania",
-  "updated": "2025-06-04 12:59:42 -0400",
+  "updated": "2025-06-10 10:55:04 -0400",
   "media": [
     {
       "type": "flag",
@@ -753,14 +753,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "20% of GDP (2021)",
-          "value": "20",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "20% of GDP (2021)<br><br>11.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "20% of GDP (2021)",
+              "value": "20",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "11.2% of national budget (2022 est.)",
+              "value": "11.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -972,13 +986,28 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
+          "content": "15.8% of GDP (2023 est.)<br><br>17% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "15.8% of GDP (2023 est.)",
+              "value": "15.8",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "17% national budget (2024 est.)",
+              "value": "17",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
@@ -1312,20 +1341,6 @@
           "value": "7 island councils and 1 town council*; Funafuti*, Nanumaga, Nanumea, Niutao, Nui, Nukufetau, Nukulaelae, Vaitupu"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1 October 1978 (from the UK)",
-          "value": "1 October 1978 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 1 October (1978)",
-          "value": "Independence Day, 1 October (1978)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1540,13 +1555,6 @@
           "value": "there are no political parties, but members of parliament usually align themselves in informal groupings"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, ADB, AOSIS, C, FAO, IBRD, IDA, IFAD, IFRCS (observer), ILO, IMF, IMO, IOC, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO, WMO",
-          "value": "ACP, ADB, AOSIS, C, FAO, IBRD, IDA, IFAD, IFRCS (observer), ILO, IMF, IMO, IOC, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO, WMO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1600,6 +1608,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, ADB, AOSIS, C, FAO, IBRD, IDA, IFAD, IFRCS (observer), ILO, IMF, IMO, IOC, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO, WMO",
+          "value": "ACP, ADB, AOSIS, C, FAO, IBRD, IDA, IFAD, IFRCS (observer), ILO, IMF, IMO, IOC, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO, WMO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1 October 1978 (from the UK)",
+          "value": "1 October 1978 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 1 October (1978)",
+          "value": "Independence Day, 1 October (1978)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1610,8 +1639,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "maneapa (native meeting house); national colors: light blue, yellow",
-          "value": "maneapa (native meeting house); national colors: light blue, yellow"
+          "content": "maneapa (native meeting house)",
+          "value": "maneapa (native meeting house)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "light blue, yellow",
+          "value": "light blue, yellow"
         },
         {
           "name": "National anthem",

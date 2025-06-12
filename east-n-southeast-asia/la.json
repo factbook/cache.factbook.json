@@ -1,9 +1,9 @@
 {
   "name": "Laos",
   "code": "LA",
-  "published": "2025-06-05 00:09:25 -0400",
+  "published": "2025-06-11 00:10:20 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-06-04 14:58:34 -0400",
+  "updated": "2025-06-10 10:54:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -834,14 +834,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "2.7% of GDP (2021)",
-          "value": "2.7",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "2.7% of GDP (2021)<br><br>4.3% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "2.7% of GDP (2021)",
+              "value": "2.7",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "4.3% of national budget (2022 est.)",
+              "value": "4.3",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1063,48 +1077,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "2.3% of GDP (2020 est.)",
-          "value": "2.3",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "1.2% of GDP (2023 est.)<br><br>9.8% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "1.2% of GDP (2023 est.)",
+              "value": "1.2",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "9.8% national budget (2023 est.)",
+              "value": "9.8",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>87.1%<br><br><strong>male: </strong>91.4%<br><br><strong>female: </strong>81.4% (2021)",
+          "content": "<strong>total population: </strong>85% (2015 est.)<br><br><strong>male: </strong>90% (2015 est.)<br><br><strong>female: </strong>79% (2015 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "87.1%",
+              "content": "85% (2015 est.)",
               "title": "total population",
-              "value": "87.1",
+              "value": "85",
+              "estimated": true,
+              "info_date": "2015",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "91.4%",
+              "content": "90% (2015 est.)",
               "title": "male",
-              "value": "91.4",
+              "value": "90",
+              "estimated": true,
+              "info_date": "2015",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "81.4% (2021)",
+              "content": "79% (2015 est.)",
               "title": "female",
-              "value": "81.4",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "79",
+              "estimated": true,
+              "info_date": "2015",
               "suffix": "%"
             }
           ]
@@ -1487,20 +1513,6 @@
           "value": "17 provinces (khoueng, singular and plural) and 1 prefecture* (kampheng nakhon); Attapu, Bokeo, Bolikhamxay, Champasak, Houaphanh, Khammouan, Louangnamtha, Louangphabang (Luang Prabang), Oudomxai, Phongsali, Salavan, Savannakhet, Viangchan (Vientiane)*, Viangchan, Xaignabouli, Xaisomboun, Xekong, Xiangkhouang"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "19 July 1949 (from France by the Franco-Lao General Convention); 22 October 1953 (Franco-Lao Treaty recognizes full independence)",
-          "value": "19 July 1949 (from France by the Franco-Lao General Convention); 22 October 1953 (Franco-Lao Treaty recognizes full independence)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Republic Day (National Day), 2 December (1975)",
-          "value": "Republic Day (National Day), 2 December (1975)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1716,13 +1728,6 @@
           "field_note": "<strong>note:</strong>&nbsp; other parties proscribed"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB, ARF, ASEAN, CP, EAS, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IPU, ISO (subscriber), ITU, MIGA, NAM, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ADB, ARF, ASEAN, CP, EAS, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IPU, ISO (subscriber), ITU, MIGA, NAM, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1805,6 +1810,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB, ARF, ASEAN, CP, EAS, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IPU, ISO (subscriber), ITU, MIGA, NAM, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ADB, ARF, ASEAN, CP, EAS, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IPU, ISO (subscriber), ITU, MIGA, NAM, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "19 July 1949 (from France); 22 October 1953 (Franco-Lao Treaty recognizes full independence)",
+          "value": "19 July 1949 (from France); 22 October 1953 (Franco-Lao Treaty recognizes full independence)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Republic Day (National Day), 2 December (1975)",
+          "value": "Republic Day (National Day), 2 December (1975)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1815,8 +1841,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "elephant; national colors: red, white, blue",
-          "value": "elephant; national colors: red, white, blue"
+          "content": "elephant",
+          "value": "elephant"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white, blue",
+          "value": "red, white, blue"
         },
         {
           "name": "National anthem",

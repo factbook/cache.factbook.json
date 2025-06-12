@@ -1,9 +1,9 @@
 {
   "name": "Congo, Democratic Republic of the",
   "code": "CG",
-  "published": "2025-06-05 00:03:38 -0400",
+  "published": "2025-06-11 00:03:34 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:33 -0400",
+  "updated": "2025-06-10 10:54:55 -0400",
   "media": [
     {
       "type": "flag",
@@ -853,14 +853,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "3.8% of GDP (2021)",
-          "value": "3.8",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.8% of GDP (2021)<br><br>4% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "3.8% of GDP (2021)",
+              "value": "3.8",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "4% of national budget (2022 est.)",
+              "value": "4",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1072,48 +1086,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "2.7% of GDP (2021 est.)",
-          "value": "2.7",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "2.8% of GDP (2022 est.)<br><br>18.4% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "2.8% of GDP (2022 est.)",
+              "value": "2.8",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "18.4% national budget (2022 est.)",
+              "value": "18.4",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write French, Lingala, Kingwana, or Tshiluba<br><br><strong>total population: </strong>80%<br><br><strong>male: </strong>89.5%<br><br><strong>female: </strong>70.8% (2021)",
+          "content": "<strong>total population: </strong>73.6% (2018 est.)<br><br><strong>male: </strong>87.5% (2018 est.)<br><br><strong>female: </strong>61.6% (2018 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write French, Lingala, Kingwana, or Tshiluba",
-              "value": "age 15 and over can read and write French, Lingala, Kingwana, or Tshiluba",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "80%",
+              "content": "73.6% (2018 est.)",
               "title": "total population",
-              "value": "80",
+              "value": "73.6",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "89.5%",
+              "content": "87.5% (2018 est.)",
               "title": "male",
-              "value": "89.5",
+              "value": "87.5",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "70.8% (2021)",
+              "content": "61.6% (2018 est.)",
               "title": "female",
-              "value": "70.8",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "61.6",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             }
           ]
@@ -1271,21 +1297,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>widespread lack of access: </strong><em>due to internal conflict in eastern regions and high food prices - </em>according to an October 2022 analysis, 24.5 million people were projected to experience acute food insecurity between January and June 2023; this is due to the intensification of the conflict in the northeastern provinces, which, among other factors, has prevented completion of the harvests and likely will reduce food availability in the months to come (2023)",
-          "subfields": [
-            {
-              "name": "widespread lack of access",
-              "content": "<em>due to internal conflict in eastern regions and high food prices - </em>according to an October 2022 analysis, 24.5 million people were projected to experience acute food insecurity between January and June 2023; this is due to the intensification of the conflict in the northeastern provinces, which, among other factors, has prevented completion of the harvests and likely will reduce food availability in the months to come (2023)",
-              "value": "<em>due to internal conflict in eastern regions and high food prices - </em>according to an October 2022 analysis, 24.5 million people were projected to experience acute food insecurity between January and June 2023; this is due to the intensification of the conflict in the northeastern provinces, which, among other factors, has prevented completion of the harvests and likely will reduce food availability in the months to come",
-              "title": "widespread lack of access",
-              "info_date": "2023"
             }
           ]
         },
@@ -1540,20 +1551,6 @@
           "comparative": false,
           "content": "26 provinces (provinces, singular - province); Bas-Uele (Lower Uele), Equateur, Haut-Katanga (Upper Katanga), Haut-Lomami (Upper Lomami), Haut-Uele (Upper Uele), Ituri, Kasai, Kasai-Central, Kasai-Oriental (East Kasai), Kinshasa, Kongo Central, Kwango, Kwilu, Lomami, Lualaba, Mai-Ndombe, Maniema, Mongala, Nord-Kivu (North Kivu), Nord-Ubangi (North Ubangi), Sankuru, Sud-Kivu (South Kivu), Sud-Ubangi (South Ubangi), Tanganyika, Tshopo, Tshuapa",
           "value": "26 provinces (provinces, singular - province); Bas-Uele (Lower Uele), Equateur, Haut-Katanga (Upper Katanga), Haut-Lomami (Upper Lomami), Haut-Uele (Upper Uele), Ituri, Kasai, Kasai-Central, Kasai-Oriental (East Kasai), Kinshasa, Kongo Central, Kwango, Kwilu, Lomami, Lualaba, Mai-Ndombe, Maniema, Mongala, Nord-Kivu (North Kivu), Nord-Ubangi (North Ubangi), Sankuru, Sud-Kivu (South Kivu), Sud-Ubangi (South Ubangi), Tanganyika, Tshopo, Tshuapa"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "30 June 1960 (from Belgium)",
-          "value": "30 June 1960 (from Belgium)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 30 June (1960)",
-          "value": "Independence Day, 30 June (1960)"
         },
         {
           "name": "Legal system",
@@ -1836,13 +1833,6 @@
           "value": "Christian Democrat Party or PDC&nbsp;<br />Congolese Rally for Democracy or RCD&nbsp;<br />Convention of Christian Democrats or CDC&nbsp;<br />Engagement for Citizenship and Development or ECIDE&nbsp;<br />Forces of Renewal or FR&nbsp;<br />Movement for the Liberation of the Congo or MLC&nbsp;<br />Nouvel Elan&nbsp;<br />Our Congo or CNB (\"Congo Na Biso\")&nbsp;<br />People's Party for Reconstruction and Democracy or PPRD&nbsp;<br />Social Movement for Renewal or MSR&nbsp;<br />Together for Change (\"Ensemble\")&nbsp;<br />Unified Lumumbist Party or PALU<br />Union for the Congolese Nation or UNC&nbsp;<br />Union for Democracy and Social Progress or UDPS"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AU, CEMAC, CEPGL, COMESA, EAC, EITI (compliant country), FAO, G-24, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LCBC (observer), MIGA, NAM, OIF, OPCW, PCA, SADC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, AU, CEMAC, CEPGL, COMESA, EAC, EITI (compliant country), FAO, G-24, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LCBC (observer), MIGA, NAM, OIF, OPCW, PCA, SADC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1931,6 +1921,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AU, CEMAC, CEPGL, COMESA, EAC, EITI (compliant country), FAO, G-24, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LCBC (observer), MIGA, NAM, OIF, OPCW, PCA, SADC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, AU, CEMAC, CEPGL, COMESA, EAC, EITI (compliant country), FAO, G-24, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LCBC (observer), MIGA, NAM, OIF, OPCW, PCA, SADC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "30 June 1960 (from Belgium)",
+          "value": "30 June 1960 (from Belgium)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 30 June (1960)",
+          "value": "Independence Day, 30 June (1960)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1941,8 +1952,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "leopard; national colors: sky blue, red, yellow",
-          "value": "leopard; national colors: sky blue, red, yellow"
+          "content": "leopard",
+          "value": "leopard"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "sky blue, red, yellow",
+          "value": "sky blue, red, yellow"
         },
         {
           "name": "National anthem",

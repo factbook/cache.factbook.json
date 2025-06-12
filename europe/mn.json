@@ -1,9 +1,9 @@
 {
   "name": "Monaco",
   "code": "MN",
-  "published": "2025-06-05 00:10:58 -0400",
+  "published": "2025-06-11 00:11:50 -0400",
   "region": "Europe",
-  "updated": "2025-06-04 14:58:35 -0400",
+  "updated": "2025-06-10 10:55:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -782,14 +782,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "3.7% of GDP (2021)",
-          "value": "3.7",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.7% of GDP (2021)<br><br>12% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "3.7% of GDP (2021)",
+              "value": "3.7",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "12% of national budget (2022 est.)",
+              "value": "12",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -850,14 +864,28 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "1.2% of GDP (2019 est.)",
-          "value": "1.2",
-          "estimated": true,
-          "info_date": "2019",
-          "suffix": "% of GDP"
+          "content": "1.2% of GDP (2022 est.)<br><br>7.7% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "1.2% of GDP (2022 est.)",
+              "value": "1.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "7.7% national budget (2023 est.)",
+              "value": "7.7",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
@@ -1199,20 +1227,6 @@
           "value": "none; there are no first-order administrative divisions as defined by the US Government, but there are 4 quarters (quartiers, singular - quartier); Fontvieille, La Condamine, Monaco-Ville, Monte-Carlo; note - Moneghetti, a part of La Condamine, is sometimes called the 5th quarter of Monaco"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1419 (beginning of permanent rule by the House of GRIMALDI)",
-          "value": "1419 (beginning of permanent rule by the House of GRIMALDI)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "National Day (Saint Rainier's Day), 19 November (1857)",
-          "value": "National Day (Saint Rainier's Day), 19 November (1857)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1421,13 +1435,6 @@
           "value": "Monegasque National Union (includes Horizon Monaco, Primo!, Union Monegasque)<br />Horizon Monaco&nbsp;<br />Priorite Monaco or Primo!&nbsp;<br />Union Monegasque&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "CD, CE, FAO, IAEA, ICAO, ICC (national committees), ICRM, IFRCS, IHO, IMO, IMSO, Interpol, IOC, IPU, ITSO, ITU, OAS (observer), OIF, OPCW, OSCE, Schengen Convention (de facto member), UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WHO, WIPO, WMO",
-          "value": "CD, CE, FAO, IAEA, ICAO, ICC (national committees), ICRM, IFRCS, IHO, IMO, IMSO, Interpol, IOC, IPU, ITSO, ITU, OAS (observer), OIF, OPCW, OSCE, Schengen Convention (de facto member), UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WHO, WIPO, WMO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1486,6 +1493,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "CD, CE, FAO, IAEA, ICAO, ICC (national committees), ICRM, IFRCS, IHO, IMO, IMSO, Interpol, IOC, IPU, ITSO, ITU, OAS (observer), OIF, OPCW, OSCE, Schengen Convention (de facto member), UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WHO, WIPO, WMO",
+          "value": "CD, CE, FAO, IAEA, ICAO, ICC (national committees), ICRM, IFRCS, IHO, IMO, IMSO, Interpol, IOC, IPU, ITSO, ITU, OAS (observer), OIF, OPCW, OSCE, Schengen Convention (de facto member), UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WHO, WIPO, WMO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1419 (beginning of permanent rule by the House of GRIMALDI)",
+          "value": "1419 (beginning of permanent rule by the House of GRIMALDI)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "National Day (Saint Rainier's Day), 19 November (1857)",
+          "value": "National Day (Saint Rainier's Day), 19 November (1857)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1497,8 +1525,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "red and white lozenges (diamond shapes); national colors: red, white",
-          "value": "red and white lozenges (diamond shapes); national colors: red, white"
+          "content": "red and white lozenges (diamond shapes)",
+          "value": "red and white lozenges (diamond shapes)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white",
+          "value": "red, white"
         },
         {
           "name": "National anthem",

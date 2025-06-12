@@ -1,9 +1,9 @@
 {
   "name": "Aruba",
   "code": "AA",
-  "published": "2025-05-28 00:00:09 -0400",
+  "published": "2025-06-11 00:00:02 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-05-27 17:00:43 -0400",
+  "updated": "2025-06-10 10:54:54 -0400",
   "media": [
     {
       "type": "flag",
@@ -817,27 +817,35 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "5.5% of GDP (2016 est.)",
-          "value": "5.5",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% of GDP"
+          "content": "3.6% of GDP (2021 est.)<br><br>19.4% national budget (2019 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.6% of GDP (2021 est.)",
+              "value": "3.6",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "19.4% national budget (2019 est.)",
+              "value": "19.4",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>97.8%<br><br><strong>male: </strong>97.8%<br><br><strong>female: </strong>97.8% (2018)",
+          "content": "<strong>total population: </strong>97.8%<br><br><strong>male: </strong>97.8%<br><br><strong>female: </strong>97.8% (2018)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "97.8%",
@@ -1150,20 +1158,6 @@
           "field_note": "<strong>note:</strong> Aruba is one of four constituent countries of the Kingdom of the Netherlands; the other three are the Netherlands, Curacao, and Sint Maarten"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "none (part of the Kingdom of the Netherlands)",
-          "value": "none (part of the Kingdom of the Netherlands)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "National Anthem and Flag Day, 18 March (1976)",
-          "value": "National Anthem and Flag Day, 18 March (1976)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1338,13 +1332,6 @@
           "value": "Accion21<br />Aruban People's Party or AVP<br />Democratic Network or RED<br />Movimiento Aruba Soberano (Aruban Sovereignty Movement) or MAS<br />People's Electoral Movement Party or MEP<br />Pueblo Orguyoso y Respeta or POR<br />RAIZ (ROOTS)"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACS (associate), Caricom (observer), FATF, ILO, IMF, Interpol, IOC, ITUC (NGOs), UNESCO (associate), UNWTO (associate), UPU",
-          "value": "ACS (associate), Caricom (observer), FATF, ILO, IMF, Interpol, IOC, ITUC (NGOs), UNESCO (associate), UNWTO (associate), UPU"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "content": "none (represented by the Kingdom of the Netherlands)"
@@ -1364,6 +1351,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACS (associate), Caricom (observer), FATF, ILO, IMF, Interpol, IOC, ITUC (NGOs), UNESCO (associate), UNWTO (associate), UPU",
+          "value": "ACS (associate), Caricom (observer), FATF, ILO, IMF, Interpol, IOC, ITUC (NGOs), UNESCO (associate), UNWTO (associate), UPU"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "none (part of the Kingdom of the Netherlands)",
+          "value": "none (part of the Kingdom of the Netherlands)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "National Anthem and Flag Day, 18 March (1976)",
+          "value": "National Anthem and Flag Day, 18 March (1976)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1374,8 +1382,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Hooiberg (Haystack) Hill; national colors: blue, yellow, red, white",
-          "value": "Hooiberg (Haystack) Hill; national colors: blue, yellow, red, white"
+          "content": "Hooiberg (Haystack) Hill",
+          "value": "Hooiberg (Haystack) Hill"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, yellow, red, white",
+          "value": "blue, yellow, red, white"
         },
         {
           "name": "National anthem",

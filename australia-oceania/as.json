@@ -1,9 +1,9 @@
 {
   "name": "Australia",
   "code": "AS",
-  "published": "2025-06-05 00:01:07 -0400",
+  "published": "2025-06-11 00:01:02 -0400",
   "region": "Australia and Oceania",
-  "updated": "2025-06-04 14:58:32 -0400",
+  "updated": "2025-06-10 10:55:01 -0400",
   "media": [
     {
       "type": "flag",
@@ -972,14 +972,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "10.5% of GDP (2021)",
-          "value": "10.5",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "10.5% of GDP (2021)<br><br>20.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "10.5% of GDP (2021)",
+              "value": "10.5",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "20.2% of national budget (2022 est.)",
+              "value": "20.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1158,14 +1172,28 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "6.1% of GDP (2020 est.)",
-          "value": "6.1",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "5.2% of GDP (2022 est.)<br><br>13.9% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "5.2% of GDP (2022 est.)",
+              "value": "5.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.9% national budget (2022 est.)",
+              "value": "13.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
@@ -1601,20 +1629,6 @@
           "value": "Ashmore and Cartier Islands, Christmas Island, Cocos (Keeling) Islands, Coral Sea Islands, Heard Island and McDonald Islands, Jervis Bay, Norfolk Island (7)"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1 January 1901 (from the federation of UK colonies)",
-          "value": "1 January 1901 (from the federation of UK colonies)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Australia Day (commemorates the arrival of the First Fleet of Australian settlers), 26 January (1788); ANZAC Day (commemorates the anniversary of the landing of troops of the Australian and New Zealand Army Corps during World War I at Gallipoli, Turkey), 25 April (1915)",
-          "value": "Australia Day (commemorates the arrival of the First Fleet of Australian settlers), 26 January (1788); ANZAC Day (commemorates the anniversary of the landing of troops of the Australian and New Zealand Army Corps during World War I at Gallipoli, Turkey), 25 April (1915)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1890,13 +1904,6 @@
           "field_note": "<strong>note:</strong> the Labor Party is Australia&rsquo;s oldest political party, established federally in 1901; the present Liberal Party was formed in 1944; the Country Party was formed in 1920, renamed the National Country Party in 1975, the National Party of Australia in 1982, and since 2003 has been known as the Nationals; since the general election of 1949, the Liberal Party and the Nationals (under various names) when forming government have done so as a coalition"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB, ANZUS, APEC, ARF, ASEAN (dialogue partner), Australia Group, BIS, C, CD, CP, EAS, EBRD, EITI (implementing country), FAO, FATF, G-20, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NEA, NSG, OECD, OPCW, OSCE (partner), Pacific Alliance (observer), Paris Club, PCA, PIF, SAARC (observer), Quad, SICA (observer), Sparteca, SPC, UN, UNCTAD, UNESCO, UNHCR, UNMISS, UNMIT, UNOOSA, UNRWA, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
-          "value": "ADB, ANZUS, APEC, ARF, ASEAN (dialogue partner), Australia Group, BIS, C, CD, CP, EAS, EBRD, EITI (implementing country), FAO, FATF, G-20, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NEA, NSG, OECD, OPCW, OSCE (partner), Pacific Alliance (observer), Paris Club, PCA, PIF, SAARC (observer), Quad, SICA (observer), Sparteca, SPC, UN, UNCTAD, UNESCO, UNHCR, UNMISS, UNMIT, UNOOSA, UNRWA, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1991,6 +1998,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB, ANZUS, APEC, ARF, ASEAN (dialogue partner), Australia Group, BIS, C, CD, CP, EAS, EBRD, EITI (implementing country), FAO, FATF, G-20, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NEA, NSG, OECD, OPCW, OSCE (partner), Pacific Alliance (observer), Paris Club, PCA, PIF, SAARC (observer), Quad, SICA (observer), Sparteca, SPC, UN, UNCTAD, UNESCO, UNHCR, UNMISS, UNMIT, UNOOSA, UNRWA, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+          "value": "ADB, ANZUS, APEC, ARF, ASEAN (dialogue partner), Australia Group, BIS, C, CD, CP, EAS, EBRD, EITI (implementing country), FAO, FATF, G-20, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NEA, NSG, OECD, OPCW, OSCE (partner), Pacific Alliance (observer), Paris Club, PCA, PIF, SAARC (observer), Quad, SICA (observer), Sparteca, SPC, UN, UNCTAD, UNESCO, UNHCR, UNMISS, UNMIT, UNOOSA, UNRWA, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1 January 1901 (from the federation of UK colonies)",
+          "value": "1 January 1901 (from the federation of UK colonies)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Australia Day (commemorates the arrival of the First Fleet of Australian settlers), 26 January (1788); ANZAC Day (commemorates the anniversary of the landing of troops of the Australian and New Zealand Army Corps during World War I at Gallipoli, Turkey), 25 April (1915)",
+          "value": "Australia Day (commemorates the arrival of the First Fleet of Australian settlers), 26 January (1788); ANZAC Day (commemorates the anniversary of the landing of troops of the Australian and New Zealand Army Corps during World War I at Gallipoli, Turkey), 25 April (1915)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -2001,15 +2029,22 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Commonwealth Star (seven-pointed Star of Federation), golden wattle tree (Acacia pycnantha), kangaroo, emu; national colors: green, gold",
-          "value": "Commonwealth Star (seven-pointed Star of Federation), golden wattle tree (Acacia pycnantha), kangaroo, emu; national colors: green, gold"
+          "content": "Commonwealth Star (seven-pointed Star of Federation), golden wattle tree (<em>Acacia pycnantha</em>), kangaroo, emu",
+          "value": "Commonwealth Star (seven-pointed Star of Federation), golden wattle tree (<em>Acacia pycnantha</em>), kangaroo, emu"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "green, gold",
+          "value": "green, gold"
         },
         {
           "name": "National coat of arms",
           "field_id": 468,
           "comparative": false,
-          "content": "King George V granted the current Commonwealth Coat of Arms to Australia on 19 September 1912. The center of the shield has the symbols of Australia&rsquo;s six states. The kangaroo and the emu symbolize a nation moving forward, since neither animal can move backward easily. The gold Commonwealth Star sits above the shield, with six of the star&rsquo;s points representing the Australian states and the seventh point representing the territories. The gold and blue in the wreath under the star are the livery, or identifying, colors for the coat of arms. Australia&rsquo;s floral emblem, the golden wattle, frames the shield.",
-          "value": "King George V granted the current Commonwealth Coat of Arms to Australia on 19 September 1912. The center of the shield has the symbols of Australia&rsquo;s six states. The kangaroo and the emu symbolize a nation moving forward, since neither animal can move backward easily. The gold Commonwealth Star sits above the shield, with six of the star&rsquo;s points representing the Australian states and the seventh point representing the territories. The gold and blue in the wreath under the star are the livery, or identifying, colors for the coat of arms. Australia&rsquo;s floral emblem, the golden wattle, frames the shield.",
+          "content": "King George V of the United Kingdom granted the current Commonwealth Coat of Arms to Australia on 19 September 1912; the center of the shield has the symbols of Australia&rsquo;s six states; the kangaroo and the emu symbolize a nation moving forward, since neither animal can move backward easily; the gold Commonwealth star sits above the shield, with six points representing the Australian states and the seventh representing the territories; the gold and blue in the wreath under the star are the livery, or identifying, colors for the coat of arms; Australia&rsquo;s floral emblem, the golden wattle, frames the shield",
+          "value": "King George V of the United Kingdom granted the current Commonwealth Coat of Arms to Australia on 19 September 1912; the center of the shield has the symbols of Australia&rsquo;s six states; the kangaroo and the emu symbolize a nation moving forward, since neither animal can move backward easily; the gold Commonwealth star sits above the shield, with six points representing the Australian states and the seventh representing the territories; the gold and blue in the wreath under the star are the livery, or identifying, colors for the coat of arms; Australia&rsquo;s floral emblem, the golden wattle, frames the shield",
           "media": [
             {
               "type": "image",

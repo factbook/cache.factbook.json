@@ -1,9 +1,9 @@
 {
   "name": "Seychelles",
   "code": "SE",
-  "published": "2025-06-05 00:14:34 -0400",
+  "published": "2025-06-11 00:15:17 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-10 11:21:25 -0400",
   "media": [
     {
       "type": "flag",
@@ -772,14 +772,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "5.3% of GDP (2021)",
-          "value": "5.3",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "5.3% of GDP (2021)<br><br>10.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "5.3% of GDP (2021)",
+              "value": "5.3",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "10.2% of national budget (2022 est.)",
+              "value": "10.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -958,27 +972,35 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "5.2% of GDP (2020 est.)",
-          "value": "5.2",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "4.5% of GDP (2023 est.)<br><br>13.1% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "4.5% of GDP (2023 est.)",
+              "value": "4.5",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.1% national budget (2024 est.)",
+              "value": "13.1",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>95.9%<br><br><strong>male: </strong>95.4%<br><br><strong>female: </strong>96.4% (2018)",
+          "content": "<strong>total population: </strong>95.9%<br><br><strong>male: </strong>95.4%<br><br><strong>female: </strong>96.4% (2018)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "95.9%",
@@ -1348,20 +1370,6 @@
           "value": "27 administrative districts; Anse aux Pins, Anse Boileau, Anse Etoile, Anse Royale, Au Cap, Baie Lazare, Baie Sainte Anne, Beau Vallon, Bel Air, Bel Ombre, Cascade, Glacis, Grand Anse Mahe, Grand Anse Praslin, Ile Pers&eacute;v&eacute;rance I, Ile Pers&eacute;v&eacute;rance II, La Digue, La Rivi&egrave;re Anglaise, Les Mamelles, Mont Buxton, Mont Fleuri, Plaisance, Pointe Larue, Port Glaud, Roche Caiman, Saint Louis, Takamaka"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "29 June 1976 (from the UK)",
-          "value": "29 June 1976 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Constitution Day, 18 June (1993); Independence Day (National Day), 29 June (1976)",
-          "value": "Constitution Day, 18 June (1993); Independence Day (National Day), 29 June (1976)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1577,13 +1585,6 @@
           "value": "Seychelles Party for Social Justice and Democracy or SPSJD<br />Seychellois Democratic Alliance or LDS (Linyon Demokratik Seselwa/Union D&eacute;mocratique Seychelloise)<br />Seychelles National Party or SNP<br />United Seychelles or US"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AOSIS, AU, C, CD, COMESA, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, InOC, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, MIGA, NAM, OIF, OPCW, SADC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, AOSIS, AU, C, CD, COMESA, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, InOC, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, MIGA, NAM, OIF, OPCW, SADC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1648,6 +1649,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AOSIS, AU, C, CD, COMESA, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, InOC, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, MIGA, NAM, OIF, OPCW, SADC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, AOSIS, AU, C, CD, COMESA, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, InOC, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, MIGA, NAM, OIF, OPCW, SADC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "29 June 1976 (from the UK)",
+          "value": "29 June 1976 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Constitution Day, 18 June (1993); Independence Day (National Day), 29 June (1976)",
+          "value": "Constitution Day, 18 June (1993); Independence Day (National Day), 29 June (1976)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1658,8 +1680,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "coco de mer (sea coconut); national colors: blue, yellow, red, white, green",
-          "value": "coco de mer (sea coconut); national colors: blue, yellow, red, white, green"
+          "content": "coco de mer (sea coconut)",
+          "value": "coco de mer (sea coconut)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, yellow, red, white, green",
+          "value": "blue, yellow, red, white, green"
         },
         {
           "name": "National anthem",
@@ -2805,8 +2834,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "1.6% of GDP (2023 est.)<br><br>1.4% of GDP (2022 est.)<br><br>1.5% of GDP (2021 est.)<br><br>1.6% of GDP (2020 est.)<br><br>1.3% of GDP (2019 est.)",
+          "content": "1.5% of GDP (2024 est.)<br><br>1.6% of GDP (2023 est.)<br><br>1.4% of GDP (2022 est.)<br><br>1.5% of GDP (2021 est.)<br><br>1.6% of GDP (2020 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2024",
+              "content": "1.5% of GDP (2024 est.)",
+              "value": "1.5",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2023",
               "content": "1.6% of GDP (2023 est.)",
@@ -2832,13 +2868,6 @@
               "name": "Military Expenditures 2020",
               "content": "1.6% of GDP (2020 est.)",
               "value": "1.6",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "1.3% of GDP (2019 est.)",
-              "value": "1.3",
               "estimated": true,
               "suffix": "% of GDP"
             }

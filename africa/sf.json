@@ -1,9 +1,9 @@
 {
   "name": "South Africa",
   "code": "SF",
-  "published": "2025-06-05 00:14:38 -0400",
+  "published": "2025-06-11 00:15:21 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-10 11:29:39 -0400",
   "media": [
     {
       "type": "flag",
@@ -870,14 +870,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "8.3% of GDP (2021)",
-          "value": "8.3",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "8.3% of GDP (2021)<br><br>16.9% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "8.3% of GDP (2021)",
+              "value": "8.3",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "16.9% of national budget (2022 est.)",
+              "value": "16.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1089,48 +1103,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "6.6% of GDP (2021 est.)",
-          "value": "6.6",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "6.7% of GDP (2024 est.)<br><br>18.6% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "6.7% of GDP (2024 est.)",
+              "value": "6.7",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "18.6% national budget (2022 est.)",
+              "value": "18.6",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>95%<br><br><strong>male: </strong>95.5%<br><br><strong>female: </strong>94.5% (2019)",
+          "content": "<strong>total population: </strong>90% (2021 est.)<br><br><strong>male: </strong>91% (2021 est.)<br><br><strong>female: </strong>89% (2021 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "95%",
+              "content": "90% (2021 est.)",
               "title": "total population",
-              "value": "95",
+              "value": "90",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "95.5%",
+              "content": "91% (2021 est.)",
               "title": "male",
-              "value": "95.5",
+              "value": "91",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "94.5% (2019)",
+              "content": "89% (2021 est.)",
               "title": "female",
-              "value": "94.5",
-              "estimated": false,
-              "info_date": "2019",
+              "value": "89",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -1512,20 +1538,6 @@
           "value": "9 provinces; Eastern Cape, Free State, Gauteng, KwaZulu-Natal, Limpopo, Mpumalanga, Northern Cape, North West, Western Cape"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "31 May 1910 (Union of South Africa formed from four British colonies: Cape Colony, Natal, Transvaal, and Orange Free State); 22 August 1934 (Status of the Union Act); 31 May 1961 (republic declared); 27 April 1994 (majority rule)",
-          "value": "31 May 1910 (Union of South Africa formed from four British colonies: Cape Colony, Natal, Transvaal, and Orange Free State); 22 August 1934 (Status of the Union Act); 31 May 1961 (republic declared); 27 April 1994 (majority rule)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Freedom Day, 27 April (1994)",
-          "value": "Freedom Day, 27 April (1994)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1802,13 +1814,6 @@
           "value": "African Christian Democratic Party or ACDP&nbsp;<br />African Independent Congress or AIC&nbsp;<br />African National Congress or ANC&nbsp;<br />African People's Convention or APC&nbsp;<br />Agang SA&nbsp;<br />Congress of the People or COPE&nbsp;<br />Democratic Alliance or DA&nbsp;<br />Economic Freedom Fighters or EFF&nbsp;<br />Freedom Front Plus or FF+&nbsp;<br />GOOD&nbsp;<br />Inkatha Freedom Party or IFP&nbsp;<br />National Freedom Party or NFP&nbsp;<br />Pan-Africanist Congress of Azania or PAC&nbsp;<br />United Christian Democratic Party or UCDP&nbsp;<br />United Democratic Movement or UDM&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AIIB, AU, BIS, BRICS, C, CD, FAO, FATF, G-20, G-24, G-5, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM, NSG, OECD (enhanced engagement), OPCW, Paris Club (associate), PCA, SACU, SADC, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNITAR, UNOOSA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
-          "value": "ACP, AfDB, AIIB, AU, BIS, BRICS, C, CD, FAO, FATF, G-20, G-24, G-5, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM, NSG, OECD (enhanced engagement), OPCW, Paris Club (associate), PCA, SACU, SADC, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNITAR, UNOOSA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1903,6 +1908,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AIIB, AU, BIS, BRICS, C, CD, FAO, FATF, G-20, G-24, G-5, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM, NSG, OECD (enhanced engagement), OPCW, Paris Club (associate), PCA, SACU, SADC, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNITAR, UNOOSA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+          "value": "ACP, AfDB, AIIB, AU, BIS, BRICS, C, CD, FAO, FATF, G-20, G-24, G-5, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM, NSG, OECD (enhanced engagement), OPCW, Paris Club (associate), PCA, SACU, SADC, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNITAR, UNOOSA, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "31 May 1910 (Union of South Africa formed from four British colonies: Cape Colony, Natal, Transvaal, and Orange Free State); 22 August 1934 (Status of the Union Act); 31 May 1961 (republic declared); 27 April 1994 (majority rule)",
+          "value": "31 May 1910 (Union of South Africa formed from four British colonies: Cape Colony, Natal, Transvaal, and Orange Free State); 22 August 1934 (Status of the Union Act); 31 May 1961 (republic declared); 27 April 1994 (majority rule)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Freedom Day, 27 April (1994)",
+          "value": "Freedom Day, 27 April (1994)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1914,8 +1940,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "springbok (antelope), king protea flower; national colors: red, green, blue, yellow, black, white",
-          "value": "springbok (antelope), king protea flower; national colors: red, green, blue, yellow, black, white"
+          "content": "springbok (antelope), king protea flower",
+          "value": "springbok (antelope), king protea flower"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, green, blue, yellow, black, white",
+          "value": "red, green, blue, yellow, black, white"
         },
         {
           "name": "National anthem",
@@ -3357,8 +3390,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "0.7% of GDP (2023 est.)<br><br>0.8% of GDP (2022 est.)<br><br>0.9% of GDP (2021 est.)<br><br>1.1% of GDP (2020 est.)<br><br>1% of GDP (2019 est.)",
+          "content": "0.7% of GDP (2024 est.)<br><br>0.7% of GDP (2023 est.)<br><br>0.8% of GDP (2022 est.)<br><br>0.9% of GDP (2021 est.)<br><br>1.1% of GDP (2020 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2024",
+              "content": "0.7% of GDP (2024 est.)",
+              "value": "0.7",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2023",
               "content": "0.7% of GDP (2023 est.)",
@@ -3384,13 +3424,6 @@
               "name": "Military Expenditures 2020",
               "content": "1.1% of GDP (2020 est.)",
               "value": "1.1",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "1% of GDP (2019 est.)",
-              "value": "1",
               "estimated": true,
               "suffix": "% of GDP"
             }

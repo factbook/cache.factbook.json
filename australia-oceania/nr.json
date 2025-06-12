@@ -1,9 +1,9 @@
 {
   "name": "Nauru",
   "code": "NR",
-  "published": "2025-06-05 00:12:37 -0400",
+  "published": "2025-06-11 00:13:13 -0400",
   "region": "Australia and Oceania",
-  "updated": "2025-06-04 14:58:35 -0400",
+  "updated": "2025-06-10 10:55:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -748,14 +748,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "13.1% of GDP (2021)",
-          "value": "13.1",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "13.1% of GDP (2021)<br><br>11.8% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "13.1% of GDP (2021)",
+              "value": "13.1",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "11.8% of national budget (2022 est.)",
+              "value": "11.8",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -924,40 +938,63 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "7.1% of GDP (2021) NA",
-          "value": "7.1",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
+          "content": "5.6% of GDP (2023 est.) NA<br><br>9.6% national budget (2018 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "5.6% of GDP (2023 est.) NA",
+              "value": "5.6",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP",
+              "subfield_note": "NA"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "9.6% national budget (2018 est.)",
+              "value": "9.6",
+              "estimated": true,
+              "info_date": "2018",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
+          "content": "<strong>total population: </strong>96.6% (2023 est.) NA<br><br><strong>male: </strong>93.4% (2023 est.) NA<br><br><strong>female: </strong>99.7% (2023 est.) NA",
           "subfields": [
             {
               "name": "total population",
-              "content": "NA",
+              "content": "96.6% (2023 est.) NA",
               "title": "total population",
+              "value": "96.6",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%",
               "subfield_note": "NA"
             },
             {
               "name": "male",
-              "content": "NA",
+              "content": "93.4% (2023 est.) NA",
               "title": "male",
+              "value": "93.4",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%",
               "subfield_note": "NA"
             },
             {
               "name": "female",
-              "content": "NA",
+              "content": "99.7% (2023 est.) NA",
               "title": "female",
+              "value": "99.7",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%",
               "subfield_note": "NA"
             }
@@ -1235,20 +1272,6 @@
           "value": "14 districts; Aiwo, Anabar, Anetan, Anibare, Baitsi, Boe, Buada, Denigomodu, Ewa, Ijuw, Meneng, Nibok, Uaboe, Yaren"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "31 January 1968 (from the Australia-, NZ-, and UK-administered UN trusteeship)",
-          "value": "31 January 1968 (from the Australia-, NZ-, and UK-administered UN trusteeship)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 31 January (1968)",
-          "value": "Independence Day, 31 January (1968)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1421,13 +1444,6 @@
           "value": "Nauru does not have formal political parties; alliances within the government are often formed based on extended family ties"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, ADB, AOSIS, C, FAO, G-77, ICAO, ICCt, IFAD, Interpol, IOC, IOM, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UPU, WHO",
-          "value": "ACP, ADB, AOSIS, C, FAO, G-77, ICAO, ICCt, IFAD, Interpol, IOC, IOM, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UPU, WHO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1480,6 +1496,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, ADB, AOSIS, C, FAO, G-77, ICAO, ICCt, IFAD, Interpol, IOC, IOM, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UPU, WHO",
+          "value": "ACP, ADB, AOSIS, C, FAO, G-77, ICAO, ICCt, IFAD, Interpol, IOC, IOM, ITU, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UPU, WHO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "31 January 1968 (from the Australia-, NZ-, and UK-administered UN trusteeship)",
+          "value": "31 January 1968 (from the Australia-, NZ-, and UK-administered UN trusteeship)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 31 January (1968)",
+          "value": "Independence Day, 31 January (1968)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1490,8 +1527,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "frigatebird, calophyllum flower; national colors: blue, yellow, white",
-          "value": "frigatebird, calophyllum flower; national colors: blue, yellow, white"
+          "content": "frigatebird, calophyllum flower",
+          "value": "frigatebird, calophyllum flower"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, yellow, white",
+          "value": "blue, yellow, white"
         },
         {
           "name": "National anthem",

@@ -1,9 +1,9 @@
 {
   "name": "Yemen",
   "code": "YM",
-  "published": "2025-06-05 00:18:21 -0400",
+  "published": "2025-06-11 00:19:30 -0400",
   "region": "Middle East",
-  "updated": "2025-06-04 13:28:59 -0400",
+  "updated": "2025-06-10 10:55:00 -0400",
   "media": [
     {
       "type": "flag",
@@ -809,14 +809,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "4.3% of GDP (2015)",
-          "value": "4.3",
-          "estimated": false,
-          "info_date": "2015",
-          "suffix": "% of GDP"
+          "content": "4.3% of GDP (2015)<br><br>2.5% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "4.3% of GDP (2015)",
+              "value": "4.3",
+              "estimated": false,
+              "info_date": "2015",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "2.5% of national budget (2022 est.)",
+              "value": "2.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1012,14 +1026,8 @@
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>70.1%<br><br><strong>male: </strong>85.1%<br><br><strong>female: </strong>55% (2015)",
+          "content": "<strong>total population: </strong>70.1%<br><br><strong>male: </strong>85.1%<br><br><strong>female: </strong>54.1% (2023 est.)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "70.1%",
@@ -1036,11 +1044,11 @@
             },
             {
               "name": "female",
-              "content": "55% (2015)",
+              "content": "54.1% (2023 est.)",
               "title": "female",
-              "value": "55",
-              "estimated": null,
-              "info_date": "2015",
+              "value": "54.1",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             }
           ]
@@ -1167,21 +1175,6 @@
               "estimated": true,
               "info_date": "2015-20",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>widespread lack of access: </strong><em>due to conflict, poverty, floods, high food and fuel prices -</em> in 2023, a partial analysis in government‑controlled areas, where approximately 25 percent of the population in acute food insecurity resides, shows that the situation remains dire; despite some improvements in security, the economic crisis and localized conflicts continue, fueled by persistent political instability, while insufficient external revenues and elevated global commodity prices on imported food limits food security (2023)",
-          "subfields": [
-            {
-              "name": "widespread lack of access",
-              "content": "<em>due to conflict, poverty, floods, high food and fuel prices -</em> in 2023, a partial analysis in government‑controlled areas, where approximately 25 percent of the population in acute food insecurity resides, shows that the situation remains dire; despite some improvements in security, the economic crisis and localized conflicts continue, fueled by persistent political instability, while insufficient external revenues and elevated global commodity prices on imported food limits food security (2023)",
-              "value": "<em>due to conflict, poverty, floods, high food and fuel prices -</em> in 2023, a partial analysis in government‑controlled areas, where approximately 25 percent of the population in acute food insecurity resides, shows that the situation remains dire; despite some improvements in security, the economic crisis and localized conflicts continue, fueled by persistent political instability, while insufficient external revenues and elevated global commodity prices on imported food limits food security",
-              "title": "widespread lack of access",
-              "info_date": "2023"
             }
           ]
         },
@@ -1395,20 +1388,6 @@
           "comparative": false,
           "content": "22 governorates (muhafazat, singular - muhafazah); Abyan, 'Adan (Aden), Ad Dali', Al Bayda', Al Hudaydah, Al Jawf, Al Mahrah, Al Mahwit, Amanat al 'Asimah (Sanaa City), 'Amran, Arkhabil Suqutra (Socotra Archipelago), Dhamar, Hadramawt, Hajjah, Ibb, Lahij, Ma'rib, Raymah, Sa'dah, San'a' (Sanaa), Shabwah, Ta'izz",
           "value": "22 governorates (muhafazat, singular - muhafazah); Abyan, 'Adan (Aden), Ad Dali', Al Bayda', Al Hudaydah, Al Jawf, Al Mahrah, Al Mahwit, Amanat al 'Asimah (Sanaa City), 'Amran, Arkhabil Suqutra (Socotra Archipelago), Dhamar, Hadramawt, Hajjah, Ibb, Lahij, Ma'rib, Raymah, Sa'dah, San'a' (Sanaa), Shabwah, Ta'izz"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "22 May 1990 (Republic of Yemen was established with the merger of the Yemen Arab Republic [Yemen (Sanaa) or North Yemen] and the Marxist-dominated People's Democratic Republic of Yemen [Yemen (Aden) or South Yemen]); notable earlier dates: North Yemen became independent on 1 November 1918 (from the Ottoman Empire) and became a republic with the overthrow of the theocratic Imamate on 27 September 1962; South Yemen became independent on 30 November 1967 (from the UK)",
-          "value": "22 May 1990 (Republic of Yemen was established with the merger of the Yemen Arab Republic [Yemen (Sanaa) or North Yemen] and the Marxist-dominated People's Democratic Republic of Yemen [Yemen (Aden) or South Yemen]); notable earlier dates: North Yemen became independent on 1 November 1918 (from the Ottoman Empire) and became a republic with the overthrow of the theocratic Imamate on 27 September 1962; South Yemen became independent on 30 November 1967 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Unification Day, 22 May (1990)",
-          "value": "Unification Day, 22 May (1990)"
         },
         {
           "name": "Legal system",
@@ -1669,13 +1648,6 @@
           "value": "General People&rsquo;s Congress or GPC (3 factions: pro-Hadi, pro-Houthi, pro-Salih)<br />Nasserist Unionist People's Organization<br />National Arab Socialist Ba'ath Party<br />Southern Transitional Council or STC<br />Yemeni Reform Grouping or Islah<br />Yemeni Socialist Party or YSP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "AFESD, AMF, CAEU, CD, EITI (temporarily suspended), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MINURSO, MINUSMA, MONUSCO, NAM, OAS (observer), OIC, OPCW, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMHA, UNMIL, UNMIS, UNOCI, UNVIM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "AFESD, AMF, CAEU, CD, EITI (temporarily suspended), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MINURSO, MINUSMA, MONUSCO, NAM, OAS (observer), OIC, OPCW, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMHA, UNMIL, UNMIS, UNOCI, UNVIM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1758,6 +1730,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "AFESD, AMF, CAEU, CD, EITI (temporarily suspended), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MINURSO, MINUSMA, MONUSCO, NAM, OAS (observer), OIC, OPCW, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMHA, UNMIL, UNMIS, UNOCI, UNVIM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "AFESD, AMF, CAEU, CD, EITI (temporarily suspended), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MINURSO, MINUSMA, MONUSCO, NAM, OAS (observer), OIC, OPCW, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMHA, UNMIL, UNMIS, UNOCI, UNVIM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "22 May 1990 (Republic of Yemen established with the merger of the Yemen Arab Republic [Yemen (Sanaa) or North Yemen] and the People's Democratic Republic of Yemen [Yemen (Aden) or South Yemen]); notable earlier dates: 1 November 1918 (North Yemen independent from the Ottoman Empire), 27 September 1962 (North Yemen becomes republic), 30 November 1967 (South Yemen independent from the UK)",
+          "value": "22 May 1990 (Republic of Yemen established with the merger of the Yemen Arab Republic [Yemen (Sanaa) or North Yemen] and the People's Democratic Republic of Yemen [Yemen (Aden) or South Yemen]); notable earlier dates: 1 November 1918 (North Yemen independent from the Ottoman Empire), 27 September 1962 (North Yemen becomes republic), 30 November 1967 (South Yemen independent from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Unification Day, 22 May (1990)",
+          "value": "Unification Day, 22 May (1990)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1769,8 +1762,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "golden eagle; national colors: red, white, black",
-          "value": "golden eagle; national colors: red, white, black"
+          "content": "golden eagle",
+          "value": "golden eagle"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white, black",
+          "value": "red, white, black"
         },
         {
           "name": "National anthem",

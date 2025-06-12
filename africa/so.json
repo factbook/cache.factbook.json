@@ -1,9 +1,9 @@
 {
   "name": "Somalia",
   "code": "SO",
-  "published": "2025-06-05 00:15:08 -0400",
+  "published": "2025-06-12 00:00:59 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-11 11:56:49 -0400",
   "media": [
     {
       "type": "flag",
@@ -787,6 +787,16 @@
           ]
         },
         {
+          "name": "Health expenditure",
+          "field_id": 409,
+          "comparative": false,
+          "content": "2.5% of national budget (2022 est.)",
+          "value": "2.5",
+          "estimated": true,
+          "info_date": "2022",
+          "suffix": "% of national budget"
+        },
+        {
           "name": "Physician density",
           "field_id": 359,
           "comparative": false,
@@ -926,39 +936,62 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "0.3% of GDP (2019)",
-          "value": "0.3",
-          "estimated": false,
-          "info_date": "2019",
-          "suffix": "% of GDP"
+          "content": "0.3% of GDP (2019 est.)<br><br>4.2% national budget (2019 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "0.3% of GDP (2019 est.)",
+              "value": "0.3",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "4.2% national budget (2019 est.)",
+              "value": "4.2",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
+          "content": "<strong>total population: </strong>54% (2022 est.) NA<br><br><strong>male: </strong>65% (2022 est.) NA<br><br><strong>female: </strong>44% (2022 est.) NA",
           "subfields": [
             {
               "name": "total population",
-              "content": "NA",
+              "content": "54% (2022 est.) NA",
               "title": "total population",
+              "value": "54",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%",
               "subfield_note": "NA"
             },
             {
               "name": "male",
-              "content": "NA",
+              "content": "65% (2022 est.) NA",
               "title": "male",
+              "value": "65",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%",
               "subfield_note": "NA"
             },
             {
               "name": "female",
-              "content": "NA",
+              "content": "44% (2022 est.) NA",
               "title": "female",
+              "value": "44",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%",
               "subfield_note": "NA"
             }
@@ -1086,21 +1119,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>exceptional shortfall in aggregate food production/supplies: </strong><em>due to drought conditions and internal conflict -&nbsp;</em>the food security situation remains dire and, at national level, about 6.5 million people (almost 40 percent of the total population) are projected to have faced severe acute food insecurity between April and June 2023; the high prevalence and severity of food insecurity are due to prolonged drought, which began in late 2020 and caused severe crop and livestock losses; the impact of the drought on households&rsquo; food security has been compounded by prolonged conflicts and hikes in international prices of wheat and fuel caused by the war in Ukraine (2023)",
-          "subfields": [
-            {
-              "name": "exceptional shortfall in aggregate food production/supplies",
-              "content": "<em>due to drought conditions and internal conflict -&nbsp;</em>the food security situation remains dire and, at national level, about 6.5 million people (almost 40 percent of the total population) are projected to have faced severe acute food insecurity between April and June 2023; the high prevalence and severity of food insecurity are due to prolonged drought, which began in late 2020 and caused severe crop and livestock losses; the impact of the drought on households&rsquo; food security has been compounded by prolonged conflicts and hikes in international prices of wheat and fuel caused by the war in Ukraine (2023)",
-              "value": "<em>due to drought conditions and internal conflict -&nbsp;</em>the food security situation remains dire and, at national level, about 6.5 million people (almost 40 percent of the total population) are projected to have faced severe acute food insecurity between April and June 2023; the high prevalence and severity of food insecurity are due to prolonged drought, which began in late 2020 and caused severe crop and livestock losses; the impact of the drought on households&rsquo; food security has been compounded by prolonged conflicts and hikes in international prices of wheat and fuel caused by the war in Ukraine",
-              "title": "exceptional shortfall in aggregate food production/supplies",
-              "info_date": "2023"
             }
           ]
         },
@@ -1301,20 +1319,6 @@
           "comparative": false,
           "content": "18 regions (plural - gobollo, singular - gobol); Awdal, Bakool, Banaadir, Bari, Bay, Galguduud, Gedo, Hiiraan, Jubbada Dhexe (Middle Jubba), Jubbada Hoose (Lower Jubba), Mudug, Nugaal, Sanaag, Shabeellaha Dhexe (Middle Shabeelle), Shabeellaha Hoose (Lower Shabeelle), Sool, Togdheer, Woqooyi Galbeed",
           "value": "18 regions (plural - gobollo, singular - gobol); Awdal, Bakool, Banaadir, Bari, Bay, Galguduud, Gedo, Hiiraan, Jubbada Dhexe (Middle Jubba), Jubbada Hoose (Lower Jubba), Mudug, Nugaal, Sanaag, Shabeellaha Dhexe (Middle Shabeelle), Shabeellaha Hoose (Lower Shabeelle), Sool, Togdheer, Woqooyi Galbeed"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1 July 1960 (from a merger of British Somaliland, which became independent from the UK on 26 June 1960, and Italian Somaliland, which became independent from the Italian-administered UN trusteeship on 1 July 1960 to form the Somali Republic)",
-          "value": "1 July 1960 (from a merger of British Somaliland, which became independent from the UK on 26 June 1960, and Italian Somaliland, which became independent from the Italian-administered UN trusteeship on 1 July 1960 to form the Somali Republic)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Foundation of the Somali Republic, 1 July (1960); note - 26 June (1960) in Somaliland",
-          "value": "Foundation of the Somali Republic, 1 July (1960); note - 26 June (1960) in Somaliland"
         },
         {
           "name": "Legal system",
@@ -1588,13 +1592,6 @@
           "field_note": "<strong>note:</strong> in 2017 an independent electoral commission (the NIEC) was inaugurated with a mandate to oversee the process of registration of political parties in the country; as of 2021, the NIEC had registered a total of 110 parties"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AFESD, AMF, AU, CAEU (candidate), EAC, FAO, G-77, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, LAS, NAM, OIC, OPCW, OPCW (signatory), UN, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UPU, WFTU (NGOs), WHO, WIPO, WMO",
-          "value": "ACP, AfDB, AFESD, AMF, AU, CAEU (candidate), EAC, FAO, G-77, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, LAS, NAM, OIC, OPCW, OPCW (signatory), UN, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UPU, WFTU (NGOs), WHO, WIPO, WMO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1665,6 +1662,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AFESD, AMF, AU, CAEU (candidate), EAC, FAO, G-77, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, LAS, NAM, OIC, OPCW, OPCW (signatory), UN, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UPU, WFTU (NGOs), WHO, WIPO, WMO",
+          "value": "ACP, AfDB, AFESD, AMF, AU, CAEU (candidate), EAC, FAO, G-77, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, LAS, NAM, OIC, OPCW, OPCW (signatory), UN, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UPU, WFTU (NGOs), WHO, WIPO, WMO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1 July 1960 (from a merger of British Somaliland, which became independent from the UK on 26 June 1960, and Italian Somaliland, which became independent from the Italian-administered UN trusteeship on 1 July 1960 to form the Somali Republic)",
+          "value": "1 July 1960 (from a merger of British Somaliland, which became independent from the UK on 26 June 1960, and Italian Somaliland, which became independent from the Italian-administered UN trusteeship on 1 July 1960 to form the Somali Republic)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Foundation of the Somali Republic, 1 July (1960); note - 26 June (1960) in Somaliland",
+          "value": "Foundation of the Somali Republic, 1 July (1960); note - 26 June (1960) in Somaliland"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1675,8 +1693,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "leopard; national colors: blue, white",
-          "value": "leopard; national colors: blue, white"
+          "content": "leopard",
+          "value": "leopard"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, white",
+          "value": "blue, white"
         },
         {
           "name": "National anthem",
@@ -2775,8 +2800,8 @@
           "name": "Military equipment inventories and acquisitions",
           "field_id": 411,
           "comparative": false,
-          "content": "the SNA's inventory includes a variety of mostly older, secondhand equipment largely from Italy, Russia, South Africa, and the UK; in recent years, it has received limited quantities of more modern equipment as aid/donations from a variety of countries, including the US (2024)",
-          "value": "the SNA's inventory includes a variety of mostly older, secondhand equipment largely from Italy, Russia, South Africa, and the UK; in recent years, it has received limited quantities of more modern equipment as aid/donations from a variety of countries, including the US",
+          "content": "the SNA's inventory is a mix of older, secondhand, and donated equipment from a variety of suppliers, including Italy, Russia, South Africa, Turkey, the UK, and the US (2024)",
+          "value": "the SNA's inventory is a mix of older, secondhand, and donated equipment from a variety of suppliers, including Italy, Russia, South Africa, Turkey, the UK, and the US",
           "info_date": "2024"
         },
         {

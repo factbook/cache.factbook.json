@@ -1,9 +1,9 @@
 {
   "name": "El Salvador",
   "code": "ES",
-  "published": "2025-06-05 00:05:35 -0400",
+  "published": "2025-06-11 00:05:43 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-06-04 14:58:33 -0400",
+  "updated": "2025-06-10 16:15:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -817,14 +817,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "9.7% of GDP (2021)",
-          "value": "9.7",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "9.7% of GDP (2021)<br><br>21.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "9.7% of GDP (2021)",
+              "value": "9.7",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "21.2% of national budget (2022 est.)",
+              "value": "21.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1027,48 +1041,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "4.1% of GDP (2020 est.)",
-          "value": "4.1",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "3.2% of GDP (2023 est.)<br><br>12.5% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.2% of GDP (2023 est.)",
+              "value": "3.2",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "12.5% national budget (2023 est.)",
+              "value": "12.5",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>89.1%<br><br><strong>male: </strong>91.3%<br><br><strong>female: </strong>87.3% (2019)",
+          "content": "<strong>total population: </strong>90% (2023 est.)<br><br><strong>male: </strong>92% (2023 est.)<br><br><strong>female: </strong>88% (2023 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "89.1%",
+              "content": "90% (2023 est.)",
               "title": "total population",
-              "value": "89.1",
+              "value": "90",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "91.3%",
+              "content": "92% (2023 est.)",
               "title": "male",
-              "value": "91.3",
+              "value": "92",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "87.3% (2019)",
+              "content": "88% (2023 est.)",
               "title": "female",
-              "value": "87.3",
-              "estimated": false,
-              "info_date": "2019",
+              "value": "88",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             }
           ]
@@ -1417,20 +1443,6 @@
           "value": "14 departments (departamentos, singular - departamento); Ahuachapan, Cabanas, Chalatenango, Cuscatlan, La Libertad, La Paz, La Union, Morazan, San Miguel, San Salvador, San Vicente, Santa Ana, Sonsonate, Usulutan"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "15 September 1821 (from Spain)",
-          "value": "15 September 1821 (from Spain)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 15 September (1821)",
-          "value": "Independence Day, 15 September (1821)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1646,13 +1658,6 @@
           "value": "Christian Democratic Party or PDC<br />Farabundo Marti National Liberation Front or FMLN<br />Great Alliance for National Unity or GANA<br />National Coalition Party or PCN<br />Nationalist Republican Alliance or ARENA<br />New Ideas (Nuevas Ideas) or NI<br />Our Time (Nuestro Tiempo) or NT<br />Vamos or V"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACS, BCIE, CACM, CD, CELAC, FAO, G-11, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, MINURSO, MINUSTAH, NAM (observer), OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA, UN, UNCTAD, UNESCO, UNIDO, UNIFIL, Union Latina, UNISFA, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACS, BCIE, CACM, CD, CELAC, FAO, G-11, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, MINURSO, MINUSTAH, NAM (observer), OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA, UN, UNCTAD, UNESCO, UNIDO, UNIFIL, Union Latina, UNISFA, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1741,6 +1746,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACS, BCIE, CACM, CD, CELAC, FAO, G-11, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, MINURSO, MINUSTAH, NAM (observer), OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA, UN, UNCTAD, UNESCO, UNIDO, UNIFIL, Union Latina, UNISFA, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACS, BCIE, CACM, CD, CELAC, FAO, G-11, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, MINURSO, MINUSTAH, NAM (observer), OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA, UN, UNCTAD, UNESCO, UNIDO, UNIFIL, Union Latina, UNISFA, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "15 September 1821 (from Spain)",
+          "value": "15 September 1821 (from Spain)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 15 September (1821)",
+          "value": "Independence Day, 15 September (1821)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1752,8 +1778,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "turquoise-browed motmot (bird); national colors: blue, white",
-          "value": "turquoise-browed motmot (bird); national colors: blue, white"
+          "content": "turquoise-browed motmot (bird)",
+          "value": "turquoise-browed motmot (bird)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, white",
+          "value": "blue, white"
         },
         {
           "name": "National anthem",

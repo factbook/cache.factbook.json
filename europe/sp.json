@@ -1,9 +1,9 @@
 {
   "name": "Spain",
   "code": "SP",
-  "published": "2025-06-05 00:15:12 -0400",
+  "published": "2025-06-11 00:15:54 -0400",
   "region": "Europe",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-10 10:54:59 -0400",
   "media": [
     {
       "type": "flag",
@@ -1419,14 +1419,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "10.7% of GDP (2021)",
-          "value": "10.7",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "10.7% of GDP (2021)<br><br>15.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "10.7% of GDP (2021)",
+              "value": "10.7",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "15.2% of national budget (2022 est.)",
+              "value": "15.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1603,48 +1617,60 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "4.6% of GDP (2020 est.)",
-          "value": "4.6",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "4.3% of GDP (2022 est.)<br><br>9.2% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "4.3% of GDP (2022 est.)",
+              "value": "4.3",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "9.2% national budget (2022 est.)",
+              "value": "9.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>98.6%<br><br><strong>male: </strong>99%<br><br><strong>female: </strong>98.2% (2020)",
+          "content": "<strong>total population: </strong>100% (2021 est.)<br><br><strong>male: </strong>100% (2021 est.)<br><br><strong>female: </strong>100% (2021 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "98.6%",
+              "content": "100% (2021 est.)",
               "title": "total population",
-              "value": "98.6",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "99%",
+              "content": "100% (2021 est.)",
               "title": "male",
-              "value": "99",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "98.2% (2020)",
+              "content": "100% (2021 est.)",
               "title": "female",
-              "value": "98.2",
-              "estimated": false,
-              "info_date": "2020",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             }
           ]
@@ -2053,20 +2079,6 @@
           "field_note": "<strong>note:</strong> the autonomous cities of Ceuta and Melilla plus three small islands of Islas Chafarinas, Penon de Alhucemas, and Penon de Velez de la Gomera, administered directly by the Spanish central government, are all along the coast of Morocco and are collectively referred to as Places of Sovereignty (Plazas de Soberania)"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1492; the Iberian peninsula was characterized by a variety of independent kingdoms prior to the Muslim occupation that began in the early 8th century A.D. and lasted nearly seven centuries; the small Christian redoubts of the north began the reconquest almost immediately, culminating in the seizure of Granada in 1492; this event completed the unification of several kingdoms and is traditionally considered the forging of present-day Spain",
-          "value": "1492; the Iberian peninsula was characterized by a variety of independent kingdoms prior to the Muslim occupation that began in the early 8th century A.D. and lasted nearly seven centuries; the small Christian redoubts of the north began the reconquest almost immediately, culminating in the seizure of Granada in 1492; this event completed the unification of several kingdoms and is traditionally considered the forging of present-day Spain"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "National Day (Hispanic Day), 12 October (1492); note - commemorates the arrival of COLUMBUS in the Americas",
-          "value": "National Day (Hispanic Day), 12 October (1492); note - commemorates the arrival of COLUMBUS in the Americas"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -2360,13 +2372,6 @@
           "value": "Asturias Forum or FAC&nbsp;<br />Basque Country Unite (Euskal Herria Bildu) or EH Bildu (coalition of 4 Basque pro-independence parties)<br />Basque Nationalist Party or PNV or EAJ&nbsp;<br />Canarian Coalition or CC (coalition of 5 parties)<br />Ciudadanos Party (Citizens Party) or Cs&nbsp;<br />Compromis - Compromise Coalition&nbsp;<br />Navarrese People's Union or UPN&nbsp;<br />Together for Catalonia or Junts&nbsp;<br />People's Party or PP&nbsp;<br />Republican Left of Catalonia or ERC&nbsp;<br />Spanish Socialist Workers Party or PSOE&nbsp;<br />Teruel Existe or TE&nbsp;<br />Unidas (Unite) or Sumar (electoral coalition formed in March 2022) (formerly Unidas Podemos or UP)<br />Vox or VOX"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB (nonregional member), AfDB (nonregional member), Arctic Council (observer), Australia Group, BCIE, BIS, CABEI, CAN (observer), CBSS (observer), CD, CE, CERN, EAPC, EBRD, ECB, EIB, EITI (implementing country), EMU, ESA, EU, FAO, FATF, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAIA (observer), MIGA, NATO, NEA, NSG, OAS (observer), OECD, OPCW, OSCE, Pacific Alliance (observer), Paris Club, PCA, PIF (partner), Schengen Convention, SELEC (observer), SICA (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, Union Latina, UNOCI, UNOOSA, UNRWA, UNWTO, UPU, Wassenaar Arrangement, WCO, WHO, WIPO, WMO, WTO, ZC",
-          "value": "ADB (nonregional member), AfDB (nonregional member), Arctic Council (observer), Australia Group, BCIE, BIS, CABEI, CAN (observer), CBSS (observer), CD, CE, CERN, EAPC, EBRD, ECB, EIB, EITI (implementing country), EMU, ESA, EU, FAO, FATF, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAIA (observer), MIGA, NATO, NEA, NSG, OAS (observer), OECD, OPCW, OSCE, Pacific Alliance (observer), Paris Club, PCA, PIF (partner), Schengen Convention, SELEC (observer), SICA (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, Union Latina, UNOCI, UNOOSA, UNRWA, UNWTO, UPU, Wassenaar Arrangement, WCO, WHO, WIPO, WMO, WTO, ZC"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -2461,6 +2466,28 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB (nonregional member), AfDB (nonregional member), Arctic Council (observer), Australia Group, BCIE, BIS, CABEI, CAN (observer), CBSS (observer), CD, CE, CERN, EAPC, EBRD, ECB, EIB, EITI (implementing country), EMU, ESA, EU, FAO, FATF, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAIA (observer), MIGA, NATO, NEA, NSG, OAS (observer), OECD, OPCW, OSCE, Pacific Alliance (observer), Paris Club, PCA, PIF (partner), Schengen Convention, SELEC (observer), SICA (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, Union Latina, UNOCI, UNOOSA, UNRWA, UNWTO, UPU, Wassenaar Arrangement, WCO, WHO, WIPO, WMO, WTO, ZC",
+          "value": "ADB (nonregional member), AfDB (nonregional member), Arctic Council (observer), Australia Group, BCIE, BIS, CABEI, CAN (observer), CBSS (observer), CD, CE, CERN, EAPC, EBRD, ECB, EIB, EITI (implementing country), EMU, ESA, EU, FAO, FATF, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IEA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAIA (observer), MIGA, NATO, NEA, NSG, OAS (observer), OECD, OPCW, OSCE, Pacific Alliance (observer), Paris Club, PCA, PIF (partner), Schengen Convention, SELEC (observer), SICA (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, Union Latina, UNOCI, UNOOSA, UNRWA, UNWTO, UPU, Wassenaar Arrangement, WCO, WHO, WIPO, WMO, WTO, ZC"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1492<br><br><strong>note:</strong> the Iberian peninsula was home to a variety of independent kingdoms prior to the Muslim occupation that began in the early 8th century A.D. and lasted nearly seven centuries; the small Christian redoubts of the north began the reconquest almost immediately, culminating in the seizure of Granada in 1492; this completed the unification of several kingdoms and is traditionally considered the forging of present-day Spain",
+          "value": "1492",
+          "field_note": "<strong>note:</strong> the Iberian peninsula was home to a variety of independent kingdoms prior to the Muslim occupation that began in the early 8th century A.D. and lasted nearly seven centuries; the small Christian redoubts of the north began the reconquest almost immediately, culminating in the seizure of Granada in 1492; this completed the unification of several kingdoms and is traditionally considered the forging of present-day Spain"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "National Day (Hispanic Day), 12 October (1492); note - commemorates the arrival of COLUMBUS in the Americas",
+          "value": "National Day (Hispanic Day), 12 October (1492); note - commemorates the arrival of COLUMBUS in the Americas"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -2471,8 +2498,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Pillars of Hercules; national colors: red, yellow",
-          "value": "Pillars of Hercules; national colors: red, yellow"
+          "content": "Pillars of Hercules",
+          "value": "Pillars of Hercules"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, yellow",
+          "value": "red, yellow"
         },
         {
           "name": "National anthem",
@@ -2534,8 +2568,8 @@
           "name": "Economic overview",
           "field_id": 207,
           "comparative": false,
-          "content": "high-income core EU and eurozone economy; strong growth driven by public consumption, tourism, and other service exports; tight labor market despite high structural unemployment; government debt remains high amid deficit reductions; innovation and economic freedom ranked lower than EU and OECD peers",
-          "value": "high-income core EU and eurozone economy; strong growth driven by public consumption, tourism, and other service exports; tight labor market despite high structural unemployment; government debt remains high amid deficit reductions; innovation and economic freedom ranked lower than EU and OECD peers"
+          "content": "<p>high-income, core-EU and eurozone economy; strong growth driven by public consumption, tourism, and other service exports; tight labor market despite high structural unemployment; efforts to narrow persistent fiscal deficits through tax and spending measures; high but declining unemployment supported by job growth and immigration</p>",
+          "value": "<p>high-income, core-EU and eurozone economy; strong growth driven by public consumption, tourism, and other service exports; tight labor market despite high structural unemployment; efforts to narrow persistent fiscal deficits through tax and spending measures; high but declining unemployment supported by job growth and immigration</p>"
         },
         {
           "name": "Real GDP (purchasing power parity)",

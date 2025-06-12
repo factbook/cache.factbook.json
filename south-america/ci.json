@@ -1,9 +1,9 @@
 {
   "name": "Chile",
   "code": "CI",
-  "published": "2025-05-28 00:03:19 -0400",
+  "published": "2025-06-11 00:03:45 -0400",
   "region": "South America",
-  "updated": "2025-05-27 17:25:01 -0400",
+  "updated": "2025-06-10 10:54:55 -0400",
   "media": [
     {
       "type": "flag",
@@ -924,14 +924,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "9% of GDP (2022)",
-          "value": "9",
-          "estimated": false,
-          "info_date": "2022",
-          "suffix": "% of GDP"
+          "content": "9% of GDP (2022)<br><br>19% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "9% of GDP (2022)",
+              "value": "9",
+              "estimated": false,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "19% of national budget (2022 est.)",
+              "value": "19",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -947,10 +961,10 @@
           "name": "Hospital bed density",
           "field_id": 360,
           "comparative": false,
-          "content": "2.1 beds/1,000 population (2018)",
-          "value": "2.1",
-          "estimated": false,
-          "info_date": "2018",
+          "content": "2 beds/1,000 population (2021 est.)",
+          "value": "2",
+          "estimated": true,
+          "info_date": "2021",
           "suffix": "beds/1,000 population"
         },
         {
@@ -1066,33 +1080,33 @@
           "name": "Tobacco use",
           "field_id": 434,
           "comparative": false,
-          "content": "<strong>total: </strong>29.2% (2020 est.)<br><br><strong>male: </strong>31.6% (2020 est.)<br><br><strong>female: </strong>26.8% (2020 est.)",
+          "content": "<strong>total: </strong>26.2% (2025 est.)<br><br><strong>male: </strong>28.4% (2025 est.)<br><br><strong>female: </strong>24.1% (2025 est.)",
           "subfields": [
             {
               "name": "total",
-              "content": "29.2% (2020 est.)",
+              "content": "26.2% (2025 est.)",
               "title": "total",
-              "value": "29.2",
+              "value": "26.2",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2025",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "31.6% (2020 est.)",
+              "content": "28.4% (2025 est.)",
               "title": "male",
-              "value": "31.6",
+              "value": "28.4",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2025",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "26.8% (2020 est.)",
+              "content": "24.1% (2025 est.)",
               "title": "female",
-              "value": "26.8",
+              "value": "24.1",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2025",
               "suffix": "%"
             }
           ]
@@ -1108,48 +1122,60 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "5.6% of GDP (2019 est.)",
-          "value": "5.6",
-          "estimated": true,
-          "info_date": "2019",
-          "suffix": "% of GDP"
+          "content": "5% of GDP (2021 est.)<br><br>14.9% national budget (2021 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "5% of GDP (2021 est.)",
+              "value": "5",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "14.9% national budget (2021 est.)",
+              "value": "14.9",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>97%<br><br><strong>male: </strong>97.1%<br><br><strong>female: </strong>97% (2021)",
+          "content": "<strong>total population: </strong>96% (2017 est.)<br><br><strong>male: </strong>96% (2017 est.)<br><br><strong>female: </strong>96% (2017 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "97%",
+              "content": "96% (2017 est.)",
               "title": "total population",
-              "value": "97",
+              "value": "96",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "97.1%",
+              "content": "96% (2017 est.)",
               "title": "male",
-              "value": "97.1",
+              "value": "96",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "97% (2021)",
+              "content": "96% (2017 est.)",
               "title": "female",
-              "value": "97",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "96",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             }
           ]
@@ -1564,20 +1590,6 @@
           "field_note": "<strong>note:</strong> the US does not recognize any claims to Antarctica"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "18 September 1810 (from Spain)",
-          "value": "18 September 1810 (from Spain)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 18 September (1810)",
-          "value": "Independence Day, 18 September (1810)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1871,13 +1883,6 @@
           "value": "Approve Dignity (Apruebo Dignidad) coalition or AD (included PC, FA, and FREVS); note - dissolved 2023<br />Broad Front Coalition (Frente Amplio) or FA (includes RD, CS, and Comunes)<br />Chile We Can Do More (Chile Podemos <span title=\"Spanish-language text\"><span lang=\"es\" style=\"font-style: normal;\"> M&aacute;s</span></span>) or ChP+ (coalition includes EVOPOLI, PRI, RN, UDI)<br />Christian Democratic Party or PDC<br />Common Sense Party or SC<br />Commons (Comunes)<br />Communist Party of Chile or PCCh<br />Democratic Revolution or RD<br />Democrats or PD<br />Equality Party or PI<br />Green Ecological Party or PEV (dissolved 7 February 2022)<br />Green Popular Alliance or AVP<br />Humanist Action Party or PAH<br />Humanist Party or PH<br />Independent Democratic Union or UDI<br />Liberal Party (Partido Liberal de Chile) or PL<br />National Renewal or RN<br />New Social Pact or NPS (includes PDC, PL, PPD, PRSD, PS)<br />Party for Democracy or PPD<br />Party of the People or PDG<br />Political Evolution or EVOPOLI<br />Popular Party or PP<br />Progressive Homeland Party or PRO<br />Radical Party or PR<br />Republican Party or PLR<br />Social Christian Party or PSC<br />Social Convergence or CS<br />Social Green Regionalist Federation or FREVS<br />Socialist Party or PS<br />Yellow Movement for Chile or AMAR"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "APEC, BIS, CAN (associate), CD, CELAC, FAO, G-15, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur (associate), MIGA, MINUSTAH, NAM, OAS, OECD (enhanced engagement), OPANAL, OPCW, Pacific Alliance, PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNESCO, UNFICYP, UNHCR, UNIDO, Union Latina, UNMOGIP, UNOOSA, UNTSO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "APEC, BIS, CAN (associate), CD, CELAC, FAO, G-15, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur (associate), MIGA, MINUSTAH, NAM, OAS, OECD (enhanced engagement), OPANAL, OPCW, Pacific Alliance, PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNESCO, UNFICYP, UNHCR, UNIDO, Union Latina, UNMOGIP, UNOOSA, UNTSO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1966,6 +1971,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "APEC, BIS, CAN (associate), CD, CELAC, FAO, G-15, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur (associate), MIGA, MINUSTAH, NAM, OAS, OECD (enhanced engagement), OPANAL, OPCW, Pacific Alliance, PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNESCO, UNFICYP, UNHCR, UNIDO, Union Latina, UNMOGIP, UNOOSA, UNTSO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "APEC, BIS, CAN (associate), CD, CELAC, FAO, G-15, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur (associate), MIGA, MINUSTAH, NAM, OAS, OECD (enhanced engagement), OPANAL, OPCW, Pacific Alliance, PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNESCO, UNFICYP, UNHCR, UNIDO, Union Latina, UNMOGIP, UNOOSA, UNTSO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "18 September 1810 (from Spain)",
+          "value": "18 September 1810 (from Spain)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 18 September (1810)",
+          "value": "Independence Day, 18 September (1810)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1977,8 +2003,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "huemul (mountain deer), Andean condor; national colors: red, white, blue",
-          "value": "huemul (mountain deer), Andean condor; national colors: red, white, blue"
+          "content": "huemul (mountain deer), Andean condor",
+          "value": "huemul (mountain deer), Andean condor"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white, blue",
+          "value": "red, white, blue"
         },
         {
           "name": "National anthem",
@@ -3356,8 +3389,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "1.5% of GDP (2023 est.)<br><br>1.6% of GDP (2022 est.)<br><br>2% of GDP (2021 est.)<br><br>2% of GDP (2020 est.)<br><br>1.9% of GDP (2019 est.)",
+          "content": "1.5% of GDP (2024 est.)<br><br>1.5% of GDP (2023 est.)<br><br>1.6% of GDP (2022 est.)<br><br>2% of GDP (2021 est.)<br><br>2% of GDP (2020 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2024",
+              "content": "1.5% of GDP (2024 est.)",
+              "value": "1.5",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2023",
               "content": "1.5% of GDP (2023 est.)",
@@ -3383,13 +3423,6 @@
               "name": "Military Expenditures 2020",
               "content": "2% of GDP (2020 est.)",
               "value": "2",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "1.9% of GDP (2019 est.)",
-              "value": "1.9",
               "estimated": true,
               "suffix": "% of GDP"
             }

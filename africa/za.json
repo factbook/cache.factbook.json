@@ -1,9 +1,9 @@
 {
   "name": "Zambia",
   "code": "ZA",
-  "published": "2025-06-05 00:18:25 -0400",
+  "published": "2025-06-12 00:01:46 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 13:29:40 -0400",
+  "updated": "2025-06-11 13:36:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -820,14 +820,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "6.6% of GDP (2021)",
-          "value": "6.6",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "6.6% of GDP (2021)<br><br>8.9% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "6.6% of GDP (2021)",
+              "value": "6.6",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "8.9% of national budget (2022 est.)",
+              "value": "8.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1039,47 +1053,59 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.7% of GDP (2020)",
-          "value": "3.7",
-          "estimated": false,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "4.1% of GDP (2023 est.)<br><br>14.5% national budget (2025 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "4.1% of GDP (2023 est.)",
+              "value": "4.1",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "14.5% national budget (2025 est.)",
+              "value": "14.5",
+              "estimated": true,
+              "info_date": "2025",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write English<br><br><strong>total population: </strong>86.7%<br><br><strong>male: </strong>90.6%<br><br><strong>female: </strong>83.1% (2018)",
+          "content": "<strong>total population: </strong>71.1% (2018 est.)<br><br><strong>male: </strong>81.7% (2018 est.)<br><br><strong>female: </strong>62.2% (2018 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write English",
-              "value": "age 15 and over can read and write English",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "86.7%",
+              "content": "71.1% (2018 est.)",
               "title": "total population",
-              "value": "86.7",
+              "value": "71.1",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "90.6%",
+              "content": "81.7% (2018 est.)",
               "title": "male",
-              "value": "90.6",
+              "value": "81.7",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "83.1% (2018)",
+              "content": "62.2% (2018 est.)",
               "title": "female",
-              "value": "83.1",
-              "estimated": false,
+              "value": "62.2",
+              "estimated": true,
               "info_date": "2018",
               "suffix": "%"
             }
@@ -1207,21 +1233,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to reduced incomes and localized shortfalls in cereal production -</em>an estimated 1.95 million people were projected to face acute food insecurity between October 2022 and March 2023, an increase compared to the 1.6 million people estimated in 2021/22; the high level of acute food insecurity is associated with the effects of a below-average cereal harvest and high food prices that adversely impacted households&rsquo; food availability and access (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to reduced incomes and localized shortfalls in cereal production -</em>an estimated 1.95 million people were projected to face acute food insecurity between October 2022 and March 2023, an increase compared to the 1.6 million people estimated in 2021/22; the high level of acute food insecurity is associated with the effects of a below-average cereal harvest and high food prices that adversely impacted households&rsquo; food availability and access (2023)",
-              "value": "<em>due to reduced incomes and localized shortfalls in cereal production -</em>an estimated 1.95 million people were projected to face acute food insecurity between October 2022 and March 2023, an increase compared to the 1.6 million people estimated in 2021/22; the high level of acute food insecurity is associated with the effects of a below-average cereal harvest and high food prices that adversely impacted households&rsquo; food availability and access",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1434,20 +1445,6 @@
           "comparative": false,
           "content": "10 provinces; Central, Copperbelt, Eastern, Luapula, Lusaka, Muchinga, Northern, North-Western, Southern, Western",
           "value": "10 provinces; Central, Copperbelt, Eastern, Luapula, Lusaka, Muchinga, Northern, North-Western, Southern, Western"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "24 October 1964 (from the UK)",
-          "value": "24 October 1964 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 24 October (1964)",
-          "value": "Independence Day, 24 October (1964)"
         },
         {
           "name": "Legal system",
@@ -1664,13 +1661,6 @@
           "value": "Alliance for Democracy and Development or ADD&nbsp;<br />Forum for Democracy and Development or FDD&nbsp;<br />Movement for Multiparty Democracy or MMD&nbsp;<br />Party of National Unity and Progress or PNUP&nbsp;<br />Patriotic Front or PF&nbsp;<br />United Party for National Development or UPND&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AU, C, COMESA, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM, OPCW, PCA, SADC, UN, UNCTAD, UNDOF, UNESCO, UNHCR, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, AU, C, COMESA, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM, OPCW, PCA, SADC, UN, UNCTAD, UNDOF, UNESCO, UNHCR, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1753,6 +1743,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AU, C, COMESA, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM, OPCW, PCA, SADC, UN, UNCTAD, UNDOF, UNESCO, UNHCR, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, AU, C, COMESA, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM, OPCW, PCA, SADC, UN, UNCTAD, UNDOF, UNESCO, UNHCR, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "24 October 1964 (from the UK)",
+          "value": "24 October 1964 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 24 October (1964)",
+          "value": "Independence Day, 24 October (1964)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1763,8 +1774,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "African fish eagle; national colors: green, red, black, orange",
-          "value": "African fish eagle; national colors: green, red, black, orange"
+          "content": "African fish eagle",
+          "value": "African fish eagle"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "green, red, black, orange",
+          "value": "green, red, black, orange"
         },
         {
           "name": "National anthem",
@@ -3000,40 +3018,40 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "1.4% of GDP (2023 est.)<br><br>1.2% of GDP (2022 est.)<br><br>1.3% of GDP (2021 est.)<br><br>1.3% of GDP (2020 est.)<br><br>1.3% of GDP (2019 est.)",
+          "content": "1.3% of GDP (2024 est.)<br><br>1.3% of GDP (2023 est.)<br><br>1.1% of GDP (2022 est.)<br><br>1.1% of GDP (2021 est.)<br><br>1.2% of GDP (2020 est.)",
           "subfields": [
             {
+              "name": "Military Expenditures 2024",
+              "content": "1.3% of GDP (2024 est.)",
+              "value": "1.3",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
               "name": "Military Expenditures 2023",
-              "content": "1.4% of GDP (2023 est.)",
-              "value": "1.4",
+              "content": "1.3% of GDP (2023 est.)",
+              "value": "1.3",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2022",
-              "content": "1.2% of GDP (2022 est.)",
-              "value": "1.2",
+              "content": "1.1% of GDP (2022 est.)",
+              "value": "1.1",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2021",
-              "content": "1.3% of GDP (2021 est.)",
-              "value": "1.3",
+              "content": "1.1% of GDP (2021 est.)",
+              "value": "1.1",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2020",
-              "content": "1.3% of GDP (2020 est.)",
-              "value": "1.3",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "1.3% of GDP (2019 est.)",
-              "value": "1.3",
+              "content": "1.2% of GDP (2020 est.)",
+              "value": "1.2",
               "estimated": true,
               "suffix": "% of GDP"
             }

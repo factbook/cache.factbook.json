@@ -1,9 +1,9 @@
 {
   "name": "Cyprus",
   "code": "CY",
-  "published": "2025-06-05 00:04:43 -0400",
+  "published": "2025-06-11 00:04:46 -0400",
   "region": "Europe",
-  "updated": "2025-06-04 14:58:33 -0400",
+  "updated": "2025-06-10 10:54:56 -0400",
   "media": [
     {
       "type": "flag",
@@ -902,14 +902,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "9.4% of GDP (2021)",
-          "value": "9.4",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "9.4% of GDP (2021)<br><br>18.3% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "9.4% of GDP (2021)",
+              "value": "9.4",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "18.3% of national budget (2022 est.)",
+              "value": "18.3",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1086,27 +1100,35 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "6.1% of GDP (2020 est.)",
-          "value": "6.1",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "5.1% of GDP (2022 est.)<br><br>13.2% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "5.1% of GDP (2022 est.)",
+              "value": "5.1",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.2% national budget (2022 est.)",
+              "value": "13.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>99.4%<br><br><strong>male: </strong>99.6%<br><br><strong>female: </strong>99.2% (2021)",
+          "content": "<strong>total population: </strong>99.4%<br><br><strong>male: </strong>99.6%<br><br><strong>female: </strong>99.2% (2021)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "99.4%",
@@ -1530,20 +1552,6 @@
           "value": "6 districts; Ammochostos (Famagusta; all but a small part located in the Turkish Cypriot community), Keryneia (Kyrenia; the only district located entirely in the Turkish Cypriot community), Larnaka (Larnaca; with a small part located in the Turkish Cypriot community), Lefkosia (Nicosia; a small part administered by Turkish Cypriots), Lemesos (Limassol), Pafos (Paphos); note - the 5 \"districts\" of the \"Turkish Republic of Northern Cyprus\" are Gazimagusa (Famagusta), Girne (Kyrenia), Guzelyurt (Morphou), Iskele (Trikomo), Lefkosa (Nicosia)"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "16 August 1960 (from the UK); note - Turkish Cypriots proclaimed self-rule on 13 February 1975 and independence in 1983, but these proclamations are recognized only by Turkey",
-          "value": "16 August 1960 (from the UK); note - Turkish Cypriots proclaimed self-rule on 13 February 1975 and independence in 1983, but these proclamations are recognized only by Turkey"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 1 October (1960); note - Turkish Cypriots celebrate 15 November (1983) as \"Republic Day\"",
-          "value": "Independence Day, 1 October (1960); note - Turkish Cypriots celebrate 15 November (1983) as \"Republic Day\""
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1762,13 +1770,6 @@
           "value": "<strong>area under government control:</strong> <br />Democratic Front or DIPA&nbsp;<br />Democratic Party or DIKO<br />Democratic Rally or DISY <br />Movement of Ecologists - Citizens' Alliance&nbsp;<br />Movement of Social Democrats EDEK<br />National Popular Front or ELAM&nbsp;<br />Progressive Party of the Working People or AKEL (Communist Party)&nbsp;<br />Solidarity Movement<br /><br /><strong>area administered by Turkish Cypriots:</strong> <br />Communal Democracy Party or TDP<br />Communal Liberation Party - New Forces or TKP-YG<br />Cyprus Socialist Party or KSP<br />Democratic Party or DP<br />National Democratic Party or NDP<br />National Unity Party or UBP&nbsp;<br />New Cyprus Party or YKP<br />People's Party or HP&nbsp;<br />Rebirth Party or YDP<br />Republican Turkish Party or CTP<br />United Cyprus Party or BKP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "Australia Group, C, CD, CE, EBRD, ECB, EIB, EMU, EU, FAO, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, NSG, OAS (observer), OIF, OPCW, OSCE, PCA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "Australia Group, C, CD, CE, EBRD, ECB, EIB, EMU, EU, FAO, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, NSG, OAS (observer), OIF, OPCW, OSCE, PCA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1863,6 +1864,28 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "Australia Group, C, CD, CE, EBRD, ECB, EIB, EMU, EU, FAO, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, NSG, OAS (observer), OIF, OPCW, OSCE, PCA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "Australia Group, C, CD, CE, EBRD, ECB, EIB, EMU, EU, FAO, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, NSG, OAS (observer), OIF, OPCW, OSCE, PCA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "16 August 1960 (from the UK)<br><br><strong>note:</strong> Turkish Cypriots proclaimed self-rule on 13 February 1975 and independence in 1983, but only Turkey recognizes these proclamations",
+          "value": "16 August 1960 (from the UK)",
+          "field_note": "<strong>note:</strong> Turkish Cypriots proclaimed self-rule on 13 February 1975 and independence in 1983, but only Turkey recognizes these proclamations"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 1 October (1960); note - Turkish Cypriots celebrate 15 November (1983) as \"Republic Day\"",
+          "value": "Independence Day, 1 October (1960); note - Turkish Cypriots celebrate 15 November (1983) as \"Republic Day\""
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1874,8 +1897,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Cypriot mouflon (wild sheep), white dove; national colors: blue, white",
-          "value": "Cypriot mouflon (wild sheep), white dove; national colors: blue, white"
+          "content": "Cypriot mouflon (wild sheep), white dove",
+          "value": "Cypriot mouflon (wild sheep), white dove"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, white",
+          "value": "blue, white"
         },
         {
           "name": "National anthem",

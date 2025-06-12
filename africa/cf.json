@@ -1,9 +1,9 @@
 {
   "name": "Congo, Republic of the",
   "code": "CF",
-  "published": "2025-06-05 00:03:33 -0400",
+  "published": "2025-06-11 00:03:29 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:33 -0400",
+  "updated": "2025-06-10 10:54:55 -0400",
   "media": [
     {
       "type": "flag",
@@ -840,14 +840,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "3.9% of GDP (2021)",
-          "value": "3.9",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.9% of GDP (2021)<br><br>3.5% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "3.9% of GDP (2021)",
+              "value": "3.9",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "3.5% of national budget (2022 est.)",
+              "value": "3.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1049,27 +1063,35 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "4.5% of GDP (2020 est.)",
-          "value": "4.5",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "3.3% of GDP (2023 est.)<br><br>14.7% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.3% of GDP (2023 est.)",
+              "value": "3.3",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "14.7% national budget (2023 est.)",
+              "value": "14.7",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>80.6%<br><br><strong>male: </strong>85.9%<br><br><strong>female: </strong>75.4% (2021)",
+          "content": "<strong>total population: </strong>80.6%<br><br><strong>male: </strong>85.9%<br><br><strong>female: </strong>75.4% (2021)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "80.6%",
@@ -1248,21 +1270,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to floods -</em> above average rainfall amounts since November 2022 triggered flooding in December 2022 and January 2023 in central and northern parts of the country, displacing people; according to damage assessment reports, about 165,000 people have been affected in 23 districts in the departments of Cuvette, Likouala, Plateaux and Sangha (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to floods -</em> above average rainfall amounts since November 2022 triggered flooding in December 2022 and January 2023 in central and northern parts of the country, displacing people; according to damage assessment reports, about 165,000 people have been affected in 23 districts in the departments of Cuvette, Likouala, Plateaux and Sangha (2023)",
-              "value": "<em>due to floods -</em> above average rainfall amounts since November 2022 triggered flooding in December 2022 and January 2023 in central and northern parts of the country, displacing people; according to damage assessment reports, about 165,000 people have been affected in 23 districts in the departments of Cuvette, Likouala, Plateaux and Sangha",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1491,20 +1498,6 @@
           "comparative": false,
           "content": "12 departments (departments, singular - department); Bouenza, Brazzaville, Cuvette, Cuvette-Ouest, Kouilou, Lekoumou, Likouala, Niari, Plateaux, Pointe-Noire, Pool, Sangha",
           "value": "12 departments (departments, singular - department); Bouenza, Brazzaville, Cuvette, Cuvette-Ouest, Kouilou, Lekoumou, Likouala, Niari, Plateaux, Pointe-Noire, Pool, Sangha"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "15 August 1960 (from France)",
-          "value": "15 August 1960 (from France)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 15 August (1960)",
-          "value": "Independence Day, 15 August (1960)"
         },
         {
           "name": "Legal system",
@@ -1788,13 +1781,6 @@
           "value": "Alliance of the Presidential Majority or AMP<br />Action Movement for Renewal or MAR&nbsp;<br />Citizen's Rally or RC&nbsp;<br />Congolese Labour Party or PCT&nbsp;<br />Congolese Movement for Democracy and Integral Development or MCDDI&nbsp;<br />Congo on the Move or LCEM&nbsp;<br />Movement for Unity, Solidarity, and Work or MUST&nbsp;<br />Pan-African Union for Social Development or UPADS&nbsp;<br />Club 2002-Party for the Unity and the Republic or Club 2002&nbsp;<br />Patriotic Union for Democracy and Progress or UPDP&nbsp;<br />Perspectives and Realities Club or CPR&nbsp;<br />Rally for Democracy and Social Progress or RDPS&nbsp;<br />Republican and Liberal Party or PRL&nbsp;<br />Union of Democratic Forces or UDF&nbsp;<br />Union for Democracy and Republic or UDR<br />Union of Humanist Democrats or UDH-YUKI&nbsp;<br />Union for the Republic or UR&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AU, BDEAC, CEMAC, EITI (compliant country), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LCBC (observer), MIGA, NAM, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, AU, BDEAC, CEMAC, EITI (compliant country), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LCBC (observer), MIGA, NAM, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1871,6 +1857,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AU, BDEAC, CEMAC, EITI (compliant country), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LCBC (observer), MIGA, NAM, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, AU, BDEAC, CEMAC, EITI (compliant country), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LCBC (observer), MIGA, NAM, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "15 August 1960 (from France)",
+          "value": "15 August 1960 (from France)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 15 August (1960)",
+          "value": "Independence Day, 15 August (1960)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1882,8 +1889,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "lion, elephant; national colors: green, yellow, red",
-          "value": "lion, elephant; national colors: green, yellow, red"
+          "content": "lion, elephant",
+          "value": "lion, elephant"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "green, yellow, red",
+          "value": "green, yellow, red"
         },
         {
           "name": "National anthem",

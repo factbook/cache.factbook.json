@@ -1,9 +1,9 @@
 {
   "name": "Rwanda",
   "code": "RW",
-  "published": "2025-06-05 00:14:19 -0400",
+  "published": "2025-06-11 00:14:59 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-10 11:16:05 -0400",
   "media": [
     {
       "type": "flag",
@@ -834,14 +834,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "7.3% of GDP (2021)",
-          "value": "7.3",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "7.3% of GDP (2021)<br><br>9.5% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "7.3% of GDP (2021)",
+              "value": "7.3",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "9.5% of national budget (2022 est.)",
+              "value": "9.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1063,48 +1077,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.8% of GDP (2021 est.)",
-          "value": "3.8",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "4.7% of GDP (2024 est.)<br><br>13.9% national budget (2025 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "4.7% of GDP (2024 est.)",
+              "value": "4.7",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.9% national budget (2025 est.)",
+              "value": "13.9",
+              "estimated": true,
+              "info_date": "2025",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>75.9%<br><br><strong>male: </strong>78.7%<br><br><strong>female: </strong>73.3% (2021)",
+          "content": "<strong>total population: </strong>79% (2022 est.)<br><br><strong>male: </strong>81% (2022 est.)<br><br><strong>female: </strong>77% (2022 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "75.9%",
+              "content": "79% (2022 est.)",
               "title": "total population",
-              "value": "75.9",
+              "value": "79",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "78.7%",
+              "content": "81% (2022 est.)",
               "title": "male",
-              "value": "78.7",
+              "value": "81",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "73.3% (2021)",
+              "content": "77% (2022 est.)",
               "title": "female",
-              "value": "73.3",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "77",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             }
           ]
@@ -1483,20 +1509,6 @@
           "value": "4 provinces (in French - provinces, singular - province; in Kinyarwanda - intara for singular and plural) and 1 city* (in French - ville; in Kinyarwanda - umujyi); Est (Eastern), Kigali*, Nord (Northern), Ouest (Western), Sud (Southern)"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1 July 1962 (from Belgium-administered UN trusteeship)",
-          "value": "1 July 1962 (from Belgium-administered UN trusteeship)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 1 July (1962)",
-          "value": "Independence Day, 1 July (1962)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1780,13 +1792,6 @@
           "value": "Democratic Green Party of Rwanda or DGPR&nbsp;<br />Liberal Party or PL&nbsp;<br />Party for Progress and Concord or PPC&nbsp;<br />Rwandan Patriotic Front or RPF&nbsp;<br />Rwandan Patriotic Front Coalition (includes RPF, PPC, PSP, UDPR, PDI, PSR, PDC)&nbsp;<br />Social Democratic Party or PSD&nbsp;<br />Social Party Imberakuri or PS-Imberakuri&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AU, CEPGL, COMESA, EAC, EADB, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSMA, NAM, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, AU, CEPGL, COMESA, EAC, EADB, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSMA, NAM, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1869,6 +1874,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AU, CEPGL, COMESA, EAC, EADB, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSMA, NAM, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, AU, CEPGL, COMESA, EAC, EADB, FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSMA, NAM, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1 July 1962 (from Belgium-administered UN trusteeship)",
+          "value": "1 July 1962 (from Belgium-administered UN trusteeship)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 1 July (1962)",
+          "value": "Independence Day, 1 July (1962)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1879,8 +1905,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "traditional woven basket with peaked lid; national colors: blue, yellow, green",
-          "value": "traditional woven basket with peaked lid; national colors: blue, yellow, green"
+          "content": "traditional woven basket with peaked lid",
+          "value": "traditional woven basket with peaked lid"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, yellow, green",
+          "value": "blue, yellow, green"
         },
         {
           "name": "National anthem",
@@ -3080,12 +3113,19 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "1.4% of GDP (2023 est.)<br><br>1.4% of GDP (2022 est.)<br><br>1.4% of GDP (2021 est.)<br><br>1.3% of GDP (2020 est.)<br><br>1.2% of GDP (2019 est.)",
+          "content": "1.3% of GDP (2024 est.)<br><br>1.3% of GDP (2023 est.)<br><br>1.4% of GDP (2022 est.)<br><br>1.4% of GDP (2021 est.)<br><br>1.3% of GDP (2020 est.)",
           "subfields": [
             {
+              "name": "Military Expenditures 2024",
+              "content": "1.3% of GDP (2024 est.)",
+              "value": "1.3",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
+            {
               "name": "Military Expenditures 2023",
-              "content": "1.4% of GDP (2023 est.)",
-              "value": "1.4",
+              "content": "1.3% of GDP (2023 est.)",
+              "value": "1.3",
               "estimated": true,
               "suffix": "% of GDP"
             },
@@ -3107,13 +3147,6 @@
               "name": "Military Expenditures 2020",
               "content": "1.3% of GDP (2020 est.)",
               "value": "1.3",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "1.2% of GDP (2019 est.)",
-              "value": "1.2",
               "estimated": true,
               "suffix": "% of GDP"
             }

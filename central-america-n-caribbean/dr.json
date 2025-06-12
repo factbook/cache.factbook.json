@@ -1,9 +1,9 @@
 {
   "name": "Dominican Republic",
   "code": "DR",
-  "published": "2025-06-05 00:05:00 -0400",
+  "published": "2025-06-11 00:05:07 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-06-04 14:58:33 -0400",
+  "updated": "2025-06-10 10:54:56 -0400",
   "media": [
     {
       "type": "flag",
@@ -896,14 +896,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "4.9% of GDP (2021)",
-          "value": "4.9",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "4.9% of GDP (2021)<br><br>14.4% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "4.9% of GDP (2021)",
+              "value": "4.9",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "14.4% of national budget (2022 est.)",
+              "value": "14.4",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1116,48 +1130,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "4.6% of GDP (2020 est.)",
-          "value": "4.6",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "4.3% of GDP (2023 est.)<br><br>21.9% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "4.3% of GDP (2023 est.)",
+              "value": "4.3",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "21.9% national budget (2024 est.)",
+              "value": "21.9",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>95.5%<br><br><strong>male: </strong>95.4%<br><br><strong>female: </strong>95.6% (2022)",
+          "content": "<strong>total population: </strong>94% (2016 est.)<br><br><strong>male: </strong>94% (2016 est.)<br><br><strong>female: </strong>87.4% (2019 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "95.5%",
+              "content": "94% (2016 est.)",
               "title": "total population",
-              "value": "95.5",
+              "value": "94",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "95.4%",
+              "content": "94% (2016 est.)",
               "title": "male",
-              "value": "95.4",
+              "value": "94",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "95.6% (2022)",
+              "content": "87.4% (2019 est.)",
               "title": "female",
-              "value": "95.6",
-              "estimated": false,
-              "info_date": "2022",
+              "value": "87.4",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             }
           ]
@@ -1544,20 +1570,6 @@
           "value": "31 provinces (provincias, singular - provincia), 1 district* (distrito); Azua, Baoruco, Barahona, Dajab&oacute;n, Distrito Nacional*, Duarte, El&iacute;as Pi&ntilde;a, El Seibo, Espaillat, Hato Mayor, Hermanas Mirabal, Independencia, La Altagracia, La Romana, La Vega, Mar&iacute;a Trinidad S&aacute;nchez, Monse&ntilde;or Nouel, Monte Cristi, Monte Plata, Pedernales, Peravia, Puerto Plata, Saman&aacute;, S&aacute;nchez Ram&iacute;rez, San Crist&oacute;bal, San Jos&eacute; de Ocoa, San Juan, San Pedro de Macor&iacute;s, Santiago, Santiago Rodr&iacute;guez, Santo Domingo, Valverde"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "27 February 1844 (from Haiti)",
-          "value": "27 February 1844 (from Haiti)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 27 February (1844)",
-          "value": "Independence Day, 27 February (1844)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1851,13 +1863,6 @@
           "value": "Alliance for Democracy or APD<br />Broad Front (Frente Amplio)<br />Country Alliance or AP<br />Dominican Liberation Party or PLD<br />Dominican Revolutionary Party or PRD<br />Dominicans For Change or DXC<br />Independent Revolutionary Party or PRI<br />Institutional Social Democratic Bloc or BIS<br />Liberal Reformist Party or PRL (formerly the Liberal Party of the Dominican Republic or PLRD)<br />Modern Revolutionary Party or PRM<br />National Progressive Front or FNP<br />People's First Party or PPG<br />People's Force or FP<br />Social Christian Reformist Party or PRSC"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, ACS, AOSIS, BCIE, Caricom (observer), CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA, MIGA, MINUSMA, NAM, OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA (associated member), UN, UNCTAD, UNESCO, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, ACS, AOSIS, BCIE, Caricom (observer), CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA, MIGA, MINUSMA, NAM, OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA (associated member), UN, UNCTAD, UNESCO, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1940,6 +1945,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, ACS, AOSIS, BCIE, Caricom (observer), CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA, MIGA, MINUSMA, NAM, OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA (associated member), UN, UNCTAD, UNESCO, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, ACS, AOSIS, BCIE, Caricom (observer), CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA, MIGA, MINUSMA, NAM, OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA (associated member), UN, UNCTAD, UNESCO, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "27 February 1844 (from Haiti)",
+          "value": "27 February 1844 (from Haiti)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 27 February (1844)",
+          "value": "Independence Day, 27 February (1844)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1950,8 +1976,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "palmchat (bird); national colors: red, white, blue",
-          "value": "palmchat (bird); national colors: red, white, blue"
+          "content": "palmchat (bird)",
+          "value": "palmchat (bird)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white, blue",
+          "value": "red, white, blue"
         },
         {
           "name": "National anthem",

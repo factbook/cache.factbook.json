@@ -1,9 +1,9 @@
 {
   "name": "Madagascar",
   "code": "MA",
-  "published": "2025-06-05 00:10:14 -0400",
+  "published": "2025-06-11 00:11:13 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 15:30:18 -0400",
+  "updated": "2025-06-10 10:54:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -790,14 +790,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "3.5% of GDP (2021)",
-          "value": "3.5",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.5% of GDP (2021)<br><br>5.7% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "3.5% of GDP (2021)",
+              "value": "3.5",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "5.7% of national budget (2022 est.)",
+              "value": "5.7",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1009,47 +1023,59 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.1% of GDP (2020 est.)",
-          "value": "3.1",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "3% of GDP (2023 est.)<br><br>18% national budget (2019 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3% of GDP (2023 est.)",
+              "value": "3",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "18% national budget (2019 est.)",
+              "value": "18",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>77.3%<br><br><strong>male: </strong>78.8%<br><br><strong>female: </strong>75.8% (2021)",
+          "content": "<strong>total population: </strong>74.7% (2021 est.)<br><br><strong>male: </strong>77.9% (2021 est.)<br><br><strong>female: </strong>71.8% (2021 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "77.3%",
+              "content": "74.7% (2021 est.)",
               "title": "total population",
-              "value": "77.3",
+              "value": "74.7",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "78.8%",
+              "content": "77.9% (2021 est.)",
               "title": "male",
-              "value": "78.8",
+              "value": "77.9",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "75.8% (2021)",
+              "content": "71.8% (2021 est.)",
               "title": "female",
-              "value": "75.8",
-              "estimated": false,
+              "value": "71.8",
+              "estimated": true,
               "info_date": "2021",
               "suffix": "%"
             }
@@ -1208,21 +1234,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to the effects of extreme weather events and slow economic recovery - </em>in 2023, an estimated 2.2 million people are projected to face crisis levels of acute food insecurity in southern and southeastern areas, due to successive years of droughts; cyclone Freddy in February 2023 caused disruptions to livelihoods and resulted in crop damage, which further aggravated food insecurity (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to the effects of extreme weather events and slow economic recovery - </em>in 2023, an estimated 2.2 million people are projected to face crisis levels of acute food insecurity in southern and southeastern areas, due to successive years of droughts; cyclone Freddy in February 2023 caused disruptions to livelihoods and resulted in crop damage, which further aggravated food insecurity (2023)",
-              "value": "<em>due to the effects of extreme weather events and slow economic recovery - </em>in 2023, an estimated 2.2 million people are projected to face crisis levels of acute food insecurity in southern and southeastern areas, due to successive years of droughts; cyclone Freddy in February 2023 caused disruptions to livelihoods and resulted in crop damage, which further aggravated food insecurity",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1418,20 +1429,6 @@
           "comparative": false,
           "content": "6 provinces (faritany); Antananarivo, Antsiranana, Fianarantsoa, Mahajanga, Toamasina, Toliara",
           "value": "6 provinces (faritany); Antananarivo, Antsiranana, Fianarantsoa, Mahajanga, Toamasina, Toliara"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "26 June 1960 (from France)",
-          "value": "26 June 1960 (from France)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 26 June (1960)",
-          "value": "Independence Day, 26 June (1960)"
         },
         {
           "name": "Legal system",
@@ -1708,13 +1705,6 @@
           "value": "<p>Group of Young Malagasy Patriots (Groupe des Jeunes Malgaches Patriotes) or GJMP<br />I Love Madagascar (Tiako I Madagasikara) or TIM<br />Isika Rehetra Miaraka amin'i Andry Rajoelina coalition or IRD<br />Malagasy Aware (Malagasy Tonga Saina) or MTS<br />Malagasy Tia Tanindrazana or MATITA or ANGADY<br />Movement for Democracy in Madagascar (Mouvement pour la D&eacute;mocratie &agrave; Madagascar) or MDM<br />Rally for Democratic Socialism (Rassemblement pour Socialisme D&eacute;mocratique - Nouveau) or RPSD Vaovao<br />Young Malagasies Determined (Tanora Malagasy Vonona) or TGV</p>"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AU, CD, COMESA, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, InOC, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIF, OPCW, PCA, SADC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, AU, CD, COMESA, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, InOC, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIF, OPCW, PCA, SADC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1797,6 +1787,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AU, CD, COMESA, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, InOC, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIF, OPCW, PCA, SADC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, AU, CD, COMESA, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, InOC, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIF, OPCW, PCA, SADC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "26 June 1960 (from France)",
+          "value": "26 June 1960 (from France)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 26 June (1960)",
+          "value": "Independence Day, 26 June (1960)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1807,8 +1818,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "traveller's palm (ravenala), zebu; national colors: red, green, white",
-          "value": "traveller's palm (ravenala), zebu; national colors: red, green, white"
+          "content": "traveller's palm (ravenala), zebu",
+          "value": "traveller's palm (ravenala), zebu"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, green, white",
+          "value": "red, green, white"
         },
         {
           "name": "National anthem",

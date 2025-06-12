@@ -1,9 +1,9 @@
 {
   "name": "Georgia",
   "code": "GG",
-  "published": "2025-06-05 00:06:27 -0400",
+  "published": "2025-06-11 00:06:39 -0400",
   "region": "Central Asia",
-  "updated": "2025-06-04 14:58:33 -0400",
+  "updated": "2025-06-10 10:54:56 -0400",
   "media": [
     {
       "type": "flag",
@@ -835,14 +835,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "7.4% of GDP (2022)",
-          "value": "7.4",
-          "estimated": false,
-          "info_date": "2022",
-          "suffix": "% of GDP"
+          "content": "7.4% of GDP (2022)<br><br>10.5% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "7.4% of GDP (2022)",
+              "value": "7.4",
+              "estimated": false,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "10.5% of national budget (2022 est.)",
+              "value": "10.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1064,48 +1078,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.6% of GDP (2021 est.)",
-          "value": "3.6",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.7% of GDP (2023 est.)<br><br>14.1% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.7% of GDP (2023 est.)",
+              "value": "3.7",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "14.1% national budget (2023 est.)",
+              "value": "14.1",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>99.6%<br><br><strong>male: </strong>99.7%<br><br><strong>female: </strong>99.5% (2019)",
+          "content": "<strong>total population: </strong>99.6% (2023 est.)<br><br><strong>male: </strong>99.5% (2023 est.)<br><br><strong>female: </strong>99.6% (2023 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "99.6%",
+              "content": "99.6% (2023 est.)",
               "title": "total population",
               "value": "99.6",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "99.7%",
+              "content": "99.5% (2023 est.)",
               "title": "male",
-              "value": "99.7",
+              "value": "99.5",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "99.5% (2019)",
+              "content": "99.6% (2023 est.)",
               "title": "female",
-              "value": "99.5",
-              "estimated": false,
-              "info_date": "2019",
+              "value": "99.6",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             }
           ]
@@ -1462,20 +1488,6 @@
           "field_note": "<strong>note 1:</strong> the administrative centers of the two autonomous republics are shown in parentheses <br><br><strong>note 2:</strong> the United States recognizes the breakaway regions of Abkhazia and South Ossetia to be part of Georgia"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "9 April 1991 (from the Soviet Union); notable earlier date: A.D. 1008 (Georgia unified under King BAGRAT III)",
-          "value": "9 April 1991 (from the Soviet Union); notable earlier date: A.D. 1008 (Georgia unified under King BAGRAT III)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 26 May (1918); note - 26 May 1918 was the date of independence from Soviet Russia, 9 April 1991 was the date of independence from the Soviet Union",
-          "value": "Independence Day, 26 May (1918); note - 26 May 1918 was the date of independence from Soviet Russia, 9 April 1991 was the date of independence from the Soviet Union"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1691,13 +1703,6 @@
           "value": "Citizens<br />European Socialists<br />For Georgia<br />Georgian Dream<br />Girchi<br />Law and Justice<br />Lelo for Georgia<br />National Democratic Party<br />People's Power<br />Progress and Freedom<br />Republican Party<br />State for the People<br />Strategy Aghmashenebeli<br />United National Movement or UNM<br />Victorious Georgia"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB, BSEC, CD, CE, CPLP (associate), EAPC, EBRD, FAO, G-11, GCTU, GUAM, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, OAS (observer), OIF (observer), OPCW, OSCE, PFP, SELEC (observer), UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "ADB, BSEC, CD, CE, CPLP (associate), EAPC, EBRD, FAO, G-11, GCTU, GUAM, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, OAS (observer), OIF (observer), OPCW, OSCE, PFP, SELEC (observer), UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1786,6 +1791,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB, BSEC, CD, CE, CPLP (associate), EAPC, EBRD, FAO, G-11, GCTU, GUAM, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, OAS (observer), OIF (observer), OPCW, OSCE, PFP, SELEC (observer), UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "ADB, BSEC, CD, CE, CPLP (associate), EAPC, EBRD, FAO, G-11, GCTU, GUAM, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, OAS (observer), OIF (observer), OPCW, OSCE, PFP, SELEC (observer), UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "9 April 1991 (from the Soviet Union); notable earlier date: A.D. 1008 (Georgia unified under King BAGRAT III)",
+          "value": "9 April 1991 (from the Soviet Union); notable earlier date: A.D. 1008 (Georgia unified under King BAGRAT III)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 26 May (1918); note - 26 May 1918 was the date of independence from Soviet Russia, 9 April 1991 was the date of independence from the Soviet Union",
+          "value": "Independence Day, 26 May (1918); note - 26 May 1918 was the date of independence from Soviet Russia, 9 April 1991 was the date of independence from the Soviet Union"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1796,8 +1822,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Saint George, lion; national colors: red, white",
-          "value": "Saint George, lion; national colors: red, white"
+          "content": "Saint George, lion",
+          "value": "Saint George, lion"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white",
+          "value": "red, white"
         },
         {
           "name": "National anthem",

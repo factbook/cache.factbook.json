@@ -1,9 +1,9 @@
 {
   "name": "Argentina",
   "code": "AR",
-  "published": "2025-06-05 00:01:02 -0400",
+  "published": "2025-06-11 00:00:56 -0400",
   "region": "South America",
-  "updated": "2025-06-04 14:58:32 -0400",
+  "updated": "2025-06-10 11:00:10 -0400",
   "media": [
     {
       "type": "flag",
@@ -924,14 +924,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "9.7% of GDP (2021)",
-          "value": "9.7",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "9.7% of GDP (2021)<br><br>15.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "9.7% of GDP (2021)",
+              "value": "9.7",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "15.2% of national budget (2022 est.)",
+              "value": "15.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1142,27 +1156,35 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "5% of GDP (2020 est.)",
-          "value": "5",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "4.8% of GDP (2022 est.)<br><br>12.7% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "4.8% of GDP (2022 est.)",
+              "value": "4.8",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "12.7% national budget (2022 est.)",
+              "value": "12.7",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>99%<br><br><strong>male: </strong>98.9%<br><br><strong>female: </strong>99.1% (2018)",
+          "content": "<strong>total population: </strong>99%<br><br><strong>male: </strong>98.9%<br><br><strong>female: </strong>99.1% (2018 est.)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "99%",
@@ -1179,10 +1201,10 @@
             },
             {
               "name": "female",
-              "content": "99.1% (2018)",
+              "content": "99.1% (2018 est.)",
               "title": "female",
               "value": "99.1",
-              "estimated": false,
+              "estimated": true,
               "info_date": "2018",
               "suffix": "%"
             }
@@ -1586,20 +1608,6 @@
           "field_note": "<strong>note:</strong> the US does not recognize any claims to Antarctica"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "9 July 1816 (from Spain)",
-          "value": "9 July 1816 (from Spain)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Revolution Day (May Revolution Day), 25 May (1810)",
-          "value": "Revolution Day (May Revolution Day), 25 May (1810)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1893,13 +1901,6 @@
           "value": "<p>Avanza Libertad or AL<br />Civic Coalition ARI or CC-ARI<br />Consenso Federal (Federal Consensus) or CF<br />Frente C&iacute;vico por Santiago (Civic Front for Santiago)<br />Frente de Izquierda y de los Trabajadores &ndash; Unidad (Workers' Left Front) or FIT-U (coalition of leftist parties in lower house; includes PTS, PO, and MST) <br />Frente de la Concordia Misionero (Front for the Renewal of Social Concord) or FRCS<br />Frente Renovador (Renewal Front) or FR<br />Generaci&oacute;n por un Encuentro Nacional (Generation for a National Encounter) or GEN<br />Hacemos por C&oacute;rdoba (We do for Cordoba) or HC<br />Hacemos por Nuestro Pais (We Do For Our Country) or NHP<br />Juntos por el Cambio (Together for Change) or JxC (includes CC-ARI, PRO, and UCR); note - primary opposition coalition since 2019<br />Juntos Somos R&iacute;o Negro (Together We Are Rio Negro) or JSRN&nbsp; <br />Partido Justicialista (Justicialist Party) or PJ<br />La C&aacute;mpora<br />La Libertad Avanza (The Liberty Advances) or LLA<br />Movimiento Popular Neuquino (Neuqu&eacute;n People's Movement) or MPN<br />Movimiento Socialista de los Trabajadores (Workers' Socialist Movement) or MST <br />Partido de los Trabajadores Socialistas (Socialist Workers' Party) or PTS<br />Partido Dem&oacute;crata (Democratic Party) or PDN<br />Partido Libertario (Libertarian Party) or PL; note - party is also a founding member of the coalition La Libertad Avanza<br />Partido Obrero (Workers' Party) or PO<br />Partido Socialista or PS<br />Propuesta Republicana (Republican Proposal) or PRO<br />Unidad Federal (coalition of provencial parties in the lower house; includes FRCS and JSRN)<br />Uni&oacute;n C&iacute;vica Radical (Radical Civic Union) or UCR<br />Uni&oacute;n por la Patria (Union for the Homeland) or UP <em>(formerly Frente de Todos (Everyone's Front) or FdT) </em>(includes FR, La C&aacute;mpora, and PJ); note - ruling coalition since 2019; includes several national and provincial Peronist political parties<br />Vamos con Vos (Let's Go with You) or VcV </p>"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "AfDB (nonregional member), Australia Group, BCIE, BIS, CAN (associate), CD, CABEI, CELAC, FAO, FATF, G-15, G-20, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur, MIGA, MINURSO, MINUSTAH, NAM (observer), NSG, OAS, OPANAL, OPCW, Paris Club (associate), PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNDOF, UNESCO, UNFICYP, UNHCR, UNHRC, UNIDO, Union Latina (observer), UNOOSA, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
-          "value": "AfDB (nonregional member), Australia Group, BCIE, BIS, CAN (associate), CD, CABEI, CELAC, FAO, FATF, G-15, G-20, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur, MIGA, MINURSO, MINUSTAH, NAM (observer), NSG, OAS, OPANAL, OPCW, Paris Club (associate), PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNDOF, UNESCO, UNFICYP, UNHCR, UNHRC, UNIDO, Union Latina (observer), UNOOSA, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1988,6 +1989,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "AfDB (nonregional member), Australia Group, BCIE, BIS, CAN (associate), CD, CABEI, CELAC, FAO, FATF, G-15, G-20, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur, MIGA, MINURSO, MINUSTAH, NAM (observer), NSG, OAS, OPANAL, OPCW, Paris Club (associate), PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNDOF, UNESCO, UNFICYP, UNHCR, UNHRC, UNIDO, Union Latina (observer), UNOOSA, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+          "value": "AfDB (nonregional member), Australia Group, BCIE, BIS, CAN (associate), CD, CABEI, CELAC, FAO, FATF, G-15, G-20, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA, Mercosur, MIGA, MINURSO, MINUSTAH, NAM (observer), NSG, OAS, OPANAL, OPCW, Paris Club (associate), PCA, PROSUR, SICA (observer), UN, UNASUR, UNCTAD, UNDOF, UNESCO, UNFICYP, UNHCR, UNHRC, UNIDO, Union Latina (observer), UNOOSA, UNTSO, UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "9 July 1816 (from Spain)",
+          "value": "9 July 1816 (from Spain)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Revolution Day (May Revolution Day), 25 May (1810)",
+          "value": "Revolution Day (May Revolution Day), 25 May (1810)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1998,8 +2020,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Sun of May (a sun-with-face symbol); national colors: sky blue, white",
-          "value": "Sun of May (a sun-with-face symbol); national colors: sky blue, white"
+          "content": "Sun of May (a sun-with-face symbol)",
+          "value": "Sun of May (a sun-with-face symbol)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "sky blue, white",
+          "value": "sky blue, white"
         },
         {
           "name": "National anthem",

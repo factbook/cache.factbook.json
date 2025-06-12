@@ -1,9 +1,9 @@
 {
   "name": "Cabo Verde",
   "code": "CV",
-  "published": "2025-06-05 00:04:36 -0400",
+  "published": "2025-06-11 00:04:37 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:32 -0400",
+  "updated": "2025-06-10 10:54:56 -0400",
   "media": [
     {
       "type": "flag",
@@ -771,14 +771,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "6.9% of GDP (2021)",
-          "value": "6.9",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "6.9% of GDP (2021)<br><br>16.1% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "6.9% of GDP (2021)",
+              "value": "6.9",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "16.1% of national budget (2022 est.)",
+              "value": "16.1",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -990,48 +1004,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "7.6% of GDP (2020 est.)",
-          "value": "7.6",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "4.3% of GDP (2023 est.)<br><br>13.4% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "4.3% of GDP (2023 est.)",
+              "value": "4.3",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.4% national budget (2024 est.)",
+              "value": "13.4",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>90.8%<br><br><strong>male: </strong>94.2%<br><br><strong>female: </strong>87.4% (2021)",
+          "content": "<strong>total population: </strong>87% (2015 est.)<br><br><strong>male: </strong>92% (2015 est.)<br><br><strong>female: </strong>82% (2015 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "90.8%",
+              "content": "87% (2015 est.)",
               "title": "total population",
-              "value": "90.8",
+              "value": "87",
+              "estimated": true,
+              "info_date": "2015",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "94.2%",
+              "content": "92% (2015 est.)",
               "title": "male",
-              "value": "94.2",
+              "value": "92",
+              "estimated": true,
+              "info_date": "2015",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "87.4% (2021)",
+              "content": "82% (2015 est.)",
               "title": "female",
-              "value": "87.4",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "82",
+              "estimated": true,
+              "info_date": "2015",
               "suffix": "%"
             }
           ]
@@ -1380,20 +1406,6 @@
           "value": "22 municipalities (concelhos, singular - concelho); Boa Vista, Brava, Maio, Mosteiros, Paul, Porto Novo, Praia, Ribeira Brava, Ribeira Grande, Ribeira Grande de Santiago, Sal, Santa Catarina, Santa Catarina do Fogo, Santa Cruz, S&atilde;o Domingos, S&atilde;o Filipe, S&atilde;o Lourenco dos Orgaos, S&atilde;o Miguel, S&atilde;o Salvador do Mundo, S&atilde;o Vicente, Tarrafal, Tarrafal de S&atilde;o Nicolau"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "5 July 1975 (from Portugal)",
-          "value": "5 July 1975 (from Portugal)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 5 July (1975)",
-          "value": "Independence Day, 5 July (1975)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1608,13 +1620,6 @@
           "value": "African Party for Independence of Cabo Verde or PAICV&nbsp;<br />Democratic and Independent Cabo Verdean Union or UCID&nbsp;<br />Democratic Christian Party or PDC&nbsp;<br />Democratic Renewal Party or PRD&nbsp;<br />Movement for Democracy or MPD&nbsp;<br />Party for Democratic Convergence or PCD&nbsp;<br />Party of Work and Solidarity or PTS&nbsp;<br />Social Democratic Party or PSD&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AOSIS, AU, CD, CPLP, ECOWAS, FAO, G-77, IAEA, IBRD, ICAO, ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIF, OPCW, UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, AOSIS, AU, CD, CPLP, ECOWAS, FAO, G-77, IAEA, IBRD, ICAO, ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIF, OPCW, UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1703,6 +1708,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AOSIS, AU, CD, CPLP, ECOWAS, FAO, G-77, IAEA, IBRD, ICAO, ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIF, OPCW, UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, AOSIS, AU, CD, CPLP, ECOWAS, FAO, G-77, IAEA, IBRD, ICAO, ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIF, OPCW, UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "5 July 1975 (from Portugal)",
+          "value": "5 July 1975 (from Portugal)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 5 July (1975)",
+          "value": "Independence Day, 5 July (1975)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1713,8 +1739,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "ten five-pointed yellow stars; national colors: blue, white, red, yellow",
-          "value": "ten five-pointed yellow stars; national colors: blue, white, red, yellow"
+          "content": "ten five-pointed yellow stars",
+          "value": "ten five-pointed yellow stars"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, white, red, yellow",
+          "value": "blue, white, red, yellow"
         },
         {
           "name": "National anthem",

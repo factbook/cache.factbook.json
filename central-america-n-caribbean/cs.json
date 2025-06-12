@@ -1,9 +1,9 @@
 {
   "name": "Costa Rica",
   "code": "CS",
-  "published": "2025-06-05 00:04:23 -0400",
+  "published": "2025-06-11 00:04:22 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-06-04 14:58:33 -0400",
+  "updated": "2025-06-10 10:54:56 -0400",
   "media": [
     {
       "type": "flag",
@@ -823,14 +823,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "7.6% of GDP (2021)",
-          "value": "7.6",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "7.6% of GDP (2021)<br><br>25.8% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "7.6% of GDP (2021)",
+              "value": "7.6",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "25.8% of national budget (2022 est.)",
+              "value": "25.8",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1043,27 +1057,35 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "6.7% of GDP (2020 est.)",
-          "value": "6.7",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "6.2% of GDP (2021 est.)<br><br>31.2% national budget (2021 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "6.2% of GDP (2021 est.)",
+              "value": "6.2",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "31.2% national budget (2021 est.)",
+              "value": "31.2",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>98%<br><br><strong>male: </strong>98%<br><br><strong>female: </strong>98.1% (2021)",
+          "content": "<strong>total population: </strong>98%<br><br><strong>male: </strong>98%<br><br><strong>female: </strong>94.1% (2018 est.)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "98%",
@@ -1080,11 +1102,11 @@
             },
             {
               "name": "female",
-              "content": "98.1% (2021)",
+              "content": "94.1% (2018 est.)",
               "title": "female",
-              "value": "98.1",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "94.1",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             }
           ]
@@ -1451,20 +1473,6 @@
           "value": "7 provinces (provincias, singular - provincia); Alajuela, Cartago, Guanacaste, Heredia, Limon, Puntarenas, San Jose"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "15 September 1821 (from Spain)",
-          "value": "15 September 1821 (from Spain)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 15 September (1821)",
-          "value": "Independence Day, 15 September (1821)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1680,13 +1688,6 @@
           "value": "<p>Accessibility Without Exclusion or PASE<br />Broad Front (Frente Amplio) or PFA<br />Citizen Action Party or PAC<br />Costa Rican Renewal Party or PRC<br />Here Costa Rica Commands Party or ACRM<br />Liberal Progressive Party or PLP <br />Libertarian Movement Party or ML<br />National Integration Party or PIN<br />National Liberation Party or PLN<br />National Restoration Party or PRN<br />New Generation or PNG<br />New Republic Party or PNR<br />Social Christian Republican Party or PRSC<br />Social Christian Unity Party or PUSC of UNIDAD<br />Social Democratic Progress Party or PPSD</p>"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACS, BCIE, CACM, CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, NAM (observer), OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, SICA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACS, BCIE, CACM, CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, NAM (observer), OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, SICA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1775,6 +1776,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACS, BCIE, CACM, CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, NAM (observer), OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, SICA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACS, BCIE, CACM, CD, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, NAM (observer), OAS, OIF (observer), OPANAL, OPCW, Pacific Alliance (observer), PCA, SICA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "15 September 1821 (from Spain)",
+          "value": "15 September 1821 (from Spain)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 15 September (1821)",
+          "value": "Independence Day, 15 September (1821)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1786,15 +1808,22 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "yiguirro (clay-colored thrush); national colors: blue, white, red",
-          "value": "yiguirro (clay-colored thrush); national colors: blue, white, red"
+          "content": "yiguirro (clay-colored thrush)",
+          "value": "yiguirro (clay-colored thrush)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, white, red",
+          "value": "blue, white, red"
         },
         {
           "name": "National coat of arms",
           "field_id": 468,
           "comparative": false,
-          "content": "<p>The Costa Rican coat of arms highlights the country&rsquo;s natural beauty and history. Three volcanoes, each topped with a white cloud, are surrounded with water, symbolizing the seaports of the Pacific and Atlantic Oceans. The rising sun in the background commemorates the birth of a new nation, and the seven white stars stand for the country's seven provinces. The two merchant ships carrying Costa Rica&rsquo;s flag are a reminder of the maritime trade that shaped the country's history.</p> <p>&nbsp;</p>",
-          "value": "<p>The Costa Rican coat of arms highlights the country&rsquo;s natural beauty and history. Three volcanoes, each topped with a white cloud, are surrounded with water, symbolizing the seaports of the Pacific and Atlantic Oceans. The rising sun in the background commemorates the birth of a new nation, and the seven white stars stand for the country's seven provinces. The two merchant ships carrying Costa Rica&rsquo;s flag are a reminder of the maritime trade that shaped the country's history.</p> <p>&nbsp;</p>",
+          "content": "the Costa Rican coat of arms highlights the country&rsquo;s natural beauty and history; three volcanoes, each topped with a white cloud, are surrounded with water, symbolizing the seaports of the Pacific and Atlantic Oceans; the rising sun in the background stands for the birth of a new nation, and the seven white stars for the country's provinces; the two merchant ships carrying Costa Rica&rsquo;s flag are a reminder of the maritime trade that shaped the country's history",
+          "value": "the Costa Rican coat of arms highlights the country&rsquo;s natural beauty and history; three volcanoes, each topped with a white cloud, are surrounded with water, symbolizing the seaports of the Pacific and Atlantic Oceans; the rising sun in the background stands for the birth of a new nation, and the seven white stars for the country's provinces; the two merchant ships carrying Costa Rica&rsquo;s flag are a reminder of the maritime trade that shaped the country's history",
           "media": [
             {
               "type": "image",

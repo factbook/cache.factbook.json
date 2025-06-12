@@ -1,9 +1,9 @@
 {
   "name": "Sierra Leone",
   "code": "SL",
-  "published": "2025-06-05 00:14:55 -0400",
+  "published": "2025-06-11 00:15:38 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-10 11:22:36 -0400",
   "media": [
     {
       "type": "flag",
@@ -783,14 +783,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "8.6% of GDP (2021)",
-          "value": "8.6",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "8.6% of GDP (2021)<br><br>5.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "8.6% of GDP (2021)",
+              "value": "8.6",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "5.2% of national budget (2022 est.)",
+              "value": "5.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1002,48 +1016,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "9.1% of GDP (2021 est.)",
-          "value": "9.1",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "8.5% of GDP (2022 est.)<br><br>29.4% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "8.5% of GDP (2022 est.)",
+              "value": "8.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "29.4% national budget (2022 est.)",
+              "value": "29.4",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write English, Mende, Temne, or Arabic<br><br><strong>total population: </strong>48.6%<br><br><strong>male: </strong>56.3%<br><br><strong>female: </strong>41.3% (2022)",
+          "content": "<strong>total population: </strong>43.6% (2019 est.)<br><br><strong>male: </strong>54.6% (2019 est.)<br><br><strong>female: </strong>33.9% (2019 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write English, Mende, Temne, or Arabic",
-              "value": "age 15 and over can read and write English, Mende, Temne, or Arabic",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "48.6%",
+              "content": "43.6% (2019 est.)",
               "title": "total population",
-              "value": "48.6",
+              "value": "43.6",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "56.3%",
+              "content": "54.6% (2019 est.)",
               "title": "male",
-              "value": "56.3",
+              "value": "54.6",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "41.3% (2022)",
+              "content": "33.9% (2019 est.)",
               "title": "female",
-              "value": "41.3",
-              "estimated": false,
-              "info_date": "2022",
+              "value": "33.9",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             }
           ]
@@ -1170,21 +1196,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to high food prices and reduced incomes - </em>according to the latest analysis, about 1.18 million people are projected to be in need of humanitarian assistance between the June to August 2023 lean season; acute food insecurity is underpinned by elevated food prices, in part driven by a weak currency, and low purchasing power of vulnerable households (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to high food prices and reduced incomes - </em>according to the latest analysis, about 1.18 million people are projected to be in need of humanitarian assistance between the June to August 2023 lean season; acute food insecurity is underpinned by elevated food prices, in part driven by a weak currency, and low purchasing power of vulnerable households (2023)",
-              "value": "<em>due to high food prices and reduced incomes - </em>according to the latest analysis, about 1.18 million people are projected to be in need of humanitarian assistance between the June to August 2023 lean season; acute food insecurity is underpinned by elevated food prices, in part driven by a weak currency, and low purchasing power of vulnerable households",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1379,20 +1390,6 @@
           "comparative": false,
           "content": "4 provinces and 1 area*; Eastern, Northern, North Western, Southern, Western*",
           "value": "4 provinces and 1 area*; Eastern, Northern, North Western, Southern, Western*"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "27 April 1961 (from the UK)",
-          "value": "27 April 1961 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 27 April (1961)",
-          "value": "Independence Day, 27 April (1961)"
         },
         {
           "name": "Legal system",
@@ -1611,13 +1608,6 @@
           "value": "All People's Congress or APC&nbsp;<br />Sierra Leone People's Party or SLPP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, ATMIS, AU, C, ECOWAS, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO (pending member), ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNIFIL, UNISFA, UNOOSA, UNSOM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, ATMIS, AU, C, ECOWAS, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO (pending member), ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNIFIL, UNISFA, UNOOSA, UNSOM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1694,6 +1684,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, ATMIS, AU, C, ECOWAS, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO (pending member), ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNIFIL, UNISFA, UNOOSA, UNSOM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, ATMIS, AU, C, ECOWAS, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO (pending member), ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNIFIL, UNISFA, UNOOSA, UNSOM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "27 April 1961 (from the UK)",
+          "value": "27 April 1961 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 27 April (1961)",
+          "value": "Independence Day, 27 April (1961)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1704,8 +1715,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "lion; national colors: green, white, blue",
-          "value": "lion; national colors: green, white, blue"
+          "content": "lion",
+          "value": "lion"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "green, white, blue",
+          "value": "green, white, blue"
         },
         {
           "name": "National anthem",
@@ -2840,8 +2858,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "0.6% of GDP (2023 est.)<br><br>0.6% of GDP (2022 est.)<br><br>0.3% of GDP (2021 est.)<br><br>0.3% of GDP (2020 est.)<br><br>0.3% of GDP (2019 est.)",
+          "content": "0.5% of GDP (2024 est.)<br><br>0.6% of GDP (2023 est.)<br><br>0.6% of GDP (2022 est.)<br><br>0.3% of GDP (2021 est.)<br><br>0.3% of GDP (2020 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2024",
+              "content": "0.5% of GDP (2024 est.)",
+              "value": "0.5",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2023",
               "content": "0.6% of GDP (2023 est.)",
@@ -2866,13 +2891,6 @@
             {
               "name": "Military Expenditures 2020",
               "content": "0.3% of GDP (2020 est.)",
-              "value": "0.3",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "0.3% of GDP (2019 est.)",
               "value": "0.3",
               "estimated": true,
               "suffix": "% of GDP"

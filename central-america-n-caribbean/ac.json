@@ -1,9 +1,9 @@
 {
   "name": "Antigua and Barbuda",
   "code": "AC",
-  "published": "2025-06-05 00:00:09 -0400",
+  "published": "2025-06-11 00:00:07 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-06-04 14:58:32 -0400",
+  "updated": "2025-06-10 10:59:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -740,14 +740,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "5.9% of GDP (2021)",
-          "value": "5.9",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "5.9% of GDP (2021)<br><br>14% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "5.9% of GDP (2021)",
+              "value": "5.9",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "14% of national budget (2022 est.)",
+              "value": "14",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -865,27 +879,35 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.8% of GDP (2021 est.)",
-          "value": "3.8",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.1% of GDP (2023 est.)<br><br>11% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.1% of GDP (2023 est.)",
+              "value": "3.1",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "11% national budget (2024 est.)",
+              "value": "11",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over has completed five or more years of schooling<br><br><strong>total population: </strong>99%<br><br><strong>male: </strong>98.4%<br><br><strong>female: </strong>99.4% (2015)",
+          "content": "<strong>total population: </strong>99%<br><br><strong>male: </strong>98.4%<br><br><strong>female: </strong>99.4% (2015 est.)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over has completed five or more years of schooling",
-              "value": "age 15 and over has completed five or more years of schooling",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "99%",
@@ -902,10 +924,10 @@
             },
             {
               "name": "female",
-              "content": "99.4% (2015)",
+              "content": "99.4% (2015 est.)",
               "title": "female",
               "value": "99.4",
-              "estimated": false,
+              "estimated": true,
               "info_date": "2015",
               "suffix": "%"
             }
@@ -1243,20 +1265,6 @@
           "value": "6 parishes and 2 dependencies*; Barbuda*, Redonda*, Saint George, Saint John, Saint Mary, Saint Paul, Saint Peter, Saint Philip"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1 November 1981 (from the UK)",
-          "value": "1 November 1981 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 1 November (1981)",
-          "value": "Independence Day, 1 November (1981)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1531,13 +1539,6 @@
           "value": "Antigua Labor Party or ABLP<br />Barbuda People's Movement or BPM<br />Democratic National Alliance or DNA<br />Go Green for Life or GGL<br />United Progressive Party or UPP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, ISO (subscriber), ITU, ITUC (NGOs), MIGA, NAM (observer), OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UPU, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, ISO (subscriber), ITU, ITUC (NGOs), MIGA, NAM (observer), OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UPU, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1596,6 +1597,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, ISO (subscriber), ITU, ITUC (NGOs), MIGA, NAM (observer), OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UPU, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, ACS, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, ISO (subscriber), ITU, ITUC (NGOs), MIGA, NAM (observer), OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UPU, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1 November 1981 (from the UK)",
+          "value": "1 November 1981 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 1 November (1981)",
+          "value": "Independence Day, 1 November (1981)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1606,8 +1628,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "fallow deer; national colors: red, white, blue, black, yellow",
-          "value": "fallow deer; national colors: red, white, blue, black, yellow"
+          "content": "fallow deer",
+          "value": "fallow deer"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white, blue, black, yellow",
+          "value": "red, white, blue, black, yellow"
         },
         {
           "name": "National anthem",

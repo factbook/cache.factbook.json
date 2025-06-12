@@ -1,14 +1,14 @@
 {
   "name": "Romania",
   "code": "RO",
-  "published": "2025-06-05 00:14:01 -0400",
+  "published": "2025-06-11 00:14:41 -0400",
   "region": "Europe",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-10 10:54:59 -0400",
   "media": [
     {
       "type": "flag",
       "src": "/attachments/flags/RO-flag.jpg",
-      "caption": "three equal vertical bands of blue (hoist side), yellow, and red; modeled after the flag of France, the colors are those of the principalities of Walachia (red and yellow) and Moldavia (red and blue), which united in 1862 to form Romania; the national coat of arms that used to be centered in the yellow band has been removed<p><strong>note:</strong> now similar to the flag of Chad, whose blue band is darker; also resembles the flags of Andorra and Moldova</p>"
+      "caption": "three equal vertical bands of blue (hoist side), yellow, and red; modeled after the flag of France; the colors come from the principalities of Walachia (red and yellow) and Moldavia (red and blue), which united in 1862 to form Romania; the national coat of arms that used to be centered in the yellow band has been removed<p><strong>note:</strong> similar to the flag of Chad, which has a darker blue band; also resembles the flags of Andorra and Moldova</p>"
     },
     {
       "type": "map",
@@ -898,14 +898,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "6.5% of GDP (2021)",
-          "value": "6.5",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "6.5% of GDP (2021)<br><br>11.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "6.5% of GDP (2021)",
+              "value": "6.5",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "11.2% of national budget (2022 est.)",
+              "value": "11.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1108,47 +1122,59 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.7% of GDP (2020 est.)",
-          "value": "3.7",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "3.3% of GDP (2021 est.)<br><br>8.1% national budget (2021 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.3% of GDP (2021 est.)",
+              "value": "3.3",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "8.1% national budget (2021 est.)",
+              "value": "8.1",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>98.9%<br><br><strong>male: </strong>99.1%<br><br><strong>female: </strong>98.7% (2021)",
+          "content": "<strong>total population: </strong>99% (2021 est.)<br><br><strong>male: </strong>99% (2021 est.)<br><br><strong>female: </strong>99% (2021 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "98.9%",
+              "content": "99% (2021 est.)",
               "title": "total population",
-              "value": "98.9",
+              "value": "99",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "99.1%",
+              "content": "99% (2021 est.)",
               "title": "male",
-              "value": "99.1",
+              "value": "99",
+              "estimated": true,
+              "info_date": "2021",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "98.7% (2021)",
+              "content": "99% (2021 est.)",
               "title": "female",
-              "value": "98.7",
-              "estimated": false,
+              "value": "99",
+              "estimated": true,
               "info_date": "2021",
               "suffix": "%"
             }
@@ -1559,20 +1585,6 @@
           "value": "41 counties (judete, singular - judet) and 1 municipality* (municipiu); Alba, Arad, Arges, Bacau, Bihor, Bistrita-Nasaud, Botosani, Braila, Brasov, Bucuresti (Bucharest)*, Buzau, Calarasi, Caras-Severin, Cluj, Constanta, Covasna, Dambovita, Dolj, Galati, Gorj, Giurgiu, Harghita, Hunedoara, Ialomita, Iasi, Ilfov, Maramures, Mehedinti, Mures, Neamt, Olt, Prahova, Salaj, Satu Mare, Sibiu, Suceava, Teleorman, Timis, Tulcea, Vaslui, Valcea, Vrancea"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "9 May 1877 (independence proclaimed from the Ottoman Empire; 13 July 1878 (independence recognized by the Treaty of Berlin); 26 March 1881 (kingdom proclaimed); 30 December 1947 (republic proclaimed)",
-          "value": "9 May 1877 (independence proclaimed from the Ottoman Empire; 13 July 1878 (independence recognized by the Treaty of Berlin); 26 March 1881 (kingdom proclaimed); 30 December 1947 (republic proclaimed)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Unification Day (unification of Romania and Transylvania), 1 December (1918)",
-          "value": "Unification Day (unification of Romania and Transylvania), 1 December (1918)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1865,13 +1877,6 @@
           "value": "Alliance for the Fatherland or APP&nbsp;<br />Alliance for the Unity of Romanians or AUR<br />Christian-Democratic National Peasants' Party or PNT-CD&nbsp;<br />Civic Hungarian Party<br />Democratic Union of Hungarians in Romania or UDMR&nbsp;<br />Ecologist Party of Romania or PER&nbsp;<br />Force of the Right or FD&nbsp;<br />Greater Romania Party or PRM&nbsp;<br />Green Party<br />National Liberal Party or PNL<br />Popular Movement Party or PMP&nbsp;<br />PRO Romania or PRO<br />Romanian Nationhood Party or PNR&nbsp;<br />Save Romania Union Party or USR&nbsp;<br />Social Democratic Party or PSD&nbsp;<br />Social Liberal Humanist Party or PUSL (formerly Humanist Power Party (Social-Liberal) or PPU-SL)<br />S.O.S. Romania&nbsp;<br />The Right Alternative or AD&nbsp;<br />United Romania Party or PRU&nbsp;<br />We are Renewing the European Project in Romania or REPER&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "Australia Group, BIS, BSEC, CBSS (observer), CD, CE, CEI, EAPC, EBRD, ECB, EIB, ESA, EU, FAO, G-9, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAIA (observer), MIGA, MONUSCO, NATO, NSG, OAS (observer), OIF, OPCW, OSCE, PCA, SELEC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNMIL, UNMISS, UNOCI, UNOOSA,UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
-          "value": "Australia Group, BIS, BSEC, CBSS (observer), CD, CE, CEI, EAPC, EBRD, ECB, EIB, ESA, EU, FAO, G-9, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAIA (observer), MIGA, MONUSCO, NATO, NSG, OAS (observer), OIF, OPCW, OSCE, PCA, SELEC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNMIL, UNMISS, UNOCI, UNOOSA,UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1960,19 +1965,47 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "Australia Group, BIS, BSEC, CBSS (observer), CD, CE, CEI, EAPC, EBRD, ECB, EIB, ESA, EU, FAO, G-9, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAIA (observer), MIGA, MONUSCO, NATO, NSG, OAS (observer), OIF, OPCW, OSCE, PCA, SELEC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNMIL, UNMISS, UNOCI, UNOOSA,UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC",
+          "value": "Australia Group, BIS, BSEC, CBSS (observer), CD, CE, CEI, EAPC, EBRD, ECB, EIB, ESA, EU, FAO, G-9, IAEA, IBRD, ICAO, ICC (national committees), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAIA (observer), MIGA, MONUSCO, NATO, NSG, OAS (observer), OIF, OPCW, OSCE, PCA, SELEC, UN, UNCTAD, UNESCO, UNHCR, UNIDO, Union Latina, UNMIL, UNMISS, UNOCI, UNOOSA,UNWTO, UPU, Wassenaar Arrangement, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO, ZC"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "9 May 1877 (independence proclaimed from the Ottoman Empire; 13 July 1878 (independence recognized by the Treaty of Berlin); 26 March 1881 (kingdom proclaimed); 30 December 1947 (republic proclaimed)",
+          "value": "9 May 1877 (independence proclaimed from the Ottoman Empire; 13 July 1878 (independence recognized by the Treaty of Berlin); 26 March 1881 (kingdom proclaimed); 30 December 1947 (republic proclaimed)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Unification Day (unification of Romania and Transylvania), 1 December (1918)",
+          "value": "Unification Day (unification of Romania and Transylvania), 1 December (1918)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
-          "content": "three equal vertical bands of blue (hoist side), yellow, and red; modeled after the flag of France, the colors are those of the principalities of Walachia (red and yellow) and Moldavia (red and blue), which united in 1862 to form Romania; the national coat of arms that used to be centered in the yellow band has been removed<br><br><strong>note:</strong> now similar to the flag of Chad, whose blue band is darker; also resembles the flags of Andorra and Moldova",
-          "value": "three equal vertical bands of blue (hoist side), yellow, and red; modeled after the flag of France, the colors are those of the principalities of Walachia (red and yellow) and Moldavia (red and blue), which united in 1862 to form Romania; the national coat of arms that used to be centered in the yellow band has been removed",
-          "field_note": "<strong>note:</strong> now similar to the flag of Chad, whose blue band is darker; also resembles the flags of Andorra and Moldova"
+          "content": "three equal vertical bands of blue (hoist side), yellow, and red; modeled after the flag of France; the colors come from the principalities of Walachia (red and yellow) and Moldavia (red and blue), which united in 1862 to form Romania; the national coat of arms that used to be centered in the yellow band has been removed<br><br><strong>note:</strong> similar to the flag of Chad, which has a darker blue band; also resembles the flags of Andorra and Moldova",
+          "value": "three equal vertical bands of blue (hoist side), yellow, and red; modeled after the flag of France; the colors come from the principalities of Walachia (red and yellow) and Moldavia (red and blue), which united in 1862 to form Romania; the national coat of arms that used to be centered in the yellow band has been removed",
+          "field_note": "<strong>note:</strong> similar to the flag of Chad, which has a darker blue band; also resembles the flags of Andorra and Moldova"
         },
         {
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "golden eagle; national colors: blue, yellow, red",
-          "value": "golden eagle; national colors: blue, yellow, red"
+          "content": "golden eagle",
+          "value": "golden eagle"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, yellow, red",
+          "value": "blue, yellow, red"
         },
         {
           "name": "National anthem",
@@ -2034,8 +2067,8 @@
           "name": "Economic overview",
           "field_id": 207,
           "comparative": false,
-          "content": "high-income EU member economy; joined Schengen area as of March 2024; euro membership delayed over convergence criteria; persistent inflation but recovery driven by consumption and EU-funded investments; skilled labor shortage; regional economic disparities; fiscal reforms to address rising deficits",
-          "value": "high-income EU member economy; joined Schengen area as of March 2024; euro membership delayed over convergence criteria; persistent inflation but recovery driven by consumption and EU-funded investments; skilled labor shortage; regional economic disparities; fiscal reforms to address rising deficits"
+          "content": "<p>high-income, EU-member economy; euro membership delayed over macroeconomic indicators; persistent inflation, but consumption and EU-funded investments driving recovery; skilled labor shortage; high public debt and budget deficit; challenges include fiscal sustainability and political instability</p>",
+          "value": "<p>high-income, EU-member economy; euro membership delayed over macroeconomic indicators; persistent inflation, but consumption and EU-funded investments driving recovery; skilled labor shortage; high public debt and budget deficit; challenges include fiscal sustainability and political instability</p>"
         },
         {
           "name": "Real GDP (purchasing power parity)",

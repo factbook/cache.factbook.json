@@ -1,9 +1,9 @@
 {
   "name": "Guatemala",
   "code": "GT",
-  "published": "2025-06-05 00:07:04 -0400",
+  "published": "2025-06-11 00:07:24 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-06-04 14:58:34 -0400",
+  "updated": "2025-06-10 10:54:56 -0400",
   "media": [
     {
       "type": "flag",
@@ -831,14 +831,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "6.9% of GDP (2021)",
-          "value": "6.9",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "6.9% of GDP (2021)<br><br>16.9% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "6.9% of GDP (2021)",
+              "value": "6.9",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "16.9% of national budget (2022 est.)",
+              "value": "16.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1060,48 +1074,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.1% of GDP (2021 est.)",
-          "value": "3.1",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.2% of GDP (2023 est.)<br><br>18.9% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.2% of GDP (2023 est.)",
+              "value": "3.2",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "18.9% national budget (2022 est.)",
+              "value": "18.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>83.3%<br><br><strong>male: </strong>87.7%<br><br><strong>female: </strong>79.3% (2021)",
+          "content": "<strong>total population: </strong>83% (2022 est.)<br><br><strong>male: </strong>88.4% (2022 est.)<br><br><strong>female: </strong>78.6% (2022 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "83.3%",
+              "content": "83% (2022 est.)",
               "title": "total population",
-              "value": "83.3",
+              "value": "83",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "87.7%",
+              "content": "88.4% (2022 est.)",
               "title": "male",
-              "value": "87.7",
+              "value": "88.4",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "79.3% (2021)",
+              "content": "78.6% (2022 est.)",
               "title": "female",
-              "value": "79.3",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "78.6",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             }
           ]
@@ -1464,20 +1490,6 @@
           "value": "22 departments (departamentos, singular - departamento); Alta Verapaz, Baja Verapaz, Chimaltenango, Chiquimula, El Progreso, Escuintla, Guatemala, Huehuetenango, Izabal, Jalapa, Jutiapa, Peten, Quetzaltenango, Quiche, Retalhuleu, Sacatepequez, San Marcos, Santa Rosa, Solola, Suchitepequez, Totonicapan, Zacapa"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "15 September 1821 (from Spain)",
-          "value": "15 September 1821 (from Spain)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 15 September (1821)",
-          "value": "Independence Day, 15 September (1821)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1694,13 +1706,6 @@
           "value": "Bienestar Nacional or BIEN<br />Blue Party (Partido Azul) or Blue<br />CABAL<br />Cambio<br />Citizen Prosperity or PC<br />Commitment, Renewal, and Order or CREO<br />Elephant Community (Comunidad Elefante) or Elephant<br />Everyone Together for Guatemala or TODOS<br />Guatemalan National Revolutionary Unity or URNG-MAIZ or URNG<br />Humanist Party of Guatemala or PHG<br />Movement for the Liberation of Peoples or MLP<br />Movimiento Semilla or SEMILLA<br />National Advancement Party or PAN<br />National Convergence Front or FCN-NACION<br />National Unity for Hope or UNE<br />Nationalist Change Union or UCN (dissolved 16 December 2021)<br />Nosotros or PPN<br />PODEMOS<br />Political Movement Winaq or Winaq<br />TODOS<br />Value or VALOR<br />Vamos por una Guatemala Diferente or VAMOS<br />Victory or VICTORIA<br />Vision with Values or VIVA<br />Will, Opportunity and Solidarity (Voluntad, Oportunidad y Solidaridad) or VOS"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACS, BCIE, CACM, CD, CELAC, EITI (compliant country), FAO, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, MINUSTAH, MONUSCO, NAM, OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, Union Latina, UNISFA, UNITAR, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACS, BCIE, CACM, CD, CELAC, EITI (compliant country), FAO, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, MINUSTAH, MONUSCO, NAM, OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, Union Latina, UNISFA, UNITAR, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1795,6 +1800,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACS, BCIE, CACM, CD, CELAC, EITI (compliant country), FAO, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, MINUSTAH, MONUSCO, NAM, OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, Union Latina, UNISFA, UNITAR, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACS, BCIE, CACM, CD, CELAC, EITI (compliant country), FAO, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), LAES, LAIA (observer), MIGA, MINUSTAH, MONUSCO, NAM, OAS, OPANAL, OPCW, Pacific Alliance (observer), PCA, Petrocaribe, SICA, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, Union Latina, UNISFA, UNITAR, UNMISS, UNOCI, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "15 September 1821 (from Spain)",
+          "value": "15 September 1821 (from Spain)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 15 September (1821)",
+          "value": "Independence Day, 15 September (1821)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1806,8 +1832,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "quetzal (bird); national colors: blue, white",
-          "value": "quetzal (bird); national colors: blue, white"
+          "content": "quetzal (bird)",
+          "value": "quetzal (bird)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, white",
+          "value": "blue, white"
         },
         {
           "name": "National anthem",

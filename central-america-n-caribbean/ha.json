@@ -1,9 +1,9 @@
 {
   "name": "Haiti",
   "code": "HA",
-  "published": "2025-06-05 00:07:21 -0400",
+  "published": "2025-06-12 00:00:34 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-06-04 14:58:34 -0400",
+  "updated": "2025-06-11 11:27:45 -0400",
   "media": [
     {
       "type": "flag",
@@ -816,14 +816,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "3.5% of GDP (2021)",
-          "value": "3.5",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.5% of GDP (2021)<br><br>4.1% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "3.5% of GDP (2021)",
+              "value": "3.5",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "4.1% of national budget (2022 est.)",
+              "value": "4.1",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1045,48 +1059,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "1.4% of GDP (2020 est.)",
-          "value": "1.4",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "1.1% of GDP (2023 est.)<br><br>13.2% national budget (2025 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "1.1% of GDP (2023 est.)",
+              "value": "1.1",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.2% national budget (2025 est.)",
+              "value": "13.2",
+              "estimated": true,
+              "info_date": "2025",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>61.7%<br><br><strong>male: </strong>65.3%<br><br><strong>female: </strong>58.3% (2016)",
+          "content": "<strong>total population: </strong>68% (2017 est.)<br><br><strong>male: </strong>72.9% (2017 est.)<br><br><strong>female: </strong>63.9% (2017 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "61.7%",
+              "content": "68% (2017 est.)",
               "title": "total population",
-              "value": "61.7",
+              "value": "68",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "65.3%",
+              "content": "72.9% (2017 est.)",
               "title": "male",
-              "value": "65.3",
+              "value": "72.9",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "58.3% (2016)",
+              "content": "63.9% (2017 est.)",
               "title": "female",
-              "value": "58.3",
-              "estimated": false,
-              "info_date": "2016",
+              "value": "63.9",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             }
           ]
@@ -1213,21 +1239,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to high food prices, natural disasters, and worsening civil insecurity - </em>about 4.9 million people are estimated to face severe acute food insecurity and were in need of urgent food assistance between March and June 2023; the high levels of food insecurity are the result of sustained economic downturn, reducing domestic food production, elevated food prices, fuel shortage and frequent natural disasters; the situation is exacerbated by worsening insecurity, which has limited access to essential services, including markets, caused population displacements and hampered delivery of humanitarian assistance (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to high food prices, natural disasters, and worsening civil insecurity - </em>about 4.9 million people are estimated to face severe acute food insecurity and were in need of urgent food assistance between March and June 2023; the high levels of food insecurity are the result of sustained economic downturn, reducing domestic food production, elevated food prices, fuel shortage and frequent natural disasters; the situation is exacerbated by worsening insecurity, which has limited access to essential services, including markets, caused population displacements and hampered delivery of humanitarian assistance (2023)",
-              "value": "<em>due to high food prices, natural disasters, and worsening civil insecurity - </em>about 4.9 million people are estimated to face severe acute food insecurity and were in need of urgent food assistance between March and June 2023; the high levels of food insecurity are the result of sustained economic downturn, reducing domestic food production, elevated food prices, fuel shortage and frequent natural disasters; the situation is exacerbated by worsening insecurity, which has limited access to essential services, including markets, caused population displacements and hampered delivery of humanitarian assistance",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1423,20 +1434,6 @@
           "comparative": false,
           "content": "10 departments (d&eacute;partements, singular - d&eacute;partement); Artibonite, Centre, Grand'Anse, Nippes, Nord, Nord-Est, Nord-Ouest, Ouest, Sud, Sud-Est",
           "value": "10 departments (d&eacute;partements, singular - d&eacute;partement); Artibonite, Centre, Grand'Anse, Nippes, Nord, Nord-Est, Nord-Ouest, Ouest, Sud, Sud-Est"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1 January 1804 (from France)",
-          "value": "1 January 1804 (from France)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 1 January (1804)",
-          "value": "Independence Day, 1 January (1804)"
         },
         {
           "name": "Legal system",
@@ -1735,13 +1732,6 @@
           "value": "Alternative League for Haitian Progress and Emancipation (Ligue Alternative pour le Progres et l&rsquo;Emancipation Haitienne) or LAPEH<br />Christian Movement for a New Haiti or MCNH or Mochrenha<br />Christian National Movement for the Reconstruction of Haiti or UNCRH<br />Combat of Peasant Workers to Liberate Haiti (Konbit Travaye Peyizan Pou Libere Ayiti) or Kontra Pep La <br />Convention for Democratic Unity or KID<br />Cooperative Action to Rebuild Haiti or KONBA<br />December 16 Platform or Platfom 16 Desanm<br />Democratic Alliance Party or ALYANS (coalition includes KID and PPRH)<br />Democratic Centers' National Council or CONACED<br />Democratic and Popular Sector (Secteur Democratique et Populaire) or SDP<br />Democratic Unity Convention (Konvansyon Inite Demokratik) or KID<br />Dessalinian Patriotic and Popular Movement or MOPOD<br />Effort and Solidarity to Create an Alternative for the People or ESKAMP<br />Fanmi Lavalas or FL<br />Forward (En Avant)<br />Fusion of Haitian Social Democrats (Fusion Des Sociaux-D&eacute;mocrates Ha&iuml;tiens) or FHSD<br />G18 Policy Platform (Plateforme Politique G18)<br />Haiti in Action (Ayiti An Aksyon Haiti's Action) or AAA<br />Haitian Tet Kale Party (Parti Haitien Tet Kale) or PHTK<br />Independent Movement for National Reconciliation or MIRN<br />Lavni Organization or LAVNI<br />Lod Demokratik<br />Love Haiti (Renmen Ayiti) or RA<br />MTV Ayiti<br />National Consortium of Haitian Political Parties (Consortium National des Partis Politiques Haitiens) or CNPPH <br />National Shield Network (Reseau Bouclier National)<br />Organization of the People's Struggle (Oganizasyon Pep Kap Lite) or OPL<br />Patriotic Unity (Inite Patriyotik) or Inite<br />Platform Pitit Desalin (Politik Pitit Dessalines) or PPD<br />Political Party for Us All or Bridge (Pont) or Pou Nou Tout<br />Popular Patriotic Dessalinien Movement (Mouvement Patriotique Populaire Dessalinien) or MOPOD<br />Rally of Progressive National Democrats (Rassemblement des Democrates Nationaux Progressistes) or RDNP<br />Respe (Respect)<br />Women and Families Political Parties (Defile Pati Politik Fanm Ak Fanmi)"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, ACS, AOSIS, Caricom, CD, CDB, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), LAES, MIGA, NAM, OAS, OIF, OPANAL, OPCW, PCA, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, ACS, AOSIS, Caricom, CD, CDB, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), LAES, MIGA, NAM, OAS, OIF, OPANAL, OPCW, PCA, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1830,6 +1820,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, ACS, AOSIS, Caricom, CD, CDB, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), LAES, MIGA, NAM, OAS, OIF, OPANAL, OPCW, PCA, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, ACS, AOSIS, Caricom, CD, CDB, CELAC, FAO, G-77, IADB, IAEA, IBRD, ICAO, ICC (NGOs), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), LAES, MIGA, NAM, OAS, OIF, OPANAL, OPCW, PCA, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, Union Latina, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1 January 1804 (from France)",
+          "value": "1 January 1804 (from France)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 1 January (1804)",
+          "value": "Independence Day, 1 January (1804)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1840,8 +1851,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Hispaniolan trogon (bird), hibiscus flower; national colors: blue, red",
-          "value": "Hispaniolan trogon (bird), hibiscus flower; national colors: blue, red"
+          "content": "Hispaniolan trogon (bird), hibiscus flower",
+          "value": "Hispaniolan trogon (bird), hibiscus flower"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, red",
+          "value": "blue, red"
         },
         {
           "name": "National anthem",

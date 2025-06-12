@@ -1,9 +1,9 @@
 {
   "name": "Indonesia",
   "code": "ID",
-  "published": "2025-06-05 00:07:48 -0400",
+  "published": "2025-06-11 00:08:18 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-06-04 14:58:34 -0400",
+  "updated": "2025-06-10 10:54:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -884,14 +884,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "3.7% of GDP (2021)",
-          "value": "3.7",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.7% of GDP (2021)<br><br>8% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "3.7% of GDP (2021)",
+              "value": "3.7",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "8% of national budget (2022 est.)",
+              "value": "8",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1104,47 +1118,59 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.5% of GDP (2020 est.)",
-          "value": "3.5",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "1.3% of GDP (2023 est.)<br><br>13.9% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "1.3% of GDP (2023 est.)",
+              "value": "1.3",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.9% national budget (2022 est.)",
+              "value": "13.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>96%<br><br><strong>male: </strong>97.4%<br><br><strong>female: </strong>94.6% (2020)",
+          "content": "<strong>total population: </strong>96% (2020 est.)<br><br><strong>male: </strong>97% (2020 est.)<br><br><strong>female: </strong>95% (2020 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "96%",
+              "content": "96% (2020 est.)",
               "title": "total population",
               "value": "96",
+              "estimated": true,
+              "info_date": "2020",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "97.4%",
+              "content": "97% (2020 est.)",
               "title": "male",
-              "value": "97.4",
+              "value": "97",
+              "estimated": true,
+              "info_date": "2020",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "94.6% (2020)",
+              "content": "95% (2020 est.)",
               "title": "female",
-              "value": "94.6",
-              "estimated": false,
+              "value": "95",
+              "estimated": true,
               "info_date": "2020",
               "suffix": "%"
             }
@@ -1573,20 +1599,6 @@
           "field_note": "<strong>note:</strong> following the implementation of decentralization beginning on 1 January 2001, regencies and municipalities have become the key administrative units responsible for providing most government services"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "17 August 1945 (declared independence from the Netherlands)",
-          "value": "17 August 1945 (declared independence from the Netherlands)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 17 August (1945)",
-          "value": "Independence Day, 17 August (1945)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1802,13 +1814,6 @@
           "value": "Democrat Party or PD&nbsp;<br />Functional Groups Party or GOLKAR&nbsp;<br />Great Indonesia Movement Party or GERINDRA&nbsp;<br />Indonesia Democratic Party-Struggle or PDI-P&nbsp;<br />National Awakening Party or PKB&nbsp;<br />National Democratic Party or NasDem&nbsp;<br />National Mandate Party or PAN&nbsp;<br />Prosperous Justice Party or PKS&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB, APEC, ARF, ASEAN, BIS, CD, CICA (observer), CP, D-8, EAS, EITI (compliant country), FAO, G-11, G-15, G-20, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM (observer), IORA, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MINUSTAH, MONUSCO, MSG (associate member), NAM, OECD (enhanced engagement), OIC, OPCW, PIF (partner), UN, UNAMID, UNCTAD, UNESCO, UNHRC, UNIDO, UNIFIL, UNISFA, UNMIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ADB, APEC, ARF, ASEAN, BIS, CD, CICA (observer), CP, D-8, EAS, EITI (compliant country), FAO, G-11, G-15, G-20, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM (observer), IORA, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MINUSTAH, MONUSCO, MSG (associate member), NAM, OECD (enhanced engagement), OIC, OPCW, PIF (partner), UN, UNAMID, UNCTAD, UNESCO, UNHRC, UNIDO, UNIFIL, UNISFA, UNMIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1909,6 +1914,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB, APEC, ARF, ASEAN, BIS, CD, CICA (observer), CP, D-8, EAS, EITI (compliant country), FAO, G-11, G-15, G-20, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM (observer), IORA, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MINUSTAH, MONUSCO, MSG (associate member), NAM, OECD (enhanced engagement), OIC, OPCW, PIF (partner), UN, UNAMID, UNCTAD, UNESCO, UNHRC, UNIDO, UNIFIL, UNISFA, UNMIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ADB, APEC, ARF, ASEAN, BIS, CD, CICA (observer), CP, D-8, EAS, EITI (compliant country), FAO, G-11, G-15, G-20, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM (observer), IORA, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MINUSTAH, MONUSCO, MSG (associate member), NAM, OECD (enhanced engagement), OIC, OPCW, PIF (partner), UN, UNAMID, UNCTAD, UNESCO, UNHRC, UNIDO, UNIFIL, UNISFA, UNMIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "17 August 1945 (declared independence from the Netherlands)",
+          "value": "17 August 1945 (declared independence from the Netherlands)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 17 August (1945)",
+          "value": "Independence Day, 17 August (1945)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1920,8 +1946,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "garuda (mythical bird); national colors: red, white",
-          "value": "garuda (mythical bird); national colors: red, white"
+          "content": "garuda (mythical bird)",
+          "value": "garuda (mythical bird)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white",
+          "value": "red, white"
         },
         {
           "name": "National anthem",

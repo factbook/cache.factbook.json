@@ -1,9 +1,9 @@
 {
   "name": "Bosnia and Herzegovina",
   "code": "BK",
-  "published": "2025-06-05 00:02:09 -0400",
+  "published": "2025-06-11 00:02:04 -0400",
   "region": "Europe",
-  "updated": "2025-06-04 14:58:32 -0400",
+  "updated": "2025-06-10 10:54:55 -0400",
   "media": [
     {
       "type": "flag",
@@ -861,14 +861,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "9.6% of GDP (2021)",
-          "value": "9.6",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "9.6% of GDP (2021)<br><br>14.8% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "9.6% of GDP (2021)",
+              "value": "9.6",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "14.8% of national budget (2022 est.)",
+              "value": "14.8",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1049,26 +1063,35 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "% of GDP",
-          "subfield_note": "NA"
+          "content": "3% of GDP (2022 est.)<br><br>10.4% national budget (2021 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3% of GDP (2022 est.)",
+              "value": "3",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "10.4% national budget (2021 est.)",
+              "value": "10.4",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>98.1%<br><br><strong>male: </strong>99.4%<br><br><strong>female: </strong>98.1% (2021)",
+          "content": "<strong>total population: </strong>98.1%<br><br><strong>male: </strong>99.4%<br><br><strong>female: </strong>98.1% (2021)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "98.1%",
@@ -1470,21 +1493,6 @@
           "value": "3 first-order administrative divisions - Brcko District (Brcko Distrikt) (ethnically mixed), Federation of Bosnia and Herzegovina (Federacija Bosne i Hercegovine) (predominantly Bosniak-Croat), Republika Srpska (predominantly Serb)"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1 March 1992 (from Yugoslavia); note - referendum for independence completed on 1 March 1992; independence declared on 3 March 1992",
-          "value": "1 March 1992 (from Yugoslavia); note - referendum for independence completed on 1 March 1992; independence declared on 3 March 1992"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 1 March (1992) and Statehood Day, 25 November (1943) - both observed in the Federation of Bosnia and Herzegovina entity; Victory Day, 9 May (1945) and Dayton Agreement Day, 21 November (1995) - both observed in the Republika Srpska entity<br><br><strong>note:</strong> there is no national-level holiday",
-          "value": "Independence Day, 1 March (1992) and Statehood Day, 25 November (1943) - both observed in the Federation of Bosnia and Herzegovina entity; Victory Day, 9 May (1945) and Dayton Agreement Day, 21 November (1995) - both observed in the Republika Srpska entity",
-          "field_note": "<strong>note:</strong> there is no national-level holiday"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1495,12 +1503,12 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>14 December 1995 (constitution included as part of the Dayton Peace Accords); note - each of the political entities has its own constitution<br><br><strong>amendment process: </strong>decided by the Parliamentary Assembly, including a two-thirds majority vote of members present in the House of Representatives; the constitutional article on human rights and fundamental freedoms cannot be amended",
+          "content": "<strong>history: </strong>14 December 1995 (constitution included as part of the Dayton Peace Accords)<br><br><strong>amendment process: </strong>decided by the Parliamentary Assembly, including a two-thirds majority vote of members present in the House of Representatives; the constitutional article on human rights and fundamental freedoms cannot be amended<br><br><strong>note:</strong>&nbsp;each of the political entities has its own constitution",
           "subfields": [
             {
               "name": "history",
-              "content": "14 December 1995 (constitution included as part of the Dayton Peace Accords); note - each of the political entities has its own constitution",
-              "value": "14 December 1995 (constitution included as part of the Dayton Peace Accords); note - each of the political entities has its own constitution",
+              "content": "14 December 1995 (constitution included as part of the Dayton Peace Accords)",
+              "value": "14 December 1995 (constitution included as part of the Dayton Peace Accords)",
               "title": "history"
             },
             {
@@ -1509,7 +1517,8 @@
               "value": "decided by the Parliamentary Assembly, including a two-thirds majority vote of members present in the House of Representatives; the constitutional article on human rights and fundamental freedoms cannot be amended",
               "title": "amendment process"
             }
-          ]
+          ],
+          "field_note": "<strong>note:</strong>&nbsp;each of the political entities has its own constitution"
         },
         {
           "name": "International law organization participation",
@@ -1766,14 +1775,6 @@
           "value": "Alliance of Independent Social Democrats or SNSD&nbsp;<br />Bosnian-Herzegovinian Initiative or BHI KF&nbsp;<br />Civic Alliance or GS&nbsp;<br />Croatian Democratic Union of Bosnia and Herzegovina or HDZ-BiH&nbsp;<br />Democratic Front or DF&nbsp;<br />Democratic Union or DEMOS<br />For Justice and Order<br />Our Party or NS/HC&nbsp;<br />Party for Democratic Action or SDA&nbsp;<br />Party of Democratic Progress or PDP&nbsp;<br />People and Justice Party or NiP <br />People's European Union of Bosnia and Herzegovina or NES&nbsp;<br />Serb Democratic Party or SDS&nbsp;<br />Social Democratic Party or SDP<br />United Srpska or US"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "BIS, CD, CE, CEI, EAPC, EBRD, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM (observer), OAS (observer), OIC (observer), OIF (observer), OPCW, OSCE, PFP, SELEC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO (observer)<br><br><strong>note</strong>: Bosnia-Herzegovina is an EU candidate country whose satisfactory completion of accession criteria is required before being granted full EU membership",
-          "value": "BIS, CD, CE, CEI, EAPC, EBRD, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM (observer), OAS (observer), OIC (observer), OIF (observer), OPCW, OSCE, PFP, SELEC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO (observer)",
-          "field_note": "<strong>note</strong>: Bosnia-Herzegovina is an EU candidate country whose satisfactory completion of accession criteria is required before being granted full EU membership"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1868,6 +1869,30 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "BIS, CD, CE, CEI, EAPC, EBRD, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM (observer), OAS (observer), OIC (observer), OIF (observer), OPCW, OSCE, PFP, SELEC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO (observer)<br><br><strong>note</strong>: Bosnia-Herzegovina is an EU candidate country whose satisfactory completion of accession criteria is required before being granted full EU membership",
+          "value": "BIS, CD, CE, CEI, EAPC, EBRD, FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MONUSCO, NAM (observer), OAS (observer), OIC (observer), OIF (observer), OPCW, OSCE, PFP, SELEC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO (observer)",
+          "field_note": "<strong>note</strong>: Bosnia-Herzegovina is an EU candidate country whose satisfactory completion of accession criteria is required before being granted full EU membership"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1 March 1992 (from Yugoslavia)<br><br><strong>note:</strong>&nbsp;referendum for independence completed on 1 March 1992; independence declared on 3 March 1992",
+          "value": "1 March 1992 (from Yugoslavia)",
+          "field_note": "<strong>note:</strong>&nbsp;referendum for independence completed on 1 March 1992; independence declared on 3 March 1992"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 1 March (1992) and Statehood Day, 25 November (1943) - both observed in the Federation of Bosnia and Herzegovina entity; Victory Day, 9 May (1945) and Dayton Agreement Day, 21 November (1995) - both observed in the Republika Srpska entity<br><br><strong>note:</strong> there is no national-level holiday",
+          "value": "Independence Day, 1 March (1992) and Statehood Day, 25 November (1943) - both observed in the Federation of Bosnia and Herzegovina entity; Victory Day, 9 May (1945) and Dayton Agreement Day, 21 November (1995) - both observed in the Republika Srpska entity",
+          "field_note": "<strong>note:</strong> there is no national-level holiday"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1879,8 +1904,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "golden lily; national colors: blue, yellow, white",
-          "value": "golden lily; national colors: blue, yellow, white"
+          "content": "golden lily",
+          "value": "golden lily"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, yellow, white",
+          "value": "blue, yellow, white"
         },
         {
           "name": "National anthem",

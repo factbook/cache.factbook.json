@@ -1,9 +1,9 @@
 {
   "name": "Cameroon",
   "code": "CM",
-  "published": "2025-06-05 00:04:03 -0400",
+  "published": "2025-06-11 00:03:59 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:32 -0400",
+  "updated": "2025-06-10 18:02:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -826,14 +826,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "3.8% of GDP (2021)",
-          "value": "3.8",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.8% of GDP (2021)<br><br>3.9% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "3.8% of GDP (2021)",
+              "value": "3.8",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "3.9% of national budget (2022 est.)",
+              "value": "3.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1055,47 +1069,59 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.2% of GDP (2020 est.)",
-          "value": "3.2",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "2.8% of GDP (2023 est.)<br><br>13.1% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "2.8% of GDP (2023 est.)",
+              "value": "2.8",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.1% national budget (2023 est.)",
+              "value": "13.1",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>77.1%<br><br><strong>male: </strong>82.6%<br><br><strong>female: </strong>71.6% (2018)",
+          "content": "<strong>total population: </strong>72.5% (2018 est.)<br><br><strong>male: </strong>79.7% (2018 est.)<br><br><strong>female: </strong>66.2% (2018 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "77.1%",
+              "content": "72.5% (2018 est.)",
               "title": "total population",
-              "value": "77.1",
+              "value": "72.5",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "82.6%",
+              "content": "79.7% (2018 est.)",
               "title": "male",
-              "value": "82.6",
+              "value": "79.7",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "71.6% (2018)",
+              "content": "66.2% (2018 est.)",
               "title": "female",
-              "value": "71.6",
-              "estimated": false,
+              "value": "66.2",
+              "estimated": true,
               "info_date": "2018",
               "suffix": "%"
             }
@@ -1254,21 +1280,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to civil insecurity and high food prices - </em>according to a March 2023 analysis, about 3 million people were estimated to be acutely food insecure between March and August 2023, as a result of conflict, sociopolitical unrest and high food prices, as well as floods that caused population displacements and damaged standing crops (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to civil insecurity and high food prices - </em>according to a March 2023 analysis, about 3 million people were estimated to be acutely food insecure between March and August 2023, as a result of conflict, sociopolitical unrest and high food prices, as well as floods that caused population displacements and damaged standing crops (2023)",
-              "value": "<em>due to civil insecurity and high food prices - </em>according to a March 2023 analysis, about 3 million people were estimated to be acutely food insecure between March and August 2023, as a result of conflict, sociopolitical unrest and high food prices, as well as floods that caused population displacements and damaged standing crops",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1506,20 +1517,6 @@
           "comparative": false,
           "content": "10 regions (regions, singular - region); Adamaoua, Centre, East (Est), Far North (Extr&ecirc;me-Nord), Littoral, North (Nord), North-West (Nord-Ouest), West (Ouest), South (Sud), South-West (Sud-Ouest)",
           "value": "10 regions (regions, singular - region); Adamaoua, Centre, East (Est), Far North (Extr&ecirc;me-Nord), Littoral, North (Nord), North-West (Nord-Ouest), West (Ouest), South (Sud), South-West (Sud-Ouest)"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1 January 1960 (from French-administered UN trusteeship)",
-          "value": "1 January 1960 (from French-administered UN trusteeship)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "State Unification Day (National Day), 20 May (1972)",
-          "value": "State Unification Day (National Day), 20 May (1972)"
         },
         {
           "name": "Legal system",
@@ -1803,13 +1800,6 @@
           "value": "Alliance for Democracy and Development&nbsp;<br />Cameroon People's Democratic Movement or CPDM&nbsp;<br />Cameroon People's Party or CPP&nbsp;<br />Cameroon Renaissance Movement or MRC&nbsp;<br />Cameroonian Democratic Union or UDC&nbsp;<br />Cameroonian Party for National Reconciliation or PCRN&nbsp;<br />Front for the National Salvation of Cameroon or FSNC&nbsp;<br />Movement for the Defense of the Republic or MDR&nbsp;<br />Movement for the Liberation and Development of Cameroon or MLDC&nbsp;<br />National Union for Democracy and Progress or UNDP&nbsp;<br />Progressive Movement or MP&nbsp;<br />Social Democratic Front or SDF&nbsp;<br />Union of Peoples of Cameroon or UPC&nbsp;<br />Union of Socialist Movements&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AU, BDEAC, C, CEMAC, EITI (compliant country), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LCBC, MIGA, MNJTF, MONUSCO, NAM, OIC, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNHRC, UNIDO, UNMISS, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, AU, BDEAC, C, CEMAC, EITI (compliant country), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LCBC, MIGA, MNJTF, MONUSCO, NAM, OIC, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNHRC, UNIDO, UNMISS, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1898,6 +1888,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AU, BDEAC, C, CEMAC, EITI (compliant country), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LCBC, MIGA, MNJTF, MONUSCO, NAM, OIC, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNHRC, UNIDO, UNMISS, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, AU, BDEAC, C, CEMAC, EITI (compliant country), FAO, FZ, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LCBC, MIGA, MNJTF, MONUSCO, NAM, OIC, OIF, OPCW, PCA, UN, UNCTAD, UNESCO, UNHRC, UNIDO, UNMISS, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1 January 1960 (from French-administered UN trusteeship)",
+          "value": "1 January 1960 (from French-administered UN trusteeship)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "State Unification Day (National Day), 20 May (1972)",
+          "value": "State Unification Day (National Day), 20 May (1972)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1909,8 +1920,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "lion; national colors: green, red, yellow",
-          "value": "lion; national colors: green, red, yellow"
+          "content": "lion",
+          "value": "lion"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "green, red, yellow",
+          "value": "green, red, yellow"
         },
         {
           "name": "National anthem",
@@ -3052,9 +3070,9 @@
           "name": "Broadcast media",
           "field_id": 199,
           "comparative": false,
-          "content": "government maintains tight control over broadcast media; state-owned Cameroon Radio Television (CRTV), with both TV and radio broadcasts, was the only officially recognized and fully licensed broadcaster until 2007, when the government issued licenses to 2 private TV broadcasters and 1 private radio broadcaster; about 70 privately owned, unlicensed radio stations operate under &ldquo;administrative tolerance,&rdquo; meaning the stations could be subject to closure at any time (2019)",
+          "content": "government maintains tight control over broadcast media; state-owned Cameroon Radio Television (CRTV), with both TV and radio broadcasts, was the only officially recognized and fully licensed broadcaster until 2007, when the government issued licenses to 2 private TV broadcasters and 1 private radio broadcaster; about 70 privately owned, unlicensed radio stations operate under &ldquo;administrative tolerance,&rdquo; meaning the stations could be subject to closure at any time (2023)",
           "value": "government maintains tight control over broadcast media; state-owned Cameroon Radio Television (CRTV), with both TV and radio broadcasts, was the only officially recognized and fully licensed broadcaster until 2007, when the government issued licenses to 2 private TV broadcasters and 1 private radio broadcaster; about 70 privately owned, unlicensed radio stations operate under &ldquo;administrative tolerance,&rdquo; meaning the stations could be subject to closure at any time",
-          "info_date": "2019"
+          "info_date": "2023"
         },
         {
           "name": "Internet country code",

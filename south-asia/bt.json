@@ -1,9 +1,9 @@
 {
   "name": "Bhutan",
   "code": "BT",
-  "published": "2025-06-05 00:02:47 -0400",
+  "published": "2025-06-11 00:02:44 -0400",
   "region": "South Asia",
-  "updated": "2025-06-04 14:58:32 -0400",
+  "updated": "2025-06-10 10:54:55 -0400",
   "media": [
     {
       "type": "flag",
@@ -779,14 +779,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "3.8% of GDP (2021)",
-          "value": "3.8",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.8% of GDP (2021)<br><br>6.7% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "3.8% of GDP (2021)",
+              "value": "3.8",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "6.7% of national budget (2022 est.)",
+              "value": "6.7",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -963,48 +977,60 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "7% of GDP (2021 est.)",
-          "value": "7",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "5.8% of GDP (2023 est.)<br><br>17.2% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "5.8% of GDP (2023 est.)",
+              "value": "5.8",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "17.2% national budget (2024 est.)",
+              "value": "17.2",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>70.9%<br><br><strong>male: </strong>77.9%<br><br><strong>female: </strong>62.8% (2021)",
+          "content": "<strong>total population: </strong>67% (2017 est.)<br><br><strong>male: </strong>75% (2017 est.)<br><br><strong>female: </strong>57% (2017 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "70.9%",
+              "content": "67% (2017 est.)",
               "title": "total population",
-              "value": "70.9",
+              "value": "67",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "77.9%",
+              "content": "75% (2017 est.)",
               "title": "male",
-              "value": "77.9",
+              "value": "75",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "62.8% (2021)",
+              "content": "57% (2017 est.)",
               "title": "female",
-              "value": "62.8",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "57",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             }
           ]
@@ -1371,20 +1397,6 @@
           "value": "20 districts (dzongkhag, singular and plural); Bumthang, Chhukha, Dagana, Gasa, Haa, Lhuentse, Mongar, Paro, Pemagatshel, Punakha, Samdrup Jongkhar, Samtse, Sarpang, Thimphu, Trashigang, Trashi Yangtse, Trongsa, Tsirang, Wangdue Phodrang, Zhemgang"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "17 December 1907 (became a unified kingdom under its first hereditary king); 8 August 1949 (Treaty of Friendship with India maintains Bhutanese independence)",
-          "value": "17 December 1907 (became a unified kingdom under its first hereditary king); 8 August 1949 (Treaty of Friendship with India maintains Bhutanese independence)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "National Day (Ugyen WANGCHUCK became first hereditary king), 17 December (1907)",
-          "value": "National Day (Ugyen WANGCHUCK became first hereditary king), 17 December (1907)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1666,13 +1678,6 @@
           "value": "<p>Bhutan Peace and Prosperity Party (Druk Phuensum Tshogpa) or DPT<br />Bhutan Tendrel Party or BTP<br />Druk Thuendrel Tshogpa or DTT<br />People's Democratic Party or PDP<br />United Party of Bhutan (Druk Nyamrup Tshogpa) or DNT</p>"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB, BIMSTEC, CP, FAO, G-77, IBRD, ICAO, IDA, IFAD, IFC, IMF, Interpol, IOC, IOM (observer), IPU, ISO (correspondent), ITSO, ITU, MIGA, NAM, OPCW, SAARC, SACEP, UN, UNCTAD, UNESCO, UNIDO, UNISFA, UNTSO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO (observer)",
-          "value": "ADB, BIMSTEC, CP, FAO, G-77, IBRD, ICAO, IDA, IFAD, IFC, IMF, Interpol, IOC, IOM (observer), IPU, ISO (correspondent), ITSO, ITU, MIGA, NAM, OPCW, SAARC, SACEP, UN, UNCTAD, UNESCO, UNIDO, UNISFA, UNTSO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO (observer)"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1726,6 +1731,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB, BIMSTEC, CP, FAO, G-77, IBRD, ICAO, IDA, IFAD, IFC, IMF, Interpol, IOC, IOM (observer), IPU, ISO (correspondent), ITSO, ITU, MIGA, NAM, OPCW, SAARC, SACEP, UN, UNCTAD, UNESCO, UNIDO, UNISFA, UNTSO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO (observer)",
+          "value": "ADB, BIMSTEC, CP, FAO, G-77, IBRD, ICAO, IDA, IFAD, IFC, IMF, Interpol, IOC, IOM (observer), IPU, ISO (correspondent), ITSO, ITU, MIGA, NAM, OPCW, SAARC, SACEP, UN, UNCTAD, UNESCO, UNIDO, UNISFA, UNTSO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO (observer)"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "17 December 1907 (became a unified kingdom under its first hereditary king); 8 August 1949 (Treaty of Friendship with India maintains Bhutanese independence)",
+          "value": "17 December 1907 (became a unified kingdom under its first hereditary king); 8 August 1949 (Treaty of Friendship with India maintains Bhutanese independence)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "National Day (Ugyen WANGCHUCK became first hereditary king), 17 December (1907)",
+          "value": "National Day (Ugyen WANGCHUCK became first hereditary king), 17 December (1907)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1736,8 +1762,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "thunder dragon known as Druk Gyalpo; national colors: orange, yellow",
-          "value": "thunder dragon known as Druk Gyalpo; national colors: orange, yellow"
+          "content": "mythical thunder dragon (<em>druk</em>)",
+          "value": "mythical thunder dragon (<em>druk</em>)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "orange, yellow",
+          "value": "orange, yellow"
         },
         {
           "name": "National anthem",

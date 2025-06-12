@@ -1,9 +1,9 @@
 {
   "name": "Venezuela",
   "code": "VE",
-  "published": "2025-06-05 00:17:26 -0400",
+  "published": "2025-06-11 00:18:28 -0400",
   "region": "South America",
-  "updated": "2025-06-04 13:21:17 -0400",
+  "updated": "2025-06-10 10:55:00 -0400",
   "media": [
     {
       "type": "flag",
@@ -869,14 +869,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "4% of GDP (2021)",
-          "value": "4",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "4% of GDP (2021)<br><br>6% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "4% of GDP (2021)",
+              "value": "4",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "6% of national budget (2022 est.)",
+              "value": "6",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1020,48 +1034,60 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "1.3% of GDP (2017 est.)",
-          "value": "1.3",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% of GDP"
+          "content": "1.3% of GDP (2017 est.)<br><br>0% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "1.3% of GDP (2017 est.)",
+              "value": "1.3",
+              "estimated": true,
+              "info_date": "2017",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "0% national budget (2023 est.)",
+              "value": "0",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>97.5%<br><br><strong>male: </strong>97.4%<br><br><strong>female: </strong>97.7% (2021)",
+          "content": "<strong>total population: </strong>97% (2016 est.)<br><br><strong>male: </strong>97% (2016 est.)<br><br><strong>female: </strong>97% (2016 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "97.5%",
+              "content": "97% (2016 est.)",
               "title": "total population",
-              "value": "97.5",
+              "value": "97",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "97.4%",
+              "content": "97% (2016 est.)",
               "title": "male",
-              "value": "97.4",
+              "value": "97",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "97.7% (2021)",
+              "content": "97% (2016 est.)",
               "title": "female",
-              "value": "97.7",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "97",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             }
           ]
@@ -1188,21 +1214,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>widespread lack of access: </strong><em>due to severe economic crisis -</em>despite a resumption of economic growth since 2021, outflows of refugees and migrants have continued in the first five months of 2023; the number of Venezuelan refugees and migrants (in-destination) in need of food assistance is projected at 3.62 million in 2023 (2023)",
-          "subfields": [
-            {
-              "name": "widespread lack of access",
-              "content": "<em>due to severe economic crisis -</em>despite a resumption of economic growth since 2021, outflows of refugees and migrants have continued in the first five months of 2023; the number of Venezuelan refugees and migrants (in-destination) in need of food assistance is projected at 3.62 million in 2023 (2023)",
-              "value": "<em>due to severe economic crisis -</em>despite a resumption of economic growth since 2021, outflows of refugees and migrants have continued in the first five months of 2023; the number of Venezuelan refugees and migrants (in-destination) in need of food assistance is projected at 3.62 million in 2023",
-              "title": "widespread lack of access",
-              "info_date": "2023"
             }
           ]
         },
@@ -1425,20 +1436,6 @@
           "field_note": "<strong>note:</strong> the federal dependency consists of 11 federally controlled island groups with a total of 72 individual islands"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "5 July 1811 (from Spain)",
-          "value": "5 July 1811 (from Spain)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 5 July (1811)",
-          "value": "Independence Day, 5 July (1811)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1449,7 +1446,7 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>many previous; latest adopted 15 December 1999, effective 30 December 1999<br><br><strong>amendment process: </strong>proposed through agreement by at least 39% of the National Assembly membership, by the president of the republic in session with the cabinet of ministers, or by petition of at least 15% of registered voters; passage requires simple majority vote by the Assembly and simple majority approval in a referendum<br><br><strong>note:</strong>&nbsp;in 2016, President MADURO issued a decree to hold an election to form a constituent assembly to change the constitution; the election in July 2017 approved the formation of a 545-member constituent assembly and elected its delegates, empowering them to change the constitution and dismiss government institutions and officials",
+          "content": "<strong>history: </strong>many previous; latest adopted 15 December 1999, effective 30 December 1999<br><br><strong>amendment process: </strong>proposed through agreement by at least 39% of the National Assembly membership, by the president of the republic in session with the cabinet of ministers, or by petition of at least 15% of registered voters; passage requires simple majority vote by the Assembly and simple majority approval in a referendum",
           "subfields": [
             {
               "name": "history",
@@ -1463,8 +1460,7 @@
               "value": "proposed through agreement by at least 39% of the National Assembly membership, by the president of the republic in session with the cabinet of ministers, or by petition of at least 15% of registered voters; passage requires simple majority vote by the Assembly and simple majority approval in a referendum",
               "title": "amendment process"
             }
-          ],
-          "field_note": "<strong>note:</strong>&nbsp;in 2016, President MADURO issued a decree to hold an election to form a constituent assembly to change the constitution; the election in July 2017 approved the formation of a 545-member constituent assembly and elected its delegates, empowering them to change the constitution and dismiss government institutions and officials"
+          ]
         },
         {
           "name": "International law organization participation",
@@ -1650,13 +1646,6 @@
           "value": "<p>A New Era (Un Nuevo Tiempo) or UNT<br />Cambiemos Movimiento Ciudadano or CMC<br />Christian Democrats or COPEI (also known as the Social Christian Party)<br />Citizens Encounter or EC<br />Clear Accounts or CC<br />Coalition of parties loyal to Nicolas MADURO - Great Patriotic Pole or GPP<br />Coalition of opposition parties - Democratic Alliance (Alianza Democratica) (includes AD, EL CAMBIO, COPEI, CMC, and AP)<br />Come Venezuela (Vente Venezuela) or VV<br />Communist Party of Venezuela or PCV<br />Consenso en la Zona or Conenzo<br />Convergencia<br />Democratic Action or AD<br />Fatherland for All (Patria para Todos) or PPT<br />Fearless People's Alliance or ABP<br />Fuerza Vecinal or FV<br />Hope for Change (Esperanza por el Cambio) or EL CAMBIO<br />Justice First (Primero Justicia) or PJ<br />LAPIZ<br />Movement to Socialism (Movimiento al Socialismo) or MAS<br />Popular Will (Voluntad Popular) or VP<br />Progressive Advance (Avanzada Progresista) or AP<br />The Radical Cause or La Causa R<br />United Socialist Party of Venezuela or PSUV<br />Venezuela First (Primero Venezuela) or PV<br />Venezuelan Progressive Movement or MPV<br />Venezuela Project or PV</p>"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACS, Caricom (observer), CD, CDB, CELAC, FAO, G-15, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), LAES, LAIA, LAS (observer), MIGA, NAM, OAS, OPANAL, OPCW, OPEC, PCA, Petrocaribe, UN, UNASUR, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACS, Caricom (observer), CD, CDB, CELAC, FAO, G-15, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), LAES, LAIA, LAS (observer), MIGA, NAM, OAS, OPANAL, OPCW, OPEC, PCA, Petrocaribe, UN, UNASUR, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "content": "none<br /><br /><strong>Note</strong>:&nbsp; the embassy, which had been run by the Venezuelan political opposition, announced on 5 January 2023, that it had ended all embassy functions"
@@ -1700,6 +1689,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACS, Caricom (observer), CD, CDB, CELAC, FAO, G-15, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), LAES, LAIA, LAS (observer), MIGA, NAM, OAS, OPANAL, OPCW, OPEC, PCA, Petrocaribe, UN, UNASUR, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACS, Caricom (observer), CD, CDB, CELAC, FAO, G-15, G-24, G-77, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ITSO, ITU, ITUC (NGOs), LAES, LAIA, LAS (observer), MIGA, NAM, OAS, OPANAL, OPCW, OPEC, PCA, Petrocaribe, UN, UNASUR, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, Union Latina, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "5 July 1811 (from Spain)",
+          "value": "5 July 1811 (from Spain)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 5 July (1811)",
+          "value": "Independence Day, 5 July (1811)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1710,8 +1720,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "troupial (bird); national colors: yellow, blue, red",
-          "value": "troupial (bird); national colors: yellow, blue, red"
+          "content": "troupial (bird)",
+          "value": "troupial (bird)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "yellow, blue, red",
+          "value": "yellow, blue, red"
         },
         {
           "name": "National anthem",

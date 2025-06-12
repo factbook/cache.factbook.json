@@ -1,9 +1,9 @@
 {
   "name": "Vanuatu",
   "code": "NH",
-  "published": "2025-06-05 00:12:08 -0400",
+  "published": "2025-06-11 00:12:47 -0400",
   "region": "Australia and Oceania",
-  "updated": "2025-06-04 13:16:57 -0400",
+  "updated": "2025-06-10 10:54:58 -0400",
   "media": [
     {
       "type": "flag",
@@ -758,14 +758,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "4.4% of GDP (2021)",
-          "value": "4.4",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "4.4% of GDP (2021)<br><br>3.9% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "4.4% of GDP (2021)",
+              "value": "4.4",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "3.9% of national budget (2022 est.)",
+              "value": "3.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -932,48 +946,60 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "2.2% of GDP (2020 est.)",
-          "value": "2.2",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "10.6% of GDP (2023 est.)<br><br>20.9% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "10.6% of GDP (2023 est.)",
+              "value": "10.6",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "20.9% national budget (2023 est.)",
+              "value": "20.9",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>89.1%<br><br><strong>male: </strong>89.8%<br><br><strong>female: </strong>88.4% (2021)",
+          "content": "<strong>total population: </strong>88% (2023 est.)<br><br><strong>male: </strong>87.7% (2023 est.)<br><br><strong>female: </strong>88.2% (2023 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "89.1%",
+              "content": "88% (2023 est.)",
               "title": "total population",
-              "value": "89.1",
+              "value": "88",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "89.8%",
+              "content": "87.7% (2023 est.)",
               "title": "male",
-              "value": "89.8",
+              "value": "87.7",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "88.4% (2021)",
+              "content": "88.2% (2023 est.)",
               "title": "female",
-              "value": "88.4",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "88.2",
+              "estimated": true,
+              "info_date": "2023",
               "suffix": "%"
             }
           ]
@@ -1280,20 +1306,6 @@
           "value": "6 provinces; Malampa, Penama, Sanma, Shefa, Tafea, Torba"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "30 July 1980 (from France and the UK)",
-          "value": "30 July 1980 (from France and the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 30 July (1980)",
-          "value": "Independence Day, 30 July (1980)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1509,13 +1521,6 @@
           "value": "Iauko Group (Eagle Party) or IG&nbsp;<br />Land and Justice Party (Graon mo Jastis Pati or GJP)&nbsp;<br />Leaders Party of Vanuatu or LPV&nbsp;<br />Rural Development Party or RDP&nbsp;<br />Reunification of Movement for Change or RMC&nbsp;<br />Union of Moderate Parties or UMP<br />Vanua'aku Pati (Our Land Party) or VP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, ADB, AOSIS, C, FAO, G-77, IBRD, ICAO, ICRM, IDA, IFC, IFRCS, ILO, IMF, IMO, IMSO, IOC, IOM, ITU, ITUC (NGOs), MIGA, NAM, OAS (observer), OIF, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, ADB, AOSIS, C, FAO, G-77, IBRD, ICAO, ICRM, IDA, IFC, IFRCS, ILO, IMF, IMO, IMSO, IOC, IOM, ITU, ITUC (NGOs), MIGA, NAM, OAS (observer), OIF, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1575,6 +1580,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, ADB, AOSIS, C, FAO, G-77, IBRD, ICAO, ICRM, IDA, IFC, IFRCS, ILO, IMF, IMO, IMSO, IOC, IOM, ITU, ITUC (NGOs), MIGA, NAM, OAS (observer), OIF, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, ADB, AOSIS, C, FAO, G-77, IBRD, ICAO, ICRM, IDA, IFC, IFRCS, ILO, IMF, IMO, IMSO, IOC, IOM, ITU, ITUC (NGOs), MIGA, NAM, OAS (observer), OIF, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "30 July 1980 (from France and the UK)",
+          "value": "30 July 1980 (from France and the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 30 July (1980)",
+          "value": "Independence Day, 30 July (1980)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1586,8 +1612,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "boar's tusk with crossed fern fronds; national colors: red, black, green, yellow",
-          "value": "boar's tusk with crossed fern fronds; national colors: red, black, green, yellow"
+          "content": "boar's tusk with crossed fern fronds",
+          "value": "boar's tusk with crossed fern fronds"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, black, green, yellow",
+          "value": "red, black, green, yellow"
         },
         {
           "name": "National anthem",

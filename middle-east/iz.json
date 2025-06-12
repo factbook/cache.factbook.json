@@ -1,9 +1,9 @@
 {
   "name": "Iraq",
   "code": "IZ",
-  "published": "2025-06-05 00:08:22 -0400",
+  "published": "2025-06-11 00:09:00 -0400",
   "region": "Middle East",
-  "updated": "2025-06-04 14:58:34 -0400",
+  "updated": "2025-06-10 10:54:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -884,14 +884,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "5.2% of GDP (2021)",
-          "value": "5.2",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "5.2% of GDP (2021)<br><br>5.8% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "5.2% of GDP (2021)",
+              "value": "5.2",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "5.8% of national budget (2022 est.)",
+              "value": "5.8",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1104,7 +1118,7 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
           "content": "4.7% of GDP (2016)",
@@ -1117,35 +1131,33 @@
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>85.6%<br><br><strong>male: </strong>91.2%<br><br><strong>female: </strong>79.9% (2017)",
+          "content": "<strong>total population: </strong>86% (2017 est.)<br><br><strong>male: </strong>91% (2017 est.)<br><br><strong>female: </strong>76.3% (2018 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "85.6%",
+              "content": "86% (2017 est.)",
               "title": "total population",
-              "value": "85.6",
+              "value": "86",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "91.2%",
+              "content": "91% (2017 est.)",
               "title": "male",
-              "value": "91.2",
+              "value": "91",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "79.9% (2017)",
+              "content": "76.3% (2018 est.)",
               "title": "female",
-              "value": "79.9",
-              "estimated": false,
-              "info_date": "2017",
+              "value": "76.3",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             }
           ]
@@ -1272,21 +1284,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to civil conflict and economic slowdown -</em> the 2022 Humanitarian Needs Overview identified 2.5 million people in need of humanitarian assistance, of which 960,000 have acute humanitarian needs; while the number of people in need remained similar to the previous year, the severity of those needs increased, largely due to the impact of the COVID‑19 pandemic on top of an existing humanitarian crisis, leading to a 35% increase in the number of people in acute need; more than half of these are concentrated in the governorates of Nineveh and Anbar; the number of severely food insecure people is estimated at about 435,000, while 731,000 are vulnerable to food insecurity (2022)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to civil conflict and economic slowdown -</em> the 2022 Humanitarian Needs Overview identified 2.5 million people in need of humanitarian assistance, of which 960,000 have acute humanitarian needs; while the number of people in need remained similar to the previous year, the severity of those needs increased, largely due to the impact of the COVID‑19 pandemic on top of an existing humanitarian crisis, leading to a 35% increase in the number of people in acute need; more than half of these are concentrated in the governorates of Nineveh and Anbar; the number of severely food insecure people is estimated at about 435,000, while 731,000 are vulnerable to food insecurity (2022)",
-              "value": "<em>due to civil conflict and economic slowdown -</em> the 2022 Humanitarian Needs Overview identified 2.5 million people in need of humanitarian assistance, of which 960,000 have acute humanitarian needs; while the number of people in need remained similar to the previous year, the severity of those needs increased, largely due to the impact of the COVID‑19 pandemic on top of an existing humanitarian crisis, leading to a 35% increase in the number of people in acute need; more than half of these are concentrated in the governorates of Nineveh and Anbar; the number of severely food insecure people is estimated at about 435,000, while 731,000 are vulnerable to food insecurity",
-              "title": "severe localized food insecurity",
-              "info_date": "2022"
             }
           ]
         },
@@ -1514,20 +1511,6 @@
           "field_note": "<strong>note: </strong>Iraq's Kurdistan Regional Government administers Arbil, Dahuk, and As Sulaymaniyah (as Hewler, Dihok, and Slemani respectively)"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "3 October 1932 (from League of Nations mandate under British administration); note - on 28 June 2004 the Coalition Provisional Authority transferred sovereignty to the Iraqi Interim Government",
-          "value": "3 October 1932 (from League of Nations mandate under British administration); note - on 28 June 2004 the Coalition Provisional Authority transferred sovereignty to the Iraqi Interim Government"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 3 October (1932); Republic Day, 14 July (1958)",
-          "value": "Independence Day, 3 October (1932); Republic Day, 14 July (1958)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1744,13 +1727,6 @@
           "value": "Al Fatah Alliance<br />Azm Alliance<br />Babiliyun Movement<br />Imtidad<br />Ishraqat Konun<br />Kurdistan Democratic Party<br />National Contract Party<br />New Generation Movement<br />Patriotic Union of Kurdistan<br />Sadrist Bloc<br />State Forces Alliance<br />State of Law Coalition<br />Taqadum<br />Tasmim Alliance"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ABEDA, AFESD, AIIB, AMF, CAEU, CICA, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IPU, ISO, ITSO, ITU, LAS, MIGA, NAM, OAPEC, OIC, OPCW, OPEC, PCA, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO (observer)",
-          "value": "ABEDA, AFESD, AIIB, AMF, CAEU, CICA, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IPU, ISO, ITSO, ITU, LAS, MIGA, NAM, OAPEC, OIC, OPCW, OPEC, PCA, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO (observer)"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1833,6 +1809,28 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ABEDA, AFESD, AIIB, AMF, CAEU, CICA, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IPU, ISO, ITSO, ITU, LAS, MIGA, NAM, OAPEC, OIC, OPCW, OPEC, PCA, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO (observer)",
+          "value": "ABEDA, AFESD, AIIB, AMF, CAEU, CICA, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IPU, ISO, ITSO, ITU, LAS, MIGA, NAM, OAPEC, OIC, OPCW, OPEC, PCA, UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO (observer)"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "3 October 1932 (from League of Nations mandate under British administration)<br><br><strong>note:</strong> on 28 June 2004, the Coalition Provisional Authority transferred sovereignty to the Iraqi Interim Government",
+          "value": "3 October 1932 (from League of Nations mandate under British administration)",
+          "field_note": "<strong>note:</strong> on 28 June 2004, the Coalition Provisional Authority transferred sovereignty to the Iraqi Interim Government"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 3 October (1932); Republic Day, 14 July (1958)",
+          "value": "Independence Day, 3 October (1932); Republic Day, 14 July (1958)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1844,8 +1842,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "golden eagle; national colors: red, white, black",
-          "value": "golden eagle; national colors: red, white, black"
+          "content": "golden eagle",
+          "value": "golden eagle"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white, black",
+          "value": "red, white, black"
         },
         {
           "name": "National anthem",

@@ -1,9 +1,9 @@
 {
   "name": "Papua New Guinea",
   "code": "PP",
-  "published": "2025-06-05 00:13:33 -0400",
+  "published": "2025-06-11 00:14:12 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-06-04 14:58:35 -0400",
+  "updated": "2025-06-10 10:54:58 -0400",
   "media": [
     {
       "type": "flag",
@@ -809,14 +809,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "2.3% of GDP (2021)",
-          "value": "2.3",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "2.3% of GDP (2021)<br><br>7% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "2.3% of GDP (2021)",
+              "value": "2.3",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "7% of national budget (2022 est.)",
+              "value": "7",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1028,48 +1042,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "1.4% of GDP (2020 est.)",
-          "value": "1.4",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "1.4% of GDP (2021 est.)<br><br>3.9% national budget (2021 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "1.4% of GDP (2021 est.)",
+              "value": "1.4",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "3.9% national budget (2021 est.)",
+              "value": "3.9",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>64.2%<br><br><strong>male: </strong>65.6%<br><br><strong>female: </strong>62.8% (2015)",
+          "content": "<strong>total population: </strong>70.1% (2017 est.)<br><br><strong>male: </strong>78.4% (2017 est.)<br><br><strong>female: </strong>61.6% (2017 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "64.2%",
+              "content": "70.1% (2017 est.)",
               "title": "total population",
-              "value": "64.2",
+              "value": "70.1",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "65.6%",
+              "content": "78.4% (2017 est.)",
               "title": "male",
-              "value": "65.6",
+              "value": "78.4",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "62.8% (2015)",
+              "content": "61.6% (2017 est.)",
               "title": "female",
-              "value": "62.8",
-              "estimated": null,
-              "info_date": "2015",
+              "value": "61.6",
+              "estimated": true,
+              "info_date": "2017",
               "suffix": "%"
             }
           ]
@@ -1429,20 +1455,6 @@
           "value": "20 provinces, 1 autonomous region*, and 1 district**; Bougainville*, Central, Chimbu, Eastern Highlands, East New Britain, East Sepik, Enga, Gulf, Hela, Jiwaka, Madang, Manus, Milne Bay, Morobe, National Capital**, New Ireland, Northern, Southern Highlands, Western, Western Highlands, West New Britain, West Sepik"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "16 September 1975 (from the Australia-administered UN trusteeship)",
-          "value": "16 September 1975 (from the Australia-administered UN trusteeship)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 16 September (1975)",
-          "value": "Independence Day, 16 September (1975)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1657,13 +1669,6 @@
           "value": "Destiny Party&nbsp;<br />Liberal Party&nbsp;<br />Melanesian Alliance Party or MAP&nbsp;<br />Melanesian Liberal Party or MLP&nbsp;<br />National Alliance Party or NAP&nbsp;<br />Our Development Party or ODP&nbsp;<br />Papua and Niugini Union Party or PANGU PATI&nbsp;<br />Papua New Guinea Greens Party&nbsp;<br />Papua New Guinea National Party&nbsp;<br />Papua New Guinea Party or PNGP&nbsp;<br />People's First Party or PFP&nbsp;<br />People's Movement for Change or PMC&nbsp;<br />People's National Congress Party or PNC&nbsp;<br />People&rsquo;s National Party&nbsp;<br />People's Party or PP&nbsp;<br />People's Progress Party or PPP&nbsp;<br />People's Reform Party or PRP&nbsp;<br />PNG Party&nbsp;<br />Social Democratic Party or SDP&nbsp;<br />Triumph Heritage Empowerment Party or THE&nbsp;<br />United Labor Party or ULP&nbsp;<br />United Resources Party or URP&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, ADB, AOSIS, APEC, ARF, ASEAN (observer), C, CD, CP, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, MIGA, NAM, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UNMISS, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, ADB, AOSIS, APEC, ARF, ASEAN (observer), C, CD, CP, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, MIGA, NAM, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UNMISS, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1740,6 +1745,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, ADB, AOSIS, APEC, ARF, ASEAN (observer), C, CD, CP, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, MIGA, NAM, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UNMISS, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, ADB, AOSIS, APEC, ARF, ASEAN (observer), C, CD, CP, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, MIGA, NAM, OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNESCO, UNIDO, UNMISS, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "16 September 1975 (from the Australia-administered UN trusteeship)",
+          "value": "16 September 1975 (from the Australia-administered UN trusteeship)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 16 September (1975)",
+          "value": "Independence Day, 16 September (1975)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1750,8 +1776,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "bird of paradise; national colors: red, black",
-          "value": "bird of paradise; national colors: red, black"
+          "content": "bird of paradise",
+          "value": "bird of paradise"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, black",
+          "value": "red, black"
         },
         {
           "name": "National anthem",
@@ -2983,8 +3016,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "0.3% of GDP (2023 est.)<br><br>0.3% of GDP (2022 est.)<br><br>0.4% of GDP (2021 est.)<br><br>0.4% of GDP (2020 est.)<br><br>0.3% of GDP (2019 est.)",
+          "content": "0.3% of GDP (2024 est.)<br><br>0.3% of GDP (2023 est.)<br><br>0.3% of GDP (2022 est.)<br><br>0.4% of GDP (2021 est.)<br><br>0.4% of GDP (2020 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2024",
+              "content": "0.3% of GDP (2024 est.)",
+              "value": "0.3",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2023",
               "content": "0.3% of GDP (2023 est.)",
@@ -3010,13 +3050,6 @@
               "name": "Military Expenditures 2020",
               "content": "0.4% of GDP (2020 est.)",
               "value": "0.4",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "0.3% of GDP (2019 est.)",
-              "value": "0.3",
               "estimated": true,
               "suffix": "% of GDP"
             }

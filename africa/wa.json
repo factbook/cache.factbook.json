@@ -1,9 +1,9 @@
 {
   "name": "Namibia",
   "code": "WA",
-  "published": "2025-06-05 00:17:45 -0400",
+  "published": "2025-06-11 00:18:53 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:35 -0400",
+  "updated": "2025-06-10 10:55:00 -0400",
   "media": [
     {
       "type": "flag",
@@ -829,14 +829,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "9.4% of GDP (2021)",
-          "value": "9.4",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "9.4% of GDP (2021)<br><br>11.7% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "9.4% of GDP (2021)",
+              "value": "9.4",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "11.7% of national budget (2022 est.)",
+              "value": "11.7",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1003,27 +1017,35 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "9.6% of GDP (2021 est.)",
-          "value": "9.6",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "9.4% of GDP (2022 est.)<br><br>24.7% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "9.4% of GDP (2022 est.)",
+              "value": "9.4",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "24.7% national budget (2022 est.)",
+              "value": "24.7",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>92.3%<br><br><strong>male: </strong>90.6%<br><br><strong>female: </strong>92.3% (2021)",
+          "content": "<strong>total population: </strong>92.3%<br><br><strong>male: </strong>90.6%<br><br><strong>female: </strong>92.3% (2021)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "92.3%",
@@ -1171,21 +1193,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em><em>due to localized shortfalls in cereal production and </em></em><em>rising food prices </em><em>- </em>an estimated 390,000 people faced acute food insecurity in the January to March 2023 period, lower than the figure in the corresponding period of 2022; high food prices and localized weather induced shortfalls in cereal production in 2022 were the key drivers (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em><em>due to localized shortfalls in cereal production and </em></em><em>rising food prices </em><em>- </em>an estimated 390,000 people faced acute food insecurity in the January to March 2023 period, lower than the figure in the corresponding period of 2022; high food prices and localized weather induced shortfalls in cereal production in 2022 were the key drivers (2023)",
-              "value": "<em><em>due to localized shortfalls in cereal production and </em></em><em>rising food prices </em><em>- </em>an estimated 390,000 people faced acute food insecurity in the January to March 2023 period, lower than the figure in the corresponding period of 2022; high food prices and localized weather induced shortfalls in cereal production in 2022 were the key drivers",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1414,20 +1421,6 @@
           "comparative": false,
           "content": "14 regions; Erongo, Hardap, //Karas, Kavango East, Kavango West, Khomas, Kunene, Ohangwena, Omaheke, Omusati, Oshana, Oshikoto, Otjozondjupa, Zambezi; note - the Karas Region was renamed //Karas in September 2013 to include the alveolar lateral click of the Khoekhoegowab language",
           "value": "14 regions; Erongo, Hardap, //Karas, Kavango East, Kavango West, Khomas, Kunene, Ohangwena, Omaheke, Omusati, Oshana, Oshikoto, Otjozondjupa, Zambezi; note - the Karas Region was renamed //Karas in September 2013 to include the alveolar lateral click of the Khoekhoegowab language"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "21 March 1990 (from South African mandate)",
-          "value": "21 March 1990 (from South African mandate)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 21 March (1990)",
-          "value": "Independence Day, 21 March (1990)"
         },
         {
           "name": "Legal system",
@@ -1712,13 +1705,6 @@
           "value": "All People's Party or APP&nbsp;<br />Christian Democratic Voice or CDV&nbsp;<br />Landless People's Movement or LPM&nbsp;<br />National Unity Democratic Organization or NUDO&nbsp;<br />Namibian Economic Freedom Fighters or NEFF&nbsp;<br />Popular Democratic Movement or PDM (formerly Democratic Turnhalle Alliance or DTA)&nbsp;<br />Rally for Democracy and Progress or RDP&nbsp;<br />Republican Party or RP<br />South West Africa National Union or SWANU&nbsp;<br />South West Africa People's Organization or SWAPO&nbsp;<br />United Democratic Front or UDF&nbsp;<br />United People's Movement or UPM"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, AU, C, CD, CPLP (associate observer), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OPCW, SACU, SADC, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, AU, C, CD, CPLP (associate observer), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OPCW, SACU, SADC, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1801,6 +1787,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, AU, C, CD, CPLP (associate observer), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OPCW, SACU, SADC, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, AU, C, CD, CPLP (associate observer), FAO, G-77, IAEA, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OPCW, SACU, SADC, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNHRC, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "21 March 1990 (from South African mandate)",
+          "value": "21 March 1990 (from South African mandate)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 21 March (1990)",
+          "value": "Independence Day, 21 March (1990)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1811,8 +1818,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "oryx (antelope); national colors: blue, red, green, white, yellow",
-          "value": "oryx (antelope); national colors: blue, red, green, white, yellow"
+          "content": "oryx (antelope)",
+          "value": "oryx (antelope)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, red, green, white, yellow",
+          "value": "blue, red, green, white, yellow"
         },
         {
           "name": "National anthem",
@@ -3090,8 +3104,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "2.8% of GDP (2023 est.)<br><br>3% of GDP (2022 est.)<br><br>3% of GDP (2021 est.)<br><br>3.4% of GDP (2020 est.)<br><br>3.3% of GDP (2019 est.)",
+          "content": "2.8% of GDP (2024 est.)<br><br>2.8% of GDP (2023 est.)<br><br>3% of GDP (2022 est.)<br><br>3% of GDP (2021 est.)<br><br>3.4% of GDP (2020 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2024",
+              "content": "2.8% of GDP (2024 est.)",
+              "value": "2.8",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2023",
               "content": "2.8% of GDP (2023 est.)",
@@ -3117,13 +3138,6 @@
               "name": "Military Expenditures 2020",
               "content": "3.4% of GDP (2020 est.)",
               "value": "3.4",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "3.3% of GDP (2019 est.)",
-              "value": "3.3",
               "estimated": true,
               "suffix": "% of GDP"
             }

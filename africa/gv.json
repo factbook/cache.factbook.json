@@ -1,9 +1,9 @@
 {
   "name": "Guinea",
   "code": "GV",
-  "published": "2025-06-05 00:07:09 -0400",
+  "published": "2025-06-11 00:07:29 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:34 -0400",
+  "updated": "2025-06-10 10:54:56 -0400",
   "media": [
     {
       "type": "flag",
@@ -784,14 +784,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "3.8% of GDP (2021)",
-          "value": "3.8",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "3.8% of GDP (2021)<br><br>5% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "3.8% of GDP (2021)",
+              "value": "3.8",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "5% of national budget (2022 est.)",
+              "value": "5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -968,48 +982,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "2.2% of GDP (2020 est.)",
-          "value": "2.2",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "1.7% of GDP (2023 est.)<br><br>9.3% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "1.7% of GDP (2023 est.)",
+              "value": "1.7",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "9.3% national budget (2024 est.)",
+              "value": "9.3",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>45.3%<br><br><strong>male: </strong>61.2%<br><br><strong>female: </strong>31.3% (2021)",
+          "content": "<strong>total population: </strong>40% (2018 est.)<br><br><strong>male: </strong>54% (2018 est.)<br><br><strong>female: </strong>28% (2018 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "45.3%",
+              "content": "40% (2018 est.)",
               "title": "total population",
-              "value": "45.3",
+              "value": "40",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "61.2%",
+              "content": "54% (2018 est.)",
               "title": "male",
-              "value": "61.2",
+              "value": "54",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "31.3% (2021)",
+              "content": "28% (2018 est.)",
               "title": "female",
-              "value": "31.3",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "28",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%"
             }
           ]
@@ -1167,21 +1193,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to reduced incomes -&nbsp;</em>levels of acute food insecurity are expected to increase in 2023; food prices are likely to remain at high levels, supported by the unfolding effects of the war in Ukraine on international trade; nearly 710,000 people are projected to be acutely food insecure during the June to August 2023 lean season, an improvement compared to 2022 when about 1.22 million people were estimated to face acute food insecurity; acute food insecurity is mainly driven by high food prices (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to reduced incomes -&nbsp;</em>levels of acute food insecurity are expected to increase in 2023; food prices are likely to remain at high levels, supported by the unfolding effects of the war in Ukraine on international trade; nearly 710,000 people are projected to be acutely food insecure during the June to August 2023 lean season, an improvement compared to 2022 when about 1.22 million people were estimated to face acute food insecurity; acute food insecurity is mainly driven by high food prices (2023)",
-              "value": "<em>due to reduced incomes -&nbsp;</em>levels of acute food insecurity are expected to increase in 2023; food prices are likely to remain at high levels, supported by the unfolding effects of the war in Ukraine on international trade; nearly 710,000 people are projected to be acutely food insecure during the June to August 2023 lean season, an improvement compared to 2022 when about 1.22 million people were estimated to face acute food insecurity; acute food insecurity is mainly driven by high food prices",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1407,20 +1418,6 @@
           "value": "7 regions administrative (administrative regions) and 1 gouvenorat (governorate)*; Boke, Conakry*, Faranah, Kankan, Kindia, Labe, Mamou, N'Zerekore"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "2 October 1958 (from France)",
-          "value": "2 October 1958 (from France)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 2 October (1958)",
-          "value": "Independence Day, 2 October (1958)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1618,13 +1615,6 @@
           "value": "African Congress for Democracy and Renewal or CADRE&nbsp;<br />Alliance for National Renewal or ARN&nbsp;<br />Alliance for National Renewal or ARENA&nbsp;<br />Bloc Liberal or BL&nbsp;<br />Citizen Generation or GECI&nbsp;<br />Citizen Party for the Defense of Collective Interests or PCDIC&nbsp;<br />Democratic Alliance for Renewal or ADR&nbsp;<br />Democratic National Movement or MND<br />Democratic Union for Renewal and Progress or UDRP&nbsp;<br />Democratic Union of Guinea or UDG&nbsp;<br />Democratic People's Movement of Guinea or MPDG&nbsp;<br />Democratic Workers' Party of Guinea or PDTG&nbsp;<br />Front for the National Alliance or FAN&nbsp;<br />Generation for Reconciliation Union and Prosperity or GRUP&nbsp;<br />Guinea for Democracy and Balance or GDE&nbsp;<br />Guinean Party for Peaceful Coexistence and Development or PGCD&nbsp;<br />Guinean Party for Solidarity and Democracy or PGSD&nbsp;<br />Guinean Union for Democracy and Development or UGDD&nbsp;<br />Guinean Rally for Development or RGD&nbsp;<br />Guinean Rally for Unity and Development or RGUD&nbsp;<br />Guinean Renaissance Party or PGR&nbsp;<br />Modern Guinea&nbsp;<br />Movement for Solidarity and Development or MSD&nbsp;<br />National Committee for Reconciliation and Development&nbsp;<br />National Front for Development or FND&nbsp;<br />National Union for Prosperity or UNP&nbsp;<br />National Party for Hope and Development or PEDN&nbsp;<br />New Democratic Forces or NFD&nbsp;<br />New Generation for the Republic or NGR&nbsp;<br />New Guinea or NG&nbsp;<br />New Political Generation or NGP&nbsp;<br />Party for Progress and Change or PPC&nbsp;<br />Party of Citizen Action through Labor or PACT&nbsp;<br />Party of Democrats for Hope or PADES&nbsp;<br />Party of Freedom and Progress or PLP&nbsp;<br />Party of Hope for National Development or PEDN&nbsp;<br />Rally for Renaissance and Development or RRD&nbsp;<br />Rally for the Guinean People or RPG&nbsp;<br />Rally for the Integrated Development of Guinea or RDIG&nbsp;<br />Rally for the Republic or RPR&nbsp;<br />Union of Democratic Forces of Guinea or UFDG<br />Union for Progress and Renewal or UPR&nbsp;<br />Union for the Defense of Republican Interests or UDIR&nbsp;<br />Union for the Progress of Guinea or UPG&nbsp;<br />Union of Democratic Forces or UFD&nbsp;a or UFDG&nbsp;<br />Union of Democrats for the Renaissance of Guinea or UDRG&nbsp;<br />Union of Republican Forces or UFR&nbsp;<br />Unity and Progress Party or PUP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, EITI (compliant country), FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MONUSCO, NAM, OIC, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOCI, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, EITI (compliant country), FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MONUSCO, NAM, OIC, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOCI, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1713,6 +1703,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, EITI (compliant country), FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MONUSCO, NAM, OIC, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOCI, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, EITI (compliant country), FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MONUSCO, NAM, OIC, OIF, OPCW, UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMISS, UNOCI, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "2 October 1958 (from France)",
+          "value": "2 October 1958 (from France)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 2 October (1958)",
+          "value": "Independence Day, 2 October (1958)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1724,8 +1735,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "elephant; national colors: red, yellow, green",
-          "value": "elephant; national colors: red, yellow, green"
+          "content": "elephant",
+          "value": "elephant"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, yellow, green",
+          "value": "red, yellow, green"
         },
         {
           "name": "National anthem",

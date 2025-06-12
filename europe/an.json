@@ -1,9 +1,9 @@
 {
   "name": "Andorra",
   "code": "AN",
-  "published": "2025-06-05 00:00:47 -0400",
+  "published": "2025-06-11 00:00:44 -0400",
   "region": "Europe",
-  "updated": "2025-06-04 14:58:31 -0400",
+  "updated": "2025-06-10 10:54:55 -0400",
   "media": [
     {
       "type": "flag",
@@ -748,14 +748,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "8.3% of GDP (2021)",
-          "value": "8.3",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "8.3% of GDP (2021)<br><br>15.9% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "8.3% of GDP (2021)",
+              "value": "8.3",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "15.9% of national budget (2022 est.)",
+              "value": "15.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -912,27 +926,35 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "2.9% of GDP (2021 est.)",
-          "value": "2.9",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "1.9% of GDP (2023 est.)<br><br>12% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "1.9% of GDP (2023 est.)",
+              "value": "1.9",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "12% national budget (2024 est.)",
+              "value": "12",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>100%<br><br><strong>male: </strong>100%<br><br><strong>female: </strong>100% (2016)",
+          "content": "<strong>total population: </strong>100%<br><br><strong>male: </strong>100%<br><br><strong>female: </strong>100% (2016)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "100%",
@@ -1242,20 +1264,6 @@
           "value": "7 parishes (parroquies, singular - parroquia); Andorra la Vella, Canillo, Encamp, Escaldes-Engordany, La Massana, Ordino, Sant Julia de Loria"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "1278 (formed under the joint sovereignty of the French Count of Foix and the Spanish Bishop of Urgell)",
-          "value": "1278 (formed under the joint sovereignty of the French Count of Foix and the Spanish Bishop of Urgell)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Our Lady of Meritxell Day, 8 September (1278)",
-          "value": "Our Lady of Meritxell Day, 8 September (1278)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1471,13 +1479,6 @@
           "value": "Action for Andorra or ACCIO&nbsp;<br />Committed Citizens or CC&nbsp;<br />Concord or C<br />Democrats for Andorra or DA&nbsp;<br />Forward Andorra or AE&nbsp;<br />Liberals of Andorra or L'A&nbsp;<br />Social Democratic Party or PS&nbsp;<br />Social Democracy and Progress or SDP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "CE, FAO, ICAO, ICC (NGOs), ICCt, ICRM, IFRCS, Interpol, IOC, IPU, ITU, OIF, OPCW, OSCE, UN, UNCTAD, UNESCO, Union Latina, UNWTO, WCO, WHO, WIPO, WTO (observer)",
-          "value": "CE, FAO, ICAO, ICC (NGOs), ICCt, ICRM, IFRCS, Interpol, IOC, IPU, ITU, OIF, OPCW, OSCE, UN, UNCTAD, UNESCO, Union Latina, UNWTO, WCO, WHO, WIPO, WTO (observer)"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1530,6 +1531,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "CE, FAO, ICAO, ICC (NGOs), ICCt, ICRM, IFRCS, Interpol, IOC, IPU, ITU, OIF, OPCW, OSCE, UN, UNCTAD, UNESCO, Union Latina, UNWTO, WCO, WHO, WIPO, WTO (observer)",
+          "value": "CE, FAO, ICAO, ICC (NGOs), ICCt, ICRM, IFRCS, Interpol, IOC, IPU, ITU, OIF, OPCW, OSCE, UN, UNCTAD, UNESCO, Union Latina, UNWTO, WCO, WHO, WIPO, WTO (observer)"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "1278 (formed under the joint sovereignty of the French Count of Foix and the Spanish Bishop of Urgell)",
+          "value": "1278 (formed under the joint sovereignty of the French Count of Foix and the Spanish Bishop of Urgell)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Our Lady of Meritxell Day, 8 September (1278)",
+          "value": "Our Lady of Meritxell Day, 8 September (1278)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1541,8 +1563,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "red cow (breed unspecified); national colors: blue, yellow, red",
-          "value": "red cow (breed unspecified); national colors: blue, yellow, red"
+          "content": "red cow (breed unspecified)",
+          "value": "red cow (breed unspecified)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "blue, yellow, red",
+          "value": "blue, yellow, red"
         },
         {
           "name": "National anthem",

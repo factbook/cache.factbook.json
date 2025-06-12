@@ -1,9 +1,9 @@
 {
   "name": "Malaysia",
   "code": "MY",
-  "published": "2025-06-05 00:11:40 -0400",
+  "published": "2025-06-11 00:12:24 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-06-04 14:58:35 -0400",
+  "updated": "2025-06-10 10:54:58 -0400",
   "media": [
     {
       "type": "flag",
@@ -856,14 +856,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "4.4% of GDP (2021)",
-          "value": "4.4",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "4.4% of GDP (2021)<br><br>8% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "4.4% of GDP (2021)",
+              "value": "4.4",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "8% of national budget (2022 est.)",
+              "value": "8",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1054,48 +1068,60 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.9% of GDP (2020 est.)",
-          "value": "3.9",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "3.6% of GDP (2023 est.)<br><br>17.1% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.6% of GDP (2023 est.)",
+              "value": "3.6",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "17.1% national budget (2023 est.)",
+              "value": "17.1",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>95%<br><br><strong>male: </strong>96.2%<br><br><strong>female: </strong>93.6% (2019)",
+          "content": "<strong>total population: </strong>96% (2022 est.)<br><br><strong>male: </strong>97% (2022 est.)<br><br><strong>female: </strong>95% (2022 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "95%",
+              "content": "96% (2022 est.)",
               "title": "total population",
-              "value": "95",
+              "value": "96",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "96.2%",
+              "content": "97% (2022 est.)",
               "title": "male",
-              "value": "96.2",
+              "value": "97",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "93.6% (2019)",
+              "content": "95% (2022 est.)",
               "title": "female",
-              "value": "93.6",
-              "estimated": false,
-              "info_date": "2019",
+              "value": "95",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             }
           ]
@@ -1491,20 +1517,6 @@
           "value": "13 states (negeri-negeri, singular - negeri); Johor, Kedah, Kelantan, Melaka, Negeri Sembilan, Pahang, Perak, Perlis, Pulau Pinang, Sabah, Sarawak, Selangor, Terengganu; and 1 federal territory (Wilayah Persekutuan) with 3 components, Kuala Lumpur, Labuan, and Putrajaya"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "31 August 1957 (from the UK)",
-          "value": "31 August 1957 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day (or Merdeka Day), 31 August (1957) (independence of Malaya); Malaysia Day, 16 September (1963) (formation of Malaysia)",
-          "value": "Independence Day (or Merdeka Day), 31 August (1957) (independence of Malaya); Malaysia Day, 16 September (1963) (formation of Malaysia)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1756,13 +1768,6 @@
           "value": "<strong>National Front (Barisan Nasional) or BN:<br /></strong>Malaysian Chinese Association (Persatuan Cina Malaysia) or MCA&nbsp;<br />Malaysian Indian Congress (Kongres India Malaysia) or MIC <br />United Malays National Organization (Pertubuhan Kebansaan Melayu Bersatu) or UMNO&nbsp;<br />United Sabah People's Party (Parti Bersatu Rakyat Sabah) or PBRS&nbsp;<br /><br /><strong>Alliance of Hope (Pakatan Harapan) or PH:</strong><br />Democratic Action Party (Parti Tindakan Demokratik) or DAP&nbsp;<br />National Trust Party (Parti Amanah Negara) or AMANAH&nbsp;<br />People's Justice Party (Parti Keadilan Rakyat) or PKR&nbsp;<br />United Progressive Kinabalu Organization (Pertubuhan Kinabalu Progresif Bersatu) or UPKO&nbsp;<br /><br /><strong>National Alliance (Perikatan Nasional) or PN:</strong><br />Malaysian People's Movement Party (Parti Gerakan Rakyat Malaysia) or GERAKAN or PGRM&nbsp;<br />Malaysian United Indigenous Party (Parti Pribumi Bersatu Malaysia) or PPBM or BERSATU&nbsp;<br />Pan-Malaysian Islamic Party (Parti Islam Se-Malaysia) or PAS&nbsp;<br /> <p><strong>Sabah People's Alliance (Gabungan Rakya Sabah) or GRS:<br /></strong>Homeland Solidarity Party (Parti Solidariti Tanah Airku) or STAR&nbsp;<br />Love Sabah Party (Parti Cinta Sabah) or PCS<br />Sabah People's Ideas Party (Parti Gagasan Rakyat Sabah) or GAGASAN or PGRS&nbsp;<br />&nbsp;<br /><br /><strong>Sarawak Parties Alliance (Gabungan Parti Sarawak) or GPS:</strong><br />Progressive Democratic Party (Parti Demokratik Progresif) or PDP&nbsp;<br />Sarawak People's Party (Parti Rakyat Sarawak) or PRS&nbsp;<br />Sarawak United People's Party (Parti Rakyat Bersatu Sarawak) or SUPP&nbsp;<br />United Bumiputera Heritage Party (Parti Pesaka Bumiputera Bersata) or PBB&nbsp;<br /><strong><br />Others:&nbsp;</strong><strong><br /></strong>Malaysian Nation Party (Parti Bangsa Malaysia) or PBM<br />Heritage Party (Parti Warisan) or WARISAN&nbsp;<br />Homeland Fighter's Party (Parti Pejuang Tanah Air) or PEJUANG&nbsp;<br />Malaysian United Democratic Alliance (Ikatan Demokratik Malaysia) or MUDA&nbsp;<br />United Sarawak Party (PSB)&nbsp;</p>"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB, APEC, ARF, ASEAN, BIS, C, CICA (observer), CP, D-8, EAS, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MONUSCO, NAM, OIC, OPCW, PCA, PIF (partner), UN, UNAMID, UNCTAD, UNESCO, UNHRC, UNIDO, UNIFIL, UNISFA, UNMIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ADB, APEC, ARF, ASEAN, BIS, C, CICA (observer), CP, D-8, EAS, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MONUSCO, NAM, OIC, OPCW, PCA, PIF (partner), UN, UNAMID, UNCTAD, UNESCO, UNHRC, UNIDO, UNIFIL, UNISFA, UNMIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1851,6 +1856,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB, APEC, ARF, ASEAN, BIS, C, CICA (observer), CP, D-8, EAS, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MONUSCO, NAM, OIC, OPCW, PCA, PIF (partner), UN, UNAMID, UNCTAD, UNESCO, UNHRC, UNIDO, UNIFIL, UNISFA, UNMIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ADB, APEC, ARF, ASEAN, BIS, C, CICA (observer), CP, D-8, EAS, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINURSO, MONUSCO, NAM, OIC, OPCW, PCA, PIF (partner), UN, UNAMID, UNCTAD, UNESCO, UNHRC, UNIDO, UNIFIL, UNISFA, UNMIL, UNOOSA, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "31 August 1957 (from the UK)",
+          "value": "31 August 1957 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day (or Merdeka Day), 31 August (1957) (independence of Malaya); Malaysia Day, 16 September (1963) (formation of Malaysia)",
+          "value": "Independence Day (or Merdeka Day), 31 August (1957) (independence of Malaya); Malaysia Day, 16 September (1963) (formation of Malaysia)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1862,8 +1888,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "tiger, hibiscus; national colors: gold, black",
-          "value": "tiger, hibiscus; national colors: gold, black"
+          "content": "tiger, hibiscus",
+          "value": "tiger, hibiscus"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "gold, black",
+          "value": "gold, black"
         },
         {
           "name": "National anthem",

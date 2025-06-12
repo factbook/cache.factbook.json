@@ -1,9 +1,9 @@
 {
   "name": "Mongolia",
   "code": "MG",
-  "published": "2025-06-05 00:10:29 -0400",
+  "published": "2025-06-11 00:11:26 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-06-04 15:47:00 -0400",
+  "updated": "2025-06-10 10:54:57 -0400",
   "media": [
     {
       "type": "flag",
@@ -804,14 +804,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "6.9% of GDP (2021)",
-          "value": "6.9",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "6.9% of GDP (2021)<br><br>9.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "6.9% of GDP (2021)",
+              "value": "6.9",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "9.2% of national budget (2022 est.)",
+              "value": "9.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1033,48 +1047,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "4.7% of GDP (2020 est.)",
-          "value": "4.7",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "3.7% of GDP (2023 est.)<br><br>10% national budget (2021 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.7% of GDP (2023 est.)",
+              "value": "3.7",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "10% national budget (2021 est.)",
+              "value": "10",
+              "estimated": true,
+              "info_date": "2021",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>99.2%<br><br><strong>male: </strong>99.1%<br><br><strong>female: </strong>99.2% (2020)",
+          "content": "<strong>total population: </strong>98.7% (2022 est.)<br><br><strong>male: </strong>98.5% (2022 est.)<br><br><strong>female: </strong>98.9% (2022 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "99.2%",
+              "content": "98.7% (2022 est.)",
               "title": "total population",
-              "value": "99.2",
+              "value": "98.7",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "99.1%",
+              "content": "98.5% (2022 est.)",
               "title": "male",
-              "value": "99.1",
+              "value": "98.5",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "99.2% (2020)",
+              "content": "98.9% (2022 est.)",
               "title": "female",
-              "value": "99.2",
-              "estimated": false,
-              "info_date": "2020",
+              "value": "98.9",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             }
           ]
@@ -1466,20 +1492,6 @@
           "value": "21 provinces (aymguud, singular - aymag) and 1 municipality* (singular - hot); Arhangay, Bayanhongor, Bayan-Olgiy, Bulgan, Darhan-Uul, Dornod, Dornogovi, Dundgovi, Dzavhan (Zavkhan), Govi-Altay, Govisumber, Hentiy, Hovd, Hovsgol, Omnogovi, Orhon, Ovorhangay, Selenge, Suhbaatar, Tov, Ulaanbaatar*, Uvs"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "29 December 1911 (independence declared from China; in actuality, autonomy attained); 11 July 1921 (from China)",
-          "value": "29 December 1911 (independence declared from China; in actuality, autonomy attained); 11 July 1921 (from China)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Naadam (games) holiday (commemorates independence from China in the 1921 Revolution), 11-15 July; Constitution Day (marks the date that the Mongolian People's Republic was created under a new constitution), 26 November (1924)",
-          "value": "Naadam (games) holiday (commemorates independence from China in the 1921 Revolution), 11-15 July; Constitution Day (marks the date that the Mongolian People's Republic was created under a new constitution), 26 November (1924)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1694,13 +1706,6 @@
           "value": "Democratic Party or DP<br />Mongolian People's Party or MPP&nbsp;<br />National Coalition (consists of Mongolian Green Party or MGP and the Mongolian National Democratic Party or MNDP)<br />National Labor Party or HUN&nbsp;<br />Civil Will-Green Party or CWGP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB, ARF, CD, CICA, CP, EBRD, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC, MIGA, MINURSO, MONUSCO, NAM, OPCW, OSCE, SCO (observer), UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNISFA, UNMISS, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "ADB, ARF, CD, CICA, CP, EBRD, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC, MIGA, MINURSO, MONUSCO, NAM, OPCW, OSCE, SCO (observer), UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNISFA, UNMISS, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1789,6 +1794,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB, ARF, CD, CICA, CP, EBRD, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC, MIGA, MINURSO, MONUSCO, NAM, OPCW, OSCE, SCO (observer), UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNISFA, UNMISS, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "ADB, ARF, CD, CICA, CP, EBRD, EITI (compliant country), FAO, G-77, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC, MIGA, MINURSO, MONUSCO, NAM, OPCW, OSCE, SCO (observer), UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNISFA, UNMISS, UNOOSA, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "29 December 1911 (independence declared from China; in actuality, autonomy attained); 11 July 1921 (from China)",
+          "value": "29 December 1911 (independence declared from China; in actuality, autonomy attained); 11 July 1921 (from China)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Naadam (games) holiday (commemorates independence from China in the 1921 Revolution), 11-15 July; Constitution Day (marks the date that the Mongolian People's Republic was created under a new constitution), 26 November (1924)",
+          "value": "Naadam (games) holiday (commemorates independence from China in the 1921 Revolution), 11-15 July; Constitution Day (marks the date that the Mongolian People's Republic was created under a new constitution), 26 November (1924)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1799,8 +1825,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "soyombo emblem; national colors: red, blue, yellow",
-          "value": "soyombo emblem; national colors: red, blue, yellow"
+          "content": "Soyombo character (from the Soyombo writing system)",
+          "value": "Soyombo character (from the Soyombo writing system)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, blue, yellow",
+          "value": "red, blue, yellow"
         },
         {
           "name": "National anthem",

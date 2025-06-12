@@ -1,9 +1,9 @@
 {
   "name": "Morocco",
   "code": "MO",
-  "published": "2025-06-05 00:11:03 -0400",
+  "published": "2025-06-11 00:11:53 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:35 -0400",
+  "updated": "2025-06-10 10:54:58 -0400",
   "media": [
     {
       "type": "flag",
@@ -897,14 +897,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "5.7% of GDP (2021)",
-          "value": "5.7",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "5.7% of GDP (2021)<br><br>6.8% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "5.7% of GDP (2021)",
+              "value": "5.7",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "6.8% of national budget (2022 est.)",
+              "value": "6.8",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1120,28 +1134,35 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "6.8% of GDP (2020)<br><br><strong>note:</strong> does not include data from the former Western Sahara",
-          "value": "6.8",
-          "estimated": false,
-          "info_date": "2020",
-          "suffix": "% of GDP",
-          "field_note": "<strong>note:</strong> does not include data from the former Western Sahara"
+          "content": "6% of GDP (2023 est.)<br><br>23.3% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "6% of GDP (2023 est.)",
+              "value": "6",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "23.3% national budget (2024 est.)",
+              "value": "23.3",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>75.9%<br><br><strong>male: </strong>84.8%<br><br><strong>female: </strong>67.4% (2021)<br><br><strong>note:</strong> does not include data from the former Western Sahara",
+          "content": "<strong>total population: </strong>75.9%<br><br><strong>male: </strong>84.8%<br><br><strong>female: </strong>67.4% (2021)<br><br><strong>note:</strong> does not include data from the former Western Sahara",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "75.9%",
@@ -1572,20 +1593,6 @@
           "field_note": "<strong>note:</strong> effective 10 December 2020, the US Government recognizes the sovereignty of Morocco over all of the territory of former Western Sahara"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "2 March 1956 (from France)",
-          "value": "2 March 1956 (from France)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Throne Day (accession of King MOHAMMED VI to the throne), 30 July (1999)",
-          "value": "Throne Day (accession of King MOHAMMED VI to the throne), 30 July (1999)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1860,13 +1867,6 @@
           "value": "Action Party or PA<br />Amal (hope) Party<br />An-Nahj Ad-Dimocrati or An-Nahj or Democratic Way<br />Authenticity and Modernity Party or PAM<br />Constitutional Union Party or UC<br />Democratic and Social Movement or MDS<br />Democratic Forces Front or FFD<br />Environment and Sustainable Development Party or PEDD<br />Federation of the Democratic Left or FGD<br />Green Left Party or PGV<br />Istiqlal (Independence) Party or PI<br />Moroccan Liberal Party or PML<br />Moroccan Union for Democracy or UMD<br />National Democratic Party<br />National Rally of Independents or RNI<br />Neo-Democrats Party<br />Party of Development Reform or PRD<br />Party of Justice and Development or PJD<br />Party of Liberty and Social Justice or PLJS<br />Party of Progress and Socialism or PPS<br />Popular Movement or MP<br />Renaissance and Virtue Party or PRV<br />Renaissance Party<br />Renewal and Equity Party or PRE<br />Shoura (consultation) and Istiqlal Party<br />Socialist Union of Popular Forces or USFP<br />Unified Socialist Party or GSU<br />Unity and Democracy Party"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ABEDA, AfDB, AFESD, AIIB, AMF, AMU, AU, CAEU, CD, EBRD, FAO, G-11, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MONUSCO, NAM, OAS (observer), OIC, OIF, OPCW, OSCE (partner), Pacific Alliance (observer), Paris Club (associate), PCA, SICA (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNOCI, UNOOSA, UNSC (temporary), UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "ABEDA, AfDB, AFESD, AIIB, AMF, AMU, AU, CAEU, CD, EBRD, FAO, G-11, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MONUSCO, NAM, OAS (observer), OIC, OIF, OPCW, OSCE (partner), Pacific Alliance (observer), Paris Club (associate), PCA, SICA (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNOCI, UNOOSA, UNSC (temporary), UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1961,6 +1961,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ABEDA, AfDB, AFESD, AIIB, AMF, AMU, AU, CAEU, CD, EBRD, FAO, G-11, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MONUSCO, NAM, OAS (observer), OIC, OIF, OPCW, OSCE (partner), Pacific Alliance (observer), Paris Club (associate), PCA, SICA (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNOCI, UNOOSA, UNSC (temporary), UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "ABEDA, AfDB, AFESD, AIIB, AMF, AMU, AU, CAEU, CD, EBRD, FAO, G-11, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IDB, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MONUSCO, NAM, OAS (observer), OIC, OIF, OPCW, OSCE (partner), Pacific Alliance (observer), Paris Club (associate), PCA, SICA (observer), UN, UNCTAD, UNESCO, UNHCR, UNIDO, UNOCI, UNOOSA, UNSC (temporary), UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "2 March 1956 (from France)",
+          "value": "2 March 1956 (from France)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Throne Day (accession of King MOHAMMED VI to the throne), 30 July (1999)",
+          "value": "Throne Day (accession of King MOHAMMED VI to the throne), 30 July (1999)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1971,8 +1992,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "pentacle symbol, lion; national colors: red, green",
-          "value": "pentacle symbol, lion; national colors: red, green"
+          "content": "pentacle symbol, lion",
+          "value": "pentacle symbol, lion"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, green",
+          "value": "red, green"
         },
         {
           "name": "National anthem",

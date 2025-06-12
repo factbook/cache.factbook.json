@@ -1,9 +1,9 @@
 {
   "name": "Kiribati",
   "code": "KR",
-  "published": "2025-06-05 00:08:57 -0400",
+  "published": "2025-06-11 00:09:49 -0400",
   "region": "Australia and Oceania",
-  "updated": "2025-06-04 14:58:34 -0400",
+  "updated": "2025-06-10 10:55:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -775,14 +775,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "14.8% of GDP (2021)",
-          "value": "14.8",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "14.8% of GDP (2021)<br><br>9.7% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "14.8% of GDP (2021)",
+              "value": "14.8",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "9.7% of national budget (2022 est.)",
+              "value": "9.7",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1004,39 +1018,62 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "12.4% of GDP (2019 est.)",
-          "value": "12.4",
-          "estimated": true,
-          "info_date": "2019",
-          "suffix": "% of GDP"
+          "content": "16.4% of GDP (2023 est.)<br><br>13.5% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "16.4% of GDP (2023 est.)",
+              "value": "16.4",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.5% national budget (2023 est.)",
+              "value": "13.5",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
+          "content": "<strong>total population: </strong>98% (2018 est.) NA<br><br><strong>male: </strong>97.3% (2018 est.) NA<br><br><strong>female: </strong>98.6% (2018 est.) NA",
           "subfields": [
             {
               "name": "total population",
-              "content": "NA",
+              "content": "98% (2018 est.) NA",
               "title": "total population",
+              "value": "98",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%",
               "subfield_note": "NA"
             },
             {
               "name": "male",
-              "content": "NA",
+              "content": "97.3% (2018 est.) NA",
               "title": "male",
+              "value": "97.3",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%",
               "subfield_note": "NA"
             },
             {
               "name": "female",
-              "content": "NA",
+              "content": "98.6% (2018 est.) NA",
               "title": "female",
+              "value": "98.6",
+              "estimated": true,
+              "info_date": "2018",
               "suffix": "%",
               "subfield_note": "NA"
             }
@@ -1333,20 +1370,6 @@
           "value": "3 geographical units: Gilbert Islands, Line Islands, Phoenix Islands; note - there are no first-order administrative divisions, but there are 6 districts (Banaba, Central Gilberts, Line Islands, Northern Gilberts, Southern Gilberts, Tarawa) and 21 island councils - one for each of the inhabited islands (Abaiang, Abemama, Aranuka, Arorae, Banaba, Beru, Butaritari, Kanton, Kiritimati, Kuria, Maiana, Makin, Marakei, Nikunau, Nonouti, Onotoa, Tabiteuea, Tabuaeran, Tamana, Tarawa, Teraina)"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "12 July 1979 (from the UK)",
-          "value": "12 July 1979 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 12 July (1979)",
-          "value": "Independence Day, 12 July (1979)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1556,13 +1579,6 @@
           "value": "Boutokaan Kiribati Moa Party (Supporting Kiribati First) or BKM&nbsp;<br />Tobwaan Kiribati Party (Embracing Kiribati) or TKP&nbsp;"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ABEDA, ACP, ADB, AOSIS, C, FAO, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IOC, ITU, ITUC (NGOs), OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNDP, UNESCO, UPU, WHO, WIPO, WMO",
-          "value": "ABEDA, ACP, ADB, AOSIS, C, FAO, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IOC, ITU, ITUC (NGOs), OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNDP, UNESCO, UPU, WHO, WIPO, WMO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1616,6 +1632,27 @@
           "field_note": "<strong>Note</strong>: &nbsp;the US does not have an embassy in Kiribati but has announced its intention to open an embassy"
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ABEDA, ACP, ADB, AOSIS, C, FAO, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IOC, ITU, ITUC (NGOs), OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNDP, UNESCO, UPU, WHO, WIPO, WMO",
+          "value": "ABEDA, ACP, ADB, AOSIS, C, FAO, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, IOC, ITU, ITUC (NGOs), OPCW, PIF, Sparteca, SPC, UN, UNCTAD, UNDP, UNESCO, UPU, WHO, WIPO, WMO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "12 July 1979 (from the UK)",
+          "value": "12 July 1979 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 12 July (1979)",
+          "value": "Independence Day, 12 July (1979)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1626,8 +1663,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "frigatebird; national colors: red, white, blue, yellow",
-          "value": "frigatebird; national colors: red, white, blue, yellow"
+          "content": "frigatebird",
+          "value": "frigatebird"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white, blue, yellow",
+          "value": "red, white, blue, yellow"
         },
         {
           "name": "National anthem",

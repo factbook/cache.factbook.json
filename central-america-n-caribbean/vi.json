@@ -1,9 +1,9 @@
 {
   "name": "British Virgin Islands",
   "code": "VI",
-  "published": "2025-05-28 00:12:41 -0400",
+  "published": "2025-06-11 00:18:34 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-05-27 17:15:10 -0400",
+  "updated": "2025-06-10 10:55:01 -0400",
   "media": [
     {
       "type": "flag",
@@ -776,14 +776,28 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "2.6% of GDP (2020 est.)",
-          "value": "2.6",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "2.5% of GDP (2022 est.)<br><br>13.6% national budget (2025 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "2.5% of GDP (2022 est.)",
+              "value": "2.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "13.6% national budget (2025 est.)",
+              "value": "13.6",
+              "estimated": true,
+              "info_date": "2025",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
@@ -1076,20 +1090,6 @@
           "value": "none (overseas territory of the UK)"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "none (overseas territory of the UK)",
-          "value": "none (overseas territory of the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Territory Day, 1 July (1956)",
-          "value": "Territory Day, 1 July (1956)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1252,13 +1252,6 @@
           "value": "National Democratic Party or NDP<br />Progressive Virgin Islands Movement or PVIM<br />Progressives United or PU<br />Virgin Islands Party or VIP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACS (associate), Caricom (associate), CDB, Interpol (subbureau), IOC, OECS, UNESCO (associate), UPU",
-          "value": "ACS (associate), Caricom (associate), CDB, Interpol (subbureau), IOC, OECS, UNESCO (associate), UPU"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "content": "none (overseas territory of the UK)"
@@ -1278,6 +1271,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACS (associate), Caricom (associate), CDB, Interpol (subbureau), IOC, OECS, UNESCO (associate), UPU",
+          "value": "ACS (associate), Caricom (associate), CDB, Interpol (subbureau), IOC, OECS, UNESCO (associate), UPU"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "none (overseas territory of the UK)",
+          "value": "none (overseas territory of the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Territory Day, 1 July (1956)",
+          "value": "Territory Day, 1 July (1956)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1288,8 +1302,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "zenaida dove, white cedar flower; national colors: yellow, green, red, white, blue",
-          "value": "zenaida dove, white cedar flower; national colors: yellow, green, red, white, blue"
+          "content": "zenaida dove, white cedar flower",
+          "value": "zenaida dove, white cedar flower"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "yellow, green, red, white, blue",
+          "value": "yellow, green, red, white, blue"
         },
         {
           "name": "National anthem",

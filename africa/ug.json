@@ -1,9 +1,9 @@
 {
   "name": "Uganda",
   "code": "UG",
-  "published": "2025-06-05 00:16:48 -0400",
+  "published": "2025-06-12 00:01:36 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 13:07:47 -0400",
+  "updated": "2025-06-11 13:21:29 -0400",
   "media": [
     {
       "type": "flag",
@@ -822,14 +822,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "4.7% of GDP (2021)",
-          "value": "4.7",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "4.7% of GDP (2021)<br><br>4.9% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "4.7% of GDP (2021)",
+              "value": "4.7",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "4.9% of national budget (2022 est.)",
+              "value": "4.9",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1041,48 +1055,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "2.7% of GDP (2021 est.)",
-          "value": "2.7",
-          "estimated": true,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "2.6% of GDP (2022 est.)<br><br>8.5% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "2.6% of GDP (2022 est.)",
+              "value": "2.6",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "8.5% national budget (2022 est.)",
+              "value": "8.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>79%<br><br><strong>male: </strong>84%<br><br><strong>female: </strong>74.3% (2021)",
+          "content": "<strong>total population: </strong>69.1% (2016 est.)<br><br><strong>male: </strong>78.5% (2016 est.)<br><br><strong>female: </strong>61% (2016 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "79%",
+              "content": "69.1% (2016 est.)",
               "title": "total population",
-              "value": "79",
+              "value": "69.1",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "84%",
+              "content": "78.5% (2016 est.)",
               "title": "male",
-              "value": "84",
+              "value": "78.5",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "74.3% (2021)",
+              "content": "61% (2016 est.)",
               "title": "female",
-              "value": "74.3",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "61",
+              "estimated": true,
+              "info_date": "2016",
               "suffix": "%"
             }
           ]
@@ -1209,21 +1235,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em><em>due to weather extremes, </em></em><em>civil insecurity, and high food prices </em><em>- </em>the latest analysis, conducted in the northeastern agro-pastoral Karamoja region, estimates that about 582,000 million people are facing acute food insecurity between April and August 2023; these conditions reflect the adverse impact of weather shocks, crop and livestock diseases, civil insecurity and high food prices; the significant deterioration of the food security situation during the last 12 months in Karamoja Region is mainly due to protracted insecurity that has caused livelihood losses and consecutive poor local harvests; in 2023, the national average price of maize increased by 20% between January and May 2023, with seasonal patterns compounded by a fast depletion of stocks due to a drought‑reduced production in 2022 (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em><em>due to weather extremes, </em></em><em>civil insecurity, and high food prices </em><em>- </em>the latest analysis, conducted in the northeastern agro-pastoral Karamoja region, estimates that about 582,000 million people are facing acute food insecurity between April and August 2023; these conditions reflect the adverse impact of weather shocks, crop and livestock diseases, civil insecurity and high food prices; the significant deterioration of the food security situation during the last 12 months in Karamoja Region is mainly due to protracted insecurity that has caused livelihood losses and consecutive poor local harvests; in 2023, the national average price of maize increased by 20% between January and May 2023, with seasonal patterns compounded by a fast depletion of stocks due to a drought‑reduced production in 2022 (2023)",
-              "value": "<em><em>due to weather extremes, </em></em><em>civil insecurity, and high food prices </em><em>- </em>the latest analysis, conducted in the northeastern agro-pastoral Karamoja region, estimates that about 582,000 million people are facing acute food insecurity between April and August 2023; these conditions reflect the adverse impact of weather shocks, crop and livestock diseases, civil insecurity and high food prices; the significant deterioration of the food security situation during the last 12 months in Karamoja Region is mainly due to protracted insecurity that has caused livelihood losses and consecutive poor local harvests; in 2023, the national average price of maize increased by 20% between January and May 2023, with seasonal patterns compounded by a fast depletion of stocks due to a drought‑reduced production in 2022",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1445,20 +1456,6 @@
           "value": "134 districts and 1 capital city*; Abim, Adjumani, Agago, Alebtong, Amolatar, Amudat, Amuria, Amuru, Apac, Arua, Budaka, Bududa, Bugiri, Bugweri, Buhweju, Buikwe, Bukedea, Bukomansimbi, Bukwo, Bulambuli, Buliisa, Bundibugyo, Bunyangabu, Bushenyi, Busia, Butaleja, Butambala, Butebo, Buvuma, Buyende, Dokolo, Gomba, Gulu, Hoima, Ibanda, Iganga, Isingiro, Jinja, Kaabong, Kabale, Kabarole, Kaberamaido, Kagadi, Kakumiro, Kalaki, Kalangala, Kaliro, Kalungu, Kampala*, Kamuli, Kamwenge, Kanungu, Kapchorwa, Kapelebyong, Karenga, Kasese, Kasanda, Katakwi, Kayunga, Kazo, Kibaale, Kiboga, Kibuku, Kikuube, Kiruhura, Kiryandongo, Kisoro, Kitagwenda, Kitgum, Koboko, Kole, Kotido, Kumi, Kwania, Kween, Kyankwanzi, Kyegegwa, Kyenjojo, Kyotera, Lamwo, Lira, Luuka, Luwero, Lwengo, Lyantonde, Madi-Okollo, Manafwa, Maracha, Masaka, Masindi, Mayuge, Mbale, Mbarara, Mitooma, Mityana, Moroto, Moyo, Mpigi, Mubende, Mukono, Nabilatuk, Nakapiripirit, Nakaseke, Nakasongola, Namayingo, Namisindwa, Namutumba, Napak, Nebbi, Ngora, Ntoroko, Ntungamo, Nwoya, Obongi, Omoro, Otuke, Oyam, Pader, Pakwach, Pallisa, Rakai, Rubanda, Rubirizi, Rukiga, Rukungiri, Rwampara, Sembabule, Serere, Sheema, Sironko, Soroti, Tororo, Wakiso, Yumbe, Zombo"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "9 October 1962 (from the UK)",
-          "value": "9 October 1962 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 9 October (1962)",
-          "value": "Independence Day, 9 October (1962)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1673,13 +1670,6 @@
           "value": "Democratic Party or DP<br />Forum for Democratic Change or FDC<br />Justice Forum or JEEMA<br />National Resistance Movement or NRM<br />National Unity Platform<br />People's Progressive Party or PPP<br />Uganda People's Congress or UPC"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, ATMIS, AU, C, COMESA, EAC, EADB, FAO, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITC, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, PCA, UN, UNCDF, UNCTAD, UNECA, UNDP, UNFPA, UNESCO, UNHCR, UNICEF, UNIDO, UNISFA, UNOCI, UNOPS, UNSOM, UNWTO, UPU, WCO, WFP, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, ATMIS, AU, C, COMESA, EAC, EADB, FAO, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITC, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, PCA, UN, UNCDF, UNCTAD, UNECA, UNDP, UNFPA, UNESCO, UNHCR, UNICEF, UNIDO, UNISFA, UNOCI, UNOPS, UNSOM, UNWTO, UPU, WCO, WFP, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1762,6 +1752,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, ATMIS, AU, C, COMESA, EAC, EADB, FAO, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITC, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, PCA, UN, UNCDF, UNCTAD, UNECA, UNDP, UNFPA, UNESCO, UNHCR, UNICEF, UNIDO, UNISFA, UNOCI, UNOPS, UNSOM, UNWTO, UPU, WCO, WFP, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, ATMIS, AU, C, COMESA, EAC, EADB, FAO, G-77, IAEA, IBRD, ICAO, ICC (national committees), ICCt, IDA, IDB, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITC, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OIC, OPCW, PCA, UN, UNCDF, UNCTAD, UNECA, UNDP, UNFPA, UNESCO, UNHCR, UNICEF, UNIDO, UNISFA, UNOCI, UNOPS, UNSOM, UNWTO, UPU, WCO, WFP, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "9 October 1962 (from the UK)",
+          "value": "9 October 1962 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 9 October (1962)",
+          "value": "Independence Day, 9 October (1962)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1772,8 +1783,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "grey crowned crane; national colors: black, yellow, red",
-          "value": "grey crowned crane; national colors: black, yellow, red"
+          "content": "grey crowned crane",
+          "value": "grey crowned crane"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "black, yellow, red",
+          "value": "black, yellow, red"
         },
         {
           "name": "National anthem",
@@ -3062,8 +3080,8 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "approximately 45-50,000 active Defense Forces&nbsp; (2025)",
-          "value": "approximately 45-50,000 active Defense Forces&nbsp;",
+          "content": "approximately 45,000 active Defense Forces (2025)",
+          "value": "approximately 45,000 active Defense Forces",
           "info_date": "2025"
         },
         {

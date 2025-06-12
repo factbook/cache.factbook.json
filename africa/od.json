@@ -1,9 +1,9 @@
 {
   "name": "South Sudan",
   "code": "OD",
-  "published": "2025-06-05 00:12:56 -0400",
+  "published": "2025-06-12 00:00:50 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-11 12:06:50 -0400",
   "media": [
     {
       "type": "flag",
@@ -766,14 +766,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "5.9% of GDP (2021)",
-          "value": "5.9",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "5.9% of GDP (2021)<br><br>2.1% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "5.9% of GDP (2021)",
+              "value": "5.9",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "2.1% of national budget (2022 est.)",
+              "value": "2.1",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -852,27 +866,35 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "1.5% of GDP (2016 est.)",
-          "value": "1.5",
-          "estimated": true,
-          "info_date": "2016",
-          "suffix": "% of GDP"
+          "content": "1.6% of GDP (2016 est.)<br><br>8.1% national budget (2023 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "1.6% of GDP (2016 est.)",
+              "value": "1.6",
+              "estimated": true,
+              "info_date": "2016",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "8.1% national budget (2023 est.)",
+              "value": "8.1",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>34.5%<br><br><strong>male: </strong>40.3%<br><br><strong>female: </strong>28.9% (2018)",
+          "content": "<strong>total population: </strong>34.5%<br><br><strong>male: </strong>40.3%<br><br><strong>female: </strong>28.9% (2018)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "34.5%",
@@ -1020,21 +1042,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>widespread lack of access: </strong><em>due to economic downturn, the lingering effects of floods, and prolonged internal conflict -</em> despite sustained humanitarian assistance, food insecurity still affects large segments of the population, owing to rampant inflation and insufficient food supplies due to stagnant agricultural production, the effects of consecutive years with widespread floods, and the escalation of organized violence at the sub-national level since 2020; about 7.76 million people, almost two thirds of the total population, are expected to face severe acute food insecurity in the lean season between April and July 2023; the high levels of cereal prices are mainly due to insufficient supplies, low foreign currency reserves, a weak national currency and high fuel prices; further upward pressure was exerted by reduced imports from neighboring Uganda, where exportable surpluses shrunk in 2022 following a reduced cereal production (2023)",
-          "subfields": [
-            {
-              "name": "widespread lack of access",
-              "content": "<em>due to economic downturn, the lingering effects of floods, and prolonged internal conflict -</em> despite sustained humanitarian assistance, food insecurity still affects large segments of the population, owing to rampant inflation and insufficient food supplies due to stagnant agricultural production, the effects of consecutive years with widespread floods, and the escalation of organized violence at the sub-national level since 2020; about 7.76 million people, almost two thirds of the total population, are expected to face severe acute food insecurity in the lean season between April and July 2023; the high levels of cereal prices are mainly due to insufficient supplies, low foreign currency reserves, a weak national currency and high fuel prices; further upward pressure was exerted by reduced imports from neighboring Uganda, where exportable surpluses shrunk in 2022 following a reduced cereal production (2023)",
-              "value": "<em>due to economic downturn, the lingering effects of floods, and prolonged internal conflict -</em> despite sustained humanitarian assistance, food insecurity still affects large segments of the population, owing to rampant inflation and insufficient food supplies due to stagnant agricultural production, the effects of consecutive years with widespread floods, and the escalation of organized violence at the sub-national level since 2020; about 7.76 million people, almost two thirds of the total population, are expected to face severe acute food insecurity in the lean season between April and July 2023; the high levels of cereal prices are mainly due to insufficient supplies, low foreign currency reserves, a weak national currency and high fuel prices; further upward pressure was exerted by reduced imports from neighboring Uganda, where exportable surpluses shrunk in 2022 following a reduced cereal production",
-              "title": "widespread lack of access",
-              "info_date": "2023"
             }
           ]
         },
@@ -1222,20 +1229,6 @@
           "comparative": false,
           "content": "10 states; Central Equatoria, Eastern Equatoria, Jonglei, Lakes, Northern Bahr el Ghazal, Unity, Upper Nile, Warrap, Western Bahr el Ghazal, Western Equatoria; note - in 2015, the creation of 28 new states was announced and in 2017 four additional states; following the February 2020 peace agreement, the country was again reorganized into the 10 original states, plus 2 administrative areas, Pibor and Ruweng, and 1 special administrative status area, Abyei (which is disputed between South Sudan and Sudan); this latest administrative revision has not yet been vetted by the US Board on Geographic Names",
           "value": "10 states; Central Equatoria, Eastern Equatoria, Jonglei, Lakes, Northern Bahr el Ghazal, Unity, Upper Nile, Warrap, Western Bahr el Ghazal, Western Equatoria; note - in 2015, the creation of 28 new states was announced and in 2017 four additional states; following the February 2020 peace agreement, the country was again reorganized into the 10 original states, plus 2 administrative areas, Pibor and Ruweng, and 1 special administrative status area, Abyei (which is disputed between South Sudan and Sudan); this latest administrative revision has not yet been vetted by the US Board on Geographic Names"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "9 July 2011 (from Sudan)",
-          "value": "9 July 2011 (from Sudan)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 9 July (2011)",
-          "value": "Independence Day, 9 July (2011)"
         },
         {
           "name": "Constitution",
@@ -1480,13 +1473,6 @@
           "value": "<p>Democratic Change or DC<br />Democratic Forum or DF<br />Labour Party or LPSS<br />South Sudan Opposition Alliance or SSOA<br />Sudan African National Union or SANU<br />Sudan People's Liberation Movement or SPLM<br />Sudan People&rsquo;s Liberation Movement-In Opposition or SPLM-IO<br />United Democratic Salvation Front or UDSF&nbsp;&nbsp;&nbsp;&nbsp;<br />United South Sudan African Party or USSAP<br />United South Sudan Party or USSP</p>"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "AU, EAC, FAO, G-77, IBRD, ICAO, IDA, IFAD, IFC, IFRCS, IGAD, ILO, IMF, Interpol, IOM, IPU, ITU, MIGA, UN, UNCTAD, UNESCO, UPU, WCO, WHO, WMO",
-          "value": "AU, EAC, FAO, G-77, IBRD, ICAO, IDA, IFAD, IFC, IFRCS, IGAD, ILO, IMF, Interpol, IOM, IPU, ITU, MIGA, UN, UNCTAD, UNESCO, UPU, WCO, WHO, WMO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1563,6 +1549,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "AU, EAC, FAO, G-77, IBRD, ICAO, IDA, IFAD, IFC, IFRCS, IGAD, ILO, IMF, Interpol, IOM, IPU, ITU, MIGA, UN, UNCTAD, UNESCO, UPU, WCO, WHO, WMO",
+          "value": "AU, EAC, FAO, G-77, IBRD, ICAO, IDA, IFAD, IFC, IFRCS, IGAD, ILO, IMF, Interpol, IOM, IPU, ITU, MIGA, UN, UNCTAD, UNESCO, UPU, WCO, WHO, WMO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "9 July 2011 (from Sudan)",
+          "value": "9 July 2011 (from Sudan)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 9 July (2011)",
+          "value": "Independence Day, 9 July (2011)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1574,8 +1581,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "African fish eagle; national colors: red, green, blue, yellow, black, white",
-          "value": "African fish eagle; national colors: red, green, blue, yellow, black, white"
+          "content": "African fish eagle",
+          "value": "African fish eagle"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, green, blue, yellow, black, white",
+          "value": "red, green, blue, yellow, black, white"
         },
         {
           "name": "National anthem",
@@ -2614,8 +2628,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "2% of GDP (2023 est.)<br><br>2% of GDP (2022 est.)<br><br>2% of GDP (2021 est.)<br><br>2% of GDP (2020 est.)<br><br>3.1% of GDP (2019 est.)",
+          "content": "2% of GDP (2024 est.)<br><br>2% of GDP (2023 est.)<br><br>2% of GDP (2022 est.)<br><br>2% of GDP (2021 est.)<br><br>2% of GDP (2020 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2024",
+              "content": "2% of GDP (2024 est.)",
+              "value": "2",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2023",
               "content": "2% of GDP (2023 est.)",
@@ -2641,13 +2662,6 @@
               "name": "Military Expenditures 2020",
               "content": "2% of GDP (2020 est.)",
               "value": "2",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "3.1% of GDP (2019 est.)",
-              "value": "3.1",
               "estimated": true,
               "suffix": "% of GDP"
             }

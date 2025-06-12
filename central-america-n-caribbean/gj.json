@@ -1,9 +1,9 @@
 {
   "name": "Grenada",
   "code": "GJ",
-  "published": "2025-06-05 00:06:38 -0400",
+  "published": "2025-06-11 00:06:54 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-06-04 14:58:33 -0400",
+  "updated": "2025-06-10 10:55:01 -0400",
   "media": [
     {
       "type": "flag",
@@ -741,14 +741,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "5.7% of GDP (2021)",
-          "value": "5.7",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "5.7% of GDP (2021)<br><br>6.3% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "5.7% of GDP (2021)",
+              "value": "5.7",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "6.3% of national budget (2022 est.)",
+              "value": "6.3",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -892,27 +906,35 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.6% of GDP (2018 est.)",
-          "value": "3.6",
-          "estimated": true,
-          "info_date": "2018",
-          "suffix": "% of GDP"
+          "content": "5.1% of GDP (2023 est.)<br><br>14.5% national budget (2024 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "5.1% of GDP (2023 est.)",
+              "value": "5.1",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "14.5% national budget (2024 est.)",
+              "value": "14.5",
+              "estimated": true,
+              "info_date": "2024",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>98.6%<br><br><strong>male: </strong>98.6%<br><br><strong>female: </strong>98.6% (2014 est.)",
+          "content": "<strong>total population: </strong>98.6%<br><br><strong>male: </strong>98.6%<br><br><strong>female: </strong>98.6% (2014 est.)",
           "subfields": [
-            {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
             {
               "name": "total population",
               "content": "98.6%",
@@ -1270,20 +1292,6 @@
           "value": "6 parishes and 1 dependency*; Carriacou and Petite Martinique*, Saint Andrew, Saint David, Saint George, Saint John, Saint Mark, Saint Patrick"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "7 February 1974 (from the UK)",
-          "value": "7 February 1974 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 7 February (1974)",
-          "value": "Independence Day, 7 February (1974)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1559,13 +1567,6 @@
           "value": "National Democratic Congress or NDC<br />New National Party or NNP"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, ACS, AOSIS, CARIFORUM, CARIBCAN, Caricom, CBI, CDB, CELAC, CSME, ECCU, EPA, FAO, G-77, IBRD, ICAO, ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, ITU, ITUC, LAES, MIGA, NAM, OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO, WTO",
-          "value": "ACP, ACS, AOSIS, CARIFORUM, CARIBCAN, Caricom, CBI, CDB, CELAC, CSME, ECCU, EPA, FAO, G-77, IBRD, ICAO, ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, ITU, ITUC, LAES, MIGA, NAM, OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1654,6 +1655,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, ACS, AOSIS, CARIFORUM, CARIBCAN, Caricom, CBI, CDB, CELAC, CSME, ECCU, EPA, FAO, G-77, IBRD, ICAO, ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, ITU, ITUC, LAES, MIGA, NAM, OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO, WTO",
+          "value": "ACP, ACS, AOSIS, CARIFORUM, CARIBCAN, Caricom, CBI, CDB, CELAC, CSME, ECCU, EPA, FAO, G-77, IBRD, ICAO, ICCt (signatory), ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, ITU, ITUC, LAES, MIGA, NAM, OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "7 February 1974 (from the UK)",
+          "value": "7 February 1974 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 7 February (1974)",
+          "value": "Independence Day, 7 February (1974)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1664,8 +1686,31 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Grenada dove, bougainvillea flower; national colors: red, yellow, green",
-          "value": "Grenada dove, bougainvillea flower; national colors: red, yellow, green"
+          "content": "Grenada dove, bougainvillea flower",
+          "value": "Grenada dove, bougainvillea flower"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, yellow, green",
+          "value": "red, yellow, green"
+        },
+        {
+          "name": "National coat of arms",
+          "field_id": 468,
+          "comparative": false,
+          "content": "<p>Grenada&rsquo;s coat of arms shows Grand Etang Lake, a crater lake on the volcano that formed Grenada. In the center of the shield is Christopher Columbus&rsquo;s ship, the <em>Santa Maria</em>, which landed on the island in 1498. The gold cross dividing the shield, the two Madonna lilies, and the national motto signal the importance of religion. Two lions symbolize past UK rule (1762-1974), as well as Grenada&rsquo;s current status as a Commonwealth country. The corn stalk and banana plant represent agriculture. The armadillo and Grenada dove next to the shield are native to the island, and the roses in the bougainvillea flower garland represent Grenada&rsquo;s seven communities.&nbsp;</p>",
+          "value": "<p>Grenada&rsquo;s coat of arms shows Grand Etang Lake, a crater lake on the volcano that formed Grenada. In the center of the shield is Christopher Columbus&rsquo;s ship, the <em>Santa Maria</em>, which landed on the island in 1498. The gold cross dividing the shield, the two Madonna lilies, and the national motto signal the importance of religion. Two lions symbolize past UK rule (1762-1974), as well as Grenada&rsquo;s current status as a Commonwealth country. The corn stalk and banana plant represent agriculture. The armadillo and Grenada dove next to the shield are native to the island, and the roses in the bougainvillea flower garland represent Grenada&rsquo;s seven communities.&nbsp;</p>",
+          "media": [
+            {
+              "type": "image",
+              "src": "/attachments/images/original/Coat_of_arms_of_Grenada.jpg",
+              "alt": "Grenada’s coat of arms shows Grand Etang Lake, a crater lake on the volcano that formed Grenada. In the center of the shield is Christopher Columbus’s ship, the Santa Maria, which landed on the island in 1498. The gold cross dividing the shield, the two Madonna lilies, and the national motto signal the importance of religion. Two lions symbolize past UK rule (1762-1974), as well as Grenada’s current status as a Commonwealth country. The corn stalk and banana plant represent agriculture. The armadillo and Grenada dove next to the shield are native to the island, and the roses in the bougainvillea flower garland represent Grenada’s seven communities.",
+              "caption": "Grenada’s coat of arms shows Grand Etang Lake, a crater lake on the volcano that formed Grenada. In the center of the shield is Christopher Columbus’s ship, the Santa Maria, which landed on the island in 1498. The gold cross dividing the shield, the two Madonna lilies, and the national motto signal the importance of religion. Two lions symbolize past UK rule (1762-1974), as well as Grenada’s current status as a Commonwealth country. The corn stalk and banana plant represent agriculture. The armadillo and Grenada dove next to the shield are native to the island, and the roses in the bougainvillea flower garland represent Grenada’s seven communities.",
+              "position": 0
+            }
+          ]
         },
         {
           "name": "National anthem",

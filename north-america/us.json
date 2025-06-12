@@ -1,9 +1,9 @@
 {
   "name": "United States",
   "code": "US",
-  "published": "2025-06-05 00:17:05 -0400",
+  "published": "2025-06-11 00:17:59 -0400",
   "region": "North America",
-  "updated": "2025-06-04 13:05:27 -0400",
+  "updated": "2025-06-10 10:55:02 -0400",
   "media": [
     {
       "type": "flag",
@@ -1553,14 +1553,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "16.6% of GDP (2022)",
-          "value": "16.6",
-          "estimated": false,
-          "info_date": "2022",
-          "suffix": "% of GDP"
+          "content": "16.6% of GDP (2022)<br><br>24.7% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "16.6% of GDP (2022)",
+              "value": "16.6",
+              "estimated": false,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "24.7% of national budget (2022 est.)",
+              "value": "24.7",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1747,14 +1761,28 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "6.1% of GDP (2020 est.)",
-          "value": "6.1",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "5.4% of GDP (2022 est.)<br><br>14% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "5.4% of GDP (2022 est.)",
+              "value": "5.4",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "14% national budget (2022 est.)",
+              "value": "14",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
@@ -2197,20 +2225,6 @@
           "field_note": "<strong>note:</strong> from 18 July 1947 until 1 October 1994, the US administered the Trust Territory of the Pacific Islands; it entered into a political relationship with all four political entities: the Northern Mariana Islands is a commonwealth in political union with the US (effective 3 November 1986); the Republic of the Marshall Islands signed a Compact of Free Association with the US (effective 21 October 1986); the Federated States of Micronesia signed a Compact of Free Association with the US (effective 3 November 1986); Palau concluded a Compact of Free Association with the US (effective 1 October 1994)"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "4 July 1776 (declared independence from Great Britain); 3 September 1783 (recognized by Great Britain)",
-          "value": "4 July 1776 (declared independence from Great Britain); 3 September 1783 (recognized by Great Britain)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 4 July (1776)",
-          "value": "Independence Day, 4 July (1776)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -2513,6 +2527,20 @@
           "value": "ADB (nonregional member), AfDB (nonregional member), ANZUS, APEC, Arctic Council, ARF, ASEAN (dialogue partner), Australia Group, BIS, BSEC (observer), CBSS (observer), CD, CE (observer), CERN (observer), CICA (observer), CP, EAPC, EAS, EBRD, EITI (implementing country), FAO, FATF, G-5, G-7, G-8, G-10, G-20, IADB, IAEA, IBRD, ICAO, ICC (national committees), ICRM, IDA, IEA, IFAD, IFC, IFRCS, IGAD (partners), IHO, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSTAH, MONUSCO, NAFTA, NATO, NEA, NSG, OAS, OECD, OPCW, OSCE, Pacific Alliance (observer), Paris Club, PCA, PIF (partner), Quad, SAARC (observer), SELEC (observer), SICA (observer), SPC, UN, UNCTAD, UNESCO, UNHCR, UNHRC, UNITAR, UNMIL, UNMISS, UNOOSA, UNRWA, UN Security Council (permanent), UNTSO, UPU, USMCA, Wassenaar Arrangement, WCO, WHO, WIPO, WMO, WTO, ZC"
         },
         {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "4 July 1776 (declared independence from Great Britain); 3 September 1783 (recognized by Great Britain)",
+          "value": "4 July 1776 (declared independence from Great Britain); 3 September 1783 (recognized by Great Britain)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 4 July (1776)",
+          "value": "Independence Day, 4 July (1776)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -2524,8 +2552,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "bald eagle; national colors: red, white, blue",
-          "value": "bald eagle; national colors: red, white, blue"
+          "content": "bald eagle",
+          "value": "bald eagle"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "red, white, blue",
+          "value": "red, white, blue"
         },
         {
           "name": "National anthem",

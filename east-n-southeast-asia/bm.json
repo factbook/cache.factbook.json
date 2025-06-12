@@ -1,9 +1,9 @@
 {
   "name": "Burma",
   "code": "BM",
-  "published": "2025-06-05 00:02:19 -0400",
+  "published": "2025-06-11 00:02:14 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-06-04 14:58:32 -0400",
+  "updated": "2025-06-10 10:54:55 -0400",
   "media": [
     {
       "type": "flag",
@@ -884,14 +884,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "5.6% of GDP (2021)",
-          "value": "5.6",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "5.6% of GDP (2021)<br><br>2.5% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "5.6% of GDP (2021)",
+              "value": "5.6",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "2.5% of national budget (2022 est.)",
+              "value": "2.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1113,47 +1127,59 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "2.1% of GDP (2019 est.)",
-          "value": "2.1",
-          "estimated": true,
-          "info_date": "2019",
-          "suffix": "% of GDP"
+          "content": "2% of GDP (2019 est.)<br><br>9.8% national budget (2019 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "2% of GDP (2019 est.)",
+              "value": "2",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "9.8% national budget (2019 est.)",
+              "value": "9.8",
+              "estimated": true,
+              "info_date": "2019",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>age 15 and over can read and write<br><br><strong>total population: </strong>89.1%<br><br><strong>male: </strong>92.4%<br><br><strong>female: </strong>86.3% (2019)<br><br><strong>note: </strong>most public schools were closed immediately after the coup in 2021, and attendance has remained low since schools reopened; literacy is expected to decline from 2019 to 2023",
+          "content": "<strong>total population: </strong>89% (2019 est.)<br><br><strong>male: </strong>92% (2019 est.)<br><br><strong>female: </strong>86% (2019 est.)<br><br><strong>note: </strong>most public schools were closed immediately after the coup in 2021, and attendance has remained low since schools reopened; literacy is expected to decline from 2019 to 2023",
           "subfields": [
             {
-              "name": "definition",
-              "content": "age 15 and over can read and write",
-              "value": "age 15 and over can read and write",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "89.1%",
+              "content": "89% (2019 est.)",
               "title": "total population",
-              "value": "89.1",
+              "value": "89",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "92.4%",
+              "content": "92% (2019 est.)",
               "title": "male",
-              "value": "92.4",
+              "value": "92",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "86.3% (2019)",
+              "content": "86% (2019 est.)",
               "title": "female",
-              "value": "86.3",
-              "estimated": false,
+              "value": "86",
+              "estimated": true,
               "info_date": "2019",
               "suffix": "%"
             }
@@ -1313,21 +1339,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>severe localized food insecurity: </strong><em>due to conflict, political instability, and economic constraints -</em> the protracted political crisis is compromising the fragile conditions of vulnerable households; domestic prices of &ldquo;Emata&rdquo; rice, the most consumed variety in the country, were at record levels as of May 2023, constraining access to a key staple food (2023)",
-          "subfields": [
-            {
-              "name": "severe localized food insecurity",
-              "content": "<em>due to conflict, political instability, and economic constraints -</em> the protracted political crisis is compromising the fragile conditions of vulnerable households; domestic prices of &ldquo;Emata&rdquo; rice, the most consumed variety in the country, were at record levels as of May 2023, constraining access to a key staple food (2023)",
-              "value": "<em>due to conflict, political instability, and economic constraints -</em> the protracted political crisis is compromising the fragile conditions of vulnerable households; domestic prices of &ldquo;Emata&rdquo; rice, the most consumed variety in the country, were at record levels as of May 2023, constraining access to a key staple food",
-              "title": "severe localized food insecurity",
-              "info_date": "2023"
             }
           ]
         },
@@ -1536,20 +1547,6 @@
           "value": "<p>7 regions (taing-myar, singular - taing), 7 states (pyi ne-myar, singular - pyi ne), 1 union territory</p> <p><strong>regions:</strong> Ayeyarwady (Irrawaddy), Bago, Magway, Mandalay, Sagaing, Tanintharyi, Yangon (Rangoon)</p> <p><strong>states:</strong> Chin, Kachin, Kayah, Karen, Mon, Rakhine, Shan</p> <p><strong>union territory:</strong> Nay Pyi Taw</p>"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "4 January 1948 (from the UK)",
-          "value": "4 January 1948 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 4 January (1948); Union Day, 12 February (1947)",
-          "value": "Independence Day, 4 January (1948); Union Day, 12 February (1947)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1724,13 +1721,6 @@
           "field_note": "<strong>note</strong>: more than 90 political parties participated in the 2020 elections; political parties continued to function after the 2021 coup, although some political leaders have been arrested by the military regime; in 2023, the regime announced a new law with several rules and restrictions on political parties and their ability to participate in elections; dozens of parties refused to comply with the new rules; the regime's election commission has subsequently banned more than 80 political parties, including the National League for Democracy<strong><br /><br /></strong>"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ADB, ARF, ASEAN, BIMSTEC, CP, EAS, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), NAM, OPCW (signatory), SAARC (observer), UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
-          "value": "ADB, ARF, ASEAN, BIMSTEC, CP, EAS, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), NAM, OPCW (signatory), SAARC (observer), UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1819,6 +1809,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ADB, ARF, ASEAN, BIMSTEC, CP, EAS, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), NAM, OPCW (signatory), SAARC (observer), UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO",
+          "value": "ADB, ARF, ASEAN, BIMSTEC, CP, EAS, EITI (candidate country), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, IHO, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO (correspondent), ITU, ITUC (NGOs), NAM, OPCW (signatory), SAARC (observer), UN, UNCTAD, UNESCO, UNIDO, UNWTO, UPU, WCO, WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "4 January 1948 (from the UK)",
+          "value": "4 January 1948 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 4 January (1948); Union Day, 12 February (1947)",
+          "value": "Independence Day, 4 January (1948); Union Day, 12 February (1947)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1829,8 +1840,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "chinthe (mythical lion); national colors: yellow, green, red, white",
-          "value": "chinthe (mythical lion); national colors: yellow, green, red, white"
+          "content": "chinthe (mythical lion)",
+          "value": "chinthe (mythical lion)"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "yellow, green, red, white",
+          "value": "yellow, green, red, white"
         },
         {
           "name": "National anthem",

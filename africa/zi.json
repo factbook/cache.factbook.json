@@ -1,9 +1,9 @@
 {
   "name": "Zimbabwe",
   "code": "ZI",
-  "published": "2025-06-05 00:18:31 -0400",
+  "published": "2025-06-12 00:01:50 -0400",
   "region": "Africa",
-  "updated": "2025-06-04 13:30:30 -0400",
+  "updated": "2025-06-11 13:52:19 -0400",
   "media": [
     {
       "type": "flag",
@@ -806,14 +806,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "2.8% of GDP (2021)",
-          "value": "2.8",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "2.8% of GDP (2021)<br><br>5.2% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "2.8% of GDP (2021)",
+              "value": "2.8",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "5.2% of national budget (2022 est.)",
+              "value": "5.2",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -1025,48 +1039,60 @@
           ]
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.9% of GDP (2018 est.)",
-          "value": "3.9",
-          "estimated": true,
-          "info_date": "2018",
-          "suffix": "% of GDP"
+          "content": "0.4% of GDP (2023 est.)<br><br>17.9% national budget (2025 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "0.4% of GDP (2023 est.)",
+              "value": "0.4",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "17.9% national budget (2025 est.)",
+              "value": "17.9",
+              "estimated": true,
+              "info_date": "2025",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>definition: </strong>any person age 15 and above who completed at least grade 3 of primary education<br><br><strong>total population: </strong>89.7%<br><br><strong>male: </strong>88.3%<br><br><strong>female: </strong>90.9% (2021)",
+          "content": "<strong>total population: </strong>93.2% (2019 est.)<br><br><strong>male: </strong>93.1% (2019 est.)<br><br><strong>female: </strong>93.4% (2019 est.)",
           "subfields": [
             {
-              "name": "definition",
-              "content": "any person age 15 and above who completed at least grade 3 of primary education",
-              "value": "any person age 15 and above who completed at least grade 3 of primary education",
-              "title": "definition"
-            },
-            {
               "name": "total population",
-              "content": "89.7%",
+              "content": "93.2% (2019 est.)",
               "title": "total population",
-              "value": "89.7",
+              "value": "93.2",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "88.3%",
+              "content": "93.1% (2019 est.)",
               "title": "male",
-              "value": "88.3",
+              "value": "93.1",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "90.9% (2021)",
+              "content": "93.4% (2019 est.)",
               "title": "female",
-              "value": "90.9",
-              "estimated": false,
-              "info_date": "2021",
+              "value": "93.4",
+              "estimated": true,
+              "info_date": "2019",
               "suffix": "%"
             }
           ]
@@ -1224,21 +1250,6 @@
               "estimated": true,
               "info_date": "2020-25",
               "suffix": "% annual rate of change"
-            }
-          ]
-        },
-        {
-          "name": "Food insecurity",
-          "field_id": 418,
-          "comparative": false,
-          "content": "<strong>widespread lack of access: </strong><em><em>due to high food prices</em></em><em> </em><em>-</em> based on a government assessment, an estimated 3.8 million people are expected to be in need of humanitarian assistance between January and March 2023; this number is higher than the level estimated in the first quarter of 2022; the downturn in food security conditions is largely on account of poor food access resulting from prevailing high food prices and reduced incomes owing to the effects of an economic downturn; a decline in cereal production in 2022 has also aggravated conditions (2023)",
-          "subfields": [
-            {
-              "name": "widespread lack of access",
-              "content": "<em><em>due to high food prices</em></em><em> </em><em>-</em> based on a government assessment, an estimated 3.8 million people are expected to be in need of humanitarian assistance between January and March 2023; this number is higher than the level estimated in the first quarter of 2022; the downturn in food security conditions is largely on account of poor food access resulting from prevailing high food prices and reduced incomes owing to the effects of an economic downturn; a decline in cereal production in 2022 has also aggravated conditions (2023)",
-              "value": "<em><em>due to high food prices</em></em><em> </em><em>-</em> based on a government assessment, an estimated 3.8 million people are expected to be in need of humanitarian assistance between January and March 2023; this number is higher than the level estimated in the first quarter of 2022; the downturn in food security conditions is largely on account of poor food access resulting from prevailing high food prices and reduced incomes owing to the effects of an economic downturn; a decline in cereal production in 2022 has also aggravated conditions",
-              "title": "widespread lack of access",
-              "info_date": "2023"
             }
           ]
         },
@@ -1455,20 +1466,6 @@
           "comparative": false,
           "content": "8 provinces and 2 cities* with provincial status; Bulawayo*, Harare*, Manicaland, Mashonaland Central, Mashonaland East, Mashonaland West, Masvingo, Matabeleland North, Matabeleland South, Midlands",
           "value": "8 provinces and 2 cities* with provincial status; Bulawayo*, Harare*, Manicaland, Mashonaland Central, Mashonaland East, Mashonaland West, Masvingo, Matabeleland North, Matabeleland South, Midlands"
-        },
-        {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "18 April 1980 (from the UK)",
-          "value": "18 April 1980 (from the UK)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Independence Day, 18 April (1980)",
-          "value": "Independence Day, 18 April (1980)"
         },
         {
           "name": "Legal system",
@@ -1765,13 +1762,6 @@
           "value": "Citizens Coalition for Change&nbsp;<br />Movement for Democratic Change or MDC-T&nbsp;<br />National People's Congress or NPC&nbsp;<br />Zimbabwe African National Union-Patriotic Front or ZANU-PF&nbsp;<br />Zimbabwe African Peoples Union or ZAPU"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "ACP, AfDB, ATMIS, AU, COMESA, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OPCW, PCA, SADC, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNSOM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
-          "value": "ACP, AfDB, ATMIS, AU, COMESA, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OPCW, PCA, SADC, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNSOM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1854,6 +1844,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "ACP, AfDB, ATMIS, AU, COMESA, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OPCW, PCA, SADC, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNSOM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO",
+          "value": "ACP, AfDB, ATMIS, AU, COMESA, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, NAM, OPCW, PCA, SADC, UN, UNAMID, UNCTAD, UNESCO, UNIDO, UNISFA, UNMIL, UNMISS, UNOCI, UNSOM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "18 April 1980 (from the UK)",
+          "value": "18 April 1980 (from the UK)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Independence Day, 18 April (1980)",
+          "value": "Independence Day, 18 April (1980)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1864,8 +1875,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "Zimbabwe bird symbol, African fish eagle, flame lily; national colors: green, yellow, red, black, white",
-          "value": "Zimbabwe bird symbol, African fish eagle, flame lily; national colors: green, yellow, red, black, white"
+          "content": "Zimbabwe bird symbol, African fish eagle, flame lily",
+          "value": "Zimbabwe bird symbol, African fish eagle, flame lily"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "green, yellow, red, black, white",
+          "value": "green, yellow, red, black, white"
         },
         {
           "name": "National anthem",
@@ -3053,8 +3071,15 @@
           "name": "Military expenditures",
           "field_id": 330,
           "comparative": false,
-          "content": "0.3% of GDP (2023 est.)<br><br>0.5% of GDP (2022 est.)<br><br>0.8% of GDP (2021 est.)<br><br>0.5% of GDP (2020 est.)<br><br>2.6% of GDP (2019 est.)",
+          "content": "0.4% of GDP (2024 est.)<br><br>0.3% of GDP (2023 est.)<br><br>0.9% of GDP (2022 est.)<br><br>1.4% of GDP (2021 est.)<br><br>1% of GDP (2020 est.)",
           "subfields": [
+            {
+              "name": "Military Expenditures 2024",
+              "content": "0.4% of GDP (2024 est.)",
+              "value": "0.4",
+              "estimated": true,
+              "suffix": "% of GDP"
+            },
             {
               "name": "Military Expenditures 2023",
               "content": "0.3% of GDP (2023 est.)",
@@ -3064,29 +3089,22 @@
             },
             {
               "name": "Military Expenditures 2022",
-              "content": "0.5% of GDP (2022 est.)",
-              "value": "0.5",
+              "content": "0.9% of GDP (2022 est.)",
+              "value": "0.9",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2021",
-              "content": "0.8% of GDP (2021 est.)",
-              "value": "0.8",
+              "content": "1.4% of GDP (2021 est.)",
+              "value": "1.4",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Military Expenditures 2020",
-              "content": "0.5% of GDP (2020 est.)",
-              "value": "0.5",
-              "estimated": true,
-              "suffix": "% of GDP"
-            },
-            {
-              "name": "Military Expenditures 2019",
-              "content": "2.6% of GDP (2019 est.)",
-              "value": "2.6",
+              "content": "1% of GDP (2020 est.)",
+              "value": "1",
               "estimated": true,
               "suffix": "% of GDP"
             }

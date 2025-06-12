@@ -1,9 +1,9 @@
 {
   "name": "San Marino",
   "code": "SM",
-  "published": "2025-06-05 00:14:59 -0400",
+  "published": "2025-06-11 00:15:42 -0400",
   "region": "Europe",
-  "updated": "2025-06-04 14:58:36 -0400",
+  "updated": "2025-06-10 10:55:03 -0400",
   "media": [
     {
       "type": "flag",
@@ -753,14 +753,28 @@
           ]
         },
         {
-          "name": "Current health expenditure",
+          "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
-          "content": "8% of GDP (2021)",
-          "value": "8",
-          "estimated": false,
-          "info_date": "2021",
-          "suffix": "% of GDP"
+          "content": "8% of GDP (2021)<br><br>29.5% of national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Health expenditure (as % of GDP)",
+              "content": "8% of GDP (2021)",
+              "value": "8",
+              "estimated": false,
+              "info_date": "2021",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Health expenditure (as % of national budget)",
+              "content": "29.5% of national budget (2022 est.)",
+              "value": "29.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of national budget"
+            }
+          ]
         },
         {
           "name": "Physician density",
@@ -831,42 +845,60 @@
           "suffix": "%"
         },
         {
-          "name": "Education expenditures",
+          "name": "Education expenditure",
           "field_id": 369,
           "comparative": true,
-          "content": "3.4% of GDP (2020 est.)",
-          "value": "3.4",
-          "estimated": true,
-          "info_date": "2020",
-          "suffix": "% of GDP"
+          "content": "3.4% of GDP (2022 est.)<br><br>7.5% national budget (2022 est.)",
+          "subfields": [
+            {
+              "name": "Education expenditure (% GDP)",
+              "content": "3.4% of GDP (2022 est.)",
+              "value": "3.4",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% of GDP"
+            },
+            {
+              "name": "Education expenditure (% national budget)",
+              "content": "7.5% national budget (2022 est.)",
+              "value": "7.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "% national budget"
+            }
+          ]
         },
         {
           "name": "Literacy",
           "field_id": 370,
           "comparative": false,
-          "content": "<strong>total population: </strong>99.9%<br><br><strong>male: </strong>99.9%<br><br><strong>female: </strong>99.9% (2018)",
+          "content": "<strong>total population: </strong>100% (2022 est.)<br><br><strong>male: </strong>100% (2022 est.)<br><br><strong>female: </strong>100% (2022 est.)",
           "subfields": [
             {
               "name": "total population",
-              "content": "99.9%",
+              "content": "100% (2022 est.)",
               "title": "total population",
-              "value": "99.9",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "male",
-              "content": "99.9%",
+              "content": "100% (2022 est.)",
               "title": "male",
-              "value": "99.9",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             },
             {
               "name": "female",
-              "content": "99.9% (2018)",
+              "content": "100% (2022 est.)",
               "title": "female",
-              "value": "99.9",
-              "estimated": false,
-              "info_date": "2018",
+              "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "%"
             }
           ]
@@ -1185,20 +1217,6 @@
           "value": "9 municipalities (castelli, singular - castello); Acquaviva, Borgo Maggiore, Chiesanuova, Domagnano, Faetano, Fiorentino, Montegiardino, San Marino Citta, Serravalle"
         },
         {
-          "name": "Independence",
-          "field_id": 305,
-          "comparative": false,
-          "content": "3 September 301 (traditional founding date)",
-          "value": "3 September 301 (traditional founding date)"
-        },
-        {
-          "name": "National holiday",
-          "field_id": 306,
-          "comparative": false,
-          "content": "Founding of the Republic (or Feast of Saint Marinus), 3 September (A.D. 301)",
-          "value": "Founding of the Republic (or Feast of Saint Marinus), 3 September (A.D. 301)"
-        },
-        {
           "name": "Legal system",
           "field_id": 308,
           "comparative": false,
@@ -1209,12 +1227,12 @@
           "name": "Constitution",
           "field_id": 307,
           "comparative": false,
-          "content": "<strong>history: </strong>San Marino&rsquo;s principal legislative instruments consist of old customs (antiche consuetudini), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (antichi statute) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974<br><br><strong>amendment process: </strong>proposed by the Great and General Council; passage requires two-thirds majority Council vote; Council passage by absolute majority vote also requires passage in a referendum",
+          "content": "<strong>history: </strong>San Marino&rsquo;s principal legislative instruments consist of old customs (<em>antiche consuetudini</em>), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (<em>antichi statute</em>) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974<br><br><strong>amendment process: </strong>proposed by the Great and General Council; passage requires two-thirds majority Council vote; Council passage by absolute majority vote also requires passage in a referendum",
           "subfields": [
             {
               "name": "history",
-              "content": "San Marino&rsquo;s principal legislative instruments consist of old customs (antiche consuetudini), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (antichi statute) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974",
-              "value": "San Marino&rsquo;s principal legislative instruments consist of old customs (antiche consuetudini), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (antichi statute) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974",
+              "content": "San Marino&rsquo;s principal legislative instruments consist of old customs (<em>antiche consuetudini</em>), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (<em>antichi statute</em>) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974",
+              "value": "San Marino&rsquo;s principal legislative instruments consist of old customs (<em>antiche consuetudini</em>), the Statutory Laws of San Marino (Leges Statutae Sancti Marini), old statutes (<em>antichi statute</em>) from the1600s, Brief Notes on the Constitutional Order and Institutional Organs of the Republic of San Marino (Brevi Cenni sull&rsquo;Ordinamento Costituzionale e gli Organi Istituzionali della Repubblica di San Marino) and successive legislation, chief among them is the Declaration of the Rights of Citizens and Fundamental Principles of the San Marino Legal Order (Dichiarazione dei Diritti dei Cittadini e dei Principi Fondamentali dell&rsquo;Ordinamento Sammarinese), approved 8 July 1974",
               "title": "history"
             },
             {
@@ -1415,13 +1433,6 @@
           "value": "Domani - Modus Liberi or DML&nbsp;<br />Free San Marino (Libera San Marino) or Libera&nbsp;<br />Future Republic or RF&nbsp;<br />Party of Socialists and Democrats or PSD&nbsp;<br />Reformist Alliance or AR&nbsp;<br />RETE Movement&nbsp;<br />Sammarinese Christian Democratic Party or PDCS&nbsp;<br />Socialist Party or PS&nbsp;<br />Tomorrow in Movement coalition (includes RETE Movement, DML)"
         },
         {
-          "name": "International organization participation",
-          "field_id": 317,
-          "comparative": false,
-          "content": "CE, FAO, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM (observer), IPU, ITU, ITUC (NGOs), LAIA (observer), OPCW, OSCE, Schengen Convention (de facto member), UN, UNCTAD, UNESCO, Union Latina, UNWTO, UPU, WHO, WIPO",
-          "value": "CE, FAO, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM (observer), IPU, ITU, ITUC (NGOs), LAIA (observer), OPCW, OSCE, Schengen Convention (de facto member), UN, UNCTAD, UNESCO, Union Latina, UNWTO, UPU, WHO, WIPO"
-        },
-        {
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
@@ -1474,6 +1485,27 @@
           ]
         },
         {
+          "name": "International organization participation",
+          "field_id": 317,
+          "comparative": false,
+          "content": "CE, FAO, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM (observer), IPU, ITU, ITUC (NGOs), LAIA (observer), OPCW, OSCE, Schengen Convention (de facto member), UN, UNCTAD, UNESCO, Union Latina, UNWTO, UPU, WHO, WIPO",
+          "value": "CE, FAO, IAEA, IBRD, ICAO, ICC (NGOs), ICCt, ICRM, IDA, IFRCS, ILO, IMF, IMO, Interpol, IOC, IOM (observer), IPU, ITU, ITUC (NGOs), LAIA (observer), OPCW, OSCE, Schengen Convention (de facto member), UN, UNCTAD, UNESCO, Union Latina, UNWTO, UPU, WHO, WIPO"
+        },
+        {
+          "name": "Independence",
+          "field_id": 305,
+          "comparative": false,
+          "content": "3 September 301 (traditional founding date)",
+          "value": "3 September 301 (traditional founding date)"
+        },
+        {
+          "name": "National holiday",
+          "field_id": 306,
+          "comparative": false,
+          "content": "Founding of the Republic (or Feast of Saint Marinus), 3 September (A.D. 301)",
+          "value": "Founding of the Republic (or Feast of Saint Marinus), 3 September (A.D. 301)"
+        },
+        {
           "name": "Flag description",
           "field_id": 320,
           "comparative": false,
@@ -1484,8 +1516,15 @@
           "name": "National symbol(s)",
           "field_id": 321,
           "comparative": false,
-          "content": "three peaks each displaying a tower; national colors: white, blue",
-          "value": "three peaks each displaying a tower; national colors: white, blue"
+          "content": "three peaks, each displaying a tower",
+          "value": "three peaks, each displaying a tower"
+        },
+        {
+          "name": "National colors",
+          "field_id": 470,
+          "comparative": false,
+          "content": "white, blue",
+          "value": "white, blue"
         },
         {
           "name": "National anthem",
