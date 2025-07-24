@@ -1,9 +1,9 @@
 {
   "name": "Haiti",
   "code": "HA",
-  "published": "2025-07-09 00:05:26 -0400",
+  "published": "2025-07-23 00:08:59 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-07-08 14:03:26 -0400",
+  "updated": "2025-07-22 11:13:14 -0400",
   "media": [
     {
       "type": "flag",
@@ -672,10 +672,10 @@
           "name": "Maternal mortality ratio",
           "field_id": 353,
           "comparative": false,
-          "content": "350 deaths/100,000 live births (2020 est.)",
-          "value": "350",
+          "content": "328 deaths/100,000 live births (2023 est.)",
+          "value": "328",
           "estimated": true,
-          "info_date": "2020",
+          "info_date": "2023",
           "suffix": "deaths/100,000 live births"
         },
         {
@@ -1124,14 +1124,14 @@
       "title": "Environment",
       "fields": [
         {
-          "name": "Environment - current issues",
+          "name": "Environmental issues",
           "field_id": 293,
           "comparative": false,
           "content": "deforestation (trees cleared for agriculture and used as fuel); soil erosion; inadequate potable water and lack of sanitation; natural disasters",
           "value": "deforestation (trees cleared for agriculture and used as fuel); soil erosion; inadequate potable water and lack of sanitation; natural disasters"
         },
         {
-          "name": "Environment - international agreements",
+          "name": "International environmental agreements",
           "field_id": 294,
           "comparative": false,
           "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Desertification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Life Conservation, Ozone Layer Protection<br><br><strong>signed, but not ratified: </strong>Nuclear Test Ban",
@@ -1870,22 +1870,28 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"La Dessalinienne\" (The Dessalines Song)<br><br><strong>lyrics/music: </strong>Justin LHERISSON/Nicolas GEFFRARD<br><br><strong>note:</strong> adopted 1904; named for Jean-Jacques DESSALINES, a leader in the Haitian Revolution and first ruler of an independent Haiti",
+          "content": "<strong>title: </strong>\"La Dessalinienne\" (The Dessalines Song)<br><br><strong>lyrics/music: </strong>Justin LHERISSON/Nicolas GEFFRARD<br><br><strong>history: </strong>adopted 1904; named for Jean-Jacques DESSALINES, a leader in the Haitian Revolution and first ruler of independent Haiti<br><br><strong>note:</strong> adopted 1904; named for Jean-Jacques DESSALINES, a leader in the Haitian Revolution and first ruler of independent Haiti",
           "subfields": [
             {
-              "name": "name",
+              "name": "title",
               "content": "\"La Dessalinienne\" (The Dessalines Song)",
               "value": "\"La Dessalinienne\" (The Dessalines Song)",
-              "title": "name"
+              "title": "title"
             },
             {
               "name": "lyrics/music",
               "content": "Justin LHERISSON/Nicolas GEFFRARD",
               "value": "Justin LHERISSON/Nicolas GEFFRARD",
               "title": "lyrics/music"
+            },
+            {
+              "name": "history",
+              "content": "adopted 1904; named for Jean-Jacques DESSALINES, a leader in the Haitian Revolution and first ruler of independent Haiti",
+              "value": "adopted 1904; named for Jean-Jacques DESSALINES, a leader in the Haitian Revolution and first ruler of independent Haiti",
+              "title": "history"
             }
           ],
-          "field_note": "<strong>note:</strong> adopted 1904; named for Jean-Jacques DESSALINES, a leader in the Haitian Revolution and first ruler of an independent Haiti",
+          "field_note": "<strong>note:</strong> adopted 1904; named for Jean-Jacques DESSALINES, a leader in the Haitian Revolution and first ruler of independent Haiti",
           "media": [
             {
               "type": "audio",
@@ -3084,8 +3090,16 @@
           "name": "Illicit drugs",
           "field_id": 329,
           "comparative": false,
-          "content": "<p>a transit point for cocaine from South America and marijuana from Jamaica en route to the United States; not a producer or large consumer of illicit drugs; some cultivation of cannabis for local consumption</p>",
-          "value": "<p>a transit point for cocaine from South America and marijuana from Jamaica en route to the United States; not a producer or large consumer of illicit drugs; some cultivation of cannabis for local consumption</p>"
+          "content": "<strong>USG identification: </strong><br />major illicit drug-producing and/or drug-transit country (2025)",
+          "subfields": [
+            {
+              "name": "USG identification",
+              "content": "<br />major illicit drug-producing and/or drug-transit country (2025)",
+              "value": "<br />major illicit drug-producing and/or drug-transit country",
+              "title": "USG identification",
+              "info_date": "2025"
+            }
+          ]
         }
       ]
     }

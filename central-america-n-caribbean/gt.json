@@ -1,9 +1,9 @@
 {
   "name": "Guatemala",
   "code": "GT",
-  "published": "2025-07-16 00:06:56 -0400",
+  "published": "2025-07-23 00:08:37 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-07-15 13:03:22 -0400",
+  "updated": "2025-07-22 11:13:14 -0400",
   "media": [
     {
       "type": "flag",
@@ -1170,14 +1170,14 @@
       "title": "Environment",
       "fields": [
         {
-          "name": "Environment - current issues",
+          "name": "Environmental issues",
           "field_id": 293,
           "comparative": false,
           "content": "deforestation in the Peten rainforest; soil erosion; water pollution",
           "value": "deforestation in the Peten rainforest; soil erosion; water pollution"
         },
         {
-          "name": "Environment - international agreements",
+          "name": "International environmental agreements",
           "field_id": 294,
           "comparative": false,
           "content": "<strong>party to: </strong>Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
@@ -1844,19 +1844,25 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Himno Nacional de Guatemala\" (National Anthem of Guatemala)<br><br><strong>lyrics/music: </strong>Jose Joaquin PALMA/Rafael Alvarez OVALLE<br><br><strong>note:</strong> adopted 1897, modified lyrics adopted 1934; Cuban poet Jose Joaquin PALMA anonymously submitted lyrics to a public contest calling for a national anthem; his authorship was not discovered until 1911",
+          "content": "<strong>title: </strong>\"Himno Nacional de Guatemala\" (National Anthem of Guatemala)<br><br><strong>lyrics/music: </strong>Jose Joaquin PALMA/Rafael Alvarez OVALLE<br><br><strong>history: </strong>adopted 1897, modified lyrics adopted 1934; Cuban poet Jose Joaquin PALMA anonymously submitted lyrics to a public contest calling for a national anthem; his authorship was not discovered until 1911<br><br><strong>note:</strong> adopted 1897, modified lyrics adopted 1934; Cuban poet Jose Joaquin PALMA anonymously submitted lyrics to a public contest calling for a national anthem; his authorship was not discovered until 1911",
           "subfields": [
             {
-              "name": "name",
+              "name": "title",
               "content": "\"Himno Nacional de Guatemala\" (National Anthem of Guatemala)",
               "value": "\"Himno Nacional de Guatemala\" (National Anthem of Guatemala)",
-              "title": "name"
+              "title": "title"
             },
             {
               "name": "lyrics/music",
               "content": "Jose Joaquin PALMA/Rafael Alvarez OVALLE",
               "value": "Jose Joaquin PALMA/Rafael Alvarez OVALLE",
               "title": "lyrics/music"
+            },
+            {
+              "name": "history",
+              "content": "adopted 1897, modified lyrics adopted 1934; Cuban poet Jose Joaquin PALMA anonymously submitted lyrics to a public contest calling for a national anthem; his authorship was not discovered until 1911",
+              "value": "adopted 1897, modified lyrics adopted 1934; Cuban poet Jose Joaquin PALMA anonymously submitted lyrics to a public contest calling for a national anthem; his authorship was not discovered until 1911",
+              "title": "history"
             }
           ],
           "field_note": "<strong>note:</strong> adopted 1897, modified lyrics adopted 1934; Cuban poet Jose Joaquin PALMA anonymously submitted lyrics to a public contest calling for a national anthem; his authorship was not discovered until 1911",
@@ -3285,8 +3291,16 @@
           "name": "Illicit drugs",
           "field_id": 329,
           "comparative": false,
-          "content": "<p>a major transit country for illegal drugs; illicit cultivation of opium poppies, marijuana, and coca plants in rural areas; a major source of precursor or essential chemicals used in the production of illicit narcotics</p> <p>&nbsp;</p>",
-          "value": "<p>a major transit country for illegal drugs; illicit cultivation of opium poppies, marijuana, and coca plants in rural areas; a major source of precursor or essential chemicals used in the production of illicit narcotics</p> <p>&nbsp;</p>"
+          "content": "<strong>USG identification: </strong><br />major illicit drug-producing and/or drug-transit country<br /><br />major precursor-chemical producer (2025)",
+          "subfields": [
+            {
+              "name": "USG identification",
+              "content": "<br />major illicit drug-producing and/or drug-transit country<br /><br />major precursor-chemical producer (2025)",
+              "value": "<br />major illicit drug-producing and/or drug-transit country<br /><br />major precursor-chemical producer",
+              "title": "USG identification",
+              "info_date": "2025"
+            }
+          ]
         }
       ]
     }

@@ -1,9 +1,9 @@
 {
   "name": "Bermuda",
   "code": "BD",
-  "published": "2025-07-09 00:01:13 -0400",
+  "published": "2025-07-23 00:01:55 -0400",
   "region": "North America",
-  "updated": "2025-07-08 13:55:21 -0400",
+  "updated": "2025-07-22 11:13:09 -0400",
   "media": [
     {
       "type": "flag",
@@ -747,20 +747,13 @@
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
-          "content": "urban: 99.9% of population<br><br>rural: NA<br><br>total: 99.9% of population<br><br>urban: 0.1% of population<br><br>rural: NA<br><br>total: 0.1% of population (2020)",
+          "content": "urban: 99.9% of population<br><br>total: 99.9% of population<br><br>urban: 0.1% of population<br><br>total: 0.1% of population (2020)",
           "subfields": [
             {
               "name": "improved: urban",
               "content": "urban: 99.9% of population",
               "value": "99.9",
               "suffix": "% of population"
-            },
-            {
-              "name": "improved: rural",
-              "content": "rural: NA",
-              "value": "99.9",
-              "suffix": "% of population",
-              "subfield_note": "NA"
             },
             {
               "name": "improved: total",
@@ -773,13 +766,6 @@
               "content": "urban: 0.1% of population",
               "value": "0.1",
               "suffix": "% of population"
-            },
-            {
-              "name": "unimproved: rural",
-              "content": "rural: NA",
-              "value": "0.1",
-              "suffix": "% of population",
-              "subfield_note": "NA"
             },
             {
               "name": "unimproved: total",
@@ -874,35 +860,6 @@
           ]
         },
         {
-          "name": "Literacy",
-          "field_id": 370,
-          "comparative": false,
-          "content": "<strong>total population: </strong>NA<br><br><strong>male: </strong>NA<br><br><strong>female: </strong>NA",
-          "subfields": [
-            {
-              "name": "total population",
-              "content": "NA",
-              "title": "total population",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "male",
-              "content": "NA",
-              "title": "male",
-              "suffix": "%",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "female",
-              "content": "NA",
-              "title": "female",
-              "suffix": "%",
-              "subfield_note": "NA"
-            }
-          ]
-        },
-        {
           "name": "School life expectancy (primary to tertiary education)",
           "field_id": 371,
           "comparative": false,
@@ -940,7 +897,7 @@
       "title": "Environment",
       "fields": [
         {
-          "name": "Environment - current issues",
+          "name": "Environmental issues",
           "field_id": 293,
           "comparative": false,
           "content": "air pollution from vehicle emissions; scarce water resources; solid waste disposal; hazardous waste disposal; sewage disposal; overfishing; oil spills",
@@ -1566,22 +1523,46 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>Hail to Bermuda<br><br><strong>lyrics/music: </strong>Bette JOHNS<br><br><strong>note:</strong> serves as a local anthem; as a territory of the United Kingdom, \"God Save the King\" is official (see United Kingdom)",
+          "content": "<strong>title: </strong>\"Hail to Bermuda\"<br><br><strong>lyrics/music: </strong>Bette JOHNS<br><br><strong>history: </strong>serves as a local anthem<br /><br />_____<br><br><strong>title: </strong>\"God Save the King\"<br><br><strong>lyrics/music: </strong>unknown<br><br><strong>history: </strong>official anthem, as a UK territory<br><br><strong>note:</strong> serves as a local anthem; \"God Save the King\" is the official anthem for Bermuda, as a territory of the United Kingdom (see <a href=\"United%20Kingdom\">United Kingdom</a>)",
           "subfields": [
             {
-              "name": "name",
-              "content": "Hail to Bermuda",
-              "value": "Hail to Bermuda",
-              "title": "name"
+              "name": "title",
+              "content": "\"Hail to Bermuda\"",
+              "value": "\"Hail to Bermuda\"",
+              "title": "title"
             },
             {
               "name": "lyrics/music",
               "content": "Bette JOHNS",
               "value": "Bette JOHNS",
               "title": "lyrics/music"
+            },
+            {
+              "name": "history",
+              "content": "serves as a local anthem<br /><br />_____",
+              "value": "serves as a local anthem<br /><br />_____",
+              "title": "history"
+            },
+            {
+              "name": "title",
+              "content": "\"God Save the King\"",
+              "value": "\"God Save the King\"",
+              "title": "title"
+            },
+            {
+              "name": "lyrics/music",
+              "content": "unknown",
+              "value": "unknown",
+              "title": "lyrics/music"
+            },
+            {
+              "name": "history",
+              "content": "official anthem, as a UK territory",
+              "value": "official anthem, as a UK territory",
+              "title": "history"
             }
           ],
-          "field_note": "<strong>note:</strong> serves as a local anthem; as a territory of the United Kingdom, \"God Save the King\" is official (see United Kingdom)"
+          "field_note": "<strong>note:</strong> serves as a local anthem; \"God Save the King\" is the official anthem for Bermuda, as a territory of the United Kingdom (see <a href=\"United%20Kingdom\">United Kingdom</a>)"
         },
         {
           "name": "National heritage",

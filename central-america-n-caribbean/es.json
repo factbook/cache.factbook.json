@@ -1,9 +1,9 @@
 {
   "name": "El Salvador",
   "code": "ES",
-  "published": "2025-07-09 00:04:39 -0400",
+  "published": "2025-07-23 00:06:39 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-07-08 14:01:49 -0400",
+  "updated": "2025-07-22 11:13:12 -0400",
   "media": [
     {
       "type": "flag",
@@ -673,10 +673,10 @@
           "name": "Maternal mortality ratio",
           "field_id": 353,
           "comparative": false,
-          "content": "43 deaths/100,000 live births (2020 est.)",
-          "value": "43",
+          "content": "39 deaths/100,000 live births (2023 est.)",
+          "value": "39",
           "estimated": true,
-          "info_date": "2020",
+          "info_date": "2023",
           "suffix": "deaths/100,000 live births"
         },
         {
@@ -1137,14 +1137,14 @@
       "title": "Environment",
       "fields": [
         {
-          "name": "Environment - current issues",
+          "name": "Environmental issues",
           "field_id": 293,
           "comparative": false,
           "content": "deforestation; soil erosion; water pollution; contamination of soils from disposal of toxic wastes",
           "value": "deforestation; soil erosion; water pollution; contamination of soils from disposal of toxic wastes"
         },
         {
-          "name": "Environment - international agreements",
+          "name": "International environmental agreements",
           "field_id": 294,
           "comparative": false,
           "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>Law of the Sea",
@@ -1804,22 +1804,28 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Himno Nacional de El Salvador\" (National Anthem of El Salvador)<br><br><strong>lyrics/music: </strong>Juan Jose CANAS/Juan ABERLE<br><br><strong>note:</strong> officially adopted 1953, in use since 1879; at 4:20 minutes, the anthem of El Salvador is one of the world's longest",
+          "content": "<strong>title: </strong>\"Himno Nacional de El Salvador\" (National Anthem of El Salvador)<br><br><strong>lyrics/music: </strong>Juan Jose CANAS/Juan ABERLE<br><br><strong>history: </strong>officially adopted 1953, in use since 1879; at four minutes and 20 seconds, the anthem is one of the world's longest<br><br><strong>note:</strong> officially adopted 1953, in use since 1879; at four minutes and 20 seconds, the anthem is one of the world's longest",
           "subfields": [
             {
-              "name": "name",
+              "name": "title",
               "content": "\"Himno Nacional de El Salvador\" (National Anthem of El Salvador)",
               "value": "\"Himno Nacional de El Salvador\" (National Anthem of El Salvador)",
-              "title": "name"
+              "title": "title"
             },
             {
               "name": "lyrics/music",
               "content": "Juan Jose CANAS/Juan ABERLE",
               "value": "Juan Jose CANAS/Juan ABERLE",
               "title": "lyrics/music"
+            },
+            {
+              "name": "history",
+              "content": "officially adopted 1953, in use since 1879; at four minutes and 20 seconds, the anthem is one of the world's longest",
+              "value": "officially adopted 1953, in use since 1879; at four minutes and 20 seconds, the anthem is one of the world's longest",
+              "title": "history"
             }
           ],
-          "field_note": "<strong>note:</strong> officially adopted 1953, in use since 1879; at 4:20 minutes, the anthem of El Salvador is one of the world's longest",
+          "field_note": "<strong>note:</strong> officially adopted 1953, in use since 1879; at four minutes and 20 seconds, the anthem is one of the world's longest",
           "media": [
             {
               "type": "audio",
@@ -3157,8 +3163,16 @@
           "name": "Illicit drugs",
           "field_id": 329,
           "comparative": false,
-          "content": "<p>a transit country for illicit drugs destined for the United States; &nbsp;a major source of precursor or essential chemicals used in the production of illicit narcotics</p> <p>&nbsp;</p>",
-          "value": "<p>a transit country for illicit drugs destined for the United States; &nbsp;a major source of precursor or essential chemicals used in the production of illicit narcotics</p> <p>&nbsp;</p>"
+          "content": "<strong>USG identification: </strong><br />major illicit drug-producing and/or drug-transit country<br /><br />major precursor-chemical producer (2025)",
+          "subfields": [
+            {
+              "name": "USG identification",
+              "content": "<br />major illicit drug-producing and/or drug-transit country<br /><br />major precursor-chemical producer (2025)",
+              "value": "<br />major illicit drug-producing and/or drug-transit country<br /><br />major precursor-chemical producer",
+              "title": "USG identification",
+              "info_date": "2025"
+            }
+          ]
         }
       ]
     }

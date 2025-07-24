@@ -1,9 +1,9 @@
 {
   "name": "Poland",
   "code": "PL",
-  "published": "2025-07-16 00:13:19 -0400",
+  "published": "2025-07-23 00:16:21 -0400",
   "region": "Europe",
-  "updated": "2025-07-15 13:03:25 -0400",
+  "updated": "2025-07-22 11:13:20 -0400",
   "media": [
     {
       "type": "flag",
@@ -1202,37 +1202,6 @@
           ]
         },
         {
-          "name": "Literacy",
-          "field_id": 370,
-          "comparative": false,
-          "content": "<strong>total population: </strong>99.8%<br><br><strong>male: </strong>99.8%<br><br><strong>female: </strong>99.8% (2021)",
-          "subfields": [
-            {
-              "name": "total population",
-              "content": "99.8%",
-              "title": "total population",
-              "value": "99.8",
-              "suffix": "%"
-            },
-            {
-              "name": "male",
-              "content": "99.8%",
-              "title": "male",
-              "value": "99.8",
-              "suffix": "%"
-            },
-            {
-              "name": "female",
-              "content": "99.8% (2021)",
-              "title": "female",
-              "value": "99.8",
-              "estimated": false,
-              "info_date": "2021",
-              "suffix": "%"
-            }
-          ]
-        },
-        {
           "name": "School life expectancy (primary to tertiary education)",
           "field_id": 371,
           "comparative": false,
@@ -1270,14 +1239,14 @@
       "title": "Environment",
       "fields": [
         {
-          "name": "Environment - current issues",
+          "name": "Environmental issues",
           "field_id": 293,
           "comparative": false,
           "content": "air pollution (despite environmental policy improvements) because of coal-burning in homes and power plants; acid rain leading to forest damage; water pollution from industrial and municipal sources; disposal of hazardous wastes",
           "value": "air pollution (despite environmental policy improvements) because of coal-burning in homes and power plants; acid rain leading to forest damage; water pollution from industrial and municipal sources; disposal of hazardous wastes"
         },
         {
-          "name": "Environment - international agreements",
+          "name": "International environmental agreements",
           "field_id": 294,
           "comparative": false,
           "content": "<strong>party to: </strong>Air Pollution, Air Pollution-Nitrogen Oxides, Air Pollution-Sulphur 94, Antarctic-Environmental Protection, Antarctic- Marine Living Resources, Antarctic Seals, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>Air Pollution-Heavy Metals, Air Pollution-Multi-effect Protocol, Air Pollution-Persistent Organic Pollutants",
@@ -2062,22 +2031,28 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Mazurek Dabrowskiego\" (Dabrowski's Mazurka)<br><br><strong>lyrics/music: </strong>Jozef WYBICKI/traditional<br><br><strong>note:</strong> adopted 1927; the anthem, commonly known as \"Jeszcze Polska nie zginela\" (Poland Has Not Yet Perished), was written in 1797; the lyrics resonate strongly with Poles because they reflect the numerous occasions in which the nation's lands have been occupied",
+          "content": "<strong>title: </strong>\"Mazurek Dabrowskiego\" (Dabrowski's Mazurka)<br><br><strong>lyrics/music: </strong>Jozef WYBICKI/traditional<br><br><strong>history: </strong>adopted 1927; the anthem, commonly known as \"Jeszcze Polska nie zginela\" (Poland Has Not Yet Perished), was written in 1797<br><br><strong>note:</strong> adopted 1927; the anthem, commonly known as \"Jeszcze Polska nie zginela\" (Poland Has Not Yet Perished), was written in 1797",
           "subfields": [
             {
-              "name": "name",
+              "name": "title",
               "content": "\"Mazurek Dabrowskiego\" (Dabrowski's Mazurka)",
               "value": "\"Mazurek Dabrowskiego\" (Dabrowski's Mazurka)",
-              "title": "name"
+              "title": "title"
             },
             {
               "name": "lyrics/music",
               "content": "Jozef WYBICKI/traditional",
               "value": "Jozef WYBICKI/traditional",
               "title": "lyrics/music"
+            },
+            {
+              "name": "history",
+              "content": "adopted 1927; the anthem, commonly known as \"Jeszcze Polska nie zginela\" (Poland Has Not Yet Perished), was written in 1797",
+              "value": "adopted 1927; the anthem, commonly known as \"Jeszcze Polska nie zginela\" (Poland Has Not Yet Perished), was written in 1797",
+              "title": "history"
             }
           ],
-          "field_note": "<strong>note:</strong> adopted 1927; the anthem, commonly known as \"Jeszcze Polska nie zginela\" (Poland Has Not Yet Perished), was written in 1797; the lyrics resonate strongly with Poles because they reflect the numerous occasions in which the nation's lands have been occupied",
+          "field_note": "<strong>note:</strong> adopted 1927; the anthem, commonly known as \"Jeszcze Polska nie zginela\" (Poland Has Not Yet Perished), was written in 1797",
           "media": [
             {
               "type": "audio",
@@ -3545,8 +3520,16 @@
           "name": "Illicit drugs",
           "field_id": 329,
           "comparative": false,
-          "content": "<p>a major source of precursor or essential chemicals used in the production of illicit narcotics</p>",
-          "value": "<p>a major source of precursor or essential chemicals used in the production of illicit narcotics</p>"
+          "content": "<strong>USG identification: </strong><br />major precursor-chemical producer (2025)",
+          "subfields": [
+            {
+              "name": "USG identification",
+              "content": "<br />major precursor-chemical producer (2025)",
+              "value": "<br />major precursor-chemical producer",
+              "title": "USG identification",
+              "info_date": "2025"
+            }
+          ]
         }
       ]
     }

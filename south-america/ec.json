@@ -1,9 +1,9 @@
 {
   "name": "Ecuador",
   "code": "EC",
-  "published": "2025-07-16 00:04:58 -0400",
+  "published": "2025-07-23 00:05:57 -0400",
   "region": "South America",
-  "updated": "2025-07-15 13:03:21 -0400",
+  "updated": "2025-07-22 11:13:12 -0400",
   "media": [
     {
       "type": "flag",
@@ -1347,14 +1347,14 @@
       "title": "Environment",
       "fields": [
         {
-          "name": "Environment - current issues",
+          "name": "Environmental issues",
           "field_id": 293,
           "comparative": false,
           "content": "deforestation; soil erosion; desertification; water pollution; pollution from oil production wastes in areas of the Amazon Basin and Galapagos Islands",
           "value": "deforestation; soil erosion; desertification; water pollution; pollution from oil production wastes in areas of the Amazon Basin and Galapagos Islands"
         },
         {
-          "name": "Environment - international agreements",
+          "name": "International environmental agreements",
           "field_id": 294,
           "comparative": false,
           "content": "<strong>party to: </strong>Antarctic-Environmental Protection, Antarctic Treaty, Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Tropical Timber 2006, Wetlands, Whaling<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
@@ -2066,22 +2066,28 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"Salve, Oh Patria!\" (We Salute You, Our Homeland)<br><br><strong>lyrics/music: </strong>Juan Leon MERA/Antonio NEUMANE<br><br><strong>note:</strong> adopted 1948; Juan Leon MERA wrote the lyrics in 1865; only the chorus and second verse are sung",
+          "content": "<strong>title: </strong>\"Salve, Oh Patria!\" (We Salute You, Our Homeland)<br><br><strong>lyrics/music: </strong>Juan Leon MERA/Antonio NEUMANE<br><br><strong>history: </strong>adopted 1948; MERA wrote the lyrics in 1865; only the chorus and second verse are sung<br><br><strong>note:</strong> adopted 1948; MERA wrote the lyrics in 1865; only the chorus and second verse are sung",
           "subfields": [
             {
-              "name": "name",
+              "name": "title",
               "content": "\"Salve, Oh Patria!\" (We Salute You, Our Homeland)",
               "value": "\"Salve, Oh Patria!\" (We Salute You, Our Homeland)",
-              "title": "name"
+              "title": "title"
             },
             {
               "name": "lyrics/music",
               "content": "Juan Leon MERA/Antonio NEUMANE",
               "value": "Juan Leon MERA/Antonio NEUMANE",
               "title": "lyrics/music"
+            },
+            {
+              "name": "history",
+              "content": "adopted 1948; MERA wrote the lyrics in 1865; only the chorus and second verse are sung",
+              "value": "adopted 1948; MERA wrote the lyrics in 1865; only the chorus and second verse are sung",
+              "title": "history"
             }
           ],
-          "field_note": "<strong>note:</strong> adopted 1948; Juan Leon MERA wrote the lyrics in 1865; only the chorus and second verse are sung",
+          "field_note": "<strong>note:</strong> adopted 1948; MERA wrote the lyrics in 1865; only the chorus and second verse are sung",
           "media": [
             {
               "type": "audio",
@@ -3480,8 +3486,16 @@
           "name": "Illicit drugs",
           "field_id": 329,
           "comparative": false,
-          "content": "<p>Ecuador is a major transit country for cocaine destined for the United States and other international destinations; criminal groups traffic cocaine precursor chemicals for drug gangs; not a major drug producing country; a major source of precursor or essential chemicals used in the production of illicit narcotics</p>",
-          "value": "<p>Ecuador is a major transit country for cocaine destined for the United States and other international destinations; criminal groups traffic cocaine precursor chemicals for drug gangs; not a major drug producing country; a major source of precursor or essential chemicals used in the production of illicit narcotics</p>"
+          "content": "<strong>USG identification: </strong><br />major illicit drug-producing and/or drug-transit country<br /><br />major precursor-chemical producer (2025)",
+          "subfields": [
+            {
+              "name": "USG identification",
+              "content": "<br />major illicit drug-producing and/or drug-transit country<br /><br />major precursor-chemical producer (2025)",
+              "value": "<br />major illicit drug-producing and/or drug-transit country<br /><br />major precursor-chemical producer",
+              "title": "USG identification",
+              "info_date": "2025"
+            }
+          ]
         }
       ]
     }

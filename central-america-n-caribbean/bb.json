@@ -1,9 +1,9 @@
 {
   "name": "Barbados",
   "code": "BB",
-  "published": "2025-07-08 00:01:42 -0400",
+  "published": "2025-07-23 00:01:43 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-07-07 16:37:58 -0400",
+  "updated": "2025-07-22 11:13:09 -0400",
   "media": [
     {
       "type": "flag",
@@ -644,10 +644,10 @@
           "name": "Maternal mortality ratio",
           "field_id": 353,
           "comparative": false,
-          "content": "39 deaths/100,000 live births (2020 est.)",
-          "value": "39",
+          "content": "35 deaths/100,000 live births (2023 est.)",
+          "value": "35",
           "estimated": true,
-          "info_date": "2020",
+          "info_date": "2023",
           "suffix": "deaths/100,000 live births"
         },
         {
@@ -745,39 +745,13 @@
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
-          "content": "urban: NA<br><br>rural: NA<br><br>total: 98.8% of population<br><br>urban: NA<br><br>rural: NA<br><br>total: 2% of population (2020 est.)",
+          "content": "total: 98.8% of population<br><br>total: 2% of population (2020 est.)",
           "subfields": [
-            {
-              "name": "improved: urban",
-              "content": "urban: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "improved: rural",
-              "content": "rural: NA",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
             {
               "name": "improved: total",
               "content": "total: 98.8% of population",
               "value": "98.8",
               "suffix": "% of population"
-            },
-            {
-              "name": "unimproved: urban",
-              "content": "urban: NA",
-              "value": "98.8",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: rural",
-              "content": "rural: NA",
-              "value": "98.8",
-              "suffix": "% of population",
-              "subfield_note": "NA"
             },
             {
               "name": "unimproved: total",
@@ -1012,37 +986,6 @@
               "suffix": "% national budget"
             }
           ]
-        },
-        {
-          "name": "Literacy",
-          "field_id": 370,
-          "comparative": false,
-          "content": "<strong>total population: </strong>99.6%<br><br><strong>male: </strong>99.6%<br><br><strong>female: </strong>99.6% (2014)",
-          "subfields": [
-            {
-              "name": "total population",
-              "content": "99.6%",
-              "title": "total population",
-              "value": "99.6",
-              "suffix": "%"
-            },
-            {
-              "name": "male",
-              "content": "99.6%",
-              "title": "male",
-              "value": "99.6",
-              "suffix": "%"
-            },
-            {
-              "name": "female",
-              "content": "99.6% (2014)",
-              "title": "female",
-              "value": "99.6",
-              "estimated": false,
-              "info_date": "2014",
-              "suffix": "%"
-            }
-          ]
         }
       ]
     },
@@ -1051,14 +994,14 @@
       "title": "Environment",
       "fields": [
         {
-          "name": "Environment - current issues",
+          "name": "Environmental issues",
           "field_id": 293,
           "comparative": false,
           "content": "pollution of coastal waters from waste disposal by ships; soil erosion; illegal solid-waste disposal&nbsp;",
           "value": "pollution of coastal waters from waste disposal by ships; soil erosion; illegal solid-waste disposal&nbsp;"
         },
         {
-          "name": "Environment - international agreements",
+          "name": "International environmental agreements",
           "field_id": 294,
           "comparative": false,
           "content": "<strong>party to: </strong>Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Ozone Layer Protection, Ship Pollution, Wetlands<br><br><strong>signed, but not ratified: </strong>none of the selected agreements",
@@ -1789,19 +1732,25 @@
           "name": "National anthem",
           "field_id": 322,
           "comparative": false,
-          "content": "<strong>name: </strong>\"The National Anthem of Barbados\"<br><br><strong>lyrics/music: </strong>Irving BURGIE/C. Van Roland EDWARDS<br><br><strong>note:</strong> adopted 1966; the anthem is also known as \"In Plenty and In Time of Need\"",
+          "content": "<strong>title: </strong>\"The National Anthem of Barbados\"<br><br><strong>lyrics/music: </strong>Irving BURGIE/C. Van Roland EDWARDS<br><br><strong>history: </strong>adopted 1966; the anthem is also known as \"In Plenty and In Time of Need\"<br><br><strong>note:</strong> adopted 1966; the anthem is also known as \"In Plenty and In Time of Need\"",
           "subfields": [
             {
-              "name": "name",
+              "name": "title",
               "content": "\"The National Anthem of Barbados\"",
               "value": "\"The National Anthem of Barbados\"",
-              "title": "name"
+              "title": "title"
             },
             {
               "name": "lyrics/music",
               "content": "Irving BURGIE/C. Van Roland EDWARDS",
               "value": "Irving BURGIE/C. Van Roland EDWARDS",
               "title": "lyrics/music"
+            },
+            {
+              "name": "history",
+              "content": "adopted 1966; the anthem is also known as \"In Plenty and In Time of Need\"",
+              "value": "adopted 1966; the anthem is also known as \"In Plenty and In Time of Need\"",
+              "title": "history"
             }
           ],
           "field_note": "<strong>note:</strong> adopted 1966; the anthem is also known as \"In Plenty and In Time of Need\"",
@@ -3032,13 +2981,7 @@
       "id": "transnational_issues",
       "title": "Transnational Issues",
       "fields": [
-        {
-          "name": "Illicit drugs",
-          "field_id": 329,
-          "comparative": false,
-          "content": "<p>a transit point for cocaine and marijuana destined for North America, Europe, and elsewhere in the Caribbean; some local demand for cocaine and some use of synthetic drugs</p>",
-          "value": "<p>a transit point for cocaine and marijuana destined for North America, Europe, and elsewhere in the Caribbean; some local demand for cocaine and some use of synthetic drugs</p>"
-        }
+
       ]
     }
   ]
