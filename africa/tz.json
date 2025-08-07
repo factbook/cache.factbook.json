@@ -1,9 +1,9 @@
 {
   "name": "Tanzania",
   "code": "TZ",
-  "published": "2025-07-30 00:17:38 -0400",
+  "published": "2025-08-06 00:14:36 -0400",
   "region": "Africa",
-  "updated": "2025-07-29 11:27:12 -0400",
+  "updated": "2025-08-05 15:33:01 -0400",
   "media": [
     {
       "type": "flag",
@@ -392,7 +392,22 @@
         {
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
-          "content": "Atlantic Ocean drainage: Congo (3,730,881 sq km), <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)<br />Indian Ocean drainage: Zambezi (1,332,412 sq km)"
+          "comparative": false,
+          "content": "<strong>Atlantic Ocean drainage: </strong>Congo (3,730,881 sq km), <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)<br><br><strong>Indian Ocean drainage: </strong>Zambezi (1,332,412 sq km)",
+          "subfields": [
+            {
+              "name": "Atlantic Ocean drainage",
+              "content": "Congo (3,730,881 sq km), <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)",
+              "value": "Congo (3,730,881 sq km), <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)",
+              "title": "Atlantic Ocean drainage"
+            },
+            {
+              "name": "Indian Ocean drainage",
+              "content": "Zambezi (1,332,412 sq km)",
+              "value": "Zambezi (1,332,412 sq km)",
+              "title": "Indian Ocean drainage"
+            }
+          ]
         },
         {
           "name": "Population distribution",
@@ -2005,8 +2020,15 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$233.786 billion (2023 est.)<br><br>$222.506 billion (2022 est.)<br><br>$212.79 billion (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
+          "content": "$246.706 billion (2024 est.)<br><br>$233.786 billion (2023 est.)<br><br>$222.506 billion (2022 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
+            {
+              "name": "Real GDP (purchasing power parity) 2024",
+              "content": "$246.706 billion (2024 est.)",
+              "value": "246706000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Real GDP (purchasing power parity) 2023",
               "content": "$233.786 billion (2023 est.)",
@@ -2020,13 +2042,6 @@
               "value": "222506000000",
               "estimated": true,
               "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2021",
-              "content": "$212.79 billion (2021 est.)",
-              "value": "212790000000",
-              "estimated": true,
-              "prefix": "$"
             }
           ],
           "field_note": "<b>note:</b> data in 2021 dollars"
@@ -2035,26 +2050,26 @@
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "5.07% (2023 est.)<br><br>4.57% (2022 est.)<br><br>4.32% (2021 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
+          "content": "5.5% (2024 est.)<br><br>5.1% (2023 est.)<br><br>4.6% (2022 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
             {
+              "name": "Real GDP growth rate 2024",
+              "content": "5.5% (2024 est.)",
+              "value": "5.5",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
               "name": "Real GDP growth rate 2023",
-              "content": "5.07% (2023 est.)",
-              "value": "5.07",
+              "content": "5.1% (2023 est.)",
+              "value": "5.1",
               "estimated": true,
               "suffix": "%"
             },
             {
               "name": "Real GDP growth rate 2022",
-              "content": "4.57% (2022 est.)",
-              "value": "4.57",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2021",
-              "content": "4.32% (2021 est.)",
-              "value": "4.32",
+              "content": "4.6% (2022 est.)",
+              "value": "4.6",
               "estimated": true,
               "suffix": "%"
             }
@@ -2065,8 +2080,15 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$3,600 (2023 est.)<br><br>$3,500 (2022 est.)<br><br>$3,500 (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
+          "content": "$3,700 (2024 est.)<br><br>$3,600 (2023 est.)<br><br>$3,500 (2022 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
+            {
+              "name": "Real GDP per capita 2024",
+              "content": "$3,700 (2024 est.)",
+              "value": "3700",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Real GDP per capita 2023",
               "content": "$3,600 (2023 est.)",
@@ -2080,13 +2102,6 @@
               "value": "3500",
               "estimated": true,
               "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2021",
-              "content": "$3,500 (2021 est.)",
-              "value": "3500",
-              "estimated": true,
-              "prefix": "$"
             }
           ],
           "field_note": "<b>note:</b> data in 2021 dollars"
@@ -2095,10 +2110,10 @@
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$79.062 billion (2023 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "79062000000",
+          "content": "$78.78 billion (2024 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "78780000000",
           "estimated": true,
-          "info_date": "2023",
+          "info_date": "2024",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -2136,33 +2151,33 @@
           "name": "GDP - composition, by sector of origin",
           "field_id": 214,
           "comparative": false,
-          "content": "<strong>agriculture: </strong>23.7% (2023 est.)<br><br><strong>industry: </strong>28% (2023 est.)<br><br><strong>services: </strong>28.7% (2023 est.)<br><br><b>note:</b> figures may not total 100% due to non-allocated consumption not captured in sector-reported data",
+          "content": "<strong>agriculture: </strong>23.4% (2024 est.)<br><br><strong>industry: </strong>28.7% (2024 est.)<br><br><strong>services: </strong>28.4% (2024 est.)<br><br><b>note:</b> figures may not total 100% due to non-allocated consumption not captured in sector-reported data",
           "subfields": [
             {
               "name": "agriculture",
-              "content": "23.7% (2023 est.)",
+              "content": "23.4% (2024 est.)",
               "title": "agriculture",
-              "value": "23.7",
+              "value": "23.4",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "industry",
-              "content": "28% (2023 est.)",
+              "content": "28.7% (2024 est.)",
               "title": "industry",
-              "value": "28",
+              "value": "28.7",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "services",
-              "content": "28.7% (2023 est.)",
+              "content": "28.4% (2024 est.)",
               "title": "services",
-              "value": "28.7",
+              "value": "28.4",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             }
           ],
@@ -2172,60 +2187,60 @@
           "name": "GDP - composition, by end use",
           "field_id": 213,
           "comparative": false,
-          "content": "<strong>household consumption: </strong>54.1% (2023 est.)<br><br><strong>government consumption: </strong>8.8% (2023 est.)<br><br><strong>investment in fixed capital: </strong>42.7% (2023 est.)<br><br><strong>investment in inventories: </strong>-1.7% (2023 est.)<br><br><strong>exports of goods and services: </strong>17.2% (2023 est.)<br><br><strong>imports of goods and services: </strong>-21% (2023 est.)<br><br><b>note:</b> figures may not total 100% due to rounding or gaps in data collection",
+          "content": "<strong>household consumption: </strong>52.9% (2024 est.)<br><br><strong>government consumption: </strong>9.2% (2024 est.)<br><br><strong>investment in fixed capital: </strong>41.4% (2024 est.)<br><br><strong>investment in inventories: </strong>-1.6% (2024 est.)<br><br><strong>exports of goods and services: </strong>19.8% (2024 est.)<br><br><strong>imports of goods and services: </strong>-21.7% (2024 est.)<br><br><b>note:</b> figures may not total 100% due to rounding or gaps in data collection",
           "subfields": [
             {
               "name": "household consumption",
-              "content": "54.1% (2023 est.)",
+              "content": "52.9% (2024 est.)",
               "title": "household consumption",
-              "value": "54.1",
+              "value": "52.9",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "government consumption",
-              "content": "8.8% (2023 est.)",
+              "content": "9.2% (2024 est.)",
               "title": "government consumption",
-              "value": "8.8",
+              "value": "9.2",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "investment in fixed capital",
-              "content": "42.7% (2023 est.)",
+              "content": "41.4% (2024 est.)",
               "title": "investment in fixed capital",
-              "value": "42.7",
+              "value": "41.4",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "investment in inventories",
-              "content": "-1.7% (2023 est.)",
+              "content": "-1.6% (2024 est.)",
               "title": "investment in inventories",
-              "value": "-1.7",
+              "value": "-1.6",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "exports of goods and services",
-              "content": "17.2% (2023 est.)",
+              "content": "19.8% (2024 est.)",
               "title": "exports of goods and services",
-              "value": "17.2",
+              "value": "19.8",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "imports of goods and services",
-              "content": "-21% (2023 est.)",
+              "content": "-21.7% (2024 est.)",
               "title": "imports of goods and services",
-              "value": "-21",
+              "value": "-21.7",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             }
           ],
@@ -2251,10 +2266,10 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "4.8% (2023 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
-          "value": "4.8",
+          "content": "5.2% (2024 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
+          "value": "5.2",
           "estimated": true,
-          "info_date": "2023",
+          "info_date": "2024",
           "suffix": "%",
           "field_note": "<b>note:</b> annual % change in industrial value added based on constant local currency"
         },
@@ -2417,26 +2432,26 @@
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "0.96% of GDP (2023 est.)<br><br>0.93% of GDP (2022 est.)<br><br>0.79% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "1% of GDP (2023 est.)<br><br>0.9% of GDP (2022 est.)<br><br>0.8% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
             {
               "name": "Remittances 2023",
-              "content": "0.96% of GDP (2023 est.)",
-              "value": "0.96",
+              "content": "1% of GDP (2023 est.)",
+              "value": "1",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Remittances 2022",
-              "content": "0.93% of GDP (2022 est.)",
-              "value": "0.93",
+              "content": "0.9% of GDP (2022 est.)",
+              "value": "0.9",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Remittances 2021",
-              "content": "0.79% of GDP (2021 est.)",
-              "value": "0.79",
+              "content": "0.8% of GDP (2021 est.)",
+              "value": "0.8",
               "estimated": true,
               "suffix": "% of GDP"
             }
@@ -2469,21 +2484,6 @@
             }
           ],
           "field_note": "<b>note:</b> central government revenues (excluding grants) and expenses converted to US dollars at average official exchange rate for year indicated"
-        },
-        {
-          "name": "Public debt",
-          "field_id": 227,
-          "comparative": true,
-          "content": "37% of GDP (2017 est.)",
-          "subfields": [
-            {
-              "name": "Public debt 2017",
-              "content": "37% of GDP (2017 est.)",
-              "value": "37",
-              "estimated": true,
-              "suffix": "% of GDP"
-            }
-          ]
         },
         {
           "name": "Taxes and other revenues",
@@ -2672,12 +2672,30 @@
           "name": "Exchange rates",
           "field_id": 249,
           "comparative": false,
-          "content": "Tanzanian shillings (TZS) per US dollar -<br><br>2,297.764 (2021 est.)<br><br>2,294.146 (2020 est.)<br><br>2,288.207 (2019 est.)<br><br>2,263.782 (2018 est.)<br><br>2,228.857 (2017 est.)",
+          "content": "Tanzanian shillings (TZS) per US dollar -<br><br>2,597.9 (2024 est.)<br><br>2,383.043 (2023 est.)<br><br>2,303.034 (2022 est.)<br><br>2,297.764 (2021 est.)<br><br>2,294.146 (2020 est.)",
           "subfields": [
             {
               "name": "Currency",
               "content": "Tanzanian shillings (TZS) per US dollar -",
               "value": "Tanzanian shillings (TZS) per US dollar -"
+            },
+            {
+              "name": "Exchange rates 2024",
+              "content": "2,597.9 (2024 est.)",
+              "value": "2597.9",
+              "estimated": true
+            },
+            {
+              "name": "Exchange rates 2023",
+              "content": "2,383.043 (2023 est.)",
+              "value": "2383.043",
+              "estimated": true
+            },
+            {
+              "name": "Exchange rates 2022",
+              "content": "2,303.034 (2022 est.)",
+              "value": "2303.034",
+              "estimated": true
             },
             {
               "name": "Exchange rates 2021",
@@ -2689,24 +2707,6 @@
               "name": "Exchange rates 2020",
               "content": "2,294.146 (2020 est.)",
               "value": "2294.146",
-              "estimated": true
-            },
-            {
-              "name": "Exchange rates 2019",
-              "content": "2,288.207 (2019 est.)",
-              "value": "2288.207",
-              "estimated": true
-            },
-            {
-              "name": "Exchange rates 2018",
-              "content": "2,263.782 (2018 est.)",
-              "value": "2263.782",
-              "estimated": true
-            },
-            {
-              "name": "Exchange rates 2017",
-              "content": "2,228.857 (2017 est.)",
-              "value": "2228.857",
               "estimated": true
             }
           ]
@@ -3346,9 +3346,9 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "the TDPF&rsquo;s primary concerns are maritime piracy and smuggling, border security, terrorism, animal poaching, and spillover from instability in neighboring countries, particularly Mozambique and the Democratic Republic of the Congo (DRC); it participates in multinational training exercises, regional peacekeeping deployments, and has ties with a variety of foreign militaries, including those of China, India, and the US; it has contributed troops to the UN&rsquo;s Force Intervention Brigade in the DRC; the TPDF also participated in the former Southern African Development Community intervention force in Mozambique, which assisted the Mozambique military in combating fighters affiliated with the Islamic State of Iraq and ash-Sham (ISIS); the regional force withdrew in 2024, but the TPDF continues to maintain troops in Mozambique as part of a separate bilateral security agreement; since 2020, the TPDF has reinforced the border with Mozambique following several cross-border attacks by ISIS fighters (2024)",
-          "value": "the TDPF&rsquo;s primary concerns are maritime piracy and smuggling, border security, terrorism, animal poaching, and spillover from instability in neighboring countries, particularly Mozambique and the Democratic Republic of the Congo (DRC); it participates in multinational training exercises, regional peacekeeping deployments, and has ties with a variety of foreign militaries, including those of China, India, and the US; it has contributed troops to the UN&rsquo;s Force Intervention Brigade in the DRC; the TPDF also participated in the former Southern African Development Community intervention force in Mozambique, which assisted the Mozambique military in combating fighters affiliated with the Islamic State of Iraq and ash-Sham (ISIS); the regional force withdrew in 2024, but the TPDF continues to maintain troops in Mozambique as part of a separate bilateral security agreement; since 2020, the TPDF has reinforced the border with Mozambique following several cross-border attacks by ISIS fighters",
-          "info_date": "2024"
+          "content": "the chief concerns of the Tanzania Defense Forces (TDPF) are maritime piracy and smuggling, border security, terrorism, animal poaching, and spillover from instability in neighboring countries, particularly Mozambique and the Democratic Republic of the Congo (DRC); it participates in multinational training exercises, regional peacekeeping deployments, and has ties with a variety of foreign militaries, including those of China, India, and the US; it has contributed troops to the UN&rsquo;s Force Intervention Brigade in the DRC; the TPDF also participated in the former Southern African Development Community intervention force in Mozambique, which assisted the Mozambique military in combating fighters affiliated with the Islamic State of Iraq and ash-Sham (ISIS); the regional force withdrew in 2024, but the TPDF continues to maintain troops in Mozambique as part of a separate bilateral security agreement; since 2020, the TPDF has reinforced the border with Mozambique following several cross-border attacks by ISIS fighters (2025)",
+          "value": "the chief concerns of the Tanzania Defense Forces (TDPF) are maritime piracy and smuggling, border security, terrorism, animal poaching, and spillover from instability in neighboring countries, particularly Mozambique and the Democratic Republic of the Congo (DRC); it participates in multinational training exercises, regional peacekeeping deployments, and has ties with a variety of foreign militaries, including those of China, India, and the US; it has contributed troops to the UN&rsquo;s Force Intervention Brigade in the DRC; the TPDF also participated in the former Southern African Development Community intervention force in Mozambique, which assisted the Mozambique military in combating fighters affiliated with the Islamic State of Iraq and ash-Sham (ISIS); the regional force withdrew in 2024, but the TPDF continues to maintain troops in Mozambique as part of a separate bilateral security agreement; since 2020, the TPDF has reinforced the border with Mozambique following several cross-border attacks by ISIS fighters",
+          "info_date": "2025"
         }
       ]
     },

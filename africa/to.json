@@ -1,9 +1,9 @@
 {
   "name": "Togo",
   "code": "TO",
-  "published": "2025-07-30 00:17:02 -0400",
+  "published": "2025-08-06 00:14:04 -0400",
   "region": "Africa",
-  "updated": "2025-07-29 11:27:14 -0400",
+  "updated": "2025-08-05 15:33:00 -0400",
   "media": [
     {
       "type": "flag",
@@ -132,14 +132,14 @@
           "name": "Maritime claims",
           "field_id": 283,
           "comparative": false,
-          "content": "<strong>territorial sea: </strong>30 nm; note: the US does not recognize this claim<br><br><strong>exclusive economic zone: </strong>200 nm",
+          "content": "<strong>territorial sea: </strong>30 nm<br><br><strong>exclusive economic zone: </strong>200 nm<br><br><strong>note:</strong> the US does not recognize the territorial sea claim",
           "subfields": [
             {
               "name": "territorial sea",
-              "content": "30 nm; note: the US does not recognize this claim",
+              "content": "30 nm",
               "title": "territorial sea",
               "value": "30",
-              "subfield_note": "nm; note: the US does not recognize this claim"
+              "subfield_note": "nm"
             },
             {
               "name": "exclusive economic zone",
@@ -148,7 +148,8 @@
               "value": "200",
               "subfield_note": "nm"
             }
-          ]
+          ],
+          "field_note": "<strong>note:</strong> the US does not recognize the territorial sea claim"
         },
         {
           "name": "Climate",
@@ -270,7 +271,16 @@
         {
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
-          "content": "Atlantic Ocean drainage: Volta (410,991 sq km)"
+          "comparative": false,
+          "content": "<strong>Atlantic Ocean drainage: </strong>Volta (410,991 sq km)",
+          "subfields": [
+            {
+              "name": "Atlantic Ocean drainage",
+              "content": "Volta (410,991 sq km)",
+              "value": "Volta (410,991 sq km)",
+              "title": "Atlantic Ocean drainage"
+            }
+          ]
         },
         {
           "name": "Population distribution",
@@ -1923,8 +1933,15 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$25.75 billion (2023 est.)<br><br>$24.199 billion (2022 est.)<br><br>$22.881 billion (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
+          "content": "$27.115 billion (2024 est.)<br><br>$25.75 billion (2023 est.)<br><br>$24.199 billion (2022 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
+            {
+              "name": "Real GDP (purchasing power parity) 2024",
+              "content": "$27.115 billion (2024 est.)",
+              "value": "27115000000",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Real GDP (purchasing power parity) 2023",
               "content": "$25.75 billion (2023 est.)",
@@ -1938,13 +1955,6 @@
               "value": "24199000000",
               "estimated": true,
               "prefix": "$"
-            },
-            {
-              "name": "Real GDP (purchasing power parity) 2021",
-              "content": "$22.881 billion (2021 est.)",
-              "value": "22881000000",
-              "estimated": true,
-              "prefix": "$"
             }
           ],
           "field_note": "<b>note:</b> data in 2021 dollars"
@@ -1953,26 +1963,26 @@
           "name": "Real GDP growth rate",
           "field_id": 210,
           "comparative": true,
-          "content": "6.41% (2023 est.)<br><br>5.76% (2022 est.)<br><br>5.99% (2021 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
+          "content": "5.3% (2024 est.)<br><br>6.4% (2023 est.)<br><br>5.8% (2022 est.)<br><br><b>note:</b> annual GDP % growth based on constant local currency",
           "subfields": [
             {
+              "name": "Real GDP growth rate 2024",
+              "content": "5.3% (2024 est.)",
+              "value": "5.3",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
               "name": "Real GDP growth rate 2023",
-              "content": "6.41% (2023 est.)",
-              "value": "6.41",
+              "content": "6.4% (2023 est.)",
+              "value": "6.4",
               "estimated": true,
               "suffix": "%"
             },
             {
               "name": "Real GDP growth rate 2022",
-              "content": "5.76% (2022 est.)",
-              "value": "5.76",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Real GDP growth rate 2021",
-              "content": "5.99% (2021 est.)",
-              "value": "5.99",
+              "content": "5.8% (2022 est.)",
+              "value": "5.8",
               "estimated": true,
               "suffix": "%"
             }
@@ -1983,8 +1993,15 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$2,800 (2023 est.)<br><br>$2,700 (2022 est.)<br><br>$2,600 (2021 est.)<br><br><b>note:</b> data in 2021 dollars",
+          "content": "$2,800 (2024 est.)<br><br>$2,800 (2023 est.)<br><br>$2,700 (2022 est.)<br><br><b>note:</b> data in 2021 dollars",
           "subfields": [
+            {
+              "name": "Real GDP per capita 2024",
+              "content": "$2,800 (2024 est.)",
+              "value": "2800",
+              "estimated": true,
+              "prefix": "$"
+            },
             {
               "name": "Real GDP per capita 2023",
               "content": "$2,800 (2023 est.)",
@@ -1998,13 +2015,6 @@
               "value": "2700",
               "estimated": true,
               "prefix": "$"
-            },
-            {
-              "name": "Real GDP per capita 2021",
-              "content": "$2,600 (2021 est.)",
-              "value": "2600",
-              "estimated": true,
-              "prefix": "$"
             }
           ],
           "field_note": "<b>note:</b> data in 2021 dollars"
@@ -2013,10 +2023,10 @@
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$9.171 billion (2023 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "9171000000",
+          "content": "$9.926 billion (2024 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "9926000000",
           "estimated": true,
-          "info_date": "2023",
+          "info_date": "2024",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
         },
@@ -2024,26 +2034,26 @@
           "name": "Inflation rate (consumer prices)",
           "field_id": 229,
           "comparative": false,
-          "content": "5.5% (2023 est.)<br><br>8% (2022 est.)<br><br>4.2% (2021 est.)<br><br><b>note:</b> annual % change based on consumer prices",
+          "content": "2.9% (2024 est.)<br><br>5.3% (2023 est.)<br><br>7.6% (2022 est.)<br><br><b>note:</b> annual % change based on consumer prices",
           "subfields": [
             {
+              "name": "Inflation rate (consumer prices) 2024",
+              "content": "2.9% (2024 est.)",
+              "value": "2.9",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
               "name": "Inflation rate (consumer prices) 2023",
-              "content": "5.5% (2023 est.)",
-              "value": "5.5",
+              "content": "5.3% (2023 est.)",
+              "value": "5.3",
               "estimated": true,
               "suffix": "%"
             },
             {
               "name": "Inflation rate (consumer prices) 2022",
-              "content": "8% (2022 est.)",
-              "value": "8",
-              "estimated": true,
-              "suffix": "%"
-            },
-            {
-              "name": "Inflation rate (consumer prices) 2021",
-              "content": "4.2% (2021 est.)",
-              "value": "4.2",
+              "content": "7.6% (2022 est.)",
+              "value": "7.6",
               "estimated": true,
               "suffix": "%"
             }
@@ -2054,33 +2064,33 @@
           "name": "GDP - composition, by sector of origin",
           "field_id": 214,
           "comparative": false,
-          "content": "<strong>agriculture: </strong>18.1% (2023 est.)<br><br><strong>industry: </strong>20.2% (2023 est.)<br><br><strong>services: </strong>51.7% (2023 est.)<br><br><b>note:</b> figures may not total 100% due to non-allocated consumption not captured in sector-reported data",
+          "content": "<strong>agriculture: </strong>18% (2024 est.)<br><br><strong>industry: </strong>20% (2024 est.)<br><br><strong>services: </strong>52% (2024 est.)<br><br><b>note:</b> figures may not total 100% due to non-allocated consumption not captured in sector-reported data",
           "subfields": [
             {
               "name": "agriculture",
-              "content": "18.1% (2023 est.)",
+              "content": "18% (2024 est.)",
               "title": "agriculture",
-              "value": "18.1",
+              "value": "18",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "industry",
-              "content": "20.2% (2023 est.)",
+              "content": "20% (2024 est.)",
               "title": "industry",
-              "value": "20.2",
+              "value": "20",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "services",
-              "content": "51.7% (2023 est.)",
+              "content": "52% (2024 est.)",
               "title": "services",
-              "value": "51.7",
+              "value": "52",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             }
           ],
@@ -2090,60 +2100,60 @@
           "name": "GDP - composition, by end use",
           "field_id": 213,
           "comparative": false,
-          "content": "<strong>household consumption: </strong>78.1% (2023 est.)<br><br><strong>government consumption: </strong>12.6% (2023 est.)<br><br><strong>investment in fixed capital: </strong>23% (2023 est.)<br><br><strong>investment in inventories: </strong>0% (2023 est.)<br><br><strong>exports of goods and services: </strong>23.9% (2023 est.)<br><br><strong>imports of goods and services: </strong>-37.5% (2023 est.)<br><br><strong>note:</strong> figures may not total 100% due to rounding or gaps in data collection",
+          "content": "<strong>household consumption: </strong>78.3% (2024 est.)<br><br><strong>government consumption: </strong>13.1% (2024 est.)<br><br><strong>investment in fixed capital: </strong>22.3% (2024 est.)<br><br><strong>investment in inventories: </strong>0% (2024 est.)<br><br><strong>exports of goods and services: </strong>24.4% (2024 est.)<br><br><strong>imports of goods and services: </strong>-38.1% (2024 est.)<br><br><strong>note:</strong> figures may not total 100% due to rounding or gaps in data collection",
           "subfields": [
             {
               "name": "household consumption",
-              "content": "78.1% (2023 est.)",
+              "content": "78.3% (2024 est.)",
               "title": "household consumption",
-              "value": "78.1",
+              "value": "78.3",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "government consumption",
-              "content": "12.6% (2023 est.)",
+              "content": "13.1% (2024 est.)",
               "title": "government consumption",
-              "value": "12.6",
+              "value": "13.1",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "investment in fixed capital",
-              "content": "23% (2023 est.)",
+              "content": "22.3% (2024 est.)",
               "title": "investment in fixed capital",
-              "value": "23",
+              "value": "22.3",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "investment in inventories",
-              "content": "0% (2023 est.)",
+              "content": "0% (2024 est.)",
               "title": "investment in inventories",
               "value": "0",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "exports of goods and services",
-              "content": "23.9% (2023 est.)",
+              "content": "24.4% (2024 est.)",
               "title": "exports of goods and services",
-              "value": "23.9",
+              "value": "24.4",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             },
             {
               "name": "imports of goods and services",
-              "content": "-37.5% (2023 est.)",
+              "content": "-38.1% (2024 est.)",
               "title": "imports of goods and services",
-              "value": "-37.5",
+              "value": "-38.1",
               "estimated": true,
-              "info_date": "2023",
+              "info_date": "2024",
               "suffix": "%"
             }
           ],
@@ -2169,10 +2179,10 @@
           "name": "Industrial production growth rate",
           "field_id": 217,
           "comparative": true,
-          "content": "6.74% (2023 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
-          "value": "6.74",
+          "content": "4.2% (2024 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
+          "value": "4.2",
           "estimated": true,
-          "info_date": "2023",
+          "info_date": "2024",
           "suffix": "%",
           "field_note": "<b>note:</b> annual % change in industrial value added based on constant local currency"
         },
@@ -2190,19 +2200,19 @@
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": false,
-          "content": "1.9% (2024 est.)<br><br>1.9% (2023 est.)<br><br>2% (2022 est.)<br><br><b>note:</b> % of labor force seeking employment",
+          "content": "2% (2024 est.)<br><br>2% (2023 est.)<br><br>2% (2022 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
               "name": "Unemployment rate 2024",
-              "content": "1.9% (2024 est.)",
-              "value": "1.9",
+              "content": "2% (2024 est.)",
+              "value": "2",
               "estimated": true,
               "suffix": "%"
             },
             {
               "name": "Unemployment rate 2023",
-              "content": "1.9% (2023 est.)",
-              "value": "1.9",
+              "content": "2% (2023 est.)",
+              "value": "2",
               "estimated": true,
               "suffix": "%"
             },
@@ -2309,19 +2319,19 @@
           "name": "Remittances",
           "field_id": 449,
           "comparative": false,
-          "content": "7.09% of GDP (2023 est.)<br><br>7.96% of GDP (2022 est.)<br><br>7.8% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
+          "content": "7.1% of GDP (2023 est.)<br><br>8% of GDP (2022 est.)<br><br>7.8% of GDP (2021 est.)<br><br><b>note:</b> personal transfers and compensation between resident and non-resident individuals/households/entities",
           "subfields": [
             {
               "name": "Remittances 2023",
-              "content": "7.09% of GDP (2023 est.)",
-              "value": "7.09",
+              "content": "7.1% of GDP (2023 est.)",
+              "value": "7.1",
               "estimated": true,
               "suffix": "% of GDP"
             },
             {
               "name": "Remittances 2022",
-              "content": "7.96% of GDP (2022 est.)",
-              "value": "7.96",
+              "content": "8% of GDP (2022 est.)",
+              "value": "8",
               "estimated": true,
               "suffix": "% of GDP"
             },
@@ -2361,21 +2371,6 @@
             }
           ],
           "field_note": "<b>note:</b> central government revenues and expenses (excluding grants/extrabudgetary units/social security funds) converted to US dollars at average official exchange rate for year indicated"
-        },
-        {
-          "name": "Public debt",
-          "field_id": 227,
-          "comparative": true,
-          "content": "75.7% of GDP (2017 est.)",
-          "subfields": [
-            {
-              "name": "Public debt 2017",
-              "content": "75.7% of GDP (2017 est.)",
-              "value": "75.7",
-              "estimated": true,
-              "suffix": "% of GDP"
-            }
-          ]
         },
         {
           "name": "Taxes and other revenues",
@@ -2513,28 +2508,6 @@
           "value": "refined petroleum, garments, rice, palm oil, motorcycles and cycles",
           "info_date": "2023",
           "field_note": "<b>note:</b> top five import commodities based on value in dollars"
-        },
-        {
-          "name": "Reserves of foreign exchange and gold",
-          "field_id": 245,
-          "comparative": true,
-          "content": "$77.8 million (2017 est.)<br><br>$42.6 million (2016 est.)",
-          "subfields": [
-            {
-              "name": "Reserves of foreign exchange and gold 2017",
-              "content": "$77.8 million (2017 est.)",
-              "value": "77800000",
-              "estimated": true,
-              "prefix": "$"
-            },
-            {
-              "name": "Reserves of foreign exchange and gold 2016",
-              "content": "$42.6 million (2016 est.)",
-              "value": "42600000",
-              "estimated": true,
-              "prefix": "$"
-            }
-          ]
         },
         {
           "name": "Debt - external",
@@ -3152,8 +3125,8 @@
           "name": "Military and security service personnel strengths",
           "field_id": 410,
           "comparative": false,
-          "content": "estimated 15-20,000 active Armed Forces, including Gendarmerie (2025)",
-          "value": "estimated 15-20,000 active Armed Forces, including Gendarmerie",
+          "content": "estimated 20,000 active Armed Forces, including Gendarmerie (2025)",
+          "value": "estimated 20,000 active Armed Forces, including Gendarmerie",
           "info_date": "2025"
         },
         {
@@ -3177,9 +3150,9 @@
           "name": "Military - note",
           "field_id": 332,
           "comparative": false,
-          "content": "since its creation in 1963, the Togolese military has had a history of involvement in the country&rsquo;s politics with assassinations, coups, influence, and a crackdown in 2005 that killed hundreds of civilians; over the past decade, however, it has made some efforts to reform and professionalize, including increasing its role in UN peacekeeping activities, participating in multinational exercises, and receiving training from foreign partners, including France and the US; in addition, Togo has established a regional peacekeeping training center for military and police in Lome<br /><br />the FAT&rsquo;s primary concerns are terrorism and maritime security; in recent years, it has increased operations in the northern border region of the country to boost border security and prevent terrorist infiltrations from Jama'at Nasr al-Islam wal Muslimin (JNIM), a coalition of al-Qa'ida-affiliated militant groups based in Mali that also operates in neighboring Burkina Faso; in 2022, the Togolese Government declared a state of emergency in the north due to the threat from JNIM following an attack on a Togolese military post that killed several soldiers; northern Togo has also had problems with banditry, as well as arms, drugs, fuel, and gold smuggling, which has aggravated local disputes and provided terrorist groups with financial resources; the Navy and Air Force have increased focus on combating piracy and smuggling in the Gulf of Guinea (2024)",
-          "value": "since its creation in 1963, the Togolese military has had a history of involvement in the country&rsquo;s politics with assassinations, coups, influence, and a crackdown in 2005 that killed hundreds of civilians; over the past decade, however, it has made some efforts to reform and professionalize, including increasing its role in UN peacekeeping activities, participating in multinational exercises, and receiving training from foreign partners, including France and the US; in addition, Togo has established a regional peacekeeping training center for military and police in Lome<br /><br />the FAT&rsquo;s primary concerns are terrorism and maritime security; in recent years, it has increased operations in the northern border region of the country to boost border security and prevent terrorist infiltrations from Jama'at Nasr al-Islam wal Muslimin (JNIM), a coalition of al-Qa'ida-affiliated militant groups based in Mali that also operates in neighboring Burkina Faso; in 2022, the Togolese Government declared a state of emergency in the north due to the threat from JNIM following an attack on a Togolese military post that killed several soldiers; northern Togo has also had problems with banditry, as well as arms, drugs, fuel, and gold smuggling, which has aggravated local disputes and provided terrorist groups with financial resources; the Navy and Air Force have increased focus on combating piracy and smuggling in the Gulf of Guinea",
-          "info_date": "2024"
+          "content": "the responsibilities of the Togolese Armed Forces (FAT) included both external defense and internal security; the FAT&rsquo;s primary concerns are border security, terrorism, and maritime security; in recent years, it has boosted operations in the northern border region of the country to secure the frontier and prevent banditry, illicit smuggling, and infiltrations from Jama'at Nasr al-Islam wal Muslimin (JNIM), a coalition of al-Qa'ida-affiliated militant groups based in Mali that also operates in neighboring Burkina Faso; in 2022, the Togolese Government declared a state of emergency in the north following an attack by JNIM fighters on a Togolese military post that killed several soldiers; the Navy and Air Force have increased focus on combating piracy and smuggling in the Gulf of Guinea<br /><br />since its creation in 1963, the Togolese military has had a history of involvement in the country&rsquo;s politics, including assassinations, coups, and a crackdown in 2005 that killed hundreds of civilians; over the past decade, it has made some efforts to reform and professionalize, which have included increasing its role in UN peacekeeping activities, participating in multinational exercises, and receiving training from foreign partners, particularly France and the US; in addition, Togo has established a regional peacekeeping training center for military and police in Lome (2025)",
+          "value": "the responsibilities of the Togolese Armed Forces (FAT) included both external defense and internal security; the FAT&rsquo;s primary concerns are border security, terrorism, and maritime security; in recent years, it has boosted operations in the northern border region of the country to secure the frontier and prevent banditry, illicit smuggling, and infiltrations from Jama'at Nasr al-Islam wal Muslimin (JNIM), a coalition of al-Qa'ida-affiliated militant groups based in Mali that also operates in neighboring Burkina Faso; in 2022, the Togolese Government declared a state of emergency in the north following an attack by JNIM fighters on a Togolese military post that killed several soldiers; the Navy and Air Force have increased focus on combating piracy and smuggling in the Gulf of Guinea<br /><br />since its creation in 1963, the Togolese military has had a history of involvement in the country&rsquo;s politics, including assassinations, coups, and a crackdown in 2005 that killed hundreds of civilians; over the past decade, it has made some efforts to reform and professionalize, which have included increasing its role in UN peacekeeping activities, participating in multinational exercises, and receiving training from foreign partners, particularly France and the US; in addition, Togo has established a regional peacekeeping training center for military and police in Lome",
+          "info_date": "2025"
         }
       ]
     },

@@ -1,9 +1,9 @@
 {
   "name": "Venezuela",
   "code": "VE",
-  "published": "2025-07-30 00:18:30 -0400",
+  "published": "2025-08-06 00:15:20 -0400",
   "region": "South America",
-  "updated": "2025-07-29 11:27:13 -0400",
+  "updated": "2025-08-05 15:33:01 -0400",
   "media": [
     {
       "type": "flag",
@@ -360,7 +360,16 @@
         {
           "name": "Major watersheds (area sq km)",
           "field_id": 429,
-          "content": "Atlantic Ocean drainage: Amazon (6,145,186 sq km), Orinoco (953,675 sq km)"
+          "comparative": false,
+          "content": "<strong>Atlantic Ocean drainage: </strong>Amazon (6,145,186 sq km), Orinoco (953,675 sq km)",
+          "subfields": [
+            {
+              "name": "Atlantic Ocean drainage",
+              "content": "Amazon (6,145,186 sq km), Orinoco (953,675 sq km)",
+              "value": "Amazon (6,145,186 sq km), Orinoco (953,675 sq km)",
+              "title": "Atlantic Ocean drainage"
+            }
+          ]
         },
         {
           "name": "Population distribution",
@@ -1918,105 +1927,6 @@
           "field_note": "<b>note:</b> annual % change based on consumer prices"
         },
         {
-          "name": "GDP - composition, by sector of origin",
-          "field_id": 214,
-          "comparative": false,
-          "content": "<strong>agriculture: </strong>5% (2014 est.)<br><br><strong>industry: </strong>37.2% (2014 est.)<br><br><strong>services: </strong>51.7% (2014 est.)<br><br><b>note:</b> figures may not total 100% due to non-allocated consumption not captured in sector-reported data",
-          "subfields": [
-            {
-              "name": "agriculture",
-              "content": "5% (2014 est.)",
-              "title": "agriculture",
-              "value": "5",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
-            },
-            {
-              "name": "industry",
-              "content": "37.2% (2014 est.)",
-              "title": "industry",
-              "value": "37.2",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
-            },
-            {
-              "name": "services",
-              "content": "51.7% (2014 est.)",
-              "title": "services",
-              "value": "51.7",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
-            }
-          ],
-          "field_note": "<b>note:</b> figures may not total 100% due to non-allocated consumption not captured in sector-reported data"
-        },
-        {
-          "name": "GDP - composition, by end use",
-          "field_id": 213,
-          "comparative": false,
-          "content": "<strong>household consumption: </strong>75.3% (2014 est.)<br><br><strong>government consumption: </strong>14.6% (2014 est.)<br><br><strong>investment in fixed capital: </strong>21.6% (2014 est.)<br><br><strong>investment in inventories: </strong>3.2% (2014 est.)<br><br><strong>exports of goods and services: </strong>16.7% (2014 est.)<br><br><strong>imports of goods and services: </strong>-31.4% (2014 est.)<br><br><b>note:</b> figures may not total 100% due to rounding or gaps in data collection",
-          "subfields": [
-            {
-              "name": "household consumption",
-              "content": "75.3% (2014 est.)",
-              "title": "household consumption",
-              "value": "75.3",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
-            },
-            {
-              "name": "government consumption",
-              "content": "14.6% (2014 est.)",
-              "title": "government consumption",
-              "value": "14.6",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
-            },
-            {
-              "name": "investment in fixed capital",
-              "content": "21.6% (2014 est.)",
-              "title": "investment in fixed capital",
-              "value": "21.6",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
-            },
-            {
-              "name": "investment in inventories",
-              "content": "3.2% (2014 est.)",
-              "title": "investment in inventories",
-              "value": "3.2",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
-            },
-            {
-              "name": "exports of goods and services",
-              "content": "16.7% (2014 est.)",
-              "title": "exports of goods and services",
-              "value": "16.7",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
-            },
-            {
-              "name": "imports of goods and services",
-              "content": "-31.4% (2014 est.)",
-              "title": "imports of goods and services",
-              "value": "-31.4",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
-            }
-          ],
-          "field_note": "<b>note:</b> figures may not total 100% due to rounding or gaps in data collection"
-        },
-        {
           "name": "Agricultural products",
           "field_id": 215,
           "comparative": false,
@@ -2033,17 +1943,6 @@
           "value": "agricultural products, livestock, raw materials, machinery and equipment, transport equipment, construction materials, medical equipment, pharmaceuticals, chemicals, iron and steel products, crude oil and petroleum products"
         },
         {
-          "name": "Industrial production growth rate",
-          "field_id": 217,
-          "comparative": true,
-          "content": "-5.84% (2014 est.)<br><br><b>note:</b> annual % change in industrial value added based on constant local currency",
-          "value": "-5.84",
-          "estimated": true,
-          "info_date": "2014",
-          "suffix": "%",
-          "field_note": "<b>note:</b> annual % change in industrial value added based on constant local currency"
-        },
-        {
           "name": "Labor force",
           "field_id": 218,
           "comparative": true,
@@ -2057,7 +1956,7 @@
           "name": "Unemployment rate",
           "field_id": 220,
           "comparative": false,
-          "content": "5.5% (2024 est.)<br><br>5.5% (2023 est.)<br><br>5.7% (2022 est.)<br><br><b>note:</b> % of labor force seeking employment",
+          "content": "5.5% (2024 est.)<br><br>5.5% (2023 est.)<br><br>5.8% (2022 est.)<br><br><b>note:</b> % of labor force seeking employment",
           "subfields": [
             {
               "name": "Unemployment rate 2024",
@@ -2075,8 +1974,8 @@
             },
             {
               "name": "Unemployment rate 2022",
-              "content": "5.7% (2022 est.)",
-              "value": "5.7",
+              "content": "5.8% (2022 est.)",
+              "value": "5.8",
               "estimated": true,
               "suffix": "%"
             }
@@ -2157,22 +2056,6 @@
           ]
         },
         {
-          "name": "Remittances",
-          "field_id": 449,
-          "comparative": false,
-          "content": "0.03% of GDP (2014 est.)<br><br><strong>note:</strong> personal transfers and compensation between resident and non-resident individuals/households/entities",
-          "subfields": [
-            {
-              "name": "Remittances 2014",
-              "content": "0.03% of GDP (2014 est.)",
-              "value": "0.03",
-              "estimated": true,
-              "suffix": "% of GDP"
-            }
-          ],
-          "field_note": "<strong>note:</strong> personal transfers and compensation between resident and non-resident individuals/households/entities"
-        },
-        {
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
@@ -2213,16 +2096,6 @@
             }
           ],
           "field_note": "<strong>note:</strong> data cover central government debt, as well as the debt of state-owned oil company PDVSA; the data include treasury debt held by foreign entities; the data include some debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; some debt instruments for the social funds are sold at public auctions"
-        },
-        {
-          "name": "Taxes and other revenues",
-          "field_id": 225,
-          "comparative": false,
-          "content": "44.2% (of GDP) (2017 est.)",
-          "value": "44.2",
-          "estimated": true,
-          "info_date": "2017",
-          "suffix": "% (of GDP)"
         },
         {
           "name": "Current account balance",
