@@ -1,14 +1,14 @@
 {
   "name": "Macau",
   "code": "MC",
-  "published": "2025-08-02 00:10:28 -0400",
+  "published": "2025-10-01 00:05:38 -0400",
   "region": "East and Southeast Asia",
-  "updated": "2025-08-01 12:48:49 -0400",
+  "updated": "2025-09-30 23:00:33 -0400",
   "media": [
     {
       "type": "flag",
       "src": "/attachments/flags/MC-flag.jpg",
-      "caption": "green with a lotus flower above a stylized bridge and water in white, under an arc of five five-pointed gold stars; the lotus is the national floral emblem, and the three petals represent the country's peninsula and two islands; the five stars echo those on the Chinese flag"
+      "caption": ""
     },
     {
       "type": "map",
@@ -26,7 +26,7 @@
     {
       "type": "photo",
       "src": "/attachments/images/original/MC_002_large.jpg",
-      "category": "Capital",
+      "category": null,
       "alt": "Senate Square in Macau, with the Leal Senado (Loyal Senate) building on the right.",
       "caption": "Senate Square in Macau, with the Leal Senado (Loyal Senate) building on the right.",
       "position": 0
@@ -34,7 +34,7 @@
     {
       "type": "photo",
       "src": "/attachments/images/original/MC_001_large.jpg",
-      "category": "Capital",
+      "category": null,
       "alt": "Senado Square (Senate Square) in Macau, with its distinctive tiled patterned pavement.",
       "caption": "Senado Square (Senate Square) in Macau, with its distinctive tiled patterned pavement.",
       "position": 1
@@ -393,7 +393,7 @@
             {
               "type": "image",
               "src": "/attachments/images/original/mc_popgraph2024.jpeg",
-              "alt": "2024 population pyramid",
+              "alt": "This is the population pyramid for Macau. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
               "caption": "This is the population pyramid for Macau. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
               "position": 0
             }
@@ -678,58 +678,15 @@
           "info_date": "2024"
         },
         {
-          "name": "Contraceptive prevalence rate",
-          "field_id": 357,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
-          "content": "urban: 100% of population<br><br>rural: NA<br><br>total: 100% of population<br><br>urban: 0% of population<br><br>rural: NA<br><br>total: 0% of population (2020)",
+          "content": "urban: 100% of population",
           "subfields": [
             {
               "name": "improved: urban",
               "content": "urban: 100% of population",
               "value": "100",
-              "suffix": "% of population"
-            },
-            {
-              "name": "improved: rural",
-              "content": "rural: NA",
-              "value": "100",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "improved: total",
-              "content": "total: 100% of population",
-              "value": "100",
-              "suffix": "% of population"
-            },
-            {
-              "name": "unimproved: urban",
-              "content": "urban: 0% of population",
-              "value": "0",
-              "suffix": "% of population"
-            },
-            {
-              "name": "unimproved: rural",
-              "content": "rural: NA",
-              "value": "0",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
-              "name": "unimproved: total",
-              "content": "total: 0% of population (2020)",
-              "value": "0",
-              "estimated": false,
-              "info_date": "2020",
               "suffix": "% of population"
             }
           ]
@@ -867,19 +824,45 @@
           ]
         },
         {
-          "name": "Air pollutants",
-          "field_id": 416,
+          "name": "Carbon dioxide emissions",
+          "field_id": 274,
           "comparative": false,
-          "content": "<strong>carbon dioxide emissions: </strong>2.07 megatons (2016 est.)",
+          "content": "1.595 million metric tonnes of CO2 (2023 est.)<br><br><strong>from coal and metallurgical coke: </strong>-1,239 metric tonnes of CO2 (2023 est.)<br><br><strong>from petroleum and other liquids: </strong>1.358 million metric tonnes of CO2 (2023 est.)<br><br><strong>from consumed natural gas: </strong>238,000 metric tonnes of CO2 (2023 est.)",
           "subfields": [
             {
-              "name": "carbon dioxide emissions",
-              "content": "2.07 megatons (2016 est.)",
-              "title": "carbon dioxide emissions",
-              "value": "2.07",
+              "name": "total emissions",
+              "content": "1.595 million metric tonnes of CO2 (2023 est.)",
+              "value": "1595000",
               "estimated": true,
-              "info_date": "2016",
-              "suffix": "megatons"
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "from coal and metallurgical coke",
+              "content": "-1,239 metric tonnes of CO2 (2023 est.)",
+              "title": "from coal and metallurgical coke",
+              "value": "-1239",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "from petroleum and other liquids",
+              "content": "1.358 million metric tonnes of CO2 (2023 est.)",
+              "title": "from petroleum and other liquids",
+              "value": "1358000",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "from consumed natural gas",
+              "content": "238,000 metric tonnes of CO2 (2023 est.)",
+              "title": "from consumed natural gas",
+              "value": "238000",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
             }
           ]
         },
@@ -887,34 +870,16 @@
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
-          "content": "<strong>municipal solid waste generated annually: </strong>377,942 tons (2016 est.)<br><br><strong>municipal solid waste recycled annually: </strong>75,588 tons (2014 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>20% (2014 est.)",
+          "content": "<strong>municipal solid waste generated annually: </strong>377,900 tons (2024 est.)",
           "subfields": [
             {
               "name": "municipal solid waste generated annually",
-              "content": "377,942 tons (2016 est.)",
+              "content": "377,900 tons (2024 est.)",
               "title": "municipal solid waste generated annually",
-              "value": "377942",
+              "value": "377900",
               "estimated": true,
-              "info_date": "2016",
+              "info_date": "2024",
               "suffix": "tons"
-            },
-            {
-              "name": "municipal solid waste recycled annually",
-              "content": "75,588 tons (2014 est.)",
-              "title": "municipal solid waste recycled annually",
-              "value": "75588",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "tons"
-            },
-            {
-              "name": "percent of municipal solid waste recycled",
-              "content": "20% (2014 est.)",
-              "title": "percent of municipal solid waste recycled",
-              "value": "20",
-              "estimated": true,
-              "info_date": "2014",
-              "suffix": "%"
             }
           ]
         }
@@ -1212,11 +1177,11 @@
           "field_note": "<strong>note:</strong>&nbsp;20 December (1999) is celebrated as Macau Special Administrative Region Establishment Day"
         },
         {
-          "name": "Flag description",
+          "name": "Flag",
           "field_id": 320,
           "comparative": false,
-          "content": "green with a lotus flower above a stylized bridge and water in white, under an arc of five five-pointed gold stars; the lotus is the national floral emblem, and the three petals represent the country's peninsula and two islands; the five stars echo those on the Chinese flag",
-          "value": "green with a lotus flower above a stylized bridge and water in white, under an arc of five five-pointed gold stars; the lotus is the national floral emblem, and the three petals represent the country's peninsula and two islands; the five stars echo those on the Chinese flag"
+          "content": "<strong>description:</strong> green with a lotus flower above a stylized bridge and water in white, under an arc of five five-pointed gold stars<br /><br /><strong>meaning:</strong> the lotus is the national floral emblem, and the three petals represent the country's peninsula and two islands; the five stars echo the Chinese flag",
+          "value": "<strong>description:</strong> green with a lotus flower above a stylized bridge and water in white, under an arc of five five-pointed gold stars<br /><br /><strong>meaning:</strong> the lotus is the national floral emblem, and the three petals represent the country's peninsula and two islands; the five stars echo the Chinese flag"
         },
         {
           "name": "National symbol(s)",
@@ -1261,7 +1226,7 @@
             {
               "type": "audio",
               "src": "/attachments/audios/original/MC.mp3",
-              "alt": "",
+              "alt": "This is an audio of the National Anthem for Macau. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
               "caption": "This is an audio of the National Anthem for Macau. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
               "position": 0
             }
@@ -1638,28 +1603,43 @@
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
-          "content": "<strong>revenues: </strong>$5.135 billion (2022 est.)<br><br><strong>expenditures: </strong>$12.259 billion (2022 est.)<br><br><b>note:</b> central government revenues (excluding grants) and expenses converted to US dollars at average official exchange rate for year indicated",
+          "content": "<strong>revenues: </strong>$12.513 billion (2023 est.)<br><br><strong>expenditures: </strong>$11.509 billion (2023 est.)<br><br><b>note:</b> central government revenues (excluding grants) and expenditures converted to US dollars at average official exchange rate for year indicated",
           "subfields": [
             {
               "name": "revenues",
-              "content": "$5.135 billion (2022 est.)",
+              "content": "$12.513 billion (2023 est.)",
               "title": "revenues",
-              "value": "5135000000",
+              "value": "12513000000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "prefix": "$"
             },
             {
               "name": "expenditures",
-              "content": "$12.259 billion (2022 est.)",
+              "content": "$11.509 billion (2023 est.)",
               "title": "expenditures",
-              "value": "12259000000",
+              "value": "11509000000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> central government revenues (excluding grants) and expenses converted to US dollars at average official exchange rate for year indicated"
+          "field_note": "<b>note:</b> central government revenues (excluding grants) and expenditures converted to US dollars at average official exchange rate for year indicated"
+        },
+        {
+          "name": "Public debt",
+          "field_id": 227,
+          "comparative": true,
+          "content": "0% of GDP (2016 est.)",
+          "subfields": [
+            {
+              "name": "Public debt 2016",
+              "content": "0% of GDP (2016 est.)",
+              "value": "0",
+              "estimated": true,
+              "suffix": "% of GDP"
+            }
+          ]
         },
         {
           "name": "Taxes and other revenues",
@@ -2034,49 +2014,6 @@
           ]
         },
         {
-          "name": "Carbon dioxide emissions",
-          "field_id": 274,
-          "comparative": false,
-          "content": "1.595 million metric tonnes of CO2 (2023 est.)<br><br><strong>from coal and metallurgical coke: </strong>-1,239 metric tonnes of CO2 (2023 est.)<br><br><strong>from petroleum and other liquids: </strong>1.358 million metric tonnes of CO2 (2023 est.)<br><br><strong>from consumed natural gas: </strong>238,000 metric tonnes of CO2 (2023 est.)",
-          "subfields": [
-            {
-              "name": "total emissions",
-              "content": "1.595 million metric tonnes of CO2 (2023 est.)",
-              "value": "1595000",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            },
-            {
-              "name": "from coal and metallurgical coke",
-              "content": "-1,239 metric tonnes of CO2 (2023 est.)",
-              "title": "from coal and metallurgical coke",
-              "value": "-1239",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            },
-            {
-              "name": "from petroleum and other liquids",
-              "content": "1.358 million metric tonnes of CO2 (2023 est.)",
-              "title": "from petroleum and other liquids",
-              "value": "1358000",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            },
-            {
-              "name": "from consumed natural gas",
-              "content": "238,000 metric tonnes of CO2 (2023 est.)",
-              "title": "from consumed natural gas",
-              "value": "238000",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            }
-          ]
-        },
-        {
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
@@ -2336,12 +2273,12 @@
           "name": "Trafficking in persons",
           "field_id": 328,
           "comparative": false,
-          "content": "<strong>tier rating: </strong>Tier 3 &mdash; Macau does not fully meet the minimum standards for the elimination of trafficking and is not making significant efforts to do so, therefore, Macau remained on Tier 3; for more details, go to:&nbsp; <a href=\"https://www.state.gov/reports/2024-trafficking-in-persons-report/macau/\">https://www.state.gov/reports/2024-trafficking-in-persons-report/macau/</a>",
+          "content": "<strong>tier rating: </strong>Tier 3 &mdash; Macau does not fully meet the minimum standards for the elimination of trafficking and is not making significant efforts to do so, therefore, Macau remained on Tier 3; for more details, go to: <a href=\"https://www.state.gov/reports/2025-trafficking-in-persons-report/macau\">https://www.state.gov/reports/2025-trafficking-in-persons-report/macau</a>",
           "subfields": [
             {
               "name": "tier rating",
-              "content": "Tier 3 &mdash; Macau does not fully meet the minimum standards for the elimination of trafficking and is not making significant efforts to do so, therefore, Macau remained on Tier 3; for more details, go to:&nbsp; <a href=\"https://www.state.gov/reports/2024-trafficking-in-persons-report/macau/\">https://www.state.gov/reports/2024-trafficking-in-persons-report/macau/</a>",
-              "value": "Tier 3 &mdash; Macau does not fully meet the minimum standards for the elimination of trafficking and is not making significant efforts to do so, therefore, Macau remained on Tier 3; for more details, go to:&nbsp; <a href=\"https://www.state.gov/reports/2024-trafficking-in-persons-report/macau/\">https://www.state.gov/reports/2024-trafficking-in-persons-report/macau/</a>",
+              "content": "Tier 3 &mdash; Macau does not fully meet the minimum standards for the elimination of trafficking and is not making significant efforts to do so, therefore, Macau remained on Tier 3; for more details, go to: <a href=\"https://www.state.gov/reports/2025-trafficking-in-persons-report/macau\">https://www.state.gov/reports/2025-trafficking-in-persons-report/macau</a>",
+              "value": "Tier 3 &mdash; Macau does not fully meet the minimum standards for the elimination of trafficking and is not making significant efforts to do so, therefore, Macau remained on Tier 3; for more details, go to: <a href=\"https://www.state.gov/reports/2025-trafficking-in-persons-report/macau\">https://www.state.gov/reports/2025-trafficking-in-persons-report/macau</a>",
               "title": "tier rating"
             }
           ]

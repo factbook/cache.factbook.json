@@ -1,14 +1,14 @@
 {
   "name": "Armenia",
   "code": "AM",
-  "published": "2025-08-13 00:00:33 -0400",
+  "published": "2025-09-24 00:00:10 -0400",
   "region": "Central Asia",
-  "updated": "2025-08-12 09:36:25 -0400",
+  "updated": "2025-09-23 13:57:51 -0400",
   "media": [
     {
       "type": "flag",
       "src": "/attachments/flags/AM-flag.jpg",
-      "caption": "three equal horizontal bands of red (top), blue, and orange; the color red stands for the blood shed for liberty, blue for the Armenian skies and hope, and orange for the land and the courage of the workers who farm it"
+      "caption": ""
     },
     {
       "type": "map",
@@ -26,7 +26,7 @@
     {
       "type": "photo",
       "src": "/attachments/images/original/AM_002_large.JPG",
-      "category": "Landscapes",
+      "category": null,
       "alt": "A view of Mount Ararat in western Turkey through the fog. The highest of its two peaks, Greater Ararat, is the tallest mountain in Turkey at 5,166 m (16,949 ft). Although located some 32 km (20 mi) from the Armenian border, the dormant volcano dominates the skyline of Yerevan, Armenia&apos;s capital. This photo was snapped after take-off from the Yerevan airport.",
       "caption": "A view of Mount Ararat in western Turkey through the fog. The highest of its two peaks, Greater Ararat, is the tallest mountain in Turkey at 5,166 m (16,949 ft). Although located some 32 km (20 mi) from the Armenian border, the dormant volcano dominates the skyline of Yerevan, Armenia&apos;s capital. This photo was snapped after take-off from the Yerevan airport.",
       "position": 0
@@ -110,7 +110,7 @@
             {
               "type": "image",
               "src": "/attachments/images/original/AM_area.jpg",
-              "alt": "Area comparison map",
+              "alt": "<p>slightly smaller than Maryland</p>",
               "caption": "<p>slightly smaller than Maryland</p>",
               "position": 0
             }
@@ -439,7 +439,7 @@
             {
               "type": "image",
               "src": "/attachments/images/original/am_popgraph2024.jpeg",
-              "alt": "2024 population pyramid",
+              "alt": "This is the population pyramid for Armenia. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
               "caption": "This is the population pyramid for Armenia. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
               "position": 0
             }
@@ -744,57 +744,57 @@
           "info_date": "2024"
         },
         {
-          "name": "Contraceptive prevalence rate",
-          "field_id": 357,
-          "comparative": false,
-          "content": "57.1% (2015/16)",
-          "value": "57.1",
-          "estimated": false,
-          "info_date": "2015/16",
-          "suffix": "%"
-        },
-        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
-          "content": "urban: 100% of population<br><br>rural: 100% of population<br><br>total: 100% of population<br><br>urban: 0% of population<br><br>rural: 0% of population<br><br>total: 0% of population (2020 est.)",
+          "content": "urban: 100% of population (2022 est.)<br><br>rural: 100% of population (2022 est.)<br><br>total: 100% of population (2022 est.)<br><br>urban: 0% of population (2022 est.)<br><br>rural: 0% of population (2022 est.)<br><br>total: 0% of population (2022 est.)",
           "subfields": [
             {
               "name": "improved: urban",
-              "content": "urban: 100% of population",
+              "content": "urban: 100% of population (2022 est.)",
               "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "improved: rural",
-              "content": "rural: 100% of population",
+              "content": "rural: 100% of population (2022 est.)",
               "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "improved: total",
-              "content": "total: 100% of population",
+              "content": "total: 100% of population (2022 est.)",
               "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: urban",
-              "content": "urban: 0% of population",
+              "content": "urban: 0% of population (2022 est.)",
               "value": "0",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: rural",
-              "content": "rural: 0% of population",
+              "content": "rural: 0% of population (2022 est.)",
               "value": "0",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: total",
-              "content": "total: 0% of population (2020 est.)",
+              "content": "total: 0% of population (2022 est.)",
               "value": "0",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of population"
             }
           ]
@@ -847,44 +847,54 @@
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
-          "content": "urban: 100% of population<br><br>rural: 84.6% of population<br><br>total: 94.4% of population<br><br>urban: 0% of population<br><br>rural: 15.4% of population<br><br>total: 5.6% of population (2020 est.)",
+          "content": "urban: 100% of population (2022 est.)<br><br>rural: 84.6% of population (2022 est.)<br><br>total: 94.4% of population (2022 est.)<br><br>urban: 0% of population (2022 est.)<br><br>rural: 15.4% of population (2022 est.)<br><br>total: 5.6% of population (2022 est.)",
           "subfields": [
             {
               "name": "improved: urban",
-              "content": "urban: 100% of population",
+              "content": "urban: 100% of population (2022 est.)",
               "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "improved: rural",
-              "content": "rural: 84.6% of population",
+              "content": "rural: 84.6% of population (2022 est.)",
               "value": "84.6",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "improved: total",
-              "content": "total: 94.4% of population",
+              "content": "total: 94.4% of population (2022 est.)",
               "value": "94.4",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: urban",
-              "content": "urban: 0% of population",
+              "content": "urban: 0% of population (2022 est.)",
               "value": "0",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: rural",
-              "content": "rural: 15.4% of population",
+              "content": "rural: 15.4% of population (2022 est.)",
               "value": "15.4",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: total",
-              "content": "total: 5.6% of population (2020 est.)",
+              "content": "total: 5.6% of population (2022 est.)",
               "value": "5.6",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of population"
             }
           ]
@@ -1262,54 +1272,81 @@
           ]
         },
         {
-          "name": "Air pollutants",
-          "field_id": 416,
+          "name": "Carbon dioxide emissions",
+          "field_id": 274,
           "comparative": false,
-          "content": "<strong>particulate matter emissions: </strong>34.13 micrograms per cubic meter (2019 est.)<br><br><strong>carbon dioxide emissions: </strong>5.16 megatons (2016 est.)<br><br><strong>methane emissions: </strong>2.91 megatons (2020 est.)",
+          "content": "7.144 million metric tonnes of CO2 (2023 est.)<br><br><strong>from coal and metallurgical coke: </strong>48,000 metric tonnes of CO2 (2023 est.)<br><br><strong>from petroleum and other liquids: </strong>1.934 million metric tonnes of CO2 (2023 est.)<br><br><strong>from consumed natural gas: </strong>5.162 million metric tonnes of CO2 (2023 est.)",
           "subfields": [
             {
-              "name": "particulate matter emissions",
-              "content": "34.13 micrograms per cubic meter (2019 est.)",
-              "title": "particulate matter emissions",
-              "value": "34.13",
+              "name": "total emissions",
+              "content": "7.144 million metric tonnes of CO2 (2023 est.)",
+              "value": "7144000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "micrograms per cubic meter"
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
             },
             {
-              "name": "carbon dioxide emissions",
-              "content": "5.16 megatons (2016 est.)",
-              "title": "carbon dioxide emissions",
-              "value": "5.16",
+              "name": "from coal and metallurgical coke",
+              "content": "48,000 metric tonnes of CO2 (2023 est.)",
+              "title": "from coal and metallurgical coke",
+              "value": "48000",
               "estimated": true,
-              "info_date": "2016",
-              "suffix": "megatons"
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
             },
             {
-              "name": "methane emissions",
-              "content": "2.91 megatons (2020 est.)",
-              "title": "methane emissions",
-              "value": "2.91",
+              "name": "from petroleum and other liquids",
+              "content": "1.934 million metric tonnes of CO2 (2023 est.)",
+              "title": "from petroleum and other liquids",
+              "value": "1934000",
               "estimated": true,
-              "info_date": "2020",
-              "suffix": "megatons"
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
+            },
+            {
+              "name": "from consumed natural gas",
+              "content": "5.162 million metric tonnes of CO2 (2023 est.)",
+              "title": "from consumed natural gas",
+              "value": "5162000",
+              "estimated": true,
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
             }
           ]
+        },
+        {
+          "name": "Particulate matter emissions",
+          "field_id": 472,
+          "comparative": false,
+          "content": "28.4 micrograms per cubic meter (2019 est.)",
+          "value": "28.4",
+          "estimated": true,
+          "info_date": "2019",
+          "suffix": "micrograms per cubic meter"
         },
         {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
-          "content": "<strong>municipal solid waste generated annually: </strong>492,800 tons (2014 est.)",
+          "content": "<strong>municipal solid waste generated annually: </strong>492,800 tons (2024 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>13.5% (2022 est.)",
           "subfields": [
             {
               "name": "municipal solid waste generated annually",
-              "content": "492,800 tons (2014 est.)",
+              "content": "492,800 tons (2024 est.)",
               "title": "municipal solid waste generated annually",
               "value": "492800",
               "estimated": true,
-              "info_date": "2014",
+              "info_date": "2024",
               "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "13.5% (2022 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "13.5",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "%"
             }
           ]
         },
@@ -1317,33 +1354,33 @@
           "name": "Total water withdrawal",
           "field_id": 417,
           "comparative": false,
-          "content": "<strong>municipal: </strong>650 million cubic meters (2020 est.)<br><br><strong>industrial: </strong>190 million cubic meters (2020 est.)<br><br><strong>agricultural: </strong>1.99 billion cubic meters (2020 est.)",
+          "content": "<strong>municipal: </strong>542 million cubic meters (2022)<br><br><strong>industrial: </strong>150 million cubic meters (2022)<br><br><strong>agricultural: </strong>2.38 billion cubic meters (2022)",
           "subfields": [
             {
               "name": "municipal",
-              "content": "650 million cubic meters (2020 est.)",
+              "content": "542 million cubic meters (2022)",
               "title": "municipal",
-              "value": "650000000",
-              "estimated": true,
-              "info_date": "2020",
+              "value": "542000000",
+              "estimated": false,
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "industrial",
-              "content": "190 million cubic meters (2020 est.)",
+              "content": "150 million cubic meters (2022)",
               "title": "industrial",
-              "value": "190000000",
-              "estimated": true,
-              "info_date": "2020",
+              "value": "150000000",
+              "estimated": false,
+              "info_date": "2022",
               "suffix": "cubic meters"
             },
             {
               "name": "agricultural",
-              "content": "1.99 billion cubic meters (2020 est.)",
+              "content": "2.38 billion cubic meters (2022)",
               "title": "agricultural",
-              "value": "1990000000",
-              "estimated": true,
-              "info_date": "2020",
+              "value": "2380000000",
+              "estimated": false,
+              "info_date": "2022",
               "suffix": "cubic meters"
             }
           ]
@@ -1352,10 +1389,10 @@
           "name": "Total renewable water resources",
           "field_id": 290,
           "comparative": false,
-          "content": "7.77 billion cubic meters (2020 est.)",
-          "value": "7770000000",
+          "content": "7.769 billion cubic meters (2022 est.)",
+          "value": "7769000000",
           "estimated": true,
-          "info_date": "2020",
+          "info_date": "2022",
           "suffix": "cubic meters"
         }
       ]
@@ -1685,12 +1722,12 @@
           "name": "Diplomatic representation in the US",
           "field_id": 318,
           "comparative": false,
-          "content": "<strong>chief of mission: </strong>Ambassador Lilit MAKUNTS (since 15 September 2021)<br><br><strong>chancery: </strong>2225 R Street NW, Washington, DC 20008<br><br><strong>telephone: </strong>[1] (202) 319-1976<br><br><strong>FAX: </strong>[1] (202) 319-2982<br><br><strong>email address and website: </strong>armembassyusa@mfa.am<br /><br /><a href=\"https://usa.mfa.am/en/\" target=\"_blank\" rel=\"noopener\">https://usa.mfa.am/en/</a><br><br><strong>consulate(s) general: </strong>Glendale (CA)",
+          "content": "<strong>chief of mission: </strong>Ambassador Narek MKRTCHYAN (since 19 September 2025)<br><br><strong>chancery: </strong>2225 R Street NW, Washington, DC 20008<br><br><strong>telephone: </strong>[1] (202) 319-1976<br><br><strong>FAX: </strong>[1] (202) 319-2982<br><br><strong>email address and website: </strong>armembassyusa@mfa.am<br /><br /><a href=\"https://usa.mfa.am/en/\" target=\"_blank\" rel=\"noopener\">https://usa.mfa.am/en/</a><br><br><strong>consulate(s) general: </strong>Glendale (CA)",
           "subfields": [
             {
               "name": "chief of mission",
-              "content": "Ambassador Lilit MAKUNTS (since 15 September 2021)",
-              "value": "Ambassador Lilit MAKUNTS (since 15 September 2021)",
+              "content": "Ambassador Narek MKRTCHYAN (since 19 September 2025)",
+              "value": "Ambassador Narek MKRTCHYAN (since 19 September 2025)",
               "title": "chief of mission"
             },
             {
@@ -1791,11 +1828,11 @@
           "value": "Independence Day, 21 September (1991)"
         },
         {
-          "name": "Flag description",
+          "name": "Flag",
           "field_id": 320,
           "comparative": false,
-          "content": "three equal horizontal bands of red (top), blue, and orange; the color red stands for the blood shed for liberty, blue for the Armenian skies and hope, and orange for the land and the courage of the workers who farm it",
-          "value": "three equal horizontal bands of red (top), blue, and orange; the color red stands for the blood shed for liberty, blue for the Armenian skies and hope, and orange for the land and the courage of the workers who farm it"
+          "content": "<strong>description:</strong> three equal horizontal bands of red (top), blue, and orange<br /><br /><strong>meaning:</strong> red stands for the blood shed for liberty, blue for the Armenian skies and hope, and orange for the land and the courage of the workers who farm it",
+          "value": "<strong>description:</strong> three equal horizontal bands of red (top), blue, and orange<br /><br /><strong>meaning:</strong> red stands for the blood shed for liberty, blue for the Armenian skies and hope, and orange for the land and the courage of the workers who farm it"
         },
         {
           "name": "National symbol(s)",
@@ -1840,7 +1877,7 @@
             {
               "type": "audio",
               "src": "/attachments/audios/original/AM.mp3",
-              "alt": "",
+              "alt": "This is an audio of the National Anthem for Armenia. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
               "caption": "This is an audio of the National Anthem for Armenia. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
               "position": 0
             }
@@ -2299,28 +2336,28 @@
           "name": "Budget",
           "field_id": 224,
           "comparative": false,
-          "content": "<strong>revenues: </strong>$4.617 billion (2022 est.)<br><br><strong>expenditures: </strong>$4.13 billion (2022 est.)<br><br><b>note:</b> central government revenues (excluding grants) and expenses converted to US dollars at average official exchange rate for year indicated",
+          "content": "<strong>revenues: </strong>$5.812 billion (2023 est.)<br><br><strong>expenditures: </strong>$6.27 billion (2023 est.)<br><br><b>note:</b> central government revenues (excluding grants) and expenditures converted to US dollars at average official exchange rate for year indicated",
           "subfields": [
             {
               "name": "revenues",
-              "content": "$4.617 billion (2022 est.)",
+              "content": "$5.812 billion (2023 est.)",
               "title": "revenues",
-              "value": "4617000000",
+              "value": "5812000000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "prefix": "$"
             },
             {
               "name": "expenditures",
-              "content": "$4.13 billion (2022 est.)",
+              "content": "$6.27 billion (2023 est.)",
               "title": "expenditures",
-              "value": "4130000000",
+              "value": "6270000000",
               "estimated": true,
-              "info_date": "2022",
+              "info_date": "2023",
               "prefix": "$"
             }
           ],
-          "field_note": "<b>note:</b> central government revenues (excluding grants) and expenses converted to US dollars at average official exchange rate for year indicated"
+          "field_note": "<b>note:</b> central government revenues (excluding grants) and expenditures converted to US dollars at average official exchange rate for year indicated"
         },
         {
           "name": "Public debt",
@@ -2823,49 +2860,6 @@
           ]
         },
         {
-          "name": "Carbon dioxide emissions",
-          "field_id": 274,
-          "comparative": false,
-          "content": "7.144 million metric tonnes of CO2 (2023 est.)<br><br><strong>from coal and metallurgical coke: </strong>48,000 metric tonnes of CO2 (2023 est.)<br><br><strong>from petroleum and other liquids: </strong>1.934 million metric tonnes of CO2 (2023 est.)<br><br><strong>from consumed natural gas: </strong>5.162 million metric tonnes of CO2 (2023 est.)",
-          "subfields": [
-            {
-              "name": "total emissions",
-              "content": "7.144 million metric tonnes of CO2 (2023 est.)",
-              "value": "7144000",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            },
-            {
-              "name": "from coal and metallurgical coke",
-              "content": "48,000 metric tonnes of CO2 (2023 est.)",
-              "title": "from coal and metallurgical coke",
-              "value": "48000",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            },
-            {
-              "name": "from petroleum and other liquids",
-              "content": "1.934 million metric tonnes of CO2 (2023 est.)",
-              "title": "from petroleum and other liquids",
-              "value": "1934000",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            },
-            {
-              "name": "from consumed natural gas",
-              "content": "5.162 million metric tonnes of CO2 (2023 est.)",
-              "title": "from consumed natural gas",
-              "value": "5162000",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            }
-          ]
-        },
-        {
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
@@ -3139,25 +3133,31 @@
           "name": "Refugees and internally displaced persons",
           "field_id": 327,
           "comparative": false,
-          "content": "<strong>refugees (country of origin): </strong>27,929 (Azerbaijan) (mid-year 2022)<br><br><strong>IDPs: </strong>8,400 (2022)<br><br><strong>stateless persons: </strong>816 (2022)",
+          "content": "<strong>refugees: </strong>145,354 (2024 est.)<br><br><strong>IDPs: </strong>4 (2024 est.)<br><br><strong>stateless persons: </strong>373 (2024 est.)",
           "subfields": [
             {
-              "name": "refugees (country of origin)",
-              "content": "27,929 (Azerbaijan) (mid-year 2022)",
-              "value": "27,929 (Azerbaijan) (mid-year 2022)",
-              "title": "refugees (country of origin)"
+              "name": "refugees",
+              "content": "145,354 (2024 est.)",
+              "title": "refugees",
+              "value": "145354",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "IDPs",
-              "content": "8,400 (2022)",
-              "value": "8,400 (2022)",
-              "title": "IDPs"
+              "content": "4 (2024 est.)",
+              "title": "IDPs",
+              "value": "4",
+              "estimated": true,
+              "info_date": "2024"
             },
             {
               "name": "stateless persons",
-              "content": "816 (2022)",
-              "value": "816 (2022)",
-              "title": "stateless persons"
+              "content": "373 (2024 est.)",
+              "title": "stateless persons",
+              "value": "373",
+              "estimated": true,
+              "info_date": "2024"
             }
           ]
         }

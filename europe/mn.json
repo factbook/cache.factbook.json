@@ -1,14 +1,14 @@
 {
   "name": "Monaco",
   "code": "MN",
-  "published": "2025-08-07 00:10:24 -0400",
+  "published": "2025-09-03 00:08:20 -0400",
   "region": "Europe",
-  "updated": "2025-08-06 15:10:26 -0400",
+  "updated": "2025-09-02 12:16:23 -0400",
   "media": [
     {
       "type": "flag",
       "src": "/attachments/flags/MN-flag.jpg",
-      "caption": "two equal horizontal bands of red (top) and white; the colors are those of the ruling House of Grimaldi and have been in use since 1339, making the national flag one of the world's oldest<p><strong>note:</strong> similar to the flags of Indonesia (longer) and Poland (colors reversed)</p>"
+      "caption": ""
     },
     {
       "type": "map",
@@ -26,7 +26,7 @@
     {
       "type": "photo",
       "src": "/attachments/images/original/MN_003_large.jpg",
-      "category": "Capital",
+      "category": null,
       "alt": "A view of Monte Carlo with the Port of Monaco in the foreground. The ship on the right belongs to the prince of Monaco.",
       "caption": "A view of Monte Carlo with the Port of Monaco in the foreground. The ship on the right belongs to the prince of Monaco.",
       "position": 0
@@ -34,7 +34,7 @@
     {
       "type": "photo",
       "src": "/attachments/images/original/MN_002_large.jpg",
-      "category": "Places",
+      "category": null,
       "alt": "The entrance to the Musée Océanographie (Oceanographic Museum) in Monaco-Ville. Inaugurated in 1910 by its founder, Prince Albert I, the museum offers a collection of marine fauna. The basement houses a world-famous aquarium, with over 4,000 species of fish.",
       "caption": "The entrance to the Musée Océanographie (Oceanographic Museum) in Monaco-Ville. Inaugurated in 1910 by its founder, Prince Albert I, the museum offers a collection of marine fauna. The basement houses a world-famous aquarium, with over 4,000 species of fish.",
       "position": 1
@@ -42,7 +42,7 @@
     {
       "type": "photo",
       "src": "/attachments/images/original/MN_001_large.jpg",
-      "category": "Places",
+      "category": null,
       "alt": "The Prince's Palace in Monaco is the official residence of the principality’s ruler. The palace was built in 1191 as a Genoese fortress and became a home of the ruling Grimaldi family in 1297.",
       "caption": "The Prince's Palace in Monaco is the official residence of the principality’s ruler. The palace was built in 1191 as a Genoese fortress and became a home of the ruling Grimaldi family in 1297.",
       "position": 2
@@ -440,7 +440,7 @@
             {
               "type": "image",
               "src": "/attachments/images/original/mn_popgraph2024.jpeg",
-              "alt": "2024 population pyramid",
+              "alt": "This is the population pyramid for Monaco. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
               "caption": "This is the population pyramid for Monaco. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
               "position": 0
             }
@@ -735,58 +735,41 @@
           "info_date": "2024"
         },
         {
-          "name": "Contraceptive prevalence rate",
-          "field_id": 357,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
           "name": "Drinking water source",
           "field_id": 361,
           "comparative": false,
-          "content": "urban: 100% of population<br><br>rural: NA<br><br>total: 100% of population<br><br>urban: 0% of population<br><br>rural: NA<br><br>total: 0% of population (2020 est.)",
+          "content": "urban: 100% of population (2022 est.)<br><br>total: 100% of population (2022 est.)<br><br>urban: 0% of population (2022 est.)<br><br>total: 0% of population (2022 est.)",
           "subfields": [
             {
               "name": "improved: urban",
-              "content": "urban: 100% of population",
+              "content": "urban: 100% of population (2022 est.)",
               "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
-              "name": "improved: rural",
-              "content": "rural: NA",
-              "value": "100",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
               "name": "improved: total",
-              "content": "total: 100% of population",
+              "content": "total: 100% of population (2022 est.)",
               "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: urban",
-              "content": "urban: 0% of population",
+              "content": "urban: 0% of population (2022 est.)",
               "value": "0",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
-              "name": "unimproved: rural",
-              "content": "rural: NA",
-              "value": "0",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
               "name": "unimproved: total",
-              "content": "total: 0% of population (2020 est.)",
+              "content": "total: 0% of population (2022 est.)",
               "value": "0",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of population"
             }
           ]
@@ -829,46 +812,38 @@
           "name": "Sanitation facility access",
           "field_id": 398,
           "comparative": false,
-          "content": "urban: 100% of population<br><br>rural: NA<br><br>total: 100% of population<br><br>urban: 0% of population<br><br>rural: NA<br><br>total: 0% of population (2020 est.)",
+          "content": "urban: 100% of population (2022 est.)<br><br>total: 100% of population (2022 est.)<br><br>urban: 0% of population (2022 est.)<br><br>total: 0% of population (2022 est.)",
           "subfields": [
             {
               "name": "improved: urban",
-              "content": "urban: 100% of population",
+              "content": "urban: 100% of population (2022 est.)",
               "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
-              "name": "improved: rural",
-              "content": "rural: NA",
-              "value": "100",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
               "name": "improved: total",
-              "content": "total: 100% of population",
+              "content": "total: 100% of population (2022 est.)",
               "value": "100",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
               "name": "unimproved: urban",
-              "content": "urban: 0% of population",
+              "content": "urban: 0% of population (2022 est.)",
               "value": "0",
+              "estimated": true,
+              "info_date": "2022",
               "suffix": "% of population"
             },
             {
-              "name": "unimproved: rural",
-              "content": "rural: NA",
-              "value": "0",
-              "suffix": "% of population",
-              "subfield_note": "NA"
-            },
-            {
               "name": "unimproved: total",
-              "content": "total: 0% of population (2020 est.)",
+              "content": "total: 0% of population (2022 est.)",
               "value": "0",
               "estimated": true,
-              "info_date": "2020",
+              "info_date": "2022",
               "suffix": "% of population"
             }
           ]
@@ -1051,53 +1026,28 @@
           ]
         },
         {
-          "name": "Air pollutants",
-          "field_id": 416,
+          "name": "Particulate matter emissions",
+          "field_id": 472,
           "comparative": false,
-          "content": "<strong>particulate matter emissions: </strong>9.21 micrograms per cubic meter (2019 est.)<br><br><strong>methane emissions: </strong>0.05 megatons (2020 est.)",
-          "subfields": [
-            {
-              "name": "particulate matter emissions",
-              "content": "9.21 micrograms per cubic meter (2019 est.)",
-              "title": "particulate matter emissions",
-              "value": "9.21",
-              "estimated": true,
-              "info_date": "2019",
-              "suffix": "micrograms per cubic meter"
-            },
-            {
-              "name": "methane emissions",
-              "content": "0.05 megatons (2020 est.)",
-              "title": "methane emissions",
-              "value": "0.05",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "megatons"
-            }
-          ]
+          "content": "9.2 micrograms per cubic meter (2019 est.)",
+          "value": "9.2",
+          "estimated": true,
+          "info_date": "2019",
+          "suffix": "micrograms per cubic meter"
         },
         {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
-          "content": "<strong>municipal solid waste generated annually: </strong>46,000 tons (2012 est.)<br><br><strong>municipal solid waste recycled annually: </strong>2,484 tons (2012 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>5.4% (2012 est.)",
+          "content": "<strong>municipal solid waste generated annually: </strong>46,000 tons (2024 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>5.4% (2012 est.)",
           "subfields": [
             {
               "name": "municipal solid waste generated annually",
-              "content": "46,000 tons (2012 est.)",
+              "content": "46,000 tons (2024 est.)",
               "title": "municipal solid waste generated annually",
               "value": "46000",
               "estimated": true,
-              "info_date": "2012",
-              "suffix": "tons"
-            },
-            {
-              "name": "municipal solid waste recycled annually",
-              "content": "2,484 tons (2012 est.)",
-              "title": "municipal solid waste recycled annually",
-              "value": "2484",
-              "estimated": true,
-              "info_date": "2012",
+              "info_date": "2024",
               "suffix": "tons"
             },
             {
@@ -1239,9 +1189,9 @@
           "name": "Administrative divisions",
           "field_id": 302,
           "comparative": false,
-          "content": "none; there are no first-order administrative divisions as defined by the US government, but there are 4 quarters (<em>quartiers</em>, singular - <em>quartier</em>); Fontvieille, La Condamine, Monaco-Ville, Monte-Carlo<br><br>&nbsp;<strong>note:</strong> Moneghetti, part of La Condamine, is sometimes called the fifth quarter of Monaco",
-          "value": "none; there are no first-order administrative divisions as defined by the US government, but there are 4 quarters (<em>quartiers</em>, singular - <em>quartier</em>); Fontvieille, La Condamine, Monaco-Ville, Monte-Carlo",
-          "field_note": "&nbsp;<strong>note:</strong> Moneghetti, part of La Condamine, is sometimes called the fifth quarter of Monaco"
+          "content": "none; no first-order administrative divisions as defined by the US government, but 4 quarters (<em>quartiers</em>, singular - <em>quartier</em>); Fontvieille, La Condamine, Monaco-Ville, Monte-Carlo<br><br><strong>note:</strong> Moneghetti, part of La Condamine, is sometimes called the fifth quarter of Monaco",
+          "value": "none; no first-order administrative divisions as defined by the US government, but 4 quarters (<em>quartiers</em>, singular - <em>quartier</em>); Fontvieille, La Condamine, Monaco-Ville, Monte-Carlo",
+          "field_note": "<strong>note:</strong> Moneghetti, part of La Condamine, is sometimes called the fifth quarter of Monaco"
         },
         {
           "name": "Legal system",
@@ -1531,11 +1481,11 @@
           "value": "National Day (Saint Rainier's Day), 19 November (1857)"
         },
         {
-          "name": "Flag description",
+          "name": "Flag",
           "field_id": 320,
           "comparative": false,
-          "content": "two equal horizontal bands of red (top) and white; the colors are those of the ruling House of Grimaldi and have been in use since 1339, making the national flag one of the world's oldest<br><br><strong>note:</strong> similar to the flags of Indonesia (longer) and Poland (colors reversed)",
-          "value": "two equal horizontal bands of red (top) and white; the colors are those of the ruling House of Grimaldi and have been in use since 1339, making the national flag one of the world's oldest",
+          "content": "<strong>description:</strong> two equal horizontal bands of red (top) and white<br /><br /><strong>history:</strong> uses the colors of the ruling House of Grimaldi; colors have been in use since 1339, making it one of the world's oldest national flags<br><br><strong>note:</strong> similar to the flags of Indonesia (longer) and Poland (colors reversed)",
+          "value": "<strong>description:</strong> two equal horizontal bands of red (top) and white<br /><br /><strong>history:</strong> uses the colors of the ruling House of Grimaldi; colors have been in use since 1339, making it one of the world's oldest national flags",
           "field_note": "<strong>note:</strong> similar to the flags of Indonesia (longer) and Poland (colors reversed)"
         },
         {
@@ -1581,7 +1531,7 @@
             {
               "type": "audio",
               "src": "/attachments/audios/original/MN.mp3",
-              "alt": "",
+              "alt": "This is an audio of the National Anthem for Monaco. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
               "caption": "This is an audio of the National Anthem for Monaco. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
               "position": 0
             }
@@ -1604,17 +1554,31 @@
           "name": "Real GDP (purchasing power parity)",
           "field_id": 208,
           "comparative": false,
-          "content": "$7.672 billion (2015 est.)<br><br><strong>note:</strong> data are in 2015 dollars",
+          "content": "$8.924 billion (2024 est.)<br><br>$8.749 billion (2023 est.)<br><br>$8.329 billion (2022 est.)<br><br><strong>note:</strong> data in 2015 dollars",
           "subfields": [
             {
-              "name": "Real GDP (purchasing power parity) 2015",
-              "content": "$7.672 billion (2015 est.)",
-              "value": "7672000000",
+              "name": "Real GDP (purchasing power parity) 2024",
+              "content": "$8.924 billion (2024 est.)",
+              "value": "8924000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2023",
+              "content": "$8.749 billion (2023 est.)",
+              "value": "8749000000",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP (purchasing power parity) 2022",
+              "content": "$8.329 billion (2022 est.)",
+              "value": "8329000000",
               "estimated": true,
               "prefix": "$"
             }
           ],
-          "field_note": "<strong>note:</strong> data are in 2015 dollars"
+          "field_note": "<strong>note:</strong> data in 2015 dollars"
         },
         {
           "name": "Real GDP growth rate",
@@ -1650,34 +1614,72 @@
           "name": "Real GDP per capita",
           "field_id": 211,
           "comparative": true,
-          "content": "$115,700 (2015 est.)<br><br>$109,200 (2014 est.)",
+          "content": "$270,100 (2024 est.)<br><br>$256,600 (2023 est.)<br><br>$226,100 (2022 est.)<br><br><strong>note:</strong> data in 2015 dollars",
           "subfields": [
             {
-              "name": "Real GDP per capita 2015",
-              "content": "$115,700 (2015 est.)",
-              "value": "115700",
+              "name": "Real GDP per capita 2024",
+              "content": "$270,100 (2024 est.)",
+              "value": "270100",
               "estimated": true,
               "prefix": "$"
             },
             {
-              "name": "Real GDP per capita 2014",
-              "content": "$109,200 (2014 est.)",
-              "value": "109200",
+              "name": "Real GDP per capita 2023",
+              "content": "$256,600 (2023 est.)",
+              "value": "256600",
+              "estimated": true,
+              "prefix": "$"
+            },
+            {
+              "name": "Real GDP per capita 2022",
+              "content": "$226,100 (2022 est.)",
+              "value": "226100",
               "estimated": true,
               "prefix": "$"
             }
-          ]
+          ],
+          "field_note": "<strong>note:</strong> data in 2015 dollars"
         },
         {
           "name": "GDP (official exchange rate)",
           "field_id": 209,
           "comparative": false,
-          "content": "$9.995 billion (2023 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
-          "value": "9995000000",
+          "content": "$10.434 billion (2024 est.)<br><br><b>note:</b> data in current dollars at official exchange rate",
+          "value": "10434000000",
           "estimated": true,
-          "info_date": "2023",
+          "info_date": "2024",
           "prefix": "$",
           "field_note": "<b>note:</b> data in current dollars at official exchange rate"
+        },
+        {
+          "name": "Inflation rate (consumer prices)",
+          "field_id": 229,
+          "comparative": false,
+          "content": "5.9% (2022 est.)<br><br>2.1% (2021 est.)<br><br>0.5% (2020 est.)<br><br><strong>note:</strong> annual % change based on consumer prices",
+          "subfields": [
+            {
+              "name": "Inflation rate (consumer prices) 2022",
+              "content": "5.9% (2022 est.)",
+              "value": "5.9",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Inflation rate (consumer prices) 2021",
+              "content": "2.1% (2021 est.)",
+              "value": "2.1",
+              "estimated": true,
+              "suffix": "%"
+            },
+            {
+              "name": "Inflation rate (consumer prices) 2020",
+              "content": "0.5% (2020 est.)",
+              "value": "0.5",
+              "estimated": true,
+              "suffix": "%"
+            }
+          ],
+          "field_note": "<strong>note:</strong> annual % change based on consumer prices"
         },
         {
           "name": "GDP - composition, by sector of origin",
@@ -2058,7 +2060,22 @@
       "id": "transnational_issues",
       "title": "Transnational Issues",
       "fields": [
-
+        {
+          "name": "Refugees and internally displaced persons",
+          "field_id": 327,
+          "comparative": false,
+          "content": "<strong>refugees: </strong>17 (2024 est.)",
+          "subfields": [
+            {
+              "name": "refugees",
+              "content": "17 (2024 est.)",
+              "title": "refugees",
+              "value": "17",
+              "estimated": true,
+              "info_date": "2024"
+            }
+          ]
+        }
       ]
     }
   ]

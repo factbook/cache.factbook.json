@@ -1,14 +1,14 @@
 {
   "name": "Dominica",
   "code": "DO",
-  "published": "2025-08-06 00:03:57 -0400",
+  "published": "2025-09-03 00:03:42 -0400",
   "region": "Central America and the Caribbean",
-  "updated": "2025-08-05 15:32:48 -0400",
+  "updated": "2025-09-02 12:16:17 -0400",
   "media": [
     {
       "type": "flag",
       "src": "/attachments/flags/DO-flag.jpg",
-      "caption": "green with a centered cross of three equal bands; the vertical part is yellow (hoist side), black, and white, and the horizontal part is yellow (top), black, and white; in the center of the cross is a red disk with a Sisserou parrot encircled by 10 green five-pointed stars edged in yellow; the stars represent the 10 administrative divisions (parishes); green symbolizes the island's lush vegetation; the tri-color cross represents the Christian Trinity; yellow stands for sunshine, the main agricultural products (citrus and bananas), and the native Carib Indians; black is for the rich soil and the African heritage of most citizens; white stands for the rivers, waterfalls, and the purity of aspirations; the red disc stands for social justice"
+      "caption": ""
     },
     {
       "type": "map",
@@ -26,7 +26,7 @@
     {
       "type": "photo",
       "src": "/attachments/images/original/DO_001_large.JPG",
-      "category": "Landscapes",
+      "category": null,
       "alt": "View of the south side of the island. Dominica features lush mountainous rain forests and is the home of many rare plant, animal, and bird species, including the Sisserou parrot featured on its flag.",
       "caption": "View of the south side of the island. Dominica features lush mountainous rain forests and is the home of many rare plant, animal, and bird species, including the Sisserou parrot featured on its flag.",
       "position": 0
@@ -403,7 +403,7 @@
             {
               "type": "image",
               "src": "/attachments/images/original/do_popgraph2024.jpeg",
-              "alt": "2024 population pyramid",
+              "alt": "This is the population pyramid for Dominica. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
               "caption": "This is the population pyramid for Dominica. A population pyramid illustrates the age and sex structure of a country's population and may provide insights about political and social stability, as well as economic development. The population is distributed along the horizontal axis, with males shown on the left and females on the right. The male and female populations are broken down into 5-year age groups represented as horizontal bars along the vertical axis, with the youngest age groups at the bottom and the oldest at the top. The shape of the population pyramid gradually evolves over time based on fertility, mortality, and international migration trends. <br/><br/>For additional information, please see the entry for Population pyramid on the Definitions and Notes page.",
               "position": 0
             }
@@ -698,35 +698,6 @@
           "info_date": "2024"
         },
         {
-          "name": "Contraceptive prevalence rate",
-          "field_id": 357,
-          "comparative": false,
-          "content": "NA",
-          "estimated": false,
-          "suffix": "%",
-          "subfield_note": "NA"
-        },
-        {
-          "name": "Drinking water source",
-          "field_id": 361,
-          "comparative": false,
-          "content": "urban: 95.7% of population<br><br>urban: 4.3% of population",
-          "subfields": [
-            {
-              "name": "improved: urban",
-              "content": "urban: 95.7% of population",
-              "value": "95.7",
-              "suffix": "% of population"
-            },
-            {
-              "name": "unimproved: urban",
-              "content": "urban: 4.3% of population",
-              "value": "4.3",
-              "suffix": "% of population"
-            }
-          ]
-        },
-        {
           "name": "Health expenditure",
           "field_id": 409,
           "comparative": false,
@@ -1000,54 +971,63 @@
           ]
         },
         {
-          "name": "Air pollutants",
-          "field_id": 416,
+          "name": "Carbon dioxide emissions",
+          "field_id": 274,
           "comparative": false,
-          "content": "<strong>particulate matter emissions: </strong>8.22 micrograms per cubic meter (2019 est.)<br><br><strong>carbon dioxide emissions: </strong>0.18 megatons (2016 est.)<br><br><strong>methane emissions: </strong>0.04 megatons (2020 est.)",
+          "content": "168,000 metric tonnes of CO2 (2023 est.)<br><br><strong>from petroleum and other liquids: </strong>168,000 metric tonnes of CO2 (2023 est.)",
           "subfields": [
             {
-              "name": "particulate matter emissions",
-              "content": "8.22 micrograms per cubic meter (2019 est.)",
-              "title": "particulate matter emissions",
-              "value": "8.22",
+              "name": "total emissions",
+              "content": "168,000 metric tonnes of CO2 (2023 est.)",
+              "value": "168000",
               "estimated": true,
-              "info_date": "2019",
-              "suffix": "micrograms per cubic meter"
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
             },
             {
-              "name": "carbon dioxide emissions",
-              "content": "0.18 megatons (2016 est.)",
-              "title": "carbon dioxide emissions",
-              "value": "0.18",
+              "name": "from petroleum and other liquids",
+              "content": "168,000 metric tonnes of CO2 (2023 est.)",
+              "title": "from petroleum and other liquids",
+              "value": "168000",
               "estimated": true,
-              "info_date": "2016",
-              "suffix": "megatons"
-            },
-            {
-              "name": "methane emissions",
-              "content": "0.04 megatons (2020 est.)",
-              "title": "methane emissions",
-              "value": "0.04",
-              "estimated": true,
-              "info_date": "2020",
-              "suffix": "megatons"
+              "info_date": "2023",
+              "suffix": "metric tonnes of CO2"
             }
           ]
+        },
+        {
+          "name": "Particulate matter emissions",
+          "field_id": 472,
+          "comparative": false,
+          "content": "7.9 micrograms per cubic meter (2019 est.)",
+          "value": "7.9",
+          "estimated": true,
+          "info_date": "2019",
+          "suffix": "micrograms per cubic meter"
         },
         {
           "name": "Waste and recycling",
           "field_id": 422,
           "comparative": false,
-          "content": "<strong>municipal solid waste generated annually: </strong>13,176 tons (2013 est.)",
+          "content": "<strong>municipal solid waste generated annually: </strong>13,200 tons (2024 est.)<br><br><strong>percent of municipal solid waste recycled: </strong>12.6% (2022 est.)",
           "subfields": [
             {
               "name": "municipal solid waste generated annually",
-              "content": "13,176 tons (2013 est.)",
+              "content": "13,200 tons (2024 est.)",
               "title": "municipal solid waste generated annually",
-              "value": "13176",
+              "value": "13200",
               "estimated": true,
-              "info_date": "2013",
+              "info_date": "2024",
               "suffix": "tons"
+            },
+            {
+              "name": "percent of municipal solid waste recycled",
+              "content": "12.6% (2022 est.)",
+              "title": "percent of municipal solid waste recycled",
+              "value": "12.6",
+              "estimated": true,
+              "info_date": "2022",
+              "suffix": "%"
             }
           ]
         },
@@ -1480,11 +1460,11 @@
           "value": "Independence Day, 3 November (1978)"
         },
         {
-          "name": "Flag description",
+          "name": "Flag",
           "field_id": 320,
           "comparative": false,
-          "content": "green with a centered cross of three equal bands; the vertical part is yellow (hoist side), black, and white, and the horizontal part is yellow (top), black, and white; in the center of the cross is a red disk with a Sisserou parrot encircled by 10 green five-pointed stars edged in yellow; the stars represent the 10 administrative divisions (parishes); green symbolizes the island's lush vegetation; the tri-color cross represents the Christian Trinity; yellow stands for sunshine, the main agricultural products (citrus and bananas), and the native Carib Indians; black is for the rich soil and the African heritage of most citizens; white stands for the rivers, waterfalls, and the purity of aspirations; the red disc stands for social justice",
-          "value": "green with a centered cross of three equal bands; the vertical part is yellow (hoist side), black, and white, and the horizontal part is yellow (top), black, and white; in the center of the cross is a red disk with a Sisserou parrot encircled by 10 green five-pointed stars edged in yellow; the stars represent the 10 administrative divisions (parishes); green symbolizes the island's lush vegetation; the tri-color cross represents the Christian Trinity; yellow stands for sunshine, the main agricultural products (citrus and bananas), and the native Carib Indians; black is for the rich soil and the African heritage of most citizens; white stands for the rivers, waterfalls, and the purity of aspirations; the red disc stands for social justice"
+          "content": "<strong>description: </strong>green with a centered cross of three equal bands in yellow, black, and white; in the center of the cross is a red disk with a Sisserou parrot surrounded by 10 five-pointed green stars edged in yellow<br /><br /><strong>meaning:</strong> the stars represent the 10 administrative divisions (parishes); green symbolizes the island's lush vegetation; the tricolor cross represents the Christian Trinity; yellow stands for sunshine, the primary agricultural products (citrus and bananas), and the Carib people; black for the rich soil and the African heritage of most citizens; white for rivers, waterfalls, and the purity of aspirations; the red disc for social justice",
+          "value": "<strong>description: </strong>green with a centered cross of three equal bands in yellow, black, and white; in the center of the cross is a red disk with a Sisserou parrot surrounded by 10 five-pointed green stars edged in yellow<br /><br /><strong>meaning:</strong> the stars represent the 10 administrative divisions (parishes); green symbolizes the island's lush vegetation; the tricolor cross represents the Christian Trinity; yellow stands for sunshine, the primary agricultural products (citrus and bananas), and the Carib people; black for the rich soil and the African heritage of most citizens; white for rivers, waterfalls, and the purity of aspirations; the red disc for social justice"
         },
         {
           "name": "National symbol(s)",
@@ -1499,6 +1479,22 @@
           "comparative": false,
           "content": "green, yellow, black, white, red",
           "value": "green, yellow, black, white, red"
+        },
+        {
+          "name": "National coat of arms",
+          "field_id": 468,
+          "comparative": false,
+          "content": "the coat of arms was adopted on July 21, 1961, and features two sisserou parrots supporting a shield that is divided into four sections by a cross, a reference to the island&rsquo;s discovery on a Sunday; the quadrants feature a palm tree, a banana tree, a frog that is native to the island, and a canoe on the Caribbean Sea; the golden lion symbolizes Dominica&rsquo;s past colonial ties with the UK; below the shield is the national motto, which means \"After God is the Earth\"",
+          "value": "the coat of arms was adopted on July 21, 1961, and features two sisserou parrots supporting a shield that is divided into four sections by a cross, a reference to the island&rsquo;s discovery on a Sunday; the quadrants feature a palm tree, a banana tree, a frog that is native to the island, and a canoe on the Caribbean Sea; the golden lion symbolizes Dominica&rsquo;s past colonial ties with the UK; below the shield is the national motto, which means \"After God is the Earth\"",
+          "media": [
+            {
+              "type": "image",
+              "src": "/attachments/images/original/coat_of_arms_Dominica.jpg",
+              "alt": "Dominica’s coat of arms was adopted on July 21, 1961, and features two sisserou parrots supporting a shield that is divided into four sections by a cross, a reference to the island’s discovery on a Sunday. The quadrants feature a palm tree, a banana tree, a frog that is native to the island, and a canoe on the Caribbean Sea. The golden lion symbolizes Dominica’s past colonial ties with the United Kingdom. Below the shield is the national motto, which means \"After God is the Earth.\"",
+              "caption": "Dominica’s coat of arms was adopted on July 21, 1961, and features two sisserou parrots supporting a shield that is divided into four sections by a cross, a reference to the island’s discovery on a Sunday. The quadrants feature a palm tree, a banana tree, a frog that is native to the island, and a canoe on the Caribbean Sea. The golden lion symbolizes Dominica’s past colonial ties with the United Kingdom. Below the shield is the national motto, which means \"After God is the Earth.\"",
+              "position": 0
+            }
+          ]
         },
         {
           "name": "National anthem(s)",
@@ -1529,7 +1525,7 @@
             {
               "type": "audio",
               "src": "/attachments/audios/original/DO.mp3",
-              "alt": "",
+              "alt": "This is an audio of the National Anthem for Dominica. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
               "caption": "This is an audio of the National Anthem for Dominica. The national anthem is generally a patriotic musical composition - usually in the form of a song or hymn of praise - that evokes and eulogizes the history, traditions, or struggles of a nation or its people. National anthems can be officially recognized as a national song by a country's constitution or by an enacted law, or simply by tradition. Although most anthems contain lyrics, some do not.",
               "position": 0
             }
@@ -1861,6 +1857,21 @@
             }
           ],
           "field_note": "<b>note:</b> central government revenues and expenses (excluding grants/extrabudgetary units/social security funds) converted to US dollars at average official exchange rate for year indicated"
+        },
+        {
+          "name": "Public debt",
+          "field_id": 227,
+          "comparative": true,
+          "content": "71.7% of GDP (2016 est.)",
+          "subfields": [
+            {
+              "name": "Public debt 2016",
+              "content": "71.7% of GDP (2016 est.)",
+              "value": "71.7",
+              "estimated": true,
+              "suffix": "% of GDP"
+            }
+          ]
         },
         {
           "name": "Current account balance",
@@ -2197,31 +2208,6 @@
           ]
         },
         {
-          "name": "Carbon dioxide emissions",
-          "field_id": 274,
-          "comparative": false,
-          "content": "168,000 metric tonnes of CO2 (2023 est.)<br><br><strong>from petroleum and other liquids: </strong>168,000 metric tonnes of CO2 (2023 est.)",
-          "subfields": [
-            {
-              "name": "total emissions",
-              "content": "168,000 metric tonnes of CO2 (2023 est.)",
-              "value": "168000",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            },
-            {
-              "name": "from petroleum and other liquids",
-              "content": "168,000 metric tonnes of CO2 (2023 est.)",
-              "title": "from petroleum and other liquids",
-              "value": "168000",
-              "estimated": true,
-              "info_date": "2023",
-              "suffix": "metric tonnes of CO2"
-            }
-          ]
-        },
-        {
           "name": "Energy consumption per capita",
           "field_id": 441,
           "comparative": false,
@@ -2470,7 +2456,22 @@
       "id": "transnational_issues",
       "title": "Transnational Issues",
       "fields": [
-
+        {
+          "name": "Refugees and internally displaced persons",
+          "field_id": 327,
+          "comparative": false,
+          "content": "<strong>refugees: </strong>5 (2024 est.)",
+          "subfields": [
+            {
+              "name": "refugees",
+              "content": "5 (2024 est.)",
+              "title": "refugees",
+              "value": "5",
+              "estimated": true,
+              "info_date": "2024"
+            }
+          ]
+        }
       ]
     }
   ]
